@@ -1,0 +1,284 @@
+{
+  "source_kind": "synthetic",
+  "calendar_version": "demo-v1-not-official",
+  "markets": {
+    "crypto": {
+      "mode": "continuous",
+      "timezone": "UTC"
+    },
+    "us_equities": {
+      "mode": "session",
+      "timezone": "America/New_York",
+      "open": "09:30",
+      "close": "16:00",
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "closed_dates": [],
+      "early_closes": {},
+      "calendar_status": "demo_weekdays_only"
+    },
+    "byma_equities": {
+      "mode": "session",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "open": "11:00",
+      "close": "17:00",
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "closed_dates": [],
+      "early_closes": {},
+      "calendar_status": "example_hours_pending_validation"
+    }
+  },
+  "instruments": [
+    {
+      "id": "crypto:BTC:USDT",
+      "symbol": "BTC",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "68500",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:ETH:USDT",
+      "symbol": "ETH",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "2640",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:SOL:USDT",
+      "symbol": "SOL",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "182",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:BNB:USDT",
+      "symbol": "BNB",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "592",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:XRP:USDT",
+      "symbol": "XRP",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "0.54",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:ADA:USDT",
+      "symbol": "ADA",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "0.35",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:DOGE:USDT",
+      "symbol": "DOGE",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "0.145",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:AVAX:USDT",
+      "symbol": "AVAX",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "28.5",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:LINK:USDT",
+      "symbol": "LINK",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "12",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "crypto:DOT:USDT",
+      "symbol": "DOT",
+      "market": "crypto",
+      "currency": "USDT",
+      "base_price": "4",
+      "volatility_ppm": 700
+    },
+    {
+      "id": "us_equities:AAPL:USD",
+      "symbol": "AAPL",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "231",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:MSFT:USD",
+      "symbol": "MSFT",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "422",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:NVDA:USD",
+      "symbol": "NVDA",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "138",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:AMZN:USD",
+      "symbol": "AMZN",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "189",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:GOOGL:USD",
+      "symbol": "GOOGL",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "165",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:META:USD",
+      "symbol": "META",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "500",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:TSLA:USD",
+      "symbol": "TSLA",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "218",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:JPM:USD",
+      "symbol": "JPM",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "200",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:XOM:USD",
+      "symbol": "XOM",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "110",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "us_equities:KO:USD",
+      "symbol": "KO",
+      "market": "us_equities",
+      "currency": "USD",
+      "base_price": "65",
+      "volatility_ppm": 250
+    },
+    {
+      "id": "byma_equities:YPFD:ARS",
+      "symbol": "YPFD",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "34500",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:GGAL:ARS",
+      "symbol": "GGAL",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "5820",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:PAMP:ARS",
+      "symbol": "PAMP",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "3120",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:BMA:ARS",
+      "symbol": "BMA",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "9400",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:TXAR:ARS",
+      "symbol": "TXAR",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "980",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:ALUA:ARS",
+      "symbol": "ALUA",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "1050",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:CRES:ARS",
+      "symbol": "CRES",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "1340",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:CEPU:ARS",
+      "symbol": "CEPU",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "1420",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:EDN:ARS",
+      "symbol": "EDN",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "1650",
+      "volatility_ppm": 350
+    },
+    {
+      "id": "byma_equities:SUPV:ARS",
+      "symbol": "SUPV",
+      "market": "byma_equities",
+      "currency": "ARS",
+      "base_price": "2350",
+      "volatility_ppm": 350
+    }
+  ]
+}
