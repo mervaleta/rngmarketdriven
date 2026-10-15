@@ -11,6 +11,8 @@ data/payout_intents.jsonl
 __pycache__/
 *.py[cod]
 *$py.class
+market-history/data/*.sqlite
+market-history/data/*.json
 .venv/
 venv/
 env/
