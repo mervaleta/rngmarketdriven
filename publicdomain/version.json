@@ -15,12 +15,12 @@
     "filtros múltiples por temáticas",
     "estado de ediciones documentadas con ISBN",
     "exportación enriquecida de catálogo",
-    "16 fichas editoriales verificadas con fuentes"
+    "30 fichas editoriales documentadas con fuente ISBN"
   ],
   "works_count_at_release": 307,
   "authors_count_at_release": 5228,
   "marker": "SIGLO23-20261105-V0.3.0",
   "works_added_this_release": 175,
-  "editions_documented": 16,
+  "editions_documented": 30,
   "markets_represented": 31
 }
