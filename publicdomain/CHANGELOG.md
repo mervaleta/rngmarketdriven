@@ -1,5 +1,15 @@
 # Registro de versiones — Editorial Siglo23 /publicdomain
 
+## v0.3.1 — 2026-11-05
+
+- Explicación desplegable **«¿Por qué figura como prioridad alta/muy alta?»** en cada obra marcada con esas etiquetas.
+- Se distingue la **prioridad editorial preasignada** del respaldo observado: indicadores medidos por título, información cualitativa, edición comercial catalogada, contexto de mercado y línea editorial.
+- Al no existir fórmula original de puntuación ni motivos guardados en el catálogo, se evita atribuir causalidad a indicios post hoc.
+- Se marca explícitamente cuándo **no hay evidencia suficiente** para justificar una prioridad elevada, y qué falta auditar.
+- Panel metodológico con recuento de prioridades y de obras que carecen de respaldo.
+- Admite en obras nuevas el campo opcional `priority_reason` para consignar una justificación editorial explícita (debe ser comprobable).
+- Novedades implementadas en `priority-rationale.js` y `priority-rationale.css`, sin cambiar las 307 prioridades originales.
+
 ## v0.3.0 — 2026-11-05
 
 - Catálogo ampliado de 132 a 307 fichas de obras (175 nuevas) y 31 mercados o ámbitos de investigación.
