@@ -44,14 +44,14 @@
       <div class="sidebar-bottom">
         <div class="aside-status"><span class="pulse-dot"></span> INSTRUMENTO DE TRABAJO</div>
         <p>Un archivo en construcción.<br>Sin difusión pública.</p>
-        <span class="tiny">v0.2.0 · 05 NOV 2026</span>
+        <span class="tiny">v0.3.0 · 05 NOV 2026</span>
       </div>
     </aside>
 
     <div class="main-area">
       <header class="topbar">
         <div class="crumbs"><span>SIGLO 23</span><span class="slash">/</span><span>DOMINIO PÚBLICO</span><span class="slash">/</span><strong id="crumbView">PANORAMA</strong></div>
-        <div class="topbar-right"><span class="topbar-dot"></span> ARCHIVO EDITORIAL <a class="sc-version" href="./version.json?v=0.2.0" title="Verificar versión publicada">v0.2.0</a> <span class="topbar-date" id="todayLabel"></span></div>
+        <div class="topbar-right"><span class="topbar-dot"></span> ARCHIVO EDITORIAL <a class="sc-version" href="./version.json?v=0.2.0" title="Verificar versión publicada">v0.3.0</a> <span class="topbar-date" id="todayLabel"></span></div>
       </header>
       <main id="mainContent">
         <section class="view" id="view-panel" aria-labelledby="panelTitle">
@@ -113,8 +113,8 @@
 
 
         <section class="view is-hidden" id="view-screener" aria-labelledby="screenerTitle">
-          <div class="page-header"><div class="eyebrow"><span class="diamond"></span> INTELIGENCIA EDITORIAL · METADATOS CRUZADOS</div><h1 id="screenerTitle">Screener <em>del libro.</em></h1><p>Exploración combinada del índice de autoridades BNE y del catálogo mundial de obras de dominio público. Filtrá por atributos, detectá oportunidades y reuní evidencias para una curaduría editorial verificable.</p></div>
-          <div class="sc-summary"><div><span>UNIVERSO DE CONSULTA</span><strong id="scOverview">Cargando catálogo…</strong></div><p>La ficha de un autor no equivale a una ficha de obra. No se han verificado derechos de publicación comercial; el país indicado para una obra corresponde al mercado investigado, no necesariamente a la nacionalidad del autor.</p></div>
+          <div class="page-header"><div class="eyebrow"><span class="diamond"></span> INTELIGENCIA EDITORIAL · METADATOS CRUZADOS</div><h1 id="screenerTitle">Screener <em>del libro.</em></h1><p>Exploración de 307 obras candidatas a dominio público y autoridades BNE, con temática, idioma, género, año, evidencia de demanda y ediciones documentadas. Podés cruzar múltiples opciones y exportar resultados.</p></div>
+          <div class="sc-summary"><div><span>UNIVERSO DE CONSULTA</span><strong id="scOverview">Cargando catálogo…</strong></div><p>La presencia de una edición comercial no habilita su reproducción. La ficha de un autor no equivale a una ficha de obra; el país indicado para una obra corresponde al mercado investigado, no necesariamente a la nacionalidad del autor.</p></div>
           <div class="sc-filterbox">
             <div class="sc-filterhead"><div><div class="micro">FILTRAR Y CRUZAR / DATA EXPLORER</div><h2>Un catálogo, múltiples preguntas.</h2></div><button type="button" id="scClear" class="mini-button">Limpiar filtros ↺</button></div>
             <label class="sc-search"><span>⌕</span><input type="search" id="scQuery" placeholder="Buscar obra, autor, ocupación, tema, lugar, título original o evidencia…" autocomplete="off"></label>
@@ -138,13 +138,13 @@
               <label>PUBLICACIÓN DESDE<input type="number" id="scPubFrom" placeholder="Ej. 1850" min="1000" max="2026"></label>
               <label>PUBLICACIÓN HASTA<input type="number" id="scPubTo" placeholder="Ej. 1930" min="1000" max="2026"></label>
             </div>
-            <div class="sc-filterfoot"><label class="check"><input type="checkbox" id="scCohort"> Solo cohorte 1945 de BNE (o sus obras cruzadas)</label><label class="sc-sort">ORDEN <select id="scSort"><option value="prioridad">Prioridad editorial</option><option value="evidencia">Calidad de evidencia</option><option value="nombre">Título / nombre A → Z</option><option value="nombre-z">Título / nombre Z → A</option><option value="autor">Autor A → Z</option><option value="mercado">Mercado A → Z</option><option value="muerte">Fallecimiento: más antiguo</option><option value="muerte-desc">Fallecimiento: más reciente</option><option value="publicacion">Publicación: más reciente</option><option value="publicacion-asc">Publicación: más antigua</option></select></label></div>
+            <div class="sc-filterfoot"><label class="check"><input type="checkbox" id="scCohort"> Solo cohorte 1945 de BNE (o sus obras cruzadas)</label><label class="sc-sort">ORDEN <select id="scSort"><option value="prioridad">Prioridad editorial</option><option value="evidencia">Calidad de evidencia</option><option value="ediciones">Ediciones documentadas primero</option><option value="nombre">Título / nombre A → Z</option><option value="nombre-z">Título / nombre Z → A</option><option value="autor">Autor A → Z</option><option value="mercado">Mercado A → Z</option><option value="muerte">Fallecimiento: más antiguo</option><option value="muerte-desc">Fallecimiento: más reciente</option><option value="publicacion">Publicación: más reciente</option><option value="publicacion-asc">Publicación: más antigua</option></select></label></div>
           </div>
           <div class="sc-resultshead"><div><div class="micro">RESULTADOS DE LA INTERSECCIÓN</div><h2 id="scCount">Cargando…</h2><p class="sc-hint">Ordená la lista desde «Orden» y cambiá la visualización sin perder los filtros.</p></div><div class="sc-extra"><div class="sc-view-mode" role="group" aria-label="Modo de visualización"><button type="button" data-sc-view="lista" aria-pressed="true">☷ Lista</button><button type="button" data-sc-view="tarjetas" aria-pressed="false">▦ Tarjetas</button></div><button id="scExport" type="button" class="btn btn-outline">Exportar cruce CSV ↓</button></div></div>
           <p class="sc-info" id="scLoadNotice" role="status">Importando catálogo internacional y registros del proyecto…</p>
           <div class="sc-records" id="scResults"><div class="empty">Cargando datos bibliográficos…</div></div>
           <div class="pager sc-pagination"><span id="scPager"></span><div><button type="button" class="mini-button" id="scPrev">← Anterior</button><button type="button" class="mini-button" id="scNext">Siguiente →</button></div></div>
-          <p class="foot-source">Metodología: las cifras de descargas, unidades vendidas, rankings y notoriedad cultural no son equivalentes entre sí. Las coincidencias de autor por nombre se proponen para revisión humana y no prueban identidad. Los originales, sus traducciones y sus ilustraciones pueden tener derechos distintos por territorio. Este screener es una herramienta de investigación, no un dictamen legal.</p>
+          <p class="foot-source">Metodología actualizada al 5 de noviembre de 2026: las fichas de ediciones con ISBN acreditan existencia de una publicación catalogada, no stock ni derechos. Las cifras de descargas, unidades vendidas, rankings y notoriedad cultural no son equivalentes entre sí. Las coincidencias de autor por nombre se proponen para revisión humana y no prueban identidad. Los originales, sus traducciones y sus ilustraciones pueden tener derechos distintos por territorio. Este screener es una herramienta de investigación, no un dictamen legal.</p>
         </section>
         <section class="view is-hidden" id="view-obras" aria-labelledby="worksTitle">
           <div class="page-header"><div class="eyebrow"><span class="diamond"></span> PLANIFICACIÓN Y PRODUCCIÓN</div><h1 id="worksTitle">Mesa de <em>ediciones.</em></h1><p>Listado editable de títulos que merecen investigación. Los ejemplos iniciales son candidatos, no obras verificadas para explotación internacional.</p></div>
