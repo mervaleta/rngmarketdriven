@@ -18,3 +18,44 @@ https://kdp.amazon.com/en_US/help/topic/G201857950
 CRITERIO: Libro base 1884 (prologo + 4 ensayos + posdata).
 Traduccion historica de A. Gomez Pinilla: solo referencia, no version maestra.
 Los DOCX de este paquete NO son libros terminados; el texto completo debe traducirse y revisarse antes de generar archivos KDP.
+
+
+AMPLIACIÓN EDITORIAL 150 ANIVERSARIO — 2026-11-05
+Edición de referencia: The Man Versus the State (1884); aniversario 150: 2034.
+Esta ampliación NO constituye una edición impresa aprobada ni garantiza publicación web automática.
+
+PÁGINAS MODULARES INCORPORADAS AL SUBSITIO
+/publicdomain/spencer/ediciones.html
+  Benchmark de 8 hitos: 1884, 1892, Thinker's Library (1940), Caxton (1940),
+  Penguin (1969), Liberty Fund (1982), Cambridge (1993), Hachette BnF (2016).
+/publicdomain/spencer/epilogo-2034.html
+  Borrador íntegro de epílogo sobre libertad, burocracia, mayorías, plataformas
+  e IA. Es un texto de trabajo fechado 2026 y necesita revisión antes de 2034.
+/publicdomain/spencer/iconografia.html
+  4 candidatos ilustrados, fichas, fuentes y advertencias de derechos:
+/publicdomain/spencer/especial.css
+  Estilo compartido para los tres módulos.
+
+FUENTES DEL BENCHMARK
+https://about.libertyfund.org/books/the-man-versus-the-state/
+https://oll.libertyfund.org/titles/mack-the-man-versus-the-state-with-six-essays-on-government-society-and-freedom-lf-ed
+https://www.cambridge.org/core/books/spencer-political-writings/76933045733ECFD3E38550E367C07B7D
+https://www.fnac.com/a12751735/Herbert-Spencer-L-individu-contre-l-Etat
+https://search.worldcat.org/title/2039185
+
+ICONOGRAFÍA (FUENTES PRIMARIAS, SIN PRESUNCIÓN DE LICENCIA MUNDIAL)
+James Gillray, The tree of liberty (1798), LOC 94509824:
+https://www.loc.gov/item/94509824/
+Vanity Fair, caricatura Herbert Spencer «Philosophy», 26 abril 1879:
+https://commons.wikimedia.org/wiki/File:HerbertSpencer2.jpg
+https://www.npg.org.uk/collections/search/portrait/mw05949/Herbert-Spencer
+Joseph Keppler, In danger (1881), LOC 94500771:
+https://www.loc.gov/pictures/item/94500771/
+Joseph Keppler, Puck's review of the past year (1884), LOC 2012645159:
+https://www.loc.gov/pictures/item/2012645159/
+
+PENDIENTES
+- Comprobar despliegue efectivo en rngmarketdriven.com; GitHub confirmado solamente.
+- Confirmar edición/cotejo de cada fuente, derechos y atribución exacta de cada imagen.
+- Actualizar el epílogo con datos y bibliografía próximos a publicación; firmar.
+- Obtener imágenes de calidad imprenta; evaluar maquetación y legibilidad.
