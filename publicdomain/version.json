@@ -1,8 +1,8 @@
 {
   "project": "Editorial Siglo23 — Dominio Público",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "published_at_source": "2026-11-05",
-  "status": "Código fuente en GitHub actualizado; sincronización con Hostinger no verificada",
+  "status": "Fuente GitHub actualizada; despliegue en dominio pendiente de verificación",
   "features": [
     "versión visible",
     "filtros por casillas combinables",
@@ -15,12 +15,17 @@
     "filtros múltiples por temáticas",
     "estado de ediciones documentadas con ISBN",
     "exportación enriquecida de catálogo",
-    "30 fichas editoriales documentadas con fuente ISBN"
+    "30 fichas editoriales documentadas con fuente ISBN",
+    "explicación por título para prioridad Alta o Muy alta",
+    "distinción entre prioridad editorial asignada y evidencia disponible",
+    "alertas cuando no hay respaldo de demanda por obra",
+    "metodología y límites de priorización visibles"
   ],
   "works_count_at_release": 307,
   "authors_count_at_release": 5228,
-  "marker": "SIGLO23-20261105-V0.3.0",
+  "marker": "SIGLO23-20261105-V0.3.1",
   "works_added_this_release": 175,
   "editions_documented": 30,
-  "markets_represented": 31
+  "markets_represented": 31,
+  "priority_explanations": "Prioridad original sin modelo cuantitativo documentado; diagnóstico transparente a partir de indicadores, fuentes, ediciones, contexto de mercado y vacíos."
 }
