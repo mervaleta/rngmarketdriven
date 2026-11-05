@@ -2,7 +2,7 @@
 
 Sección autónoma dentro de `publicdomain/materiales/`. El resto de `publicdomain/` se conserva.
 
-Contiene 111 fichas temáticas, 13 categorías, 37 fuentes, 3 obras preliminares, 12 colecciones y 12 guías de derechos.
+Contiene 111 fichas temáticas, 13 categorías, 39 fuentes, 35 obras preliminares, 12 colecciones y 12 guías de derechos.
 
 ## Actualizar una ficha
 
@@ -15,3 +15,6 @@ Este banco contiene recomendaciones de búsqueda y estados preliminares. Ningún
 ## Entrada
 
 `/publicdomain/materiales/index.html` — enlazada desde `/publicdomain/recursos/index.html`.
+
+## Ampliación 2026-11-05
+Se añadieron 32 expedientes de obra + 2 fuentes, con estado jurídico pendiente y sin aprobación comercial.
