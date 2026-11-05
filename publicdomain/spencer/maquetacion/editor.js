@@ -130,11 +130,12 @@ function contents(kind){
  if(kind==='half')return '<div class="frontmatter"><span class="booktitle" style="font-size:19pt">'+title+'</span><span class="rule"></span><span class="edition">Edición crítica · maqueta</span></div>';
  if(kind==='title')return '<div class="frontmatter"><span class="publisher">'+imprint+'</span><span class="booktitle">'+title+'</span><span class="byline">'+author+'</span><span class="rule"></span><span class="edition">Edición histórica, anotada e ilustrada</span><div style="height:24mm"></div><span class="publisher">Editorial Siglo23</span></div>';
  if(kind==='legal')return '<div class="frontmatter"><div class="legal"><b>'+title+'</b><p>'+author+'</p><p>Esta página es una simulación de composición editorial y no un libro terminado. Traductores, prólogos, ilustraciones, ISBN, impresión y derechos deben completarse antes de publicar.</p><p>ISBN: por asignar.<br>Edición Siglo23: preproducción.</p></div></div>';
- if(kind==='toc')return '<span class="chapter-kicker">TABLA DE CONTENIDO</span><h2>Índice</h2><div class="chapter-rule"></div>'+[
- ['Prólogo','9'],['Vida y pensamiento de Spencer','23'],['Los ensayos de 1884','53'],['El nuevo toryismo','59'],
- ['La esclavitud venidera','91'],['Los pecados de los legisladores','137'],['La gran superstición política','175'],
- ['Notas críticas','221'],['Atlas y cronología','289'],['Epílogo contemporáneo','345'],['Bibliografía','379']
- ].map(x=>'<div class="outline-line"><span>'+x[0]+'</span><span>'+x[1]+'</span></div>').join('')+'<p style="font:8pt Georgia;margin-top:8mm;color:#767a73">Numeración ilustrativa, no corresponde a un manuscrito paginado.</p>';
+ if(kind==='toc'){
+  const sections=(plan?.items||analyze().items).filter(x=>x.id&&!x.blank);
+  return '<span class="chapter-kicker">ÍNDICE DE LA EDICIÓN</span><h2>Contenido</h2><div class="chapter-rule"></div>'
+   +sections.map(x=>'<div class="outline-line"><span>'+esc(x.name)+'</span><span>'+x.start+'</span></div>').join('')
+   +'<p style="font:8pt Georgia;margin-top:8mm;color:#767a73">Paginación calculada para la maqueta actual. Revisar al cerrar la edición.</p>';
+ }
  if(kind==='chapter')return '<span class="chapter-kicker">PARTE III · EL TEXTO ORIGINAL</span><h2>La gran superstición política</h2><div class="chapter-rule"></div><div class="text-body" lang="es">'+sample(5)+'</div>';
  if(kind==='body')return '<div class="text-body" lang="es">'+sample(8)+'</div>';
  if(kind==='figure')return '<div class="figure">LÁMINA HISTÓRICA<br><br>Área para grabado, caricatura o facsímil con permisos comprobados</div><p class="figcaption"><b>Fig. 01.</b> Espacio de prueba para título, fecha, institución de origen y créditos.</p>';
