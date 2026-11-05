@@ -86,18 +86,25 @@ function analyze(){
   }
  }catch{}
  const wordsPage=invalid?0:Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,1,10000,400));
- const mainPages=invalid?0:Math.ceil(state.words/wordsPage);
- const items=[];let page=1,rectoBlanks=0;
+ let mainPages=0,mainWords=0;
+ const autoPages={};const items=[];let page=1,rectoBlanks=0;
  for(const sec of state.sections.filter(x=>x.enabled)){
-  if(sec.recto&&page%2===0){items.push({name:'Blanco de cortesía para recto',start:page,end:page,pages:1,blank:true});rectoBlanks++;page++}
-  const pages=sec.pages==='auto'?mainPages:sec.pages;
+  let pages=sec.pages;
+  if(sec.pages==='auto'){
+   const text=state.texts?.[sec.id]||'';
+   const count=(text.match(/\S+/g)||[]).length;
+   pages=invalid||!count?0:Math.ceil(count/wordsPage);
+   autoPages[sec.id]=pages;
+   mainPages+=pages;mainWords+=count;
+  }
   if(!pages)continue;
+  if(sec.recto&&page%2===0){items.push({name:'Blanco de cortesía para recto',start:page,end:page,pages:1,blank:true});rectoBlanks++;page++}
   items.push({id:sec.id,name:sec.name,start:page,end:page+pages-1,pages});page+=pages;
  }
  const pad=(4-(page-1)%4)%4;
  if(pad)items.push({name:'Blancos finales (hipótesis de cuadernillo)',start:page,end:page+pad-1,pages:pad,blank:true});
  const total=page-1+pad,sheets=Math.ceil(total/2),spine=sheets*state.caliper;
- return {w,h,wordsPage,mainPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,invalid,width,height};
+ return {w,h,wordsPage,mainPages,mainWords,autoPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,invalid,width,height};
 }
 function store(){try{localStorage.setItem(KEY,JSON.stringify(state));$('#saveStatus').textContent='Guardado localmente'}catch{$('#saveStatus').textContent='No se pudo guardar en este navegador'}}
 function setFields(){
@@ -164,13 +171,15 @@ function sceneContent(p){
  }
 }
 function renderRows(){
- $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?'<small>Cálculo de palabras</small>':'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.mainPages:x.pages)+'" '+(x.pages==='auto'?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
+ $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?'<small>Cálculo de palabras</small>':'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.autoPages[x.id]||0:x.pages)+'" '+(x.pages==='auto'?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
 }
 function render(){
  const p=plan=analyze(),isCover=scene==='cover';
  $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);
  $('#metricBlanks').textContent=f(p.blanks);$('#metricSpine').textContent=f(p.spine,2)+' mm';
  $('#metricSheets').textContent=f(p.sheets);$('#metricWords').textContent=f(p.wordsPage);
+ $('#words').value=p.mainWords;
+ $('#words').readOnly=true;
  $('#metricSize').textContent=f(p.w,1)+' × '+f(p.h,1)+' mm';$('#metricBleed').textContent=f(state.bleed,1)+' mm';
  $('#viewName').textContent=scenes.find(x=>x[0]===scene)[1];
  $('#previewMode').textContent=isCover?'Cubierta · contraportada, lomo y frente':'Interior · doble página';
@@ -242,14 +251,22 @@ window.S23Layout={
  getPlan:()=>plan,
  getVars:()=>vars(plan),
  getSectionText:id=>state.texts?.[id]||'',
+ loadOriginalBook:(parts,metadata)=>{
+   if(!Array.isArray(parts)||parts.length!==6)throw Error('Libro de 1884 incompleto: se esperan seis partes');
+   const idSet=new Set(seed.sections.filter(x=>x.id.startsWith('original-')).map(x=>x.id));
+   if(parts.some(x=>!idSet.has(x.id)||typeof x.text!=='string'||x.text.length<500))throw Error('Texto original incompleto');
+   for(const x of parts){if(!state.texts[x.id]?.trim())state.texts[x.id]=x.text;}
+   state.words=state.sections.filter(x=>x.id.startsWith('original-')).reduce((n,x)=>n+(state.texts[x.id]?.match(/\S+/g)||[]).length,0);
+   state.originalEdition=metadata?.edition||'1884';
+   state.originalSource=metadata?.source_transcription||'';
+   store();render();
+   return {words:state.words,sections:parts.length};
+ },
  putSectionText:(id,text)=>{
   if(!state.sections.some(x=>x.id===id))throw Error('Sección inexistente');
   if(typeof text!=='string')throw Error('Texto inválido');
   state.texts={...state.texts,[id]:text.slice(0,4000000)};
-  if(id==='text'){
-   state.words=(state.texts.text.match(/\S+/g)||[]).length;
-   $('#words').value=state.words;
-  }
+  if(id.startsWith('original-'))state.words=state.sections.filter(x=>x.id.startsWith('original-')).reduce((n,x)=>n+(state.texts[x.id]?.match(/\S+/g)||[]).length,0);
   store();render();
  }
 };
