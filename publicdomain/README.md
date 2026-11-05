@@ -110,3 +110,11 @@ La explicación enumera: indicadores cuantitativos con unidades y períodos (cua
 Para **nuevas obras**, además de los campos habituales de `catalogo-global.json`, se admite opcionalmente `priority_reason` o `priority_rationale`: texto breve que documente el *motivo editorial real* de la clasificación; idealmente debe complementarse con `evidence_url`, `indicator_type`, `indicator_value`, `indicator_period` y la fuente correspondiente. No agregar razones inventadas ni confundir notoriedad, ediciones, rankings, descargas y ventas. Ninguna ficha cambió de prioridad automáticamente.
 
 Archivos nuevos: `priority-rationale.js`, `priority-rationale.css`. Verificación: barra superior **v0.3.1** y `version.json` con identificador `SIGLO23-20261105-V0.3.1`. Es una verificación de archivos publicados, no un acceso autenticado a Hostinger.
+
+## Taller de maquetación Spencer — M01
+
+Se incorporó `spencer/maquetacion/` con tres archivos **obligatorios**: `index.html`, `editor.css`, `editor.js` y un `README.md` explicativo. La página principal `spencer/index.html` enlaza la nueva sección desde el menú, una acción destacada y su propio bloque temático.
+
+La herramienta permite vista previa de cubierta con lomo, páginas enfrentadas, tipografía y márgenes en mm/pt, guía de sangrado, texto de muestra editable, extras, páginas blancas automáticas al iniciar en recto, estimación de lomo por calibre, guardar/importar JSON y abrir prueba PDF mediante el navegador. Es una **simulación** sin el manuscrito final; sus cálculos no constituyen un archivo listo para imprenta. La imagen de portada seleccionada solo se conserva temporalmente en el navegador.
+
+Ruta prevista: `https://rngmarketdriven.com/publicdomain/spencer/maquetacion/`. **No está confirmada la publicación automática en Hostinger**; además de `spencer/index.html`, deben transferirse los tres archivos del módulo manteniendo la estructura de directorios.
