@@ -42,3 +42,4 @@
 .sc-version{display:inline-block;padding:4px 8px;border:1px solid #718b7b;color:#f2f5ee;border-radius:4px;font-size:11px;letter-spacing:.05em;font-weight:700;margin-left:8px}
 @media(max-width:900px){.sc-facet-grid{grid-template-columns:1fr}.sc-record:has(.sc-book-media){grid-template-columns:76px minmax(0,1fr)}.sc-record:has(.sc-book-media) .sc-side{grid-column:1/-1}.sc-book-media{width:76px;min-width:76px;height:110px}}
 @media(max-width:520px){.sc-facets{padding:12px}.sc-results-grid{grid-template-columns:1fr}.sc-version{margin-left:0}.sc-facet-options{max-height:170px}}
+.sc-filter-legacy{display:none!important}
