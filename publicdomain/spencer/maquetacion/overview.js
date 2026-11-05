@@ -157,7 +157,7 @@ function refresh(){
  const invalid=api.getPlan().invalid;
  $('#geometryWarning').hidden=!invalid;
  $('#geometryWarning').textContent=invalid?'Los márgenes ocupan prácticamente toda la página: no hay suficiente espacio para calcular el texto. Reducí los márgenes o ampliá el formato.':'';
- if(mode==='overview')paintGrid();
+ if(mode==='overview'){$('#viewName').textContent='Libro completo';paintGrid()};
  if(mode==='sheet')paintSpread();
 }
 $('#fullGrid').addEventListener('click',e=>{
