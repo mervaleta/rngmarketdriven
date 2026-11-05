@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M02",
+  "version": "M03",
   "date": "2026-11-05",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -13,9 +13,19 @@
     "Montserrat variable 100 a 900, normal y cursiva para cuerpo y títulos",
     "Márgenes, sangría y sangrado sin tope superior artificial",
     "Advertencia si la caja de texto resulta insuficiente",
-    "Exportación e importación del plan de edición en JSON"
+    "Exportación e importación del plan de edición en JSON",
+    "Transcripción íntegra en inglés del original de 1884 con 45.792 palabras",
+    "Secciones de prefacio, cuatro ensayos y posdata calculadas individualmente",
+    "Paginación dependiente de medidas reales y recuentos del texto original",
+    "Otras partes y extras conservan paginación estimada",
+    "Índice actualiza números al variar la maqueta"
   ],
-  "limitation": "Paginación aproximada. Importar texto real para inspeccionar fragmentos; no sustituye InDesign ni produce PDF/X.",
+  "limitation": "45.792 palabras verificadas en la transcripción suministrada, no cotejadas de punta a punta con facsímil. Paginación aún estimativa según tipografía y diseño; extras estimados.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M02"
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M03",
+  "original_work": "The Man versus the State (1884)",
+  "original_word_count": 45792,
+  "original_sections": 6,
+  "original_source_file": "original-ingles-1884.json",
+  "original_edition_note": "Transcripción de referencia, cotejo textual con original facsimilar aún pendiente"
 }
