@@ -8,13 +8,18 @@ const KEY='siglo23-spencer-maquetacion-v1';
 const seed={
  trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.38, fontWeight:400,fontStyle:'normal',headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',texts:{},
  marginInner:22,marginOuter:17,marginTop:21,marginBottom:21,indent:4,paraGap:3,bleed:3,caliper:.105,
- words:90000,zoom:.62,coverColor:'#24443a',title:'El individuo contra el Estado',
+ words:0,zoom:.62,coverColor:'#24443a',title:'El individuo contra el Estado',
  author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,
  sample:'La edición crítica reconstruye el debate intelectual de la Inglaterra victoriana y sitúa los argumentos de Herbert Spencer en su contexto histórico. Las transformaciones del Estado, la sociedad industrial y la libertad individual constituyen el eje de la lectura propuesta.\n\nEste texto es una muestra editorial de composición, no una transcripción de la obra de 1884. Su función consiste en comparar cuerpos tipográficos, interlineados, márgenes y densidades de página.\n\nCada decisión de diseño deberá contrastarse con el texto definitivo, las imágenes autorizadas y las especificaciones técnicas de la imprenta. La paginación final solo podrá cerrarse una vez concluida la corrección de estilo y la composición.',
  sections:[
  ['half','Portadilla',1,true],['title','Portada interior',1,true],['legal','Créditos y derechos',1,false],
  ['toc','Índice general',4,true],['prologue','Prólogo a la edición',16,true],['context','Spencer y la era victoriana',24,true],
- ['text','Texto principal · cálculo automático','auto',true],['notes','Aparato de notas',48,true],
+ ['original-preface','Preface · 1884','auto',true],
+ ['original-new-toryism','THE NEW TORYISM','auto',true],
+ ['original-coming-slavery','THE COMING SLAVERY','auto',true],
+ ['original-sins-legislators','THE SINS OF LEGISLATORS','auto',true],
+ ['original-great-superstition','THE GREAT POLITICAL SUPERSTITION','auto',true],
+ ['original-postscript','POSTSCRIPT','auto',true],['notes','Aparato de notas',48,true],
  ['plates','Láminas e ilustraciones',16,true],['chronology','Cronología y atlas',16,true],
  ['afterword','Epílogo contemporáneo',18,true],['bibliography','Fuentes y bibliografía',12,true],
  ['glossary','Índice analítico y glosario',12,true],['colophon','Colofón',1,true]
@@ -48,9 +53,19 @@ function hydrate(raw){
  for(const key of ['showGuides','showFolios','showRunning'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
   id:String(x.id||'custom-'+i).slice(0,80),name:String(x.name||'Sección').slice(0,110),
-  pages:x.id==='text'?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
+  pages:(x.id==='text'||x.id.startsWith('original-'))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
  }));
- if(!s.sections.some(x=>x.id==='text'))s.sections.push({...seed.sections.find(x=>x.id==='text')});
+ const originalGroup=seed.sections.filter(x=>x.id.startsWith('original-'));
+ const oldIndex=s.sections.findIndex(x=>x.id==='text');
+ if(oldIndex>=0&&s.sections.every(x=>!x.id.startsWith('original-')))s.sections.splice(oldIndex,1,...originalGroup.map(x=>({...x})));
+ else if(!s.sections.some(x=>x.id.startsWith('original-'))){
+   const at=s.sections.findIndex(x=>x.id==='notes');s.sections.splice(at<0?s.sections.length:at,0,...originalGroup.map(x=>({...x})));
+ }
+ s.sections=s.sections.filter(x=>x.id!=='text');
+ for(const x of originalGroup)if(!s.sections.some(k=>k.id===x.id)){
+  const after=s.sections.findIndex(k=>k.id.startsWith('original-'));
+  s.sections.splice(after<0?s.sections.length:after+1,0,{...x});
+ }
  return s;
 }
 function load(){try{return JSON.parse(localStorage.getItem(KEY))}catch{return null}}
