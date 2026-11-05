@@ -206,6 +206,14 @@ $('.view-switch').addEventListener('click',e=>{
  if(button.dataset.view==='overview'||button.dataset.view==='sheet'){
   e.preventDefault();e.stopImmediatePropagation();setMode(button.dataset.view);return;
  }
+ if(button.dataset.view==='body'||button.dataset.view==='chapter'){
+  const firstOriginal=api.getPlan().items.find(x=>x.id==='original-new-toryism');
+  if(firstOriginal){
+   e.preventDefault();e.stopImmediatePropagation();
+   const target=button.dataset.view==='chapter'?firstOriginal.start:Math.min(firstOriginal.end,firstOriginal.start+3);
+   setMode('sheet',target);return;
+  }
+ }
  mode='legacy';
  $('#overviewToolbar').hidden=true;$('#spreadToolbar').hidden=true;
  $('#previewArea').classList.remove('grid-active');
