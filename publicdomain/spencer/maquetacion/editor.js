@@ -53,7 +53,7 @@ function hydrate(raw){
  for(const key of ['showGuides','showFolios','showRunning'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
   id:String(x.id||'custom-'+i).slice(0,80),name:String(x.name||'Sección').slice(0,110),
-  pages:(x.id==='text'||x.id.startsWith('original-'))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
+  pages:(x.id==='text'||x.id==='legacy-text'||x.id.startsWith('original-'))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
  }));
  const originalGroup=seed.sections.filter(x=>x.id.startsWith('original-'));
  const oldIndex=s.sections.findIndex(x=>x.id==='text');
@@ -62,6 +62,10 @@ function hydrate(raw){
    const at=s.sections.findIndex(x=>x.id==='notes');s.sections.splice(at<0?s.sections.length:at,0,...originalGroup.map(x=>({...x})));
  }
  s.sections=s.sections.filter(x=>x.id!=='text');
+ if(typeof s.texts.text==='string'&&s.texts.text.trim()){
+  s.texts['legacy-text']=s.texts['legacy-text']||s.texts.text;
+  if(!s.sections.some(x=>x.id==='legacy-text'))s.sections.push({id:'legacy-text',name:'Texto de trabajo de M02 conservado',pages:'auto',recto:true,enabled:false});
+ }
  for(const x of originalGroup)if(!s.sections.some(k=>k.id===x.id)){
   const after=s.sections.findIndex(k=>k.id.startsWith('original-'));
   s.sections.splice(after<0?s.sections.length:after+1,0,{...x});
