@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#162328">
 <meta name="description" content="Estudio interactivo de maquetación para la edición crítica de El individuo contra el Estado de Herbert Spencer: cubierta, páginas, márgenes, tipografía, extras y paginación orientativa.">
 <title>Maquetación · Herbert Spencer — Editorial Siglo23</title>
-<link rel="stylesheet" href="./editor.css?v=1.0.0">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"><link rel="stylesheet" href="./editor.css?v=1.1.0">
 <style>
 .view-switch{max-width:min(100%,900px);overflow-x:auto;scrollbar-width:thin;scrollbar-color:#84928a #1c2d30}
 .view-switch button{white-space:nowrap;flex:none}
@@ -23,16 +23,16 @@
   <div class="top-right">
     <a href="../">← Dossier de Spencer</a>
     <a href="../../">Panel editorial</a>
-    <span class="status">PREPRODUCCIÓN · V1.0</span>
+    <span class="status">PREPRODUCCIÓN · V1.1</span>
     <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
   </div>
 </header>
 <div class="titlebar">
   <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
-    <p>Una mesa visual para experimentar con la edición de lujo de <em>El individuo contra el Estado</em>. Ajustá medidas reales, compará tipografía, calculá secciones y diseñá la cubierta desplegada.</p></div>
-  <span class="version">M01 · 05 NOV 2026</span>
+    <p>Una grilla completa del volumen para hacer zoom en cualquier pliego, revisar qué texto contiene, ajustar Montserrat y cambiar márgenes, sangrías, páginas blancas y extras.</p></div>
+  <span class="version">M02 · GRILLA COMPLETA Y MONTSERRAT</span>
 </div>
-<div class="app-intro-note">La vista es una <strong>maqueta de simulación</strong>: no sustituye InDesign, una corrección final, ni un archivo KDP/PDF/X listo para imprenta. Los ejemplos textuales y folios son ilustrativos.</div>
+<div class="app-intro-note">La grilla incluye <strong>todas las páginas calculadas</strong>. Para ver texto real en ellas importá cada sección en TXT o Markdown. La distribución es aproximada y no sustituye el libro compuesto en InDesign. Los ejemplos textuales y folios son ilustrativos.</div>
 <div class="workspace">
   <aside class="inspector" aria-label="Controles de composición">
     <div class="pane-head"><h2>Propiedades</h2><small>mm / pt</small></div>
@@ -51,7 +51,7 @@
           <label>Ancho (mm)<input id="customW" type="number" min="90" max="250" step=".1" value="148"></label>
           <label>Alto (mm)<input id="customH" type="number" min="120" max="330" step=".1" value="210"></label>
         </div>
-        <label>Sangrado (mm)<input id="bleed" type="number" min="0" max="8" step=".5" value="3"></label>
+        <label>Sangrado (mm)<input id="bleed" type="number" min="0" step=".5" value="3"></label>
         <label>Calibre / hoja (mm)<input id="paperCaliper" type="number" min=".05" max=".25" step=".005" value=".105"></label>
       </div>
       <p class="help">El calibre es el grosor de una <strong>hoja física</strong>; el lomo estimado usa la mitad de páginas × calibre. Impresora, papel y encuadernación determinan el valor real.</p>
@@ -60,28 +60,33 @@
       <div class="controls">
         <label class="full">Familia de texto
           <select id="fontFamily">
-            <option value="Georgia, 'Times New Roman', serif">Georgia</option>
+            <option value="Georgia, 'Times New Roman', serif">Georgia</option><option value="Montserrat, Arial, sans-serif">Montserrat (variable)</option>
             <option value="'Palatino Linotype', Palatino, 'Book Antiqua', serif">Palatino / Book Antiqua</option>
             <option value="Garamond, 'Times New Roman', serif">Garamond (o sustitución)</option>
             <option value="Baskerville, 'Times New Roman', serif">Baskerville (o sustitución)</option>
             <option value="'Times New Roman', Times, serif">Times New Roman</option>
           </select>
         </label>
+        <label>Peso del cuerpo<select id="fontWeight"><option value="100">100 · Thin</option><option value="200">200 · ExtraLight</option><option value="300">300 · Light</option><option value="400">400 · Regular</option><option value="500">500 · Medium</option><option value="600">600 · SemiBold</option><option value="700">700 · Bold</option><option value="800">800 · ExtraBold</option><option value="900">900 · Black</option></select></label>
+        <label>Estilo del cuerpo<select id="fontStyle"><option value="normal">Redonda</option><option value="italic">Cursiva</option></select></label>
         <label>Cuerpo (pt)<input id="fontSize" type="number" min="7.5" max="18" step=".25" value="10.5"></label>
         <label>Interlineado (factor)<input id="leading" type="number" min="1.05" max="2" step=".02" value="1.38"></label>
-        <label>Sangría (mm)<input id="indent" type="number" min="0" max="12" step=".5" value="4"></label>
-        <label>Espacio entre ¶ (mm)<input id="paraGap" type="number" min="0" max="10" step=".5" value="3"></label>
+        <label>Sangría (mm)<input id="indent" type="number" min="0" step=".5" value="4"></label>
+        <label>Espacio entre ¶ (mm)<input id="paraGap" type="number" min="0" step=".5" value="3"></label>
+        <label class="full">Familia de títulos<select id="headingFont"><option value="Georgia, 'Times New Roman', serif">Georgia</option><option value="Montserrat, Arial, sans-serif">Montserrat</option><option value="'Palatino Linotype', Palatino, 'Book Antiqua', serif">Palatino</option><option value="'Times New Roman', Times, serif">Times New Roman</option></select></label>
+        <label>Peso de títulos<select id="headingWeight"><option value="100">100 · Thin</option><option value="200">200 · ExtraLight</option><option value="300">300 · Light</option><option value="400">400 · Regular</option><option value="500">500 · Medium</option><option value="600">600 · SemiBold</option><option value="700">700 · Bold</option><option value="800">800 · ExtraBold</option><option value="900">900 · Black</option></select></label>
+        <label>Estilo de títulos<select id="headingStyle"><option value="normal">Redonda</option><option value="italic">Cursiva</option></select></label>
       </div>
-      <p class="help">Se usan familias de fuentes instaladas en el dispositivo; un nombre ausente podrá mostrarse con fuente de sustitución. La composición definitiva necesita pruebas de fuentes y licencia.</p>
+      <p class="help">Montserrat se carga desde Google Fonts (pesos 100–900, normal y cursiva, licencia OFL). Otras familias dependen del equipo. Verificar las fuentes incrustadas en el PDF final.</p>
     </fieldset>
     <fieldset><legend>03 / Mancha y márgenes</legend>
       <div class="controls">
-        <label>Interior / lomo (mm)<input id="marginInner" type="number" min="9" max="45" step="1" value="22"></label>
-        <label>Exterior (mm)<input id="marginOuter" type="number" min="8" max="40" step="1" value="17"></label>
-        <label>Superior (mm)<input id="marginTop" type="number" min="10" max="45" step="1" value="21"></label>
-        <label>Inferior (mm)<input id="marginBottom" type="number" min="10" max="45" step="1" value="21"></label>
+        <label>Interior / lomo (mm)<input id="marginInner" type="number" min="0" step=".5" value="22"></label>
+        <label>Exterior (mm)<input id="marginOuter" type="number" min="0" step=".5" value="17"></label>
+        <label>Superior (mm)<input id="marginTop" type="number" min="0" step=".5" value="21"></label>
+        <label>Inferior (mm)<input id="marginBottom" type="number" min="0" step=".5" value="21"></label>
       </div>
-      <label class="checkline"><input id="showGuides" type="checkbox" checked> Mostrar guías de márgenes y sangrado</label>
+      <p class="help">Sin tope superior en márgenes, sangría ni sangrado. Si el espacio para texto no alcanza, se mostrará una advertencia.</p><label class="checkline"><input id="showGuides" type="checkbox" checked> Mostrar guías de márgenes y sangrado</label>
       <label class="checkline"><input id="showRunning" type="checkbox" checked> Cabeza / título corriente</label>
       <label class="checkline"><input id="showFolios" type="checkbox" checked> Folios en el pie de página</label>
     </fieldset>
@@ -116,7 +121,7 @@
         <div class="zoomline"><label for="zoom">Zoom</label><input id="zoom" type="range" min=".35" max="1.3" step=".01" value=".62"><output id="zoomValue">62 %</output></div>
       </div>
       <div class="view-switch" role="group" aria-label="Tipos de páginas que pueden visualizarse">
-        <button data-view="cover" type="button" aria-pressed="true">Cubierta</button>
+        <button data-view="overview" type="button" aria-pressed="true">▦ Libro completo</button><button data-view="sheet" type="button" aria-pressed="false">◫ Pliego ampliado</button><button data-view="cover" type="button" aria-pressed="false">Cubierta</button>
         <button data-view="title" type="button" aria-pressed="false">Portadas</button>
         <button data-view="legal" type="button" aria-pressed="false">Legales / blancos</button>
         <button data-view="toc" type="button" aria-pressed="false">Índice</button>
@@ -128,16 +133,30 @@
         <button data-view="afterword" type="button" aria-pressed="false">Epílogo</button>
       </div>
     </div>
-    <div class="preview-area">
-      <div class="page-label"><span id="previewMode">Cargando vista…</span><span id="metricSize">148 × 210 mm</span></div>
-      <div class="view-nav" style="align-self:stretch;max-width:850px;width:100%;margin:0 auto 14px">
+    <div class="overview-toolbar" id="overviewToolbar">
+ <label>Tamaño de miniaturas <input id="thumbZoom" type="range" min="64" max="200" step="4" value="96"><output id="thumbZoomValue">96 px</output></label>
+ <label>Buscar en las páginas <input id="gridSearch" type="search" placeholder="Texto, capítulo, número…" aria-label="Buscar texto entre páginas"></label>
+ <span id="gridCount" role="status">Calculando páginas…</span>
+ <button id="showAllPages" type="button" class="action">Ver todas</button>
+ </div>
+ <div class="spread-toolbar" id="spreadToolbar" hidden>
+ <button id="backGrid" type="button" class="action">← Grilla completa</button>
+ <button id="prevSpread" type="button" class="action">← Pliego</button>
+ <label>Ir a página <input id="jumpPage" type="number" min="1" value="1" step="1" aria-label="Ir a página"></label>
+ <button id="jumpButton" type="button" class="action">Ir</button>
+ <button id="nextSpread" type="button" class="action">Pliego →</button>
+ </div>
+ <div class="preview-area" id="previewArea">
+ <div id="fullGrid" class="full-grid" role="region" aria-label="Grilla completa de todas las páginas interiores"></div>
+      <div class="page-label" id="singlePageLabels"><span id="previewMode">Cargando vista…</span><span id="metricSize">148 × 210 mm</span></div>
+      <div class="view-nav" id="sceneNav" style="align-self:stretch;max-width:850px;width:100%;margin:0 auto 14px">
         <button id="prevView" type="button" aria-label="Ver página anterior">← Anterior</button>
         <strong id="viewName">Cubierta completa</strong>
         <button id="nextView" type="button" aria-label="Ver página siguiente">Siguiente →</button>
       </div>
       <div class="preview-host" id="previewHost" aria-label="Maqueta del libro"><div class="spread">Preparando maqueta…</div></div>
-      <div class="guide-key" aria-label="Leyenda de guías"><span><i></i> Márgenes</span><span><i class="bleed"></i> Sangrado <b id="metricBleed">3 mm</b></span></div>
-      <p class="stage-hint">Los textos son de relleno editorial. Los números impresos dentro de estas páginas son ejemplos; la paginación calculada se muestra en el plano de producción de la derecha.</p>
+      <div class="guide-key" id="guideKey" aria-label="Leyenda de guías"><span><i></i> Márgenes</span><span><i class="bleed"></i> Sangrado <b id="metricBleed">3 mm</b></span></div>
+      <p class="stage-hint" id="stageHint">Cada miniatura corresponde a una página del plan; hacé clic para abrir el pliego. Solo las secciones con texto importado muestran fragmentos reales, distribuidos aproximadamente.</p>
     </div>
   </main>
   <aside class="planner" aria-label="Plan de paginación y extras">
@@ -146,7 +165,16 @@
       <input id="words" type="number" min="0" max="1000000" step="1000" value="90000">
     </label>
     <p class="help">Las 90.000 palabras iniciales son una <strong>hipótesis editable</strong>, no un recuento real del texto de Spencer.</p>
-    <div class="metrics">
+    <fieldset class="import-group">
+ <legend>Textos reales de cada sección</legend>
+ <label class="wide-label">Sección a revisar<select id="importSection" aria-label="Sección a la que se asignará el texto"></select></label>
+ <label class="wide-label">Importar archivo TXT / Markdown<input id="manuscriptFile" type="file" accept=".txt,.md,text/plain,text/markdown"></label>
+ <label class="wide-label">O pegar texto completo de la sección<textarea id="manuscriptPaste" rows="4" placeholder="Pegá el texto definitivo de esta sección para recorrerlo página por página…"></textarea></label>
+ <div class="block-actions"><button id="applyManuscript" type="button">Aplicar texto</button><button id="removeManuscript" type="button">Borrar texto de sección</button></div>
+ <p id="manuscriptStatus" class="help" role="status">No hay manuscritos importados. La grilla mostrará secciones y marcadores hasta que cargues texto real.</p>
+ </fieldset>
+ <div class="warning" id="geometryWarning" hidden role="alert"></div>
+ <div class="metrics">
       <div class="metric"><strong id="metricPages">—</strong><span>Páginas interiores estimadas</span></div>
       <div class="metric"><strong id="metricMain">—</strong><span>Páginas de texto principal</span></div>
       <div class="metric"><strong id="metricBlanks">—</strong><span>Blancos calculados</span></div>
@@ -170,6 +198,6 @@
     <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
   </aside>
 </div>
-<script src="./editor.js?v=1.0.0" defer></script>
+<script src="./editor.js?v=1.1.0" defer></script><script src="./overview.js?v=1.1.0" defer></script>
 </body>
 </html>
