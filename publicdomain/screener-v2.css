@@ -1,0 +1,44 @@
+/* Siglo23 Screener v0.2.0 — filtros de selección múltiple y tarjetas con imágenes */
+.sc-hint{font-size:12px;color:var(--muted);margin:7px 0 0;line-height:1.5}
+.sc-facets{border:1px solid var(--line);border-radius:10px;background:var(--white);margin:20px 0;padding:18px}
+.sc-facets-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.sc-facets-head h3{margin:0;font:700 19px/1.3 var(--serif)}
+.sc-facets-head p{margin:5px 0 0;color:var(--muted);font-size:12px}
+.sc-facet-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:14px}
+.sc-facet{border:1px solid var(--line);border-radius:8px;background:#fafaf7;min-width:0}
+.sc-facet summary{padding:13px 15px;cursor:pointer;font-size:12px;font-weight:750;letter-spacing:.04em;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.sc-facet summary::-webkit-details-marker{display:none}
+.sc-facet summary:after{content:"▾";color:var(--accent);font-size:14px}
+.sc-facet:not([open]) summary:after{content:"▸"}
+.sc-facet-count{font-size:11px;font-weight:500;color:var(--muted);margin-left:auto}
+.sc-facet-options{display:flex;flex-wrap:wrap;align-content:flex-start;gap:7px;padding:0 13px 14px;max-height:190px;overflow:auto}
+.sc-chip{position:relative;display:inline-flex;max-width:100%;gap:7px;align-items:center;font-size:12px;line-height:1.25;padding:8px 10px;border:1px solid #d7dfd6;border-radius:6px;background:white;cursor:pointer;overflow-wrap:anywhere}
+.sc-chip input{width:14px;height:14px;accent-color:var(--deep);flex-shrink:0}
+.sc-chip:has(input:checked){background:#e5ece7;border-color:#607b6c;color:#183b2b;font-weight:750}
+.sc-chip small{color:var(--muted);font-size:10px;white-space:nowrap}
+.sc-chips-selected{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.sc-active{border:1px solid #b6c5b9;border-radius:20px;background:#e7eee9;font-size:11px;padding:5px 9px;color:#355546}
+.sc-extra{display:flex;gap:13px;align-items:center;flex-wrap:wrap;margin:16px 0 4px}
+.sc-extra .check{font-size:13px}
+.sc-view-mode{display:inline-flex;gap:0;border:1px solid #ccd7cc;border-radius:7px;overflow:hidden}
+.sc-view-mode button{border:0;border-right:1px solid #ccd7cc;background:#fff;color:var(--ink);padding:9px 13px;font-size:12px;font-weight:600;cursor:pointer}
+.sc-view-mode button:last-child{border-right:0}
+.sc-view-mode button[aria-pressed="true"]{background:var(--deep);color:white}
+.sc-book-media{width:94px;min-width:94px;height:130px;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:#ecefe9;display:flex;align-items:center;justify-content:center}
+.sc-book-media img{width:100%;height:100%;object-fit:cover}
+.sc-book-media .sc-no-cover{text-align:center;padding:9px;color:#7e8f84;font:italic 12px/1.4 var(--serif)}
+.sc-record:has(.sc-book-media){grid-template-columns:94px minmax(0,1fr) auto}
+.sc-record:has(.sc-book-media) .sc-details{grid-column:1/-1}
+.sc-results-grid{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,295px),1fr));align-items:stretch;gap:13px}
+.sc-results-grid .sc-record{display:flex!important;flex-direction:column;gap:10px;min-width:0;margin:0}
+.sc-results-grid .sc-book-media{width:100%;height:190px;min-width:0;background:#ebefea}
+.sc-results-grid .sc-book-media img{object-fit:contain}
+.sc-results-grid .sc-main{width:100%;min-width:0}
+.sc-results-grid .sc-side{align-self:stretch;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.sc-results-grid .sc-details{width:100%;margin-top:auto}
+.sc-results-grid .sc-record h3{font-size:19px;line-height:1.22}
+.sc-results-grid .sc-record .sc-original{font-size:12px}
+.sc-quickstatus{font-size:11px;color:var(--muted);margin:0 0 12px}
+.sc-version{display:inline-block;padding:4px 8px;border:1px solid #718b7b;color:#f2f5ee;border-radius:4px;font-size:11px;letter-spacing:.05em;font-weight:700;margin-left:8px}
+@media(max-width:900px){.sc-facet-grid{grid-template-columns:1fr}.sc-record:has(.sc-book-media){grid-template-columns:76px minmax(0,1fr)}.sc-record:has(.sc-book-media) .sc-side{grid-column:1/-1}.sc-book-media{width:76px;min-width:76px;height:110px}}
+@media(max-width:520px){.sc-facets{padding:12px}.sc-results-grid{grid-template-columns:1fr}.sc-version{margin-left:0}.sc-facet-options{max-height:170px}}
