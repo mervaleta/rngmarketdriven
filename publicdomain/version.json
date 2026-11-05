@@ -1,0 +1,17 @@
+{
+  "project": "Editorial Siglo23 — Dominio Público",
+  "version": "0.2.0",
+  "published_at_source": "2026-11-05",
+  "status": "Repositorio GitHub actualizado; despliegue en dominio no verificado por el asistente",
+  "features": [
+    "versión visible",
+    "filtros por casillas combinables",
+    "ordenación ampliada",
+    "lista o tarjetas",
+    "imágenes opcionales",
+    "preparado para nuevos registros"
+  ],
+  "works_count_at_release": 132,
+  "authors_count_at_release": 5228,
+  "marker": "SIGLO23-20261105-V0.2.0"
+}
