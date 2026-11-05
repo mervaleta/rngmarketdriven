@@ -60,7 +60,16 @@ function analyze(){
  const [w,h]=fmt(),width=Math.max(0,w-state.marginInner-state.marginOuter);
  const height=Math.max(0,h-state.marginTop-state.marginBottom-(state.showRunning?7:1)-(state.showFolios?7:1));
  const invalid=width<20||height<30;
- const charWidth=state.fontPt*25.4/72*.51;
+ let charWidth=state.fontPt*25.4/72*(state.font.startsWith('Montserrat')?.535:.51);
+ try{
+  const canvas=document.createElement('canvas'),ctx=canvas.getContext?.('2d');
+  if(ctx){
+   ctx.font=state.fontStyle+' '+state.fontWeight+' '+(state.fontPt*96/72)+'px '+state.font;
+   const sample='El individuo contra el Estado y la sociedad: una edición anotada para su lectura crítica, con referencias de época.';
+   const measured=ctx.measureText(sample).width/sample.length*(25.4/96);
+   if(Number.isFinite(measured)&&measured>0)charWidth=measured;
+  }
+ }catch{}
  const wordsPage=invalid?0:Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,1,10000,400));
  const mainPages=invalid?0:Math.ceil(state.words/wordsPage);
  const items=[];let page=1,rectoBlanks=0;
@@ -230,4 +239,5 @@ window.S23Layout={
  }
 };
 setFields();render();
+ if(document.fonts?.ready)document.fonts.ready.then(()=>{render();}).catch(()=>{});
 })();
