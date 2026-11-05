@@ -10,7 +10,7 @@ Fecha del inventario: 2026-11-05
 |---|---|---|
 | `index.html` | Panel editorial integral: 5.228 fichas de autores, filtros, secciones de fuentes, archivo visual y derechos | En GitHub |
 | `screener.js` | Filtros multivariables de libros y exportación CSV | En GitHub |
-| `catalogo-global.json` | 307 obras candidatas, 31 ámbitos/mercados, temáticas por obra y 16 ediciones con ficha editorial documentada | En GitHub |
+| `catalogo-global.json` | 307 obras candidatas, 31 ámbitos/mercados, temáticas por obra y 30 ediciones con ficha editorial documentada | En GitHub |
 | `autores.json` | Los 5.228 autores del índice, separados en datos reutilizables | En GitHub |
 | `autores.csv` | Exportación descargable de los 5.228 autores | En GitHub |
 | `autores-1945.csv` | Subconjunto de 153 autores con fallecimiento 1945 | En GitHub |
@@ -95,7 +95,7 @@ Abrir `/publicdomain/` y comprobar que arriba se lea `v0.2.0`. Si no aparece, co
 
 - Se añadieron **175 obras** a las 132 iniciales (307 en total), procedentes de literatura, filosofía, ensayo, narrativa infantil y tradiciones de Asia, África, América Latina y Europa.
 - Cada ficha contiene título original, denominación castellana de trabajo, autor/atribución, fallecimiento, primera publicación orientativa, género y etiquetas temáticas. Datos preliminares sujetos a cotejo bibliográfico, especialmente fechas antiguas y autorías tradicionales.
-- Hay **16 registros con ediciones editoriales identificadas** por editor, año, idioma, ISBN y URL de ficha. La evidencia acredita que se ha editado una versión catalogada, no disponibilidad de stock ni libertad del contenido añadido.
+- Hay **30 registros con ediciones editoriales identificadas** por editor, año, idioma, ISBN y URL de ficha. La evidencia acredita que se ha editado una versión catalogada, no disponibilidad de stock ni libertad del contenido añadido.
 - La función de búsqueda de ediciones de Open Library genera una consulta; el enlace **no** confirma la existencia de resultados para esa obra.
 - Nuevos filtros por casillas para temáticas y estado de edición; se preservan filtros múltiples, lista/tarjetas, búsqueda, ordenación, imágenes opcionales y CSV.
 - Las cifras de ventas o descargas no se han extrapolado a los títulos añadidos. Su indicador queda como **no disponible** hasta que exista una fuente específica.
