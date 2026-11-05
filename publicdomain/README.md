@@ -111,10 +111,21 @@ Para **nuevas obras**, además de los campos habituales de `catalogo-global.json
 
 Archivos nuevos: `priority-rationale.js`, `priority-rationale.css`. Verificación: barra superior **v0.3.1** y `version.json` con identificador `SIGLO23-20261105-V0.3.1`. Es una verificación de archivos publicados, no un acceso autenticado a Hostinger.
 
-## Taller de maquetación Spencer — M01
+## Taller de maquetación Spencer — M02
 
 Se incorporó `spencer/maquetacion/` con tres archivos **obligatorios**: `index.html`, `editor.css`, `editor.js` y un `README.md` explicativo. La página principal `spencer/index.html` enlaza la nueva sección desde el menú, una acción destacada y su propio bloque temático.
 
 La herramienta permite vista previa de cubierta con lomo, páginas enfrentadas, tipografía y márgenes en mm/pt, guía de sangrado, texto de muestra editable, extras, páginas blancas automáticas al iniciar en recto, estimación de lomo por calibre, guardar/importar JSON y abrir prueba PDF mediante el navegador. Es una **simulación** sin el manuscrito final; sus cálculos no constituyen un archivo listo para imprenta. La imagen de portada seleccionada solo se conserva temporalmente en el navegador.
 
 Ruta prevista: `https://rngmarketdriven.com/publicdomain/spencer/maquetacion/`. **No está confirmada la publicación automática en Hostinger**; además de `spencer/index.html`, deben transferirse los tres archivos del módulo manteniendo la estructura de directorios.
+
+
+## M02 — Vista del libro completo
+
+- Nueva grilla navegable de **todas las páginas interiores calculadas**, con miniaturas y búsqueda por página, sección y texto importado.
+- Cada miniatura abre su **pliego** (páginas par/impar) con zoom y un inspector de texto completo sin recortes.
+- Los archivos TXT/Markdown se importan **por sección**, sin subirlos automáticamente a ningún servidor; el mapa muestra fragmentos reales solo después de esa carga.
+- **Montserrat** para texto y títulos, pesos 100–900 y estilos redonda/cursiva, servida mediante Google Fonts (OFL).
+- Sin máximos arbitrarios en los controles de márgenes, sangría, separación entre párrafos y sangrado; aviso de diseño inviable si se agota la caja de texto.
+- Para publicar deben transferirse juntos `spencer/maquetacion/index.html`, `editor.css`, `editor.js` y `overview.js`. `version.json` contiene el marcador M02.
+- **Los cambios están confirmados en GitHub; no hay comprobación del despliegue efectivo en Hostinger.**
