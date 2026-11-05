@@ -108,10 +108,11 @@ function page(kind,side,num){
 }
 function cover(p){
  const title=esc(state.title),author=esc(state.author),imprint=esc(state.imprint);
+ const displayTitle=state.title.trim().toLocaleLowerCase('es')==='el individuo contra el estado'?'El individuo<br><em>contra el Estado</em>':title;
  const artwork=coverFile?' style="background-image:url('+esc(coverFile)+')"':'';
  return '<div class="cover-panel cover-back"><div><span style="font:8pt Georgia;letter-spacing:.17em">UNA COLECCIÓN PARA VOLVER A LEER</span><h3>El pensamiento en su contexto</h3><p>Edición en preparación de los ensayos políticos de Herbert Spencer. El proyecto incorpora contexto histórico, documentos, aparato crítico y una lectura contemporánea diferenciada. Texto de cubierta ficticio para composición.</p></div><div class="barcode">ZONA PARA ISBN Y CÓDIGO DE BARRAS</div></div>'
  +'<div class="cover-spine"><span class="spine-text">'+title+' · '+author+' · '+imprint+'</span></div>'
- +'<div class="cover-panel cover-front'+(coverFile?' has-image':'')+'"><div class="art-window"'+artwork+'></div><div class="cover-emblem">'+imprint+' / CLÁSICOS</div><div class="cover-titles"><span class="small-label">PENSAMIENTO POLÍTICO · 1884</span><h2>El individuo<br><em>contra el Estado</em></h2><div class="author">'+author+'</div></div><div class="cover-bottom">EDICIÓN CRÍTICA E ILUSTRADA</div></div>'+(state.showGuides?'<div class="trim-guides"></div>':'');
+ +'<div class="cover-panel cover-front'+(coverFile?' has-image':'')+'"><div class="art-window"'+artwork+'></div><div class="cover-emblem">'+imprint+' / CLÁSICOS</div><div class="cover-titles"><span class="small-label">PENSAMIENTO POLÍTICO · 1884</span><h2>'+displayTitle+'</h2><div class="author">'+author+'</div></div><div class="cover-bottom">EDICIÓN CRÍTICA E ILUSTRADA</div></div>'+(state.showGuides?'<div class="trim-guides"></div>':'');
 }
 function sceneContent(p){
  switch(scene){
