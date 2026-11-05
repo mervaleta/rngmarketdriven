@@ -18,8 +18,13 @@ fetch(source,{cache:'no-store'}).then(resp=>{
  if(words!==book.words_total||words<40000||words>50000)throw new Error('El archivo no supera la validación del recuento de palabras');
  const result=api.loadOriginalBook(book.chapters,book);
  if(input){input.readOnly=true;input.title='Recuento automático del texto inglés cargado'}
- if(status)status.textContent='Original inglés cargado: '+result.words.toLocaleString('es-AR')+' palabras en '+result.sections+' partes. Los demás apartados continúan con estimaciones.';
- if(box){box.hidden=false;box.innerHTML='<strong>Texto original: '+words.toLocaleString('es-AR')+' palabras</strong><br>Edición de referencia: Williams & Norgate, 1884. Prefacio, cuatro ensayos y posdata. Texto base de precomposición: cotejo con facsímil todavía pendiente. <a href="'+book.source_transcription+'" target="_blank" rel="noopener noreferrer">Fuente de la transcripción ↗</a> · <a href="'+book.source_original_check+'" target="_blank" rel="noopener noreferrer">Facsímil histórico ↗</a>'}
+ if(status)status.textContent='Texto original de 1884 incorporado ('+words.toLocaleString('es-AR')+' palabras). Texto actualmente cargado: '+result.words.toLocaleString('es-AR')+' palabras en '+result.sections+' partes. Los extras siguen estimados.';
+ if(box){box.hidden=false;
+   const list=book.chapters.map(x=>'<li style="display:flex;justify-content:space-between;gap:7px"><span>'+x.title+'</span><strong>'+x.words.toLocaleString('es-AR')+'</strong></li>').join('');
+   box.innerHTML='<strong>Texto original: '+words.toLocaleString('es-AR')+' palabras</strong><br>Williams & Norgate, 1884. Prefacio, cuatro ensayos y posdata. '+(result.words===words?'':'Hay textos activos que difieren del archivo fuente. ')
+    +'<details style="margin:9px 0"><summary style="cursor:pointer">Palabras por sección del original</summary><ul style="list-style:none;padding:0;margin:8px 0">'+list+'</ul></details>'
+    +'Transcripción de referencia pendiente de cotejo textual con el facsímil. <a href="'+book.source_transcription+'" target="_blank" rel="noopener noreferrer">Transcripción ↗</a> · <a href="'+book.source_original_check+'" target="_blank" rel="noopener noreferrer">Facsímil ↗</a>';
+ }
  const grid=document.getElementById('fullGrid');
  const refresh=document.getElementById('showAllPages');
  if(refresh&&grid&&grid.offsetParent!==null){/* La actualización ya está vinculada a render mediante el evento del editor. */}
