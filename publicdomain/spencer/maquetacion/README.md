@@ -57,3 +57,27 @@ La pantalla arranca ahora en **Libro completo**, una grilla de miniaturas para *
 **Archivos obligatorios de M02:** `index.html`, `editor.css`, `editor.js`, `overview.js`. El manifiesto `version.json` contiene la marca `SIGLO23-SPENCER-MAQUETACION-M02`.
 
 La presencia de estos archivos en GitHub está comprobada; su disponibilidad pública en Hostinger sigue sin confirmarse.
+
+## M03 — Texto completo del original inglés de 1884 (2026-11-05)
+
+Se incorporó el archivo independiente `original-ingles-1884.json` y el cargador `original-loader.js`. La fuente es una transcripción de dominio público del texto de Spencer (1884), localizada en [Vast-As-A-Sea/English-version-of-world-famous-works](https://github.com/Vast-As-A-Sea/English-version-of-world-famous-works/blob/master/The%20Man%20Versus%20the%20State.txt), cotejada estructuralmente con la [edición histórica de Williams & Norgate](https://oll.libertyfund.org/titles/spencer-the-man-versus-the-state-1885-ed). **No se ha hecho cotejo tipográfico/paleográfico íntegro contra facsímil**: antes de editar comercialmente, revisar variantes, erratas y llamadas de nota.
+
+### Recuento del núcleo del libro
+
+| Parte original | Palabras de la transcripción |
+|---|---:|
+| Preface | 287 |
+| The New Toryism | 6.855 |
+| The Coming Slavery | 10.639 |
+| The Sins of Legislators | 14.038 |
+| The Great Political Superstition | 11.977 |
+| Postscript | 1.996 |
+| **Total** | **45.792** |
+
+El original incluye en sus bloques las referencias y notas que figuran en la fuente, pero no los ensayos añadidos en antologías posteriores. Estos datos son el **recuento textual real de la transcripción**, no una estimación de longitud por género o edición. Los comienzos de ensayos se fuerzan al recto cuando esa opción está activa, y el cálculo de páginas depende del formato y el cuerpo tipográfico elegido. Las páginas de prólogos nuevos, notas editoriales, ilustraciones, atlas, apéndices e índices permanecen **como estimaciones editables**.
+
+Con el estado inicial A5, Georgia 10,5 pt y los márgenes de ejemplo, la prueba calcula aproximadamente **195 páginas del texto de Spencer** y **372 páginas totales**, incluyendo blancos y extras. Cambiar márgenes, tipografía o añadir material altera estas cifras. No afirmar que son la foliación histórica ni la cantidad definitiva de páginas impresas.
+
+El original se importa automáticamente en seis secciones, puede leerse en la grilla de miniaturas, abrirse en pliego y consultarse con texto no recortado bajo cada página. También quedan disponibles la importación posterior de traducciones o variantes en TXT/MD y el control de extras. La fuente conserva párrafos para la lectura, aunque el reparto por páginas sigue siendo aproximado.
+
+**Archivos obligatorios para desplegar M03:** `index.html`, `editor.css`, `editor.js`, `overview.js`, `original-loader.js`, `original-ingles-1884.json`. El manifiesto `version.json` informa la compilación. Los seis archivos deben publicarse en la misma carpeta. La carga del original depende de que `original-ingles-1884.json` responda HTTP 200; no se ha confirmado el despliegue Hostinger.
