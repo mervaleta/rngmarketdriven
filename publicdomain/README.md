@@ -10,11 +10,11 @@ Fecha del inventario: 2026-11-05
 |---|---|---|
 | `index.html` | Panel editorial integral: 5.228 fichas de autores, filtros, secciones de fuentes, archivo visual y derechos | En GitHub |
 | `screener.js` | Filtros multivariables de libros y exportación CSV | En GitHub |
-| `catalogo-global.json` | 132 obras internacionales, 21 mercados y 16 fuentes | En GitHub |
+| `catalogo-global.json` | 307 obras candidatas, 31 ámbitos/mercados, temáticas por obra y 16 ediciones con ficha editorial documentada | En GitHub |
 | `autores.json` | Los 5.228 autores del índice, separados en datos reutilizables | En GitHub |
 | `autores.csv` | Exportación descargable de los 5.228 autores | En GitHub |
 | `autores-1945.csv` | Subconjunto de 153 autores con fallecimiento 1945 | En GitHub |
-| `coleccion/index.html` | Consulta modular filtrable de las 132 obras internacionales | En GitHub |
+| `coleccion/index.html` | Consulta modular filtrable de las 307 obras internacionales | En GitHub |
 | `recursos/index.html` | Clasificación de 12 familias de materiales reutilizables e instituciones fuente | En GitHub |
 | `spencer/index.html` | Expediente editorial y tareas pendientes de *El individuo contra el Estado* | En GitHub |
 
@@ -90,3 +90,13 @@ El ejemplo muestra nombres de campos, no URLs ni permisos verificados. Si no exi
 ### Prueba de despliegue
 
 Abrir `/publicdomain/` y comprobar que arriba se lea `v0.2.0`. Si no aparece, comparar `/publicdomain/version.json`, `/publicdomain/screener.js?v=0.2.0` y `/publicdomain/screener-v2.css?v=0.2.0` con el repositorio. Si el dominio no sincroniza, ver el repositorio no equivale a haber desplegado. Un navegador con caché puede retener una versión anterior.
+
+## Ampliación editorial v0.3.0 (2026-11-05)
+
+- Se añadieron **175 obras** a las 132 iniciales (307 en total), procedentes de literatura, filosofía, ensayo, narrativa infantil y tradiciones de Asia, África, América Latina y Europa.
+- Cada ficha contiene título original, denominación castellana de trabajo, autor/atribución, fallecimiento, primera publicación orientativa, género y etiquetas temáticas. Datos preliminares sujetos a cotejo bibliográfico, especialmente fechas antiguas y autorías tradicionales.
+- Hay **16 registros con ediciones editoriales identificadas** por editor, año, idioma, ISBN y URL de ficha. La evidencia acredita que se ha editado una versión catalogada, no disponibilidad de stock ni libertad del contenido añadido.
+- La función de búsqueda de ediciones de Open Library genera una consulta; el enlace **no** confirma la existencia de resultados para esa obra.
+- Nuevos filtros por casillas para temáticas y estado de edición; se preservan filtros múltiples, lista/tarjetas, búsqueda, ordenación, imágenes opcionales y CSV.
+- Las cifras de ventas o descargas no se han extrapolado a los títulos añadidos. Su indicador queda como **no disponible** hasta que exista una fuente específica.
+- `version.json` identifica esta edición como **v0.3.0**, pero el despliegue en Hostinger sigue sin estar confirmado.
