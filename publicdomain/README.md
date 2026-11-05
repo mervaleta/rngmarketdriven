@@ -100,3 +100,13 @@ Abrir `/publicdomain/` y comprobar que arriba se lea `v0.2.0`. Si no aparece, co
 - Nuevos filtros por casillas para temáticas y estado de edición; se preservan filtros múltiples, lista/tarjetas, búsqueda, ordenación, imágenes opcionales y CSV.
 - Las cifras de ventas o descargas no se han extrapolado a los títulos añadidos. Su indicador queda como **no disponible** hasta que exista una fuente específica.
 - `version.json` identifica esta edición como **v0.3.0**, pero el despliegue en Hostinger sigue sin estar confirmado.
+
+## Explicación de prioridades — v0.3.1 (2026-11-05)
+
+El screener añade un panel metodológico y un desplegable **«¿Por qué figura como prioridad alta/muy alta?»** en cada obra de prioridad Alta o Muy alta. La prioridad viene de una **decisión previa del catálogo**, no de un algoritmo de ranking reproducible. No se simula una justificación que no esté documentada.
+
+La explicación enumera: indicadores cuantitativos con unidades y períodos (cuando existen), información comercial o cultural contextual, edición comercial documentada, prioridad de mercado y línea editorial. También enumera lo **pendiente de demostrar**: métricas específicas de demanda, ediciones y derechos por territorio. Una obra muy alta sin indicador ni otras evidencias aparece explícitamente como hipótesis editorial sin respaldo de demanda.
+
+Para **nuevas obras**, además de los campos habituales de `catalogo-global.json`, se admite opcionalmente `priority_reason` o `priority_rationale`: texto breve que documente el *motivo editorial real* de la clasificación; idealmente debe complementarse con `evidence_url`, `indicator_type`, `indicator_value`, `indicator_period` y la fuente correspondiente. No agregar razones inventadas ni confundir notoriedad, ediciones, rankings, descargas y ventas. Ninguna ficha cambió de prioridad automáticamente.
+
+Archivos nuevos: `priority-rationale.js`, `priority-rationale.css`. Verificación: barra superior **v0.3.1** y `version.json` con identificador `SIGLO23-20261105-V0.3.1`. Es una verificación de archivos publicados, no un acceso autenticado a Hostinger.
