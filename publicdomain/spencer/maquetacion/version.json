@@ -1,0 +1,21 @@
+{
+  "project": "Editorial Siglo23 / Spencer",
+  "module": "Maquetación",
+  "version": "M02",
+  "date": "2026-11-05",
+  "features": [
+    "Grilla completa del libro en miniaturas numeradas",
+    "Clic en página para abrir pliego correspondiente",
+    "Zoom en pliego y navegación por saltos",
+    "Importación de contenido real TXT y Markdown por sección",
+    "Fragmentos de texto íntegros por página estimada",
+    "Buscador de contenido y capítulos en todas las páginas",
+    "Montserrat variable 100 a 900, normal y cursiva para cuerpo y títulos",
+    "Márgenes, sangría y sangrado sin tope superior artificial",
+    "Advertencia si la caja de texto resulta insuficiente",
+    "Exportación e importación del plan de edición en JSON"
+  ],
+  "limitation": "Paginación aproximada. Importar texto real para inspeccionar fragmentos; no sustituye InDesign ni produce PDF/X.",
+  "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M02"
+}
