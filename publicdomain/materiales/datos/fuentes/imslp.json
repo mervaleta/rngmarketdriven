@@ -1,0 +1,12 @@
+{
+  "nombre": "IMSLP",
+  "tipo": "Biblioteca musical",
+  "materiales": "Partituras, música clásica, manuscritos",
+  "derechos": "Jurisdicciones distintas; partitura/edición/grabación separados",
+  "interes": "Alta",
+  "url": "https://imslp.org/",
+  "politica": "https://imslp.org/wiki/IMSLP:Disclaimer",
+  "slug": "imslp",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

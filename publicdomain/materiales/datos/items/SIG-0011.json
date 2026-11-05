@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0011",
+  "familia": "Botánica y plantas",
+  "nombre": "Fotografía vegetal contemporánea",
+  "busqueda": "fotos de helechos; flores; hojas",
+  "uso": "Naturaleza fotográfica",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Smithsonian Open Access",
+  "url_alternativo": "https://www.si.edu/openaccess",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "fotografia-vegetal-contemporanea",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

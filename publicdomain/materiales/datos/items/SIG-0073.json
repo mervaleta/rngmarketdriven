@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0073",
+  "familia": "Diseño, artes gráficas y oficios",
+  "nombre": "Ex libris y sellos gráficos",
+  "busqueda": "marcas de biblioteca, emblemas",
+  "uso": "Ex libris históricos",
+  "principal": "Getty Open Content",
+  "url_principal": "https://www.getty.edu/projects/open-content-program/",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "ex-libris-y-sellos-graficos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,12 @@
+{
+  "nombre": "Rijksmuseum",
+  "tipo": "Museo de arte",
+  "materiales": "Grabados neerlandeses, pintura, objetos, diseños",
+  "derechos": "PD/CC0/CC BY según ficha; no todo es libre",
+  "interes": "Alta",
+  "url": "https://www.rijksmuseum.nl/en/collection",
+  "politica": "https://data.rijksmuseum.nl/policy/",
+  "slug": "rijksmuseum",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

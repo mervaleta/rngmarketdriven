@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0085",
+  "familia": "Cine y audiovisual",
+  "nombre": "Cine mudo",
+  "busqueda": "ficción muda y cortometrajes",
+  "uso": "Colección de cine mudo",
+  "principal": "Prelinger Archives",
+  "url_principal": "https://archive.org/details/prelinger",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "cine-mudo",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

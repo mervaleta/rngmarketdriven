@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0003",
+  "familia": "Botánica y plantas",
+  "nombre": "Árboles y bosques",
+  "busqueda": "cortezas; hojas; árboles notables",
+  "uso": "Árboles del mundo; calendario",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Smithsonian Open Access",
+  "url_alternativo": "https://www.si.edu/openaccess",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "arboles-y-bosques",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

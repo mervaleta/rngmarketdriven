@@ -1,0 +1,12 @@
+{
+  "nombre": "Project Gutenberg",
+  "tipo": "Biblioteca electrónica",
+  "materiales": "Novela, ensayo, poesía, filosofía, teatro",
+  "derechos": "Evaluación basada en derecho EE. UU.; trademark y otros países",
+  "interes": "Alta",
+  "url": "https://www.gutenberg.org/",
+  "politica": "https://www.gutenberg.org/policy/terms_of_use.html",
+  "slug": "project-gutenberg",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

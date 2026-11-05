@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0072",
+  "familia": "Diseño, artes gráficas y oficios",
+  "nombre": "Postales y tarjetas antiguas",
+  "busqueda": "felicitaciones, postales, calendarios",
+  "uso": "Postales del mundo",
+  "principal": "Getty Open Content",
+  "url_principal": "https://www.getty.edu/projects/open-content-program/",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "postales-y-tarjetas-antiguas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

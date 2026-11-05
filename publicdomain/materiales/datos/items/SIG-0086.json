@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0086",
+  "familia": "Cine y audiovisual",
+  "nombre": "Documentales históricos",
+  "busqueda": "noticiarios, reportajes",
+  "uso": "Documentales de archivo",
+  "principal": "Prelinger Archives",
+  "url_principal": "https://archive.org/details/prelinger",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "documentales-historicos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

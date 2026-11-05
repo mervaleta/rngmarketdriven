@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0093",
+  "familia": "Música, sonido y voz",
+  "nombre": "Partituras de música clásica",
+  "busqueda": "partituras originales y ediciones libres",
+  "uso": "Ediciones musicales",
+  "principal": "LibriVox",
+  "url_principal": "https://librivox.org/",
+  "alternativo": "IMSLP",
+  "url_alternativo": "https://imslp.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "partituras-de-musica-clasica",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

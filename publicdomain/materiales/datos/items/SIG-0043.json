@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0043",
+  "familia": "Cielos, espacio y planeta",
+  "nombre": "Planetas y lunas",
+  "busqueda": "Luna, Marte, Júpiter, superficie lunar",
+  "uso": "Atlas del sistema solar",
+  "principal": "NASA Image and Video Library",
+  "url_principal": "https://images.nasa.gov/",
+  "alternativo": "NOAA Photo Library",
+  "url_alternativo": "https://www.photolib.noaa.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "planetas-y-lunas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

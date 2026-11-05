@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0002",
+  "familia": "Botánica y plantas",
+  "nombre": "Orquídeas",
+  "busqueda": "orquídeas históricas; grabados científicos",
+  "uso": "Colección de orquídeas del mundo",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Smithsonian Open Access",
+  "url_alternativo": "https://www.si.edu/openaccess",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "orquideas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

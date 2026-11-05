@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0007",
+  "familia": "Botánica y plantas",
+  "nombre": "Semillas y frutos secos",
+  "busqueda": "semillas; cortes; morfología",
+  "uso": "Botánica al detalle",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Smithsonian Open Access",
+  "url_alternativo": "https://www.si.edu/openaccess",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "semillas-y-frutos-secos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

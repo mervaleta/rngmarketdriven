@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0058",
+  "familia": "Ciencia, medicina y tecnología",
+  "nombre": "Anatomía humana",
+  "busqueda": "dibujos anatómicos, músculos, huesos",
+  "uso": "Atlas anatómico histórico",
+  "principal": "Wellcome Collection",
+  "url_principal": "https://wellcomecollection.org/search/images",
+  "alternativo": "USGS",
+  "url_alternativo": "https://www.usgs.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "anatomia-humana",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0095",
+  "familia": "Música, sonido y voz",
+  "nombre": "Discursos y registros históricos",
+  "busqueda": "discursos de archivo, oralidad",
+  "uso": "Voces de la historia",
+  "principal": "LibriVox",
+  "url_principal": "https://librivox.org/",
+  "alternativo": "IMSLP",
+  "url_alternativo": "https://imslp.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "discursos-y-registros-historicos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

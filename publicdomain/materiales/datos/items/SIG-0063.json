@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0063",
+  "familia": "Ciencia, medicina y tecnología",
+  "nombre": "Mineralogía",
+  "busqueda": "cristales, minerales, láminas científicas",
+  "uso": "Atlas de minerales",
+  "principal": "Wellcome Collection",
+  "url_principal": "https://wellcomecollection.org/search/images",
+  "alternativo": "USGS",
+  "url_alternativo": "https://www.usgs.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "mineralogia",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

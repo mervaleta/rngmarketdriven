@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0040",
+  "familia": "Fotografía histórica",
+  "nombre": "Prensa y acontecimientos",
+  "busqueda": "fotografías periodísticas antiguas",
+  "uso": "Crónicas visuales del siglo XX",
+  "principal": "Library of Congress – Free to Use",
+  "url_principal": "https://www.loc.gov/free-to-use/",
+  "alternativo": "NYPL Digital Collections",
+  "url_alternativo": "https://digitalcollections.nypl.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "prensa-y-acontecimientos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

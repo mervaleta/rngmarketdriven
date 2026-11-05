@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0101",
+  "familia": "Arquitectura, objetos y patrimonio",
+  "nombre": "Cerámica y porcelana",
+  "busqueda": "vasijas, azulejos, patrones",
+  "uso": "Arte de la cerámica",
+  "principal": "Smithsonian Open Access",
+  "url_principal": "https://www.si.edu/openaccess",
+  "alternativo": "Getty Open Content",
+  "url_alternativo": "https://www.getty.edu/projects/open-content-program/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "ceramica-y-porcelana",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

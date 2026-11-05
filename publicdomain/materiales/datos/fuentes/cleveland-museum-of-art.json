@@ -1,0 +1,12 @@
+{
+  "nombre": "Cleveland Museum of Art",
+  "tipo": "Museo de arte",
+  "materiales": "Arte global, botánica histórica, objetos, grabados",
+  "derechos": "CC0 para activos marcados; API y datos",
+  "interes": "Alta",
+  "url": "https://www.clevelandart.org/open-access",
+  "politica": "https://www.clevelandart.org/open-access-api",
+  "slug": "cleveland-museum-of-art",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

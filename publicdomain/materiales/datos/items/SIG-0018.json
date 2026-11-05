@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0018",
+  "familia": "Zoología e historia natural",
+  "nombre": "Reptiles y anfibios",
+  "busqueda": "serpientes; ranas; reptiles",
+  "uso": "Historia natural de reptiles",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Cleveland Museum of Art",
+  "url_alternativo": "https://www.clevelandart.org/open-access",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "reptiles-y-anfibios",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,12 @@
+{
+  "nombre": "LibriVox",
+  "tipo": "Audio / audiolibros",
+  "materiales": "Audiolibros en diversos idiomas",
+  "derechos": "Grabaciones PD en EE. UU.; revisar otros países",
+  "interes": "Alta",
+  "url": "https://librivox.org/",
+  "politica": "https://librivox.org/pages/public-domain/",
+  "slug": "librivox",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

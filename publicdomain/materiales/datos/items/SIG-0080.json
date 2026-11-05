@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0080",
+  "familia": "Libros, textos y documentos",
+  "nombre": "Cocina y gastronomía histórica",
+  "busqueda": "recetarios antiguos, manuales",
+  "uso": "Recetas de otra época",
+  "principal": "Project Gutenberg",
+  "url_principal": "https://www.gutenberg.org/",
+  "alternativo": "Wikisource",
+  "url_alternativo": "https://wikisource.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "cocina-y-gastronomia-historica",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0004",
+  "familia": "Botánica y plantas",
+  "nombre": "Frutas y hortalizas",
+  "busqueda": "variedades antiguas; ilustraciones de frutas",
+  "uso": "Atlas de frutas antiguas; cocina",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Smithsonian Open Access",
+  "url_alternativo": "https://www.si.edu/openaccess",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "frutas-y-hortalizas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

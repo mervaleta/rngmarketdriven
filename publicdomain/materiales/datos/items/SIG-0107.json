@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0107",
+  "familia": "Recursos gráficos actuales",
+  "nombre": "Texturas y fondos",
+  "busqueda": "papel, madera, piedras, agua, cielo",
+  "uso": "Diseño editorial y cubiertas",
+  "principal": "Openverse",
+  "url_principal": "https://openverse.org/",
+  "alternativo": "Pexels",
+  "url_alternativo": "https://www.pexels.com/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "texturas-y-fondos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

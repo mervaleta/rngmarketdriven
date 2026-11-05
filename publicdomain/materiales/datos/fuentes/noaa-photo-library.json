@@ -1,0 +1,12 @@
+{
+  "nombre": "NOAA Photo Library",
+  "tipo": "Agencia pública",
+  "materiales": "Océanos, nubes, atmósfera, clima, especies marinas",
+  "derechos": "Generalmente libre EE. UU.; terceros/logotipos/imagen",
+  "interes": "Alta",
+  "url": "https://www.photolib.noaa.gov/",
+  "politica": "https://www.omao.noaa.gov/image-licensing-usage-info",
+  "slug": "noaa-photo-library",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

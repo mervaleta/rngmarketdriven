@@ -1,0 +1,11 @@
+{
+  "nombre": "Audiolibros clásicos",
+  "unidad": "Narraciones PD y nuevas ediciones",
+  "archivos": "LibriVox; Gutenberg",
+  "publico": "Audio; idiomas; ediciones económicas",
+  "interes": "Media",
+  "filtro": "Verificación global del texto y la grabación",
+  "slug": "audiolibros-clasicos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

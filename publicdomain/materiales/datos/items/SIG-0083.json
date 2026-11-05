@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0083",
+  "familia": "Libros, textos y documentos",
+  "nombre": "Periódicos y revistas",
+  "busqueda": "prensa histórica, publicidad impresa",
+  "uso": "Cronologías y antologías",
+  "principal": "Project Gutenberg",
+  "url_principal": "https://www.gutenberg.org/",
+  "alternativo": "Wikisource",
+  "url_alternativo": "https://wikisource.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "periodicos-y-revistas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0065",
+  "familia": "Ciencia, medicina y tecnología",
+  "nombre": "Astronomía instrumental",
+  "busqueda": "telescopios, observatorios, aparatos",
+  "uso": "Instrumentos que cambiaron el mundo",
+  "principal": "Wellcome Collection",
+  "url_principal": "https://wellcomecollection.org/search/images",
+  "alternativo": "USGS",
+  "url_alternativo": "https://www.usgs.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "astronomia-instrumental",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

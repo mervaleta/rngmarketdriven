@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0038",
+  "familia": "Fotografía histórica",
+  "nombre": "Vida doméstica",
+  "busqueda": "cocinas, escuelas, viviendas",
+  "uso": "Vida cotidiana 1850–1950",
+  "principal": "Library of Congress – Free to Use",
+  "url_principal": "https://www.loc.gov/free-to-use/",
+  "alternativo": "NYPL Digital Collections",
+  "url_alternativo": "https://digitalcollections.nypl.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "vida-domestica",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

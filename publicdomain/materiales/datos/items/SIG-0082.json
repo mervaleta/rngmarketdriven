@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0082",
+  "familia": "Libros, textos y documentos",
+  "nombre": "Viajes y exploración escrita",
+  "busqueda": "diarios de viaje, cartas, crónicas",
+  "uso": "Viajeros y exploradores",
+  "principal": "Project Gutenberg",
+  "url_principal": "https://www.gutenberg.org/",
+  "alternativo": "Wikisource",
+  "url_alternativo": "https://wikisource.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "viajes-y-exploracion-escrita",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

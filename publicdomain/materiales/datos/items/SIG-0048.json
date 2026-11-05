@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0048",
+  "familia": "Cielos, espacio y planeta",
+  "nombre": "Volcanes y montañas",
+  "busqueda": "erupciones, cordilleras, geografía",
+  "uso": "Planeta vivo",
+  "principal": "NASA Image and Video Library",
+  "url_principal": "https://images.nasa.gov/",
+  "alternativo": "NOAA Photo Library",
+  "url_alternativo": "https://www.photolib.noaa.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "volcanes-y-montanas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

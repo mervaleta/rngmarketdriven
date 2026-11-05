@@ -1,0 +1,12 @@
+{
+  "nombre": "Google Patents",
+  "tipo": "Patentes / técnica",
+  "materiales": "Diagramas de inventos, mecánica, dispositivos",
+  "derechos": "Patente y derecho de autor son distintos; revisar cada figura",
+  "interes": "Media",
+  "url": "https://patents.google.com/",
+  "politica": "https://patents.google.com/",
+  "slug": "google-patents",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

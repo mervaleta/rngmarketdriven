@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0049",
+  "familia": "Cielos, espacio y planeta",
+  "nombre": "Clima extremo",
+  "busqueda": "tornados, huracanes, rayos, nevadas",
+  "uso": "Fuerzas de la naturaleza",
+  "principal": "NASA Image and Video Library",
+  "url_principal": "https://images.nasa.gov/",
+  "alternativo": "NOAA Photo Library",
+  "url_alternativo": "https://www.photolib.noaa.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "clima-extremo",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

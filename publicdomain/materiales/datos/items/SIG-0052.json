@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0052",
+  "familia": "Cartografía y geografía",
+  "nombre": "Mapas de ciudades",
+  "busqueda": "planos históricos de capitales",
+  "uso": "Ciudades en mapas",
+  "principal": "Library of Congress – Free to Use",
+  "url_principal": "https://www.loc.gov/free-to-use/",
+  "alternativo": "NYPL Digital Collections",
+  "url_alternativo": "https://digitalcollections.nypl.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "mapas-de-ciudades",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

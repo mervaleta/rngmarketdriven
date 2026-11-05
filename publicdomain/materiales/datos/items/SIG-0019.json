@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0019",
+  "familia": "Zoología e historia natural",
+  "nombre": "Fósiles y paleontología",
+  "busqueda": "fósiles, esqueletos, trilobites",
+  "uso": "Mundo prehistórico",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Cleveland Museum of Art",
+  "url_alternativo": "https://www.clevelandart.org/open-access",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "fosiles-y-paleontologia",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

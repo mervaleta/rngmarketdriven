@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0081",
+  "familia": "Libros, textos y documentos",
+  "nombre": "Diccionarios y enciclopedias",
+  "busqueda": "lexicones, atlas y repertorios",
+  "uso": "Atlas y diccionarios curados",
+  "principal": "Project Gutenberg",
+  "url_principal": "https://www.gutenberg.org/",
+  "alternativo": "Wikisource",
+  "url_alternativo": "https://wikisource.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "diccionarios-y-enciclopedias",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

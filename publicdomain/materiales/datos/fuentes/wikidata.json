@@ -1,0 +1,12 @@
+{
+  "nombre": "Wikidata",
+  "tipo": "Base de metadatos",
+  "materiales": "Autores, fechas, obras, movimientos, lugares",
+  "derechos": "Datos CC0; no garantiza derechos en imágenes enlazadas",
+  "interes": "Alta",
+  "url": "https://www.wikidata.org/",
+  "politica": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "slug": "wikidata",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

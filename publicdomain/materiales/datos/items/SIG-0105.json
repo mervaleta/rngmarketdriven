@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0105",
+  "familia": "Arquitectura, objetos y patrimonio",
+  "nombre": "Modelos tridimensionales",
+  "busqueda": "modelos 3D escaneados de museo",
+  "uso": "Museo virtual / objetos impresos 3D",
+  "principal": "Smithsonian Open Access",
+  "url_principal": "https://www.si.edu/openaccess",
+  "alternativo": "Getty Open Content",
+  "url_alternativo": "https://www.getty.edu/projects/open-content-program/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "modelos-tridimensionales",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

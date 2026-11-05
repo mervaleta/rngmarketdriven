@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0067",
+  "familia": "Diseño, artes gráficas y oficios",
+  "nombre": "Carteles turísticos",
+  "busqueda": "afiches de ciudades, trenes, países",
+  "uso": "Carteles de viaje",
+  "principal": "Getty Open Content",
+  "url_principal": "https://www.getty.edu/projects/open-content-program/",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "carteles-turisticos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

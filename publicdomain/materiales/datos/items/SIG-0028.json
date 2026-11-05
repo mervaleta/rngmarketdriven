@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0028",
+  "familia": "Pintura y arte",
+  "nombre": "Arte islámico y patrones",
+  "busqueda": "geometría, mosaicos, manuscritos",
+  "uso": "Patrones del mundo",
+  "principal": "The Met Open Access",
+  "url_principal": "https://www.metmuseum.org/es/hubs/open-access",
+  "alternativo": "Getty Open Content",
+  "url_alternativo": "https://www.getty.edu/projects/open-content-program/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "arte-islamico-y-patrones",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

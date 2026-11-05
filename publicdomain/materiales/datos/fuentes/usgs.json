@@ -1,0 +1,12 @@
+{
+  "nombre": "USGS",
+  "tipo": "Agencia pública",
+  "materiales": "Geología, mapas, volcanes, sismos, paisajes",
+  "derechos": "Producido por USGS generalmente PD EE. UU.; terceros excluidos",
+  "interes": "Alta",
+  "url": "https://www.usgs.gov/",
+  "politica": "https://www.usgs.gov/faqs/are-usgs-reportspublications-copyrighted",
+  "slug": "usgs",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

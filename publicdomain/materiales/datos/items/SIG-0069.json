@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0069",
+  "familia": "Diseño, artes gráficas y oficios",
+  "nombre": "Ornamentos y cenefas",
+  "busqueda": "adornos de libros, borduras, grabados",
+  "uso": "Biblioteca de ornamentos",
+  "principal": "Getty Open Content",
+  "url_principal": "https://www.getty.edu/projects/open-content-program/",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "ornamentos-y-cenefas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

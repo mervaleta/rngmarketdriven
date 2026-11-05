@@ -1,0 +1,12 @@
+{
+  "nombre": "Europeana",
+  "tipo": "Agregador cultural",
+  "materiales": "Museos, archivos y bibliotecas de Europa",
+  "derechos": "Filtrar PDM/CC0/CC BY; revisar fuente",
+  "interes": "Alta",
+  "url": "https://www.europeana.eu/",
+  "politica": "https://pro.europeana.eu/index.php/page/available-rights-statements",
+  "slug": "europeana",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

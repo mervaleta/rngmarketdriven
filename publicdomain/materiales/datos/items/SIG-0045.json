@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0045",
+  "familia": "Cielos, espacio y planeta",
+  "nombre": "Auroras y fenómenos celestes",
+  "busqueda": "auroras, cometas, eclipses",
+  "uso": "Fenómenos del cielo",
+  "principal": "NASA Image and Video Library",
+  "url_principal": "https://images.nasa.gov/",
+  "alternativo": "NOAA Photo Library",
+  "url_alternativo": "https://www.photolib.noaa.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "auroras-y-fenomenos-celestes",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

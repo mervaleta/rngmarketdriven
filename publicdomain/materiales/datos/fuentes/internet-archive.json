@@ -1,0 +1,12 @@
+{
+  "nombre": "Internet Archive",
+  "tipo": "Biblioteca digital",
+  "materiales": "Libros, cine, audio, partituras, imágenes",
+  "derechos": "Muy mixto; no presume dominio público",
+  "interes": "Media",
+  "url": "https://archive.org/",
+  "politica": "https://archivesupport.zendesk.com/hc/en-us/articles/360017808151-Movies-and-Videos-A-Basic-Guide",
+  "slug": "internet-archive",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

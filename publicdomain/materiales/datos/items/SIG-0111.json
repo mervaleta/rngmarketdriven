@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0111",
+  "familia": "Recursos gráficos actuales",
+  "nombre": "Datos y tablas abiertas",
+  "busqueda": "datos públicos, catálogos, fechas",
+  "uso": "Atlas y visualizaciones",
+  "principal": "Openverse",
+  "url_principal": "https://openverse.org/",
+  "alternativo": "Pexels",
+  "url_alternativo": "https://www.pexels.com/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "datos-y-tablas-abiertas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0068",
+  "familia": "Diseño, artes gráficas y oficios",
+  "nombre": "Tipografía histórica",
+  "busqueda": "especímenes de letras, alfabetos",
+  "uso": "Atlas de tipografía",
+  "principal": "Getty Open Content",
+  "url_principal": "https://www.getty.edu/projects/open-content-program/",
+  "alternativo": "Library of Congress – Free to Use",
+  "url_alternativo": "https://www.loc.gov/free-to-use/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "tipografia-historica",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

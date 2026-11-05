@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0059",
+  "familia": "Ciencia, medicina y tecnología",
+  "nombre": "Ciencia microscópica",
+  "busqueda": "células, bacterias, láminas",
+  "uso": "Lo invisible ilustrado",
+  "principal": "Wellcome Collection",
+  "url_principal": "https://wellcomecollection.org/search/images",
+  "alternativo": "USGS",
+  "url_alternativo": "https://www.usgs.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "ciencia-microscopica",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

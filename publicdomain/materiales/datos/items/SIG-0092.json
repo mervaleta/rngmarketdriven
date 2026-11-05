@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0092",
+  "familia": "Música, sonido y voz",
+  "nombre": "Audiolibros",
+  "busqueda": "grabaciones de clásicos multilingües",
+  "uso": "Biblioteca sonora",
+  "principal": "LibriVox",
+  "url_principal": "https://librivox.org/",
+  "alternativo": "IMSLP",
+  "url_alternativo": "https://imslp.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "audiolibros",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

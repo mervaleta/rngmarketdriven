@@ -1,0 +1,12 @@
+{
+  "nombre": "Biodiversity Heritage Library",
+  "tipo": "Biblioteca científica",
+  "materiales": "Láminas de plantas, animales, hongos, revistas científicas",
+  "derechos": "Mixto: revisar Copyright Status de cada volumen",
+  "interes": "Alta",
+  "url": "https://www.biodiversitylibrary.org/",
+  "politica": "https://about.biodiversitylibrary.org/help/copyright-and-reuse/",
+  "slug": "biodiversity-heritage-library",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

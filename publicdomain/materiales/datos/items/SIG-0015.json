@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0015",
+  "familia": "Zoología e historia natural",
+  "nombre": "Peces y fauna marina",
+  "busqueda": "ictiología; peces coralinos",
+  "uso": "Atlas de peces",
+  "principal": "Biodiversity Heritage Library",
+  "url_principal": "https://www.biodiversitylibrary.org/",
+  "alternativo": "Cleveland Museum of Art",
+  "url_alternativo": "https://www.clevelandart.org/open-access",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "peces-y-fauna-marina",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

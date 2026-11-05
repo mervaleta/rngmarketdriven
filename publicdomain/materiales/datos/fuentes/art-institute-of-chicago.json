@@ -1,0 +1,12 @@
+{
+  "nombre": "Art Institute of Chicago",
+  "tipo": "Museo de arte",
+  "materiales": "Arte japonés, pinturas, grabados, dibujos y sus metadatos",
+  "derechos": "Solo obras con is_public_domain=true",
+  "interes": "Alta",
+  "url": "https://www.artic.edu/collection",
+  "politica": "https://api.artic.edu/docs/",
+  "slug": "art-institute-of-chicago",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

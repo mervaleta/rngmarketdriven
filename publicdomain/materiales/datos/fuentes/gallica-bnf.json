@@ -1,0 +1,12 @@
+{
+  "nombre": "Gallica (BnF)",
+  "tipo": "Biblioteca nacional (Francia)",
+  "materiales": "Láminas, fotografía, prensa, literatura, mapas",
+  "derechos": "Reutilización condicionada por términos BnF; verificar",
+  "interes": "Media",
+  "url": "https://gallica.bnf.fr/",
+  "politica": "https://gallica.bnf.fr/",
+  "slug": "gallica-bnf",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

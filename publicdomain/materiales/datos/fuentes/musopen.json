@@ -1,0 +1,12 @@
+{
+  "nombre": "Musopen",
+  "tipo": "Música",
+  "materiales": "Grabaciones, partituras, libros didácticos",
+  "derechos": "Mixto: comprobar licencia de cada grabación",
+  "interes": "Media",
+  "url": "https://musopen.org/es/",
+  "politica": "https://musopen.org/es/",
+  "slug": "musopen",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0084",
+  "familia": "Libros, textos y documentos",
+  "nombre": "Manuscritos y cartas",
+  "busqueda": "correspondencia, diarios, archivos",
+  "uso": "Cartas que hicieron historia",
+  "principal": "Project Gutenberg",
+  "url_principal": "https://www.gutenberg.org/",
+  "alternativo": "Wikisource",
+  "url_alternativo": "https://wikisource.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "manuscritos-y-cartas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

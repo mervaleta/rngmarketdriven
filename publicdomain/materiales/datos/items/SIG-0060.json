@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0060",
+  "familia": "Ciencia, medicina y tecnología",
+  "nombre": "Inventos y patentes históricas",
+  "busqueda": "maquinaria, patentes caducadas",
+  "uso": "100 grandes inventos",
+  "principal": "Wellcome Collection",
+  "url_principal": "https://wellcomecollection.org/search/images",
+  "alternativo": "USGS",
+  "url_alternativo": "https://www.usgs.gov/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Alta",
+  "estado": "Por relevar",
+  "slug": "inventos-y-patentes-historicas",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SIG-0097",
+  "familia": "Música, sonido y voz",
+  "nombre": "Canciones tradicionales",
+  "busqueda": "folclore tradicional y registros libres",
+  "uso": "Cancioneros del mundo",
+  "principal": "LibriVox",
+  "url_principal": "https://librivox.org/",
+  "alternativo": "IMSLP",
+  "url_alternativo": "https://imslp.org/",
+  "regimen": "Verificar licencia de CADA pieza",
+  "advertencia": "Revisar origen, edición, país de uso y arancel FNA",
+  "prioridad": "Media",
+  "estado": "Por relevar",
+  "slug": "canciones-tradicionales",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}

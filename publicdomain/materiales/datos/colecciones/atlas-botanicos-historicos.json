@@ -1,0 +1,11 @@
+{
+  "nombre": "Atlas botánicos históricos",
+  "unidad": "Láminas por especie y región",
+  "archivos": "BHL; Smithsonian; Cleveland",
+  "publico": "Público general; jardinería; coleccionistas",
+  "interes": "Alta",
+  "filtro": "Alta calidad de reproducción y taxonomía",
+  "slug": "atlas-botanicos-historicos",
+  "fecha_importacion": "2026-11-05",
+  "estado_publicacion": "Investigación interna"
+}
