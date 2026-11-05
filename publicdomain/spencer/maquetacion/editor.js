@@ -6,7 +6,7 @@ const clamp=(x,min,max,d=min)=>{const n=Number(x);return Number.isFinite(n)?Math
 const f=(n,d=0)=>Number(n||0).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d});
 const KEY='siglo23-spencer-maquetacion-v1';
 const seed={
- trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.38,
+ trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.38, fontWeight:400,fontStyle:'normal',headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',texts:{},
  marginInner:22,marginOuter:17,marginTop:21,marginBottom:21,indent:4,paraGap:3,bleed:3,caliper:.105,
  words:90000,zoom:.62,coverColor:'#24443a',title:'El individuo contra el Estado',
  author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,
@@ -26,14 +26,24 @@ const scenes=[
  ['toc','Índice general'],['chapter','Apertura de capítulo'],['body','Texto corrido'],
  ['plates','Lámina ilustrada'],['notes','Notas críticas'],['chronology','Cronología'],['afterword','Epílogo']
 ];
-const bounds={customW:[90,250],customH:[120,330],fontPt:[7.5,18],leading:[1.05,2],marginInner:[9,45],marginOuter:[8,40],marginTop:[10,45],marginBottom:[10,45],indent:[0,12],paraGap:[0,10],bleed:[0,8],caliper:[.05,.25],words:[0,1000000],zoom:[.35,1.3]};
-const fonts=["Georgia, 'Times New Roman', serif","'Palatino Linotype', Palatino, 'Book Antiqua', serif","Garamond, 'Times New Roman', serif","Baskerville, 'Times New Roman', serif","'Times New Roman', Times, serif"];
+const bounds={customW:[90,250],customH:[120,330],fontPt:[7.5,18],leading:[1.05,2],caliper:[.05,.25],words:[0,1000000],zoom:[.35,1.3]};
+const fonts=["Montserrat, Arial, sans-serif","Georgia, 'Times New Roman', serif","'Palatino Linotype', Palatino, 'Book Antiqua', serif","Garamond, 'Times New Roman', serif","Baskerville, 'Times New Roman', serif","'Times New Roman', Times, serif"];
 function hydrate(raw){
  const s={...seed,...(raw||{})};
  if(!formats[s.trim]&&s.trim!=='custom')s.trim='a5';
  for(const [key,[min,max]] of Object.entries(bounds))s[key]=clamp(s[key],min,max,seed[key]);
+ for(const key of ['marginInner','marginOuter','marginTop','marginBottom','indent','paraGap','bleed']) {
+  const n=Number(s[key]);s[key]=Number.isFinite(n)?Math.max(0,n):seed[key];
+ }
+ for(const key of ['fontWeight','headingWeight'])s[key]=clamp(s[key],100,900,400);
+ for(const key of ['fontStyle','headingStyle'])s[key]=s[key]==='italic'?'italic':'normal';
+ s.texts=(s.texts&&typeof s.texts==='object'&&!Array.isArray(s.texts))?s.texts:{};
+ for(const key of Object.keys(s.texts)){
+  if(typeof s.texts[key]!=='string')delete s.texts[key];else s.texts[key]=s.texts[key].slice(0,4000000);
+ }
  for(const key of ['title','author','imprint','sample'])s[key]=typeof s[key]==='string'?s[key].slice(0,key==='sample'?15000:160):seed[key];
  if(!fonts.includes(s.font))s.font=seed.font;
+ if(!fonts.includes(s.headingFont))s.headingFont=seed.headingFont;
  if(!/^#[\da-fA-F]{6}$/.test(s.coverColor))s.coverColor=seed.coverColor;
  for(const key of ['showGuides','showFolios','showRunning'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
@@ -47,32 +57,33 @@ function load(){try{return JSON.parse(localStorage.getItem(KEY))}catch{return nu
 let state=hydrate(load()),scene='cover',coverFile='',plan=null;
 function fmt(){return formats[state.trim]||[state.customW,state.customH]}
 function analyze(){
- const [w,h]=fmt(),width=Math.max(30,w-state.marginInner-state.marginOuter);
- const height=Math.max(70,h-state.marginTop-state.marginBottom-(state.showRunning?7:1)-(state.showFolios?7:1));
+ const [w,h]=fmt(),width=Math.max(0,w-state.marginInner-state.marginOuter);
+ const height=Math.max(0,h-state.marginTop-state.marginBottom-(state.showRunning?7:1)-(state.showFolios?7:1));
+ const invalid=width<20||height<30;
  const charWidth=state.fontPt*25.4/72*.51;
- const wordsPage=Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,90,1000,400));
- const mainPages=Math.ceil(state.words/wordsPage);
+ const wordsPage=invalid?0:Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,1,10000,400));
+ const mainPages=invalid?0:Math.ceil(state.words/wordsPage);
  const items=[];let page=1,rectoBlanks=0;
  for(const sec of state.sections.filter(x=>x.enabled)){
   if(sec.recto&&page%2===0){items.push({name:'Blanco de cortesía para recto',start:page,end:page,pages:1,blank:true});rectoBlanks++;page++}
   const pages=sec.pages==='auto'?mainPages:sec.pages;
   if(!pages)continue;
-  items.push({name:sec.name,start:page,end:page+pages-1,pages});page+=pages;
+  items.push({id:sec.id,name:sec.name,start:page,end:page+pages-1,pages});page+=pages;
  }
  const pad=(4-(page-1)%4)%4;
  if(pad)items.push({name:'Blancos finales (hipótesis de cuadernillo)',start:page,end:page+pad-1,pages:pad,blank:true});
  const total=page-1+pad,sheets=Math.ceil(total/2),spine=sheets*state.caliper;
- return {w,h,wordsPage,mainPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad};
+ return {w,h,wordsPage,mainPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,invalid,width,height};
 }
 function store(){try{localStorage.setItem(KEY,JSON.stringify(state));$('#saveStatus').textContent='Guardado localmente'}catch{$('#saveStatus').textContent='No se pudo guardar en este navegador'}}
 function setFields(){
- const map={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
+ const map={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontWeight:'fontWeight',fontStyle:'fontStyle',headingFont:'headingFont',headingWeight:'headingWeight',headingStyle:'headingStyle',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
  for(const [id,k] of Object.entries(map))$('#'+id).value=state[k];
  for(const k of ['showGuides','showFolios','showRunning'])$('#'+k).checked=state[k];
  $('#customDims').hidden=state.trim!=='custom';
 }
 function vars(p){return Object.entries({
- '--page-width':p.w+'mm','--page-height':p.h+'mm','--body-font':state.font,'--body-size':state.fontPt+'pt',
+ '--page-width':p.w+'mm','--page-height':p.h+'mm','--body-font':state.font,'--body-weight':state.fontWeight,'--body-style':state.fontStyle,'--heading-font':state.headingFont,'--heading-weight':state.headingWeight,'--heading-style':state.headingStyle,'--body-size':state.fontPt+'pt',
  '--leading':state.leading,'--margin-in':state.marginInner+'mm','--margin-out':state.marginOuter+'mm',
  '--margin-top':state.marginTop+'mm','--margin-bottom':state.marginBottom+'mm','--indent':state.indent+'mm',
  '--para-gap':state.paraGap+'mm','--bleed':state.bleed+'mm','--cover-color':state.coverColor,
@@ -149,11 +160,12 @@ function render(){
  $$('.view-switch [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===scene)));
  $('#prevView').disabled=scene===scenes[0][0];$('#nextView').disabled=scene===scenes[scenes.length-1][0];
  renderRows();
+ if(typeof window!=='undefined'&&window.dispatchEvent)window.dispatchEvent(new Event('siglo23:layout-change'));
 }
 function changed(){store();render()}
-const binds={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
-for(const [id,k] of Object.entries(binds))$('#'+id).addEventListener(['trim','fontFamily','coverColor'].includes(id)?'change':'input',e=>{
- state[k]=['trim','font','coverColor','title','author','imprint','sample'].includes(k)?e.target.value:Number(e.target.value);
+const binds={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontWeight:'fontWeight',fontStyle:'fontStyle',headingFont:'headingFont',headingWeight:'headingWeight',headingStyle:'headingStyle',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
+for(const [id,k] of Object.entries(binds))$('#'+id).addEventListener(['trim','fontFamily','fontWeight','fontStyle','headingFont','headingWeight','headingStyle','coverColor'].includes(id)?'change':'input',e=>{
+ state[k]=['trim','font','fontStyle','headingFont','headingStyle','coverColor','title','author','imprint','sample'].includes(k)?e.target.value:Number(e.target.value);
  state=hydrate(state);
  if(id==='trim')$('#customDims').hidden=state.trim!=='custom';
  changed();
@@ -201,5 +213,21 @@ $('#printProof').addEventListener('click',()=>{
  win.document.open();win.document.write(html);win.document.close();
  $('#saveStatus').textContent='Prueba de impresión abierta. Puede guardarse como PDF.';
 });
+window.S23Layout={
+ getState:()=>state,
+ getPlan:()=>plan,
+ getVars:()=>vars(plan),
+ getSectionText:id=>state.texts?.[id]||'',
+ putSectionText:(id,text)=>{
+  if(!state.sections.some(x=>x.id===id))throw Error('Sección inexistente');
+  if(typeof text!=='string')throw Error('Texto inválido');
+  state.texts={...state.texts,[id]:text.slice(0,4000000)};
+  if(id==='text'){
+   state.words=(state.texts.text.match(/\S+/g)||[]).length;
+   $('#words').value=state.words;
+  }
+  store();render();
+ }
+};
 setFields();render();
 })();
