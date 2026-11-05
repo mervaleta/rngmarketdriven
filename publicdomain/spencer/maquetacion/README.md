@@ -38,3 +38,22 @@ La página usa textos de demostración, **no una traducción autenticada de Spen
 ## Publicación
 
 Confirmados cambios en el repositorio GitHub de RNGMarketDriven. **No se ha confirmado que Hostinger o el dominio público hayan recibido automáticamente estos archivos**.
+
+
+## M02 — Grilla completa y Montserrat (5 de noviembre de 2026)
+
+La pantalla arranca ahora en **Libro completo**, una grilla de miniaturas para **todas las páginas interiores estimadas**, numeradas individualmente. Cada miniatura distingue página en blanco, parte editorial sin texto y contenido real importado.
+
+- Seleccionar cualquier miniatura abre su **pliego** (página par a la izquierda e impar a la derecha); volver a la grilla, ir a una página concreta y navegar por las páginas enfrentadas con flechas o botones.
+- Zoom de miniaturas de 64 a 200 px; zoom del pliego controlado por el ajuste principal.
+- Debajo del pliego se muestra un **panel de texto no recortado** con las palabras asignadas a cada página y su intervalo aproximado.
+- Buscar por número, nombre de sección o **texto importado** en todas las miniaturas.
+- Importar textos por cada sección (TXT o Markdown UTF-8), o pegarlos en la interfaz. Cuando se carga el texto principal, la cifra de palabras deja de ser la hipótesis de 90.000 y pasa a ser el recuento real del archivo. La distribución **sigue siendo geométrica aproximada**, no una maquetación tipográfica definitiva.
+- El archivo se procesa localmente en el navegador; no se transfiere automáticamente a servidor. El estado, incluidos los textos, intenta guardarse en el localStorage del navegador; si se agota su cuota puede perderse al cerrar sesión. El respaldo JSON **sí puede incluir** el texto importado: tratarlo como un archivo privado.
+- Montserrat está disponible para cuerpo y títulos con pesos del **100 al 900**, en redonda y cursiva, mediante la API de Google Fonts; la fuente original está licenciada bajo SIL OFL. Si no hay conexión para cargarla se emplea una sustitución local.
+- Los márgenes interiores/exteriores/superiores/inferiores, sangrías, separación de párrafos y sangrado admiten **cualquier número no negativo**, sin máximo artificial. Si se elimina la superficie útil de texto se muestra un diagnóstico y el cálculo principal queda no disponible.
+- Estimación de palabras por página apoyada, si el navegador lo permite, en las métricas medidas de la tipografía seleccionada. Sigue sin resolver huérfanas/viudas, notas a pie, imágenes flotantes ni partición final de sílabas.
+
+**Archivos obligatorios de M02:** `index.html`, `editor.css`, `editor.js`, `overview.js`. El manifiesto `version.json` contiene la marca `SIGLO23-SPENCER-MAQUETACION-M02`.
+
+La presencia de estos archivos en GitHub está comprobada; su disponibilidad pública en Hostinger sigue sin confirmarse.
