@@ -1,5 +1,15 @@
 # Registro de versiones — Editorial Siglo23 /publicdomain
 
+## v0.3.0 — 2026-11-05
+
+- Catálogo ampliado de 132 a 307 fichas de obras (175 nuevas) y 31 mercados o ámbitos de investigación.
+- Temáticas estructuradas por obra, autor, año de publicación y género; conservar faltantes como pendientes de investigación.
+- 16 ediciones comerciales documentadas mediante ficha editorial, año, ISBN, idioma y enlace. Esto no comprueba existencias ni derechos de la traducción.
+- Filtros adicionales múltiples por temáticas y estado editorial, manteniendo las casillas, imágenes y ordenamientos de v0.2.0.
+- Exportación CSV enriquecida con temáticas y atributos de edición, incluyendo enlaces a los editores.
+- Separación metodológica entre popularidad, mera relevancia cultural, estado editorial y viabilidad jurídica.
+- La nueva versión solo está confirmada en GitHub; la actualización de Hostinger sigue sin verificarse.
+
 ## v0.2.0 — 2026-11-05
 
 - Número de versión visible y verificable desde `version.json`.
