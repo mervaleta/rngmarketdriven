@@ -23,16 +23,16 @@
   <div class="top-right">
     <a href="../">← Dossier de Spencer</a>
     <a href="../../">Panel editorial</a>
-    <span class="status">PREPRODUCCIÓN · V1.1</span>
+    <span class="status">PREPRODUCCIÓN · V1.2</span>
     <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
   </div>
 </header>
 <div class="titlebar">
   <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
     <p>Una grilla completa del volumen para hacer zoom en cualquier pliego, revisar qué texto contiene, ajustar Montserrat y cambiar márgenes, sangrías, páginas blancas y extras.</p></div>
-  <span class="version">M02 · GRILLA COMPLETA Y MONTSERRAT</span>
+  <span class="version">M03 · ORIGINAL INGLÉS 1884</span>
 </div>
-<div class="app-intro-note">La grilla incluye <strong>todas las páginas calculadas</strong>. Para ver texto real en ellas importá cada sección en TXT o Markdown. La distribución es aproximada y no sustituye el libro compuesto en InDesign. Los ejemplos textuales y folios son ilustrativos.</div>
+<div class="app-intro-note">La grilla incluye automáticamente la <strong>transcripción completa en inglés de 1884</strong>, dividida en prefacio, cuatro ensayos y posdata. Los extras mantienen sus estimaciones. La distribución tipográfica sigue siendo aproximada. Los ejemplos textuales y folios son ilustrativos.</div>
 <div class="workspace">
   <aside class="inspector" aria-label="Controles de composición">
     <div class="pane-head"><h2>Propiedades</h2><small>mm / pt</small></div>
@@ -156,24 +156,24 @@
       </div>
       <div class="preview-host" id="previewHost" aria-label="Maqueta del libro"><div class="spread">Preparando maqueta…</div></div>
       <div class="guide-key" id="guideKey" aria-label="Leyenda de guías"><span><i></i> Márgenes</span><span><i class="bleed"></i> Sangrado <b id="metricBleed">3 mm</b></span></div>
-      <p class="stage-hint" id="stageHint">Cada miniatura corresponde a una página del plan; hacé clic para abrir el pliego. Solo las secciones con texto importado muestran fragmentos reales, distribuidos aproximadamente.</p>
+      <p class="stage-hint" id="stageHint">Cada miniatura representa una página del libro. El texto central se carga desde la transcripción inglesa de 1884; los capítulos complementarios son estimativos hasta redactarlos.</p>
     </div>
   </main>
   <aside class="planner" aria-label="Plan de paginación y extras">
     <div class="pane-head"><h2>Plan del volumen</h2><small>Simulador</small></div>
-    <label class="wide-label">Palabras estimadas del manuscrito principal
-      <input id="words" type="number" min="0" max="1000000" step="1000" value="90000">
+    <label class="wide-label">Palabras del original inglés (recuento automático)
+      <input id="words" type="number" min="0" max="1000000" step="1" value="0" readonly title="Recuento real de palabras del texto de 1884">
     </label>
-    <p class="help">Las 90.000 palabras iniciales son una <strong>hipótesis editable</strong>, no un recuento real del texto de Spencer.</p>
+    <p class="help">El recuento viene de la transcripción de 1884 (prefacio, cuatro ensayos y posdata). Los demás apartados conservan páginas estimadas. <span id="originalTextStatus" role="status" style="display:block;margin-top:6px;color:#ecd8a7">Cargando el original…</span></p>
     <fieldset class="import-group">
  <legend>Textos reales de cada sección</legend>
  <label class="wide-label">Sección a revisar<select id="importSection" aria-label="Sección a la que se asignará el texto"></select></label>
  <label class="wide-label">Importar archivo TXT / Markdown<input id="manuscriptFile" type="file" accept=".txt,.md,text/plain,text/markdown"></label>
  <label class="wide-label">O pegar texto completo de la sección<textarea id="manuscriptPaste" rows="4" placeholder="Pegá el texto definitivo de esta sección para recorrerlo página por página…"></textarea></label>
  <div class="block-actions"><button id="applyManuscript" type="button">Aplicar texto</button><button id="removeManuscript" type="button">Borrar texto de sección</button></div>
- <p id="manuscriptStatus" class="help" role="status">No hay manuscritos importados. La grilla mostrará secciones y marcadores hasta que cargues texto real.</p>
+ <p id="manuscriptStatus" class="help" role="status">El inglés original se carga automáticamente; también podés importar o pegar traducciones y materiales complementarios.</p>
  </fieldset>
- <div class="warning" id="geometryWarning" hidden role="alert"></div>
+ <div class="warning" id="geometryWarning" hidden role="alert"></div><div class="warning" id="originalEvidence" hidden></div>
  <div class="metrics">
       <div class="metric"><strong id="metricPages">—</strong><span>Páginas interiores estimadas</span></div>
       <div class="metric"><strong id="metricMain">—</strong><span>Páginas de texto principal</span></div>
@@ -198,6 +198,6 @@
     <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
   </aside>
 </div>
-<script src="./editor.js?v=1.1.0" defer></script><script src="./overview.js?v=1.1.0" defer></script>
+<script src="./editor.js?v=1.2.0" defer></script><script src="./overview.js?v=1.2.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script>
 </body>
 </html>
