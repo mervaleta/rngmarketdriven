@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#162328">
+<meta name="description" content="Estudio interactivo de maquetación para la edición crítica de El individuo contra el Estado de Herbert Spencer: cubierta, páginas, márgenes, tipografía, extras y paginación orientativa.">
+<title>Maquetación · Herbert Spencer — Editorial Siglo23</title>
+<link rel="stylesheet" href="./editor.css?v=1.0.0">
+<style>
+.view-switch{max-width:min(100%,900px);overflow-x:auto;scrollbar-width:thin;scrollbar-color:#84928a #1c2d30}
+.view-switch button{white-space:nowrap;flex:none}
+.view-switch::-webkit-scrollbar{height:5px}.view-switch::-webkit-scrollbar-thumb{background:#84928a}
+.top-right{gap:7px}.studio-tools{display:block}.studio-tools .tool-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}.view-nav{justify-content:space-between}.app-intro-note{background:#15282a;padding:9px 14px;color:#c3cfc4;font-size:11px;border-bottom:1px solid #475651}
+.inspector details{border-top:1px solid #4c5d58;margin-top:16px;padding-top:10px}.inspector details summary{cursor:pointer;color:#f0d6ae;letter-spacing:.07em;font-weight:700;font-size:11px;text-transform:uppercase;margin-bottom:12px}
+@media(max-width:800px){.view-switch{max-width:calc(100vw - 30px)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="../" class="brand" title="Regresar al expediente editorial"><strong>S·23</strong><span>EDITORIAL SIGLO23<b>MAQUETACIÓN · SPENCER</b></span></a>
+  <div class="top-right">
+    <a href="../">← Dossier de Spencer</a>
+    <a href="../../">Panel editorial</a>
+    <span class="status">PREPRODUCCIÓN · V1.0</span>
+    <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
+  </div>
+</header>
+<div class="titlebar">
+  <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
+    <p>Una mesa visual para experimentar con la edición de lujo de <em>El individuo contra el Estado</em>. Ajustá medidas reales, compará tipografía, calculá secciones y diseñá la cubierta desplegada.</p></div>
+  <span class="version">M01 · 05 NOV 2026</span>
+</div>
+<div class="app-intro-note">La vista es una <strong>maqueta de simulación</strong>: no sustituye InDesign, una corrección final, ni un archivo KDP/PDF/X listo para imprenta. Los ejemplos textuales y folios son ilustrativos.</div>
+<div class="workspace">
+  <aside class="inspector" aria-label="Controles de composición">
+    <div class="pane-head"><h2>Propiedades</h2><small>mm / pt</small></div>
+    <fieldset><legend>01 / Documento</legend>
+      <div class="controls">
+        <label class="full">Formato de corte
+          <select id="trim">
+            <option value="a5">A5 · 148 × 210 mm</option>
+            <option value="trade">6 × 9″ · 152,4 × 228,6 mm</option>
+            <option value="compact">5,5 × 8,5″ · 139,7 × 215,9 mm</option>
+            <option value="large">170 × 240 mm</option>
+            <option value="custom">Personalizado</option>
+          </select>
+        </label>
+        <div id="customDims" class="full controls" hidden>
+          <label>Ancho (mm)<input id="customW" type="number" min="90" max="250" step=".1" value="148"></label>
+          <label>Alto (mm)<input id="customH" type="number" min="120" max="330" step=".1" value="210"></label>
+        </div>
+        <label>Sangrado (mm)<input id="bleed" type="number" min="0" max="8" step=".5" value="3"></label>
+        <label>Calibre / hoja (mm)<input id="paperCaliper" type="number" min=".05" max=".25" step=".005" value=".105"></label>
+      </div>
+      <p class="help">El calibre es el grosor de una <strong>hoja física</strong>; el lomo estimado usa la mitad de páginas × calibre. Impresora, papel y encuadernación determinan el valor real.</p>
+    </fieldset>
+    <fieldset><legend>02 / Tipografía</legend>
+      <div class="controls">
+        <label class="full">Familia de texto
+          <select id="fontFamily">
+            <option value="Georgia, 'Times New Roman', serif">Georgia</option>
+            <option value="'Palatino Linotype', Palatino, 'Book Antiqua', serif">Palatino / Book Antiqua</option>
+            <option value="Garamond, 'Times New Roman', serif">Garamond (o sustitución)</option>
+            <option value="Baskerville, 'Times New Roman', serif">Baskerville (o sustitución)</option>
+            <option value="'Times New Roman', Times, serif">Times New Roman</option>
+          </select>
+        </label>
+        <label>Cuerpo (pt)<input id="fontSize" type="number" min="7.5" max="18" step=".25" value="10.5"></label>
+        <label>Interlineado (factor)<input id="leading" type="number" min="1.05" max="2" step=".02" value="1.38"></label>
+        <label>Sangría (mm)<input id="indent" type="number" min="0" max="12" step=".5" value="4"></label>
+        <label>Espacio entre ¶ (mm)<input id="paraGap" type="number" min="0" max="10" step=".5" value="3"></label>
+      </div>
+      <p class="help">Se usan familias de fuentes instaladas en el dispositivo; un nombre ausente podrá mostrarse con fuente de sustitución. La composición definitiva necesita pruebas de fuentes y licencia.</p>
+    </fieldset>
+    <fieldset><legend>03 / Mancha y márgenes</legend>
+      <div class="controls">
+        <label>Interior / lomo (mm)<input id="marginInner" type="number" min="9" max="45" step="1" value="22"></label>
+        <label>Exterior (mm)<input id="marginOuter" type="number" min="8" max="40" step="1" value="17"></label>
+        <label>Superior (mm)<input id="marginTop" type="number" min="10" max="45" step="1" value="21"></label>
+        <label>Inferior (mm)<input id="marginBottom" type="number" min="10" max="45" step="1" value="21"></label>
+      </div>
+      <label class="checkline"><input id="showGuides" type="checkbox" checked> Mostrar guías de márgenes y sangrado</label>
+      <label class="checkline"><input id="showRunning" type="checkbox" checked> Cabeza / título corriente</label>
+      <label class="checkline"><input id="showFolios" type="checkbox" checked> Folios en el pie de página</label>
+    </fieldset>
+    <details open><summary>04 / Cubierta y datos</summary>
+      <div class="controls">
+        <label class="full">Título del volumen<input id="bookTitle" type="text" maxlength="160" value="El individuo contra el Estado"></label>
+        <label class="full">Nombre del autor<input id="authorName" type="text" maxlength="160" value="Herbert Spencer"></label>
+        <label class="full">Marca editorial<input id="imprint" type="text" maxlength="120" value="SIGLO23"></label>
+        <label class="full">Color de la cubierta<input id="coverColor" type="color" value="#24443a"></label>
+        <label class="full">Imagen de cubierta (solo vista previa)<input id="coverArt" type="file" accept="image/png,image/jpeg,image/webp"></label>
+      </div><p class="help" id="coverStatus">Podés probar una imagen local. No se envía a un servidor ni se incorpora al respaldo JSON. Usar imágenes con derechos verificados.</p>
+    </details>
+    <details><summary>05 / Texto de muestra editable</summary>
+      <label class="wide-label">Texto para comparar densidad y jerarquías
+        <textarea id="bodySample" rows="7" placeholder="Pegá un fragmento de prueba de la traducción..."></textarea>
+      </label>
+      <p class="help">El contenido se repite en las vistas de prueba para visualizar blancos y tamaños. No se pagina íntegramente ni se exporta como libro final.</p>
+    </details>
+    <div class="rule"></div>
+    <div class="block-actions">
+      <button id="exportPlan" type="button">Guardar plan JSON ↓</button>
+      <label for="importPlan" class="action" style="display:inline-flex;align-items:center;font-size:11px;padding:8px 10px">Importar JSON ↑</label>
+      <input id="importPlan" type="file" accept=".json,application/json" hidden>
+      <button id="resetPlan" type="button">Restablecer</button>
+    </div>
+    <p class="help" role="status" id="saveStatus">Los cambios se guardan en este navegador.</p>
+  </aside>
+  <main class="studio" aria-label="Vista previa de maquetación">
+    <div class="studio-tools">
+      <div class="tool-top">
+        <span class="eyebrow">Mesa de trabajo / escala tipográfica</span>
+        <div class="zoomline"><label for="zoom">Zoom</label><input id="zoom" type="range" min=".35" max="1.3" step=".01" value=".62"><output id="zoomValue">62 %</output></div>
+      </div>
+      <div class="view-switch" role="group" aria-label="Tipos de páginas que pueden visualizarse">
+        <button data-view="cover" type="button" aria-pressed="true">Cubierta</button>
+        <button data-view="title" type="button" aria-pressed="false">Portadas</button>
+        <button data-view="legal" type="button" aria-pressed="false">Legales / blancos</button>
+        <button data-view="toc" type="button" aria-pressed="false">Índice</button>
+        <button data-view="chapter" type="button" aria-pressed="false">Capítulo</button>
+        <button data-view="body" type="button" aria-pressed="false">Texto</button>
+        <button data-view="plates" type="button" aria-pressed="false">Lámina</button>
+        <button data-view="notes" type="button" aria-pressed="false">Notas</button>
+        <button data-view="chronology" type="button" aria-pressed="false">Cronología</button>
+        <button data-view="afterword" type="button" aria-pressed="false">Epílogo</button>
+      </div>
+    </div>
+    <div class="preview-area">
+      <div class="page-label"><span id="previewMode">Cargando vista…</span><span id="metricSize">148 × 210 mm</span></div>
+      <div class="view-nav" style="align-self:stretch;max-width:850px;width:100%;margin:0 auto 14px">
+        <button id="prevView" type="button" aria-label="Ver página anterior">← Anterior</button>
+        <strong id="viewName">Cubierta completa</strong>
+        <button id="nextView" type="button" aria-label="Ver página siguiente">Siguiente →</button>
+      </div>
+      <div class="preview-host" id="previewHost" aria-label="Maqueta del libro"><div class="spread">Preparando maqueta…</div></div>
+      <div class="guide-key" aria-label="Leyenda de guías"><span><i></i> Márgenes</span><span><i class="bleed"></i> Sangrado <b id="metricBleed">3 mm</b></span></div>
+      <p class="stage-hint">Los textos son de relleno editorial. Los números impresos dentro de estas páginas son ejemplos; la paginación calculada se muestra en el plano de producción de la derecha.</p>
+    </div>
+  </main>
+  <aside class="planner" aria-label="Plan de paginación y extras">
+    <div class="pane-head"><h2>Plan del volumen</h2><small>Simulador</small></div>
+    <label class="wide-label">Palabras estimadas del manuscrito principal
+      <input id="words" type="number" min="0" max="1000000" step="1000" value="90000">
+    </label>
+    <p class="help">Las 90.000 palabras iniciales son una <strong>hipótesis editable</strong>, no un recuento real del texto de Spencer.</p>
+    <div class="metrics">
+      <div class="metric"><strong id="metricPages">—</strong><span>Páginas interiores estimadas</span></div>
+      <div class="metric"><strong id="metricMain">—</strong><span>Páginas de texto principal</span></div>
+      <div class="metric"><strong id="metricBlanks">—</strong><span>Blancos calculados</span></div>
+      <div class="metric"><strong id="metricSpine">—</strong><span>Lomo de referencia</span></div>
+      <div class="metric"><strong id="metricSheets">—</strong><span>Hojas físicas (aprox.)</span></div>
+      <div class="metric"><strong id="metricWords">—</strong><span>Palabras por página (aprox.)</span></div>
+    </div>
+    <div class="warning">La cubierta no se suma al número de páginas interiores. El lomo depende del calibre real, la imprenta y el tipo de encuadernación; el redondeo a múltiplo de 4 es <strong>solo un supuesto</strong>.</div>
+    <div class="pane-head"><h2>Secciones y extras</h2><small>Activar / estimar</small></div>
+    <div class="section-headings"><span>✓</span><span>Parte</span><span>Págs.</span><span title="Iniciar en página impar">R</span><span>×</span></div>
+    <div class="section-list" id="planRows"></div>
+    <div class="legend"><span><code>✓</code> incluir</span><span><code>R</code> abrir en recto (impar)</span><span><code>×</code> borrar extra</span></div>
+    <div class="add-section">
+      <input id="newName" type="text" maxlength="110" placeholder="Nuevo extra: mapas, retratos…" aria-label="Nombre del extra">
+      <input id="newPages" type="number" min="1" max="1000" value="4" aria-label="Páginas del nuevo extra">
+      <button id="addSection" type="button">+ Añadir</button>
+    </div>
+    <label class="checkline"><input id="newRecto" type="checkbox" checked> El extra comienza en página impar</label>
+    <div class="page-map"><strong>Mapa de paginación tentativo</strong><ul id="planMap"><li>Calculando…</li></ul></div>
+    <p class="paper-caveat" id="productionCaveat">Ajustá palabras y secciones para actualizar cálculos.</p>
+    <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
+  </aside>
+</div>
+<script src="./editor.js?v=1.0.0" defer></script>
+</body>
+</html>
