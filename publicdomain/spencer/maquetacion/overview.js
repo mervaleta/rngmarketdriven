@@ -18,11 +18,22 @@ function chunkFor(section,offset,totalPages){
  if(!source||!source.trim())return null;
  let cached=tokens.get(section);
  if(!cached||cached.source!==source){
-  const wordList=source.match(/\S+/g)||[];
-  cached={source,words:wordList};tokens.set(section,cached);
+  const paragraphs=source.trim().split(/\n\s*\n/).filter(Boolean);
+  const wordList=[],breaks=new Set();
+  for(const paragraph of paragraphs){
+   const ws=paragraph.match(/\S+/g)||[];
+   if(ws.length){breaks.add(wordList.length);wordList.push(...ws)}
+  }
+  cached={source,words:wordList,breaks};tokens.set(section,cached);
  }
  const words=cached.words,n=words.length,lo=Math.floor(n*offset/totalPages),hi=Math.floor(n*(offset+1)/totalPages);
- return {html:words.slice(lo,hi).join(' '),start:lo+1,end:hi,count:n,filename:section};
+ const fragments=[],chunk=[];
+ for(let i=lo;i<hi;i++){
+  if(i>lo&&cached.breaks.has(i)){fragments.push(chunk.splice(0).join(' '))}
+  chunk.push(words[i]);
+ }
+ if(chunk.length)fragments.push(chunk.join(' '));
+ return {html:fragments.join('\n\n'),start:lo+1,end:hi,count:n,filename:section};
 }
 function infoFor(page,plan){
  const item=entryFor(page,plan);
@@ -72,7 +83,7 @@ function pageContent(info){
  if(info.isReal){
   const wordsInfo='Palabras '+formatNum(info.segment.start)+'–'+formatNum(info.segment.end)+' de '+formatNum(info.segment.count);
   return '<div class="section-continuation">'+esc(info.title)+(info.index===0?' · INICIO':'')+'</div>'
-  +'<div class="text-body actual-text" lang="es"><p>'+esc(info.text)+'</p></div>'
+  +'<div class="text-body actual-text" lang="en">'+info.text.split(/\n\n+/).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>'
   +'<div class="content-note" style="margin-top:4mm">'+wordsInfo+' · Distribución estimativa</div>';
  }
  if(info.section==='plates')return '<div class="figure">ILUSTRACIÓN HISTÓRICA<br><br>Sin imagen cargada</div><p class="figcaption">'+esc(info.title)+' — material no incorporado todavía.</p>';
