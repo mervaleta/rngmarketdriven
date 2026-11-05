@@ -129,3 +129,13 @@ Ruta prevista: `https://rngmarketdriven.com/publicdomain/spencer/maquetacion/`. 
 - Sin máximos arbitrarios en los controles de márgenes, sangría, separación entre párrafos y sangrado; aviso de diseño inviable si se agota la caja de texto.
 - Para publicar deben transferirse juntos `spencer/maquetacion/index.html`, `editor.css`, `editor.js` y `overview.js`. `version.json` contiene el marcador M02.
 - **Los cambios están confirmados en GitHub; no hay comprobación del despliegue efectivo en Hostinger.**
+
+## Spencer — Maquetación M03: transcripción inglesa de 1884
+
+- Archivo `spencer/maquetacion/original-ingles-1884.json`: **45.792 palabras** en seis partes (prefacio, *The New Toryism*, *The Coming Slavery*, *The Sins of Legislators*, *The Great Political Superstition*, *Postscript*).
+- `spencer/maquetacion/original-loader.js` precarga el texto desde el propio repositorio, comprueba sus seis partes y su recuento y reemplaza las páginas ficticias del núcleo del libro en la grilla.
+- **Texto original:** extensión verbal real del archivo fuente, sujeta a cotejo con facsímil de 1884–1885 para corregir variantes y erratas. **Páginas:** estimadas geométricamente según el formato, cuerpo y márgenes. **Extras:** mantienen estimaciones de páginas editables.
+- Configuración inicial de prueba (A5, Georgia 10,5 pt): aproximadamente 195 páginas de texto inglés, 372 páginas interiores totales y 7 blancos; no confundir con paginación definitiva.
+- Se mantuvo la importación de futuros textos traducidos por sección. El texto original se conserva de forma independiente y la grilla se actualiza según el texto activo.
+- Para publicar el módulo hacen falta los seis archivos de código/datos `index.html`, `editor.css`, `editor.js`, `overview.js`, `original-loader.js`, `original-ingles-1884.json` en el mismo directorio.
+- Cambios en GitHub confirmados. **Sin comprobación de despliegue Hostinger**.
