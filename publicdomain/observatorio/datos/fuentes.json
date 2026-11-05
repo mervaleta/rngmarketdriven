@@ -1,0 +1,105 @@
+{
+  "version": "0.1.0",
+  "fecha": "2026-11-05",
+  "fuentes": [
+    {
+      "id": "duke",
+      "nombre": "Duke — Center for the Study of the Public Domain",
+      "tipo": "Investigación",
+      "url": "https://cspd.law.duke.edu/about/",
+      "detalle_url": "https://cspd.law.duke.edu/publicdomainday/2026",
+      "descripcion": "Informes anuales Public Domain Day: listas y comentarios sobre obras que ingresan al dominio público estadounidense.",
+      "uso": "Descubrimiento de autores, versiones y obras para investigar.",
+      "derechos": "El informe de 2026 está publicado bajo CC BY 4.0; esa licencia no alcanza a todas las obras mencionadas.",
+      "cuidado": "Aplicación de legislación estadounidense, no validación comercial en Argentina."
+    },
+    {
+      "id": "cornell",
+      "nombre": "Cornell — Copyright Term and the Public Domain",
+      "tipo": "Guía jurídica",
+      "url": "https://guides.library.cornell.edu/copyright/publicdomain",
+      "detalle_url": "https://guides.library.cornell.edu/copyright/publicdomain",
+      "descripcion": "Cuadros sobre plazos, renovación, obras inéditas y excepciones en EE. UU.",
+      "uso": "Contraste de fechas de publicación, registro y duración de derechos.",
+      "derechos": "No sustituye un dictamen sobre un objeto específico.",
+      "cuidado": "Conservar país, año, versión y estado probatorio."
+    },
+    {
+      "id": "creative-commons",
+      "nombre": "Creative Commons — CC0, PDM y licencias abiertas",
+      "tipo": "Licencias",
+      "url": "https://creativecommons.org/public-domain/",
+      "detalle_url": "https://creativecommons.org/licenses/",
+      "descripcion": "Herramientas de renuncia y señalización del dominio público, además de licencias con condiciones.",
+      "uso": "Clasificación jurídica de cada archivo y su texto de licencia.",
+      "derechos": "CC0 es una dedicación de derechos; PDM es una marca informativa, no una licencia.",
+      "cuidado": "No presumir libre reutilización sólo por disponibilidad de descarga."
+    },
+    {
+      "id": "europeana",
+      "nombre": "Europeana — Patrimonio europeo",
+      "tipo": "Agregador",
+      "url": "https://www.europeana.eu/",
+      "detalle_url": "https://pro.europeana.eu/index.php/page/available-rights-statements",
+      "descripcion": "Catálogos de museos, archivos y bibliotecas con declaraciones de derechos.",
+      "uso": "Búsqueda de materiales candidatos con enlace a la institución de origen.",
+      "derechos": "El estatus depende de cada ficha y debe cotejarse en el archivo primario.",
+      "cuidado": "PDM, CC0, CC BY y otras etiquetas no son equivalentes."
+    },
+    {
+      "id": "dpla",
+      "nombre": "Digital Public Library of America — DPLA",
+      "tipo": "Agregador",
+      "url": "https://dp.la/",
+      "detalle_url": "https://dp.la/about/rights-categories",
+      "descripcion": "Colecciones estadounidenses y filtros por categorías de reutilización.",
+      "uso": "Localización de archivos y búsquedas por Unlimited Re-Use.",
+      "derechos": "DPLA agrupa declaraciones y licencias distintas; revisar cada objeto.",
+      "cuidado": "Una clasificación de agregador no garantiza derechos en otros países."
+    },
+    {
+      "id": "rightsstatements",
+      "nombre": "RightsStatements.org",
+      "tipo": "Vocabulario de derechos",
+      "url": "https://rightsstatements.org/",
+      "detalle_url": "https://rightsstatements.org/",
+      "descripcion": "Sistema de doce declaraciones estandarizadas para patrimonio digital.",
+      "uso": "Normalizar el estatus registrado por las instituciones.",
+      "derechos": "Las declaraciones describen estatus, no otorgan por sí mismas licencias.",
+      "cuidado": "Revisar excepciones y responsabilidades en cada registro."
+    },
+    {
+      "id": "fna",
+      "nombre": "Argentina — Fondo Nacional de las Artes",
+      "tipo": "Control Argentina",
+      "url": "https://www.argentina.gob.ar/servicio/tramitar-el-uso-de-obras-de-dominio-publico",
+      "detalle_url": "https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion",
+      "descripcion": "Trámite oficial del uso de obras de dominio público y texto actualizado de la Ley 11.723.",
+      "uso": "Validación obligatoria previa a productos comerciales en Argentina.",
+      "derechos": "El dominio público pagante puede exigir declaración jurada y arancel.",
+      "cuidado": "No aplicar automáticamente una resolución de derechos extranjera al mercado argentino."
+    },
+    {
+      "id": "met",
+      "nombre": "The Metropolitan Museum of Art — Open Access",
+      "tipo": "Repositorio museístico",
+      "url": "https://metmuseum.github.io/",
+      "detalle_url": "https://www.metmuseum.org/es/hubs/open-access",
+      "descripcion": "Catálogo e infraestructura API con obras de arte, metadatos e imágenes.",
+      "uso": "Localizar piezas originales y enriquecer expedientes de arte.",
+      "derechos": "Revisar la indicación Public Domain / Open Access de cada obra.",
+      "cuidado": "API sugerida para próxima fase; no conectada en este módulo."
+    },
+    {
+      "id": "loc",
+      "nombre": "Library of Congress — API y colecciones",
+      "tipo": "Repositorio documental",
+      "url": "https://www.loc.gov/apis/json-and-yaml/",
+      "detalle_url": "https://www.loc.gov/free-to-use/",
+      "descripcion": "Catálogos JSON, fotos, libros, cine, mapas y colecciones documentales.",
+      "uso": "Cruzar títulos descubiertos por Duke con archivos primarios.",
+      "derechos": "Revisar Rights and Access de cada registro.",
+      "cuidado": "API sugerida para próxima fase; no conectada en este módulo."
+    }
+  ]
+}

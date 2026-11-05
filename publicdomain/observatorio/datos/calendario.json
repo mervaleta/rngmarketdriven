@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "fecha": "2026-11-05",
+  "jurisdiccion": "EE. UU.",
+  "anios": [
+    {
+      "anio": 2025,
+      "publicaciones_eeuu": 1929,
+      "grabaciones_eeuu": 1924,
+      "confirmacion": "Corresponde al informe anual de Duke",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2026,
+      "publicaciones_eeuu": 1930,
+      "grabaciones_eeuu": 1925,
+      "confirmacion": "Corresponde al informe anual de Duke",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2027,
+      "publicaciones_eeuu": 1931,
+      "grabaciones_eeuu": 1926,
+      "confirmacion": "Proyección general; no identificación individual",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2028,
+      "publicaciones_eeuu": 1932,
+      "grabaciones_eeuu": 1927,
+      "confirmacion": "Proyección general; no identificación individual",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2029,
+      "publicaciones_eeuu": 1933,
+      "grabaciones_eeuu": 1928,
+      "confirmacion": "Proyección general; no identificación individual",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2030,
+      "publicaciones_eeuu": 1934,
+      "grabaciones_eeuu": 1929,
+      "confirmacion": "Proyección general; no identificación individual",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    },
+    {
+      "anio": 2031,
+      "publicaciones_eeuu": 1935,
+      "grabaciones_eeuu": 1930,
+      "confirmacion": "Proyección general; no identificación individual",
+      "pais": "Estados Unidos",
+      "advertencia": "Excepciones legales, registros, derechos conexos y jurisdicciones deben analizarse por separado."
+    }
+  ]
+}
