@@ -7,9 +7,9 @@
   "source_book": "https://davidmhart.com/liberty/Books/1884-ManVersusState/Spencer_ManVersusState1884-ebook.html",
   "notes": "Entradas preliminares para revisión filológica. Los números de página dependen de tipografía, formato y edición; se calculan dinámicamente desde índice de palabras. Se distingue autor citado en notas, seudónimo y personaje histórico. Biografías resumidas para trabajo editorial, sujetas a comprobación.",
   "citation_method": "occurrences[].wordIndex es índice 0-based de palabra de la transcripción; la página se deriva del rango de palabras que ocupa cada hoja de la maqueta. Referencias a notas originales llevan inNote=true.",
-  "count_entries": 85,
-  "count_indexable": 85,
-  "count_occurrences": 147,
+  "count_entries": 86,
+  "count_indexable": 86,
+  "count_occurrences": 149,
   "entries": [
     {
       "id": "p-001",
@@ -662,9 +662,11 @@
       "aliases": [
         "Mr Janson",
         "F.H. Janson",
-        "F. H. Janson"
+        "F. H. Janson",
+        "F.H. Jansen",
+        "F. H. Jansen"
       ],
-      "bio": "Jurista vinculado a la Incorporated Law Society, autor del estudio The Statistics of Legislation publicado en 1873.",
+      "bio": "Jurista vinculado a la Incorporated Law Society, autor del estudio The Statistics of Legislation publicado en 1873. En la transcripción aparece erróneamente «F.H. Jansen»; la ficha de la publicación de 1873 acredita Janson.",
       "confidence": "alta",
       "occurrences": [
         {
@@ -672,10 +674,17 @@
           "wordIndex": 2307,
           "spelling": "Mr Janson",
           "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13578,
+          "spelling": "F.H. Jansen",
+          "inNote": true
         }
       ],
-      "mentions": 1,
-      "include": true
+      "mentions": 2,
+      "include": true,
+      "bio_source": "https://www.jstor.org/stable/2338916"
     },
     {
       "id": "p-029",
@@ -2206,11 +2215,34 @@
       ],
       "mentions": 1,
       "include": true
+    },
+    {
+      "id": "p-086",
+      "name": "William Cornwallis Harris",
+      "dates": "1807–1848",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Harris, Highland of Aethiopia"
+      ],
+      "bio": "Oficial, naturalista y explorador británico, autor de The Highlands of Æthiopia (1844), relato de una misión diplomática y viajes en las tierras altas de Etiopía. Su obra aparece citada en las notas de Spencer; no debe confundirse con el médico Elisha Harris.",
+      "confidence": "alta",
+      "bio_source": "https://www.loc.gov/item/05008811/",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11704,
+          "spelling": "Harris, Highland of Aethiopia",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
     }
   ],
   "review_priority": [
     "Comprobar identidades provisionales, entre ellas lord Grey, C. Gatliff, Jeston, C. Forrest, Mitchell y Hartshorne",
     "Cotejar la transcripción y las llamadas de nota con facsímiles de 1884 y 1885",
     "Revisar el criterio de inclusión: personas identificables, seudónimos y figuras anónimas históricas"
-  ]
+  ],
+  "last_revised": "2026-11-05"
 }
