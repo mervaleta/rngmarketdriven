@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M05.1",
+  "version": "M06",
   "date": "2026-11-05",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -20,7 +20,6 @@
     "Otras partes y extras conservan paginación estimada",
     "Índice actualiza números al variar la maqueta",
     "Aperturas de doble página de los cuatro ensayos originales",
-    "Divisoria opcional de dos páginas para aparato crítico y notas",
     "Inicio en recto con blancos reales contemplados en cálculo de lomo",
     "Composición literaria refinada con capitular y preset editorial",
     "Localizaciones por ensayo y posición dentro de la transcripción inglesa",
@@ -28,11 +27,15 @@
     "86 minibiografías, 53 temas y 56 obras citadas en páginas de contenido real",
     "Cinco retratos históricos documentados en el índice onomástico",
     "Medición DOM del espacio de índices según formato y tipografía",
-    "Contadores visibles de páginas para cada índice basados en fichas reales y el formato actual"
+    "Contadores visibles de páginas para cada índice basados en fichas reales y el formato actual",
+    "Suprimidos aparato de notas, cronología/atlas y glosario del plan activo",
+    "Fuentes y bibliografía limitadas a dos páginas enfrentadas, con sus referencias iniciales",
+    "Cuatro ilustraciones reales: dos láminas simples y dos pliegos dobles, intercaladas en el libro",
+    "Las versiones guardadas previamente migran automáticamente a las nuevas cantidades"
   ],
   "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas. La medición DOM de índices sigue siendo una maqueta, no impresión PDF definitiva; los folios son orientativos.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M05-1",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M06",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,
@@ -51,5 +54,13 @@
       "path": "../indice-obras/",
       "entries": 56
     }
-  }
+  },
+  "figure_count": 4,
+  "figure_pages": 6,
+  "bibliography_pages": 2,
+  "removed_sections": [
+    "notes",
+    "chronology",
+    "glossary"
+  ]
 }

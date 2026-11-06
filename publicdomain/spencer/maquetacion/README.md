@@ -101,3 +101,13 @@ Los índices ahora contienen **86 semblanzas**, **53 temas** y **56 obras citada
 ### M05.1 — Huella real visible de los índices
 
 El panel derecho incorpora tres contadores separados y un total. Se calculan desde las entradas que efectivamente caben en cada caja tipográfica del navegador. Los folios de referencia aún son orientativos y la composición final de imprenta puede cambiar estos valores.
+
+## M06 — Volumen abreviado: cuatro imágenes y una doble página bibliográfica (2026-11-05)
+
+Se retiran del índice de contenido y de la paginación: **apartado de notas, cronología y atlas, glosario de términos**. Las configuraciones antiguas se migran al abrirse, sin destruir datos manuscritos importados de otras secciones.
+
+**Fuentes y bibliografía** pasa a una doble página enfrentada (2 páginas, izquierda par y derecha impar) y no admite ampliación accidental desde la grilla. La lista es una selección inicial, sujeta a cotejo.
+
+**Ilustraciones históricas:** son exactamente cuatro piezas registradas en `editorial-assets.js`: caricatura de Spencer de Vanity Fair (1 página), Gillray The tree of liberty (2), Keppler In danger (2) y Keppler Puck's review of the past year (1). Total **6 páginas gráficas** más eventuales blancos necesarios para comenzar los pliegos sobre caras enfrentadas. Las figuras se intercalan por posición editorial, no como un bloque de 16 páginas.
+
+El recuento del lomo incorpora las páginas efectivas de los pliegos. Los enlaces gráficos son referencias de investigación: las copias finales de alta resolución y permisos territoriales siguen pendientes.
