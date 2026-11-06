@@ -24,16 +24,16 @@
     <a href="../">← Dossier de Spencer</a>
     <a href="../indice-onomastico/">Onomástico</a><a href="../indice-analitico/">Analítico</a><a href="../indice-obras/">Obras citadas</a>
     <a href="../../">Panel editorial</a>
-    <span class="status">PREPRODUCCIÓN · V1.8</span>
+    <span class="status">PREPRODUCCIÓN · V1.9</span>
     <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
   </div>
 </header>
 <div class="titlebar">
   <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
-    <p>El libro completo en pliegos, con aperturas de capítulo a doble página, separador para notas y ajustes finos de lectura y tipografía.</p></div>
-  <span class="version">M08 · PREFACIOS DE LOS CUATRO ENSAYOS</span>
+    <p>El libro completo en pliegos, con biografía completa, aperturas de capítulo a doble página, cuatro prefacios de lectura y ajustes finos de tipografía.</p></div>
+  <span class="version">M09 · BIOGRAFÍA INTEGRADA</span>
 </div>
-<div class="app-intro-note">La grilla incluye automáticamente la <strong>transcripción completa en inglés de 1884</strong>, dividida en prefacio, cuatro ensayos y posdata. Los ensayos editoriales ya contienen sus manuscritos completos. La futura biografía queda reservada sin sumar páginas ficticias. La distribución sigue siendo aproximada. Los ejemplos textuales y folios son ilustrativos.</div>
+<div class="app-intro-note">La grilla incluye automáticamente la <strong>transcripción completa en inglés de 1884</strong>, dividida en prefacio, cuatro ensayos y posdata. La biografía, el estudio introductorio y el epílogo ya tienen sus manuscritos completos y suman páginas a la grilla. La distribución sigue siendo aproximada. Los ejemplos textuales y folios son ilustrativos.</div>
 <div class="workspace">
   <aside class="inspector" aria-label="Controles de composición">
     <div class="pane-head"><h2>Propiedades</h2><small>mm / pt</small></div>
@@ -138,7 +138,7 @@
         <button data-view="plates" type="button" aria-pressed="false">Lámina</button>
         <button data-index-jump="index-onomastic" type="button">Onomástico</button><button data-index-jump="index-analytic" type="button">Temático</button><button data-index-jump="index-works" type="button">Obras citadas</button>
         <button data-view="bibliography" type="button" aria-pressed="false">Fuentes / bibliografía</button>
-        <button data-index-jump="study" type="button">Estudio introductorio</button><button data-index-jump="afterword" type="button">Epílogo 2026</button>
+        <button data-index-jump="biography" type="button">Biografía</button><button data-index-jump="study" type="button">Estudio introductorio</button><button data-index-jump="afterword" type="button">Epílogo 2026</button>
       </div>
     </div>
     <div class="overview-toolbar" id="overviewToolbar">
@@ -164,7 +164,7 @@
       </div>
       <div class="preview-host" id="previewHost" aria-label="Maqueta del libro"><div class="spread">Preparando maqueta…</div></div>
       <div class="guide-key" id="guideKey" aria-label="Leyenda de guías"><span><i></i> Márgenes</span><span><i class="bleed"></i> Sangrado <b id="metricBleed">3 mm</b></span></div>
-      <p class="stage-hint" id="stageHint">Cada miniatura representa una página del libro. El texto central se carga desde la transcripción inglesa de 1884; los capítulos complementarios son estimativos hasta redactarlos.</p>
+      <p class="stage-hint" id="stageHint">Cada miniatura representa una página del libro. El texto central se carga desde la transcripción inglesa de 1884; la biografía, el estudio y el epílogo se cargan con sus textos reales y se reparten en páginas orientativas.</p>
     </div>
   </main>
   <aside class="planner" aria-label="Plan de paginación y extras">
@@ -185,13 +185,13 @@
 <label class="wide-label">Texto del prefacio<textarea id="chapterNoteBody" rows="10"></textarea></label>
 <div class="block-actions"><button type="button" id="saveChapterNote">Guardar prefacio</button><button type="button" id="resetChapterNote">Restablecer texto</button></div>
 <p id="chapterNoteStatus" class="help" role="status">La nota aparece en la página izquierda de cada apertura.</p></fieldset>
-<p class="help" role="status" id="editorialTextStatus">Cargando los ensayos editoriales completos…</p><p class="help" role="status" id="indicesStatus">Cargando las 86 biografías, 53 temas y 56 obras…</p><label class="checkline"><input id="indexPortraits" type="checkbox" checked> Incluir retratos históricos en el índice onomástico</label><div class="warning" id="geometryWarning" hidden role="alert"></div><div class="warning" id="originalEvidence" hidden></div>
+<p class="help" role="status" id="editorialTextStatus">Cargando biografía, estudio y epílogo…</p><p class="help" role="status" id="indicesStatus">Cargando las 86 biografías, 53 temas y 56 obras…</p><label class="checkline"><input id="indexPortraits" type="checkbox" checked> Incluir retratos históricos en el índice onomástico</label><div class="warning" id="geometryWarning" hidden role="alert"></div><div class="warning" id="originalEvidence" hidden></div>
  <div class="metrics">
       <div class="metric"><strong id="metricPages">—</strong><span>Páginas interiores estimadas</span></div>
       <div class="metric"><strong id="metricMain">—</strong><span>Páginas del original</span></div>
 <div class="metric"><strong id="metricStudy">—</strong><span>Páginas del estudio introductorio</span></div>
 <div class="metric"><strong id="metricAfterword">—</strong><span>Páginas del epílogo 2026</span></div>
-<div class="metric"><strong id="metricBio">—</strong><span>Biografía (próxima entrega)</span></div>
+<div class="metric"><strong id="metricBio">—</strong><span>Biografía de Herbert Spencer</span></div>
        <div class="metric"><strong id="metricOpenings">—</strong><span>Páginas de apertura de capítulo</span></div>
       <div class="metric"><strong id="metricFigures">—</strong><span>Ilustraciones / páginas ocupadas</span></div>
       <div class="metric"><strong id="metricBlanks">—</strong><span>Blancos calculados</span></div>
@@ -224,6 +224,6 @@
     <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
   </aside>
 </div>
-<script src="./editorial-assets.js?v=1.6.0" defer></script><script src="./chapter-notes.js?v=1.8.0" defer></script><script src="./editor.js?v=1.8.0" defer></script><script src="./overview.js?v=1.8.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script><script src="./editorial-loader.js?v=1.7.0" defer></script><script src="./indices-layout.js?v=1.5.0" defer></script><script src="./indices-loader.js?v=1.5.0" defer></script>
+<script src="./editorial-assets.js?v=1.6.0" defer></script><script src="./chapter-notes.js?v=1.8.0" defer></script><script src="./editor.js?v=1.9.0" defer></script><script src="./overview.js?v=1.8.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script><script src="./editorial-loader.js?v=1.9.0" defer></script><script src="./indices-layout.js?v=1.5.0" defer></script><script src="./indices-loader.js?v=1.5.0" defer></script>
 </body>
 </html>
