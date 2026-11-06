@@ -53,3 +53,12 @@ Escritura y lectura **verificadas en GitHub**. No hay confirmación de que Hosti
 ## Próximas tareas de producción
 
 Descargar los originales desde las fichas individuales, confirmar integridad y resolución en píxeles, cotejar la atribución con la ficha de museo, verificar derechos territoriales y edad, cerrar estructura, maquetar versión con archivos locales y exportar PDF definitivo. El precio, tirada y canal comercial no están definidos.
+
+
+## Identidad visual del taller · v0.3.0 · 6 de noviembre de 2026
+
+- Se reemplazó el cromatismo verde/petróleo del maquetador por una interfaz de **rosa, bordó, negro y blanco**, distinta de la del taller Spencer.
+- Encabezado bordó, escenario de composición rosa oscuro/negro, paneles color vino, controles de contraste alto y acentos rosa claro.
+- El cambio afecta solo la interfaz de pantalla. Las páginas del libro mantienen sus colores de maquetación y la salida de impresión conserva los estilos específicos de arte final.
+- Nueva cadena visible `GABINETE · V0.3.0 · ROSA/BORDÓ` y URL de CSS con versión para evitar caché antigua.
+- Cambio confirmado en GitHub. Despliegue al dominio sujeto a sincronización con Hostinger.
