@@ -141,7 +141,8 @@ function analyze(){
     autoPages[sec.id]=pages;
    }else{
     const raw=state.texts?.[sec.id]||'';
-    const count=(raw.match(/\S+/g)||[]).length;
+    const clean=['study','afterword','biography','prologue','context'].includes(sec.id)?raw.replace(/^#{1,6}\s+/gm,'').replace(/\*/g,''):raw;
+     const count=(clean.match(/\S+/g)||[]).length;
     pages=invalid||!count?0:Math.ceil((count+(state.chapterOpenings&&essayIds.includes(sec.id)?wordsPage*.2:0))/wordsPage);
     autoPages[sec.id]=pages;if(sec.id.startsWith('original-')){mainPages+=pages;mainWords+=count;}else if(['prologue','context','biography','study','afterword'].includes(sec.id)){editorialPages[sec.id]=pages;editorialWords[sec.id]=count;}
    }
