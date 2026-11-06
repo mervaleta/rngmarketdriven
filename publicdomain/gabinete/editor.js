@@ -53,11 +53,20 @@ function placePg(pg,idx,scale,extraClass){
  return '<div class="'+(extraClass||"scaledPage")+'" data-index="'+idx+'" style="width:'+w.toFixed(2)+'px;height:'+h.toFixed(2)+'px"><div style="transform:scale('+scale+');transform-origin:top left;width:'+(state.opts.w*pxpermm).toFixed(1)+'px;height:'+(state.opts.h*pxpermm).toFixed(1)+'px">'+pageHtml(pg,idx)+'</div></div>';
 }
 function grid(){
- var st=$("#stage"),markup='<div class="stage-title"><span>Libro completo · todas las páginas</span><span>Seleccioná una miniatura para abrir el pliego</span></div><div class="book-grid">';
- var scale=state.opts.thumb/(state.opts.w*pxpermm);
- state.doc.pages.forEach(function(pg,idx){
-   markup+='<button type="button" class="thumb '+(idx===state.active?"selected":"")+'" data-open="'+idx+'"><div class="thumb-canvas" style="width:'+state.opts.thumb+'px;height:'+(state.opts.h*pxpermm*scale).toFixed(1)+'px">'+placePg(pg,idx,scale,"thumb-inner")+'</div><div class="thumb-desc"><span class="thumb-n">'+String(idx+1).padStart(2,"0")+'</span>'+esc(pg.title)+'</div></button>';
- });
+ var st=$("#stage"),markup='<div class="stage-title"><span>Libro completo · pliegos físicos</span><span>La tapa es el recto 1: queda sola a la derecha</span></div><div class="book-grid">';
+ var w=state.opts.thumb,h=state.opts.h*pxpermm*w/(state.opts.w*pxpermm),scale=w/(state.opts.w*pxpermm);
+ function thumbnail(idx){
+  var pg=state.doc.pages[idx];
+  return '<button type="button" class="thumb '+(idx===state.active?"selected":"")+'" data-open="'+idx+'">'+
+      '<div class="thumb-canvas" style="width:'+w+'px;height:'+h.toFixed(1)+'px">'+placePg(pg,idx,scale,"thumb-inner")+'</div>'+
+      '<div class="thumb-desc"><span class="thumb-n">'+String(idx+1).padStart(2,"0")+'</span>'+esc(pg.title)+'</div></button>';
+ }
+ markup+='<section class="mini-spread"><div class="mini-spread-pages"><div class="ghost-thumb" style="width:'+w+'px;height:'+h.toFixed(1)+'px"><span>Sin página a la izquierda</span></div>'+thumbnail(0)+'</div><div class="mini-spread-caption">Tapa · folio 1 impar (derecha)</div></section>';
+ for(var first=1;first<state.doc.pages.length;first+=2){
+  var left=thumbnail(first);
+  var right=first+1<state.doc.pages.length?thumbnail(first+1):'<div class="ghost-thumb" style="width:'+w+'px;height:'+h.toFixed(1)+'px"></div>';
+  markup+='<section class="mini-spread"><div class="mini-spread-pages">'+left+right+'</div><div class="mini-spread-caption">Pliego · '+String(first+1).padStart(2,"0")+' (verso) / '+String(first+2).padStart(2,"0")+' (recto)</div></section>';
+ }
  markup+='</div>';st.innerHTML=markup;
 }
 function spread(){
@@ -138,10 +147,23 @@ function onFieldChange(ev){
  var field=ev.target.dataset.field;if(!field)return;
  var pg=state.doc.pages[state.active];
  if(field==="imageUrl"){var im=imgById(pg.image);if(im)im.url=ev.target.value.trim();}else pg[field]=ev.target.value;
- saveLocal();render();
+ normalizeFolio();saveLocal();render();
 }
 function navigate(delta){
  var i=Math.max(0,Math.min(state.doc.pages.length-1,state.active+delta));if(i!==state.active){state.active=i;state.view="spread";render();}
+}
+function normalizeFolio(){
+ var chosen=state.doc.pages[state.active],chosenId=chosen?chosen.id:null,out=[];
+ function blank(id){return {id:id,kind:"blank",section:"Guarda",title:"Blanco de ajuste a página impar",body:"",image:null,caption:"",sub:"",auto_recto:true,physical_role:"ajuste_recto"};}
+ state.doc.pages.forEach(function(pg){
+  if(pg.auto_recto)return;
+  if(pg.kind==="chapter"&&out.length%2===1)out.push(blank("auto_recto_"+pg.id));
+  out.push(pg);
+ });
+ if(out.length%2!==0)out.push({...blank("auto_cierre"),title:"Blanco de cierre"});
+ state.doc.pages=out;
+ if(chosenId){var idx=out.findIndex(function(p){return p.id===chosenId});state.active=idx>=0?idx:Math.max(0,Math.min(state.active,out.length-1))}
+ else state.active=0;
 }
 function modifyPage(kind){
  var pg=state.doc.pages[state.active];if(!pg)return;
@@ -150,7 +172,7 @@ function modifyPage(kind){
  else if(kind==="delete"){if(state.doc.pages.length<2||!confirm("¿Eliminar esta página del proyecto local?"))return;state.doc.pages.splice(state.active,1);state.active=Math.min(state.active,state.doc.pages.length-1);}
  else if(kind==="up"&&state.active>0){var a=state.active;[state.doc.pages[a-1],state.doc.pages[a]]=[state.doc.pages[a],state.doc.pages[a-1]];state.active--;}
  else if(kind==="down"&&state.active<state.doc.pages.length-1){var a=state.active;[state.doc.pages[a+1],state.doc.pages[a]]=[state.doc.pages[a],state.doc.pages[a+1]];state.active++;}
- state.view="spread";saveLocal();render();
+ normalizeFolio();state.view="spread";saveLocal();render();
 }
 function initHandlers(){
  $("#stage").addEventListener("click",function(e){var node=e.target.closest("[data-open]");if(node){state.active=Number(node.dataset.open);state.view="spread";render();}});
@@ -186,7 +208,7 @@ async function boot(){
      $("#saveStatus").textContent="Edición nueva. Los cambios previos se conservaron en el navegador con la clave anterior.";
    }
   }catch(e){}
-  state.loaded=true;applyControls();render();toast("Edición cargada. Las fotografías están integradas mediante enlaces a archivos abiertos.");
+  normalizeFolio();state.loaded=true;applyControls();render();toast("Edición cargada. Tapa impar a la derecha; pliegos emparejados y aperturas de capítulo en recto.");
  }catch(err){$("#stage").innerHTML='<div class="emptyview"><h2>No se pudo cargar libro.json</h2><p>'+esc(err.message)+'</p><p>Publicá este archivo junto con index.html, editor.css y editor.js en el mismo directorio.</p></div>';$("#saveStatus").textContent="Error de carga";}
 }
 boot();
