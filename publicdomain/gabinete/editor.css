@@ -81,3 +81,18 @@
   #toast{background:#f8b4cf;color:#2a0e1d}
   /* Las cubiertas y páginas se componen según el libro, no según el color de la interfaz. */
 }
+
+
+/* Estructura de libro y pliegos impares: v0.4.0 */
+.no-facing-page{background:repeating-linear-gradient(45deg,#1e0d1a,#1e0d1a 12px,#291228 12px,#291228 24px);border:1px dashed #9c637e;display:flex;align-items:center;justify-content:center;color:#ecc5d5;font:11px Montserrat,Arial,sans-serif;letter-spacing:.07em;}
+.no-facing-page span{max-width:160px;text-align:center;padding:14px}
+.page-actual.kind-blank{background:#fffdf7}
+.page-actual.kind-blank .folio,.page-actual.kind-blank .running,.page-actual.kind-blank .page-inner{display:none!important}
+.page-actual.kind-reserved .reserved-inner{padding-top:20mm}
+.page-actual.kind-reserved .reserved-inner h2{font:normal 32pt/1.1 var(--ftitle);text-align:center;margin:18mm 0 0}
+.page-actual.kind-reserved .reserved-inner .kicker{font:8pt 'Montserrat',Arial,sans-serif;letter-spacing:.17em;text-align:center;color:#846d5f}
+.page-actual.kind-credits .credits-inner{padding-top:7mm}
+.page-actual.kind-credits .credits-inner h2{font-size:23pt;margin-bottom:8mm}
+.page-actual.kind-credits .body-text{font-size:9pt;line-height:1.5}
+.page-actual.kind-sources .body-text{font-size:8.2pt;line-height:1.45}
+@media(max-width:670px){.no-facing-page span{font-size:9px}}
