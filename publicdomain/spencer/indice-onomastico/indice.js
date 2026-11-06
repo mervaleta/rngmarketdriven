@@ -53,7 +53,7 @@ function planRead(){
    if(all){activePlan=d;hasUserPlan=true;return}
   }
  }catch{}
- activePlan={items:referenceItems,wordCounts:counts,wordsPerPage:0,version:'A5-baseline'};hasUserPlan=false;
+ activePlan={items:[],wordCounts:{},wordsPerPage:0,version:'sin-maqueta'};hasUserPlan=false;
 }
 function locationFor(occ){
  const chapter=(activePlan.items||[]).find(x=>x.id===occ.section);
@@ -127,7 +127,7 @@ function status(){
  if(hasUserPlan){
   const affected=Object.keys(counts).filter(k=>d.wordCounts[k]!==counts[k]);
   $('#pageStatus').innerHTML='<strong>Referencias vinculadas a tu maqueta.</strong> '+d.total+' páginas interiores, recalculadas según las medidas usadas en Maquetación.'+(affected.length?'<br><strong>Atención:</strong> cambiaron '+affected.length+' secciones del original y sus referencias quedan temporalmente sin folio.':'')+' <a href="../maquetacion/">Modificar maqueta ↗</a>';
- }else $('#pageStatus').innerHTML='<strong>Foliación de referencia.</strong> Se muestra el reparto orientativo A5 de la transcripción inglesa de 1884. Abrí <a href="../maquetacion/">Maquetación</a> para guardar una paginación personalizada; las referencias se actualizarán automáticamente cuando regreses.';
+ }else $('#pageStatus').innerHTML='<strong>Sin folios calculados.</strong> El índice conserva las menciones por ensayo. Abrí <a href="../maquetacion/">Maquetación</a> en este navegador para obtener las páginas provisionales de tu diseño; no se muestran números hipotéticos como referencias reales.';
 }
 function csv(){
  const out=[['Nombre normalizado','Fechas','Grupo','Biografía','Identificación','Variantes originales','Ensayos','Folios maqueta','Menciones','Menciones en notas']];
