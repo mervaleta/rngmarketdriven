@@ -108,6 +108,14 @@ function bibliographyPage(info){
  if(!item)return '<div class="s23-bib-page">Fuentes pendientes de revisión</div>';
  return '<div class="s23-bib-page"><span class="chapter-kicker">SIGLO23 · REFERENCIAS</span><h2>'+esc(item.heading)+'</h2><div class="chapter-rule"></div><ol>'+item.entries.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol><p class="s23-bib-note">Documentación preliminar. Verificar fuentes, derechos y datos editoriales antes de cerrar la edición.</p></div>';
 }
+function editorialBlocks(source){
+ return source.split(/\n\s*\n+/).filter(Boolean).map(raw=>{
+ const s=raw.trim(),fmt=t=>esc(t).replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>').replace(/\*([^*\n]+)\*/g,'<em>$1</em>');
+ if(/^##\s+/.test(s))return '<h3>'+fmt(s.replace(/^##\s+/,''))+'</h3>';
+ if(/^#\s+/.test(s))return '<h2>'+fmt(s.replace(/^#\s+/,''))+'</h2>';
+ return '<p>'+fmt(s)+'</p>';
+ }).join('');
+}
 function pageContent(info){
  const state=api.getState();
  if(info.opening)return openingPage(info);
@@ -116,6 +124,7 @@ function pageContent(info){
  if(info.section==='bibliography')return bibliographyPage(info);
  if(info.blank)return '<div class="frontmatter"><span class="edition" style="color:#a2aaa0">'+esc(info.title)+'</span></div>';
  if(info.isReal){
+   if(['study','afterword','biography','prologue','context'].includes(info.section))return '<div class="text-body actual-text s23-editorial-text" lang="es">'+editorialBlocks(info.text)+'</div>';
   const first=info.index===0&&/^original-(new-toryism|coming-slavery|sins-legislators|great-superstition)$/.test(info.section);
   const lead=first?'<div class="literary-reading-label">HERBERT SPENCER <span>◆</span> 1884</div>':'';
   return lead+'<div class="text-body actual-text'+(first?' chapter-first':'')+'" lang="'+(info.section.startsWith('original-')?'en':'es')+'">'+info.text.split(/\n\n+/).filter(Boolean).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>';

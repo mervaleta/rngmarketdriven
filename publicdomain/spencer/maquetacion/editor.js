@@ -13,7 +13,7 @@ const seed={
  sample:'La edición crítica reconstruye el debate intelectual de la Inglaterra victoriana y sitúa los argumentos de Herbert Spencer en su contexto histórico. Las transformaciones del Estado, la sociedad industrial y la libertad individual constituyen el eje de la lectura propuesta.\n\nEste texto es una muestra editorial de composición, no una transcripción de la obra de 1884. Su función consiste en comparar cuerpos tipográficos, interlineados, márgenes y densidades de página.\n\nCada decisión de diseño deberá contrastarse con el texto definitivo, las imágenes autorizadas y las especificaciones técnicas de la imprenta. La paginación final solo podrá cerrarse una vez concluida la corrección de estilo y la composición.',
  sections:[
  ['half','Portadilla',1,true],['title','Portada interior',1,true],['legal','Créditos y derechos',1,false],
- ['toc','Índice general',4,true],['prologue','Prólogo a la edición',16,true],['context','Spencer y la era victoriana',24,true],
+ ['toc','Índice general',4,true],['prologue','Prólogo editorial · pendiente','auto',true],['context','Contexto complementario · pendiente','auto',true],['biography','Biografía de Spencer · pendiente','auto',true],['study','Comprender a Herbert Spencer · estudio introductorio','auto',true],
  ['original-preface','Preface · 1884','auto',true],
  ['original-new-toryism','THE NEW TORYISM','auto',true],
  ['original-coming-slavery','THE COMING SLAVERY','auto',true],
@@ -21,7 +21,7 @@ const seed={
  ['original-great-superstition','THE GREAT POLITICAL SUPERSTITION','auto',true],
  ['original-postscript','POSTSCRIPT','auto',true],
  ['plates','Cuatro ilustraciones históricas',6,false],
- ['afterword','Epílogo contemporáneo',18,true],['bibliography','Fuentes y bibliografía · doble página',2,false],['index-onomastic','Índice onomástico · biografías','auto',true],['index-analytic','Índice analítico o temático','auto',true],['index-works','Índice de autores y obras citadas','auto',true],['colophon','Colofón',1,true]
+ ['afterword','El individuo contra el Estado, otra vez · epílogo 2026','auto',true],['bibliography','Fuentes y bibliografía · doble página',2,false],['index-onomastic','Índice onomástico · biografías','auto',true],['index-analytic','Índice analítico o temático','auto',true],['index-works','Índice de autores y obras citadas','auto',true],['colophon','Colofón',1,true]
  ].map(([id,name,pages,recto])=>({id,name,pages,recto,enabled:true}))
 };
 const formats={a5:[148,210],trade:[152.4,228.6],compact:[139.7,215.9],large:[170,240]};
@@ -52,7 +52,7 @@ function hydrate(raw){
  for(const key of ['showGuides','showFolios','showRunning','chapterOpenings','openingTextRecto','indexPortraits'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
   id:String(x.id||'custom-'+i).slice(0,80),name:String(x.name||'Sección').slice(0,110),
-  pages:(x.id==='text'||x.id==='legacy-text'||(x.id.startsWith('original-')||['index-onomastic','index-analytic','index-works'].includes(x.id)))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
+  pages:(x.id==='text'||x.id==='legacy-text'||(x.id.startsWith('original-')||['index-onomastic','index-analytic','index-works','prologue','context','biography','study','afterword'].includes(x.id)))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
  }));
  const originalGroup=seed.sections.filter(x=>x.id.startsWith('original-'));
  const oldIndex=s.sections.findIndex(x=>x.id==='text');
@@ -61,6 +61,15 @@ function hydrate(raw){
    const at=s.sections.findIndex(x=>x.id==='plates');s.sections.splice(at<0?s.sections.length:at,0,...originalGroup.map(x=>({...x})));
  }
  s.sections=s.sections.filter(x=>x.id!=='text'&&x.id!=='index-toponymic'&&!['notes','chronology','glossary'].includes(x.id));
+  // M07 · insertar secciones nuevas sin borrar datos guardados.
+  for(const [id,name] of [['biography','Biografía de Spencer · pendiente'],['study','Comprender a Herbert Spencer · estudio introductorio']]){
+    if(!s.sections.some(x=>x.id===id)){
+      const at=s.sections.findIndex(x=>x.id==='original-preface');
+      s.sections.splice(at<0?s.sections.length:at,0,{id,name,pages:'auto',recto:true,enabled:true});
+    }
+  }
+  const ep=s.sections.find(x=>x.id==='afterword');if(ep){ep.name='El individuo contra el Estado, otra vez · epílogo 2026';ep.pages='auto';}
+
  s.notesOpening=false;
  for(const [id,label,n,recto] of [['plates','Cuatro ilustraciones históricas',6,false],['bibliography','Fuentes y bibliografía · doble página',2,false]]){
   let sec=s.sections.find(x=>x.id===id);
@@ -108,7 +117,7 @@ function analyze(){
   }
  }catch{}
  const wordsPage=invalid?0:Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,1,10000,400));
- let mainPages=0,mainWords=0;
+ let mainPages=0,mainWords=0;const editorialPages={},editorialWords={};
  const autoPages={},items=[];let page=1,rectoBlanks=0,openingPages=0,openingCount=0,figureCount=0,figurePages=0;
  const essayIds=['original-new-toryism','original-coming-slavery','original-sins-legislators','original-great-superstition'];
  function addBlank(name){items.push({name,start:page,end:page,pages:1,blank:true});page++;rectoBlanks++;}
@@ -134,7 +143,7 @@ function analyze(){
     const raw=state.texts?.[sec.id]||'';
     const count=(raw.match(/\S+/g)||[]).length;
     pages=invalid||!count?0:Math.ceil((count+(state.chapterOpenings&&essayIds.includes(sec.id)?wordsPage*.2:0))/wordsPage);
-    autoPages[sec.id]=pages;mainPages+=pages;mainWords+=count;
+    autoPages[sec.id]=pages;if(sec.id.startsWith('original-')){mainPages+=pages;mainWords+=count;}else if(['prologue','context','biography','study','afterword'].includes(sec.id)){editorialPages[sec.id]=pages;editorialWords[sec.id]=count;}
    }
   }
   if(!pages)continue;
@@ -157,7 +166,7 @@ function analyze(){
  const pad=(4-(page-1)%4)%4;
  if(pad)items.push({name:'Blancos finales (hipótesis de cuadernillo)',start:page,end:page+pad-1,pages:pad,blank:true});
  const total=page-1+pad,sheets=Math.ceil(total/2),spine=sheets*state.caliper;
- return {w,h,wordsPage,mainPages,mainWords,autoPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,openingPages,openingCount,figureCount,figurePages,invalid,width,height};
+ return {w,h,wordsPage,mainPages,mainWords,editorialPages,editorialWords,autoPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,openingPages,openingCount,figureCount,figurePages,invalid,width,height};
 }
 function store(){try{localStorage.setItem(KEY,JSON.stringify(state));$('#saveStatus').textContent='Guardado localmente'}catch{$('#saveStatus').textContent='No se pudo guardar en este navegador'}}
 function setFields(){
@@ -225,16 +234,16 @@ function sceneContent(p){
  }
 }
 function renderRows(){
- $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?(x.id.startsWith('index-')?'<small>Entradas reales · medición</small>':'<small>Cálculo de palabras</small>'):'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.autoPages[x.id]||0:x.pages)+'" '+(x.pages==='auto'||['plates','bibliography'].includes(x.id)?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
+ $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?(x.id.startsWith('index-')?'<small>Entradas reales · medición</small>':state.texts[x.id]?.trim()?'<small>Manuscrito real · cálculo de palabras</small>':'<small>Pendiente · no suma páginas</small>'):'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.autoPages[x.id]||0:x.pages)+'" '+(x.pages==='auto'||['plates','bibliography'].includes(x.id)?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
 }
 function render(){
  const p=plan=analyze(),isCover=scene==='cover';
  try{
   const counts={};
   for(const x of state.sections.filter(x=>x.id.startsWith('original-')))counts[x.id]=(state.texts[x.id]?.match(/\S+/g)||[]).length;
-  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M06',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
+  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M07',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
  }catch{}
- $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);
+ $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);$('#metricStudy').textContent=f(p.editorialPages.study||0);$('#metricAfterword').textContent=f(p.editorialPages.afterword||0);$('#metricBio').textContent=(p.editorialPages.biography||0)?f(p.editorialPages.biography):'Pendiente';
  $('#metricBlanks').textContent=f(p.blanks);$('#metricFigures').textContent=f(p.figureCount)+' / '+f(p.figurePages);$('#metricOpenings').textContent=f(p.openingPages);$('#metricSpine').textContent=f(p.spine,2)+' mm';
  $('#metricSheets').textContent=f(p.sheets);$('#metricWords').textContent=f(p.wordsPage);
  const indexIds=[['index-onomastic','indexPagesOnomastic'],['index-analytic','indexPagesAnalytic'],['index-works','indexPagesWorks']];
@@ -258,7 +267,7 @@ function render(){
  host.style.height=Math.ceil(p.h*96/25.4*state.zoom)+'px';
  host.innerHTML='<div id="liveSpread" class="spread '+(isCover?'cover-spread':'interior-spread')+'" style="'+esc(vars(p))+';transform:scale('+state.zoom+')">'+sceneContent(p)+'</div>';
  $('#planMap').innerHTML=p.items.map(x=>'<li><span>'+esc(x.name)+'</span><span>'+x.start+(x.end!==x.start?'–'+x.end:'')+'</span></li>').join('');
- $('#productionCaveat').textContent='Original: '+f(p.mainWords)+' palabras; '+f(p.wordsPage)+' palabras/página aprox.; '+f(p.openingCount)+' pliegos de apertura ('+f(p.openingPages)+' páginas), '+f(p.figureCount)+' ilustraciones ('+f(p.figurePages)+' páginas), '+f(p.rectoBlanks)+' blancos de enlace/recto y '+f(p.pad)+' blancos de cierre. La paginación es una estimación, no arte final.';
+ $('#productionCaveat').textContent='Original: '+f(p.mainWords)+' palabras; estudio: '+f(p.editorialWords.study||0)+' palabras; epílogo: '+f(p.editorialWords.afterword||0)+' palabras; '+f(p.wordsPage)+' palabras/página aprox.; '+f(p.openingCount)+' pliegos de apertura ('+f(p.openingPages)+' páginas), '+f(p.figureCount)+' ilustraciones ('+f(p.figurePages)+' páginas), '+f(p.rectoBlanks)+' blancos de enlace/recto y '+f(p.pad)+' blancos de cierre. La paginación es una estimación, no arte final.';
   $$('.view-switch [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===scene)));
  $('#prevView').disabled=scene===scenes[0][0];$('#nextView').disabled=scene===scenes[scenes.length-1][0];
  renderRows();

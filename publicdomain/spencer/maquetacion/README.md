@@ -115,3 +115,11 @@ El recuento del lomo incorpora las páginas efectivas de los pliegos. Los enlace
 ### M06 · Vista de las láminas y bibliografía
 
 La grilla y el visor ya presentan las cuatro imágenes reales, con título y procedencia. Los dos pliegos tienen caras izquierda y derecha, y las láminas simples permanecen independientes. Las dos páginas de Fuentes y bibliografía se muestran con un listado inicial repartido físicamente en verso y recto. Los archivos remotos usados para la vista no sustituyen los másteres necesarios para imprimir.
+
+## M07 — textos editoriales completos (2026-11-06)
+
+- Estudio de 3.275 palabras y epílogo de 3.143 palabras incorporados desde dos Markdown íntegros mediante `editorial-loader.js`.
+- El estudio precede a la obra original de Spencer y el epílogo sigue a la posdata; la biografía es otra sección y no suma páginas hasta recibir manuscrito.
+- Las reservas de 16 y 24 páginas para prólogo y contexto se sustituyen por secciones automáticas vacías; se conservan manuscritos y ajustes locales de proyectos anteriores.
+- Paginación web geométrica provisional: los PDF independientes contaron 10+9 páginas en 6×9 y 11+10 en A5. No confundir estas pruebas con los folios finales de imprenta.
+- GitHub actualizado no prueba sincronización automática con Hostinger: confirmar `version.json` en el dominio.
