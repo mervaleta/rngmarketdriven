@@ -917,7 +917,28 @@
       "edition_verified_as_of": "2026-11-05",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Die%20Verwandlung%20Franz%20Kafka",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22367.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22367.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22367"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0023",
@@ -958,7 +979,22 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Tractatus%20Logico-Philosophicus%20Ludwig%20Wittgenstein",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "PDF bilingüe identificado",
+      "original_sources": [
+        {
+          "format": "PDF bilingüe (DE/EN)",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+          "note": "Esta entrada ofrece PDF y TeX, no EPUB/TXT"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5740"
+        }
+      ]
     },
     {
       "id": "S23-0024",
@@ -999,7 +1035,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Faust.%20Der%20Trag%C3%B6die%20erster%20Teil%20Johann%20Wolfgang%20von%20Goethe",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2229.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2229.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2229"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0025",
@@ -1040,7 +1097,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Der%20Struwwelpeter%20Heinrich%20Hoffmann",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/24571.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/24571.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/24571"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0026",
@@ -1082,7 +1160,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Buddenbrooks%20Thomas%20Mann",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/34811.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/34811.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/34811"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0027",
@@ -1164,7 +1263,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Also%20sprach%20Zarathustra%20Friedrich%20Nietzsche",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7205.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7205.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/7205"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0029",
@@ -1205,7 +1325,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Der%20Zauberberg%20Thomas%20Mann",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Tomo I · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65661.txt.utf-8"
+        },
+        {
+          "format": "Tomo I · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65661.epub3.images"
+        },
+        {
+          "format": "Tomo I · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65661"
+        },
+        {
+          "format": "Tomo II · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65662.txt.utf-8"
+        },
+        {
+          "format": "Tomo II · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65662.epub3.images"
+        },
+        {
+          "format": "Tomo II · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/65662"
+        }
+      ],
+      "original_source_note": "Obra repartida entre varios tomos; obtenerlos todos para el texto integral"
     },
     {
       "id": "S23-0030",
@@ -1245,7 +1404,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Die%20Traumdeutung%20Sigmund%20Freud",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/40739.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/40739.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/40739"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0031",
@@ -1328,7 +1508,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Die%20Leiden%20des%20jungen%20Werthers%20Johann%20Wolfgang%20von%20Goethe",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Tomo I · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2407.txt.utf-8"
+        },
+        {
+          "format": "Tomo I · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2407.epub3.images"
+        },
+        {
+          "format": "Tomo I · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2407"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0033",
@@ -1369,7 +1570,100 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Les%20Mis%C3%A9rables%20Victor%20Hugo",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Tomo I · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17489.txt.utf-8"
+        },
+        {
+          "format": "Tomo I · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17489.epub3.images"
+        },
+        {
+          "format": "Tomo I · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17489"
+        },
+        {
+          "format": "Tomo II · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17493.txt.utf-8"
+        },
+        {
+          "format": "Tomo II · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17493.epub3.images"
+        },
+        {
+          "format": "Tomo II · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17493"
+        },
+        {
+          "format": "Tomo III · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17494.txt.utf-8"
+        },
+        {
+          "format": "Tomo III · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17494.epub3.images"
+        },
+        {
+          "format": "Tomo III · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17494"
+        },
+        {
+          "format": "Tomo IV · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17518.txt.utf-8"
+        },
+        {
+          "format": "Tomo IV · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17518.epub3.images"
+        },
+        {
+          "format": "Tomo IV · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17518"
+        },
+        {
+          "format": "Tomo V · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17519.txt.utf-8"
+        },
+        {
+          "format": "Tomo V · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17519.epub3.images"
+        },
+        {
+          "format": "Tomo V · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17519"
+        }
+      ],
+      "original_source_note": "Obra repartida entre varios tomos; obtenerlos todos para el texto integral"
     },
     {
       "id": "S23-0034",
@@ -1410,7 +1704,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Du%20c%C3%B4t%C3%A9%20de%20chez%20Swann%20Marcel%20Proust",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2650.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2650.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2650"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0035",
@@ -1451,7 +1766,82 @@
       "catalog_lookup_url": "https://openlibrary.org/search?q=Le%20Comte%20de%20Monte-Cristo%20Alexandre%20Dumas%20%2F%20Auguste%20Maquet",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
       "edition_verified_as_of": "2026-11-05",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Tomo I · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17989.txt.utf-8"
+        },
+        {
+          "format": "Tomo I · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17989.epub3.images"
+        },
+        {
+          "format": "Tomo I · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17989"
+        },
+        {
+          "format": "Tomo II · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17990.txt.utf-8"
+        },
+        {
+          "format": "Tomo II · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17990.epub3.images"
+        },
+        {
+          "format": "Tomo II · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17990"
+        },
+        {
+          "format": "Tomo III · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17991.txt.utf-8"
+        },
+        {
+          "format": "Tomo III · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17991.epub3.images"
+        },
+        {
+          "format": "Tomo III · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17991"
+        },
+        {
+          "format": "Tomo IV · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17992.txt.utf-8"
+        },
+        {
+          "format": "Tomo IV · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17992.epub3.images"
+        },
+        {
+          "format": "Tomo IV · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17992"
+        }
+      ],
+      "original_source_note": "Obra repartida entre varios tomos; obtenerlos todos para el texto integral"
     },
     {
       "id": "S23-0036",
@@ -1492,7 +1882,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Candide%20Voltaire",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Ed. ilustrada · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59859.txt.utf-8"
+        },
+        {
+          "format": "Ed. ilustrada · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59859.epub3.images"
+        },
+        {
+          "format": "Ed. ilustrada · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59859"
+        },
+        {
+          "format": "Otra edición · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/4650.txt.utf-8"
+        },
+        {
+          "format": "Otra edición · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/4650.epub3.images"
+        },
+        {
+          "format": "Otra edición · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/4650"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0037",
@@ -1533,7 +1962,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Le%20Tour%20du%20monde%20en%20quatre-vingts%20jours%20Jules%20Verne",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Ed. A · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/800.txt.utf-8"
+        },
+        {
+          "format": "Ed. A · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/800.epub3.images"
+        },
+        {
+          "format": "Ed. A · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/800"
+        },
+        {
+          "format": "Ed. ilustrada · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/46541.txt.utf-8"
+        },
+        {
+          "format": "Ed. ilustrada · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/46541.epub3.images"
+        },
+        {
+          "format": "Ed. ilustrada · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/46541"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0038",
@@ -1574,7 +2042,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Madame%20Bovary%20Gustave%20Flaubert",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Ed. A · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14155.txt.utf-8"
+        },
+        {
+          "format": "Ed. A · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14155.epub3.images"
+        },
+        {
+          "format": "Ed. A · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14155"
+        },
+        {
+          "format": "Otra edición · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48359.txt.utf-8"
+        },
+        {
+          "format": "Otra edición · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48359.epub3.images"
+        },
+        {
+          "format": "Otra edición · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/48359"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0039",
@@ -1617,7 +2124,28 @@
       "edition_verified_as_of": "2026-11-05",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Les%20Trois%20Mousquetaires%20Alexandre%20Dumas%20%2F%20Auguste%20Maquet",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13951.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13951.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13951"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0040",
@@ -1698,7 +2226,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Vingt%20mille%20lieues%20sous%20les%20mers%20Jules%20Verne",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Completo · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5097.txt.utf-8"
+        },
+        {
+          "format": "Completo · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5097.epub3.images"
+        },
+        {
+          "format": "Completo · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5097"
+        },
+        {
+          "format": "Otra edición · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/54873.txt.utf-8"
+        },
+        {
+          "format": "Otra edición · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/54873.epub3.images"
+        },
+        {
+          "format": "Otra edición · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/54873"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0042",
@@ -1780,7 +2347,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Discours%20de%20la%20m%C3%A9thode%20Ren%C3%A9%20Descartes",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13846.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13846.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/13846"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0044",
@@ -1821,7 +2409,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Notre-Dame%20de%20Paris%20Victor%20Hugo",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/19657.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/19657.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/19657"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0045",
@@ -1862,7 +2471,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Le%20Horla%20Guy%20de%20Maupassant",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/10775.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/10775.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/10775"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0046",
@@ -1904,7 +2534,28 @@
       "catalog_lookup_url": "https://openlibrary.org/search?q=Divina%20Commedia%20Dante%20Alighieri",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
       "edition_verified_as_of": "2026-11-05",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1012.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1012.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/1012"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0047",
@@ -1945,7 +2596,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Le%20avventure%20di%20Pinocchio%20Carlo%20Collodi",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/52484.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/52484.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/52484"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0048",
@@ -1986,7 +2658,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=I%20promessi%20sposi%20Alessandro%20Manzoni",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/45334.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/45334.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/45334"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0049",
@@ -2272,7 +2965,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Dom%20Casmurro%20Machado%20de%20Assis",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/55752.txt.utf-8"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/55752.epub3.images"
+        },
+        {
+          "format": "Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/55752"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0056",
@@ -2313,7 +3027,46 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Os%20Lus%C3%ADadas%20Lu%C3%ADs%20de%20Cam%C3%B5es",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "format": "Edición modernizada · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3333.txt.utf-8"
+        },
+        {
+          "format": "Edición modernizada · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3333.epub3.images"
+        },
+        {
+          "format": "Edición modernizada · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3333"
+        },
+        {
+          "format": "Transcripción 1572 · TXT",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/27236.txt.utf-8"
+        },
+        {
+          "format": "Transcripción 1572 · EPUB3",
+          "kind": "descarga",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/27236.epub3.images"
+        },
+        {
+          "format": "Transcripción 1572 · Ficha",
+          "kind": "consulta",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/27236"
+        }
+      ],
+      "original_source_note": "Textos de Gutenberg corresponden a ediciones históricas digitalizadas, no necesariamente primeras ediciones"
     },
     {
       "id": "S23-0057",
@@ -11947,6 +12700,13 @@
           "kind": "consulta",
           "provider": "rngmarketdriven.com",
           "note": "Lectura/facsímil; no constituye descarga local"
+        },
+        {
+          "format": "Edición histórica 1885",
+          "kind": "consulta",
+          "provider": "Online Library of Liberty",
+          "url": "https://oll.libertyfund.org/titles/spencer-the-man-versus-the-state-1885-ed",
+          "note": "Referencia bibliográfica y texto en inglés; verificar descarga"
         }
       ]
     },
