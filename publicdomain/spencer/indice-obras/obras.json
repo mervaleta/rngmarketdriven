@@ -1,0 +1,1442 @@
+{
+  "title": "Índice de autores y obras citadas — The Man versus the State (1884)",
+  "created": "2026-11-05",
+  "status": "Borrador indexado, referencias ubicadas en texto y notas; títulos bibliográficos y ediciones originales todavía sujetos a verificación",
+  "source": "../maquetacion/original-ingles-1884.json",
+  "methodology": "Las localizaciones se calculan en índices de palabra; las páginas cambian con Maquetación. Las revistas periódicas se diferencian de los libros, y se conservan títulos tal como aparecen junto con títulos normalizados. Obras con citas de autor abreviadas pueden necesitar cotejo.",
+  "count_total": 56,
+  "count_located": 56,
+  "count_mentions": 88,
+  "entries": [
+    {
+      "id": "work-001",
+      "title": "Parliamentary Reform: The Dangers and the Safeguards",
+      "author": "Herbert Spencer",
+      "year": "1860",
+      "type": "Artículo",
+      "aliases": [
+        "Parliamentary Reform: the Dangers and the Safeguards"
+      ],
+      "description": "Ensayo anterior de Spencer sobre los riesgos de extender el sufragio sin garantías efectivas de libertad.",
+      "occurrences": [
+        {
+          "section": "original-preface",
+          "wordIndex": 11,
+          "spelling": "Parliamentary Reform: the Dangers and the Safeguards",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-002",
+      "title": "The Westminster Review",
+      "author": "Revista colectiva",
+      "year": "siglo XIX",
+      "type": "Revista",
+      "aliases": [
+        "Westminster Review"
+      ],
+      "description": "Publicación periódica donde apareció el ensayo de Spencer sobre reforma parlamentaria.",
+      "occurrences": [
+        {
+          "section": "original-preface",
+          "wordIndex": 1,
+          "spelling": "Westminster Review",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-003",
+      "title": "Contemporary Review",
+      "author": "Revista colectiva",
+      "year": "1884",
+      "type": "Revista",
+      "aliases": [
+        "Contemporary Review"
+      ],
+      "description": "Revista británica donde aparecieron los cuatro ensayos que dieron origen a The Man versus the State.",
+      "occurrences": [
+        {
+          "section": "original-preface",
+          "wordIndex": 251,
+          "spelling": "Contemporary Review",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-004",
+      "title": "Short History of the English People",
+      "author": "John Richard Green",
+      "year": "1874",
+      "type": "Libro de historia",
+      "aliases": [
+        "Short History of the English People"
+      ],
+      "description": "Historia popular de Inglaterra, citada para contextualizar la relación histórica entre whigs y tories.",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 932,
+          "spelling": "Short History of the English People",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-005",
+      "title": "Social Statics",
+      "author": "Herbert Spencer",
+      "year": "1851",
+      "type": "Libro de filosofía",
+      "aliases": [
+        "Social Statics"
+      ],
+      "description": "Obra anterior de Spencer sobre justicia, derechos individuales y límites de la acción gubernamental.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10290,
+          "spelling": "Social Statics",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3310,
+          "spelling": "Social Statics",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3489,
+          "spelling": "Social Statics",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 10063,
+          "spelling": "Social Statics",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13782,
+          "spelling": "Social Statics",
+          "inNote": true
+        }
+      ],
+      "mentions": 5,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-006",
+      "title": "The State in its Relation to Trade",
+      "author": "Thomas Henry Farrer",
+      "year": "1883",
+      "type": "Ensayo económico",
+      "aliases": [
+        "The State in its Relation to Trade"
+      ],
+      "description": "Ensayo sobre las funciones del Estado en comercio, regulación y ferrocarriles.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13617,
+          "spelling": "The State in its Relation to Trade",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-007",
+      "title": "Russia",
+      "author": "Donald Mackenzie Wallace",
+      "year": "1877",
+      "type": "Libro de historia y viajes",
+      "aliases": [
+        "Russia, I. 422"
+      ],
+      "description": "Libro de observación y análisis del Imperio ruso; se usa para describir las dependencias burocráticas.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10433,
+          "spelling": "Russia, I. 422",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-008",
+      "title": "Socialism Made Plain",
+      "author": "Autor/firmante no confirmado",
+      "year": "1884",
+      "type": "Folleto",
+      "aliases": [
+        "Socialism made Plain"
+      ],
+      "description": "Folleto de discusión socialista referido en nota, con dirección editorial en Fleet Street.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10437,
+          "spelling": "Socialism made Plain",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-009",
+      "title": "Fortnightly Review",
+      "author": "Revista colectiva",
+      "year": "1865 en adelante",
+      "type": "Revista",
+      "aliases": [
+        "Fortnightly Review"
+      ],
+      "description": "Revista inglesa citada repetidamente en artículos contemporáneos y testimonios.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10334,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10428,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10594,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 14032,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11679,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11931,
+          "spelling": "Fortnightly Review",
+          "inNote": true
+        }
+      ],
+      "mentions": 6,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-010",
+      "title": "The Times",
+      "author": "Redacción del periódico",
+      "year": "siglo XIX",
+      "type": "Periódico",
+      "aliases": [
+        "Times,",
+        "Times of",
+        "in Times",
+        "in the Times"
+      ],
+      "description": "Periódico londinense citado para noticias y casos sobre administración, sanidad y legislación.",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 2669,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 4433,
+          "spelling": "times of",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 1402,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 1504,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 3907,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10357,
+          "spelling": "Times,",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 688,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 2474,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3485,
+          "spelling": "Times,",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 10252,
+          "spelling": "times,",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13607,
+          "spelling": "Times,",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13753,
+          "spelling": "Times,",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3514,
+          "spelling": "Times of",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13652,
+          "spelling": "Times of",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13651,
+          "spelling": "in Times",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3512,
+          "spelling": "in the Times",
+          "inNote": false
+        }
+      ],
+      "mentions": 16,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-011",
+      "title": "Hansard's Parliamentary History",
+      "author": "Edición parlamentaria",
+      "year": "siglo XIX",
+      "type": "Compilación documental",
+      "aliases": [
+        "Hansard's Parliamentary History",
+        "Hansard,"
+      ],
+      "description": "Recopilación de debates parlamentarios británicos citada con volumen y página.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10327,
+          "spelling": "Hansard's Parliamentary History",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13635,
+          "spelling": "Hansard,",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-012",
+      "title": "The Nineteenth Century",
+      "author": "Revista colectiva",
+      "year": "1877 en adelante",
+      "type": "Revista",
+      "aliases": [
+        "Nineteenth Century"
+      ],
+      "description": "Publicación periódica citada por sus materiales sobre política, gasto y legislación.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10589,
+          "spelling": "Nineteenth Century",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13568,
+          "spelling": "Nineteenth Century",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13734,
+          "spelling": "Nineteenth Century",
+          "inNote": true
+        }
+      ],
+      "mentions": 3,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-013",
+      "title": "Pall Mall Gazette",
+      "author": "Redacción del periódico",
+      "year": "1865 en adelante",
+      "type": "Periódico",
+      "aliases": [
+        "Pall Mall Gazette"
+      ],
+      "description": "Periódico británico, citado a propósito de educación y expectativas socialistas.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 5319,
+          "spelling": "Pall Mall Gazette",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-014",
+      "title": "Constitutional History of England",
+      "author": "Thomas Erskine May",
+      "year": "1861–1863",
+      "type": "Libro de historia",
+      "aliases": [
+        "Constitutional History of England"
+      ],
+      "description": "Historia constitucional que Spencer cita al examinar reformas agrarias y cerealistas.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13516,
+          "spelling": "Constitutional History of England",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-015",
+      "title": "History of the Rise and Influence of the Spirit of Rationalism in Europe",
+      "author": "William E. H. Lecky",
+      "year": "1865",
+      "type": "Libro de historia",
+      "aliases": [
+        "Lecky, Rationalism"
+      ],
+      "description": "Referencia resumida a una obra de Lecky sobre evolución de creencias y cultura europeas.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13524,
+          "spelling": "Lecky, Rationalism",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-016",
+      "title": "L'Ancien Régime et la Révolution / L'Ancien Régime",
+      "author": "Hippolyte Taine",
+      "year": "1875–1893",
+      "type": "Libro de historia",
+      "aliases": [
+        "Taine, L'Ancien Regime"
+      ],
+      "description": "Referencia abreviada al estudio de Taine sobre el Antiguo Régimen francés; verificar título y tomo exactos.",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10609,
+          "spelling": "Taine, L'Ancien Regime",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-017",
+      "title": "The State of Society in France before the Revolution",
+      "author": "Alexis de Tocqueville",
+      "year": "1856",
+      "type": "Historia política",
+      "aliases": [
+        "The State of Society in France before the Revolution"
+      ],
+      "description": "Título de la traducción inglesa de El Antiguo Régimen y la Revolución que Spencer cita explícitamente.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13531,
+          "spelling": "The State of Society in France before the Revolution",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-018",
+      "title": "Travels in France",
+      "author": "Arthur Young",
+      "year": "1792–1794",
+      "type": "Diario de viajes",
+      "aliases": [
+        "Young's Travels"
+      ],
+      "description": "Observaciones de Arthur Young sobre Francia y el comercio de productos agrícolas.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13543,
+          "spelling": "Young's Travels",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-019",
+      "title": "History of British Commerce",
+      "author": "George Lillie Craik",
+      "year": "1844",
+      "type": "Historia económica",
+      "aliases": [
+        "History of British Commerce"
+      ],
+      "description": "Historia comercial británica utilizada para examinar regulaciones del pasado.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13549,
+          "spelling": "History of British Commerce",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-020",
+      "title": "The Statistics of Legislation",
+      "author": "Frederick H. Janson",
+      "year": "1873",
+      "type": "Artículo estadístico",
+      "aliases": [
+        "The Statistics of Legislation"
+      ],
+      "description": "Estudio cuantitativo de producción legislativa inglesa; aparece en la transcripción con errata Jansen.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13574,
+          "spelling": "The Statistics of Legislation",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-021",
+      "title": "Fire Surveys",
+      "author": "Autor no verificado",
+      "year": "Siglo XIX",
+      "type": "Manual técnico",
+      "aliases": [
+        "Fire Surveys"
+      ],
+      "description": "Manual de inspección y evaluación de riesgo de edificios citado respecto de prevención y normativas.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13588,
+          "spelling": "Fire Surveys",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-022",
+      "title": "History of the English Poor Law",
+      "author": "George Nicholls",
+      "year": "1854",
+      "type": "Historia de legislación",
+      "aliases": [
+        "History of English Poor Law"
+      ],
+      "description": "Estudio de la legislación de pobres inglesa y sus consecuencias.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13743,
+          "spelling": "History of English Poor Law",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-023",
+      "title": "On the Value of Political Economy to Mankind",
+      "author": "A. N. Cummings",
+      "year": "Fecha no determinada",
+      "type": "Ensayo económico",
+      "aliases": [
+        "On the Value of Political Economy to Mankind"
+      ],
+      "description": "Trabajo citado por la utilidad social del pensamiento económico y sus principios.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13808,
+          "spelling": "On the Value of Political Economy to Mankind",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-024",
+      "title": "The Jukes: A Study in Crime, Pauperism, Disease and Heredity",
+      "author": "Richard L. Dugdale",
+      "year": "1877",
+      "type": "Estudio de caso",
+      "aliases": [
+        "Jukes: a Study in Crime, Pauperism, Disease and Heredity"
+      ],
+      "description": "Estudio genealógico y social sobre una familia de Estados Unidos; sus hipótesis deben leerse con cautela histórica.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 14013,
+          "spelling": "Jukes: a Study in Crime, Pauperism, Disease and Heredity",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-025",
+      "title": "Political Institutions",
+      "author": "Herbert Spencer",
+      "year": "1882",
+      "type": "Sociología política",
+      "aliases": [
+        "Political Institution"
+      ],
+      "description": "Sección/volumen de The Principles of Sociology que Spencer remite en una nota de autor.",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 2083,
+          "spelling": "political institution",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13495,
+          "spelling": "Political Institution",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-026",
+      "title": "The Study of Sociology",
+      "author": "Herbert Spencer",
+      "year": "1873",
+      "type": "Sociología",
+      "aliases": [
+        "Study of Sociology",
+        "Study in Sociology"
+      ],
+      "description": "Obra de Spencer sobre métodos y problemas del estudio científico de la sociedad.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13508,
+          "spelling": "Study of Sociology",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13793,
+          "spelling": "Study of Sociology",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13691,
+          "spelling": "Study in Sociology",
+          "inNote": true
+        }
+      ],
+      "mentions": 3,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-027",
+      "title": "Over-Legislation",
+      "author": "Herbert Spencer",
+      "year": "1853",
+      "type": "Ensayo político",
+      "aliases": [
+        "Over-Legislation"
+      ],
+      "description": "Ensayo de Spencer sobre exceso de normas y efectos secundarios de la legislación.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13786,
+          "spelling": "Over-Legislation",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-028",
+      "title": "Representative Government: What Is It Good For?",
+      "author": "Herbert Spencer",
+      "year": "1857",
+      "type": "Ensayo político",
+      "aliases": [
+        "Representative Government"
+      ],
+      "description": "Ensayo anterior de Spencer sobre representación parlamentaria.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13788,
+          "spelling": "Representative Government",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-029",
+      "title": "Specialized Administration",
+      "author": "Herbert Spencer",
+      "year": "1871",
+      "type": "Ensayo político",
+      "aliases": [
+        "Specialized Administration"
+      ],
+      "description": "Ensayo sobre burocracia y administración especializada, citado entre precedentes propios.",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13791,
+          "spelling": "Specialized Administration",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-030",
+      "title": "The Data of Ethics",
+      "author": "Herbert Spencer",
+      "year": "1879",
+      "type": "Libro de ética",
+      "aliases": [
+        "Data of Ethics"
+      ],
+      "description": "Libro de Spencer sobre fundamentos de la ética; citado en notas de teoría política.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11968,
+          "spelling": "Data of Ethics",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-031",
+      "title": "The Province of Jurisprudence Determined",
+      "author": "John Austin",
+      "year": "1832",
+      "type": "Tratado jurídico",
+      "aliases": [
+        "The Province of Jurisprudence Determined"
+      ],
+      "description": "Obra clásica de positivismo jurídico y teoría del soberano, debatida por Spencer.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11669,
+          "spelling": "The Province of Jurisprudence Determined",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-032",
+      "title": "Collected Works (Hobbes)",
+      "author": "Thomas Hobbes",
+      "year": "Edición siglo XIX",
+      "type": "Edición de obras",
+      "aliases": [
+        "Hobbes, Collected Works"
+      ],
+      "description": "Colección editorial de textos de Hobbes citada por volumen; no se identifica un solo tratado en la nota.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11653,
+          "spelling": "Hobbes, Collected Works",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-033",
+      "title": "The Works of Jeremy Bentham",
+      "author": "Jeremy Bentham; editor John Bowring",
+      "year": "1838–1843",
+      "type": "Colección de obras",
+      "aliases": [
+        "Bentham's Works"
+      ],
+      "description": "Edición de los escritos de Bentham utilizada por Spencer para discutir la fuente de derechos.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11688,
+          "spelling": "Bentham's Works",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11722,
+          "spelling": "Bentham's Works",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-034",
+      "title": "History of the Conquest of Peru",
+      "author": "William H. Prescott",
+      "year": "1847",
+      "type": "Historia",
+      "aliases": [
+        "Conquest of Peru"
+      ],
+      "description": "Historia de la conquista del Perú utilizada en comparaciones sobre el gobierno inca.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11696,
+          "spelling": "Conquest of Peru",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-035",
+      "title": "The Highlands of Æthiopia",
+      "author": "William Cornwallis Harris",
+      "year": "1844",
+      "type": "Viajes e historia",
+      "aliases": [
+        "Highland of Aethiopia"
+      ],
+      "description": "Relato de las tierras altas de Etiopía y de una misión diplomática; la nota presenta título abreviado.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11705,
+          "spelling": "Highland of Aethiopia",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-036",
+      "title": "A Mission to Gelele, King of Dahome",
+      "author": "Richard F. Burton",
+      "year": "1864",
+      "type": "Libro de viajes",
+      "aliases": [
+        "Mission to Gelele, King of Dahome"
+      ],
+      "description": "Relato de Burton sobre el reino de Dahomey, usado como referencia a formas de autoridad.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11712,
+          "spelling": "Mission to Gelele, King of Dahome",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-037",
+      "title": "Travels in the Interior of Southern Africa",
+      "author": "William John Burchell",
+      "year": "1822–1824",
+      "type": "Libro de viajes",
+      "aliases": [
+        "Travels in the Interior of Southern Africa"
+      ],
+      "description": "Fuente de viajes por África austral utilizada en las notas sobre costumbres.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11731,
+          "spelling": "Travels in the Interior of Southern Africa",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-038",
+      "title": "Voyage of Exploration (Arbousset y Daumas)",
+      "author": "Thomas Arbousset y François Daumas",
+      "year": "Siglo XIX",
+      "type": "Libro de viajes",
+      "aliases": [
+        "Voyage of Exploration"
+      ],
+      "description": "Fuente misionera de exploraciones del África austral; título abreviado en las notas.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11746,
+          "spelling": "Voyage of Exploration",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-039",
+      "title": "Travels and Adventures in Southern Africa",
+      "author": "George Thompson",
+      "year": "1827",
+      "type": "Libro de viajes",
+      "aliases": [
+        "Travels and Adventures in Southern Africa"
+      ],
+      "description": "Fuente sobre el África austral citada en nota.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11754,
+          "spelling": "Travels and Adventures in Southern Africa",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-040",
+      "title": "Geographical and Historical Dictionary of America",
+      "author": "Antonio de Alcedo; citado vía G. A. Thompson",
+      "year": "1786–1789",
+      "type": "Diccionario histórico",
+      "aliases": [
+        "Alcedo's Geographical and Historical Dictionary of America"
+      ],
+      "description": "Diccionario de historia y geografía americana citado en versión o edición inglesa.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11767,
+          "spelling": "Alcedo's Geographical and Historical Dictionary of America",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-041",
+      "title": "Siberian Overland Route",
+      "author": "Alexander Mitchell (atribución por comprobar)",
+      "year": "Siglo XIX",
+      "type": "Libro de viajes",
+      "aliases": [
+        "Siberian Overland Route"
+      ],
+      "description": "Referencia sobre Siberia citada en nota abreviada.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11781,
+          "spelling": "Siberian Overland Route",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-042",
+      "title": "Ten Years in Sarawak",
+      "author": "Charles Brooke",
+      "year": "1866",
+      "type": "Memorias y viajes",
+      "aliases": [
+        "Ten Years in Sardwak"
+      ],
+      "description": "Obra de Charles Brooke sobre Sarawak; la transcripción contiene «Sardwak».",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11789,
+          "spelling": "Ten Years in Sardwak",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-043",
+      "title": "History of Madagascar",
+      "author": "William Ellis",
+      "year": "1838",
+      "type": "Historia",
+      "aliases": [
+        "History of Madagascar"
+      ],
+      "description": "Fuente citada sobre la organización tradicional de Madagascar.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11799,
+          "spelling": "History of Madagascar",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-044",
+      "title": "History of Java",
+      "author": "Thomas Stamford Raffles",
+      "year": "1817",
+      "type": "Historia y etnografía",
+      "aliases": [
+        "History of Java"
+      ],
+      "description": "Obra sobre Java y las costumbres de sus comunidades, citada por Spencer.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11809,
+          "spelling": "History of Java",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-045",
+      "title": "The History of Sumatra",
+      "author": "William Marsden",
+      "year": "1783",
+      "type": "Historia y etnografía",
+      "aliases": [
+        "History of Sumatra"
+      ],
+      "description": "Fuente sobre Sumatra y su derecho consuetudinario.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11818,
+          "spelling": "History of Sumatra",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-046",
+      "title": "Ashantee and the Gold Coast",
+      "author": "John Beecham",
+      "year": "1841",
+      "type": "Viajes e historia",
+      "aliases": [
+        "Ashante and the Gold Coast"
+      ],
+      "description": "Fuente británica sobre el pueblo asante y la Costa de Oro.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11826,
+          "spelling": "Ashante and the Gold Coast",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-047",
+      "title": "Expedition to the Sources of the Mississippi River",
+      "author": "Henry Rowe Schoolcraft",
+      "year": "1832",
+      "type": "Viajes y etnografía",
+      "aliases": [
+        "Expedition to the Sources of the Mississippi River",
+        "Expedition to the Source of the Mississippi"
+      ],
+      "description": "Exploración de Schoolcraft, citada respecto a comunidades indígenas norteamericanas.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11836,
+          "spelling": "Expedition to the Sources of the Mississippi River",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11919,
+          "spelling": "Expedition to the Source of the Mississippi",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-048",
+      "title": "Kolff's Voyage of the Dourga",
+      "author": "Dirk Hendrik Kolff; edición de George Windsor Earl",
+      "year": "Siglo XIX",
+      "type": "Relato de viaje",
+      "aliases": [
+        "Kolff's Voyage of the Domga"
+      ],
+      "description": "Fuente sobre islas de Indonesia, citada con transcripción defectuosa «Domga»; verificar el título del buque.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11848,
+          "spelling": "Kolff's Voyage of the Domga",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-049",
+      "title": "The Methods of Jurisprudence",
+      "author": "Frederick Pollock",
+      "year": "1882",
+      "type": "Conferencia jurídica",
+      "aliases": [
+        "The Methods of Jurisprudence"
+      ],
+      "description": "Conferencia de Pollock sobre métodos de jurisprudencia, pronunciada en University College de Londres.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11857,
+          "spelling": "The Methods of Jurisprudence",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-050",
+      "title": "Ceylon: An Account of the Island",
+      "author": "James Emerson Tennent",
+      "year": "1859",
+      "type": "Historia y viajes",
+      "aliases": [
+        "Ceylon: an Account of the Island"
+      ],
+      "description": "Estudio de Ceilán usado para ilustrar normas y autoridad en sociedades tradicionales.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11872,
+          "spelling": "Ceylon: an Account of the Island",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-051",
+      "title": "Daily Life and the Origin of the Tasmanians",
+      "author": "James Bonwick",
+      "year": "1870",
+      "type": "Historia social",
+      "aliases": [
+        "Daily Life and the Origin of the Tasmanians"
+      ],
+      "description": "Estudio de los pueblos aborígenes de Tasmania utilizado en notas etnográficas.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11884,
+          "spelling": "Daily Life and the Origin of the Tasmanians",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-052",
+      "title": "Polynesia (referencia abreviada)",
+      "author": "Autor no verificado",
+      "year": "Siglo XIX",
+      "type": "Libro o compilación",
+      "aliases": [
+        "Polynesia, p. 86"
+      ],
+      "description": "Cita de obra sobre Polinesia sin autor explícito en la transcripción.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11894,
+          "spelling": "Polynesia, p. 86",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-053",
+      "title": "Voyages of the Adventure and Beagle",
+      "author": "Exploradores británicos; autoría editorial por verificar",
+      "year": "1839",
+      "type": "Relato de expedición",
+      "aliases": [
+        "Voyages of the Adventure and Beagle"
+      ],
+      "description": "Relato de expediciones navales británicas, citado por observaciones de pueblos patagónicos.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11898,
+          "spelling": "Voyages of the Adventure and Beagle",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-054",
+      "title": "Travels on the Amazon and Rio Negro",
+      "author": "Alfred Russel Wallace",
+      "year": "1853",
+      "type": "Viajes y ciencias naturales",
+      "aliases": [
+        "Travels on Amazon and Rio Negro"
+      ],
+      "description": "Viajes de Wallace en la cuenca amazónica y el río Negro, citados en nota.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11909,
+          "spelling": "Travels on Amazon and Rio Negro",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-055",
+      "title": "Ceylon and the Cingalese",
+      "author": "Henry Charles Sirr",
+      "year": "1850",
+      "type": "Historia y viajes",
+      "aliases": [
+        "Ceylon and the Ceyonese"
+      ],
+      "description": "Obra sobre Ceilán citada con errata en la palabra «Ceyonese».",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11939,
+          "spelling": "Ceylon and the Ceyonese",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    },
+    {
+      "id": "work-056",
+      "title": "Address of C. B. Vignoles to the Institution of Civil Engineers",
+      "author": "Charles Blacker Vignoles",
+      "year": "1869–1870",
+      "type": "Discurso técnico",
+      "aliases": [
+        "Address of C.B. Vignoles"
+      ],
+      "description": "Intervención presidencial sobre ingeniería civil y experiencia ferroviaria, citada con número de página.",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11946,
+          "spelling": "Address of C.B. Vignoles",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true,
+      "confidence": "mención localizada"
+    }
+  ]
+}
