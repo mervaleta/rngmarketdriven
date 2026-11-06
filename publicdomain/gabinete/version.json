@@ -1,0 +1,17 @@
+{
+  "project": "El gabinete prohibido",
+  "version": "0.4.0",
+  "marker": "SIGLO23-GABINETE-20261106-V0.4.0",
+  "updated": "2026-11-06",
+  "expectedPages": 60,
+  "expectedImages": 12,
+  "requiredFiles": [
+    "index.html",
+    "editor.css",
+    "editor.js",
+    "libro.json"
+  ],
+  "status": "Fuente actualizada en GitHub; despliegue del dominio pendiente de verificación",
+  "theme": "rosa-bordo-negro-blanco",
+  "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5"
+}
