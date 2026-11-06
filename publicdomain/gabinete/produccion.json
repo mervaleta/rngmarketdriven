@@ -1,0 +1,95 @@
+{
+  "project": "El gabinete prohibido — notas internas de producción",
+  "version": "0.4.0",
+  "updated": "2026-11-06",
+  "not_part_of_book": true,
+  "current": {
+    "pages": 60,
+    "embedded_remote_photographs": 12,
+    "chapter_openings": [
+      11,
+      17,
+      25,
+      39,
+      47,
+      53
+    ],
+    "frontmatter": {
+      "cover": 1,
+      "inside_front_cover": 2,
+      "dedication": 3,
+      "verso_blank": 4,
+      "title_page": 5,
+      "credits": 6,
+      "prologue_slot": 7
+    },
+    "epilogue_slot": 57,
+    "images_local": false
+  },
+  "target": {
+    "period": "1840–1900",
+    "distinct_photographs": "60–80 con derechos, datación y edad adulta revisados",
+    "pages": "120–160, sujeto a imágenes finalmente admitidas",
+    "format": "Libro físico en Argentina; taller web previo a PDF final"
+  },
+  "production_notes": [
+    "Conservar fuera de libro.json el plan de compra/descarga de imágenes y las advertencias operativas de la edición.",
+    "Los archivos fuente son JPG externos de Wikimedia Commons que pueden fallar por hotlink o cambiar de ruta; descargar originales y montar carpeta propia antes del PDF final.",
+    "Cotejar técnica, año, procedencia y derechos en cada registro museístico; archivar ficha, URL, fecha de consulta y copia maestra con hash.",
+    "No incluir personas menores ni imágenes sexuales de edad incierta. Se excluyó visualmente la serie Moulin, aunque el proceso judicial se estudia como episodio histórico.",
+    "La muestra cronológica ilustrada cubre por ahora sobre todo 1840–1859. Para 1860–1900 faltan piezas seleccionadas; no presentar el libro como completo.",
+    "Revisar las políticas del canal de venta, las normas argentinas de reproducción y el régimen de dominio público pagante que pueda ser aplicable.",
+    "El PDF final se genera tras aprobar el contenido y validar exportación con imágenes locales y ajustes de sangrado/perfil de color."
+  ],
+  "research_queue": [
+    {
+      "name": "Auguste Belloc, Academic Nude Reclining on a Sofa",
+      "circa": "1855",
+      "source": "Cleveland Museum of Art",
+      "url": "https://www.clevelandart.org/art/1998.55",
+      "status": "Confirmar reproducción, procedencia y selección"
+    },
+    {
+      "name": "Eduard Isaac Asser, Franse erotische stereofoto",
+      "circa": "1855",
+      "source": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/Franse-erotische-stereofoto--d8bcb759f333b6333d15c4ba77dd63c7",
+      "status": "Museo indica dominio público; obtener imagen grande y corroborar descripción"
+    },
+    {
+      "name": "Daguerrotipo erótico francés",
+      "circa": "1854",
+      "source": "Princeton University Art Museum",
+      "url": "https://artmuseum.princeton.edu/art/collections/objects/41444",
+      "status": "Verificar detalles de modelos y reutilización comercial"
+    },
+    {
+      "name": "Eugène Durieu y Eugène Delacroix — álbum de estudios",
+      "circa": "1853–1854",
+      "source": "Wikimedia Commons / BnF",
+      "url": "https://commons.wikimedia.org/wiki/Category:Album_de_photographies_ayant_appartenu_%C3%A0_Eug%C3%A8ne_Delacroix_-_btv1b104649298",
+      "status": "Evaluar imágenes individuales, duplicados, edad y derechos"
+    },
+    {
+      "name": "Colección de fotografías de Bruno Braquehais",
+      "circa": "1850–1875",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Photographs_of_nude_females_by_Bruno_Braquehais",
+      "status": "Revisar pieza por pieza, atribución y edades"
+    },
+    {
+      "name": "Estereoscopía histórica",
+      "circa": "1850–1880",
+      "source": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/en/collection",
+      "status": "Filtrar objetos fotográficos históricos, derechos y documentación"
+    }
+  ],
+  "excluded": [
+    {
+      "photographer": "Félix-Jacques Moulin",
+      "reason": "Varias series registran modelos adolescentes; edad adulta no comprobada para las piezas inicialmente sugeridas.",
+      "use": "Investigación textual, sin reproducciones sensibles."
+    }
+  ]
+}
