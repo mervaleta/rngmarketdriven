@@ -42,6 +42,10 @@ function infoFor(page,plan){
  const index=page-item.start;
  if(item.opening)return {page,blank:false,opening:true,openingSide:index===0?'verso':'recto',openingKind:item.openingKind,chapterTitle:item.chapterTitle,ordinal:item.ordinal,title:item.name,section:item.id,index,isReal:false,text:'',totalInSection:2};
  if(['index-onomastic','index-analytic','index-works'].includes(item.id)&&window.S23Indices?.ready(item.id))return {page,blank:false,title:item.name,section:item.id,index,idx:true,isReal:true,text:window.S23Indices.plain(item.id,index)};
+ if(item.figure){
+  const figure=window.S23BookAssets?.figures?.find(x=>x.id===item.figureId);
+  return {page,blank:false,figure:true,figureMeta:figure,figureSide:index===0?'left':'right',title:item.name,section:'plates',index,text:figure?.credit||'',totalInSection:item.pages,isReal:false};
+ }
  const segment=chunkFor(item.id,index,item.pages);
  return {page,blank:false,title:item.name,section:item.id,index,segment,isReal:!!segment,text:segment?.html||'',totalInSection:item.pages};
 }
@@ -49,7 +53,8 @@ function snippet(info,limit=180){return info.isReal?info.text.slice(0,limit):(in
 function cardFor(i,plan,config){
  const info=infoFor(i,plan),isBlank=info.blank,isPlate=info.section==='plates',isTitle=['half','title'].includes(info.section);
  let body='';
- if(info.idx)body='<div class="thumb-index"><strong>'+esc(info.title)+'</strong><span>'+esc(info.text.slice(0,170))+'</span></div>';
+ if(info.figure){const a=info.figureMeta;body=a?'<div class="thumb-figure"><img src="'+esc(a.src)+'" alt="'+esc(a.title)+'" loading="lazy" style="width:100%;height:70%;object-fit:contain"><small>'+esc(a.title)+'</small></div>':'<div class="thumb-figure">Ilustración pendiente</div>';}
+ else if(info.idx)body='<div class="thumb-index"><strong>'+esc(info.title)+'</strong><span>'+esc(info.text.slice(0,170))+'</span></div>';
  else if(info.opening){
   const roman=info.openingKind==='notes'?'§':['I','II','III','IV'][info.ordinal-1]||String(info.ordinal||'');
   body='<div class="thumb-opening"><span>'+(info.openingKind==='notes'?'APARATO CRÍTICO':'SPENCER · 1884')+'</span><strong>'+esc(info.openingSide==='verso'?roman:info.chapterTitle)+'</strong><i></i></div>';
@@ -58,7 +63,7 @@ function cardFor(i,plan,config){
  }
  const openingClass=info.opening?' opening '+(info.openingSide==='verso'?' opening-left':' opening-right'):'';
  const thumb='<div class="thumb-page'+(isBlank?' blank':'')+openingClass+'"><span class="thumb-running">'+esc(info.opening?'APERTURA EDITORIAL':info.title)+'</span>'+(info.index===0&&!isBlank&&!isTitle&&!info.opening?'<h4>'+esc(info.title)+'</h4>':'')+body+'<span class="thumb-number">'+i+'</span></div>';
- const subtitle=info.idx?'Índice real · entradas paginadas':info.opening?'Pliego de apertura · '+(info.openingSide==='verso'?'izquierda':'derecha'):(info.isReal?'Texto importado · '+formatNum(info.segment?.start)+'–'+formatNum(info.segment?.end)+' palabras':(isBlank?'Blanco de composición':'Texto pendiente de importar'));
+ const subtitle=info.figure?'Ilustración '+(info.figureMeta?.type==='spread'?'· pliego doble':'· lámina simple'):info.idx?'Índice real · entradas paginadas':info.opening?'Pliego de apertura · '+(info.openingSide==='verso'?'izquierda':'derecha'):(info.isReal?'Texto importado · '+formatNum(info.segment?.start)+'–'+formatNum(info.segment?.end)+' palabras':(isBlank?'Blanco de composición':'Texto pendiente de importar'));
  return '<button type="button" class="thumb-card'+(isBlank?' blank':'')+(info.isReal?' real':'')+(info.opening?' opener':'')+'" data-page="'+i+'" aria-current="'+String(i===selected)+'" aria-label="Abrir página '+i+', '+esc(info.title)+'"><span class="thumb-meta">PÁGINA '+i+'</span>'+thumb+'<span class="thumb-sub" title="'+esc(info.title)+'">'+esc(info.title)+'</span><span class="thumb-state">'+esc(subtitle)+'</span></button>';
 }
 function paintGrid(){
@@ -91,10 +96,24 @@ function openingPage(info){
  if(info.openingSide==='verso')return '<div class="literary-verso"><span class="literary-top">SIGLO23 · CLÁSICOS DEL PENSAMIENTO</span><div class="literary-emblem">'+roman+'</div><span class="literary-hairline"></span><span class="literary-bottom">'+(isNotes?'FUENTES · VARIANTES · CONTEXTO':'LOS ENSAYOS DE 1884')+'</span></div>';
  return '<div class="literary-recto"><span class="literary-top">HERBERT SPENCER · 1884</span><div class="literary-title-block"><span class="literary-kicker">'+(isNotes?'APARATO CRÍTICO':'ENSAYO '+roman)+'</span><span class="literary-line"></span><h2>'+esc(info.chapterTitle)+'</h2><div class="literary-ornament">✧</div><p>'+(isNotes?'Referencias, variantes y comentarios de la edición':'The Man versus the State')+'</p></div><span class="literary-bottom">EDICIÓN SIGLO23 · MAQUETA DE ESTUDIO</span></div>';
 }
+function figurePage(info){
+ const a=info.figureMeta;
+ if(!a)return '<div class="figure">Imagen no disponible</div>';
+ const isSingle=a.type==='single';
+ const caption='<div class="s23-art-caption"><b>'+esc(a.creator)+' · '+esc(a.title)+' ('+esc(a.year)+')</b><span>'+esc(a.credit)+'</span></div>';
+ return '<div class="s23-plate-page '+(isSingle?'single':info.figureSide)+'"><div class="s23-art-frame"><img src="'+esc(a.src)+'" alt="'+esc(a.title)+'" loading="lazy"></div>'+(isSingle||info.figureSide==='right'?caption:'')+'</div>';
+}
+function bibliographyPage(info){
+ const item=window.S23BookAssets?.bibliography?.[info.index];
+ if(!item)return '<div class="s23-bib-page">Fuentes pendientes de revisión</div>';
+ return '<div class="s23-bib-page"><span class="chapter-kicker">SIGLO23 · REFERENCIAS</span><h2>'+esc(item.heading)+'</h2><div class="chapter-rule"></div><ol>'+item.entries.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol><p class="s23-bib-note">Documentación preliminar. Verificar fuentes, derechos y datos editoriales antes de cerrar la edición.</p></div>';
+}
 function pageContent(info){
  const state=api.getState();
  if(info.opening)return openingPage(info);
  if(info.idx)return window.S23Indices.render(info.section,info.index,api.getPlan());
+ if(info.figure)return figurePage(info);
+ if(info.section==='bibliography')return bibliographyPage(info);
  if(info.blank)return '<div class="frontmatter"><span class="edition" style="color:#a2aaa0">'+esc(info.title)+'</span></div>';
  if(info.isReal){
   const first=info.index===0&&/^original-(new-toryism|coming-slavery|sins-legislators|great-superstition)$/.test(info.section);
@@ -109,8 +128,8 @@ function renderedPage(page,side){
  const {state,plan}=data(),info=infoFor(page,plan);
  const marginGuide=state.showGuides?'<div class="guides"></div><div class="bleed-guide"></div>':'';
  if(page<1||page>plan.total)return '<div class="mock-page '+side+'"><div class="content"><span class="blank-name">Sin página</span></div></div>';
- const run=state.showRunning&&!info.blank&&!info.opening?'<span class="running">'+esc(side==='verso'?state.author:state.title)+'</span>':'';
- const fol=state.showFolios&&!info.blank&&!info.opening?'<span class="folio">'+page+'</span>':'';
+ const run=state.showRunning&&!info.blank&&!info.opening&&!info.figure?'<span class="running">'+esc(side==='verso'?state.author:state.title)+'</span>':'';
+ const fol=state.showFolios&&!info.blank&&!info.opening&&!info.figure?'<span class="folio">'+page+'</span>':'';
  return '<div class="mock-page '+side+(info.opening?' opening-leaf '+(info.openingSide==='verso'?'opening-verso':'opening-recto'):'')+'">'+run+'<div class="content">'+pageContent(info)+'</div>'+fol+marginGuide+'</div>';
 }
 function pairLeft(page){return page%2===0?page:page-1}
@@ -121,6 +140,8 @@ function fullTexts(page){
   const info=infoFor(n,plan);
   out+='<article><strong>Página '+(n<1?'—':n)+' · '+esc(info.title)+'</strong>';
   if(info.idx)out+='<small>Fichas completas del archivo · folios orientativos</small>';
+   if(info.figure)out+='<small>Imagen histórica: '+esc(info.figureMeta?.creator)+' · '+esc(info.figureMeta?.year)+'</small>';
+   if(info.section==='bibliography')out+='<small>Referencia bibliográfica: página '+(info.index+1)+' de 2</small>';
    if(info.segment)out+='<small>Palabras '+formatNum(info.segment.start)+'–'+formatNum(info.segment.end)+' / '+formatNum(info.segment.count)+'</small>';
   out+='<div class="full-text-body">'+esc(info.isReal?info.text:(info.blank?'Blanco intencional de composición.':info.opening?'Pliego de apertura tipográfica, sin texto del original.':'Todavía no hay texto importado para esta sección.'))+'</div></article>';
  }
@@ -234,12 +255,13 @@ $('.view-switch').addEventListener('click',e=>{
  if(button.dataset.view==='overview'||button.dataset.view==='sheet'){
   e.preventDefault();e.stopImmediatePropagation();setMode(button.dataset.view);return;
  }
- if(['body','chapter','notes'].includes(button.dataset.view)){
+ if(['body','chapter','plates','bibliography'].includes(button.dataset.view)){
   const sections=api.getPlan().items;
   const first=sections.find(x=>x.id==='original-new-toryism');
   const opener=sections.find(x=>x.id==='opening-original-new-toryism');
-  const notes=sections.find(x=>x.id==='opening-notes')||sections.find(x=>x.id==='notes');
-  const target=button.dataset.view==='notes'?notes?.start:button.dataset.view==='chapter'?(opener?.start||first?.start):first?.start+2;
+  const art=sections.find(x=>x.figure);
+  const bibliography=sections.find(x=>x.id==='bibliography');
+  const target=button.dataset.view==='plates'?art?.start:button.dataset.view==='bibliography'?bibliography?.start:button.dataset.view==='chapter'?(opener?.start||first?.start):first?.start+2;
   if(Number.isFinite(target)){
    e.preventDefault();e.stopImmediatePropagation();setMode('sheet',target);return;
   }

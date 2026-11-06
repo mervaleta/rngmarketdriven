@@ -139,3 +139,23 @@ fieldset{padding:0;margin:0 0 16px;border:0}legend{width:100%;border-bottom:1px 
 .indices-page-counters strong{display:block;font:500 23px Georgia,serif;color:#ecd1aa}
 .indices-page-counters span{font-size:9px;color:#c5d2c4;line-height:1.4;display:block}
 .indices-page-summary .help{margin:10px 0 0}
+
+
+/* M06: 4 láminas históricas (2 dobles) intercaladas y bibliografía física a doble página */
+.s23-plate-page{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3.4mm;overflow:hidden;color:#343b35}
+.s23-art-frame{position:relative;overflow:hidden;flex:1;min-height:0;width:100%;background:#f4f0e7;border:1px solid #d7d2c6}
+.s23-art-frame img{display:block;width:100%;height:100%;object-fit:contain}
+.s23-art-caption{display:flex;flex-direction:column;gap:1.1mm;width:100%;align-self:stretch;text-align:left;border-top:1px solid #a9aa99;padding-top:1.6mm}
+.s23-art-caption b{font:700 7pt/1.35 Georgia,serif}
+.s23-art-caption span{font:italic 6.4pt/1.4 Georgia,serif;color:#68716c}
+.s23-plate-page.left .s23-art-frame,.s23-plate-page.right .s23-art-frame{width:100%;flex:1}
+.s23-plate-page.left .s23-art-frame img,.s23-plate-page.right .s23-art-frame img{height:100%;width:200%;max-width:none;object-fit:contain}
+.s23-plate-page.right .s23-art-frame img{transform:translateX(-50%)}
+.s23-plate-page.left .s23-art-caption{visibility:hidden}
+.s23-bib-page{height:100%;display:flex;flex-direction:column;color:#353f38}
+.s23-bib-page h2{font:500 19pt/1.2 var(--heading-font,Georgia,serif);margin:4mm 0}
+.s23-bib-page ol{margin:6mm 0 0;padding-left:6mm;list-style:none;counter-reset:bib}
+.s23-bib-page li{counter-increment:bib;position:relative;line-height:1.45;font-size:9.3pt;margin-bottom:6mm;break-inside:avoid;overflow-wrap:break-word}
+.s23-bib-page li:before{content:counter(bib,decimal-leading-zero);position:absolute;left:-7mm;color:#8d998f;font-size:7pt;font-family:Georgia,serif}
+.s23-bib-note{font:italic 7.4pt/1.45 Georgia,serif;margin-top:auto;color:#787e73;border-top:1px solid #c4c7bd;padding-top:2mm}
+.thumb-figure small{font:7px/1.2 Georgia,serif;color:#687467;display:block}

@@ -111,3 +111,7 @@ Se retiran del índice de contenido y de la paginación: **apartado de notas, cr
 **Ilustraciones históricas:** son exactamente cuatro piezas registradas en `editorial-assets.js`: caricatura de Spencer de Vanity Fair (1 página), Gillray The tree of liberty (2), Keppler In danger (2) y Keppler Puck's review of the past year (1). Total **6 páginas gráficas** más eventuales blancos necesarios para comenzar los pliegos sobre caras enfrentadas. Las figuras se intercalan por posición editorial, no como un bloque de 16 páginas.
 
 El recuento del lomo incorpora las páginas efectivas de los pliegos. Los enlaces gráficos son referencias de investigación: las copias finales de alta resolución y permisos territoriales siguen pendientes.
+
+### M06 · Vista de las láminas y bibliografía
+
+La grilla y el visor ya presentan las cuatro imágenes reales, con título y procedencia. Los dos pliegos tienen caras izquierda y derecha, y las láminas simples permanecen independientes. Las dos páginas de Fuentes y bibliografía se muestran con un listado inicial repartido físicamente en verso y recto. Los archivos remotos usados para la vista no sustituyen los másteres necesarios para imprimir.
