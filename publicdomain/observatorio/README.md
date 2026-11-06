@@ -3,7 +3,7 @@
 Versión **0.1.0**, 2026-11-05. Área autónoma en `/publicdomain/observatorio/`.
 
 ## Contenido
-- 9 fuentes estratégicas con HTML individual.
+- 10 fuentes estratégicas con HTML individual.
 - 12 precandidatos de Duke 2025–2026 con HTML individual, índice con filtros, JSON y CSV.
 - Calendario orientativo de EE. UU. 2025–2031 y guía de validación territorial.
 - Metodología de seis controles.
@@ -21,3 +21,6 @@ Los registros y los HTML individuales se modifican sin reemplazar el resto del s
 
 ## Pendiente
 Verificar conexión entre GitHub y Hostinger. API importers, desduplicación y derechos por país requieren fase posterior.
+
+## Standard Ebooks (2026-11-06)
+Se incorporó el acceso individual y gratuito al catálogo Standard Ebooks desde `/standard-ebooks/`, un screener que carga `../catalogo-global.json`, abre búsquedas públicas título por título y permite registrar estados en el navegador y exportar CSV. No se accede a ZIP masivos ni feeds restringidos.

@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "revisado": "2026-11-06",
+  "fuente": "Standard Ebooks",
+  "metodo": "Verificación manual de la ficha de cada libro; no importación de ZIP ni OPDS restringidos.",
+  "resumen": {
+    "verificados": 7,
+    "descargables": 5,
+    "pendientes_de_produccion": 2,
+    "aprobados_para_argentina": 0
+  },
+  "status_nomenclatura": {
+    "publicado_descargable": "Ficha con botón compatible epub y lectura online",
+    "pendiente_de_produccion": "Ficha sin edición terminada; no ofrece ebook de Standard Ebooks"
+  },
+  "ejemplos": [
+    {
+      "id": "SE-0001",
+      "title": "On Liberty",
+      "author": "John Stuart Mill",
+      "year": 1859,
+      "words": 50855,
+      "status": "publicado_descargable",
+      "url": "https://standardebooks.org/ebooks/john-stuart-mill/on-liberty",
+      "priority": "Muy alta",
+      "usage": "Pensamiento político y colección hermana de Spencer",
+      "source_git": "https://github.com/standardebooks/john-stuart-mill_on-liberty"
+    },
+    {
+      "id": "SE-0002",
+      "title": "Principia Ethica",
+      "author": "G. E. Moore",
+      "year": 1903,
+      "words": 92431,
+      "status": "publicado_descargable",
+      "url": "https://standardebooks.org/ebooks/g-e-moore/principia-ethica",
+      "priority": "Muy alta",
+      "usage": "Crítica de la ética evolucionista de Spencer"
+    },
+    {
+      "id": "SE-0003",
+      "title": "The English Constitution",
+      "author": "Walter Bagehot",
+      "year": 1867,
+      "words": 97200,
+      "status": "publicado_descargable",
+      "url": "https://standardebooks.org/ebooks/walter-bagehot/the-english-constitution",
+      "priority": "Alta",
+      "usage": "Contexto histórico del gobierno parlamentario británico"
+    },
+    {
+      "id": "SE-0004",
+      "title": "The Rights of Man",
+      "author": "Thomas Paine",
+      "year": 1791,
+      "words": 86703,
+      "status": "publicado_descargable",
+      "url": "https://standardebooks.org/ebooks/thomas-paine/the-rights-of-man",
+      "priority": "Alta",
+      "usage": "Ideas sobre derechos y legitimidad política"
+    },
+    {
+      "id": "SE-0005",
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "year": 1854,
+      "words": 106677,
+      "status": "publicado_descargable",
+      "url": "https://standardebooks.org/ebooks/henry-david-thoreau/walden",
+      "priority": "Media",
+      "usage": "Autonomía personal y literatura de ideas"
+    },
+    {
+      "id": "SE-0006",
+      "title": "Utilitarianism",
+      "author": "John Stuart Mill",
+      "year": 1863,
+      "words": null,
+      "status": "pendiente_de_produccion",
+      "url": "https://standardebooks.org/ebooks/john-stuart-mill/utilitarianism",
+      "priority": "Alta",
+      "usage": "Fuente doctrinaria sin ebook publicado por SE"
+    },
+    {
+      "id": "SE-0007",
+      "title": "Democracy in America",
+      "author": "Alexis de Tocqueville",
+      "year": 1835,
+      "words": null,
+      "status": "pendiente_de_produccion",
+      "url": "https://standardebooks.org/ebooks/alexis-de-tocqueville/democracy-in-america/henry-reeve",
+      "priority": "Alta",
+      "usage": "Obra en Wanted Ebooks; sin descarga individual de SE"
+    }
+  ]
+}

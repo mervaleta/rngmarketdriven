@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "fecha": "2026-11-05",
+  "fecha": "2026-11-06",
   "fuentes": [
     {
       "id": "duke",
@@ -100,6 +100,18 @@
       "uso": "Cruzar títulos descubiertos por Duke con archivos primarios.",
       "derechos": "Revisar Rights and Access de cada registro.",
       "cuidado": "API sugerida para próxima fase; no conectada en este módulo."
+    },
+    {
+      "id": "standard-ebooks",
+      "nombre": "Standard Ebooks — ediciones gratuitas y código fuente",
+      "tipo": "Biblioteca editorial / EPUB / XHTML",
+      "url": "https://standardebooks.org/",
+      "detalle_url": "https://standardebooks.org/bulk-downloads",
+      "descripcion": "Ediciones gratuitas cuidadosamente corregidas, metadatos y archivos fuente de libros clásicos; búsqueda individual pública, ZIP masivo restringido.",
+      "uso": "Cruzar títulos uno por uno con las 340 obras del catálogo Siglo23 y localizar ebook publicado o ficha todavía no producida.",
+      "derechos": "Obra base evaluada bajo derecho estadounidense; aportes propios de Standard Ebooks dedicados a CC0. Revisar derechos de cada obra, traducción y país de explotación.",
+      "cuidado": "La consulta pública /ebooks?query= está disponible sin membresía. Los paquetes ZIP y feeds completos se reservan a miembros o usuarios autorizados; no intentar evitarlos.",
+      "fecha_consulta": "2026-11-06"
     }
   ]
 }
