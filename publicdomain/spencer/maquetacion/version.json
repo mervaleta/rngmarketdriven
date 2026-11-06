@@ -22,14 +22,36 @@
     "Aperturas de doble página de los cuatro ensayos originales",
     "Divisoria opcional de dos páginas para aparato crítico y notas",
     "Inicio en recto con blancos reales contemplados en cálculo de lomo",
-    "Composición literaria refinada con capitular y preset editorial"
+    "Composición literaria refinada con capitular y preset editorial",
+    "Cuatro índices independientes: personas, lugares, conceptos y autores/obras",
+    "Localizaciones por ensayo y posición dentro de la transcripción inglesa",
+    "Folios dinámicos vinculados al plan guardado, sin inventar páginas sin plan",
+    "Reservas de páginas editables para cada índice desde el editor"
   ],
-  "limitation": "45.792 palabras verificadas en la transcripción suministrada, no cotejadas de punta a punta con facsímil. Paginación aún estimativa según tipografía y diseño; extras estimados. Las aperturas se integran a la paginación geométrica aproximada, sin producción PDF/X ni redistribución definitiva de notas.",
+  "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, toponímica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
   "marker": "SIGLO23-SPENCER-MAQUETACION-M04",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,
   "original_source_file": "original-ingles-1884.json",
-  "original_edition_note": "Transcripción de referencia, cotejo textual con original facsimilar aún pendiente"
+  "original_edition_note": "Transcripción de referencia, cotejo textual con original facsimilar aún pendiente",
+  "indices": {
+    "onomastico": {
+      "path": "../indice-onomastico/",
+      "entries": 85
+    },
+    "toponimico": {
+      "path": "../indice-toponimico/",
+      "entries": 54
+    },
+    "analitico": {
+      "path": "../indice-analitico/",
+      "entries": 38
+    },
+    "obras_citadas": {
+      "path": "../indice-obras/",
+      "entries": 35
+    }
+  }
 }
