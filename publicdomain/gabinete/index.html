@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#102326">
+<meta name="description" content="Maquetación editorial interactiva del gabinete prohibido. Fotografías históricas integradas, análisis contextual y pliegos editables.">
+<title>El gabinete prohibido · Taller editorial — Siglo23</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap">
+<link rel="stylesheet" href="./editor.css?v=0.1.0">
+<style id="printCss"></style>
+</head>
+<body>
+<header id="appHeader">
+  <a class="brand" href="../"><span class="brand-mark">S·23</span><span>EDITORIAL SIGLO23<strong>EL GABINETE PROHIBIDO</strong></span></a>
+  <div class="top-actions">
+    <a href="../../" title="Volver a los candidatos de dominio público">← Panel Siglo23</a>
+    <a href="../spencer/maquetacion/" title="Comparar con el taller de Herbert Spencer">Estudio Spencer</a>
+    <span class="version">GABINETE · V0.1.0</span>
+    <button id="downloadJSON" type="button">Guardar proyecto ↓</button>
+    <button id="importJSON" type="button">Importar JSON ↑</button>
+    <button id="printProof" type="button" class="primary" title="Imprime una prueba visual; aún no es el PDF definitivo">Prueba de impresión / PDF ↗</button>
+  </div>
+</header>
+<section class="headline">
+  <div>
+    <div class="eyebrow">Laboratorio editorial · Maquetación y estudio histórico</div>
+    <h1>El gabinete prohibido <em>— edición de trabajo</em></h1>
+    <p>El libro completo en miniaturas, pliegos, láminas reales de museos y ensayos contextuales. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
+  </div>
+  <div class="small-status">CONTENIDO HISTÓRICO PARA ADULTOS · SIN PUBLICACIÓN COMERCIAL</div>
+</section>
+<div class="workarea">
+<aside class="panel left" aria-label="Configuración de maquetación">
+  <h2>Propiedades de edición</h2>
+  <div class="eyebrow" id="totalPages">Cargando libro…</div>
+  <div class="subhead">01 / Formato del libro</div>
+  <div class="two-col">
+   <label class="field">Ancho (mm)<input id="sizeW" type="number" min="90" max="260" value="166" step=".5"></label>
+   <label class="field">Alto (mm)<input id="sizeH" type="number" min="125" max="350" value="236" step=".5"></label>
+  </div>
+  <div class="two-col">
+   <label class="field">Interior (mm)<input id="mInner" type="number" min="0" value="19" step=".5"></label>
+   <label class="field">Exterior (mm)<input id="mOuter" type="number" min="0" value="18" step=".5"></label>
+   <label class="field">Superior (mm)<input id="mTop" type="number" min="0" value="21" step=".5"></label>
+   <label class="field">Inferior (mm)<input id="mBottom" type="number" min="0" value="20" step=".5"></label>
+  </div>
+  <div class="subhead">02 / Tipografía</div>
+  <label class="field">Familia del cuerpo<select id="bodyFont">
+    <option value="Georgia,serif">Georgia / serif</option>
+    <option value="'Cormorant Garamond',Georgia,serif">Cormorant Garamond</option>
+    <option value="'Montserrat',Arial,sans-serif">Montserrat</option>
+    <option value="'Palatino Linotype',Palatino,serif">Palatino</option>
+    <option value="'Times New Roman',serif">Times New Roman</option>
+   </select></label>
+  <div class="two-col">
+   <label class="field">Cuerpo (pt)<input id="fontSize" type="number" min="7.5" max="17" step=".25" value="10.5"></label>
+   <label class="field">Interlineado<input id="leading" type="number" min="1.05" max="2" step=".02" value="1.48"></label>
+  </div>
+  <div class="subhead">03 / Láminas y vista</div>
+  <label class="field">Encuadre de fotografías<select id="fit">
+    <option value="contain">Completa, sin recorte</option>
+    <option value="cover">Ajustar al marco, recortar</option>
+  </select></label>
+  <label class="field">Ancho de miniatura (px)<input id="thumb" type="range" min="100" max="250" step="5" value="165"></label>
+  <p class="hint">Las imágenes se muestran en el libro desde archivos históricos abiertos, con enlace a su fuente institucional. No son fotografías inventadas. Para exportación final conviene descargar y archivar los másteres localmente.</p>
+  <div class="subhead">04 / Operaciones</div>
+  <div class="actions-row"><button id="resetProject" type="button">Restaurar edición base</button></div>
+  <p class="hint" id="marginWarn">La vista es orientativa; no resuelve partición tipográfica ni PDF/X.</p>
+  <div class="line"></div>
+  <div class="eyebrow">Nota de investigación</div>
+  <p class="hint">Los archivos del Met y Wikimedia identifican obras y licencias. No se puede equiparar automáticamente desnudo académico, fotografía erótica y material clandestino. Confirmar los derechos y la documentación de las personas retratadas antes de publicar.</p>
+</aside>
+<main class="studio">
+  <div class="stagebar">
+   <div class="tabs" aria-label="Modo de visualización">
+    <button type="button" data-view="grid" aria-pressed="true">▦ Libro completo</button>
+    <button type="button" data-view="spread" aria-pressed="false">◧ Pliego</button>
+    <button type="button" data-view="assets" aria-pressed="false">▧ Banco de imágenes</button>
+    <button type="button" data-view="context" aria-pressed="false">☷ Ensayo integral</button>
+   </div>
+   <div class="navigation">
+    <button id="prev" type="button" title="Página anterior">←</button>
+    <span id="formatDisplay">166 × 236 mm</span>
+    <button id="next" type="button" title="Página siguiente">→</button>
+   </div>
+  </div>
+  <div class="stage" id="stage" aria-live="polite"><div class="emptyview">Cargando páginas, fotografías y ensayos…</div></div>
+</main>
+<aside class="panel right" aria-label="Inspector de página">
+ <div class="eyebrow">Página seleccionada</div>
+ <h2 id="selectionLabel">— / —</h2>
+ <p class="hint">Los cambios de texto e imagen quedan guardados localmente en este navegador. Para transferirlos o enviarlos a otro agente, descargá el proyecto JSON.</p>
+ <div class="subhead">Contenido de la página</div>
+ <label class="field">Diseño<select id="editKind" data-field="kind">
+   <option value="cover">Cubierta</option>
+   <option value="title">Portadilla</option>
+   <option value="contents">Índice</option>
+   <option value="chapter">Apertura de sección</option>
+   <option value="essay">Ensayo</option>
+   <option value="analysis">Análisis de una lámina</option>
+   <option value="image">Lámina completa</option>
+   <option value="sources">Fuentes y nota legal</option>
+ </select></label>
+ <label class="field">Sección<input type="text" id="editSection" data-field="section"></label>
+ <label class="field">Título<input type="text" id="editTitle" data-field="title"></label>
+ <label class="field">Subtítulo / entradilla<input type="text" id="editSub" data-field="sub"></label>
+ <label class="field">Texto editorial<textarea rows="10" id="editBody" data-field="body" spellcheck="true"></textarea></label>
+ <label class="field">Pie de foto<input type="text" id="editCaption" data-field="caption"></label>
+ <div class="subhead">Imagen asignada</div>
+ <label class="field">Archivo<select id="editImage" data-field="image"></select></label>
+ <label class="field">URL de imagen editable<input type="url" id="editImageUrl" data-field="imageUrl" placeholder="https://…"></label>
+ <div id="imageInfo"></div>
+ <div class="subhead">Orden y folios</div>
+ <div class="actions-row">
+  <button type="button" data-op="up" title="Mover antes">↑ Antes</button><button type="button" data-op="down" title="Mover después">↓ Después</button>
+  <button type="button" data-op="add">+ Página</button><button type="button" data-op="copy">Duplicar</button><button type="button" data-op="delete">Eliminar</button>
+ </div>
+ <p class="hint warn">Esta es una herramienta editorial de preproducción, no un sistema colaborativo: los cambios locales no se sincronizan automáticamente con GitHub ni Hostinger.</p>
+</aside>
+</div>
+<footer class="bottom">
+ <span>© Análisis y diseño original: Editorial Siglo23 · Imágenes de archivo: colecciones museísticas y Wikimedia Commons.</span>
+ <span><span id="saveStatus">Cambios locales no sincronizados</span> · <a href="https://github.com/mervaleta/rngmarketdriven/tree/main/publicdomain/gabinete" target="_blank" rel="noopener">Código y fuentes ↗</a></span>
+</footer>
+<input type="file" id="fileInput" accept="application/json,.json">
+<div id="printRoot" aria-hidden="true"></div>
+<div id="toast" role="status" hidden></div>
+<script src="./editor.js?v=0.1.0" defer></script>
+</body>
+</html>
