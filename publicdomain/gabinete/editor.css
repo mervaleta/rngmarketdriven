@@ -96,3 +96,17 @@
 .page-actual.kind-credits .body-text{font-size:9pt;line-height:1.5}
 .page-actual.kind-sources .body-text{font-size:8.2pt;line-height:1.45}
 @media(max-width:670px){.no-facing-page span{font-size:9px}}
+
+
+/* V0.5 · Grilla física por pliegos (tapa sin enfrentada) */
+@media screen {
+ .book-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px 20px;justify-items:center;align-items:start;}
+ .mini-spread{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0;max-width:100%;}
+ .mini-spread-pages{display:flex;gap:7px;align-items:start;justify-content:center;width:max-content;max-width:none;}
+ .mini-spread-pages .thumb{flex:none;max-width:none;}
+ .mini-spread .thumb .thumb-desc{width:var(--thumb-caption-width,165px);max-width:100%;font-size:10px;line-height:1.45;padding:7px 2px 0;}
+ .mini-spread-caption{font:10px 'Montserrat',Arial,sans-serif;letter-spacing:.07em;color:#eeb8cd;text-align:center;padding:5px 7px;border-top:1px solid #884460;width:100%;}
+ .ghost-thumb{flex:none;position:relative;background:transparent;border:0;pointer-events:none;}
+ .no-facing-page{background:none!important;border:none!important;}
+ .no-facing-page span{display:none!important;}
+}
