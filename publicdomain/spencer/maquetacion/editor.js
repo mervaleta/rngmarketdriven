@@ -73,7 +73,7 @@ function hydrate(raw){
       s.sections.splice(at<0?s.sections.length:at,0,{id,name,pages:'auto',recto:true,enabled:true});
     }
   }
-  const bio=s.sections.find(x=>x.id==='biography');if(bio&&/^(Biografía de Spencer|Herbert Spencer: el hombre que quiso ponerle límites al poder)$/.test(bio.name))bio.name='Herbert Spencer: el hombre que quiso ponerle límites al poder';
+  const bio=s.sections.find(x=>x.id==='biography');if(bio&&/^(Biografía de Spencer(?: · pendiente)?|Herbert Spencer: el hombre que quiso ponerle límites al poder)$/.test(bio.name))bio.name='Herbert Spencer: el hombre que quiso ponerle límites al poder';
   const ep=s.sections.find(x=>x.id==='afterword');if(ep){ep.name='El individuo contra el Estado, otra vez · epílogo 2026';ep.pages='auto';}
 
  s.notesOpening=false;
