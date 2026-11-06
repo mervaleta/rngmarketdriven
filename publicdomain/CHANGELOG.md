@@ -1,5 +1,15 @@
 # Registro de versiones — Editorial Siglo23 /publicdomain
 
+## v0.5.0 — 2026-11-06
+
+- Se incorporan **33 obras** al catálogo mundial: **307 → 340 títulos**. Incluye nueva selección de ensayos sobre libertad y poder, autoras clásicas, literatura política, ciencia ficción y narrativa argentina.
+- Nuevos campos `original_sources` y `original_source_status`. **74 fichas** con descarga de texto original (TXT, EPUB3 o PDF) y **92 con fuentes originales** de descarga o consulta; **288 vínculos** de fuentes en total.
+- Los enlaces de Gutenberg identifican el **idioma original** y permiten TXT y EPUB3; otros recursos llevan a transcripciones o facsímiles de bibliotecas. Los títulos divididos en tomos se presentan con vínculos por volumen.
+- La tabla del catálogo muestra múltiples formatos por obra, incorpora filtros por disponibilidad del original, nuevas ordenaciones y exportación CSV con URLs.
+- En la subcolección «El individuo y el poder», se enriquecen 20 fichas con 39 referencias (entre originales locales, digitales y páginas de consulta).
+- Las traducciones en idioma diferente del original se mantienen fuera de la lista de «texto original» y quedan señaladas como alternativas.
+- **Estado del despliegue:** los cambios se verificaron y guardaron en GitHub; no hay prueba de sincronización con Hostinger. Tampoco equivale la disponibilidad de una fuente a autorización legal de publicación en todos los territorios.
+
 ## v0.3.1 — 2026-11-05
 
 - Explicación desplegable **«¿Por qué figura como prioridad alta/muy alta?»** en cada obra marcada con esas etiquetas.
