@@ -208,18 +208,28 @@ function sceneContent(p){
  }
 }
 function renderRows(){
- $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?'<small>Cálculo de palabras</small>':'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.autoPages[x.id]||0:x.pages)+'" '+(x.pages==='auto'?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
+ $('#planRows').innerHTML=state.sections.map((x,i)=>'<div class="section-row" data-index="'+i+'"><input data-col="enabled" type="checkbox" '+(x.enabled?'checked':'')+' aria-label="Incluir '+esc(x.name)+'"><span class="sect-name" title="'+esc(x.name)+'">'+esc(x.name)+(x.pages==='auto'?(x.id.startsWith('index-')?'<small>Entradas reales · medición</small>':'<small>Cálculo de palabras</small>'):'')+'</span><input data-col="pages" aria-label="Número de páginas" type="number" min="1" max="1000" value="'+(x.pages==='auto'?plan.autoPages[x.id]||0:x.pages)+'" '+(x.pages==='auto'?'disabled':'')+'><input data-col="recto" aria-label="Iniciar en página impar" title="Iniciar en recto" type="checkbox" '+(x.recto?'checked':'')+'><button data-remove="'+i+'" aria-label="Eliminar extra" class="del" '+(!x.id.startsWith('custom-')?'disabled':'')+'>×</button></div>').join('');
 }
 function render(){
  const p=plan=analyze(),isCover=scene==='cover';
  try{
   const counts={};
   for(const x of state.sections.filter(x=>x.id.startsWith('original-')))counts[x.id]=(state.texts[x.id]?.match(/\S+/g)||[]).length;
-  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M04',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
+  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M05',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
  }catch{}
  $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);
  $('#metricBlanks').textContent=f(p.blanks);$('#metricOpenings').textContent=f(p.openingPages);$('#metricSpine').textContent=f(p.spine,2)+' mm';
  $('#metricSheets').textContent=f(p.sheets);$('#metricWords').textContent=f(p.wordsPage);
+ const indexIds=[['index-onomastic','indexPagesOnomastic'],['index-analytic','indexPagesAnalytic'],['index-works','indexPagesWorks']];
+ let totalIndexPages=0;
+ for(const [id,target] of indexIds){
+  const section=state.sections.find(x=>x.id===id);
+  const available=window.S23Indices?.ready(id);
+  const count=section?.enabled&&available?(p.autoPages[id]||0):0;
+  $('#'+target).textContent=!available?'—':(section?.enabled?f(count):'No incluido');
+  totalIndexPages+=count;
+ }
+ $('#indexPagesTotal').textContent=indexIds.every(([id])=>window.S23Indices?.ready(id))?f(totalIndexPages):'—';
  $('#words').value=p.mainWords;
  $('#words').readOnly=true;
  $('#metricSize').textContent=f(p.w,1)+' × '+f(p.h,1)+' mm';$('#metricBleed').textContent=f(state.bleed,1)+' mm';

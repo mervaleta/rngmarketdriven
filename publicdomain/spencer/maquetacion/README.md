@@ -97,3 +97,7 @@ El original se importa automáticamente en seis secciones, puede leerse en la gr
 Los índices ahora contienen **86 semblanzas**, **53 temas** y **56 obras citadas**, obtenidos de los datasets ya presentes en este repositorio. Cinco personajes cuentan con retrato histórico: Jeremy Bentham, Charles Darwin, Thomas Hobbes, Alexis de Tocqueville y Otto von Bismarck. La imagen de cada retrato remite a su ficha en Wikimedia Commons; se requiere verificación de derechos para Argentina y descarga de alta resolución antes de imprimir.
 
 `indices-editoriales.json` se carga con `indices-loader.js` y el medidor `indices-layout.js`: calcula la altura de cada ficha según los parámetros tipográficos activos, evita dividir cada semblanza entre dos páginas y suma el recuento al plan del volumen. Sigue siendo **maquetación en navegador**, no PDF de producción. Todas las referencias de página son provisionales y se actualizarán al cerrar traducción y galeradas. El texto original en inglés queda intacto.
+
+### M05.1 — Huella real visible de los índices
+
+El panel derecho incorpora tres contadores separados y un total. Se calculan desde las entradas que efectivamente caben en cada caja tipográfica del navegador. Los folios de referencia aún son orientativos y la composición final de imprenta puede cambiar estos valores.
