@@ -1,8 +1,8 @@
 {
   "project": "Editorial Siglo23 — Dominio Público",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "published_at_source": "2026-11-06",
-  "status": "Archivos en GitHub; falta verificar sincronización de Hostinger",
+  "status": "Actualizado en GitHub el 2026-11-06; publicación/sincronización con Hostinger no verificada",
   "features": [
     "versión visible",
     "filtros por casillas combinables",
@@ -10,7 +10,7 @@
     "lista o tarjetas",
     "imágenes opcionales",
     "preparado para nuevos registros",
-    "307 obras candidatas",
+    "340 obras candidatas",
     "175 obras nuevas de 31 ámbitos o mercados",
     "filtros múltiples por temáticas",
     "estado de ediciones documentadas con ISBN",
@@ -23,12 +23,16 @@
     "20 títulos candidatos de la colección El individuo y el poder",
     "4 textos ingleses completos TXT archivados localmente (Mill, Thoreau, Sumner, Paine)",
     "20 fuentes de textos en idioma original identificadas",
-    "nuevo subsitio de colección con filtros, puntuaciones, descarga local y exportación"
+    "nuevo subsitio de colección con filtros, puntuaciones, descarga local y exportación",
+    "33 candidatas nuevas: ensayos políticos, obras de mujeres, ciencia ficción y literatura argentina",
+    "Vínculos originales múltiples TXT, EPUB3 y facsímiles, con tipo descarga vs consulta",
+    "Fichas con descarga externa y estado explícito cuando el original falta",
+    "Filtros de descargas, fuentes pendientes y ordenaciones en catálogo internacional"
   ],
-  "works_count_at_release": 307,
+  "works_count_at_release": 340,
   "authors_count_at_release": 5228,
-  "marker": "SIGLO23-20261106-V0.4.0",
-  "works_added_this_release": 175,
+  "marker": "SIGLO23-20261106-V0.5.0",
+  "works_added_this_release": 33,
   "editions_documented": 30,
   "markets_represented": 31,
   "priority_explanations": "Prioridad original sin modelo cuantitativo documentado; diagnóstico transparente a partir de indicadores, fuentes, ediciones, contexto de mercado y vacíos.",
@@ -37,8 +41,16 @@
     "book_one": "Herbert Spencer — El individuo contra el Estado",
     "candidate_count": 20,
     "local_texts_count": 4,
-    "source_links_count": 20,
+    "source_links_count": 39,
     "url": "/publicdomain/coleccion/individuo-y-poder/",
     "originals_note": "Las otras 16 fuentes no están descargadas en este repositorio. El acceso directo al original está enlazado en cada ficha."
+  },
+  "originals": {
+    "works_with_download_link": 64,
+    "works_with_any_original_source": 80,
+    "works_without_direct_download": 276,
+    "download_note": "Enlaces pueden conducir a Project Gutenberg externo (TXT/EPUB); no implican copia alojada en Siglo23 ni verificación legal global.",
+    "rights_status": "Pendiente de verificación por territorio y edición",
+    "url": "/publicdomain/coleccion/"
   }
 }
