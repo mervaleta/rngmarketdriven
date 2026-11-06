@@ -1,0 +1,2220 @@
+{
+  "title": "Índice onomástico — The Man versus the State (1884)",
+  "created": "2026-11-05",
+  "language": "es",
+  "scope": "Menciones comprobadas en el prefacio, los cuatro ensayos, el postscript y las notas de la transcripción incorporada a la maqueta",
+  "source_text": "original-ingles-1884.json",
+  "source_book": "https://davidmhart.com/liberty/Books/1884-ManVersusState/Spencer_ManVersusState1884-ebook.html",
+  "notes": "Entradas preliminares para revisión filológica. Los números de página dependen de tipografía, formato y edición; se calculan dinámicamente desde índice de palabras. Se distingue autor citado en notas, seudónimo y personaje histórico. Biografías resumidas para trabajo editorial, sujetas a comprobación.",
+  "citation_method": "occurrences[].wordIndex es índice 0-based de palabra de la transcripción; la página se deriva del rango de palabras que ocupa cada hoja de la maqueta. Referencias a notas originales llevan inNote=true.",
+  "count_entries": 86,
+  "count_indexable": 84,
+  "count_occurrences": 146,
+  "entries": [
+    {
+      "id": "p-001",
+      "name": "John Richard Green",
+      "dates": "1837–1883",
+      "group": "Historiadores",
+      "aliases": [
+        "Mr Green",
+        "J. R. Green"
+      ],
+      "bio": "Historiador inglés, autor de Short History of the English People. Spencer lo cita para explicar los cambios del partido whig.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 866,
+          "spelling": "Mr Green",
+          "inNote": false
+        },
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 930,
+          "spelling": "J. R. Green",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-002",
+      "name": "Ana de Gran Bretaña",
+      "dates": "1665–1714",
+      "group": "Monarcas",
+      "aliases": [
+        "death of Anne"
+      ],
+      "bio": "Reina de Inglaterra y Escocia desde 1702, y de Gran Bretaña desde 1707. Su muerte sirve de referencia cronológica para la hegemonía whig.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 876,
+          "spelling": "death of Anne",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-003",
+      "name": "Enrique VIII de Inglaterra",
+      "dates": "1491–1547",
+      "group": "Monarcas",
+      "aliases": [
+        "Henry VIII"
+      ],
+      "bio": "Monarca Tudor inglés, famoso por la ruptura con Roma. Spencer recuerda sus prohibiciones de juegos y distracciones populares.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 2903,
+          "spelling": "Henry VIII",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-004",
+      "name": "Eduardo VI de Inglaterra",
+      "dates": "1537–1553",
+      "group": "Monarcas",
+      "aliases": [
+        "Edward VI"
+      ],
+      "bio": "Rey Tudor de Inglaterra entre 1547 y 1553. Se lo menciona por ordenanzas laborales de carácter paternalista.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 2760,
+          "spelling": "Edward VI",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-005",
+      "name": "Eduardo III de Inglaterra",
+      "dates": "1312–1377",
+      "group": "Monarcas",
+      "aliases": [
+        "Edward III"
+      ],
+      "bio": "Rey medieval inglés cuyo reinado incluyó regulaciones de salarios, trabajo e intercambio. Spencer las usa como precedentes de intervención estatal.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 3052,
+          "spelling": "Edward III",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 1900,
+          "spelling": "Edward III",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 2029,
+          "spelling": "Edward III",
+          "inNote": false
+        }
+      ],
+      "mentions": 3,
+      "include": true
+    },
+    {
+      "id": "p-006",
+      "name": "Henry John Temple, vizconde Palmerston",
+      "dates": "1784–1865",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Lord Palmerston"
+      ],
+      "bio": "Estadista británico y primer ministro liberal. Spencer enumera medidas regulatorias adoptadas durante su gobierno.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 3200,
+          "spelling": "Lord Palmerston",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-007",
+      "name": "John Russell, primer conde Russell",
+      "dates": "1792–1878",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Lord John Russell"
+      ],
+      "bio": "Político whig y primer ministro británico asociado con las reformas parlamentarias del siglo XIX. Figura en la secuencia de leyes presentada por Spencer.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 3694,
+          "spelling": "Lord John Russell",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-008",
+      "name": "William Ewart Gladstone",
+      "dates": "1809–1898",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Mr Gladstone"
+      ],
+      "bio": "Primer ministro liberal británico y figura dominante de la política victoriana. Spencer comenta medidas aprobadas por sus ministerios.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 3818,
+          "spelling": "Mr Gladstone",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 5969,
+          "spelling": "Mr Gladstone",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-009",
+      "name": "David Brewster",
+      "dates": "1781–1868",
+      "group": "Científicos",
+      "aliases": [
+        "Sir David Brewster"
+      ],
+      "bio": "Físico escocés, investigador de óptica e impulsor de organizaciones científicas. Spencer alude a su propuesta de apoyo institucional a la ciencia.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-new-toryism",
+          "wordIndex": 4864,
+          "spelling": "Sir David Brewster",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-010",
+      "name": "Thomas Spencer",
+      "dates": "1796–1853",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "Rev Thomas Spencer"
+      ],
+      "bio": "Clérigo y tío de Herbert Spencer, pastor de Hinton Charterhouse. Su experiencia reformando la asistencia a los pobres se relata como caso concreto.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 855,
+          "spelling": "Rev Thomas Spencer",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-011",
+      "name": "William Pitt el Joven",
+      "dates": "1759–1806",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Mr Pitt"
+      ],
+      "bio": "Primer ministro británico durante las guerras revolucionarias francesas. Se lo cita por sus propuestas sobre la asistencia a familias numerosas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 2462,
+          "spelling": "Mr Pitt",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-012",
+      "name": "Thomas Henry Farrer",
+      "dates": "1819–1899",
+      "group": "Economistas y juristas",
+      "aliases": [
+        "Sir Thomas Farrer"
+      ],
+      "bio": "Funcionario comercial británico defensor del libre comercio, autor de The State in its Relation to Trade. Spencer cita sus comparaciones ferroviarias.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 3158,
+          "spelling": "Sir Thomas Farrer",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13625,
+          "spelling": "Sir Thomas Farrer",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-013",
+      "name": "Donald Mackenzie Wallace",
+      "dates": "1841–1919",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Mr Wallace"
+      ],
+      "bio": "Periodista e historiador escocés, autor de Russia, sobre el Imperio ruso. Es el Wallace citado en el ensayo sobre servidumbre y burocracia.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 4820,
+          "spelling": "Mr Wallace",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-014",
+      "name": "John Ruskin",
+      "dates": "1819–1900",
+      "group": "Pensadores y escritores",
+      "aliases": [
+        "Mr Ruskin"
+      ],
+      "bio": "Crítico de arte, educador y reformista social inglés. Spencer lo menciona como figura admirada por corrientes de reforma industrial.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 5387,
+          "spelling": "Mr Ruskin",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-015",
+      "name": "William Morris",
+      "dates": "1834–1896",
+      "group": "Pensadores y escritores",
+      "aliases": [
+        "Mr Morris"
+      ],
+      "bio": "Diseñador, poeta y socialista británico, asociado con Arts and Crafts. Figura como referente de críticos del capitalismo industrial.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 5390,
+          "spelling": "Mr Morris",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-016",
+      "name": "Henry George",
+      "dates": "1839–1897",
+      "group": "Economistas y juristas",
+      "aliases": [
+        "Mr George"
+      ],
+      "bio": "Economista estadounidense, autor de Progress and Poverty. Defendió gravar el valor del suelo y cuestionó la apropiación privada de rentas territoriales.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 5692,
+          "spelling": "Mr George",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 12142,
+          "spelling": "Mr George",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-017",
+      "name": "Henry Mayers Hyndman",
+      "dates": "1842–1921",
+      "group": "Socialistas y sindicalistas",
+      "aliases": [
+        "Mr Hyndman",
+        "H.M. Hyndman"
+      ],
+      "bio": "Dirigente socialista británico y fundador de la Democratic Federation. Es interlocutor polémico directo de Spencer acerca del socialismo.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 5729,
+          "spelling": "Mr Hyndman",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10200,
+          "spelling": "H.M. Hyndman",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10240,
+          "spelling": "Mr Hyndman",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 12147,
+          "spelling": "Mr Hyndman",
+          "inNote": false
+        }
+      ],
+      "mentions": 4,
+      "include": true
+    },
+    {
+      "id": "p-018",
+      "name": "Frank Fairman",
+      "dates": "Seudónimo de 1884",
+      "group": "Socialistas y sindicalistas",
+      "aliases": [
+        "Frank Fairman"
+      ],
+      "bio": "Nombre de pluma utilizado para Herbert Spencer on Socialism, respuesta a The Coming Slavery. La identidad civil no está corroborada.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10208,
+          "spelling": "Frank Fairman",
+          "inNote": false
+        },
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10272,
+          "spelling": "Frank Fairman",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-019",
+      "name": "Henry George Grey, tercer conde Grey",
+      "dates": "1802–1894",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Lord Grey"
+      ],
+      "bio": "Político whig y antiguo secretario de Colonias. Spencer menciona una propuesta atribuida a lord Grey sobre obligaciones sanitarias de propietarios; debe comprobarse la identidad exacta del título.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 7118,
+          "spelling": "Lord Grey",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-020",
+      "name": "Joseph Arch",
+      "dates": "1826–1919",
+      "group": "Socialistas y sindicalistas",
+      "aliases": [
+        "Mr Arch"
+      ],
+      "bio": "Sindicalista agrícola y político británico, organizador de la National Agricultural Labourers Union. Aparece por su defensa del cultivo de tierras improductivas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 7557,
+          "spelling": "Mr Arch",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-021",
+      "name": "Reverendo Jeston",
+      "dates": "Nombre de pila pendiente",
+      "group": "Casos históricos y testigos",
+      "aliases": [
+        "Mr Jeston"
+      ],
+      "bio": "Párroco de Cholesbury citado en el informe sobre la Ley de Pobres de 1834, por la crisis de asistencia rural de 1832. Falta identificar su nombre completo.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 7907,
+          "spelling": "Mr Jeston",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-022",
+      "name": "Otto von Bismarck",
+      "dates": "1815–1898",
+      "group": "Políticos europeos",
+      "aliases": [
+        "Prince Bismarck"
+      ],
+      "bio": "Canciller de Alemania y artífice de su unificación, impulsor de seguros sociales estatales. Spencer lo menciona respecto de la política social alemana.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 8925,
+          "spelling": "Prince Bismarck",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-023",
+      "name": "William Rathbone VI",
+      "dates": "1819–1902",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "Mr W. Rathbone",
+        "Mr Rathbone"
+      ],
+      "bio": "Diputado liberal, empresario y filántropo de Liverpool. Promovió enfermería comunitaria y reforma administrativa, y aparece al hablar de servicios públicos.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10525,
+          "spelling": "Mr W. Rathbone",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 4890,
+          "spelling": "Mr Rathbone",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-024",
+      "name": "Keops (Jufu)",
+      "dates": "c. siglo XXVI a. C.",
+      "group": "Monarcas",
+      "aliases": [
+        "King Khufu"
+      ],
+      "bio": "Faraón egipcio de la IV dinastía, asociado a la Gran Pirámide de Guiza. Spencer lo evoca como ejemplo de trabajo forzado impuesto por gobernantes.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 476,
+          "spelling": "King Khufu",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-025",
+      "name": "Thomas Erskine May",
+      "dates": "1815–1886",
+      "group": "Historiadores",
+      "aliases": [
+        "Sir Erskine May"
+      ],
+      "bio": "Historiador constitucional y autoridad en procedimiento parlamentario británico. Se lo cita por su historia de las leyes del cereal.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 620,
+          "spelling": "Sir Erskine May",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-026",
+      "name": "Luis XV de Francia",
+      "dates": "1710–1774",
+      "group": "Monarcas",
+      "aliases": [
+        "Louis XV"
+      ],
+      "bio": "Rey francés del siglo XVIII. Spencer menciona regulaciones sobre intereses atribuidas a su tiempo y sus consecuencias no previstas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 1698,
+          "spelling": "Louis XV",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-027",
+      "name": "Arthur Young",
+      "dates": "1741–1820",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Arthur Young",
+        "Young's Travels"
+      ],
+      "bio": "Agrónomo, escritor y viajero inglés. Sus observaciones de Francia se citan respecto de controles sobre el comercio de granos.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 1749,
+          "spelling": "Arthur Young",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13543,
+          "spelling": "Young's Travels",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-028",
+      "name": "Frederick H. Janson",
+      "dates": "Fechas por documentar",
+      "group": "Economistas y juristas",
+      "aliases": [
+        "Mr Janson",
+        "F.H. Janson",
+        "F. H. Janson"
+      ],
+      "bio": "Jurista vinculado a la Incorporated Law Society, autor del estudio The Statistics of Legislation publicado en 1873.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 2307,
+          "spelling": "Mr Janson",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-029",
+      "name": "C. Gatliff",
+      "dates": "Identidad incompleta",
+      "group": "Casos históricos y testigos",
+      "aliases": [
+        "Mr C. Gatliff"
+      ],
+      "bio": "Secretario de una sociedad londinense de mejoramiento de viviendas obreras. Citado sobre el costo del impuesto a las ventanas.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3413,
+          "spelling": "Mr C. Gatliff",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-030",
+      "name": "George William Fox Kinnaird, noveno barón Kinnaird",
+      "dates": "1807–1878",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "Lord Kinnaird"
+      ],
+      "bio": "Aristócrata escocés y promotor de mejoras sociales. Aparece en una discusión de 1850 sobre alojamientos para trabajadores.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3554,
+          "spelling": "Lord Kinnaird",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-031",
+      "name": "Anthony Ashley-Cooper, conde de Shaftesbury",
+      "dates": "1801–1885",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "Lord Ashley"
+      ],
+      "bio": "Reformista social y político británico, conocido como lord Ashley antes de heredar el condado de Shaftesbury. Impulsó reformas fabriles y de vivienda.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3585,
+          "spelling": "Lord Ashley",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-032",
+      "name": "C. Forrest",
+      "dates": "Identidad incompleta",
+      "group": "Casos históricos y testigos",
+      "aliases": [
+        "Mr C. Forrest",
+        "Mr Forrest"
+      ],
+      "bio": "Constructor y contratista del East End londinense consultado por Spencer sobre efectos de la legislación edilicia en la vivienda obrera.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3819,
+          "spelling": "Mr C. Forrest",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3858,
+          "spelling": "Mr Forrest",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 3916,
+          "spelling": "Mr Forrest",
+          "inNote": false
+        }
+      ],
+      "mentions": 3,
+      "include": true
+    },
+    {
+      "id": "p-033",
+      "name": "Charles Fox",
+      "dates": "1810–1874",
+      "group": "Ingenieros y científicos",
+      "aliases": [
+        "Sir Charles Fox",
+        "Mr Fox"
+      ],
+      "bio": "Ingeniero ferroviario británico, asociado con proyectos emblemáticos de hierro y ferrocarril. Spencer recuerda sus críticas a la burocracia estatal.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 4689,
+          "spelling": "Sir Charles Fox",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-034",
+      "name": "Fox Maule-Ramsay, conde de Dalhousie",
+      "dates": "1801–1874",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Mr Fox Maule"
+      ],
+      "bio": "Político escocés y secretario de Guerra británico. Spencer lo menciona por retrasos administrativos en los nombramientos del ejército.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 4750,
+          "spelling": "Mr Fox Maule",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-035",
+      "name": "Charles William Siemens",
+      "dates": "1823–1883",
+      "group": "Ingenieros y científicos",
+      "aliases": [
+        "Sir Charles Siemens"
+      ],
+      "bio": "Ingeniero germano-británico, innovador en electricidad, metalurgia y telegrafía. Citado por sus quejas sobre trabas postales a la innovación.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 5123,
+          "spelling": "Sir Charles Siemens",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-036",
+      "name": "Eyre Massey Shaw",
+      "dates": "1828–1908",
+      "group": "Ingenieros y científicos",
+      "aliases": [
+        "Captain Shaw"
+      ],
+      "bio": "Director pionero del servicio de bomberos de Londres. Spencer lo cita al discutir los riesgos de algunas regulaciones edilicias.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 5206,
+          "spelling": "Captain Shaw",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-037",
+      "name": "George William Lyttelton, cuarto barón Lyttelton",
+      "dates": "1817–1876",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "Lord Lyttelton"
+      ],
+      "bio": "Político y reformista de la educación británico. Presidió una reunión que cuestionó intervenciones legislativas en viviendas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 5985,
+          "spelling": "Lord Lyttelton",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-038",
+      "name": "Charles Darwin",
+      "dates": "1809–1882",
+      "group": "Científicos",
+      "aliases": [
+        "Mr Darwin",
+        "Darwin"
+      ],
+      "bio": "Naturalista británico, formulador de la evolución por selección natural. Spencer utiliza su teoría como comparación metodológica sobre consecuencias no intencionadas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 399,
+          "spelling": "Mr Darwin",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 400,
+          "spelling": "Darwin",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 10136,
+          "spelling": "Mr Darwin",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 10137,
+          "spelling": "Darwin",
+          "inNote": false
+        }
+      ],
+      "mentions": 4,
+      "include": true
+    },
+    {
+      "id": "p-039",
+      "name": "Richard Assheton Cross",
+      "dates": "1823–1914",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Sir Richard Cross"
+      ],
+      "bio": "Político conservador y ministro del Interior. Figura en una nota referida a la administración de la asistencia pública.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13729,
+          "spelling": "Sir Richard Cross",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-040",
+      "name": "Elisha Harris",
+      "dates": "1824–1884",
+      "group": "Médicos y filántropos",
+      "aliases": [
+        "Dr Harris"
+      ],
+      "bio": "Médico estadounidense, especialista en salud pública y asistencia social. Spencer menciona sus estadísticas de pobreza y criminalidad en Nueva York.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13912,
+          "spelling": "Dr Harris",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-041",
+      "name": "Joseph Chamberlain",
+      "dates": "1836–1914",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Mr Chamberlain"
+      ],
+      "bio": "Político radical de Birmingham que luego fue ministro y líder unionista. Aparece citado en nota por su posición sobre política y reforma social.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 14029,
+          "spelling": "Mr Chamberlain",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-042",
+      "name": "Charles Lyell",
+      "dates": "1797–1875",
+      "group": "Científicos",
+      "aliases": [
+        "Sir Charles Lyell"
+      ],
+      "bio": "Geólogo escocés, defensor del uniformitarismo geológico. Spencer contrasta su aceptación del cambio en geología con sus reservas sobre evolución biológica.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 342,
+          "spelling": "Sir Charles Lyell",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-043",
+      "name": "Thomas Hobbes",
+      "dates": "1588–1679",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "Hobbes"
+      ],
+      "bio": "Filósofo inglés autor de Leviathan, teórico de la soberanía y del contrato social. Spencer cuestiona su justificación del poder estatal.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 665,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 669,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 902,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1009,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1110,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1231,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1238,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1570,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 2546,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4268,
+          "spelling": "Hobbes",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11653,
+          "spelling": "Hobbes",
+          "inNote": true
+        }
+      ],
+      "mentions": 11,
+      "include": true
+    },
+    {
+      "id": "p-044",
+      "name": "John Austin",
+      "dates": "1790–1859",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "Austin"
+      ],
+      "bio": "Jurista inglés del positivismo jurídico, autor de The Province of Jurisprudence Determined. Spencer discute su teoría de la soberanía.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1249,
+          "spelling": "Austin",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1281,
+          "spelling": "Austin",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 1560,
+          "spelling": "Austin",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 2686,
+          "spelling": "Austin",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4696,
+          "spelling": "Austin",
+          "inNote": false
+        }
+      ],
+      "mentions": 5,
+      "include": true
+    },
+    {
+      "id": "p-045",
+      "name": "Jeremy Bentham",
+      "dates": "1748–1832",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "Bentham"
+      ],
+      "bio": "Filósofo y reformador utilitarista británico. Spencer polemiza con su tesis de que los derechos dependen de la creación legislativa.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4153,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4261,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4459,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4605,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4662,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4736,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4966,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5074,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5107,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5580,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5672,
+          "spelling": "Bentham",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11688,
+          "spelling": "Bentham",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11722,
+          "spelling": "Bentham",
+          "inNote": true
+        }
+      ],
+      "mentions": 13,
+      "include": true
+    },
+    {
+      "id": "p-046",
+      "name": "William Stanley Jevons",
+      "dates": "1835–1882",
+      "group": "Economistas y juristas",
+      "aliases": [
+        "Professor Jevons",
+        "Jevons"
+      ],
+      "bio": "Economista y lógico británico, exponente de la revolución marginalista. Es citado por The State in Relation to Labour.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 3871,
+          "spelling": "Professor Jevons",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 3872,
+          "spelling": "Jevons",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-047",
+      "name": "Matthew Arnold",
+      "dates": "1822–1888",
+      "group": "Pensadores y escritores",
+      "aliases": [
+        "Mr Matthew Arnold",
+        "Matthew Arnold"
+      ],
+      "bio": "Poeta y crítico cultural inglés. Spencer discute sus argumentos sobre propiedad intelectual y origen legal de los derechos.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 3914,
+          "spelling": "Mr Matthew Arnold",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 3915,
+          "spelling": "Matthew Arnold",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4390,
+          "spelling": "Mr Matthew Arnold",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 4391,
+          "spelling": "Matthew Arnold",
+          "inNote": false
+        }
+      ],
+      "mentions": 4,
+      "include": true
+    },
+    {
+      "id": "p-048",
+      "name": "Frederick Pollock",
+      "dates": "1845–1937",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "Professor Pollock",
+        "Pollock"
+      ],
+      "bio": "Jurista británico, historiador del common law y profesor de Oxford. Spencer cita una conferencia suya sobre métodos de jurisprudencia.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 6720,
+          "spelling": "Professor Pollock",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 6721,
+          "spelling": "Pollock",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-049",
+      "name": "Luis XIV de Francia",
+      "dates": "1638–1715",
+      "group": "Monarcas",
+      "aliases": [
+        "Louis XIV"
+      ],
+      "bio": "Rey francés conocido como el Rey Sol. Spencer lo cita al discutir la justificación religiosa del absolutismo.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 123,
+          "spelling": "Louis XIV",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-050",
+      "name": "Jacques-Bénigne Bossuet",
+      "dates": "1627–1704",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "Bossuet"
+      ],
+      "bio": "Obispo, predicador y teórico francés del derecho divino de los reyes. Aparece ligado a la legitimación religiosa de la monarquía absoluta.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 127,
+          "spelling": "Bossuet",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-051",
+      "name": "Adolphe Thiers",
+      "dates": "1797–1877",
+      "group": "Políticos europeos",
+      "aliases": [
+        "M. Thiers",
+        "Thiers"
+      ],
+      "bio": "Historiador y estadista francés, presidente de la Tercera República. Spencer recoge una anécdota sobre sus dudas iniciales respecto del ferrocarril.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 9319,
+          "spelling": "M. Thiers",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 9320,
+          "spelling": "Thiers",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-052",
+      "name": "Hippolyte Taine",
+      "dates": "1828–1893",
+      "group": "Historiadores",
+      "aliases": [
+        "Taine"
+      ],
+      "bio": "Historiador y crítico francés, autor de Les Origines de la France contemporaine. Citado por sus estudios del Antiguo Régimen.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10609,
+          "spelling": "Taine",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11309,
+          "spelling": "Taine",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-053",
+      "name": "Alexis de Tocqueville",
+      "dates": "1805–1859",
+      "group": "Filósofos y juristas",
+      "aliases": [
+        "De Tocqueville",
+        "de Tocqueville",
+        "Tocqueville"
+      ],
+      "bio": "Pensador y político francés, autor de La democracia en América y El Antiguo Régimen y la Revolución. Referente histórico de Spencer.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11311,
+          "spelling": "de Tocqueville",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11312,
+          "spelling": "Tocqueville",
+          "inNote": false
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13529,
+          "spelling": "De Tocqueville",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13530,
+          "spelling": "Tocqueville",
+          "inNote": true
+        }
+      ],
+      "mentions": 4,
+      "include": true
+    },
+    {
+      "id": "p-054",
+      "name": "Alfred Russel Wallace",
+      "dates": "1823–1913",
+      "group": "Científicos",
+      "aliases": [
+        "Wallace, A.R.",
+        "Wallace, A. R.",
+        "Wallace, A.R.,"
+      ],
+      "bio": "Naturalista británico que formuló independientemente la selección natural. En el libro aparece en una nota por sus viajes amazónicos; no es el Wallace de Rusia.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11907,
+          "spelling": "Wallace, A.R.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-055",
+      "name": "Charles Blacker Vignoles",
+      "dates": "1793–1875",
+      "group": "Ingenieros y científicos",
+      "aliases": [
+        "Mr Vignoles",
+        "C.B. Vignoles"
+      ],
+      "bio": "Ingeniero civil británico especializado en ferrocarriles. Spencer reproduce una anécdota de su trato con Adolphe Thiers.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 9336,
+          "spelling": "Mr Vignoles",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11948,
+          "spelling": "C.B. Vignoles",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-056",
+      "name": "Ralph Waldo Emerson",
+      "dates": "1803–1882",
+      "group": "Pensadores y escritores",
+      "aliases": [
+        "Emerson"
+      ],
+      "bio": "Ensayista y filósofo estadounidense del trascendentalismo. Citado en nota sobre el valor de los ejemplos para comprender principios.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13826,
+          "spelling": "Emerson",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-057",
+      "name": "Richard Louis Dugdale",
+      "dates": "1841–1883",
+      "group": "Reformadores sociales",
+      "aliases": [
+        "R.L. Dugdale",
+        "R. L. Dugdale",
+        "Dugdale"
+      ],
+      "bio": "Investigador estadounidense, autor de The Jukes sobre pobreza, criminalidad y herencia; su estudio refleja prejuicios metodológicos de la época.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 14023,
+          "spelling": "R.L. Dugdale",
+          "inNote": true
+        },
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 14024,
+          "spelling": "Dugdale",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-058",
+      "name": "Margaret (caso de los Jukes)",
+      "dates": "Identidad no identificable",
+      "group": "Casos históricos y testigos",
+      "aliases": [
+        "known as \"Margaret\""
+      ],
+      "bio": "Nombre usado en un relato genealógico sobre la familia Jukes; no hay identificación personal comprobada y la fuente debe leerse críticamente.",
+      "confidence": "pendiente",
+      "occurrences": [],
+      "mentions": 0,
+      "status": "No localizada en transcripción; no indexar hasta revisar",
+      "include": false
+    },
+    {
+      "id": "p-059",
+      "name": "Pierre Lanfrey",
+      "dates": "1828–1877",
+      "group": "Historiadores",
+      "aliases": [
+        "Lanfrey"
+      ],
+      "bio": "Historiador y político francés, conocido por sus estudios críticos del imperio napoleónico. Figura en las referencias históricas de Spencer.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13505,
+          "spelling": "Lanfrey",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-060",
+      "name": "William Edward Hartpole Lecky",
+      "dates": "1838–1903",
+      "group": "Historiadores",
+      "aliases": [
+        "Lecky"
+      ],
+      "bio": "Historiador irlandés, autor de History of the Rise and Influence of the Spirit of Rationalism in Europe. Aparece en las notas del ensayo sobre legislación.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13524,
+          "spelling": "Lecky",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-061",
+      "name": "George Lillie Craik",
+      "dates": "1798–1866",
+      "group": "Historiadores",
+      "aliases": [
+        "Craik"
+      ],
+      "bio": "Escritor e historiador escocés, vinculado a divulgación y educación popular. Citado por History of British Commerce.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13548,
+          "spelling": "Craik",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-062",
+      "name": "George Nicholls",
+      "dates": "1781–1865",
+      "group": "Historiadores",
+      "aliases": [
+        "Nicholl's History",
+        "Nicholls"
+      ],
+      "bio": "Funcionario británico, comisionado de la Ley de Pobres y autor de una historia de la asistencia pública en Inglaterra.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13742,
+          "spelling": "Nicholl's History",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-063",
+      "name": "Lactancio",
+      "dates": "c. 250–c. 325",
+      "group": "Pensadores y escritores",
+      "aliases": [
+        "Lactant."
+      ],
+      "bio": "Escritor cristiano latino, autor de De mortibus persecutorum. Aparece como referencia histórica en nota sobre gobiernos coercitivos.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-coming-slavery",
+          "wordIndex": 10601,
+          "spelling": "Lactant.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-064",
+      "name": "William Hickling Prescott",
+      "dates": "1796–1859",
+      "group": "Historiadores",
+      "aliases": [
+        "Prescott"
+      ],
+      "bio": "Historiador estadounidense especializado en España y la conquista de América. Citado por The Conquest of Peru.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11695,
+          "spelling": "Prescott",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-065",
+      "name": "Richard Francis Burton",
+      "dates": "1821–1890",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Burton"
+      ],
+      "bio": "Explorador, traductor y escritor británico. Se cita su Mission to Gelele, King of Dahome para describir estructuras políticas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11711,
+          "spelling": "Burton",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-066",
+      "name": "William John Burchell",
+      "dates": "1781–1863",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Burchell, W.J.",
+        "Burchell"
+      ],
+      "bio": "Naturalista y viajero británico, autor de Travels in the Interior of Southern Africa.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11729,
+          "spelling": "Burchell, W.J.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-067",
+      "name": "Thomas Arbousset",
+      "dates": "1810–1877",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Arbousset"
+      ],
+      "bio": "Misionero protestante francés, coautor de estudios de exploración del África austral con Daumas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11743,
+          "spelling": "Arbousset",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-068",
+      "name": "François Daumas",
+      "dates": "Fechas por verificar",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Daumas"
+      ],
+      "bio": "Misionero y explorador francés que trabajó con Thomas Arbousset en relatos sobre pueblos del África austral.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11745,
+          "spelling": "Daumas",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-069",
+      "name": "George Thompson",
+      "dates": "1796–1889",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Thompson, G.",
+        "Thompson, G.,"
+      ],
+      "bio": "Viajero británico, autor de Travels and Adventures in Southern Africa, obra citada como fuente etnográfica.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11752,
+          "spelling": "Thompson, G.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-070",
+      "name": "G. A. Thompson",
+      "dates": "Identidad pendiente",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Thompson, G.A.",
+        "Thompson, G.A.,"
+      ],
+      "bio": "Nombre abreviado en una cita del diccionario geográfico de Antonio de Alcedo. Identificación y papel editorial por comprobar.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11765,
+          "spelling": "Thompson, G.A.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-071",
+      "name": "Alexander Mitchell",
+      "dates": "Fechas por verificar",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Mitchell, Alex.",
+        "Mitchell, Alex.,"
+      ],
+      "bio": "Autor citado por Siberian Overland Route, obra de viajes a través de Siberia. Falta cotejo bibliográfico de la autoría.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11779,
+          "spelling": "Mitchell, Alex.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-072",
+      "name": "Charles Brooke",
+      "dates": "1829–1917",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Rajah Brooke",
+        "Brooke, C.",
+        "Brooke, C.,"
+      ],
+      "bio": "Segundo rajá blanco de Sarawak. Autor de Ten Years in Sarawak, citado para estudiar derecho consuetudinario.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5236,
+          "spelling": "Rajah Brooke",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11787,
+          "spelling": "Brooke, C.",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-073",
+      "name": "William Ellis",
+      "dates": "1794–1872",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Ellis, History",
+        "Ellis, History of Madagascar"
+      ],
+      "bio": "Misionero británico y escritor, autor de una History of Madagascar citada como fuente etnográfica.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11798,
+          "spelling": "Ellis, History",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-074",
+      "name": "Thomas Stamford Raffles",
+      "dates": "1781–1826",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Raffles",
+        "Sir T.S. Raffles",
+        "Raffles, Sir T.S."
+      ],
+      "bio": "Administrador colonial británico, impulsor del asentamiento británico en Singapur y autor de History of Java.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5298,
+          "spelling": "Raffles",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11806,
+          "spelling": "Raffles",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-075",
+      "name": "William Marsden",
+      "dates": "1754–1836",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Marsden, W.",
+        "Marsden, W.,"
+      ],
+      "bio": "Orientalista y funcionario británico, autor de History of Sumatra. Fuente sobre costumbres y normas locales.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11816,
+          "spelling": "Marsden, W.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-076",
+      "name": "John Beecham",
+      "dates": "1787–1856",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Beecham, J.",
+        "Beecham, J.,"
+      ],
+      "bio": "Misionero y escritor británico, autor de Ashantee and the Gold Coast. Citado en notas sobre África occidental.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11824,
+          "spelling": "Beecham, J.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-077",
+      "name": "Henry Rowe Schoolcraft",
+      "dates": "1793–1864",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Schoolcraft",
+        "Schoolcraft, H.R."
+      ],
+      "bio": "Explorador y etnógrafo estadounidense, autor de obras sobre pueblos indígenas y el Mississippi. Su enfoque debe contextualizarse críticamente.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 7969,
+          "spelling": "Schoolcraft",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11834,
+          "spelling": "Schoolcraft",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11918,
+          "spelling": "Schoolcraft",
+          "inNote": true
+        }
+      ],
+      "mentions": 3,
+      "include": true
+    },
+    {
+      "id": "p-078",
+      "name": "George Turner",
+      "dates": "1818–1891",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Says Turner",
+        "Turner of the Tannese"
+      ],
+      "bio": "Misionero y etnógrafo británico especializado en el Pacífico; citado sobre normas sociales de pueblos de Vanuatu.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 7842,
+          "spelling": "Says Turner",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 7843,
+          "spelling": "Turner of the Tannese",
+          "inNote": false
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-079",
+      "name": "Robert FitzRoy",
+      "dates": "1805–1865",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Fitzroy"
+      ],
+      "bio": "Oficial naval británico, capitán del HMS Beagle y meteorólogo. Spencer cita sus relatos sobre comunidades patagónicas.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 7861,
+          "spelling": "Fitzroy",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-080",
+      "name": "Dirk Hendrik Kolff",
+      "dates": "Fechas por verificar",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Kolff's statement",
+        "Kolff's Voyage"
+      ],
+      "bio": "Oficial naval neerlandés autor de relatos de viaje por el archipiélago de las Indias Orientales; aparece como observador de costumbres de los arafuras.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 5517,
+          "spelling": "Kolff's statement",
+          "inNote": false
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11848,
+          "spelling": "Kolff's Voyage",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-081",
+      "name": "James Emerson Tennent",
+      "dates": "1804–1869",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Tennant, Ceylon",
+        "Tennent, Ceylon"
+      ],
+      "bio": "Político y autor británico, escribió Ceylon: An Account of the Island. La transcripción presenta su apellido como Tennant.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11871,
+          "spelling": "Tennant, Ceylon",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-082",
+      "name": "James Bonwick",
+      "dates": "1817–1906",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "Bonwick, J.",
+        "Bonwick, J.,"
+      ],
+      "bio": "Historiador y escritor australiano, autor de trabajos sobre Tasmania. Citado por prácticas sociales de sus poblaciones originarias.",
+      "confidence": "alta",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11882,
+          "spelling": "Bonwick, J.",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-083",
+      "name": "B. F. Hartshorne",
+      "dates": "Identidad pendiente",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "B.F. Hartshorne"
+      ],
+      "bio": "Autor de un trabajo en Fortnightly Review (marzo de 1876) citado sobre reglas sociales sin gobierno formal.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11929,
+          "spelling": "B.F. Hartshorne",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-084",
+      "name": "Henry Charles Sirr",
+      "dates": "Fechas por verificar",
+      "group": "Historiadores y viajeros",
+      "aliases": [
+        "H.C. Sirr",
+        "Sirr, Ceylon"
+      ],
+      "bio": "Escritor británico sobre Ceilán, autor de Ceylon and the Cingalese. Requiere cotejo del nombre completo y fechas.",
+      "confidence": "provisional",
+      "occurrences": [
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11937,
+          "spelling": "H.C. Sirr",
+          "inNote": true
+        },
+        {
+          "section": "original-great-superstition",
+          "wordIndex": 11938,
+          "spelling": "Sirr, Ceylon",
+          "inNote": true
+        }
+      ],
+      "mentions": 2,
+      "include": true
+    },
+    {
+      "id": "p-085",
+      "name": "A. N. Cummings",
+      "dates": "Identidad pendiente",
+      "group": "Economistas y juristas",
+      "aliases": [
+        "A.N. Cummings",
+        "A. N. Cummings"
+      ],
+      "bio": "Autor de On the Value of Political Economy to Mankind, citado en nota sobre utilidad práctica de la economía.",
+      "confidence": "pendiente",
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13817,
+          "spelling": "A.N. Cummings",
+          "inNote": true
+        }
+      ],
+      "mentions": 1,
+      "include": true
+    },
+    {
+      "id": "p-086",
+      "name": "Henry P. Brougham",
+      "dates": "1778–1868",
+      "group": "Políticos británicos",
+      "aliases": [
+        "Lord Brougham"
+      ],
+      "bio": "Reformista jurídico y estadista británico. Referencia solo si se verifica una aparición explícita en la transcripción.",
+      "confidence": "pendiente",
+      "occurrences": [],
+      "mentions": 0,
+      "status": "No localizada en transcripción; no indexar hasta revisar",
+      "include": false
+    }
+  ]
+}
