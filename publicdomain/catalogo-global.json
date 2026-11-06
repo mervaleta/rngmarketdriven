@@ -2761,7 +2761,27 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Orlando%20furioso%20Ludovico%20Ariosto",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3747.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3747.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/3747"
+        }
+      ]
     },
     {
       "id": "S23-0051",
@@ -2801,7 +2821,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Cuore%20Edmondo%20De%20Amicis",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "Traducción histórica española · TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/73486.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "Traducción histórica española · EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/73486.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Traducción histórica española · Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/73486"
+        }
+      ],
+      "original_source_note": "Copia histórica en castellano, no es la versión original italiana; versión italiana pendiente"
     },
     {
       "id": "S23-0052",
@@ -11682,7 +11723,28 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=La%20Regenta%20Leopoldo%20Alas%20Clar%C3%ADn",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "Tomo I · TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17073.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "Tomo I · EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17073.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Tomo I · Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17073"
+        }
+      ],
+      "original_source_note": "La versión encontrada en Project Gutenberg corresponde al tomo I; localizar también el tomo II antes de considerarla integral"
     },
     {
       "id": "S23-0263",
@@ -11723,7 +11785,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Fortunata%20y%20Jacinta%20Benito%20P%C3%A9rez%20Gald%C3%B3s",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17013.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17013.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/17013"
+        }
+      ]
     },
     {
       "id": "S23-0264",
@@ -11764,7 +11846,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Los%20pazos%20de%20Ulloa%20Emilia%20Pardo%20Baz%C3%A1n",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/18005.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/18005.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/18005"
+        }
+      ]
     },
     {
       "id": "S23-0265",
@@ -11805,7 +11907,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Niebla%20Miguel%20de%20Unamuno",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/49836.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/49836.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/49836"
+        }
+      ]
     },
     {
       "id": "S23-0266",
@@ -12010,7 +12132,45 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Mart%C3%ADn%20Fierro%20Jos%C3%A9%20Hern%C3%A1ndez",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "Primera parte · TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14765.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "Primera parte · EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14765.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Primera parte · Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/14765"
+        },
+        {
+          "kind": "descarga",
+          "format": "Segunda parte · TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/15066.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "Segunda parte · EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/15066.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Segunda parte · Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/15066"
+        }
+      ]
     },
     {
       "id": "S23-0271",
@@ -12051,7 +12211,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Facundo%20Domingo%20F.%20Sarmiento",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/33267.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/33267.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/33267"
+        }
+      ]
     },
     {
       "id": "S23-0272",
@@ -12379,7 +12559,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Ariel%20Jos%C3%A9%20Enrique%20Rod%C3%B3",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22899.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22899.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/22899"
+        }
+      ]
     },
     {
       "id": "S23-0280",
@@ -12420,7 +12620,27 @@
       "edition_note": "Ausencia de evidencia en esta base NO implica ausencia de ediciones",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Cecilia%20Vald%C3%A9s%20Cirilo%20Villaverde",
       "metadata_stage": "Preliminar; ficha bibliográfica y año pendientes de cotejo individual",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/28281.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/28281.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/28281"
+        }
+      ]
     },
     {
       "id": "S23-0281",
