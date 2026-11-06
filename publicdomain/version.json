@@ -46,11 +46,12 @@
     "originals_note": "Las otras 16 fuentes no están descargadas en este repositorio. El acceso directo al original está enlazado en cada ficha."
   },
   "originals": {
-    "works_with_download_link": 64,
-    "works_with_any_original_source": 80,
-    "works_without_direct_download": 276,
-    "download_note": "Enlaces pueden conducir a Project Gutenberg externo (TXT/EPUB); no implican copia alojada en Siglo23 ni verificación legal global.",
-    "rights_status": "Pendiente de verificación por territorio y edición",
+    "works_with_download_link": 74,
+    "works_with_any_original_source": 92,
+    "works_without_direct_download": 266,
+    "source_links_total": 288,
+    "download_note": "Enlaces a originales externos TXT, EPUB3, PDF o archivos locales; las páginas de consulta no son descargas",
+    "rights_status": "Verificación editorial y de derechos por país pendiente",
     "url": "/publicdomain/coleccion/"
   }
 }
