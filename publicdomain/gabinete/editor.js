@@ -61,7 +61,7 @@ function grid(){
       '<div class="thumb-canvas" style="width:'+w+'px;height:'+h.toFixed(1)+'px">'+placePg(pg,idx,scale,"thumb-inner")+'</div>'+
       '<div class="thumb-desc"><span class="thumb-n">'+String(idx+1).padStart(2,"0")+'</span>'+esc(pg.title)+'</div></button>';
  }
- markup+='<section class="mini-spread"><div class="mini-spread-pages"><div class="ghost-thumb" style="width:'+w+'px;height:'+h.toFixed(1)+'px"><span>Sin página a la izquierda</span></div>'+thumbnail(0)+'</div><div class="mini-spread-caption">Tapa · folio 1 impar (derecha)</div></section>';
+ markup+='<section class="mini-spread"><div class="mini-spread-pages"><div class="ghost-thumb" style="width:'+w+'px;height:'+h.toFixed(1)+'px"></div>'+thumbnail(0)+'</div><div class="mini-spread-caption">Tapa · folio 1 impar (derecha)</div></section>';
  for(var first=1;first<state.doc.pages.length;first+=2){
   var left=thumbnail(first);
   var right=first+1<state.doc.pages.length?thumbnail(first+1):'<div class="ghost-thumb" style="width:'+w+'px;height:'+h.toFixed(1)+'px"></div>';
@@ -74,7 +74,7 @@ function spread(){
  var space=Math.max(380,stage.clientWidth-65),maxScale=Math.min(.78,(space-15)/(2*state.opts.w*pxpermm));
  var mark='<div class="stage-title"><span>Pliego · '+(first<0?"—":" "+String(first+1).padStart(2,"0"))+' / '+String(second+1).padStart(2,"0")+'</span><span>Recto impar a la derecha · verso par a la izquierda</span></div><div class="spreadstage"><div class="spread">';
  if(first<0){
-  mark+='<div class="scaledPage no-facing-page" style="width:'+(state.opts.w*pxpermm*maxScale)+'px;height:'+(state.opts.h*pxpermm*maxScale)+'px"><span>Tapa: sin página enfrentada</span></div>';
+  mark+='<div class="scaledPage no-facing-page" style="width:'+(state.opts.w*pxpermm*maxScale)+'px;height:'+(state.opts.h*pxpermm*maxScale)+'px"></div>';
  }else if(state.doc.pages[first])mark+=placePg(state.doc.pages[first],first,maxScale,"scaledPage "+(active===first?"active":"")).replace('data-index="'+first+'"','data-open="'+first+'"');
  if(state.doc.pages[second])mark+=placePg(state.doc.pages[second],second,maxScale,"scaledPage "+(active===second?"active":"")).replace('data-index="'+second+'"','data-open="'+second+'"');
  mark+='</div><div class="spreadHelp">Páginas enfrentadas según la encuadernación: tapa en página 1 (recto), retiración en 2 y dedicatorias en 3. Clic en cualquier página para editar.</div></div>';
