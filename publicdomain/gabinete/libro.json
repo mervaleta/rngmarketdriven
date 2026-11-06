@@ -828,18 +828,6 @@
       "sub": ""
     },
     {
-      "id": "blanco_cierre",
-      "kind": "blank",
-      "section": "Guarda",
-      "title": "Página en blanco",
-      "body": "",
-      "image": null,
-      "caption": "",
-      "sub": "",
-      "physical_role": "cierre",
-      "visible_in_print": false
-    },
-    {
       "id": "fuentes_cont",
       "kind": "sources",
       "section": "Apéndice · Créditos",
@@ -859,6 +847,16 @@
       "caption": "",
       "sub": "",
       "physical_role": "cierre"
+    },
+    {
+      "id": "blanco_post_creditos",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Última página en blanco",
+      "body": "",
+      "image": null,
+      "caption": "",
+      "sub": ""
     }
   ],
   "notes": "El cuerpo del libro contiene solo contenido para lectores: cubierta, guardas, prologo y epilogo reservados, informes historicos, imagenes y fuentes. Las notas de producción se mantienen fuera de pages. Imágenes de Wikimedia Commons enlazadas remotamente.",
