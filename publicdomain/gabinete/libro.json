@@ -278,7 +278,7 @@
       "kind": "title",
       "section": "Preliminares · Portadilla",
       "title": "El gabinete prohibido",
-      "body": "Una historia visual de la fotografía erótica y el desnudo fotográfico en el siglo XIX.\n\nEdición y ensayos: Editorial Siglo23.\n\nPrimera maqueta de investigación · Serie Archivos de la mirada.",
+      "body": "Una historia visual de la fotografía erótica y el desnudo fotográfico en el siglo XIX.\n\nSelección y ensayos: Editorial Siglo23.",
       "image": null,
       "caption": "",
       "sub": ""
@@ -288,7 +288,7 @@
       "kind": "credits",
       "section": "Preliminares",
       "title": "Ficha editorial",
-      "body": "EL GABINETE PROHIBIDO\nFotografía, deseo y censura (1840–1900)\nEdición de investigación, 2026.\n\nSelección de imágenes: fondos del Metropolitan Museum of Art, con acceso público a digitalizaciones bajo CC0. Ensayos y diseño editorial: Editorial Siglo23.\n\nEsta edición de trabajo integra una selección cronológica inicial concentrada en 1840–1859. Los períodos posteriores permanecen en investigación. Las fichas y los enlaces de archivo se citan al final.\n\nNo reproducir esta maqueta como edición comercial definitiva sin completar la revisión documental y jurídica.",
+      "body": "EL GABINETE PROHIBIDO\nFotografía, deseo y censura · 1840–1900\n\nSelección de imágenes y textos originales: Editorial Siglo23.\n\nCréditos fotográficos: The Metropolitan Museum of Art. Las reproducciones utilizadas corresponden a obras de dominio público disponibles a través de Wikimedia Commons.\n\nPrimera edición en preparación.",
       "image": null,
       "caption": "",
       "sub": ""
@@ -811,8 +811,8 @@
       "id": "cierre_editorial",
       "kind": "essay",
       "section": "Apéndice · Fuentes",
-      "title": "Criterios de la selección",
-      "body": "La curación de este volumen se organiza por fecha aproximada de creación, no por supuesta intensidad erótica. Se han elegido obras con identificación museística y reproducción de acceso abierto. Las atribuciones y dataciones siguen las fichas institucionales consultadas en noviembre de 2026.\n\nLa primera fase de la selección ilustrada se concentra en 1840–1859. El alcance temporal 1840–1900 es el horizonte del proyecto completo y requiere ampliar el inventario con documentos de décadas posteriores antes de cerrar una edición comercial. Las fotografías con problemas serios de identificación de personas o documentación de adultez quedan fuera de reproducción hasta obtener información suficiente.",
+      "title": "Cómo se construyó esta selección",
+      "body": "Las fotografías se han ordenado según la fecha aproximada de realización indicada por la institución que las conserva. Cuando la datación es amplia o incierta, se conserva el intervalo; no se fabrica una precisión que el archivo no ofrece.\n\nCada entrada reúne autor o atribución, técnica fotográfica, período y número de inventario. Las explicaciones distinguen los datos documentados de las hipótesis sobre usos, compradores y circulación. En particular, no toda representación del cuerpo desnudo debe entenderse como imagen clandestina.\n\nLa selección permite aproximarse a los procedimientos y convenciones que definieron el primer mercado de imágenes íntimas. También evidencia lo que no se sabe: con frecuencia ignoramos los nombres de las modelos y las condiciones de producción.",
       "image": null,
       "caption": "",
       "sub": ""
@@ -822,7 +822,7 @@
       "kind": "sources",
       "section": "Apéndice · Créditos",
       "title": "Obras y procedencias",
-      "body": "Fotografías pertenecientes a las colecciones del Metropolitan Museum of Art; reproducciones digitales accesibles mediante Wikimedia Commons. Para cada lámina constan autor, año, técnica y número de inventario en la ficha del banco visual.\n\nFuentes de contexto: las entradas de colección del Met para las obras de Vallou de Villeneuve, Durieu, Braquehais y Chauvassaignes; bibliografía técnica sobre daguerrotipos, copias al papel salado y estereoscopía; documentación museística relativa a la persecución de la fotografía obscena.\n\nLa colección de este prototipo debe considerarse preliminar, no una certificación global de dominio público ni de las condiciones de reproducción comercial en cada territorio.",
+      "body": "FUENTES DE LAS IMÁGENES\n\nAutor francés no identificado — [Nude with Mirror] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art, inv. 1997.382.45.\n\nFotógrafo francés no identificado — [Stereographic View of Two Nude Women] (década de 1840). Par de daguerrotipos estereoscópicos. The Metropolitan Museum of Art, inv. 1998.90.\n\nJulien Vallou de Villeneuve — [Female Nude, Reclining, in Profile] (ca. 1853). Papel salado a partir de negativo de papel. The Metropolitan Museum of Art, inv. 1993.69.3.\n\nJulien Vallou de Villeneuve — [Reclining Female Nude] (ca. 1853). Papel salado. The Metropolitan Museum of Art, inv. 1993.69.1.\n\nEugène Durieu — [Seated Female Nude] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art, inv. 2005.100.41.\n\nAtribuido a Bruno Braquehais — [Reclining Female Nude Posed as Danae] (década de 1850). Daguerrotipo coloreado. The Metropolitan Museum of Art, inv. 2015.400.51.",
       "image": null,
       "caption": "",
       "sub": ""
@@ -838,6 +838,27 @@
       "sub": "",
       "physical_role": "cierre",
       "visible_in_print": false
+    },
+    {
+      "id": "fuentes_cont",
+      "kind": "sources",
+      "section": "Apéndice · Créditos",
+      "title": "Créditos fotográficos, continuación",
+      "body": "Autor francés no identificado — [Seated Female Nude] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art, inv. 2005.100.30.\n\nJulien Vallou de Villeneuve — [Reclining Nude] (1851–1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art, inv. 2005.100.40.\n\nJulien Vallou de Villeneuve — [Standing Female Nude] (ca. 1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art, inv. 1993.69.2.\n\nEugène Durieu — [Nude Study] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art, inv. 2005.100.569.\n\nFranck-François-Genès Chauvassaignes — [Female Nude in Studio] (1856–1859). Copia al papel salado desde negativo de vidrio. The Metropolitan Museum of Art, inv. 1998.338.\n\nAtribuido a Bruno Braquehais — [Nude Before a Mirror] (ca. 1857). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art, inv. 2005.100.279.",
+      "image": null,
+      "caption": "",
+      "sub": ""
+    },
+    {
+      "id": "blanco_ultimo",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Página en blanco",
+      "body": "",
+      "image": null,
+      "caption": "",
+      "sub": "",
+      "physical_role": "cierre"
     }
   ],
   "notes": "El cuerpo del libro contiene solo contenido para lectores: cubierta, guardas, prologo y epilogo reservados, informes historicos, imagenes y fuentes. Las notas de producción se mantienen fuera de pages. Imágenes de Wikimedia Commons enlazadas remotamente.",
