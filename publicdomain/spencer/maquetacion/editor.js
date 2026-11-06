@@ -22,7 +22,7 @@ const seed={
  ['original-postscript','POSTSCRIPT','auto',true],['notes','Aparato de notas',48,true],
  ['plates','Láminas e ilustraciones',16,true],['chronology','Cronología y atlas',16,true],
  ['afterword','Epílogo contemporáneo',18,true],['bibliography','Fuentes y bibliografía',12,true],
- ['glossary','Índice analítico y glosario',12,true],['index-onomastic','Índice onomástico · biografías',16,true],['colophon','Colofón',1,true]
+ ['glossary','Glosario de términos',8,true],['index-onomastic','Índice onomástico · biografías',16,true],['index-toponymic','Índice toponímico',8,true],['index-analytic','Índice analítico o temático',14,true],['index-works','Índice de autores y obras citadas',12,true],['colophon','Colofón',1,true]
  ].map(([id,name,pages,recto])=>({id,name,pages,recto,enabled:true}))
 };
 const formats={a5:[148,210],trade:[152.4,228.6],compact:[139.7,215.9],large:[170,240]};
@@ -62,10 +62,20 @@ function hydrate(raw){
    const at=s.sections.findIndex(x=>x.id==='notes');s.sections.splice(at<0?s.sections.length:at,0,...originalGroup.map(x=>({...x})));
  }
  s.sections=s.sections.filter(x=>x.id!=='text');
- if(!s.sections.some(x=>x.id==='index-onomastic')){
-  const at=s.sections.findIndex(x=>x.id==='colophon');
-  s.sections.splice(at<0?s.sections.length:at,0,{id:'index-onomastic',name:'Índice onomástico · biografías',pages:16,recto:true,enabled:true});
+ const indices=[
+  ['index-onomastic','Índice onomástico · biografías',16],
+  ['index-toponymic','Índice toponímico',8],
+  ['index-analytic','Índice analítico o temático',14],
+  ['index-works','Índice de autores y obras citadas',12]
+ ];
+ for(const [id,name,pages] of indices){
+  if(!s.sections.some(x=>x.id===id)){
+   const at=s.sections.findIndex(x=>x.id==='colophon');
+   s.sections.splice(at<0?s.sections.length:at,0,{id,name,pages,recto:true,enabled:true});
+  }
  }
+ const glossary=s.sections.find(x=>x.id==='glossary');
+ if(glossary&&glossary.name==='Índice analítico y glosario')glossary.name='Glosario de términos';
  if(typeof s.texts.text==='string'&&s.texts.text.trim()){
   s.texts['legacy-text']=s.texts['legacy-text']||s.texts.text;
   if(!s.sections.some(x=>x.id==='legacy-text'))s.sections.push({id:'legacy-text',name:'Texto de trabajo de M02 conservado',pages:'auto',recto:true,enabled:false});
