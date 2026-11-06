@@ -85,3 +85,15 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - [Atribuido a Braquehais, *Nude Before a Mirror*, ca. 1857](https://www.metmuseum.org/art/collection/search/286294) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Nude_Before_a_Mirror-_MET_DP343654.jpg).
 
 **Control pendiente:** documentar la edad adulta de todas las personas representadas en imágenes sensibles, cotejar las demás fichas, almacenar archivos maestras y revisar requisitos legales por país antes de autorizar la edición.
+
+
+## Avance v0.5.0 — Nueva cronología y pliegos físicos (6 de noviembre de 2026)
+
+- **82 folios, 18 reproducciones fotográficas y 8 aperturas de capítulo**. Los ocho capítulos comienzan en folios impares: 11, 17, 25, 39, 47, 55, 67, 73.
+- El laboratorio agrupa ahora las miniaturas de «Libro completo» en **pliegos físicos**, iniciando con una casilla totalmente vacía a la izquierda de la tapa (folio 1, recto a la derecha). La vista de «Pliego» utiliza la misma lógica.
+- **La paridad se recalcula automáticamente** después de insertar, duplicar, eliminar o mover páginas. Los blancos automáticos de ajuste se consideran parte del plan de paginación y no deben confundirse con contenido narrativo.
+- Se sumaron dos capítulos cronológicos: **1860–1879** (anonimato, máscaras, circuitos de impresión) y **1880–1900** (Eakins, Muybridge y de Meyer, fotografía artística y científica).
+- Se incorporaron seis fotografías identificadas y documentadas del Metropolitan Museum y USC: máscara ca. 1870, sombrero 1870s–90s, Eakins (dos piezas), Muybridge (1887), de Meyer (1890s). Los archivos son enlaces externos a fotos de archivo; no están almacenados en el servidor de Siglo23.
+- Los ensayos ahora abarcan sucesivamente 1839–1900. **La selección de fotografías sigue siendo provisional**, sobre todo en el material cuyas personas retratadas no están identificadas o tienen edad adulta sin documentación suficiente.
+- Las tareas de preproducción, verificación de identidad/edad y licencia se alojan en `produccion.json`, fuera del cuerpo narrativo.
+- Los cambios confirmados en GitHub no implican despliegue automático en Hostinger; para ver la versión en el dominio, el encabezado debe indicar `GABINETE · V0.5.0` y `version.json` debe devolver `SIGLO23-GABINETE-20261106-V0.5.0`.
