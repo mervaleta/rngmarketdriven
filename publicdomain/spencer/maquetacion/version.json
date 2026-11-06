@@ -39,7 +39,7 @@
   "indices": {
     "onomastico": {
       "path": "../indice-onomastico/",
-      "entries": 85
+      "entries": 86
     },
     "toponimico": {
       "path": "../indice-toponimico/",
