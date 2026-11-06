@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M04",
+  "version": "M04.1",
   "date": "2026-11-05",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -23,14 +23,13 @@
     "Divisoria opcional de dos páginas para aparato crítico y notas",
     "Inicio en recto con blancos reales contemplados en cálculo de lomo",
     "Composición literaria refinada con capitular y preset editorial",
-    "Cuatro índices independientes: personas, lugares, conceptos y autores/obras",
     "Localizaciones por ensayo y posición dentro de la transcripción inglesa",
     "Folios dinámicos vinculados al plan guardado, sin inventar páginas sin plan",
     "Reservas de páginas editables para cada índice desde el editor"
   ],
-  "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, toponímica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas.",
+  "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M04",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M04-1",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,
@@ -40,10 +39,6 @@
     "onomastico": {
       "path": "../indice-onomastico/",
       "entries": 86
-    },
-    "toponimico": {
-      "path": "../indice-toponimico/",
-      "entries": 54
     },
     "analitico": {
       "path": "../indice-analitico/",

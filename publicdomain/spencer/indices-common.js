@@ -4,7 +4,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es');
 const kind=document.body.dataset.indexKind;
 const config={
- place:{url:'lugares.json',unit:'lugares',label:'Lugar',group:'type',sub:'context',title:'Índice toponímico',notices:'Los países actuales y los nombres históricos se distinguen; algunas menciones aparecen solo en títulos y notas bibliográficas.'},
+
  theme:{url:'temas.json',unit:'conceptos',label:'Tema',group:'group',sub:'description',title:'Índice analítico',notices:'Selección inicial asistida por palabras clave: las referencias necesitan lectura y curaduría humana antes de publicar.'},
  work:{url:'obras.json',unit:'obras',label:'Obra citada',group:'type',sub:'description',title:'Índice de obras citadas',notices:'Títulos normalizados frente a citas abreviadas. Algunos datos editoriales y autorías deben contrastarse con catálogos.'}
 };

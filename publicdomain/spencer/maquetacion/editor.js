@@ -22,7 +22,7 @@ const seed={
  ['original-postscript','POSTSCRIPT','auto',true],['notes','Aparato de notas',48,true],
  ['plates','Láminas e ilustraciones',16,true],['chronology','Cronología y atlas',16,true],
  ['afterword','Epílogo contemporáneo',18,true],['bibliography','Fuentes y bibliografía',12,true],
- ['glossary','Glosario de términos',8,true],['index-onomastic','Índice onomástico · biografías',16,true],['index-toponymic','Índice toponímico',8,true],['index-analytic','Índice analítico o temático',14,true],['index-works','Índice de autores y obras citadas',12,true],['colophon','Colofón',1,true]
+ ['glossary','Glosario de términos',8,true],['index-onomastic','Índice onomástico · biografías',16,true],['index-analytic','Índice analítico o temático',14,true],['index-works','Índice de autores y obras citadas',12,true],['colophon','Colofón',1,true]
  ].map(([id,name,pages,recto])=>({id,name,pages,recto,enabled:true}))
 };
 const formats={a5:[148,210],trade:[152.4,228.6],compact:[139.7,215.9],large:[170,240]};
@@ -61,10 +61,10 @@ function hydrate(raw){
  else if(!s.sections.some(x=>x.id.startsWith('original-'))){
    const at=s.sections.findIndex(x=>x.id==='notes');s.sections.splice(at<0?s.sections.length:at,0,...originalGroup.map(x=>({...x})));
  }
- s.sections=s.sections.filter(x=>x.id!=='text');
+ s.sections=s.sections.filter(x=>x.id!=='text'&&x.id!=='index-toponymic');
+ delete s.texts['index-toponymic'];
  const indices=[
   ['index-onomastic','Índice onomástico · biografías',16],
-  ['index-toponymic','Índice toponímico',8],
   ['index-analytic','Índice analítico o temático',14],
   ['index-works','Índice de autores y obras citadas',12]
  ];
