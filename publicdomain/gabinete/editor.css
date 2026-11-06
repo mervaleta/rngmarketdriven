@@ -14,3 +14,70 @@
 @media(max-width:1180px){.workarea{grid-template-columns:245px minmax(0,1fr) 245px}.stage{padding:12px}.panel{padding:13px}}@media(max-width:950px){.workarea{grid-template-columns:260px minmax(0,1fr)}.panel.right{grid-column:1/-1;border-top:1px solid #455c58;max-height:none}.stage{max-height:none}.panel.left{max-height:calc(100vh - 150px)}}@media(max-width:670px){#appHeader{padding:12px}.headline{padding:14px}.workarea{display:block}.panel.left{max-height:none}.panel.right{max-height:none}.stage{min-height:520px}.book-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.headline .small-status{display:none}.top-actions a,.top-actions button{padding:7px 9px}.stagebar{gap:12px}}
 @page{size:166mm 236mm;margin:0}
 @media print{body{background:#fff!important}#appHeader,.headline,.workarea,.bottom,#toast{display:none!important}#printRoot{display:block!important}.print-sheet{break-after:page;page-break-after:always;break-inside:avoid;page-break-inside:avoid;width:var(--w);height:var(--h);position:relative;overflow:hidden}.print-sheet:last-child{break-after:auto}.print-sheet .page-actual{box-shadow:none}a{color:inherit!important}*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}}
+
+
+/* GABINETE THEME v0.3.0 — BORDEAUX / ROSE / BLACK / WHITE */
+/* Estiliza exclusivamente el taller. Las páginas .page-actual conservan su paleta editorial. */
+@media screen {
+  :root {
+    --chrome:#120b10;
+    --chrome2:#2d1122;
+    --chrome3:#501e38;
+    --gold:#f5a8c7;
+    --cream:#fff5f7;
+    --faint:#e8b4c6;
+    --accent:#be426c;
+    --stage-wine:#3c142d;
+    --stage-dark:#120c13;
+  }
+  body{background:#120b10;color:#fff7fa;}
+  a{color:#ffc8dc;}
+  button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline-color:#ffbfd8;}
+  #appHeader{background:linear-gradient(110deg,#100b0f,#300e24 65%,#47152c);border-bottom:2px solid #b34972;}
+  .brand{color:#fff8fa}.brand-mark{border-color:#e89bb8;background:#360f27;color:#fff2f6}
+  .brand span{color:#ffc7db}.brand strong{color:#ffffff;}
+  .top-actions a,.top-actions button,.small-btn{border-color:#9c5574;background:#3f1a32;color:#fff4f9;}
+  .top-actions button:hover,.small-btn:hover,.top-actions a:hover{background:#713052;border-color:#f3a7c5;}
+  .top-actions .primary,.small-btn.primary{background:#f5abc7;border-color:#f5abc7;color:#280d1c;}
+  .top-actions .primary:hover{background:#ffd4e3;}
+  .version{color:#f5b4cc;font-weight:750;letter-spacing:.12em;}
+  .headline{background:linear-gradient(100deg,#391126 0%,#651f43 54%,#1d0d19 100%);border-bottom:1px solid #a95a78;position:relative;}
+  .headline:before{content:"";position:absolute;top:0;left:0;height:3px;width:100%;background:linear-gradient(90deg,#ffbed6,#bd3c6f 54%,#280d1c);}
+  .headline h1{color:#fff7fa}.headline h1 em{color:#ffd4e3}
+  .headline p{color:#f6dce6}.eyebrow{color:#ffc0d7}
+  .small-status{border-color:#d58aaa;background:#45162f;color:#ffe5ee}
+  .panel,.panel.left,.panel.right{background:#2b1022;color:#fff0f5;}
+  .panel.left{border-right:1px solid #874362}
+  .panel.right{border-left:1px solid #874362}
+  .panel h2{color:#fff}.panel .subhead{color:#ffc2d8;border-top:1px solid #85506b}
+  .field{color:#ffe3ed}.field input,.field select,.field textarea{background:#120b12;border:1px solid #9c5a7a;color:#fff8fa;}
+  .field input:focus,.field select:focus,.field textarea:focus{border-color:#ffc0d6;box-shadow:0 0 0 2px #ffafd41f;}
+  .field input[type=range],.checkboxrow input{accent-color:#f5a8c7}
+  .hint{color:#e9bfd0}.hint.warn{color:#ffd8a8}.line{background:#714158}
+  .actions-row button{background:#52223d;border-color:#a86785;color:#fff4f8}
+  .actions-row button:hover{background:#793653;border-color:#f7b6d0}
+  .studio{background:radial-gradient(ellipse at 50% 13%,#6a2448 0%,#36142d 40%,#140c15 87%);}
+  .stagebar{background:#1b0d18;border-bottom:1px solid #90536c}
+  .tabs button{background:#37182b;border-color:#874962;color:#ffe7f0}
+  .tabs button:hover{background:#60304b}
+  .tabs button[aria-pressed=true]{background:#f4acc7;border-color:#f4acc7;color:#2c0e20;font-weight:800}
+  .navigation button{background:#55233e;color:#fff7fa;border-color:#b47793}
+  .navigation button:hover{background:#853c60}
+  .navigation span{color:#ffd7e5}
+  .stage-title{color:#ffe0eb}
+  .book-grid .thumb .thumb-desc{color:#fff1f7}
+  .book-grid .thumb .thumb-n{color:#eeb1ca}
+  .thumb .thumb-canvas{outline-color:#d59bb5;box-shadow:0 12px 26px #090508c4}
+  .thumb.selected .thumb-canvas{outline-color:#ffabc8;box-shadow:0 12px 32px #090508db,0 0 0 2px #e98ba855}
+  .spread .scaledPage.active{outline-color:#fbb3d0}
+  .spreadHelp{color:#f0c9d9}
+  .meta-card,.asset-card{background:#1b0e19;border-color:#85536b;}
+  .meta-card strong{color:#ffc7db}.asset-card p{color:#f1d4e0}.asset-card a{color:#ffd0e1}
+  .asset-card img{background:#0e0a0c;}
+  .context-view{color:#fff1f6}.context-view h2{color:#ffcedf}.context-view .note{border-color:#a16886;color:#ecc0d2}
+  .badge-lite{border-color:#b2708b;color:#ffe4ef}
+  .emptyview{color:#ffdfeb}
+  .bottom{background:#0d0910;border-top:1px solid #91506e;color:#efbfd2}
+  #toast{background:#f8b4cf;color:#2a0e1d}
+  /* Las cubiertas y páginas se componen según el libro, no según el color de la interfaz. */
+}
