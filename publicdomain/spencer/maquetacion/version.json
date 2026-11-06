@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M08",
+  "version": "M09",
   "date": "2026-11-06",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -34,15 +34,17 @@
     "Las versiones guardadas previamente migran automáticamente a las nuevas cantidades",
     "Estudio introductorio íntegro, 3.275 palabras, antes del original",
     "Epílogo contemporáneo íntegro, 3.143 palabras, después del original",
-    "Reserva independiente de biografía, 0 páginas hasta recibir manuscrito",
     "Contadores separados de páginas del estudio y epílogo",
     "Cuatro prefacios editoriales específicos en los reversos de las aperturas, sin sumar páginas",
     "Editor local de cada prefacio con guardado y exportación JSON",
-    "El estudio introductorio omite las reflexiones repetidas por ensayo; ahora están en cada apertura"
+    "El estudio introductorio omite las reflexiones repetidas por ensayo; ahora están en cada apertura",
+    "Biografía completa de Herbert Spencer cargada automáticamente y sumada a la paginación del volumen",
+    "Acceso directo a biografía en la grilla y contador específico de sus páginas",
+    "Manuscrito biográfico ubicado antes del estudio introductorio, sin sumar ilustraciones ni notas"
   ],
   "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas. La medición DOM de índices sigue siendo una maqueta, no impresión PDF definitiva; los folios son orientativos.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M08",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M09",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,
@@ -72,7 +74,8 @@
   ],
   "editorial_manuscripts": {
     "study": "textos/estudio-introductorio-2026.md",
-    "afterword": "textos/epilogo-2026.md"
+    "afterword": "textos/epilogo-2026.md",
+    "biography": "textos/biografia-herbert-spencer-2026.md"
   },
   "chapter_prefaces": {
     "count": 4,
@@ -80,5 +83,6 @@
     "extra_pages": 0,
     "placement": "verso de cada pliego"
   },
-  "study_word_count": 2145
+  "study_word_count": 2145,
+  "biography_word_count": 1564
 }
