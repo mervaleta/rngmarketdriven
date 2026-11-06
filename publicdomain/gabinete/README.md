@@ -97,3 +97,14 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - Los ensayos ahora abarcan sucesivamente 1839–1900. **La selección de fotografías sigue siendo provisional**, sobre todo en el material cuyas personas retratadas no están identificadas o tienen edad adulta sin documentación suficiente.
 - Las tareas de preproducción, verificación de identidad/edad y licencia se alojan en `produccion.json`, fuera del cuerpo narrativo.
 - Los cambios confirmados en GitHub no implican despliegue automático en Hostinger; para ver la versión en el dominio, el encabezado debe indicar `GABINETE · V0.5.0` y `version.json` debe devolver `SIGLO23-GABINETE-20261106-V0.5.0`.
+
+
+## V0.6.0 — El libro pasa a ser un fotolibro (6/11/2026)
+
+- **102 páginas**, **25 fotografías distintas** y **1 dibujo documental de Delacroix**. El contador de piezas distintas no incluye las repeticiones de láminas en los dípticos/mosaicos.
+- **79 páginas tienen al menos una imagen (77.5 %)**: el cambio responde a la orientación fotográfica solicitada. Hay 26 láminas individuales, 5 dípticos, 9 mosaicos y 16 fotoensayos. Los análisis con fotografía también aumentaron sustancialmente su superficie visual.
+- Siete fotos nuevas documentadas mediante Commons/MET: [Nude] (atribución a Durieu, ca. 1851), [Standing Female Nude] de Nadar (1860–61, modelo identificada adulta Marie-Christine Leroux), [Nude Men in the Garden] de Eakins, Bill Duckett fotografiado por Eakins (ca. 1889), y tres fotografías adicionales de la clase de pintura de Adolf de Meyer (1890s). El dibujo de Delacroix (1855) queda expresamente identificado como dibujo, no fotografía.
+- El panel incluye editor de IDs de hasta cuatro imágenes por página, y campos de análisis asociados. Los folios siguen respetando tapa en impar y aperturas en recto.
+- Objetivo a largo plazo: **80–100 fotografías diferentes**, con licencia, calidad y documentación individual. La actual relación entre páginas fotográficas y fotografías distintas muestra por qué hay que seguir ampliando el corpus.
+- Fuentes detalladas en `libro.json`; tareas y limitaciones de producción en `produccion.json`. Imágenes por URL externa, aún no copiadas como archivos maestros al servidor.
+- Versión esperada en la cabecera: `GABINETE · V0.6.0 · ROSA/BORDÓ`. Manifestación: `SIGLO23-GABINETE-20261106-V0.6.0`. No hay confirmación de despliegue automático de GitHub a Hostinger.
