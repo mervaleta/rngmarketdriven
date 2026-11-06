@@ -31,7 +31,7 @@ function split(id,state,geometry){
  try{
   for(const e of source.sections[id]){
    box.innerHTML=html(e,id,null,state.indexPortraits!==false);
-   const height=Math.max(7,box.firstElementChild.getBoundingClientRect().height/mm+1);
+   const height=Math.max(7,box.firstElementChild.getBoundingClientRect().height/mm+2.7);
    if(entries.length&&used+height>max){out.push(entries);entries=[];used=0}
    entries.push(e);used+=height;
   }
