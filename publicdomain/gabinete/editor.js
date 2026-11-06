@@ -1,7 +1,7 @@
 
 (function(){
 "use strict";
-var KEY="siglo23-gabinete-editor-v1";
+var KEY="siglo23-gabinete-editor-v2",LEGACY_KEY="siglo23-gabinete-editor-v1";
 var state={doc:null,view:"grid",active:0,loaded:false,opts:{w:166,h:236,fontSize:10.5,leading:1.48,inner:19,outer:18,top:21,bottom:20,thumb:165,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
@@ -18,9 +18,14 @@ function syncVars(){
  $("#printCss").textContent="@media print{@page{size:"+o.w+"mm "+o.h+"mm;margin:0}}";
 }
 function pageHtml(pg,idx){
- var im=imgById(pg.image),t=esc(pg.title),section=esc(pg.section),body=nl(pg.body),css="page-actual kind-"+esc(pg.kind)+" "+(idx%2?"recto":"verso");
+ var im=imgById(pg.image),t=esc(pg.title),section=esc(pg.section),body=nl(pg.body),css="page-actual kind-"+esc(pg.kind)+" "+(idx%2?"verso":"recto");
  var outer='<article class="'+css+'" data-page="'+idx+'">';
- if(pg.kind==="cover"){
+ if(pg.kind==="blank"){ /* Página física deliberadamente vacía: retiración, dedicatorias o ajuste a recto. */
+ }else if(pg.kind==="reserved"){
+  outer+='<div class="page-inner reserved-inner"><span class="kicker">'+section+'</span><h2>'+t+'</h2></div>';
+ }else if(pg.kind==="credits"){
+  outer+='<div class="page-inner credits-inner"><span class="kicker">'+section+'</span><h2>'+t+'</h2><div class="body-text">'+body+'</div></div>';
+ }else if(pg.kind==="cover"){
   outer+='<div class="cover-hero">'+imgTag(im,"",pg.title,"eager")+'</div><div class="cover-copy"><div class="imprint">SIGLO 23 · ARCHIVOS DE LA MIRADA</div><div><h2>'+t+'</h2><div class="cover-sub">'+esc(pg.body)+'</div></div><div class="era">'+esc(pg.sub||"1840–1900")+'</div></div>';
  }else if(pg.kind==="chapter"){
   outer+='<div class="chapter-photo">'+imgTag(im,"",pg.title)+'</div><div class="chapter-content"><span class="chapter-id">'+section+'</span><h2>'+t+'</h2><p>'+esc(pg.body)+'</p></div><div class="chapter-bottom">'+esc(pg.sub||"")+'</div>';
@@ -40,7 +45,7 @@ function pageHtml(pg,idx){
   if(pg.sub)outer+='<p class="deck">'+esc(pg.sub)+'</p>';
   outer+='<div class="body-text">'+body+'</div></div>';
  }
- if(idx>0&&pg.kind!=="image"&&pg.kind!=="chapter")outer+='<div class="folio">'+(idx+1)+'</div>';
+ if(idx>0&&!["image","chapter","blank","credits","reserved"].includes(pg.kind))outer+='<div class="folio">'+(idx+1)+'</div>';
  outer+='</article>';return outer;
 }
 function placePg(pg,idx,scale,extraClass){
@@ -56,13 +61,15 @@ function grid(){
  markup+='</div>';st.innerHTML=markup;
 }
 function spread(){
- var stage=$("#stage"),first=Math.floor(state.active/2)*2,second=first+1;
- var space=Math.max(450,stage.clientWidth-65),maxScale=Math.min(.78,(space-15)/(2*state.opts.w*pxpermm));
- var mk='<div class="stage-title"><span>Pliego · '+String(first+1).padStart(2,"0")+'–'+String(Math.min(state.doc.pages.length,second+1)).padStart(2,"0")+'</span><span>Vista de composición / imágenes originales enlazadas</span></div><div class="spreadstage"><div class="spread">';
- if(state.doc.pages[first])mk+=placePg(state.doc.pages[first],first,maxScale,"scaledPage "+(state.active===first?"active":"")).replace('data-index="'+first+'"','data-open="'+first+'"');
- if(state.doc.pages[second])mk+=placePg(state.doc.pages[second],second,maxScale,"scaledPage "+(state.active===second?"active":"")).replace('data-index="'+second+'"','data-open="'+second+'"');
- mk+='</div><div class="spreadHelp">Páginas reales del libro · clic en una página para editar su contenido · las imágenes están insertadas en el diseño y enlazadas a alta resolución.</div></div>';
- stage.innerHTML=mk;
+ var stage=$("#stage"),active=state.active,first=active===0?-1:1+2*Math.floor((active-1)/2),second=active===0?0:first+1;
+ var space=Math.max(380,stage.clientWidth-65),maxScale=Math.min(.78,(space-15)/(2*state.opts.w*pxpermm));
+ var mark='<div class="stage-title"><span>Pliego · '+(first<0?"—":" "+String(first+1).padStart(2,"0"))+' / '+String(second+1).padStart(2,"0")+'</span><span>Recto impar a la derecha · verso par a la izquierda</span></div><div class="spreadstage"><div class="spread">';
+ if(first<0){
+  mark+='<div class="scaledPage no-facing-page" style="width:'+(state.opts.w*pxpermm*maxScale)+'px;height:'+(state.opts.h*pxpermm*maxScale)+'px"><span>Tapa: sin página enfrentada</span></div>';
+ }else if(state.doc.pages[first])mark+=placePg(state.doc.pages[first],first,maxScale,"scaledPage "+(active===first?"active":"")).replace('data-index="'+first+'"','data-open="'+first+'"');
+ if(state.doc.pages[second])mark+=placePg(state.doc.pages[second],second,maxScale,"scaledPage "+(active===second?"active":"")).replace('data-index="'+second+'"','data-open="'+second+'"');
+ mark+='</div><div class="spreadHelp">Páginas enfrentadas según la encuadernación: tapa en página 1 (recto), retiración en 2 y dedicatorias en 3. Clic en cualquier página para editar.</div></div>';
+ stage.innerHTML=mark;
 }
 function assets(){
  var mark='<div class="stage-title"><span>Banco visual documentado</span><span>Obras reproducidas en la maqueta · archivos originales en alta resolución</span></div><div class="asset-grid">';
@@ -170,7 +177,15 @@ async function boot(){
  try{
   var r=await fetch("./libro.json",{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);
   var d=await r.json();state.doc=d;
-  try{var saved=JSON.parse(localStorage.getItem(KEY)||"null");if(saved&&saved.doc&&Array.isArray(saved.doc.pages)){state.doc=saved.doc;state.opts={...state.opts,...saved.opts};state.active=Math.min(saved.active||0,state.doc.pages.length-1);}}catch(e){}
+  try{
+   var saved=JSON.parse(localStorage.getItem(KEY)||"null");
+   if(saved&&saved.doc&&Array.isArray(saved.doc.pages)){
+     if(saved.doc.version===d.version){state.doc=saved.doc;state.opts={...state.opts,...saved.opts};state.active=Math.min(saved.active||0,state.doc.pages.length-1);}
+     else{localStorage.setItem(KEY+"-respaldo-anterior",JSON.stringify(saved));localStorage.removeItem(KEY);$("#saveStatus").textContent="Edición nueva: conservamos un respaldo de la versión anterior en el navegador";}
+   }else if(localStorage.getItem(LEGACY_KEY)){
+     $("#saveStatus").textContent="Edición nueva. Los cambios previos se conservaron en el navegador con la clave anterior.";
+   }
+  }catch(e){}
   state.loaded=true;applyControls();render();toast("Edición cargada. Las fotografías están integradas mediante enlaces a archivos abiertos.");
  }catch(err){$("#stage").innerHTML='<div class="emptyview"><h2>No se pudo cargar libro.json</h2><p>'+esc(err.message)+'</p><p>Publicá este archivo junto con index.html, editor.css y editor.js en el mismo directorio.</p></div>';$("#saveStatus").textContent="Error de carga";}
 }
