@@ -60,7 +60,8 @@ window.S23BookAssets={
         "Herbert Spencer, The Man versus the State. Londres: Williams & Norgate, 1884.",
         "Transcripción inglesa de referencia: David M. Hart, versión digital de los ensayos de 1884.",
         "Contemporary Review (1884), publicaciones originales de los ensayos: cotejo pendiente.",
-        "El individuo contra el Estado, traducción histórica conservada en Wikisource y Cervantes Virtual: consulta comparativa."
+        "El individuo contra el Estado, traducción histórica conservada en Wikisource y Cervantes Virtual: consulta comparativa.",
+        "Herbert Spencer: Stanford Encyclopedia of Philosophy; Internet Encyclopedia of Philosophy; The Nobel Prize, archivo de nominaciones (1902)."
       ]
     },
     {
