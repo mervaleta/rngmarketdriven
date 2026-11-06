@@ -1,17 +1,29 @@
 {
   "project": "El gabinete prohibido",
-  "version": "0.4.0",
-  "marker": "SIGLO23-GABINETE-20261106-V0.4.0",
+  "version": "0.5.0",
+  "marker": "SIGLO23-GABINETE-20261106-V0.5.0",
   "updated": "2026-11-06",
-  "expectedPages": 60,
-  "expectedImages": 12,
+  "expectedPages": 82,
+  "expectedImages": 18,
   "requiredFiles": [
     "index.html",
     "editor.css",
     "editor.js",
     "libro.json"
   ],
-  "status": "Fuente actualizada en GitHub; despliegue del dominio pendiente de verificación",
+  "status": "Repositorio actualizado; publicación en Hostinger no verificada",
   "theme": "rosa-bordo-negro-blanco",
-  "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5"
+  "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
+  "chapterFolios": [
+    11,
+    17,
+    25,
+    39,
+    47,
+    55,
+    67,
+    73
+  ],
+  "firstSpread": "Izquierda vacía y tapa derecha; siguiente pliego páginas 2 (izq) y 3 (der)",
+  "sourceAssets": "Archivos de Wikimedia Commons por URL, no alojados localmente"
 }
