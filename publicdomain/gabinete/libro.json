@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -396,6 +396,27 @@
       "sub": ""
     },
     {
+      "id": "lectura",
+      "kind": "essay",
+      "section": "Apéndice · Método",
+      "title": "Cómo leer estas fotografías",
+      "body": "Antes de atribuir a una imagen un carácter erótico o pornográfico conviene comenzar por su materialidad. ¿Es una placa única o una copia obtenida de un negativo? ¿Qué tamaño tiene? ¿Se conserva el marco? ¿Qué sabemos del estudio y la procedencia? La escala influye en el acto de mirar: una imagen que cabe en la mano se consume de otra manera que una pintura exhibida en un salón.\n\nEn segundo lugar, distinguir lo documentado de lo interpretado. El museo puede identificar una técnica, una fecha aproximada y un número de inventario; eso no permite reconstruir sin más el deseo del comprador ni la voluntad de la persona que posó. Las pistas están en el objeto, pero no todas las preguntas se responden mediante él.\n\nFinalmente, estudiar la relación entre imagen y circulación. El desnudo académico podía existir como herramienta de artista, mientras algunas fotografías semejantes se ofrecían en circuitos privados. Una pieza puede cambiar de significado cuando pasa de un taller a un álbum particular, de allí a una colección y finalmente a un museo. Este libro propone seguir esas transformaciones."
+    },
+    {
+      "id": "cronologia",
+      "kind": "essay",
+      "section": "Apéndice · Cronología",
+      "title": "Una cronología mínima de la mirada",
+      "body": "1839 — Presentación pública del procedimiento de daguerrotipo en Francia. Su promesa de fidelidad visual despierta entusiasmo científico, artístico y comercial.\n\nDécada de 1840 — La práctica del desnudo y los ensayos estereoscópicos muestran muy pronto que la nueva técnica puede servir tanto a la representación académica como a la observación íntima.\n\n1851 — Félix-Jacques Moulin es procesado por la producción y comercialización de imágenes consideradas obscenas. La acción de las autoridades confirma la dimensión jurídica del mercado de fotografías.\n\nDécada de 1850 — La difusión del colodión húmedo y de las copias sobre papel amplía las posibilidades de producción y circulación de las imágenes de estudio.\n\nSegunda mitad del siglo XIX — Aumentan los repertorios de retratos, estudios de modelo, vistas estereoscópicas y álbumes. Las fotografías pueden ser a la vez documentos de trabajo, objetos coleccionables o imágenes para consumo privado.\n\nEsta cronología se ofrece como hilo contextual, no como prueba de que cada pieza reunida haya sido ilegal."
+    },
+    {
+      "id": "pendientes",
+      "kind": "essay",
+      "section": "Apéndice · Producción",
+      "title": "Lo que falta para una edición responsable",
+      "body": "La investigación tiene tres tareas pendientes. Primero, descargar y archivar localmente las imágenes maestras para el control de resolución, color, encuadre y permanencia. Los enlaces externos de este prototipo permiten verlas, pero no sustituyen una carpeta de originales con respaldo, fecha de captura y huellas digitales de archivo.\n\nSegundo, completar la procedencia de cada pieza. Importan las atribuciones cambiantes, las colecciones anteriores, los contextos de circulación y los límites de lo que se sabe. El registro debe incluir URL estable, número de inventario, licencia visible a la fecha de consulta y crédito editorial.\n\nTercero, una revisión jurídica y ética previa a la venta: dominio público y eventuales aranceles en Argentina, uso de digitalizaciones, documentación de la edad adulta de las personas retratadas y reglas del canal de venta. Si no puede acreditarse de modo suficiente la adultez de una persona en una imagen sexual explícita, esa imagen debe excluirse.\n\nUna edición de lujo gana valor cuando puede explicar por qué incluyó cada obra, no solamente cuando reproduce muchas."
+    },
+    {
       "id": "fuentes",
       "kind": "sources",
       "section": "Apéndice",
@@ -406,5 +427,6 @@
       "sub": ""
     }
   ],
-  "notes": "Imágenes enlazadas desde Wikimedia Commons en resolución original (no binarias alojados en el repositorio). El PDF final requiere incorporar copias locales verificados y auditoría de derechos."
+  "notes": "Maqueta de 28 páginas. Nueve imágenes fotográficas reales se muestran embebidas desde Wikimedia Commons; originales externos, no almacenados como binarios en el repositorio. Antes del PDF definitivo hay que descargar y cotejar másteres, documentación y derechos.",
+  "updated": "2026-11-06"
 }
