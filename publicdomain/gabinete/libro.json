@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -40,38 +40,6 @@
       "commons": "https://commons.wikimedia.org/wiki/File:Stereographic_View_of_Two_Nude_Women_-_MET_DP-15364-001.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/282209",
       "context": "Las dos tomas están hechas desde posiciones ligeramente distintas para producir ilusión de profundidad al mirarlas con un estereoscopio. El dispositivo obligaba a un acto individual de observación: un espectáculo privado y portátil."
-    },
-    {
-      "id": "moulin2",
-      "title": "[Two Standing Female Nudes]",
-      "artist": "Félix-Jacques-Antoine Moulin",
-      "year": "ca. 1850",
-      "process": "Daguerrotipo",
-      "museum": "The Metropolitan Museum of Art",
-      "accession": "1997.382.46",
-      "license": "CC0 (Met / Commons)",
-      "w": 3055,
-      "h": 3715,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/-Two_Standing_Female_Nudes-_MET_DT1154.jpg",
-      "commons": "https://commons.wikimedia.org/wiki/File:-Two_Standing_Female_Nudes-_MET_DT1154.jpg",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/282051",
-      "context": "El trabajo de Moulin permite observar el punto de fricción entre el ideal del estudio académico y una presentación pensada para compradores de imágenes eróticas. La fotografía no necesitaba el público de un salón: podía circular como objeto pequeño."
-    },
-    {
-      "id": "moulin",
-      "title": "Nude",
-      "artist": "Félix-Jacques-Antoine Moulin",
-      "year": "ca. 1853",
-      "process": "Papel salado a partir de negativo de papel",
-      "museum": "The Metropolitan Museum of Art",
-      "accession": "2005.100.1105",
-      "license": "Dominio público / Met",
-      "w": 3658,
-      "h": 2518,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nude_by_F%C3%A9lix-Jacques_Moulin_(Metropolitan_Museum_of_Art_2005.100.1105)_01.jpg",
-      "commons": "https://commons.wikimedia.org/wiki/File:Nude_by_F%C3%A9lix-Jacques_Moulin_(Metropolitan_Museum_of_Art_2005.100.1105)_01.jpg",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/286524",
-      "context": "La copia al papel salado permite pasar de un negativo a varias estampas. Esa reproducibilidad transforma el estudio del cuerpo en algo coleccionable y distribuible, aunque la circulación siguiera sujeta a controles y prohibiciones."
     },
     {
       "id": "vallou",
@@ -271,18 +239,18 @@
       "section": "III · La economía del taller",
       "title": "Un negocio con dos discursos",
       "body": "Entre arte, mercado y prohibición",
-      "image": "moulin2",
+      "image": "vallou2",
       "caption": "",
       "sub": "El estudio fotográfico como fábrica de imágenes"
     },
     {
       "id": "lam3",
-      "kind": "image",
+      "kind": "essay",
       "section": "III · La economía del taller",
-      "title": "La pose y el comercio",
-      "body": "El repertorio de Moulin hace visible la composición meticulosa de las imágenes de estudio y la proximidad entre la pose académica y los fines eróticos.",
-      "image": "moulin2",
-      "caption": "Daguerrotipo, ca. 1850 · Met 1997.382.46",
+      "title": "La causa Moulin: documento y advertencia",
+      "body": "Los archivos judiciales y la historiografía registran que Félix-Jacques Moulin fue procesado en París en 1851 por producir y vender imágenes que la autoridad consideró obscenas. Su historia es decisiva para comprender el nacimiento de un mercado clandestino, pero también obliga a ser rigurosos con la selección visual.\n\nInvestigaciones sobre su trayectoria indican que algunas de sus modelos eran adolescentes. No basta la antigüedad de la fotografía ni la etiqueta museística genérica de «desnudo» para despejar esa cuestión. Por esa razón, este prototipo conserva la discusión histórica sobre Moulin, pero no reproduce aquí las dos fotografías inicialmente consideradas hasta contar con documentación suficiente de que todas las personas retratadas eran adultas.\n\nLa distinción entre analizar una fuente y reproducirla comercialmente es central para un libro responsable.",
+      "image": null,
+      "caption": "",
       "sub": ""
     },
     {
@@ -297,12 +265,12 @@
     },
     {
       "id": "lam4",
-      "kind": "image",
+      "kind": "essay",
       "section": "III · La economía del taller",
-      "title": "Un cuerpo impreso en sal",
-      "body": "La copia al papel salado ensancha las posibilidades de reproducción, aunque la delicadeza tonal conserve la apariencia de un objeto íntimo.",
-      "image": "moulin",
-      "caption": "Papel salado, ca. 1853 · Met 2005.100.1105",
+      "title": "De la placa única a la serie",
+      "body": "El daguerrotipo genera un positivo directo sobre una placa metálica: una imagen singular, que no se multiplica de la misma manera que una estampa fotográfica obtenida de un negativo. Con los procedimientos de papel salado y el colodión húmedo, la producción de múltiples copias se volvió más practicable.\n\nEsa evolución transformó el negocio visual. Una sola fotografía podía circular como pieza costosa para un comprador concreto, mientras que las reproducciones sobre papel podían ingresar a álbumes, intercambiarse o llegar a públicos más amplios.\n\nLa técnica no determina de forma automática el contenido ni su legitimidad. Pero altera costos, velocidades, escala y, con ellos, las estrategias tanto de los vendedores como de los censores. La historia de lo «prohibido» es inseparable de la historia de la reproducción.",
+      "image": null,
+      "caption": "",
       "sub": ""
     },
     {
@@ -427,6 +395,6 @@
       "sub": ""
     }
   ],
-  "notes": "Maqueta de 28 páginas. Nueve imágenes fotográficas reales se muestran embebidas desde Wikimedia Commons; originales externos, no almacenados como binarios en el repositorio. Antes del PDF definitivo hay que descargar y cotejar másteres, documentación y derechos.",
+  "notes": "Maqueta de 28 páginas. Nueve imágenes fotográficas reales se muestran embebidas desde Wikimedia Commons; originales externos, no almacenados como binarios en el repositorio. Antes del PDF definitivo hay que descargar y cotejar másteres, documentación y derechos. Se excluyeron dos reproducciones asociadas a Moulin por falta de documentación concluyente sobre edad adulta de modelos; se conserva el análisis documental.",
   "updated": "2026-11-06"
 }
