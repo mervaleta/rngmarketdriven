@@ -13,7 +13,7 @@ const seed={
  sample:'La edición crítica reconstruye el debate intelectual de la Inglaterra victoriana y sitúa los argumentos de Herbert Spencer en su contexto histórico. Las transformaciones del Estado, la sociedad industrial y la libertad individual constituyen el eje de la lectura propuesta.\n\nEste texto es una muestra editorial de composición, no una transcripción de la obra de 1884. Su función consiste en comparar cuerpos tipográficos, interlineados, márgenes y densidades de página.\n\nCada decisión de diseño deberá contrastarse con el texto definitivo, las imágenes autorizadas y las especificaciones técnicas de la imprenta. La paginación final solo podrá cerrarse una vez concluida la corrección de estilo y la composición.',
  sections:[
  ['half','Portadilla',1,true],['title','Portada interior',1,true],['legal','Créditos y derechos',1,false],
- ['toc','Índice general',4,true],['prologue','Prólogo editorial · pendiente','auto',true],['context','Contexto complementario · pendiente','auto',true],['biography','Biografía de Spencer · pendiente','auto',true],['study','Comprender a Herbert Spencer · estudio introductorio','auto',true],
+ ['toc','Índice general',4,true],['prologue','Prólogo editorial · pendiente','auto',true],['context','Contexto complementario · pendiente','auto',true],['biography','Herbert Spencer: el hombre que quiso ponerle límites al poder','auto',true],['study','Comprender a Herbert Spencer · estudio introductorio','auto',true],
  ['original-preface','Preface · 1884','auto',true],
  ['original-new-toryism','THE NEW TORYISM','auto',true],
  ['original-coming-slavery','THE COMING SLAVERY','auto',true],
@@ -67,12 +67,13 @@ function hydrate(raw){
  }
  s.sections=s.sections.filter(x=>x.id!=='text'&&x.id!=='index-toponymic'&&!['notes','chronology','glossary'].includes(x.id));
   // M07 · insertar secciones nuevas sin borrar datos guardados.
-  for(const [id,name] of [['biography','Biografía de Spencer · pendiente'],['study','Comprender a Herbert Spencer · estudio introductorio']]){
+  for(const [id,name] of [['biography','Herbert Spencer: el hombre que quiso ponerle límites al poder'],['study','Comprender a Herbert Spencer · estudio introductorio']]){
     if(!s.sections.some(x=>x.id===id)){
       const at=s.sections.findIndex(x=>x.id==='original-preface');
       s.sections.splice(at<0?s.sections.length:at,0,{id,name,pages:'auto',recto:true,enabled:true});
     }
   }
+  const bio=s.sections.find(x=>x.id==='biography');if(bio&&/^(Biografía de Spencer|Herbert Spencer: el hombre que quiso ponerle límites al poder)$/.test(bio.name))bio.name='Herbert Spencer: el hombre que quiso ponerle límites al poder';
   const ep=s.sections.find(x=>x.id==='afterword');if(ep){ep.name='El individuo contra el Estado, otra vez · epílogo 2026';ep.pages='auto';}
 
  s.notesOpening=false;
@@ -273,7 +274,7 @@ function render(){
  host.style.height=Math.ceil(p.h*96/25.4*state.zoom)+'px';
  host.innerHTML='<div id="liveSpread" class="spread '+(isCover?'cover-spread':'interior-spread')+'" style="'+esc(vars(p))+';transform:scale('+state.zoom+')">'+sceneContent(p)+'</div>';
  $('#planMap').innerHTML=p.items.map(x=>'<li><span>'+esc(x.name)+'</span><span>'+x.start+(x.end!==x.start?'–'+x.end:'')+'</span></li>').join('');
- $('#productionCaveat').textContent='Original: '+f(p.mainWords)+' palabras; estudio: '+f(p.editorialWords.study||0)+' palabras; epílogo: '+f(p.editorialWords.afterword||0)+' palabras; '+f(p.wordsPage)+' palabras/página aprox.; '+f(p.openingCount)+' pliegos de apertura ('+f(p.openingPages)+' páginas), '+f(p.figureCount)+' ilustraciones ('+f(p.figurePages)+' páginas), '+f(p.rectoBlanks)+' blancos de enlace/recto y '+f(p.pad)+' blancos de cierre. La paginación es una estimación, no arte final.';
+ $('#productionCaveat').textContent='Original: '+f(p.mainWords)+' palabras; biografía: '+f(p.editorialWords.biography||0)+' palabras; estudio: '+f(p.editorialWords.study||0)+' palabras; epílogo: '+f(p.editorialWords.afterword||0)+' palabras; '+f(p.wordsPage)+' palabras/página aprox.; '+f(p.openingCount)+' pliegos de apertura ('+f(p.openingPages)+' páginas), '+f(p.figureCount)+' ilustraciones ('+f(p.figurePages)+' páginas), '+f(p.rectoBlanks)+' blancos de enlace/recto y '+f(p.pad)+' blancos de cierre. La paginación es una estimación, no arte final.';
   $$('.view-switch [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===scene)));
  $('#prevView').disabled=scene===scenes[0][0];$('#nextView').disabled=scene===scenes[scenes.length-1][0];
  renderRows();
