@@ -14,3 +14,11 @@ Se integra a la base central `/publicdomain/catalogo-global.json` (340 registros
 - Para permitir futura ingesta documental, crear una tabla por edición con URL del ejemplar, editor, edición, autor, idioma, libro original y estado jurídico por país.
 
 Fuentes: https://standardebooks.org/bulk-downloads · https://standardebooks.org/ebooks · https://standardebooks.org/feeds · https://standardebooks.org/about
+
+## Lote de cruces verificados 2026-11-06
+- 36 cruces contra IDs del catálogo: 34 ediciones individuales con botón de descarga, una obra presente en antología y una ficha todavía no producida.
+- Comprobación individual de repositorios GitHub de las 35 publicaciones disponibles (34 volúmenes y una antología).
+- `datos/cruces.json` y `datos/cruces.csv` contienen ficha, repositorio, año de verificación y advertencia de derechos.
+- `catalogo-global.json` incorpora `standard_ebooks` y nuevas consultas en `original_sources` solo para ediciones descargables; nunca se borran fuentes anteriores.
+- Las búsquedas NO cubren exhaustivamente las 340 obras; ausencia de match significa «sin verificar», no ausencia de la biblioteca.
+- Los enlaces llevan a la ficha con los botones de descarga individual y no a archivos EPUB cuyo endpoint no se haya comprobado.

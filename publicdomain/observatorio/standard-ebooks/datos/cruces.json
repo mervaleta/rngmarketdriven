@@ -1,0 +1,621 @@
+{
+  "fuente": "Standard Ebooks",
+  "consultado": "2026-11-06",
+  "alcance": "Selección de obras de prioridad alta y muy alta; no exhaustivo",
+  "resumen": {
+    "total": 36,
+    "descargables": 34,
+    "en_antologia": 1,
+    "pendientes": 1,
+    "aprobados_comercialmente_en_argentina": 0
+  },
+  "derechos": "Dominio público estadounidense no implica autorización comercial argentina. Verificar originales, traducciones y FNA.",
+  "cruces": [
+    {
+      "id": "S23-0126",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice",
+      "url_github": "https://github.com/standardebooks/jane-austen_pride-and-prejudice",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0127",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/mary-shelley/frankenstein",
+      "url_github": "https://github.com/standardebooks/mary-shelley_frankenstein",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición basada en revisión de 1831, no el texto de 1818"
+    },
+    {
+      "id": "S23-0128",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/herman-melville/moby-dick",
+      "url_github": "https://github.com/standardebooks/herman-melville_moby-dick",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición estadounidense de Nueva York; comprobar diferencias con la británica"
+    },
+    {
+      "id": "S23-0129",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel",
+      "url_github": "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición ilustrada por John Tenniel; cotejar ilustraciones y derechos locales"
+    },
+    {
+      "id": "S23-0130",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/arthur-conan-doyle/the-adventures-of-sherlock-holmes",
+      "url_github": "https://github.com/standardebooks/arthur-conan-doyle_the-adventures-of-sherlock-holmes",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0131",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/bram-stoker/dracula",
+      "url_github": "https://github.com/standardebooks/bram-stoker_dracula",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0132",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/charles-dickens/a-tale-of-two-cities",
+      "url_github": "https://github.com/standardebooks/charles-dickens_a-tale-of-two-cities",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0215",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/kahlil-gibran/the-prophet",
+      "url_github": "https://github.com/standardebooks/kahlil-gibran_the-prophet",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0287",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/john-stuart-mill/on-liberty",
+      "url_github": "https://github.com/standardebooks/john-stuart-mill_on-liberty",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0288",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/john-stuart-mill/the-subjection-of-women",
+      "url_github": "https://github.com/standardebooks/john-stuart-mill_the-subjection-of-women",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0289",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/charles-darwin/the-origin-of-species",
+      "url_github": "https://github.com/standardebooks/charles-darwin_the-origin-of-species",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Basada en sexta edición (1872), no primera edición de 1859"
+    },
+    {
+      "id": "S23-0291",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/adam-smith/the-wealth-of-nations",
+      "url_github": "https://github.com/standardebooks/adam-smith_the-wealth-of-nations",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0292",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/adam-smith/the-theory-of-moral-sentiments",
+      "url_github": "https://github.com/standardebooks/adam-smith_the-theory-of-moral-sentiments",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0298",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/mary-wollstonecraft/a-vindication-of-the-rights-of-woman",
+      "url_github": "https://github.com/standardebooks/mary-wollstonecraft_a-vindication-of-the-rights-of-woman",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0299",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/peter-kropotkin/mutual-aid",
+      "url_github": "https://github.com/standardebooks/peter-kropotkin_mutual-aid",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0300",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/okakura-kakuzo/the-book-of-tea",
+      "url_github": "https://github.com/standardebooks/okakura-kakuzo_the-book-of-tea",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0301",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables",
+      "url_github": "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0303",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden",
+      "url_github": "https://github.com/standardebooks/frances-hodgson-burnett_the-secret-garden",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0304",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/kenneth-grahame/the-wind-in-the-willows",
+      "url_github": "https://github.com/standardebooks/kenneth-grahame_the-wind-in-the-willows",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0305",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/l-frank-baum/the-wonderful-wizard-of-oz",
+      "url_github": "https://github.com/standardebooks/l-frank-baum_the-wonderful-wizard-of-oz",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0306",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/frances-hodgson-burnett/a-little-princess",
+      "url_github": "https://github.com/standardebooks/frances-hodgson-burnett_a-little-princess",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0307",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/anna-sewell/black-beauty",
+      "url_github": "https://github.com/standardebooks/anna-sewell_black-beauty",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0325",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/thomas-paine/the-rights-of-man",
+      "url_github": "https://github.com/standardebooks/thomas-paine_the-rights-of-man",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0327",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/charlotte-perkins-gilman/herland",
+      "url_github": "https://github.com/standardebooks/charlotte-perkins-gilman_herland",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0328",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/kate-chopin/the-awakening",
+      "url_github": "https://github.com/standardebooks/kate-chopin_the-awakening",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0329",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/booker-t-washington/up-from-slavery",
+      "url_github": "https://github.com/standardebooks/booker-t-washington_up-from-slavery",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0330",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/frederick-douglass/narrative-of-the-life-of-frederick-douglass",
+      "url_github": "https://github.com/standardebooks/frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0331",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/h-g-wells/the-time-machine",
+      "url_github": "https://github.com/standardebooks/h-g-wells_the-time-machine",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0332",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds",
+      "url_github": "https://github.com/standardebooks/h-g-wells_the-war-of-the-worlds",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0333",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/jack-london/the-iron-heel",
+      "url_github": "https://github.com/standardebooks/jack-london_the-iron-heel",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0335",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/henry-david-thoreau/walden",
+      "url_github": "https://github.com/standardebooks/henry-david-thoreau_walden",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0336",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/louisa-may-alcott/little-women",
+      "url_github": "https://github.com/standardebooks/louisa-may-alcott_little-women",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0337",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/h-g-wells/the-invisible-man",
+      "url_github": "https://github.com/standardebooks/h-g-wells_the-invisible-man",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0338",
+      "estado": "descargable",
+      "url_ficha": "https://standardebooks.org/ebooks/h-g-wells/the-island-of-doctor-moreau",
+      "url_github": "https://github.com/standardebooks/h-g-wells_the-island-of-doctor-moreau",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB",
+        "EPUB avanzado"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Edición individual de Standard Ebooks; verificar diferencias de versión y traducciones antes de reutilizar."
+    },
+    {
+      "id": "S23-0312",
+      "estado": "en_antologia",
+      "url_ficha": "https://standardebooks.org/ebooks/henry-david-thoreau/essays",
+      "url_github": "https://github.com/standardebooks/henry-david-thoreau_essays",
+      "formato_disponible": [
+        "EPUB",
+        "AZW3",
+        "KEPUB"
+      ],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "El ensayo Resistance to Civil Government / On the Duty of Civil Disobedience está incluido dentro de Essays"
+    },
+    {
+      "id": "S23-0339",
+      "estado": "pendiente_produccion",
+      "url_ficha": "https://standardebooks.org/ebooks/john-stuart-mill/utilitarianism",
+      "url_github": null,
+      "formato_disponible": [],
+      "tipo_enlace": "ficha de edición con acceso a descarga individual, no URL de archivo binario",
+      "comprobacion": "2026-11-06",
+      "territorio_declarado": "Estados Unidos",
+      "autorizado_argentina": false,
+      "nota": "Ficha de proyecto pendiente: Standard Ebooks declara que aún no produjo el ebook"
+    }
+  ]
+}
