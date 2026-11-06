@@ -7,9 +7,9 @@
   "source_book": "https://davidmhart.com/liberty/Books/1884-ManVersusState/Spencer_ManVersusState1884-ebook.html",
   "notes": "Entradas preliminares para revisión filológica. Los números de página dependen de tipografía, formato y edición; se calculan dinámicamente desde índice de palabras. Se distingue autor citado en notas, seudónimo y personaje histórico. Biografías resumidas para trabajo editorial, sujetas a comprobación.",
   "citation_method": "occurrences[].wordIndex es índice 0-based de palabra de la transcripción; la página se deriva del rango de palabras que ocupa cada hoja de la maqueta. Referencias a notas originales llevan inNote=true.",
-  "count_entries": 86,
-  "count_indexable": 84,
-  "count_occurrences": 146,
+  "count_entries": 85,
+  "count_indexable": 85,
+  "count_occurrences": 147,
   "entries": [
     {
       "id": "p-001",
@@ -1564,14 +1564,20 @@
       "dates": "Identidad no identificable",
       "group": "Casos históricos y testigos",
       "aliases": [
-        "known as \"Margaret\""
+        "Margaret"
       ],
       "bio": "Nombre usado en un relato genealógico sobre la familia Jukes; no hay identificación personal comprobada y la fuente debe leerse críticamente.",
       "confidence": "pendiente",
-      "occurrences": [],
-      "mentions": 0,
-      "status": "No localizada en transcripción; no indexar hasta revisar",
-      "include": false
+      "occurrences": [
+        {
+          "section": "original-sins-legislators",
+          "wordIndex": 13951,
+          "spelling": "Margaret",
+          "inNote": false
+        }
+      ],
+      "mentions": 1,
+      "include": true
     },
     {
       "id": "p-059",
@@ -2200,21 +2206,11 @@
       ],
       "mentions": 1,
       "include": true
-    },
-    {
-      "id": "p-086",
-      "name": "Henry P. Brougham",
-      "dates": "1778–1868",
-      "group": "Políticos británicos",
-      "aliases": [
-        "Lord Brougham"
-      ],
-      "bio": "Reformista jurídico y estadista británico. Referencia solo si se verifica una aparición explícita en la transcripción.",
-      "confidence": "pendiente",
-      "occurrences": [],
-      "mentions": 0,
-      "status": "No localizada en transcripción; no indexar hasta revisar",
-      "include": false
     }
+  ],
+  "review_priority": [
+    "Comprobar identidades provisionales, entre ellas lord Grey, C. Gatliff, Jeston, C. Forrest, Mitchell y Hartshorne",
+    "Cotejar la transcripción y las llamadas de nota con facsímiles de 1884 y 1885",
+    "Revisar el criterio de inclusión: personas identificables, seudónimos y figuras anónimas históricas"
   ]
 }
