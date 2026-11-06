@@ -267,4 +267,16 @@ window.addEventListener('keydown',e=>{
 });
 sectionDropdown();
 setMode('overview');
+const pageParam=Number(new URLSearchParams(location.search).get('page'));
+if(Number.isFinite(pageParam)&&pageParam>=1){
+ const openLink=()=>{
+  const p=api.getPlan();
+  if(p&&p.mainWords>0&&p.total>=pageParam){
+   setMode('sheet',Math.trunc(pageParam));
+   window.removeEventListener('siglo23:layout-change',openLink);
+  }
+ };
+ window.addEventListener('siglo23:layout-change',openLink);
+ openLink();
+}
 })();
