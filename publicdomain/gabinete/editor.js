@@ -59,15 +59,15 @@ function spread(){
  var stage=$("#stage"),first=Math.floor(state.active/2)*2,second=first+1;
  var space=Math.max(450,stage.clientWidth-65),maxScale=Math.min(.78,(space-15)/(2*state.opts.w*pxpermm));
  var mk='<div class="stage-title"><span>Pliego · '+String(first+1).padStart(2,"0")+'–'+String(Math.min(state.doc.pages.length,second+1)).padStart(2,"0")+'</span><span>Vista de composición / imágenes originales enlazadas</span></div><div class="spreadstage"><div class="spread">';
- if(state.doc.pages[first])mk+='<div class="scaledPage '+(state.active===first?"active":"")+'" data-open="'+first+'">'+placePg(state.doc.pages[first],first,maxScale)+'</div>';
- if(state.doc.pages[second])mk+='<div class="scaledPage '+(state.active===second?"active":"")+'" data-open="'+second+'">'+placePg(state.doc.pages[second],second,maxScale)+'</div>';
+ if(state.doc.pages[first])mk+=placePg(state.doc.pages[first],first,maxScale,"scaledPage "+(state.active===first?"active":"")).replace('data-index="'+first+'"','data-open="'+first+'"');
+ if(state.doc.pages[second])mk+=placePg(state.doc.pages[second],second,maxScale,"scaledPage "+(state.active===second?"active":"")).replace('data-index="'+second+'"','data-open="'+second+'"');
  mk+='</div><div class="spreadHelp">Páginas reales del libro · clic en una página para editar su contenido · las imágenes están insertadas en el diseño y enlazadas a alta resolución.</div></div>';
  stage.innerHTML=mk;
 }
 function assets(){
  var mark='<div class="stage-title"><span>Banco visual documentado</span><span>Obras reproducidas en la maqueta · archivos originales en alta resolución</span></div><div class="asset-grid">';
  state.doc.images.forEach(function(im,i){
-  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'</div><div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><p>'+esc(im.context)+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha del museo ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Imagen a tamaño original ↗</a></div></div></article>';
+  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'<div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><p>'+esc(im.context)+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha del museo ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Imagen a tamaño original ↗</a></div></div></article>';
  });
  $("#stage").innerHTML=mark+'</div>';
 }
