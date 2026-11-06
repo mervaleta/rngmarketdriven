@@ -1,18 +1,20 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "updated": "2026-11-06",
   "not_part_of_book": true,
   "current": {
-    "pages": 60,
-    "embedded_remote_photographs": 12,
+    "pages": 82,
+    "embedded_remote_photographs": 18,
     "chapter_openings": [
       11,
       17,
       25,
       39,
       47,
-      53
+      55,
+      67,
+      73
     ],
     "frontmatter": {
       "cover": 1,
@@ -23,8 +25,9 @@
       "credits": 6,
       "prologue_slot": 7
     },
-    "epilogue_slot": 57,
-    "images_local": false
+    "epilogue_slot": 77,
+    "images_local": false,
+    "notable_changes": "Tapa impar sola a la derecha en la grilla y el pliego. Alineación de capítulos automática al insertar/borrar/reordenar. Seis nuevos documentos visuales 1870–1890."
   },
   "target": {
     "period": "1840–1900",
@@ -83,6 +86,48 @@
       "source": "Rijksmuseum",
       "url": "https://www.rijksmuseum.nl/en/collection",
       "status": "Filtrar objetos fotográficos históricos, derechos y documentación"
+    },
+    {
+      "name": "[Female Nude with Mask], ca. 1870",
+      "circa": "1870",
+      "source": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/285695",
+      "status": "Incluida provisionalmente; identidad y edad requieren cotejo para publicar"
+    },
+    {
+      "name": "[Nude Woman with Hat in Studio], 1870s–90s",
+      "circa": "1870–1899",
+      "source": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/265906",
+      "status": "Incluida provisionalmente; intervalo temporal amplio, sin año exacto"
+    },
+    {
+      "name": "[Standing Male Nude with Pipes], Eakins",
+      "circa": "1880s",
+      "source": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/271888",
+      "status": "Incluida; obra documentada, verificar condiciones de reproducción comercial"
+    },
+    {
+      "name": "[Female Nude from the Back], Eakins",
+      "circa": "1889",
+      "source": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/271892",
+      "status": "Incluida; estudio de clase documentado"
+    },
+    {
+      "name": "[Nude Models Posing for a Painting Class], Adolph de Meyer",
+      "circa": "1890s",
+      "source": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/262817",
+      "status": "Incluida provisionalmente; verificar identidad de modelos antes de publicar"
+    },
+    {
+      "name": "Animal Locomotion, plate 184, Eadweard Muybridge",
+      "circa": "1887",
+      "source": "University of Southern California Libraries",
+      "url": "https://commons.wikimedia.org/wiki/File:Nude_woman_walking_(rbm-QP301M8-1887-184).jpg",
+      "status": "Incluida como investigación del movimiento; fuente USC y declaración dominio público"
     }
   ],
   "excluded": [
@@ -91,5 +136,6 @@
       "reason": "Varias series registran modelos adolescentes; edad adulta no comprobada para las piezas inicialmente sugeridas.",
       "use": "Investigación textual, sin reproducciones sensibles."
     }
-  ]
+  ],
+  "notes_on_visuals": "Las 18 imágenes tienen fichas y URLs remotas. No se descargaron ni alojaron másteres; para comercializar se requiere revisión documental individual, incluidos derechos territoriales, atribución y edad adulta de los retratados cuando corresponda."
 }
