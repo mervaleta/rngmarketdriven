@@ -62,3 +62,26 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - El cambio afecta solo la interfaz de pantalla. Las páginas del libro mantienen sus colores de maquetación y la salida de impresión conserva los estilos específicos de arte final.
 - Nueva cadena visible `GABINETE · V0.3.0 · ROSA/BORDÓ` y URL de CSS con versión para evitar caché antigua.
 - Cambio confirmado en GitHub. Despliegue al dominio sujeto a sincronización con Hostinger.
+
+
+## Curación cronológica y estructura física — v0.4.0 (6 de noviembre de 2026)
+
+- El archivo `libro.json` tiene **60 páginas** de composición y **12 fotografías históricas distintas** en el banco visual, cinco más que en la versión inicial. Las incorporaciones se cotejaron en fichas del Metropolitan Museum y reproducciones CC0 de Wikimedia Commons; todas las imágenes siguen siendo enlaces remotos y **no se han subido másteres a este repositorio**.
+- Orden físico: **1 tapa (recto impar), 2 retiración de tapa, 3 dedicatorias en blanco, 4 verso en blanco, 5 portadilla**. El prólogo dispone de una página reservada en **7**; el epílogo, en **57**. Ambas carecen de texto definitivo.
+- Aperturas de los seis capítulos en folios **11, 17, 25, 39, 47 y 53**, todos impares. Las páginas de ajuste se generan como páginas verdaderamente vacías.
+- El visor de pliegos coloca la **tapa a la derecha sin enfrentada**. A partir del folio 2, el verso par queda a la izquierda y el recto impar a la derecha.
+- La narración se organiza cronológicamente en las etapas 1839–1849, 1850–1852, 1851–1855 y 1856–1859, más informes sobre circulación, censura y conservación. La **curación fotográfica todavía está concentrada en 1840–1859**; el horizonte hasta 1900 no está cubierto con imágenes suficientes.
+- Los textos dirigidos al equipo de producción se retiraron del manuscrito; las tareas, exclusiones, metas y el banco de fuentes pendientes están en `produccion.json`, **fuera de las páginas del libro**.
+- `editor.css` y `editor.js` incluyen los nuevos tipos de página (`blank`, `reserved`, `credits`) y `index.html` muestra el marcador **GABINETE · V0.4.0 · ROSA/BORDÓ**.
+- El editor guarda su nueva versión en una clave local distinta de la anterior; las ediciones locales previas quedan conservadas en el navegador y no se vuelcan automáticamente sobre este manuscrito estructuralmente diferente. Exportar JSON antes de cambiar entre versiones.
+- Para ver la v0.4.0, publicar juntos `index.html`, `editor.js`, `editor.css`, `libro.json` y `produccion.json`. La escritura en GitHub no acredita el despliegue en Hostinger.
+
+### Fuentes añadidas y verificadas
+
+- [Vallou, *Reclining Nude*, 1851–1853](https://www.metmuseum.org/art/collection/search/283114) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Reclining_Nude-_MET_DP147946.jpg).
+- [Vallou, *Standing Female Nude*, ca. 1853](https://www.metmuseum.org/art/collection/search/266981) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Standing_Female_Nude-_MET_DT6994.jpg).
+- [Durieu, *Nude Study*, 1853–1854](https://www.metmuseum.org/art/collection/search/286255) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Nude_Study-_MET_DP139566.jpg).
+- [Chauvassaignes, *Female Nude in Studio*, 1856–1859](https://www.metmuseum.org/art/collection/search/282602) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Female_Nude_in_Studio-_MET_DT1168.jpg).
+- [Atribuido a Braquehais, *Nude Before a Mirror*, ca. 1857](https://www.metmuseum.org/art/collection/search/286294) — [Archivo Commons](https://commons.wikimedia.org/wiki/File:-Nude_Before_a_Mirror-_MET_DP343654.jpg).
+
+**Control pendiente:** documentar la edad adulta de todas las personas representadas en imágenes sensibles, cotejar las demás fichas, almacenar archivos maestras y revisar requisitos legales por país antes de autorizar la edición.
