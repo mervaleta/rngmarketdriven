@@ -2720,7 +2720,28 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=La%20scienza%20in%20cucina%20e%20l%E2%80%99arte%20di%20mangiar%20bene%20Pellegrino%20Artusi",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "descarga externa identificada",
+      "original_sources": [
+        {
+          "kind": "descarga",
+          "format": "TXT",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59047.txt.utf-8"
+        },
+        {
+          "kind": "descarga",
+          "format": "EPUB3",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59047.epub3.images"
+        },
+        {
+          "kind": "consulta",
+          "format": "Ficha",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/59047"
+        }
+      ],
+      "original_source_note": "Texto italiano con 790 recetas, versión histórica digitalizada"
     },
     {
       "id": "S23-0050",
@@ -2821,28 +2842,25 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Cuore%20Edmondo%20De%20Amicis",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "descarga externa identificada",
+      "original_source_status": "original italiano para consulta",
       "original_sources": [
         {
-          "kind": "descarga",
-          "format": "Traducción histórica española · TXT",
-          "provider": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/73486.txt.utf-8"
-        },
-        {
-          "kind": "descarga",
-          "format": "Traducción histórica española · EPUB3",
-          "provider": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/73486.epub3.images"
-        },
-        {
           "kind": "consulta",
-          "format": "Traducción histórica española · Ficha",
-          "provider": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/ebooks/73486"
+          "format": "Original italiano 1889",
+          "provider": "Wikisource italiano",
+          "url": "https://it.wikisource.org/wiki/Cuore_(1889)",
+          "note": "Transcripción de edición de 1889"
         }
       ],
-      "original_source_note": "Copia histórica en castellano, no es la versión original italiana; versión italiana pendiente"
+      "original_source_note": "El texto en español se conserva separado; no es el original italiano.",
+      "alternative_language_sources": [
+        {
+          "format": "Traducción española (no original)",
+          "provider": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/73486",
+          "kind": "consulta"
+        }
+      ]
     },
     {
       "id": "S23-0052",
@@ -2883,7 +2901,16 @@
       "synopsis": "",
       "catalog_lookup_url": "https://openlibrary.org/search?q=Il%20fu%20Mattia%20Pascal%20Luigi%20Pirandello",
       "metadata_stage": "Del catálogo base; ver fuente de indicador",
-      "original_source_status": "pendiente de identificar descarga"
+      "original_source_status": "original para consulta",
+      "original_sources": [
+        {
+          "kind": "consulta",
+          "format": "Italiano (1919)",
+          "provider": "Wikisource italiano",
+          "url": "https://it.wikisource.org/wiki/Il_fu_Mattia_Pascal",
+          "note": "Transcripción cotejable con facsímil de 1919"
+        }
+      ]
     },
     {
       "id": "S23-0053",
