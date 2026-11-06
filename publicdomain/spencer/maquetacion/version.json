@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M04.1",
+  "version": "M05",
   "date": "2026-11-05",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -25,11 +25,13 @@
     "Composición literaria refinada con capitular y preset editorial",
     "Localizaciones por ensayo y posición dentro de la transcripción inglesa",
     "Folios dinámicos vinculados al plan guardado, sin inventar páginas sin plan",
-    "Reservas de páginas editables para cada índice desde el editor"
+    "86 minibiografías, 53 temas y 56 obras citadas en páginas de contenido real",
+    "Cinco retratos históricos documentados en el índice onomástico",
+    "Medición DOM del espacio de índices según formato y tipografía"
   ],
-  "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas.",
+  "limitation": "Índices preliminares con concordancias localizadas: requieren corrección biográfica, bibliográfica y semántica. Referencias en páginas son provisionales hasta galeradas. La medición DOM de índices sigue siendo una maqueta, no impresión PDF definitiva; los folios son orientativos.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M04-1",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M05",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,
@@ -42,11 +44,11 @@
     },
     "analitico": {
       "path": "../indice-analitico/",
-      "entries": 38
+      "entries": 53
     },
     "obras_citadas": {
       "path": "../indice-obras/",
-      "entries": 35
+      "entries": 56
     }
   }
 }

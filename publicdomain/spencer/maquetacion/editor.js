@@ -9,7 +9,7 @@ const seed={
  trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.44, fontWeight:400,fontStyle:'normal',headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',texts:{},
  marginInner:22,marginOuter:17,marginTop:21,marginBottom:21,indent:4,paraGap:1.3,bleed:3,caliper:.105,
  words:0,zoom:.62,coverColor:'#24443a',title:'El individuo contra el Estado',
- author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,chapterOpenings:true,notesOpening:true,openingTextRecto:true,
+ author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,chapterOpenings:true,notesOpening:true,openingTextRecto:true,indexPortraits:true,
  sample:'La edición crítica reconstruye el debate intelectual de la Inglaterra victoriana y sitúa los argumentos de Herbert Spencer en su contexto histórico. Las transformaciones del Estado, la sociedad industrial y la libertad individual constituyen el eje de la lectura propuesta.\n\nEste texto es una muestra editorial de composición, no una transcripción de la obra de 1884. Su función consiste en comparar cuerpos tipográficos, interlineados, márgenes y densidades de página.\n\nCada decisión de diseño deberá contrastarse con el texto definitivo, las imágenes autorizadas y las especificaciones técnicas de la imprenta. La paginación final solo podrá cerrarse una vez concluida la corrección de estilo y la composición.',
  sections:[
  ['half','Portadilla',1,true],['title','Portada interior',1,true],['legal','Créditos y derechos',1,false],
@@ -22,7 +22,7 @@ const seed={
  ['original-postscript','POSTSCRIPT','auto',true],['notes','Aparato de notas',48,true],
  ['plates','Láminas e ilustraciones',16,true],['chronology','Cronología y atlas',16,true],
  ['afterword','Epílogo contemporáneo',18,true],['bibliography','Fuentes y bibliografía',12,true],
- ['glossary','Glosario de términos',8,true],['index-onomastic','Índice onomástico · biografías',16,true],['index-analytic','Índice analítico o temático',14,true],['index-works','Índice de autores y obras citadas',12,true],['colophon','Colofón',1,true]
+ ['glossary','Glosario de términos',8,true],['index-onomastic','Índice onomástico · biografías','auto',true],['index-analytic','Índice analítico o temático','auto',true],['index-works','Índice de autores y obras citadas','auto',true],['colophon','Colofón',1,true]
  ].map(([id,name,pages,recto])=>({id,name,pages,recto,enabled:true}))
 };
 const formats={a5:[148,210],trade:[152.4,228.6],compact:[139.7,215.9],large:[170,240]};
@@ -50,10 +50,10 @@ function hydrate(raw){
  if(!fonts.includes(s.font))s.font=seed.font;
  if(!fonts.includes(s.headingFont))s.headingFont=seed.headingFont;
  if(!/^#[\da-fA-F]{6}$/.test(s.coverColor))s.coverColor=seed.coverColor;
- for(const key of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])s[key]=s[key]!==false;
+ for(const key of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto','indexPortraits'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
   id:String(x.id||'custom-'+i).slice(0,80),name:String(x.name||'Sección').slice(0,110),
-  pages:(x.id==='text'||x.id==='legacy-text'||x.id.startsWith('original-'))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
+  pages:(x.id==='text'||x.id==='legacy-text'||(x.id.startsWith('original-')||['index-onomastic','index-analytic','index-works'].includes(x.id)))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
  }));
  const originalGroup=seed.sections.filter(x=>x.id.startsWith('original-'));
  const oldIndex=s.sections.findIndex(x=>x.id==='text');
@@ -64,9 +64,9 @@ function hydrate(raw){
  s.sections=s.sections.filter(x=>x.id!=='text'&&x.id!=='index-toponymic');
  delete s.texts['index-toponymic'];
  const indices=[
-  ['index-onomastic','Índice onomástico · biografías',16],
-  ['index-analytic','Índice analítico o temático',14],
-  ['index-works','Índice de autores y obras citadas',12]
+  ['index-onomastic','Índice onomástico · biografías','auto'],
+  ['index-analytic','Índice analítico o temático','auto'],
+  ['index-works','Índice de autores y obras citadas','auto']
  ];
  for(const [id,name,pages] of indices){
   if(!s.sections.some(x=>x.id===id)){
@@ -74,6 +74,7 @@ function hydrate(raw){
    s.sections.splice(at<0?s.sections.length:at,0,{id,name,pages,recto:true,enabled:true});
   }
  }
+ for(const [id] of indices){const section=s.sections.find(x=>x.id===id);if(section)section.pages='auto';}
  const glossary=s.sections.find(x=>x.id==='glossary');
  if(glossary&&glossary.name==='Índice analítico y glosario')glossary.name='Glosario de términos';
  if(typeof s.texts.text==='string'&&s.texts.text.trim()){
@@ -111,10 +112,15 @@ function analyze(){
  for(const sec of state.sections.filter(x=>x.enabled)){
   let pages=sec.pages;
   if(sec.pages==='auto'){
-   const raw=state.texts?.[sec.id]||'';
-   const count=(raw.match(/\S+/g)||[]).length;
-   pages=invalid||!count?0:Math.ceil((count+(state.chapterOpenings&&essayIds.includes(sec.id)?wordsPage*.2:0))/wordsPage);
-   autoPages[sec.id]=pages;mainPages+=pages;mainWords+=count;
+   if(['index-onomastic','index-analytic','index-works'].includes(sec.id)){
+    pages=invalid||!window.S23Indices?.ready(sec.id)?0:window.S23Indices.measure(sec.id,state,{width,height});
+    autoPages[sec.id]=pages;
+   }else{
+    const raw=state.texts?.[sec.id]||'';
+    const count=(raw.match(/\S+/g)||[]).length;
+    pages=invalid||!count?0:Math.ceil((count+(state.chapterOpenings&&essayIds.includes(sec.id)?wordsPage*.2:0))/wordsPage);
+    autoPages[sec.id]=pages;mainPages+=pages;mainWords+=count;
+   }
   }
   if(!pages)continue;
   const essayNumber=essayIds.indexOf(sec.id)+1;
@@ -140,7 +146,7 @@ function store(){try{localStorage.setItem(KEY,JSON.stringify(state));$('#saveSta
 function setFields(){
  const map={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontWeight:'fontWeight',fontStyle:'fontStyle',headingFont:'headingFont',headingWeight:'headingWeight',headingStyle:'headingStyle',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
  for(const [id,k] of Object.entries(map))$('#'+id).value=state[k];
- for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])$('#'+k).checked=state[k];
+ for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto','indexPortraits'])$('#'+k).checked=state[k];
  $('#customDims').hidden=state.trim!=='custom';
 }
 function vars(p){return Object.entries({
@@ -239,7 +245,7 @@ for(const [id,k] of Object.entries(binds))$('#'+id).addEventListener(['trim','fo
  if(id==='trim')$('#customDims').hidden=state.trim!=='custom';
  changed();
 });
-for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])$('#'+k).addEventListener('change',e=>{state[k]=e.target.checked;changed()});
+for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto','indexPortraits'])$('#'+k).addEventListener('change',e=>{state[k]=e.target.checked;changed()});
 $('#applyEditorialPreset').addEventListener('click',()=>{Object.assign(state,{font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.44,paraGap:1.3,indent:4,marginInner:24,marginOuter:18,marginTop:23,marginBottom:22,headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',chapterOpenings:true,notesOpening:true,openingTextRecto:true});state=hydrate(state);setFields();changed();$('#saveStatus').textContent='Estilo clásico de lectura aplicado, sin modificar el manuscrito.'});
 $('#planRows').addEventListener('change',e=>{
  const row=e.target.closest('[data-index]');if(!row)return;const x=state.sections[+row.dataset.index];if(!x)return;
@@ -284,6 +290,7 @@ $('#printProof').addEventListener('click',()=>{
  $('#saveStatus').textContent='Prueba de impresión abierta. Puede guardarse como PDF.';
 });
 window.S23Layout={
+ refreshFromIndices:()=>render(),
  getState:()=>state,
  getPlan:()=>plan,
  getVars:()=>vars(plan),

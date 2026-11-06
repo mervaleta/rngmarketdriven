@@ -1,0 +1,5329 @@
+{
+  "version": "M05",
+  "source": "The Man versus the State (1884); concordancias preliminares",
+  "rights": "Imágenes verificadas en Commons como dominio público en EE. UU.; revisar Argentina y calidad antes de producción",
+  "portraits": [
+    {
+      "name": "Jeremy Bentham",
+      "credit": "Henry William Pickersgill, 1829",
+      "source": "https://commons.wikimedia.org/wiki/File:Jeremy%20Bentham%20by%20Henry%20William%20Pickersgill.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeremy%20Bentham%20by%20Henry%20William%20Pickersgill.jpg?width=320"
+    },
+    {
+      "name": "Charles Darwin",
+      "credit": "Julia Margaret Cameron, c. 1868",
+      "source": "https://commons.wikimedia.org/wiki/File:Charles%20Darwin%20by%20Julia%20Margaret%20Cameron%2C%20c.%201868%20-%20Original.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20by%20Julia%20Margaret%20Cameron%2C%20c.%201868%20-%20Original.jpg?width=320"
+    },
+    {
+      "name": "Thomas Hobbes",
+      "credit": "Retrato anónimo, siglo XVII",
+      "source": "https://commons.wikimedia.org/wiki/File:Thomas%20Hobbes.jpeg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Hobbes.jpeg?width=320"
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "credit": "Théodore Chassériau, 1850",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait%20of%20Alexis%20de%20Tocqueville.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Alexis%20de%20Tocqueville.jpg?width=320"
+    },
+    {
+      "name": "Otto von Bismarck",
+      "credit": "Loescher y Petsch, 1877",
+      "source": "https://commons.wikimedia.org/wiki/File:Otto%20von%20bismark.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto%20von%20bismark.jpg?width=320"
+    }
+  ],
+  "sections": {
+    "index-onomastic": [
+      {
+        "name": "A. N. Cummings",
+        "id": "p-085",
+        "dates": "Identidad pendiente",
+        "desc": "Autor de On the Value of Political Economy to Mankind, citado en nota sobre utilidad práctica de la economía.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13817
+          }
+        ]
+      },
+      {
+        "name": "Adolphe Thiers",
+        "id": "p-051",
+        "dates": "1797–1877",
+        "desc": "Historiador y estadista francés, presidente de la Tercera República. Spencer recoge una anécdota sobre sus dudas iniciales respecto del ferrocarril.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 9319
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9320
+          }
+        ]
+      },
+      {
+        "name": "Alexander Mitchell",
+        "id": "p-071",
+        "dates": "Fechas por verificar",
+        "desc": "Autor citado por Siberian Overland Route, obra de viajes a través de Siberia. Falta cotejo bibliográfico de la autoría.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11779
+          }
+        ]
+      },
+      {
+        "name": "Alexis de Tocqueville",
+        "id": "p-053",
+        "dates": "1805–1859",
+        "desc": "Pensador y político francés, autor de La democracia en América y El Antiguo Régimen y la Revolución. Referente histórico de Spencer.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11311
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11312
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13529
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13530
+          }
+        ]
+      },
+      {
+        "name": "Alfred Russel Wallace",
+        "id": "p-054",
+        "dates": "1823–1913",
+        "desc": "Naturalista británico que formuló independientemente la selección natural. En el libro aparece en una nota por sus viajes amazónicos; no es el Wallace de Rusia.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11907
+          }
+        ]
+      },
+      {
+        "name": "Ana de Gran Bretaña",
+        "id": "p-002",
+        "dates": "1665–1714",
+        "desc": "Reina de Inglaterra y Escocia desde 1702, y de Gran Bretaña desde 1707. Su muerte sirve de referencia cronológica para la hegemonía whig.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 876
+          }
+        ]
+      },
+      {
+        "name": "Anthony Ashley-Cooper, conde de Shaftesbury",
+        "id": "p-031",
+        "dates": "1801–1885",
+        "desc": "Reformista social y político británico, conocido como lord Ashley antes de heredar el condado de Shaftesbury. Impulsó reformas fabriles y de vivienda.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 3585
+          }
+        ]
+      },
+      {
+        "name": "Arthur Young",
+        "id": "p-027",
+        "dates": "1741–1820",
+        "desc": "Agrónomo, escritor y viajero inglés. Sus observaciones de Francia se citan respecto de controles sobre el comercio de granos.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 1749
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13543
+          }
+        ]
+      },
+      {
+        "name": "B. F. Hartshorne",
+        "id": "p-083",
+        "dates": "Identidad pendiente",
+        "desc": "Autor de un trabajo en Fortnightly Review (marzo de 1876) citado sobre reglas sociales sin gobierno formal.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11929
+          }
+        ]
+      },
+      {
+        "name": "C. Forrest",
+        "id": "p-032",
+        "dates": "Identidad incompleta",
+        "desc": "Constructor y contratista del East End londinense consultado por Spencer sobre efectos de la legislación edilicia en la vivienda obrera.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 3819
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3858
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3916
+          }
+        ]
+      },
+      {
+        "name": "C. Gatliff",
+        "id": "p-029",
+        "dates": "Identidad incompleta",
+        "desc": "Secretario de una sociedad londinense de mejoramiento de viviendas obreras. Citado sobre el costo del impuesto a las ventanas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 3413
+          }
+        ]
+      },
+      {
+        "name": "Charles Blacker Vignoles",
+        "id": "p-055",
+        "dates": "1793–1875",
+        "desc": "Ingeniero civil británico especializado en ferrocarriles. Spencer reproduce una anécdota de su trato con Adolphe Thiers.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 9336
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11948
+          }
+        ]
+      },
+      {
+        "name": "Charles Brooke",
+        "id": "p-072",
+        "dates": "1829–1917",
+        "desc": "Segundo rajá blanco de Sarawak. Autor de Ten Years in Sarawak, citado para estudiar derecho consuetudinario.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 5236
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11787
+          }
+        ]
+      },
+      {
+        "name": "Charles Darwin",
+        "id": "p-038",
+        "dates": "1809–1882",
+        "desc": "Naturalista británico, formulador de la evolución por selección natural. Spencer utiliza su teoría como comparación metodológica sobre consecuencias no intencionadas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 399
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 400
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10136
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10137
+          }
+        ]
+      },
+      {
+        "name": "Charles Fox",
+        "id": "p-033",
+        "dates": "1810–1874",
+        "desc": "Ingeniero ferroviario británico, asociado con proyectos emblemáticos de hierro y ferrocarril. Spencer recuerda sus críticas a la burocracia estatal.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 4689
+          }
+        ]
+      },
+      {
+        "name": "Charles Lyell",
+        "id": "p-042",
+        "dates": "1797–1875",
+        "desc": "Geólogo escocés, defensor del uniformitarismo geológico. Spencer contrasta su aceptación del cambio en geología con sus reservas sobre evolución biológica.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 342
+          }
+        ]
+      },
+      {
+        "name": "Charles William Siemens",
+        "id": "p-035",
+        "dates": "1823–1883",
+        "desc": "Ingeniero germano-británico, innovador en electricidad, metalurgia y telegrafía. Citado por sus quejas sobre trabas postales a la innovación.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 5123
+          }
+        ]
+      },
+      {
+        "name": "David Brewster",
+        "id": "p-009",
+        "dates": "1781–1868",
+        "desc": "Físico escocés, investigador de óptica e impulsor de organizaciones científicas. Spencer alude a su propuesta de apoyo institucional a la ciencia.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 4864
+          }
+        ]
+      },
+      {
+        "name": "Dirk Hendrik Kolff",
+        "id": "p-080",
+        "dates": "Fechas por verificar",
+        "desc": "Oficial naval neerlandés autor de relatos de viaje por el archipiélago de las Indias Orientales; aparece como observador de costumbres de los arafuras.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 5517
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11848
+          }
+        ]
+      },
+      {
+        "name": "Donald Mackenzie Wallace",
+        "id": "p-013",
+        "dates": "1841–1919",
+        "desc": "Periodista e historiador escocés, autor de Russia, sobre el Imperio ruso. Es el Wallace citado en el ensayo sobre servidumbre y burocracia.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 4820
+          }
+        ]
+      },
+      {
+        "name": "Eduardo III de Inglaterra",
+        "id": "p-005",
+        "dates": "1312–1377",
+        "desc": "Rey medieval inglés cuyo reinado incluyó regulaciones de salarios, trabajo e intercambio. Spencer las usa como precedentes de intervención estatal.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3052
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1900
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2029
+          }
+        ]
+      },
+      {
+        "name": "Eduardo VI de Inglaterra",
+        "id": "p-004",
+        "dates": "1537–1553",
+        "desc": "Rey Tudor de Inglaterra entre 1547 y 1553. Se lo menciona por ordenanzas laborales de carácter paternalista.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2760
+          }
+        ]
+      },
+      {
+        "name": "Elisha Harris",
+        "id": "p-040",
+        "dates": "1824–1884",
+        "desc": "Médico estadounidense, especialista en salud pública y asistencia social. Spencer menciona sus estadísticas de pobreza y criminalidad en Nueva York.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13912
+          }
+        ]
+      },
+      {
+        "name": "Enrique VIII de Inglaterra",
+        "id": "p-003",
+        "dates": "1491–1547",
+        "desc": "Monarca Tudor inglés, famoso por la ruptura con Roma. Spencer recuerda sus prohibiciones de juegos y distracciones populares.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2903
+          }
+        ]
+      },
+      {
+        "name": "Eyre Massey Shaw",
+        "id": "p-036",
+        "dates": "1828–1908",
+        "desc": "Director pionero del servicio de bomberos de Londres. Spencer lo cita al discutir los riesgos de algunas regulaciones edilicias.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 5206
+          }
+        ]
+      },
+      {
+        "name": "Fox Maule-Ramsay, conde de Dalhousie",
+        "id": "p-034",
+        "dates": "1801–1874",
+        "desc": "Político escocés y secretario de Guerra británico. Spencer lo menciona por retrasos administrativos en los nombramientos del ejército.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 4750
+          }
+        ]
+      },
+      {
+        "name": "François Daumas",
+        "id": "p-068",
+        "dates": "Fechas por verificar",
+        "desc": "Misionero y explorador francés que trabajó con Thomas Arbousset en relatos sobre pueblos del África austral.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11745
+          }
+        ]
+      },
+      {
+        "name": "Frank Fairman",
+        "id": "p-018",
+        "dates": "Seudónimo de 1884",
+        "desc": "Nombre de pluma utilizado para Herbert Spencer on Socialism, respuesta a The Coming Slavery. La identidad civil no está corroborada.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10208
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10272
+          }
+        ]
+      },
+      {
+        "name": "Frederick H. Janson",
+        "id": "p-028",
+        "dates": "Fechas por documentar",
+        "desc": "Jurista vinculado a la Incorporated Law Society, autor del estudio The Statistics of Legislation publicado en 1873. En la transcripción aparece erróneamente «F.H. Jansen»; la ficha de la publicación de 1873 acredita Janson.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 2307
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13578
+          }
+        ]
+      },
+      {
+        "name": "Frederick Pollock",
+        "id": "p-048",
+        "dates": "1845–1937",
+        "desc": "Jurista británico, historiador del common law y profesor de Oxford. Spencer cita una conferencia suya sobre métodos de jurisprudencia.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 6720
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6721
+          }
+        ]
+      },
+      {
+        "name": "G. A. Thompson",
+        "id": "p-070",
+        "dates": "Identidad pendiente",
+        "desc": "Nombre abreviado en una cita del diccionario geográfico de Antonio de Alcedo. Identificación y papel editorial por comprobar.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11765
+          }
+        ]
+      },
+      {
+        "name": "George Lillie Craik",
+        "id": "p-061",
+        "dates": "1798–1866",
+        "desc": "Escritor e historiador escocés, vinculado a divulgación y educación popular. Citado por History of British Commerce.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13548
+          }
+        ]
+      },
+      {
+        "name": "George Nicholls",
+        "id": "p-062",
+        "dates": "1781–1865",
+        "desc": "Funcionario británico, comisionado de la Ley de Pobres y autor de una historia de la asistencia pública en Inglaterra.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13742
+          }
+        ]
+      },
+      {
+        "name": "George Thompson",
+        "id": "p-069",
+        "dates": "1796–1889",
+        "desc": "Viajero británico, autor de Travels and Adventures in Southern Africa, obra citada como fuente etnográfica.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11752
+          }
+        ]
+      },
+      {
+        "name": "George Turner",
+        "id": "p-078",
+        "dates": "1818–1891",
+        "desc": "Misionero y etnógrafo británico especializado en el Pacífico; citado sobre normas sociales de pueblos de Vanuatu.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 7842
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7843
+          }
+        ]
+      },
+      {
+        "name": "George William Fox Kinnaird, noveno barón Kinnaird",
+        "id": "p-030",
+        "dates": "1807–1878",
+        "desc": "Aristócrata escocés y promotor de mejoras sociales. Aparece en una discusión de 1850 sobre alojamientos para trabajadores.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 3554
+          }
+        ]
+      },
+      {
+        "name": "George William Lyttelton, cuarto barón Lyttelton",
+        "id": "p-037",
+        "dates": "1817–1876",
+        "desc": "Político y reformista de la educación británico. Presidió una reunión que cuestionó intervenciones legislativas en viviendas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 5985
+          }
+        ]
+      },
+      {
+        "name": "Henry Charles Sirr",
+        "id": "p-084",
+        "dates": "Fechas por verificar",
+        "desc": "Escritor británico sobre Ceilán, autor de Ceylon and the Cingalese. Requiere cotejo del nombre completo y fechas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11937
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11938
+          }
+        ]
+      },
+      {
+        "name": "Henry George",
+        "id": "p-016",
+        "dates": "1839–1897",
+        "desc": "Economista estadounidense, autor de Progress and Poverty. Defendió gravar el valor del suelo y cuestionó la apropiación privada de rentas territoriales.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5692
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12142
+          }
+        ]
+      },
+      {
+        "name": "Henry George Grey, tercer conde Grey",
+        "id": "p-019",
+        "dates": "1802–1894",
+        "desc": "Político whig y antiguo secretario de Colonias. Spencer menciona una propuesta atribuida a lord Grey sobre obligaciones sanitarias de propietarios; debe comprobarse la identidad exacta del título.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 7118
+          }
+        ]
+      },
+      {
+        "name": "Henry John Temple, vizconde Palmerston",
+        "id": "p-006",
+        "dates": "1784–1865",
+        "desc": "Estadista británico y primer ministro liberal. Spencer enumera medidas regulatorias adoptadas durante su gobierno.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3200
+          }
+        ]
+      },
+      {
+        "name": "Henry Mayers Hyndman",
+        "id": "p-017",
+        "dates": "1842–1921",
+        "desc": "Dirigente socialista británico y fundador de la Democratic Federation. Es interlocutor polémico directo de Spencer acerca del socialismo.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5729
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10200
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10240
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12147
+          }
+        ]
+      },
+      {
+        "name": "Henry Rowe Schoolcraft",
+        "id": "p-077",
+        "dates": "1793–1864",
+        "desc": "Explorador y etnógrafo estadounidense, autor de obras sobre pueblos indígenas y el Mississippi. Su enfoque debe contextualizarse críticamente.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 7969
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11834
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11918
+          }
+        ]
+      },
+      {
+        "name": "Hippolyte Taine",
+        "id": "p-052",
+        "dates": "1828–1893",
+        "desc": "Historiador y crítico francés, autor de Les Origines de la France contemporaine. Citado por sus estudios del Antiguo Régimen.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10609
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11309
+          }
+        ]
+      },
+      {
+        "name": "Jacques-Bénigne Bossuet",
+        "id": "p-050",
+        "dates": "1627–1704",
+        "desc": "Obispo, predicador y teórico francés del derecho divino de los reyes. Aparece ligado a la legitimación religiosa de la monarquía absoluta.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 127
+          }
+        ]
+      },
+      {
+        "name": "James Bonwick",
+        "id": "p-082",
+        "dates": "1817–1906",
+        "desc": "Historiador y escritor australiano, autor de trabajos sobre Tasmania. Citado por prácticas sociales de sus poblaciones originarias.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11882
+          }
+        ]
+      },
+      {
+        "name": "James Emerson Tennent",
+        "id": "p-081",
+        "dates": "1804–1869",
+        "desc": "Político y autor británico, escribió Ceylon: An Account of the Island. La transcripción presenta su apellido como Tennant.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11871
+          }
+        ]
+      },
+      {
+        "name": "Jeremy Bentham",
+        "id": "p-045",
+        "dates": "1748–1832",
+        "desc": "Filósofo y reformador utilitarista británico. Spencer polemiza con su tesis de que los derechos dependen de la creación legislativa.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 4153
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4261
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4459
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4605
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4662
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4736
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4966
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5074
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5107
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5580
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5672
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11688
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11722
+          }
+        ]
+      },
+      {
+        "name": "John Austin",
+        "id": "p-044",
+        "dates": "1790–1859",
+        "desc": "Jurista inglés del positivismo jurídico, autor de The Province of Jurisprudence Determined. Spencer discute su teoría de la soberanía.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 1249
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1281
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1560
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2686
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4696
+          }
+        ]
+      },
+      {
+        "name": "John Beecham",
+        "id": "p-076",
+        "dates": "1787–1856",
+        "desc": "Misionero y escritor británico, autor de Ashantee and the Gold Coast. Citado en notas sobre África occidental.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11824
+          }
+        ]
+      },
+      {
+        "name": "John Richard Green",
+        "id": "p-001",
+        "dates": "1837–1883",
+        "desc": "Historiador inglés, autor de Short History of the English People. Spencer lo cita para explicar los cambios del partido whig.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 866
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 930
+          }
+        ]
+      },
+      {
+        "name": "John Ruskin",
+        "id": "p-014",
+        "dates": "1819–1900",
+        "desc": "Crítico de arte, educador y reformista social inglés. Spencer lo menciona como figura admirada por corrientes de reforma industrial.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5387
+          }
+        ]
+      },
+      {
+        "name": "John Russell, primer conde Russell",
+        "id": "p-007",
+        "dates": "1792–1878",
+        "desc": "Político whig y primer ministro británico asociado con las reformas parlamentarias del siglo XIX. Figura en la secuencia de leyes presentada por Spencer.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3694
+          }
+        ]
+      },
+      {
+        "name": "Joseph Arch",
+        "id": "p-020",
+        "dates": "1826–1919",
+        "desc": "Sindicalista agrícola y político británico, organizador de la National Agricultural Labourers Union. Aparece por su defensa del cultivo de tierras improductivas.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 7557
+          }
+        ]
+      },
+      {
+        "name": "Joseph Chamberlain",
+        "id": "p-041",
+        "dates": "1836–1914",
+        "desc": "Político radical de Birmingham que luego fue ministro y líder unionista. Aparece citado en nota por su posición sobre política y reforma social.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 14029
+          }
+        ]
+      },
+      {
+        "name": "Keops (Jufu)",
+        "id": "p-024",
+        "dates": "c. siglo XXVI a. C.",
+        "desc": "Faraón egipcio de la IV dinastía, asociado a la Gran Pirámide de Guiza. Spencer lo evoca como ejemplo de trabajo forzado impuesto por gobernantes.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 476
+          }
+        ]
+      },
+      {
+        "name": "Lactancio",
+        "id": "p-063",
+        "dates": "c. 250–c. 325",
+        "desc": "Escritor cristiano latino, autor de De mortibus persecutorum. Aparece como referencia histórica en nota sobre gobiernos coercitivos.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10601
+          }
+        ]
+      },
+      {
+        "name": "Luis XIV de Francia",
+        "id": "p-049",
+        "dates": "1638–1715",
+        "desc": "Rey francés conocido como el Rey Sol. Spencer lo cita al discutir la justificación religiosa del absolutismo.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 123
+          }
+        ]
+      },
+      {
+        "name": "Luis XV de Francia",
+        "id": "p-026",
+        "dates": "1710–1774",
+        "desc": "Rey francés del siglo XVIII. Spencer menciona regulaciones sobre intereses atribuidas a su tiempo y sus consecuencias no previstas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 1698
+          }
+        ]
+      },
+      {
+        "name": "Margaret (caso de los Jukes)",
+        "id": "p-058",
+        "dates": "Identidad no identificable",
+        "desc": "Nombre usado en un relato genealógico sobre la familia Jukes; no hay identificación personal comprobada y la fuente debe leerse críticamente.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13951
+          }
+        ]
+      },
+      {
+        "name": "Matthew Arnold",
+        "id": "p-047",
+        "dates": "1822–1888",
+        "desc": "Poeta y crítico cultural inglés. Spencer discute sus argumentos sobre propiedad intelectual y origen legal de los derechos.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 3914
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3915
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4390
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4391
+          }
+        ]
+      },
+      {
+        "name": "Otto von Bismarck",
+        "id": "p-022",
+        "dates": "1815–1898",
+        "desc": "Canciller de Alemania y artífice de su unificación, impulsor de seguros sociales estatales. Spencer lo menciona respecto de la política social alemana.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 8925
+          }
+        ]
+      },
+      {
+        "name": "Pierre Lanfrey",
+        "id": "p-059",
+        "dates": "1828–1877",
+        "desc": "Historiador y político francés, conocido por sus estudios críticos del imperio napoleónico. Figura en las referencias históricas de Spencer.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13505
+          }
+        ]
+      },
+      {
+        "name": "Ralph Waldo Emerson",
+        "id": "p-056",
+        "dates": "1803–1882",
+        "desc": "Ensayista y filósofo estadounidense del trascendentalismo. Citado en nota sobre el valor de los ejemplos para comprender principios.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13826
+          }
+        ]
+      },
+      {
+        "name": "Reverendo Jeston",
+        "id": "p-021",
+        "dates": "Nombre de pila pendiente",
+        "desc": "Párroco de Cholesbury citado en el informe sobre la Ley de Pobres de 1834, por la crisis de asistencia rural de 1832. Falta identificar su nombre completo.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 7907
+          }
+        ]
+      },
+      {
+        "name": "Richard Assheton Cross",
+        "id": "p-039",
+        "dates": "1823–1914",
+        "desc": "Político conservador y ministro del Interior. Figura en una nota referida a la administración de la asistencia pública.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13729
+          }
+        ]
+      },
+      {
+        "name": "Richard Francis Burton",
+        "id": "p-065",
+        "dates": "1821–1890",
+        "desc": "Explorador, traductor y escritor británico. Se cita su Mission to Gelele, King of Dahome para describir estructuras políticas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11711
+          }
+        ]
+      },
+      {
+        "name": "Richard Louis Dugdale",
+        "id": "p-057",
+        "dates": "1841–1883",
+        "desc": "Investigador estadounidense, autor de The Jukes sobre pobreza, criminalidad y herencia; su estudio refleja prejuicios metodológicos de la época.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 14023
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 14024
+          }
+        ]
+      },
+      {
+        "name": "Robert FitzRoy",
+        "id": "p-079",
+        "dates": "1805–1865",
+        "desc": "Oficial naval británico, capitán del HMS Beagle y meteorólogo. Spencer cita sus relatos sobre comunidades patagónicas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 7861
+          }
+        ]
+      },
+      {
+        "name": "Thomas Arbousset",
+        "id": "p-067",
+        "dates": "1810–1877",
+        "desc": "Misionero protestante francés, coautor de estudios de exploración del África austral con Daumas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11743
+          }
+        ]
+      },
+      {
+        "name": "Thomas Erskine May",
+        "id": "p-025",
+        "dates": "1815–1886",
+        "desc": "Historiador constitucional y autoridad en procedimiento parlamentario británico. Se lo cita por su historia de las leyes del cereal.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 620
+          }
+        ]
+      },
+      {
+        "name": "Thomas Henry Farrer",
+        "id": "p-012",
+        "dates": "1819–1899",
+        "desc": "Funcionario comercial británico defensor del libre comercio, autor de The State in its Relation to Trade. Spencer cita sus comparaciones ferroviarias.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 3158
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13625
+          }
+        ]
+      },
+      {
+        "name": "Thomas Hobbes",
+        "id": "p-043",
+        "dates": "1588–1679",
+        "desc": "Filósofo inglés autor de Leviathan, teórico de la soberanía y del contrato social. Spencer cuestiona su justificación del poder estatal.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 665
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 669
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 902
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1009
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1110
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1231
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1238
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1570
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2546
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4268
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11653
+          }
+        ]
+      },
+      {
+        "name": "Thomas Spencer",
+        "id": "p-010",
+        "dates": "1796–1853",
+        "desc": "Clérigo y tío de Herbert Spencer, pastor de Hinton Charterhouse. Su experiencia reformando la asistencia a los pobres se relata como caso concreto.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 855
+          }
+        ]
+      },
+      {
+        "name": "Thomas Stamford Raffles",
+        "id": "p-074",
+        "dates": "1781–1826",
+        "desc": "Administrador colonial británico, impulsor del asentamiento británico en Singapur y autor de History of Java.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 5298
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11806
+          }
+        ]
+      },
+      {
+        "name": "William Cornwallis Harris",
+        "id": "p-086",
+        "dates": "1807–1848",
+        "desc": "Oficial, naturalista y explorador británico, autor de The Highlands of Æthiopia (1844), relato de una misión diplomática y viajes en las tierras altas de Etiopía. Su obra aparece citada en las notas de Spencer; no debe confundirse con el médico Elisha Harris.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11704
+          }
+        ]
+      },
+      {
+        "name": "William Edward Hartpole Lecky",
+        "id": "p-060",
+        "dates": "1838–1903",
+        "desc": "Historiador irlandés, autor de History of the Rise and Influence of the Spirit of Rationalism in Europe. Aparece en las notas del ensayo sobre legislación.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13524
+          }
+        ]
+      },
+      {
+        "name": "William Ellis",
+        "id": "p-073",
+        "dates": "1794–1872",
+        "desc": "Misionero británico y escritor, autor de una History of Madagascar citada como fuente etnográfica.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11798
+          }
+        ]
+      },
+      {
+        "name": "William Ewart Gladstone",
+        "id": "p-008",
+        "dates": "1809–1898",
+        "desc": "Primer ministro liberal británico y figura dominante de la política victoriana. Spencer comenta medidas aprobadas por sus ministerios.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3818
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5969
+          }
+        ]
+      },
+      {
+        "name": "William Hickling Prescott",
+        "id": "p-064",
+        "dates": "1796–1859",
+        "desc": "Historiador estadounidense especializado en España y la conquista de América. Citado por The Conquest of Peru.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11695
+          }
+        ]
+      },
+      {
+        "name": "William John Burchell",
+        "id": "p-066",
+        "dates": "1781–1863",
+        "desc": "Naturalista y viajero británico, autor de Travels in the Interior of Southern Africa.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11729
+          }
+        ]
+      },
+      {
+        "name": "William Marsden",
+        "id": "p-075",
+        "dates": "1754–1836",
+        "desc": "Orientalista y funcionario británico, autor de History of Sumatra. Fuente sobre costumbres y normas locales.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11816
+          }
+        ]
+      },
+      {
+        "name": "William Morris",
+        "id": "p-015",
+        "dates": "1834–1896",
+        "desc": "Diseñador, poeta y socialista británico, asociado con Arts and Crafts. Figura como referente de críticos del capitalismo industrial.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5390
+          }
+        ]
+      },
+      {
+        "name": "William Pitt el Joven",
+        "id": "p-011",
+        "dates": "1759–1806",
+        "desc": "Primer ministro británico durante las guerras revolucionarias francesas. Se lo cita por sus propuestas sobre la asistencia a familias numerosas.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 2462
+          }
+        ]
+      },
+      {
+        "name": "William Rathbone VI",
+        "id": "p-023",
+        "dates": "1819–1902",
+        "desc": "Diputado liberal, empresario y filántropo de Liverpool. Promovió enfermería comunitaria y reforma administrativa, y aparece al hablar de servicios públicos.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10525
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4890
+          }
+        ]
+      },
+      {
+        "name": "William Stanley Jevons",
+        "id": "p-046",
+        "dates": "1835–1882",
+        "desc": "Economista y lógico británico, exponente de la revolución marginalista. Es citado por The State in Relation to Labour.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 3871
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3872
+          }
+        ]
+      }
+    ],
+    "index-analytic": [
+      {
+        "name": "Administración pública",
+        "id": "tema-030",
+        "category": "Legislación y consecuencias",
+        "desc": "Agencias administrativas, comisiones, controles y restricciones institucionales.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 916
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3198
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2264
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4732
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6076
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8819
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8995
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9345
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9508
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9762
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9863
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 819
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 945
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4703
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4858
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5077
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5918
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6180
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13791
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6121
+          },
+          {
+            "s": "original-postscript",
+            "w": 1323
+          },
+          {
+            "s": "original-postscript",
+            "w": 1810
+          }
+        ]
+      },
+      {
+        "name": "Agricultura y alimentos",
+        "id": "tema-047",
+        "category": "Trabajo y urbanismo",
+        "desc": "Cultivos, abastecimiento de semillas y controles de comercio alimentario.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 232
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1759
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 2777
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3044
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3225
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3532
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4119
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4217
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2451
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3721
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6588
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7322
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7696
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7940
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9124
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 616
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2681
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6816
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 8324
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 8516
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3544
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6382
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6456
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7090
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8597
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8864
+          }
+        ]
+      },
+      {
+        "name": "Análisis de causas y efectos",
+        "id": "tema-053",
+        "category": "Evolución social y método",
+        "desc": "Necesidad de estudiar efectos indirectos de las decisiones públicas.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 183
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3292
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5406
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6982
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9484
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1280
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1361
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3927
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6924
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 8031
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9734
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7727
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8692
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10615
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11052
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11204
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11393
+          }
+        ]
+      },
+      {
+        "name": "Burocracia",
+        "id": "tema-029",
+        "category": "Legislación y consecuencias",
+        "desc": "Dependencia de autorizaciones, funcionarios y procedimientos administrativos.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 786
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4294
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4452
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4602
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6151
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8891
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9008
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9410
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9600
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9884
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5087
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7819
+          }
+        ]
+      },
+      {
+        "name": "Centralización del poder",
+        "id": "tema-012",
+        "category": "Instituciones políticas",
+        "desc": "Procesos históricos de concentración de autoridad administrativa y política.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 4460
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8890
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6023
+          }
+        ]
+      },
+      {
+        "name": "Comercio e intercambio",
+        "id": "tema-022",
+        "category": "Economía y conflicto social",
+        "desc": "Libertad de comercio, intercambios contractuales y trabas públicas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 441
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1160
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3132
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3986
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4167
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4264
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4367
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4646
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5814
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5836
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6682
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 591
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1956
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2144
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5371
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6078
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7574
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9268
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11568
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13552
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13623
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6458
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8441
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8610
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8789
+          }
+        ]
+      },
+      {
+        "name": "Comunismo",
+        "id": "tema-017",
+        "category": "Economía y conflicto social",
+        "desc": "Referencias a organización de la propiedad o del trabajo en sistemas comunales coercitivos.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5623
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5960
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9426
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9808
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12359
+          }
+        ]
+      },
+      {
+        "name": "Contrato social",
+        "id": "tema-006",
+        "category": "Derechos y filosofía política",
+        "desc": "Discusión de pactos políticos y consentimiento como fundamento del poder.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 2195
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2538
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3239
+          }
+        ]
+      },
+      {
+        "name": "Cooperación obligatoria",
+        "id": "tema-019",
+        "category": "Economía y conflicto social",
+        "desc": "Regímenes de trabajo y colaboración social organizados mediante coerción.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 192
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 828
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1117
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1389
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4938
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6559
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2596
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3503
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9932
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4245
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8617
+          },
+          {
+            "s": "original-postscript",
+            "w": 648
+          },
+          {
+            "s": "original-postscript",
+            "w": 1022
+          }
+        ]
+      },
+      {
+        "name": "Cooperación voluntaria",
+        "id": "tema-018",
+        "category": "Economía y conflicto social",
+        "desc": "Intercambios espontáneos frente a organizaciones impuestas por ley.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 198
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 841
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1396
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6573
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3480
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8611
+          },
+          {
+            "s": "original-postscript",
+            "w": 643
+          },
+          {
+            "s": "original-postscript",
+            "w": 1019
+          }
+        ]
+      },
+      {
+        "name": "Costumbre y derecho consuetudinario",
+        "id": "tema-052",
+        "category": "Evolución social y método",
+        "desc": "Límites a la autoridad impuestos por normas prácticas y precedentes comunitarios.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 2966
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3605
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3846
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7290
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7611
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11429
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5163
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5242
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5340
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5476
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5558
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9804
+          }
+        ]
+      },
+      {
+        "name": "Derecho divino de los reyes",
+        "id": "tema-014",
+        "category": "Instituciones políticas",
+        "desc": "Legitimación religiosa de la autoridad soberana en las monarquías.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 9
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1636
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4197
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10335
+          }
+        ]
+      },
+      {
+        "name": "Derechos individuales",
+        "id": "tema-003",
+        "category": "Derechos y filosofía política",
+        "desc": "Fundamentos y alcance de los derechos individuales frente a las mayorías y los poderes públicos.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 12201
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5371
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9636
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9729
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9843
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10961
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11251
+          }
+        ]
+      },
+      {
+        "name": "Derechos naturales",
+        "id": "tema-004",
+        "category": "Derechos y filosofía política",
+        "desc": "Debate filosófico sobre derechos anteriores o superiores al mandato legislativo.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 3927
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4052
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5120
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6190
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7014
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7353
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8027
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10039
+          }
+        ]
+      },
+      {
+        "name": "Despotismo y absolutismo",
+        "id": "tema-013",
+        "category": "Instituciones políticas",
+        "desc": "Formas autoritarias de gobierno usadas en comparaciones históricas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2350
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5546
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6358
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3450
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8830
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9594
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9867
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1244
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2372
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2811
+          }
+        ]
+      },
+      {
+        "name": "Educación pública",
+        "id": "tema-037",
+        "category": "Gasto público y política social",
+        "desc": "Escuelas y educación financiadas o administradas por municipios.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3398
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3908
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4139
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4707
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4983
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1673
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5117
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5289
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6205
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8439
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10388
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5632
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7032
+          }
+        ]
+      },
+      {
+        "name": "Ética social",
+        "id": "tema-054",
+        "category": "Evolución social y método",
+        "desc": "Fundamento moral de los derechos, la justicia y las reglas sociales.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 918
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10062
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 83
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 274
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 679
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 821
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 947
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1048
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6649
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9052
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9196
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10407
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1086
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1182
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2731
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2806
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6832
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7215
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 7495
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8147
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9956
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10031
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11566
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11970
+          },
+          {
+            "s": "original-postscript",
+            "w": 1280
+          },
+          {
+            "s": "original-postscript",
+            "w": 1933
+          }
+        ]
+      },
+      {
+        "name": "Evolución social",
+        "id": "tema-050",
+        "category": "Evolución social y método",
+        "desc": "Aplicación de conceptos evolutivos al desarrollo de instituciones y costumbres.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 283
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5962
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5970
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10168
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5890
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6176
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10924
+          },
+          {
+            "s": "original-postscript",
+            "w": 101
+          },
+          {
+            "s": "original-postscript",
+            "w": 946
+          }
+        ]
+      },
+      {
+        "name": "Exceso de legislación",
+        "id": "tema-026",
+        "category": "Legislación y consecuencias",
+        "desc": "Crecimiento de leyes, reglamentos y funciones regulatorias.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 73
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1479
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3541
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3812
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4235
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4321
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4475
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5108
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5237
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6748
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3298
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3614
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5500
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5995
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1455
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2565
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2792
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4356
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4440
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5847
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6872
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7009
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11710
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13183
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13576
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13786
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6530
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10981
+          }
+        ]
+      },
+      {
+        "name": "Ferrocarriles",
+        "id": "tema-041",
+        "category": "Trabajo y urbanismo",
+        "desc": "Comparaciones entre sistemas ferroviarios británicos y continentales y control estatal.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 4357
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2306
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3008
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3086
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3717
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5784
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8055
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8138
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8247
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9723
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9796
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4282
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1701
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9238
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9308
+          }
+        ]
+      },
+      {
+        "name": "Filantropía",
+        "id": "tema-036",
+        "category": "Gasto público y política social",
+        "desc": "Distinción entre ayuda voluntaria e intervenciones públicas bienintencionadas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2756
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3139
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4570
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 747
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 944
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6272
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1106
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9838
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1901
+          },
+          {
+            "s": "original-postscript",
+            "w": 1788
+          },
+          {
+            "s": "original-postscript",
+            "w": 1861
+          }
+        ]
+      },
+      {
+        "name": "Fiscalidad e impuestos",
+        "id": "tema-031",
+        "category": "Gasto público y política social",
+        "desc": "Aumento de las cargas fiscales, tributos y contribuciones locales.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 141
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3234
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3314
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3445
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3802
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3927
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4282
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4945
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 779
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1100
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1452
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1945
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2022
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2499
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4959
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7396
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7479
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7830
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7956
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10506
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 372
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3380
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3597
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4361
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11253
+          }
+        ]
+      },
+      {
+        "name": "Gasto público municipal",
+        "id": "tema-032",
+        "category": "Gasto público y política social",
+        "desc": "Crecimiento del gasto local, expansión de servicios y costos comunales.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 1623
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7257
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10465
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10549
+          }
+        ]
+      },
+      {
+        "name": "Gobierno representativo",
+        "id": "tema-007",
+        "category": "Instituciones políticas",
+        "desc": "Papel de los parlamentos y legisladores como representantes de la ciudadanía.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 11
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5568
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13788
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4348
+          }
+        ]
+      },
+      {
+        "name": "Individualismo",
+        "id": "tema-015",
+        "category": "Derechos y filosofía política",
+        "desc": "Perspectiva que prioriza la autonomía de la persona frente a proyectos colectivistas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 6815
+          }
+        ]
+      },
+      {
+        "name": "Legislación coercitiva",
+        "id": "tema-025",
+        "category": "Legislación y consecuencias",
+        "desc": "Normas que obligan a actuar o restringen decisiones privadas.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 123
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1200
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1444
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3540
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4223
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4474
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5026
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5107
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6177
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6370
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6747
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6497
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1196
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2684
+          }
+        ]
+      },
+      {
+        "name": "Ley de Pobres",
+        "id": "tema-034",
+        "category": "Gasto público y política social",
+        "desc": "Sistema británico de socorro parroquial y debates sobre su reforma.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3302
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 663
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 927
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 997
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1362
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1503
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1835
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2498
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4031
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7827
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8022
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10632
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5896
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11211
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13746
+          }
+        ]
+      },
+      {
+        "name": "Liberalismo",
+        "id": "tema-009",
+        "category": "Instituciones políticas",
+        "desc": "Evolución del liberalismo británico desde la limitación del poder hacia políticas coercitivas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 7
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1283
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1464
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 2374
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 2952
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4184
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5130
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5732
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5987
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6083
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6632
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6843
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5140
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10117
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11616
+          }
+        ]
+      },
+      {
+        "name": "Libertad de asociación",
+        "id": "tema-048",
+        "category": "Derechos y filosofía política",
+        "desc": "Asociaciones voluntarias y autonomía organizativa.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 3484
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7563
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13898
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1902
+          }
+        ]
+      },
+      {
+        "name": "Libertad individual",
+        "id": "tema-001",
+        "category": "Derechos y filosofía política",
+        "desc": "Límites a la coacción y capacidad de cada persona para decidir su conducta.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 93
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 975
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1440
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3649
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6376
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6366
+          }
+        ]
+      },
+      {
+        "name": "Libertad política y libertad efectiva",
+        "id": "tema-002",
+        "category": "Derechos y filosofía política",
+        "desc": "Distinción entre formas parlamentarias de libertad y restricciones concretas de la acción individual.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 48
+          }
+        ]
+      },
+      {
+        "name": "Militarismo y guerra",
+        "id": "tema-049",
+        "category": "Instituciones políticas",
+        "desc": "Relación entre guerra, obediencia social y centralización de la autoridad.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 210
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 374
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 961
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2449
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8221
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8752
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9299
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9597
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9845
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 113
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 224
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 340
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 681
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 778
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1057
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4764
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6220
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6528
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9365
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13061
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 695
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 787
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1016
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1286
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2654
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3330
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6340
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6440
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8524
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8606
+          },
+          {
+            "s": "original-postscript",
+            "w": 323
+          },
+          {
+            "s": "original-postscript",
+            "w": 393
+          },
+          {
+            "s": "original-postscript",
+            "w": 491
+          },
+          {
+            "s": "original-postscript",
+            "w": 696
+          },
+          {
+            "s": "original-postscript",
+            "w": 1053
+          },
+          {
+            "s": "original-postscript",
+            "w": 1136
+          }
+        ]
+      },
+      {
+        "name": "Monopolios",
+        "id": "tema-023",
+        "category": "Economía y conflicto social",
+        "desc": "Restricciones legales a la competencia y privilegios de operadores.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 1156
+          }
+        ]
+      },
+      {
+        "name": "Parlamentarismo y mayorías",
+        "id": "tema-008",
+        "category": "Instituciones políticas",
+        "desc": "Concentración de poder y límites de la decisión mayoritaria.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 924
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1489
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3800
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4619
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5348
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3006
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4886
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5487
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5631
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6380
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8016
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1544
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1985
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2184
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2820
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4727
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4925
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5867
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6559
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 8023
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11116
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12031
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12388
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 204
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1613
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1877
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2247
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2441
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2611
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2895
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3122
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3352
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3607
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10109
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10345
+          }
+        ]
+      },
+      {
+        "name": "Pecados de los legisladores",
+        "id": "tema-028",
+        "category": "Legislación y consecuencias",
+        "desc": "Errores de diagnóstico, incentivos y falta de experiencia de quienes dictan leyes.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 784
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 648
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2539
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2997
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3093
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 471
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 555
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 645
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1163
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1367
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2242
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6447
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6977
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11403
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11997
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1651
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 10484
+          }
+        ]
+      },
+      {
+        "name": "Pobreza y pauperismo",
+        "id": "tema-035",
+        "category": "Gasto público y política social",
+        "desc": "Causas y consecuencias de la indigencia, la beneficencia y el pauperismo.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 1166
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2538
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7991
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10407
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9589
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13931
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 14018
+          }
+        ]
+      },
+      {
+        "name": "Precios y regulación económica",
+        "id": "tema-024",
+        "category": "Economía y conflicto social",
+        "desc": "Control de precios, tarifas, tasas y consecuencias económicas imprevistas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3234
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3314
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3407
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3927
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4282
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4995
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 779
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 998
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1100
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2034
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2197
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2499
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7510
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7659
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7830
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7956
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9003
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1837
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2037
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4364
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6814
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7968
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11253
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3598
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6561
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9141
+          }
+        ]
+      },
+      {
+        "name": "Propiedad privada",
+        "id": "tema-020",
+        "category": "Economía y conflicto social",
+        "desc": "Derecho de propiedad, confiscación, tierra y tensiones redistributivas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 12006
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5443
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8010
+          }
+        ]
+      },
+      {
+        "name": "Propiedad territorial",
+        "id": "tema-021",
+        "category": "Economía y conflicto social",
+        "desc": "Tenencia de tierras, rentas, cultivos y propuestas sobre propiedad del suelo.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3894
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4551
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 896
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5672
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5750
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6628
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7378
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7474
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7691
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7795
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7866
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7984
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8386
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10588
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3055
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3253
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3980
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2008
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 3515
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 5516
+          }
+        ]
+      },
+      {
+        "name": "Responsabilidad individual",
+        "id": "tema-055",
+        "category": "Evolución social y método",
+        "desc": "Relación entre comportamiento personal, incentivos y costos sociales de las decisiones.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 689
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9004
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 12808
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8911
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 9762
+          },
+          {
+            "s": "original-postscript",
+            "w": 1958
+          }
+        ]
+      },
+      {
+        "name": "Salarios",
+        "id": "tema-043",
+        "category": "Trabajo y urbanismo",
+        "desc": "Intervención sobre remuneraciones y efectos de regulaciones del mercado de trabajo.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 156
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4204
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4397
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 5057
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 301
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1039
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1359
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1569
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1779
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1868
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1938
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2012
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2089
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2764
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5825
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1891
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6559
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 6865
+          }
+        ]
+      },
+      {
+        "name": "Salud pública y vacunación",
+        "id": "tema-038",
+        "category": "Gasto público y política social",
+        "desc": "Regulación sanitaria, medidas de vacunación y controversias sobre su administración.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3035
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3307
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3424
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3717
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4045
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2837
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3659
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7605
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7807
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2780
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3192
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3292
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4881
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5046
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5588
+          }
+        ]
+      },
+      {
+        "name": "Seguridad industrial",
+        "id": "tema-046",
+        "category": "Trabajo y urbanismo",
+        "desc": "Incendios, riesgos edilicios y seguridad de instalaciones.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3686
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1519
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5186
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10936
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13588
+          }
+        ]
+      },
+      {
+        "name": "Selección natural",
+        "id": "tema-051",
+        "category": "Evolución social y método",
+        "desc": "Referencias metodológicas al darwinismo y al cambio biológico.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 10134
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 344
+          }
+        ]
+      },
+      {
+        "name": "Sindicatos y huelgas",
+        "id": "tema-044",
+        "category": "Trabajo y urbanismo",
+        "desc": "Conflictos colectivos, organizaciones obreras y huelgas industriales.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 5345
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1961
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3485
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5049
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8744
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9572
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 9152
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 11805
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 8101
+          }
+        ]
+      },
+      {
+        "name": "Soberanía y poder supremo",
+        "id": "tema-005",
+        "category": "Derechos y filosofía política",
+        "desc": "Crítica de la idea de soberanía ilimitada, del monarca o de la asamblea.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 9608
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 631
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1234
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1377
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1449
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 1534
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2706
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 2961
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4283
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4374
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4684
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4825
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 4942
+          }
+        ]
+      },
+      {
+        "name": "Socialismo",
+        "id": "tema-016",
+        "category": "Economía y conflicto social",
+        "desc": "Crítica de los proyectos socialistas y del desplazamiento de decisiones al Estado.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 6816
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5720
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5927
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6951
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7352
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8456
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8931
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9389
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9690
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9761
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9862
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10185
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10437
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2131
+          }
+        ]
+      },
+      {
+        "name": "Subsidios y asistencia pública",
+        "id": "tema-033",
+        "category": "Gasto público y política social",
+        "desc": "Ayuda estatal a grupos desfavorecidos y sus efectos sobre autonomía e incentivos.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3666
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1183
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2468
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4044
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7874
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7950
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5920
+          }
+        ]
+      },
+      {
+        "name": "Toryismo y conservadurismo",
+        "id": "tema-010",
+        "category": "Instituciones políticas",
+        "desc": "Partidos conservadores británicos y tesis del «nuevo toryismo».",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 9
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 305
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 405
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 635
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1115
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 2950
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6205
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6361
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6450
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6638
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6727
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 6808
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 9944
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 150
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 416
+          }
+        ]
+      },
+      {
+        "name": "Trabajo industrial",
+        "id": "tema-042",
+        "category": "Trabajo y urbanismo",
+        "desc": "Regulación de las fábricas, condiciones de empleo y límites a la jornada.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 1241
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 2742
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3124
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3209
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3294
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3552
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3949
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4407
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4674
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1149
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2062
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2670
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3633
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 4586
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 5806
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7323
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10341
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 1898
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5132
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 6643
+          }
+        ]
+      },
+      {
+        "name": "Urbanismo y construcción",
+        "id": "tema-040",
+        "category": "Trabajo y urbanismo",
+        "desc": "Normas edilicias, impuestos de ventanas, drenajes y obstáculos a la construcción.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 3339
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3433
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3596
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5579
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5680
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13604
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13689
+          }
+        ]
+      },
+      {
+        "name": "Vivienda obrera",
+        "id": "tema-039",
+        "category": "Trabajo y urbanismo",
+        "desc": "Condiciones de vivienda, demoliciones, alquileres e intervención municipal.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2832
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 3758
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4404
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4532
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4990
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1633
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1916
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2552
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 2901
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3651
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3991
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 6994
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7132
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7204
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 7284
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 8388
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2947
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3033
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3252
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3423
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3644
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3769
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4114
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4204
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4375
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 4451
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 5761
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 7546
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11092
+          }
+        ]
+      },
+      {
+        "name": "Whigs",
+        "id": "tema-011",
+        "category": "Instituciones políticas",
+        "desc": "Trayectoria del antiguo partido whig y su relación con las libertades públicas.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 307
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 403
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 507
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 619
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 752
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 872
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1037
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 1111
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 417
+          }
+        ]
+      }
+    ],
+    "index-works": [
+      {
+        "name": "A Mission to Gelele, King of Dahome",
+        "id": "work-036",
+        "author": "Richard F. Burton",
+        "year": "1864",
+        "desc": "Relato de Burton sobre el reino de Dahomey, usado como referencia a formas de autoridad.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11712
+          }
+        ]
+      },
+      {
+        "name": "Address of C. B. Vignoles to the Institution of Civil Engineers",
+        "id": "work-056",
+        "author": "Charles Blacker Vignoles",
+        "year": "1869–1870",
+        "desc": "Intervención presidencial sobre ingeniería civil y experiencia ferroviaria, citada con número de página.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11946
+          }
+        ]
+      },
+      {
+        "name": "Ashantee and the Gold Coast",
+        "id": "work-046",
+        "author": "John Beecham",
+        "year": "1841",
+        "desc": "Fuente británica sobre el pueblo asante y la Costa de Oro.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11826
+          }
+        ]
+      },
+      {
+        "name": "Ceylon and the Cingalese",
+        "id": "work-055",
+        "author": "Henry Charles Sirr",
+        "year": "1850",
+        "desc": "Obra sobre Ceilán citada con errata en la palabra «Ceyonese».",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11939
+          }
+        ]
+      },
+      {
+        "name": "Ceylon: An Account of the Island",
+        "id": "work-050",
+        "author": "James Emerson Tennent",
+        "year": "1859",
+        "desc": "Estudio de Ceilán usado para ilustrar normas y autoridad en sociedades tradicionales.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11872
+          }
+        ]
+      },
+      {
+        "name": "Collected Works (Hobbes)",
+        "id": "work-032",
+        "author": "Thomas Hobbes",
+        "year": "Edición siglo XIX",
+        "desc": "Colección editorial de textos de Hobbes citada por volumen; no se identifica un solo tratado en la nota.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11653
+          }
+        ]
+      },
+      {
+        "name": "Constitutional History of England",
+        "id": "work-014",
+        "author": "Thomas Erskine May",
+        "year": "1861–1863",
+        "desc": "Historia constitucional que Spencer cita al examinar reformas agrarias y cerealistas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13516
+          }
+        ]
+      },
+      {
+        "name": "Contemporary Review",
+        "id": "work-003",
+        "author": "Revista colectiva",
+        "year": "1884",
+        "desc": "Revista británica donde aparecieron los cuatro ensayos que dieron origen a The Man versus the State.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 251
+          }
+        ]
+      },
+      {
+        "name": "Daily Life and the Origin of the Tasmanians",
+        "id": "work-051",
+        "author": "James Bonwick",
+        "year": "1870",
+        "desc": "Estudio de los pueblos aborígenes de Tasmania utilizado en notas etnográficas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11884
+          }
+        ]
+      },
+      {
+        "name": "Expedition to the Sources of the Mississippi River",
+        "id": "work-047",
+        "author": "Henry Rowe Schoolcraft",
+        "year": "1832",
+        "desc": "Exploración de Schoolcraft, citada respecto a comunidades indígenas norteamericanas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11836
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11919
+          }
+        ]
+      },
+      {
+        "name": "Fire Surveys",
+        "id": "work-021",
+        "author": "Autor no verificado",
+        "year": "Siglo XIX",
+        "desc": "Manual de inspección y evaluación de riesgo de edificios citado respecto de prevención y normativas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13588
+          }
+        ]
+      },
+      {
+        "name": "Fortnightly Review",
+        "id": "work-009",
+        "author": "Revista colectiva",
+        "year": "1865 en adelante",
+        "desc": "Revista inglesa citada repetidamente en artículos contemporáneos y testimonios.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10334
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10428
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10594
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 14032
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11679
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11931
+          }
+        ]
+      },
+      {
+        "name": "Geographical and Historical Dictionary of America",
+        "id": "work-040",
+        "author": "Antonio de Alcedo; citado vía G. A. Thompson",
+        "year": "1786–1789",
+        "desc": "Diccionario de historia y geografía americana citado en versión o edición inglesa.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11767
+          }
+        ]
+      },
+      {
+        "name": "Hansard's Parliamentary History",
+        "id": "work-011",
+        "author": "Edición parlamentaria",
+        "year": "siglo XIX",
+        "desc": "Recopilación de debates parlamentarios británicos citada con volumen y página.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10327
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13635
+          }
+        ]
+      },
+      {
+        "name": "History of British Commerce",
+        "id": "work-019",
+        "author": "George Lillie Craik",
+        "year": "1844",
+        "desc": "Historia comercial británica utilizada para examinar regulaciones del pasado.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13549
+          }
+        ]
+      },
+      {
+        "name": "History of Java",
+        "id": "work-044",
+        "author": "Thomas Stamford Raffles",
+        "year": "1817",
+        "desc": "Obra sobre Java y las costumbres de sus comunidades, citada por Spencer.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11809
+          }
+        ]
+      },
+      {
+        "name": "History of Madagascar",
+        "id": "work-043",
+        "author": "William Ellis",
+        "year": "1838",
+        "desc": "Fuente citada sobre la organización tradicional de Madagascar.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11799
+          }
+        ]
+      },
+      {
+        "name": "History of the Conquest of Peru",
+        "id": "work-034",
+        "author": "William H. Prescott",
+        "year": "1847",
+        "desc": "Historia de la conquista del Perú utilizada en comparaciones sobre el gobierno inca.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11696
+          }
+        ]
+      },
+      {
+        "name": "History of the English Poor Law",
+        "id": "work-022",
+        "author": "George Nicholls",
+        "year": "1854",
+        "desc": "Estudio de la legislación de pobres inglesa y sus consecuencias.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13743
+          }
+        ]
+      },
+      {
+        "name": "History of the Rise and Influence of the Spirit of Rationalism in Europe",
+        "id": "work-015",
+        "author": "William E. H. Lecky",
+        "year": "1865",
+        "desc": "Referencia resumida a una obra de Lecky sobre evolución de creencias y cultura europeas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13524
+          }
+        ]
+      },
+      {
+        "name": "Kolff's Voyage of the Dourga",
+        "id": "work-048",
+        "author": "Dirk Hendrik Kolff; edición de George Windsor Earl",
+        "year": "Siglo XIX",
+        "desc": "Fuente sobre islas de Indonesia, citada con transcripción defectuosa «Domga»; verificar el título del buque.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11848
+          }
+        ]
+      },
+      {
+        "name": "L'Ancien Régime et la Révolution / L'Ancien Régime",
+        "id": "work-016",
+        "author": "Hippolyte Taine",
+        "year": "1875–1893",
+        "desc": "Referencia abreviada al estudio de Taine sobre el Antiguo Régimen francés; verificar título y tomo exactos.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10609
+          }
+        ]
+      },
+      {
+        "name": "On the Value of Political Economy to Mankind",
+        "id": "work-023",
+        "author": "A. N. Cummings",
+        "year": "Fecha no determinada",
+        "desc": "Trabajo citado por la utilidad social del pensamiento económico y sus principios.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13808
+          }
+        ]
+      },
+      {
+        "name": "Over-Legislation",
+        "id": "work-027",
+        "author": "Herbert Spencer",
+        "year": "1853",
+        "desc": "Ensayo de Spencer sobre exceso de normas y efectos secundarios de la legislación.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13786
+          }
+        ]
+      },
+      {
+        "name": "Pall Mall Gazette",
+        "id": "work-013",
+        "author": "Redacción del periódico",
+        "year": "1865 en adelante",
+        "desc": "Periódico británico, citado a propósito de educación y expectativas socialistas.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 5319
+          }
+        ]
+      },
+      {
+        "name": "Parliamentary Reform: The Dangers and the Safeguards",
+        "id": "work-001",
+        "author": "Herbert Spencer",
+        "year": "1860",
+        "desc": "Ensayo anterior de Spencer sobre los riesgos de extender el sufragio sin garantías efectivas de libertad.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 11
+          }
+        ]
+      },
+      {
+        "name": "Political Institutions",
+        "id": "work-025",
+        "author": "Herbert Spencer",
+        "year": "1882",
+        "desc": "Sección/volumen de The Principles of Sociology que Spencer remite en una nota de autor.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2083
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13495
+          }
+        ]
+      },
+      {
+        "name": "Polynesia (referencia abreviada)",
+        "id": "work-052",
+        "author": "Autor no verificado",
+        "year": "Siglo XIX",
+        "desc": "Cita de obra sobre Polinesia sin autor explícito en la transcripción.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11894
+          }
+        ]
+      },
+      {
+        "name": "Representative Government: What Is It Good For?",
+        "id": "work-028",
+        "author": "Herbert Spencer",
+        "year": "1857",
+        "desc": "Ensayo anterior de Spencer sobre representación parlamentaria.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13788
+          }
+        ]
+      },
+      {
+        "name": "Russia",
+        "id": "work-007",
+        "author": "Donald Mackenzie Wallace",
+        "year": "1877",
+        "desc": "Libro de observación y análisis del Imperio ruso; se usa para describir las dependencias burocráticas.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10433
+          }
+        ]
+      },
+      {
+        "name": "Short History of the English People",
+        "id": "work-004",
+        "author": "John Richard Green",
+        "year": "1874",
+        "desc": "Historia popular de Inglaterra, citada para contextualizar la relación histórica entre whigs y tories.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 932
+          }
+        ]
+      },
+      {
+        "name": "Siberian Overland Route",
+        "id": "work-041",
+        "author": "Alexander Mitchell (atribución por comprobar)",
+        "year": "Siglo XIX",
+        "desc": "Referencia sobre Siberia citada en nota abreviada.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11781
+          }
+        ]
+      },
+      {
+        "name": "Social Statics",
+        "id": "work-005",
+        "author": "Herbert Spencer",
+        "year": "1851",
+        "desc": "Obra anterior de Spencer sobre justicia, derechos individuales y límites de la acción gubernamental.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10290
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3310
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3489
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10063
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13782
+          }
+        ]
+      },
+      {
+        "name": "Socialism Made Plain",
+        "id": "work-008",
+        "author": "Autor/firmante no confirmado",
+        "year": "1884",
+        "desc": "Folleto de discusión socialista referido en nota, con dirección editorial en Fleet Street.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10437
+          }
+        ]
+      },
+      {
+        "name": "Specialized Administration",
+        "id": "work-029",
+        "author": "Herbert Spencer",
+        "year": "1871",
+        "desc": "Ensayo sobre burocracia y administración especializada, citado entre precedentes propios.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13791
+          }
+        ]
+      },
+      {
+        "name": "Ten Years in Sarawak",
+        "id": "work-042",
+        "author": "Charles Brooke",
+        "year": "1866",
+        "desc": "Obra de Charles Brooke sobre Sarawak; la transcripción contiene «Sardwak».",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11789
+          }
+        ]
+      },
+      {
+        "name": "The Data of Ethics",
+        "id": "work-030",
+        "author": "Herbert Spencer",
+        "year": "1879",
+        "desc": "Libro de Spencer sobre fundamentos de la ética; citado en notas de teoría política.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11968
+          }
+        ]
+      },
+      {
+        "name": "The Highlands of Æthiopia",
+        "id": "work-035",
+        "author": "William Cornwallis Harris",
+        "year": "1844",
+        "desc": "Relato de las tierras altas de Etiopía y de una misión diplomática; la nota presenta título abreviado.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11705
+          }
+        ]
+      },
+      {
+        "name": "The History of Sumatra",
+        "id": "work-045",
+        "author": "William Marsden",
+        "year": "1783",
+        "desc": "Fuente sobre Sumatra y su derecho consuetudinario.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11818
+          }
+        ]
+      },
+      {
+        "name": "The Jukes: A Study in Crime, Pauperism, Disease and Heredity",
+        "id": "work-024",
+        "author": "Richard L. Dugdale",
+        "year": "1877",
+        "desc": "Estudio genealógico y social sobre una familia de Estados Unidos; sus hipótesis deben leerse con cautela histórica.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 14013
+          }
+        ]
+      },
+      {
+        "name": "The Methods of Jurisprudence",
+        "id": "work-049",
+        "author": "Frederick Pollock",
+        "year": "1882",
+        "desc": "Conferencia de Pollock sobre métodos de jurisprudencia, pronunciada en University College de Londres.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11857
+          }
+        ]
+      },
+      {
+        "name": "The Nineteenth Century",
+        "id": "work-012",
+        "author": "Revista colectiva",
+        "year": "1877 en adelante",
+        "desc": "Publicación periódica citada por sus materiales sobre política, gasto y legislación.",
+        "occ": [
+          {
+            "s": "original-coming-slavery",
+            "w": 10589
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13568
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13734
+          }
+        ]
+      },
+      {
+        "name": "The Province of Jurisprudence Determined",
+        "id": "work-031",
+        "author": "John Austin",
+        "year": "1832",
+        "desc": "Obra clásica de positivismo jurídico y teoría del soberano, debatida por Spencer.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11669
+          }
+        ]
+      },
+      {
+        "name": "The State in its Relation to Trade",
+        "id": "work-006",
+        "author": "Thomas Henry Farrer",
+        "year": "1883",
+        "desc": "Ensayo sobre las funciones del Estado en comercio, regulación y ferrocarriles.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13617
+          }
+        ]
+      },
+      {
+        "name": "The State of Society in France before the Revolution",
+        "id": "work-017",
+        "author": "Alexis de Tocqueville",
+        "year": "1856",
+        "desc": "Título de la traducción inglesa de El Antiguo Régimen y la Revolución que Spencer cita explícitamente.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13531
+          }
+        ]
+      },
+      {
+        "name": "The Statistics of Legislation",
+        "id": "work-020",
+        "author": "Frederick H. Janson",
+        "year": "1873",
+        "desc": "Estudio cuantitativo de producción legislativa inglesa; aparece en la transcripción con errata Jansen.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13574
+          }
+        ]
+      },
+      {
+        "name": "The Study of Sociology",
+        "id": "work-026",
+        "author": "Herbert Spencer",
+        "year": "1873",
+        "desc": "Obra de Spencer sobre métodos y problemas del estudio científico de la sociedad.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13508
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13793
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13691
+          }
+        ]
+      },
+      {
+        "name": "The Times",
+        "id": "work-010",
+        "author": "Redacción del periódico",
+        "year": "siglo XIX",
+        "desc": "Periódico londinense citado para noticias y casos sobre administración, sanidad y legislación.",
+        "occ": [
+          {
+            "s": "original-new-toryism",
+            "w": 2669
+          },
+          {
+            "s": "original-new-toryism",
+            "w": 4433
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1402
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 1504
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 3907
+          },
+          {
+            "s": "original-coming-slavery",
+            "w": 10357
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 688
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 2474
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3485
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 10252
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13607
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13753
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3514
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13652
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 13651
+          },
+          {
+            "s": "original-sins-legislators",
+            "w": 3512
+          }
+        ]
+      },
+      {
+        "name": "The Westminster Review",
+        "id": "work-002",
+        "author": "Revista colectiva",
+        "year": "siglo XIX",
+        "desc": "Publicación periódica donde apareció el ensayo de Spencer sobre reforma parlamentaria.",
+        "occ": [
+          {
+            "s": "original-preface",
+            "w": 1
+          }
+        ]
+      },
+      {
+        "name": "The Works of Jeremy Bentham",
+        "id": "work-033",
+        "author": "Jeremy Bentham; editor John Bowring",
+        "year": "1838–1843",
+        "desc": "Edición de los escritos de Bentham utilizada por Spencer para discutir la fuente de derechos.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11688
+          },
+          {
+            "s": "original-great-superstition",
+            "w": 11722
+          }
+        ]
+      },
+      {
+        "name": "Travels and Adventures in Southern Africa",
+        "id": "work-039",
+        "author": "George Thompson",
+        "year": "1827",
+        "desc": "Fuente sobre el África austral citada en nota.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11754
+          }
+        ]
+      },
+      {
+        "name": "Travels in France",
+        "id": "work-018",
+        "author": "Arthur Young",
+        "year": "1792–1794",
+        "desc": "Observaciones de Arthur Young sobre Francia y el comercio de productos agrícolas.",
+        "occ": [
+          {
+            "s": "original-sins-legislators",
+            "w": 13543
+          }
+        ]
+      },
+      {
+        "name": "Travels in the Interior of Southern Africa",
+        "id": "work-037",
+        "author": "William John Burchell",
+        "year": "1822–1824",
+        "desc": "Fuente de viajes por África austral utilizada en las notas sobre costumbres.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11731
+          }
+        ]
+      },
+      {
+        "name": "Travels on the Amazon and Rio Negro",
+        "id": "work-054",
+        "author": "Alfred Russel Wallace",
+        "year": "1853",
+        "desc": "Viajes de Wallace en la cuenca amazónica y el río Negro, citados en nota.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11909
+          }
+        ]
+      },
+      {
+        "name": "Voyage of Exploration (Arbousset y Daumas)",
+        "id": "work-038",
+        "author": "Thomas Arbousset y François Daumas",
+        "year": "Siglo XIX",
+        "desc": "Fuente misionera de exploraciones del África austral; título abreviado en las notas.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11746
+          }
+        ]
+      },
+      {
+        "name": "Voyages of the Adventure and Beagle",
+        "id": "work-053",
+        "author": "Exploradores británicos; autoría editorial por verificar",
+        "year": "1839",
+        "desc": "Relato de expediciones navales británicas, citado por observaciones de pueblos patagónicos.",
+        "occ": [
+          {
+            "s": "original-great-superstition",
+            "w": 11898
+          }
+        ]
+      }
+    ]
+  }
+}

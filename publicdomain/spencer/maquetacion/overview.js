@@ -41,6 +41,7 @@ function infoFor(page,plan){
  if(item.blank)return {page,blank:true,title:item.name,text:'',isReal:false,section:'',index:page-item.start};
  const index=page-item.start;
  if(item.opening)return {page,blank:false,opening:true,openingSide:index===0?'verso':'recto',openingKind:item.openingKind,chapterTitle:item.chapterTitle,ordinal:item.ordinal,title:item.name,section:item.id,index,isReal:false,text:'',totalInSection:2};
+ if(['index-onomastic','index-analytic','index-works'].includes(item.id)&&window.S23Indices?.ready(item.id))return {page,blank:false,title:item.name,section:item.id,index,idx:true,isReal:true,text:window.S23Indices.plain(item.id,index)};
  const segment=chunkFor(item.id,index,item.pages);
  return {page,blank:false,title:item.name,section:item.id,index,segment,isReal:!!segment,text:segment?.html||'',totalInSection:item.pages};
 }
@@ -48,7 +49,8 @@ function snippet(info,limit=180){return info.isReal?info.text.slice(0,limit):(in
 function cardFor(i,plan,config){
  const info=infoFor(i,plan),isBlank=info.blank,isPlate=info.section==='plates',isTitle=['half','title'].includes(info.section);
  let body='';
- if(info.opening){
+ if(info.idx)body='<div class="thumb-index"><strong>'+esc(info.title)+'</strong><span>'+esc(info.text.slice(0,170))+'</span></div>';
+ else if(info.opening){
   const roman=info.openingKind==='notes'?'§':['I','II','III','IV'][info.ordinal-1]||String(info.ordinal||'');
   body='<div class="thumb-opening"><span>'+(info.openingKind==='notes'?'APARATO CRÍTICO':'SPENCER · 1884')+'</span><strong>'+esc(info.openingSide==='verso'?roman:info.chapterTitle)+'</strong><i></i></div>';
  }else if(!isBlank){
@@ -56,7 +58,7 @@ function cardFor(i,plan,config){
  }
  const openingClass=info.opening?' opening '+(info.openingSide==='verso'?' opening-left':' opening-right'):'';
  const thumb='<div class="thumb-page'+(isBlank?' blank':'')+openingClass+'"><span class="thumb-running">'+esc(info.opening?'APERTURA EDITORIAL':info.title)+'</span>'+(info.index===0&&!isBlank&&!isTitle&&!info.opening?'<h4>'+esc(info.title)+'</h4>':'')+body+'<span class="thumb-number">'+i+'</span></div>';
- const subtitle=info.opening?'Pliego de apertura · '+(info.openingSide==='verso'?'izquierda':'derecha'):(info.isReal?'Texto importado · '+formatNum(info.segment?.start)+'–'+formatNum(info.segment?.end)+' palabras':(isBlank?'Blanco de composición':'Texto pendiente de importar'));
+ const subtitle=info.idx?'Índice real · entradas paginadas':info.opening?'Pliego de apertura · '+(info.openingSide==='verso'?'izquierda':'derecha'):(info.isReal?'Texto importado · '+formatNum(info.segment?.start)+'–'+formatNum(info.segment?.end)+' palabras':(isBlank?'Blanco de composición':'Texto pendiente de importar'));
  return '<button type="button" class="thumb-card'+(isBlank?' blank':'')+(info.isReal?' real':'')+(info.opening?' opener':'')+'" data-page="'+i+'" aria-current="'+String(i===selected)+'" aria-label="Abrir página '+i+', '+esc(info.title)+'"><span class="thumb-meta">PÁGINA '+i+'</span>'+thumb+'<span class="thumb-sub" title="'+esc(info.title)+'">'+esc(info.title)+'</span><span class="thumb-state">'+esc(subtitle)+'</span></button>';
 }
 function paintGrid(){
@@ -92,6 +94,7 @@ function openingPage(info){
 function pageContent(info){
  const state=api.getState();
  if(info.opening)return openingPage(info);
+ if(info.idx)return window.S23Indices.render(info.section,info.index,api.getPlan());
  if(info.blank)return '<div class="frontmatter"><span class="edition" style="color:#a2aaa0">'+esc(info.title)+'</span></div>';
  if(info.isReal){
   const first=info.index===0&&/^original-(new-toryism|coming-slavery|sins-legislators|great-superstition)$/.test(info.section);
@@ -117,7 +120,8 @@ function fullTexts(page){
  for(const n of [left,right]){
   const info=infoFor(n,plan);
   out+='<article><strong>Página '+(n<1?'—':n)+' · '+esc(info.title)+'</strong>';
-  if(info.segment)out+='<small>Palabras '+formatNum(info.segment.start)+'–'+formatNum(info.segment.end)+' / '+formatNum(info.segment.count)+'</small>';
+  if(info.idx)out+='<small>Fichas completas del archivo · folios orientativos</small>';
+   if(info.segment)out+='<small>Palabras '+formatNum(info.segment.start)+'–'+formatNum(info.segment.end)+' / '+formatNum(info.segment.count)+'</small>';
   out+='<div class="full-text-body">'+esc(info.isReal?info.text:(info.blank?'Blanco intencional de composición.':info.opening?'Pliego de apertura tipográfica, sin texto del original.':'Todavía no hay texto importado para esta sección.'))+'</div></article>';
  }
  return out+'</div></section>';
@@ -224,6 +228,7 @@ $('#removeManuscript').addEventListener('click',()=>{
  if(!confirm('¿Quitar el texto de la sección '+id+'? Se perderá la vista real de sus páginas.'))return;
  api.putSectionText(id,'');$('#manuscriptPaste').value='';refresh();
 });
+document.querySelectorAll('[data-index-jump]').forEach(b=>b.addEventListener('click',()=>{const section=api.getPlan().items.find(x=>x.id===b.dataset.indexJump);if(section)setMode('sheet',section.start);}));
 $('.view-switch').addEventListener('click',e=>{
  const button=e.target.closest('[data-view]');if(!button)return;
  if(button.dataset.view==='overview'||button.dataset.view==='sheet'){

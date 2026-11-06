@@ -91,3 +91,9 @@ El original se importa automáticamente en seis secciones, puede leerse en la gr
 - Cuerpo de lectura Georgia 10,5 pt, interlínea 1,44, menor separación entre párrafos, capitulares en inicio de ensayo, y preset clásico editable (márgenes 24/18/23/22 mm).
 - Controles guardados en configuración local y exportación JSON. Las configuraciones antiguas reciben los controles nuevos sin perder textos importados.
 - La impresión sigue siendo una **prueba tipográfica**, no un PDF/X ni la paginación final de imprenta. Ajustar partición de párrafos, viudas/huérfanas, notas y licencia tipográfica al cerrar edición.
+
+## M05: índices poblados (2026-11-05)
+
+Los índices ahora contienen **86 semblanzas**, **53 temas** y **56 obras citadas**, obtenidos de los datasets ya presentes en este repositorio. Cinco personajes cuentan con retrato histórico: Jeremy Bentham, Charles Darwin, Thomas Hobbes, Alexis de Tocqueville y Otto von Bismarck. La imagen de cada retrato remite a su ficha en Wikimedia Commons; se requiere verificación de derechos para Argentina y descarga de alta resolución antes de imprimir.
+
+`indices-editoriales.json` se carga con `indices-loader.js` y el medidor `indices-layout.js`: calcula la altura de cada ficha según los parámetros tipográficos activos, evita dividir cada semblanza entre dos páginas y suma el recuento al plan del volumen. Sigue siendo **maquetación en navegador**, no PDF de producción. Todas las referencias de página son provisionales y se actualizarán al cerrar traducción y galeradas. El texto original en inglés queda intacto.

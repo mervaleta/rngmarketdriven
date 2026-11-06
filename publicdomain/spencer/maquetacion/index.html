@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#162328">
 <meta name="description" content="Estudio interactivo de maquetación para la edición crítica de El individuo contra el Estado de Herbert Spencer: cubierta, páginas, márgenes, tipografía, extras y paginación orientativa.">
 <title>Maquetación · Herbert Spencer — Editorial Siglo23</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"><link rel="stylesheet" href="./editor.css?v=1.4.0">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"><link rel="stylesheet" href="./editor.css?v=1.5.0">
 <style>
 .view-switch{max-width:min(100%,900px);overflow-x:auto;scrollbar-width:thin;scrollbar-color:#84928a #1c2d30}
 .view-switch button{white-space:nowrap;flex:none}
@@ -24,14 +24,14 @@
     <a href="../">← Dossier de Spencer</a>
     <a href="../indice-onomastico/">Onomástico</a><a href="../indice-toponimico/">Toponímico</a><a href="../indice-analitico/">Analítico</a><a href="../indice-obras/">Obras citadas</a>
     <a href="../../">Panel editorial</a>
-    <span class="status">PREPRODUCCIÓN · V1.4</span>
+    <span class="status">PREPRODUCCIÓN · V1.5</span>
     <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
   </div>
 </header>
 <div class="titlebar">
   <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
     <p>El libro completo en pliegos, con aperturas de capítulo a doble página, separador para notas y ajustes finos de lectura y tipografía.</p></div>
-  <span class="version">M04 · APERTURAS TIPOGRÁFICAS</span>
+  <span class="version">M05 · ÍNDICES EDITORIALES REALES</span>
 </div>
 <div class="app-intro-note">La grilla incluye automáticamente la <strong>transcripción completa en inglés de 1884</strong>, dividida en prefacio, cuatro ensayos y posdata. Los extras mantienen sus estimaciones. La distribución tipográfica sigue siendo aproximada. Los ejemplos textuales y folios son ilustrativos.</div>
 <div class="workspace">
@@ -137,7 +137,7 @@
         <button data-view="chapter" type="button" aria-pressed="false">Apertura de capítulo</button>
         <button data-view="body" type="button" aria-pressed="false">Texto</button>
         <button data-view="plates" type="button" aria-pressed="false">Lámina</button>
-        <button data-view="notes" type="button" aria-pressed="false">Apertura de notas</button>
+        <button data-view="notes" type="button" aria-pressed="false">Apertura de notas</button><button data-index-jump="index-onomastic" type="button">Onomástico</button><button data-index-jump="index-analytic" type="button">Temático</button><button data-index-jump="index-works" type="button">Obras citadas</button>
         <button data-view="chronology" type="button" aria-pressed="false">Cronología</button>
         <button data-view="afterword" type="button" aria-pressed="false">Epílogo</button>
       </div>
@@ -173,7 +173,7 @@
     <label class="wide-label">Palabras del original inglés (recuento automático)
       <input id="words" type="number" min="0" max="1000000" step="1" value="0" readonly title="Recuento real de palabras del texto de 1884">
     </label>
-    <p class="help">El recuento viene de la transcripción de 1884 (prefacio, cuatro ensayos y posdata). Los demás apartados conservan páginas estimadas. <span id="originalTextStatus" role="status" style="display:block;margin-top:6px;color:#ecd8a7">Cargando el original…</span></p>
+    <p class="help">El recuento viene de la transcripción de 1884 (prefacio, cuatro ensayos y posdata). Los tres índices se llenan de textos reales y se miden según la maqueta; otros extras conservan páginas estimadas. <span id="originalTextStatus" role="status" style="display:block;margin-top:6px;color:#ecd8a7">Cargando el original…</span></p>
     <fieldset class="import-group">
  <legend>Textos reales de cada sección</legend>
  <label class="wide-label">Sección a revisar<select id="importSection" aria-label="Sección a la que se asignará el texto"></select></label>
@@ -182,7 +182,7 @@
  <div class="block-actions"><button id="applyManuscript" type="button">Aplicar texto</button><button id="removeManuscript" type="button">Borrar texto de sección</button></div>
  <p id="manuscriptStatus" class="help" role="status">El inglés original se carga automáticamente; también podés importar o pegar traducciones y materiales complementarios.</p>
  </fieldset>
- <div class="warning" id="geometryWarning" hidden role="alert"></div><div class="warning" id="originalEvidence" hidden></div>
+ <p class="help" role="status" id="indicesStatus">Cargando las 86 biografías, 53 temas y 56 obras…</p><label class="checkline"><input id="indexPortraits" type="checkbox" checked> Incluir retratos históricos en el índice onomástico</label><div class="warning" id="geometryWarning" hidden role="alert"></div><div class="warning" id="originalEvidence" hidden></div>
  <div class="metrics">
       <div class="metric"><strong id="metricPages">—</strong><span>Páginas interiores estimadas</span></div>
       <div class="metric"><strong id="metricMain">—</strong><span>Páginas de texto principal</span></div>
@@ -208,6 +208,6 @@
     <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
   </aside>
 </div>
-<script src="./editor.js?v=1.4.0" defer></script><script src="./overview.js?v=1.4.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script>
+<script src="./editor.js?v=1.5.0" defer></script><script src="./overview.js?v=1.5.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script><script src="./indices-layout.js?v=1.5.0" defer></script><script src="./indices-loader.js?v=1.5.0" defer></script>
 </body>
 </html>
