@@ -2,12 +2,12 @@
   "collection": "El individuo y el poder",
   "project": "Editorial Siglo23",
   "released": "2026-11-06",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "status": "candidatos, no aprobaciones de publicación",
   "lead": "Herbert Spencer: El individuo contra el Estado (1884)",
   "principal_url": "../../spencer/",
   "legal_note": "Dominio público de los textos originales sujeto a revisión por territorio; se conservan derechos de traducciones, aparatos críticos y ediciones posteriores. Proyecto Gutenberg tiene condiciones de uso y marca; revisar antes de redistribución comercial.",
-  "notes": "Los archivos TXT locales son transcripciones públicas y no facsímiles de las primeras ediciones. Todas las fuentes identificadas están enlazadas; 'en fuente externa' no significa archivo copiado al sitio.",
+  "notes": "Para cada obra se presentan todas las fuentes localizadas; TXT y EPUB externos son descargas servidas por Gutenberg, los facsímiles y transcripciones requieren consultar el proveedor; archivos TXT locales existen solo cuando local_original está informado.",
   "items": [
     {
       "position": 1,
@@ -28,7 +28,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://bastiat.org/fr/la_loi.html",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 2,
@@ -49,7 +57,39 @@
       "local_original": "../originales/mill-on-liberty-ingles.txt",
       "source_repository": "GITenberg/On-Liberty_34901/34901.txt",
       "local_status": "texto TXT completo en repositorio",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT archivado",
+          "kind": "descarga",
+          "url": "../originales/mill-on-liberty-ingles.txt",
+          "provider": "Siglo23"
+        },
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/34901.txt.utf-8",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/34901.epub3.images",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Formatos",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/34901",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/34901",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 3,
@@ -70,7 +110,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/%C3%89dition_1922/Discours",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 4,
@@ -91,7 +139,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.davidmhart.com/liberty/Books/1907-Oppenheimer_Staat/Oppenheimer_DerStaat1907-ebook.html",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 5,
@@ -112,7 +168,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Facsímil",
+          "kind": "consulta",
+          "url": "https://archive.org/details/zursoziologiede00michgoog",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 6,
@@ -133,7 +197,39 @@
       "local_original": "../originales/thoreau-civil-disobedience-ingles.txt",
       "source_repository": "GITenberg/On-the-Duty-of-Civil-Disobedience_71/71-0.txt",
       "local_status": "texto TXT completo en repositorio",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT archivado",
+          "kind": "descarga",
+          "url": "../originales/thoreau-civil-disobedience-ingles.txt",
+          "provider": "Siglo23"
+        },
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/71.txt.utf-8",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/71.epub3.images",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Formatos",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/71",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/71",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 7,
@@ -154,7 +250,39 @@
       "local_original": "../originales/sumner-what-social-classes-owe-ingles.txt",
       "source_repository": "GITenberg/What-Social-Classes-Owe-to-Each-Other_18603/18603.txt",
       "local_status": "texto TXT completo en repositorio",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT archivado",
+          "kind": "descarga",
+          "url": "../originales/sumner-what-social-classes-owe-ingles.txt",
+          "provider": "Siglo23"
+        },
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/18603.txt.utf-8",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/18603.epub3.images",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Formatos",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/18603",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/18603",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 8,
@@ -175,7 +303,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89tat%2C_son_r%C3%B4le_historique",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 9,
@@ -196,7 +332,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/Psychologie_des_foules",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 10,
@@ -217,7 +361,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Facsímil",
+          "kind": "consulta",
+          "url": "https://commons.wikimedia.org/wiki/File:Ideen_zu_einem_Versuch,_die_Gr%C3%A4nzen_der_Wirksamkeit_des_Staats_zu_bestimmen_(IA_bub_gb_eavLesJp5xYC).pdf",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 11,
@@ -238,7 +390,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/%C5%92uvres_politiques_(Constant)/De_la_libert%C3%A9_des_Anciens_compar%C3%A9e_%C3%A0_celle_des_Modernes",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 12,
@@ -259,7 +419,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Facsímil",
+          "kind": "consulta",
+          "url": "https://es.wikisource.org/wiki/Archivo:Bases_y_puntos_de_partida_-_Juan_Bautista_Alberdi.pdf",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 13,
@@ -280,7 +448,33 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/64974.txt.utf-8",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/64974.epub3.images",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Formatos",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/64974",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/64974",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 14,
@@ -301,7 +495,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.davidmhart.com/liberty/FrenchClassicalLiberals/Molinari/Articles/PoS/Molinari_ProductionSecurite1849.html",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 15,
@@ -322,7 +524,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://en.wikisource.org/wiki/No_Treason/6",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 16,
@@ -343,7 +553,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/De_la_d%C3%A9mocratie_en_Am%C3%A9rique/%C3%89dition_1866",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 17,
@@ -364,7 +582,33 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/55308.txt.utf-8",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "EPUB3",
+          "kind": "descarga",
+          "url": "https://www.gutenberg.org/ebooks/55308.epub3.images",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Formatos",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/55308",
+          "provider": "Project Gutenberg"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/55308",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 18,
@@ -385,7 +629,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://fr.wikisource.org/wiki/Qu%E2%80%99est-ce_que_la_propri%C3%A9t%C3%A9_%3F",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 19,
@@ -406,7 +658,15 @@
       "local_original": null,
       "source_repository": null,
       "local_status": "fuente externa identificada",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.marxists.org/deutsch/referenz/stirner/1844/eigen/index.htm",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     },
     {
       "position": 20,
@@ -427,7 +687,21 @@
       "local_original": "../originales/paine-rights-of-man-ingles.txt",
       "source_repository": "GITenberg/The-Writings-of-Thomas-Paine---Volume-2--1779-1792---The-Rights-of-Man_3742/3742.txt",
       "local_status": "texto TXT completo en repositorio",
-      "rights_status": "pendiente de revisión de edición, traducción y territorio"
+      "rights_status": "pendiente de revisión de edición, traducción y territorio",
+      "original_sources": [
+        {
+          "format": "TXT archivado",
+          "kind": "descarga",
+          "url": "../originales/paine-rights-of-man-ingles.txt",
+          "provider": "Siglo23"
+        },
+        {
+          "format": "Transcripción",
+          "kind": "consulta",
+          "url": "https://www.gutenberg.org/ebooks/3742",
+          "provider": "Biblioteca de origen"
+        }
+      ]
     }
   ]
 }
