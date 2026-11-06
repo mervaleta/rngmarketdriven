@@ -42,6 +42,11 @@ function hydrate(raw){
  for(const key of ['fontWeight','headingWeight'])s[key]=clamp(s[key],100,900,400);
  for(const key of ['fontStyle','headingStyle'])s[key]=s[key]==='italic'?'italic':'normal';
  s.texts=(s.texts&&typeof s.texts==='object'&&!Array.isArray(s.texts))?s.texts:{};
+  s.chapterNotes=(s.chapterNotes&&typeof s.chapterNotes==='object'&&!Array.isArray(s.chapterNotes))?s.chapterNotes:{};
+  for(const [k,v] of Object.entries(s.chapterNotes)){
+    if(!/^original-(new-toryism|coming-slavery|sins-legislators|great-superstition)$/.test(k)||typeof v!=='string')delete s.chapterNotes[k];
+    else s.chapterNotes[k]=v.slice(0,4000);
+  }
  for(const key of Object.keys(s.texts)){
   if(typeof s.texts[key]!=='string')delete s.texts[key];else s.texts[key]=s.texts[key].slice(0,4000000);
  }
@@ -242,7 +247,7 @@ function render(){
  try{
   const counts={};
   for(const x of state.sections.filter(x=>x.id.startsWith('original-')))counts[x.id]=(state.texts[x.id]?.match(/\S+/g)||[]).length;
-  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M07',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
+  localStorage.setItem('siglo23-spencer-active-plan-v1',JSON.stringify({version:'M08',items:p.items,wordCounts:counts,total:p.total,wordsPerPage:p.wordsPage,size:[p.w,p.h],updatedAt:Date.now()}));
  }catch{}
  $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);$('#metricStudy').textContent=f(p.editorialPages.study||0);$('#metricAfterword').textContent=f(p.editorialPages.afterword||0);$('#metricBio').textContent=(p.editorialPages.biography||0)?f(p.editorialPages.biography):'Pendiente';
  $('#metricBlanks').textContent=f(p.blanks);$('#metricFigures').textContent=f(p.figureCount)+' / '+f(p.figurePages);$('#metricOpenings').textContent=f(p.openingPages);$('#metricSpine').textContent=f(p.spine,2)+' mm';
@@ -332,6 +337,14 @@ window.S23Layout={
  getPlan:()=>plan,
  getVars:()=>vars(plan),
  getSectionText:id=>state.texts?.[id]||'',
+ getChapterNote:id=>Object.prototype.hasOwnProperty.call(state.chapterNotes,id)?state.chapterNotes[id]:(window.S23ChapterNotes?.entries?.[id]?.body||''),
+ putChapterNote:(id,body)=>{
+  if(!window.S23ChapterNotes?.entries?.[id])throw Error('Ensayo no reconocido');
+  if(typeof body!=='string')throw Error('Texto inválido');
+  if(body.trim())state.chapterNotes[id]=body.slice(0,4000);
+  else delete state.chapterNotes[id];
+  store();render();
+ },
  loadOriginalBook:(parts,metadata)=>{
    if(!Array.isArray(parts)||parts.length!==6)throw Error('Libro de 1884 incompleto: se esperan seis partes');
    const idSet=new Set(seed.sections.filter(x=>x.id.startsWith('original-')).map(x=>x.id));

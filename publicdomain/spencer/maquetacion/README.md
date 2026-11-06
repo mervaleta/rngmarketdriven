@@ -123,3 +123,7 @@ La grilla y el visor ya presentan las cuatro imágenes reales, con título y pro
 - Las reservas de 16 y 24 páginas para prólogo y contexto se sustituyen por secciones automáticas vacías; se conservan manuscritos y ajustes locales de proyectos anteriores.
 - Paginación web geométrica provisional: los PDF independientes contaron 10+9 páginas en 6×9 y 11+10 en A5. No confundir estas pruebas con los folios finales de imprenta.
 - GitHub actualizado no prueba sincronización automática con Hostinger: confirmar `version.json` en el dominio.
+
+## M08 · Prefacios editoriales por capítulo (2026-11-06)
+
+Cuatro reflexiones propias de Siglo23 están integradas en las páginas izquierdas de las aperturas ya existentes; en las derechas siguen los títulos originales de 1884. Cada nota incorpora contexto del argumento, una reserva crítica y una pregunta. Se identifica inequívocamente como texto editorial, sin intervención sobre el inglés de Spencer. Los textos están en `chapter-notes.js`; se pueden editar en el panel con guardado local y respaldo JSON. El estudio introductorio se depuró: sus cuatro análisis específicos se trasladaron a los prefacios abreviados. No se suman páginas a los pliegos ya existentes; sí se recalcula la extensión del estudio. Migración automática solo si el texto local coincide exactamente con M07; se conservan ediciones personales.

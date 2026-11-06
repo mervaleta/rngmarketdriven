@@ -40,7 +40,11 @@ function infoFor(page,plan){
  if(!item)return {page,blank:true,title:'Fuera del volumen',text:'',isReal:false,section:'',index:0};
  if(item.blank)return {page,blank:true,title:item.name,text:'',isReal:false,section:'',index:page-item.start};
  const index=page-item.start;
- if(item.opening)return {page,blank:false,opening:true,openingSide:index===0?'verso':'recto',openingKind:item.openingKind,chapterTitle:item.chapterTitle,ordinal:item.ordinal,title:item.name,section:item.id,index,isReal:false,text:'',totalInSection:2};
+ if(item.opening){
+    const n=window.S23ChapterNotes?.entries?.[item.parentId],isVerso=index===0;
+    const txt=isVerso&&n?[n.title,api.getChapterNote(item.parentId),n.question].join('\n\n'):'';
+    return {page,blank:false,opening:true,openingSide:isVerso?'verso':'recto',openingKind:item.openingKind,chapterTitle:item.chapterTitle,ordinal:item.ordinal,parentId:item.parentId,chapterNote:n||null,title:item.name,section:item.id,index,isReal:!!txt,text:txt,totalInSection:2};
+  }
  if(['index-onomastic','index-analytic','index-works'].includes(item.id)&&window.S23Indices?.ready(item.id))return {page,blank:false,title:item.name,section:item.id,index,idx:true,isReal:true,text:window.S23Indices.plain(item.id,index)};
  if(item.figure){
   const figure=window.S23BookAssets?.figures?.find(x=>x.id===item.figureId);
@@ -57,7 +61,9 @@ function cardFor(i,plan,config){
  else if(info.idx)body='<div class="thumb-index"><strong>'+esc(info.title)+'</strong><span>'+esc(info.text.slice(0,170))+'</span></div>';
  else if(info.opening){
   const roman=info.openingKind==='notes'?'§':['I','II','III','IV'][info.ordinal-1]||String(info.ordinal||'');
-  body='<div class="thumb-opening"><span>'+(info.openingKind==='notes'?'APARATO CRÍTICO':'SPENCER · 1884')+'</span><strong>'+esc(info.openingSide==='verso'?roman:info.chapterTitle)+'</strong><i></i></div>';
+  body=info.openingSide==='verso'&&info.chapterNote?
+    '<div class="thumb-preface"><span>PREFACIO EDITORIAL · '+roman+'</span><strong>'+esc(info.chapterNote.title)+'</strong><p>'+esc(api.getChapterNote(info.parentId).slice(0,155))+'</p></div>':
+    '<div class="thumb-opening"><span>'+(info.openingKind==='notes'?'APARATO CRÍTICO':'SPENCER · 1884')+'</span><strong>'+esc(info.openingSide==='verso'?roman:info.chapterTitle)+'</strong><i></i></div>';
  }else if(!isBlank){
   body=isPlate?'<div class="thumb-figure">Ilustración<br>pendiente</div>':(isTitle?'<h4>'+esc(config.title)+'</h4>':'<div class="thumb-reading'+(info.isReal?'':' demo')+'">'+esc(snippet(info,600))+'</div>');
  }
@@ -93,7 +99,11 @@ function paintGrid(){
 function openingPage(info){
  const isNotes=info.openingKind==='notes';
  const roman=isNotes?'§':['I','II','III','IV'][info.ordinal-1]||String(info.ordinal);
- if(info.openingSide==='verso')return '<div class="literary-verso"><span class="literary-top">SIGLO23 · CLÁSICOS DEL PENSAMIENTO</span><div class="literary-emblem">'+roman+'</div><span class="literary-hairline"></span><span class="literary-bottom">'+(isNotes?'FUENTES · VARIANTES · CONTEXTO':'LOS ENSAYOS DE 1884')+'</span></div>';
+ if(info.openingSide==='verso'&&info.chapterNote){
+    const n=info.chapterNote,body=api.getChapterNote(info.parentId),paras=body.split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
+    return '<div class="s23-chapter-preface"><span class="literary-top">SIGLO23 · PREFACIO DE LECTURA</span><div class="preface-content"><span class="preface-number">ENSAYO '+roman+'</span><h2>'+esc(n.title)+'</h2><span class="preface-rule"></span>'+paras.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div><div class="preface-question"><b>PARA LEER</b><p>'+esc(n.question)+'</p></div><span class="literary-bottom">NOTA EDITORIAL · NO FORMA PARTE DEL ORIGINAL</span></div>';
+  }
+  if(info.openingSide==='verso')return '<div class="literary-verso"><span class="literary-top">SIGLO23 · CLÁSICOS DEL PENSAMIENTO</span><div class="literary-emblem">'+roman+'</div><span class="literary-hairline"></span><span class="literary-bottom">'+(isNotes?'FUENTES · VARIANTES · CONTEXTO':'LOS ENSAYOS DE 1884')+'</span></div>';
  return '<div class="literary-recto"><span class="literary-top">HERBERT SPENCER · 1884</span><div class="literary-title-block"><span class="literary-kicker">'+(isNotes?'APARATO CRÍTICO':'ENSAYO '+roman)+'</span><span class="literary-line"></span><h2>'+esc(info.chapterTitle)+'</h2><div class="literary-ornament">✧</div><p>'+(isNotes?'Referencias, variantes y comentarios de la edición':'The Man versus the State')+'</p></div><span class="literary-bottom">EDICIÓN SIGLO23 · MAQUETA DE ESTUDIO</span></div>';
 }
 function figurePage(info){
@@ -152,6 +162,7 @@ function fullTexts(page){
    if(info.figure)out+='<small>Imagen histórica: '+esc(info.figureMeta?.creator)+' · '+esc(info.figureMeta?.year)+'</small>';
    if(info.section==='bibliography')out+='<small>Referencia bibliográfica: página '+(info.index+1)+' de 2</small>';
    if(info.segment)out+='<small>Palabras '+formatNum(info.segment.start)+'–'+formatNum(info.segment.end)+' / '+formatNum(info.segment.count)+'</small>';
+    if(info.opening&&info.chapterNote&&info.openingSide==='verso')out+='<small>Prefacio editorial · no pertenece al texto original · ocupa una página de apertura existente</small>';
   out+='<div class="full-text-body">'+esc(info.isReal?info.text:(info.blank?'Blanco intencional de composición.':info.opening?'Pliego de apertura tipográfica, sin texto del original.':'Todavía no hay texto importado para esta sección.'))+'</div></article>';
  }
  return out+'</div></section>';
@@ -302,6 +313,20 @@ window.addEventListener('keydown',e=>{
  }
 });
 sectionDropdown();
+
+(function(){
+ const select=document.getElementById('chapterNoteSelect'),box=document.getElementById('chapterNoteBody');
+ const save=document.getElementById('saveChapterNote'),reset=document.getElementById('resetChapterNote'),status=document.getElementById('chapterNoteStatus');
+ if(!select||!box||!save||!reset||!status)return;
+ const entries=window.S23ChapterNotes?.entries||{};
+ select.innerHTML=Object.keys(entries).map(id=>'<option value="'+id+'">'+entries[id].roman+' · '+entries[id].name+'</option>').join('');
+ const refresh=()=>{box.value=api.getChapterNote(select.value);status.textContent='Nota en la página izquierda. No añade páginas al libro.'};
+ select.addEventListener('change',refresh);
+ save.addEventListener('click',()=>{api.putChapterNote(select.value,box.value);status.textContent='Guardado localmente y actualizado en la grilla. Exportá el plan JSON para respaldarlo.'});
+ reset.addEventListener('click',()=>{api.putChapterNote(select.value,'');refresh();status.textContent='Recuperada la nota publicada en la edición M08.'});
+ refresh();
+})();
+
 setMode('overview');
 const pageParam=Number(new URLSearchParams(location.search).get('page'));
 if(Number.isFinite(pageParam)&&pageParam>=1){
