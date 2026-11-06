@@ -6,10 +6,10 @@ const clamp=(x,min,max,d=min)=>{const n=Number(x);return Number.isFinite(n)?Math
 const f=(n,d=0)=>Number(n||0).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d});
 const KEY='siglo23-spencer-maquetacion-v1';
 const seed={
- trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.38, fontWeight:400,fontStyle:'normal',headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',texts:{},
- marginInner:22,marginOuter:17,marginTop:21,marginBottom:21,indent:4,paraGap:3,bleed:3,caliper:.105,
+ trim:'a5',customW:148,customH:210,font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.44, fontWeight:400,fontStyle:'normal',headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',texts:{},
+ marginInner:22,marginOuter:17,marginTop:21,marginBottom:21,indent:4,paraGap:1.3,bleed:3,caliper:.105,
  words:0,zoom:.62,coverColor:'#24443a',title:'El individuo contra el Estado',
- author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,
+ author:'Herbert Spencer',imprint:'SIGLO23',showGuides:true,showFolios:true,showRunning:true,chapterOpenings:true,notesOpening:true,openingTextRecto:true,
  sample:'La edición crítica reconstruye el debate intelectual de la Inglaterra victoriana y sitúa los argumentos de Herbert Spencer en su contexto histórico. Las transformaciones del Estado, la sociedad industrial y la libertad individual constituyen el eje de la lectura propuesta.\n\nEste texto es una muestra editorial de composición, no una transcripción de la obra de 1884. Su función consiste en comparar cuerpos tipográficos, interlineados, márgenes y densidades de página.\n\nCada decisión de diseño deberá contrastarse con el texto definitivo, las imágenes autorizadas y las especificaciones técnicas de la imprenta. La paginación final solo podrá cerrarse una vez concluida la corrección de estilo y la composición.',
  sections:[
  ['half','Portadilla',1,true],['title','Portada interior',1,true],['legal','Créditos y derechos',1,false],
@@ -50,7 +50,7 @@ function hydrate(raw){
  if(!fonts.includes(s.font))s.font=seed.font;
  if(!fonts.includes(s.headingFont))s.headingFont=seed.headingFont;
  if(!/^#[\da-fA-F]{6}$/.test(s.coverColor))s.coverColor=seed.coverColor;
- for(const key of ['showGuides','showFolios','showRunning'])s[key]=s[key]!==false;
+ for(const key of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])s[key]=s[key]!==false;
  s.sections=(Array.isArray(s.sections)?s.sections:seed.sections).filter(x=>x&&typeof x==='object').slice(0,50).map((x,i)=>({
   id:String(x.id||'custom-'+i).slice(0,80),name:String(x.name||'Sección').slice(0,110),
   pages:(x.id==='text'||x.id==='legacy-text'||x.id.startsWith('original-'))?'auto':clamp(x.pages,1,1000,1),recto:!!x.recto,enabled:x.enabled!==false
@@ -91,30 +91,42 @@ function analyze(){
  }catch{}
  const wordsPage=invalid?0:Math.round(clamp(width/charWidth/6*height/(state.fontPt*25.4/72*state.leading)*.82,1,10000,400));
  let mainPages=0,mainWords=0;
- const autoPages={};const items=[];let page=1,rectoBlanks=0;
+ const autoPages={},items=[];let page=1,rectoBlanks=0,openingPages=0,openingCount=0;
+ const essayIds=['original-new-toryism','original-coming-slavery','original-sins-legislators','original-great-superstition'];
+ function addBlank(name){items.push({name,start:page,end:page,pages:1,blank:true});page++;rectoBlanks++;}
  for(const sec of state.sections.filter(x=>x.enabled)){
   let pages=sec.pages;
   if(sec.pages==='auto'){
-   const text=state.texts?.[sec.id]||'';
-   const count=(text.match(/\S+/g)||[]).length;
-   pages=invalid||!count?0:Math.ceil(count/wordsPage);
-   autoPages[sec.id]=pages;
-   mainPages+=pages;mainWords+=count;
+   const raw=state.texts?.[sec.id]||'';
+   const count=(raw.match(/\S+/g)||[]).length;
+   pages=invalid||!count?0:Math.ceil((count+(state.chapterOpenings&&essayIds.includes(sec.id)?wordsPage*.2:0))/wordsPage);
+   autoPages[sec.id]=pages;mainPages+=pages;mainWords+=count;
   }
   if(!pages)continue;
-  if(sec.recto&&page%2===0){items.push({name:'Blanco de cortesía para recto',start:page,end:page,pages:1,blank:true});rectoBlanks++;page++}
-  items.push({id:sec.id,name:sec.name,start:page,end:page+pages-1,pages});page+=pages;
+  const essayNumber=essayIds.indexOf(sec.id)+1;
+  const isChapter=state.chapterOpenings&&essayNumber>0;
+  const isNotes=state.notesOpening&&sec.id==='notes';
+  if(isChapter||isNotes){
+   // The left facing page must be even; right title page odd.
+   if(page%2!==0)addBlank('Blanco de enlace previo al pliego');
+   const name=isNotes?'Notas al texto':sec.name;
+   items.push({id:'opening-'+sec.id,name:'Apertura · '+name,parentId:sec.id,opening:true,openingKind:isNotes?'notes':'chapter',chapterTitle:name,ordinal:isNotes?0:essayNumber,start:page,end:page+1,pages:2});
+   page+=2;openingPages+=2;openingCount++;
+   if(state.openingTextRecto)addBlank('Blanco tras el pliego · texto al recto');
+  }else if(sec.recto&&page%2===0)addBlank('Blanco de cortesía para recto');
+  items.push({id:sec.id,name:sec.name,start:page,end:page+pages-1,pages});
+  page+=pages;
  }
  const pad=(4-(page-1)%4)%4;
  if(pad)items.push({name:'Blancos finales (hipótesis de cuadernillo)',start:page,end:page+pad-1,pages:pad,blank:true});
  const total=page-1+pad,sheets=Math.ceil(total/2),spine=sheets*state.caliper;
- return {w,h,wordsPage,mainPages,mainWords,autoPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,invalid,width,height};
+ return {w,h,wordsPage,mainPages,mainWords,autoPages,items,total,sheets,spine,blanks:rectoBlanks+pad,rectoBlanks,pad,openingPages,openingCount,invalid,width,height};
 }
 function store(){try{localStorage.setItem(KEY,JSON.stringify(state));$('#saveStatus').textContent='Guardado localmente'}catch{$('#saveStatus').textContent='No se pudo guardar en este navegador'}}
 function setFields(){
  const map={trim:'trim',customW:'customW',customH:'customH',fontFamily:'font',fontWeight:'fontWeight',fontStyle:'fontStyle',headingFont:'headingFont',headingWeight:'headingWeight',headingStyle:'headingStyle',fontSize:'fontPt',leading:'leading',marginInner:'marginInner',marginOuter:'marginOuter',marginTop:'marginTop',marginBottom:'marginBottom',indent:'indent',paraGap:'paraGap',bleed:'bleed',paperCaliper:'caliper',words:'words',zoom:'zoom',coverColor:'coverColor',bookTitle:'title',authorName:'author',imprint:'imprint',bodySample:'sample'};
  for(const [id,k] of Object.entries(map))$('#'+id).value=state[k];
- for(const k of ['showGuides','showFolios','showRunning'])$('#'+k).checked=state[k];
+ for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])$('#'+k).checked=state[k];
  $('#customDims').hidden=state.trim!=='custom';
 }
 function vars(p){return Object.entries({
@@ -135,7 +147,7 @@ function contents(kind){
  if(kind==='title')return '<div class="frontmatter"><span class="publisher">'+imprint+'</span><span class="booktitle">'+title+'</span><span class="byline">'+author+'</span><span class="rule"></span><span class="edition">Edición histórica, anotada e ilustrada</span><div style="height:24mm"></div><span class="publisher">Editorial Siglo23</span></div>';
  if(kind==='legal')return '<div class="frontmatter"><div class="legal"><b>'+title+'</b><p>'+author+'</p><p>Esta página es una simulación de composición editorial y no un libro terminado. Traductores, prólogos, ilustraciones, ISBN, impresión y derechos deben completarse antes de publicar.</p><p>ISBN: por asignar.<br>Edición Siglo23: preproducción.</p></div></div>';
  if(kind==='toc'){
-  const sections=(plan?.items||analyze().items).filter(x=>x.id&&!x.blank);
+  const sections=(plan?.items||analyze().items).filter(x=>x.id&&!x.blank&&!x.opening);
   return '<span class="chapter-kicker">ÍNDICE DE LA EDICIÓN</span><h2>Contenido</h2><div class="chapter-rule"></div>'
    +sections.map(x=>'<div class="outline-line"><span>'+esc(x.name)+'</span><span>'+x.start+'</span></div>').join('')
    +'<p style="font:8pt Georgia;margin-top:8mm;color:#767a73">Paginación calculada para la maqueta actual. Revisar al cerrar la edición.</p>';
@@ -181,7 +193,7 @@ function renderRows(){
 function render(){
  const p=plan=analyze(),isCover=scene==='cover';
  $('#metricPages').textContent=f(p.total);$('#metricMain').textContent=f(p.mainPages);
- $('#metricBlanks').textContent=f(p.blanks);$('#metricSpine').textContent=f(p.spine,2)+' mm';
+ $('#metricBlanks').textContent=f(p.blanks);$('#metricOpenings').textContent=f(p.openingPages);$('#metricSpine').textContent=f(p.spine,2)+' mm';
  $('#metricSheets').textContent=f(p.sheets);$('#metricWords').textContent=f(p.wordsPage);
  $('#words').value=p.mainWords;
  $('#words').readOnly=true;
@@ -194,8 +206,8 @@ function render(){
  host.style.height=Math.ceil(p.h*96/25.4*state.zoom)+'px';
  host.innerHTML='<div id="liveSpread" class="spread '+(isCover?'cover-spread':'interior-spread')+'" style="'+esc(vars(p))+';transform:scale('+state.zoom+')">'+sceneContent(p)+'</div>';
  $('#planMap').innerHTML=p.items.map(x=>'<li><span>'+esc(x.name)+'</span><span>'+x.start+(x.end!==x.start?'–'+x.end:'')+'</span></li>').join('');
- $('#productionCaveat').textContent='Hipótesis: '+f(state.words)+' palabras; ≈ '+f(p.wordsPage)+' palabras por página; '+f(p.rectoBlanks)+' blancos para recto y '+f(p.pad)+' de cierre. No reemplaza la paginación real.';
- $$('.view-switch [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===scene)));
+ $('#productionCaveat').textContent='Original: '+f(p.mainWords)+' palabras; '+f(p.wordsPage)+' palabras/página aprox.; '+f(p.openingCount)+' pliegos de apertura ('+f(p.openingPages)+' páginas), '+f(p.rectoBlanks)+' blancos de enlace/recto y '+f(p.pad)+' blancos de cierre. La paginación es una estimación, no arte final.';
+  $$('.view-switch [data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===scene)));
  $('#prevView').disabled=scene===scenes[0][0];$('#nextView').disabled=scene===scenes[scenes.length-1][0];
  renderRows();
  if(typeof window!=='undefined'&&window.dispatchEvent)window.dispatchEvent(new Event('siglo23:layout-change'));
@@ -208,7 +220,8 @@ for(const [id,k] of Object.entries(binds))$('#'+id).addEventListener(['trim','fo
  if(id==='trim')$('#customDims').hidden=state.trim!=='custom';
  changed();
 });
-for(const k of ['showGuides','showFolios','showRunning'])$('#'+k).addEventListener('change',e=>{state[k]=e.target.checked;changed()});
+for(const k of ['showGuides','showFolios','showRunning','chapterOpenings','notesOpening','openingTextRecto'])$('#'+k).addEventListener('change',e=>{state[k]=e.target.checked;changed()});
+$('#applyEditorialPreset').addEventListener('click',()=>{Object.assign(state,{font:"Georgia, 'Times New Roman', serif",fontPt:10.5,leading:1.44,paraGap:1.3,indent:4,marginInner:24,marginOuter:18,marginTop:23,marginBottom:22,headingFont:"Georgia, 'Times New Roman', serif",headingWeight:400,headingStyle:'normal',chapterOpenings:true,notesOpening:true,openingTextRecto:true});state=hydrate(state);setFields();changed();$('#saveStatus').textContent='Estilo clásico de lectura aplicado, sin modificar el manuscrito.'});
 $('#planRows').addEventListener('change',e=>{
  const row=e.target.closest('[data-index]');if(!row)return;const x=state.sections[+row.dataset.index];if(!x)return;
  if(e.target.dataset.col==='pages'&&x.pages!=='auto')x.pages=clamp(e.target.value,1,1000,1);

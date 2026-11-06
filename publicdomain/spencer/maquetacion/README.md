@@ -81,3 +81,13 @@ Con el estado inicial A5, Georgia 10,5 pt y los márgenes de ejemplo, la prueba 
 El original se importa automáticamente en seis secciones, puede leerse en la grilla de miniaturas, abrirse en pliego y consultarse con texto no recortado bajo cada página. También quedan disponibles la importación posterior de traducciones o variantes en TXT/MD y el control de extras. La fuente conserva párrafos para la lectura, aunque el reparto por páginas sigue siendo aproximado.
 
 **Archivos obligatorios para desplegar M03:** `index.html`, `editor.css`, `editor.js`, `overview.js`, `original-loader.js`, `original-ingles-1884.json`. El manifiesto `version.json` informa la compilación. Los seis archivos deben publicarse en la misma carpeta. La carga del original depende de que `original-ingles-1884.json` responda HTTP 200; no se ha confirmado el despliegue Hostinger.
+
+## M04 — Aperturas tipográficas y mejora de la lectura (2026-11-05)
+
+- Nueva doble página para cada uno de los cuatro ensayos de Spencer: izquierda ornamental con número romano, derecha con título. El original inglés no se modifica.
+- Separador análogo para el aparato de notas; la redacción efectiva de notas sigue pendiente.
+- Opción de iniciar el texto a la derecha después del pliego, incorporando físicamente un blanco posterior y otros blancos necesarios de enlace.
+- Las páginas de apertura, los blancos y el lomo se recalculan. Miniaturas y navegación de «Apertura de capítulo» y «Apertura de notas» apuntan a las páginas reales del plan.
+- Cuerpo de lectura Georgia 10,5 pt, interlínea 1,44, menor separación entre párrafos, capitulares en inicio de ensayo, y preset clásico editable (márgenes 24/18/23/22 mm).
+- Controles guardados en configuración local y exportación JSON. Las configuraciones antiguas reciben los controles nuevos sin perder textos importados.
+- La impresión sigue siendo una **prueba tipográfica**, no un PDF/X ni la paginación final de imprenta. Ajustar partición de párrafos, viudas/huérfanas, notas y licencia tipográfica al cerrar edición.

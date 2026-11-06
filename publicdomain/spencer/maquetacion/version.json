@@ -1,7 +1,7 @@
 {
   "project": "Editorial Siglo23 / Spencer",
   "module": "Maquetación",
-  "version": "M03",
+  "version": "M04",
   "date": "2026-11-05",
   "features": [
     "Grilla completa del libro en miniaturas numeradas",
@@ -18,11 +18,15 @@
     "Secciones de prefacio, cuatro ensayos y posdata calculadas individualmente",
     "Paginación dependiente de medidas reales y recuentos del texto original",
     "Otras partes y extras conservan paginación estimada",
-    "Índice actualiza números al variar la maqueta"
+    "Índice actualiza números al variar la maqueta",
+    "Aperturas de doble página de los cuatro ensayos originales",
+    "Divisoria opcional de dos páginas para aparato crítico y notas",
+    "Inicio en recto con blancos reales contemplados en cálculo de lomo",
+    "Composición literaria refinada con capitular y preset editorial"
   ],
-  "limitation": "45.792 palabras verificadas en la transcripción suministrada, no cotejadas de punta a punta con facsímil. Paginación aún estimativa según tipografía y diseño; extras estimados.",
+  "limitation": "45.792 palabras verificadas en la transcripción suministrada, no cotejadas de punta a punta con facsímil. Paginación aún estimativa según tipografía y diseño; extras estimados. Las aperturas se integran a la paginación geométrica aproximada, sin producción PDF/X ni redistribución definitiva de notas.",
   "public_deployment": "Sin confirmación de despliegue automático en Hostinger",
-  "marker": "SIGLO23-SPENCER-MAQUETACION-M03",
+  "marker": "SIGLO23-SPENCER-MAQUETACION-M04",
   "original_work": "The Man versus the State (1884)",
   "original_word_count": 45792,
   "original_sections": 6,

@@ -70,3 +70,43 @@ fieldset{padding:0;margin:0 0 16px;border:0}legend{width:100%;border-bottom:1px 
 .full-text-body{font:12px/1.67 system-ui,sans-serif;color:#e0e6dd;white-space:pre-wrap;overflow-wrap:anywhere;max-height:380px;overflow-y:auto;padding:0 7px 0 0}
 @media(max-width:850px){.full-text-grid{grid-template-columns:1fr}.full-text-inspector{padding:14px}.full-text-body{max-height:260px}}
 @media print{.full-text-inspector{display:none!important}}
+
+
+/* M04 · Aperturas editoriales de dos páginas y composición literaria */
+.opening-controls{border-color:#aa926e!important;background:rgba(205,172,120,.075)}
+.opening-controls .checkline{align-items:flex-start;line-height:1.55}
+.opening-preset{margin-top:10px;width:100%;border-color:#c7aa82!important;color:#eddbc1!important}
+.mock-page.opening-leaf{background:#fdfaf3;color:#23332b}
+.mock-page.opening-leaf.opening-verso{background:#eee9dd}
+.mock-page.opening-leaf.opening-recto{background:#fffcf5}
+.mock-page.opening-leaf:after{content:"";position:absolute;inset:8mm;border:1px solid rgba(92,108,92,.22);pointer-events:none}
+.mock-page.opening-leaf .content{overflow:hidden;inset:17mm 16mm 17mm 16mm!important}
+.literary-verso,.literary-recto{height:100%;display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:space-between;position:relative}
+.literary-top{font:700 7.2pt/1.6 system-ui,Arial,sans-serif;letter-spacing:.21em;color:#68766a;text-transform:uppercase;margin-top:4mm}
+.literary-bottom{font:600 7.2pt/1.55 system-ui,Arial,sans-serif;letter-spacing:.13em;color:#68776c;text-transform:uppercase;margin-bottom:3mm}
+.literary-emblem{font:normal 105pt/1 var(--heading-font,Georgia,serif);color:#a1a594;flex:1;display:flex;align-items:center;justify-content:center;letter-spacing:-.08em}
+.literary-hairline{height:1px;background:#a4ac9b;width:31mm;margin-bottom:14mm}
+.literary-title-block{width:100%;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:-8mm}
+.literary-kicker{font:700 8pt/1.5 system-ui,sans-serif;letter-spacing:.2em;color:#8b7660;text-transform:uppercase}
+.literary-line{height:1px;width:25mm;background:#bda986;margin:10mm 0 9mm}
+.literary-title-block h2{font:var(--heading-style,normal) var(--heading-weight,400) 31pt/1.13 var(--heading-font,Georgia,serif);letter-spacing:-.02em;overflow-wrap:break-word;hyphens:auto;margin:0;max-width:110mm}
+.literary-title-block p{font:italic 10pt/1.4 Georgia,serif;color:#697568;margin:3mm 0 0}
+.literary-ornament{color:#aa9b83;font:22pt/1.2 Georgia,serif;margin-top:9mm}
+.mock-page .actual-text{font-size:var(--body-size,10.5pt);line-height:var(--leading,1.44);text-align:justify;overflow-wrap:break-word;font-kerning:normal;letter-spacing:.002em}
+.mock-page .actual-text p{margin-bottom:var(--para-gap,1.3mm)}
+.mock-page .actual-text p:first-child{text-indent:0}
+.mock-page .actual-text.chapter-first{margin-top:10mm}
+.mock-page .actual-text.chapter-first p:first-child:first-letter{float:left;font:normal 42pt/.82 var(--heading-font,Georgia,serif);padding:1mm 2mm 0 0;color:#42604e}
+.mock-page .literary-reading-label{text-align:center;font:700 7.5pt/1.6 system-ui,sans-serif;letter-spacing:.19em;color:#7c8b7b;margin:5mm 0 4mm}
+.mock-page .literary-reading-label span{padding:0 2mm;color:#b6a88f}
+.mock-page .content-note{display:none}
+.thumb-card.opener{border-color:#b89c77}
+.thumb-page.opening{background:#fcf9f2;padding:11% 13%;color:#324b3b}
+.thumb-page.opening-left{background:#ece8dd}
+.thumb-page.opening .thumb-running{border-color:#c3bba7}
+.thumb-opening{height:67%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8%;text-align:center}
+.thumb-opening span{font-size:calc(var(--thumb-width,96px)*.046);letter-spacing:.09em;color:#73766b}
+.thumb-opening strong{font:500 calc(var(--thumb-width,96px)*.14)/1.07 var(--heading-font,Georgia,serif);overflow-wrap:anywhere}
+.thumb-page.opening-left .thumb-opening strong{font-size:calc(var(--thumb-width,96px)*.42);color:#949789}
+.thumb-opening i{display:block;width:30%;border-top:1px solid #bca889}
+@media print{.mock-page.opening-leaf{print-color-adjust:exact;-webkit-print-color-adjust:exact}.mock-page.opening-leaf .content{overflow:hidden}}
