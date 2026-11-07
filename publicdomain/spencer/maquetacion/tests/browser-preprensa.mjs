@@ -14,6 +14,7 @@ try{
  page.setDefaultTimeout(45000);
  page.on('pageerror',e=>errors.push('pageerror: '+e.message));
  page.on('console',msg=>{if(msg.type()==='error')errors.push('console: '+msg.text().slice(0,200))});
+ page.on('response',resp=>{if(resp.status()>=400)errors.push('HTTP '+resp.status()+' '+resp.url().slice(0,220))});
  await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});
  await page.evaluate(()=>{
   localStorage.setItem('siglo23-spencer-maquetacion-v1',JSON.stringify({
