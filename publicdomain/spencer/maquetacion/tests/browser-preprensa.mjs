@@ -74,6 +74,67 @@ try{
   assert.deepEqual(result.spreads[1].right,[3],'El folio 3 debe quedar a la derecha');
  }
  assert.ok(result.spreads.every(s=>s.adjacent),'Las dos páginas de un pliego deben estar juntas');
+ const cover=await page.evaluate(()=>{
+  const all=[...document.querySelectorAll('#rendered .pagedjs_page')];
+  return {first:all[0]?.dataset.s23Key,last:all[all.length-1]?.dataset.s23Key,
+   toolbar:document.querySelectorAll('.s23-page-toolbar').length,
+   layers:document.querySelectorAll('#rendered .s23-cover-page .s23-custom-text').length,
+   firstFlowHidden:all[0]?.classList.contains('s23-flow-hidden')
+  };
+ });
+ assert.equal(cover.first,'cover:front','La tapa debe ser la página visual 1');
+ assert.equal(cover.last,'cover:back','La contratapa debe ser la página final');
+ assert.equal(cover.toolbar,result.pages,'Cada página debe tener botón propio de edición');
+ assert.ok(cover.layers>=6,'Tapa y contratapa deben incluir cajas editables de texto');
+ assert.equal(cover.firstFlowHidden,true,'La portada debe usar sus cajas editables');
+ await page.click('[data-s23-key="cover:front"] .s23-edit-toggle');
+ await page.waitForFunction(()=>!document.querySelector('#pageLayerInspector').hidden);
+ const otherEditing=await page.evaluate(()=>document.querySelectorAll('.s23-edit-mode').length);
+ assert.equal(otherEditing,1,'Solo se edita una página por vez');
+ await page.click('#pageAddBox');
+ const newBox=await page.evaluate(()=>[...document.querySelectorAll('[data-s23-key="cover:front"] .s23-custom-text')].at(-1)?.dataset.boxId);
+ assert.ok(newBox,'La herramienta no creó la caja');
+ await page.click('#pageBoxText');
+ await page.$eval('#pageBoxText',(el)=>{el.value='Prueba de texto sobre fondo';el.dispatchEvent(new Event('input',{bubbles:true}))});
+ const boxSelector='[data-s23-key="cover:front"] .s23-custom-text[data-box-id="'+newBox+'"]';
+ const before=await page.$eval(boxSelector,el=>parseFloat(el.style.width));
+ const handle=await page.$(boxSelector+' .s23-resize-e');
+ const rect=await handle.boundingBox();
+ assert.ok(rect,'Falta el control lateral para redimensionar');
+ await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2);
+ await page.mouse.down();
+ await page.mouse.move(rect.x+rect.width/2+26,rect.y+rect.height/2,{steps:8});
+ await page.mouse.up();
+ const after=await page.$eval(boxSelector,el=>parseFloat(el.style.width));
+ assert.ok(after>before,'El marco no se pudo agrandar desde el lateral');
+ // Imagen de 1200 x 1600 creada localmente, sin depender de archivos externos.
+ await page.evaluate(async()=>{
+  const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=1600;
+  const ctx=canvas.getContext('2d');ctx.fillStyle='#8e6274';ctx.fillRect(0,0,1200,1600);
+  const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));
+  const file=new File([blob],'tapa.png',{type:'image/png'});
+  const input=document.querySelector('[data-page-key="cover:front"] input[type=file]');
+  const dt=new DataTransfer();dt.items.add(file);input.files=dt.files;
+  input.dispatchEvent(new Event('change',{bubbles:true}));
+ });
+ await page.waitForFunction(()=>{
+  const leaf=document.querySelector('[data-s23-key="cover:front"]');
+  return leaf?.classList.contains('s23-has-background');
+ },{timeout:30000});
+ await new Promise(resolve=>setTimeout(resolve,700));
+ await page.click('#pageLayerClose');
+ await page.click('#compose');
+ await page.waitForFunction(()=>document.querySelector('#progress')?.textContent.includes('caras visibles'),{timeout:90000});
+ const persisted=await page.evaluate(()=>{
+  const front=document.querySelector('[data-s23-key="cover:front"]');
+  const custom=[...front.querySelectorAll('.s23-custom-text')].find(el=>el.textContent.includes('Prueba de texto sobre fondo'));
+  return {hasImage:front.classList.contains('s23-has-background'),
+   custom:!!custom,width:custom?parseFloat(custom.style.width):0,selected:document.querySelectorAll('.s23-edit-mode').length};
+ });
+ assert.ok(persisted.hasImage,'La imagen no se recuperó de IndexedDB');
+ assert.ok(persisted.custom&&persisted.width>before,'El texto redimensionado no se conservó');
+ assert.equal(persisted.selected,0,'La edición debe empezar desactivada después de recomponer');
+ console.log('CAPAS Y TAPAS',JSON.stringify({cover,persisted}));
  await page.screenshot({path:'spencer-pliegos-e2e.png',fullPage:true});
  await page.emulateMediaType('print');
  const printView=await page.evaluate(()=>({
