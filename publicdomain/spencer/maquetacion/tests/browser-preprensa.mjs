@@ -104,6 +104,7 @@ try{
   document.addEventListener('pointermove',e=>{window.__s23Pointer.moves++},{capture:true});
  });
  const handle=await page.$(boxSelector+' .s23-resize-e');
+ await handle.scrollIntoView();
  const rect=await handle.boundingBox();
  assert.ok(rect,'Falta el control lateral para redimensionar');
  await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2);
