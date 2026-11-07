@@ -2,7 +2,7 @@
 
 **Ruta objetivo:** https://rngmarketdriven.com/publicdomain/gabinete/index.html  
 **Repositorio:** `mervaleta/rngmarketdriven`, carpeta `publicdomain/gabinete/`.  
-**Versión actual:** 0.8.0 · 7 de noviembre de 2026.  
+**Versión actual:** 0.9.0 · 7 de noviembre de 2026.  
 **Estado:** maqueta editorial; NO es PDF final ni obra aprobada para publicación comercial.
 
 ## Archivos
@@ -132,3 +132,15 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - El documento `direccion-editorial-lujo.md` fija la propuesta estética, la impresión y el criterio de respeto a las modelos y a sus autores.
 - Extensión y corpus objetivo: **144–176 páginas** y **70–95 fotografías únicas** si la calidad y las fuentes lo permiten; no inflar el libro con repeticiones ni con objetos.
 - Identificador de fuente: `SIGLO23-GABINETE-20261107-V0.8.0`. Estado de Hostinger: no verificado.
+
+
+## v0.9.0 · Primera integración efectiva de la curaduría premium
+
+- **66 páginas**, **22 fotografías diferentes** y **22 láminas individuales**; no hay ninguna imagen repetida en el interior. Repeticiones solo permitidas en tapa/aperturas.
+- Se integraron como láminas reales, con análisis breve y ficha museística: **Eduard Isaac Asser, ca. 1855** (folio 31); **Auguste Belloc, ca. 1855** (folio 32); **Nadar, 1856–1859** (folio 37).
+- El banco previo de 12 candidatas se divide en **3 incorporadas y 9 todavía en investigación**. Las fichas conservan URLs y estado de aprobación en `seleccion-erotica-lujo.json`.
+- El archivo Belloc es una **vista web de 640 px**, enlazada desde Cleveland, **no es la imagen apta para imprenta**. Su TIFF de 5106×3780 px está identificado en Wikimedia Commons, pendiente de descarga y comprobación. Nadar y Asser se muestran con JPG originales remotos, pero tampoco están alojados en el repositorio.
+- El formato base del editor es 270×340 mm; se corrigieron límites de los controles que impedían introducir 270 mm. También el CSS de impresión se actualizó a este tamaño de estudio.
+- Aperturas de capítulo en los folios: **11, 15, 21, 33, 39, 47, 53, 57**. Tapa en recto impar sola a la derecha.
+- Para servir la última edición, publicar juntos `index.html`, `editor.css`, `editor.js`, `libro.json`, `seleccion-erotica-lujo.json` y `version.json` en la ruta `/publicdomain/gabinete/`. En GitHub están verificados; el despliegue por Hostinger aún no se ha confirmado.
+- Identificador esperado `GABINETE · V0.9.0 · ROSA/BORDÓ` / `SIGLO23-GABINETE-20261107-V0.9.0`.
