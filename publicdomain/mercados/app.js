@@ -91,6 +91,8 @@ function makePage(p){
     extra="page-commentary";inner=meta+'<div class="signature">LECTURA DE LA LÁMINA · '+esc(w.id)+'</div><h3>'+esc(w.titulo)+'</h3><p class="page-quote">'+esc(w.lectura)+'</p><div class="page-prose"><p>'+esc(w.texto)+'</p><p>'+esc("Contexto: "+w.pais+" · "+w.anio+". Técnica: "+w.tecnica+". La fuente institucional enlazada permite continuar la investigación iconográfica.")+'</p></div><div class="record"><strong>PROCEDENCIA</strong><div>'+esc(w.coleccion)+'</div><div>Estado: '+esc(w.estado)+'. Derechos: '+esc(w.derechos)+'</div><a href="'+esc(w.fuente)+'" target="_blank" rel="noopener">Consultar ficha original ↗</a></div>'+foot;break;
   case "closing":
     inner=meta+'<div class="essay-note">POSFACIO</div><h2>La economía<br>que nos mira</h2><p class="page-lead">Cada época dibuja el mercado que teme, que admira o que desea entender.</p><div class="page-prose"><p>Cuando la razón económica parece exigir cifras, un artista presenta un animal, un teatro o una máscara. La imagen no reemplaza al dato: le devuelve algo que la cifra rara vez registra, su dimensión humana. Al comparar regiones y siglos, la recurrencia de ciertas figuras no prueba que la historia se repita, pero sí que los mercados vuelven a producir emociones y preguntas reconocibles.</p><p>El volumen seguirá creciendo a medida que se incorporen obras con atribución, documentación y condiciones de reproducción suficientes. El resultado buscado no es un repertorio anecdótico de chistes sobre dinero, sino una historia de las formas en que las sociedades se representaron a sí mismas frente a la riqueza.</p></div>'+foot;break;
+  case "blank":
+    inner=meta+'<div style="flex:1;display:grid;place-items:center;color:#a59c8d;font-family:var(--serif);font-size:22px;font-style:italic">El humor de los mercados</div>'+foot;break;
   case "colophon":
     inner=meta+'<h2>Nota para la<br>edición impresa</h2><div class="page-prose"><p>Esta maqueta documenta una selección inicial de obras y ensayos, no un original definitivo de imprenta. Las imágenes sin máster disponible están marcadas como tales; no deben sustituirse por ilustraciones inventadas. Los títulos y fichas deberán contrastarse con cada institución custodiante.</p><p>Formato en estudio: 270 × 340 mm · impresión de alta calidad · tapa dura · cuerpo en tipografía de lectura clásica y señalización Montserrat · fotografías o grabados reproducidos con amplia respiración tipográfica.</p><p>Índices previstos: autores, artistas, lugares, episodios económicos, técnicas y colecciones. Fuentes de la investigación: Met, Rijksmuseum, Harvard Baker Library, NGA, Library of Congress, Universidad de Tokio, Biblioteca Nacional argentina, NYPL y DBNL.</p><p>Versión de preproducción: 0.1.0 · 7 de noviembre de 2026.</p></div>'+foot;break;
  }
@@ -107,6 +109,7 @@ function buildPages(){
    if(ch.n==="III") extras.forEach(ex=>add("extra",{chapter:ch,extra:ex}));
  });
  add("closing");add("colophon");
+ while(pages.length%4!==0)add("blank");
  pageIndex=Math.max(0,Math.min(pageIndex,pages.length-1));
 }
 function stage(){
