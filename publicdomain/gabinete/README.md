@@ -2,7 +2,7 @@
 
 **Ruta objetivo:** https://rngmarketdriven.com/publicdomain/gabinete/index.html  
 **Repositorio:** `mervaleta/rngmarketdriven`, carpeta `publicdomain/gabinete/`.  
-**Versión actual:** 0.9.0 · 7 de noviembre de 2026.  
+**Versión actual:** 1.0.0 · 7 de noviembre de 2026.  
 **Estado:** maqueta editorial; NO es PDF final ni obra aprobada para publicación comercial.
 
 ## Archivos
@@ -144,3 +144,18 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - Aperturas de capítulo en los folios: **11, 15, 21, 33, 39, 47, 53, 57**. Tapa en recto impar sola a la derecha.
 - Para servir la última edición, publicar juntos `index.html`, `editor.css`, `editor.js`, `libro.json`, `seleccion-erotica-lujo.json` y `version.json` en la ruta `/publicdomain/gabinete/`. En GitHub están verificados; el despliegue por Hostinger aún no se ha confirmado.
 - Identificador esperado `GABINETE · V0.9.0 · ROSA/BORDÓ` / `SIGLO23-GABINETE-20261107-V0.9.0`.
+
+
+## v1.0.0 — Ampliación real a 146 páginas y 68 fotografías (7/11/2026)
+
+El compromiso editorial era **duplicar al menos** la extensión de la v0.9 (66 páginas). La presente versión tiene **146 páginas**, **68 láminas de imágenes distintas**, **41 páginas de datos y contexto** y **12 páginas de créditos**. Las fotos se muestran una vez por obra en el interior; se permiten reapariciones en la tapa y las aperturas de capítulo.
+
+- **46 fotografías adicionales** preseleccionadas de repositorios históricos de dominio público; detalles de resolución y procedencia por archivo en `ampliacion-fotografica-2026.json`. Las que aparecen en la maqueta son fotografías de archivo, no imágenes generadas.
+- La selección adicional mezcla **18 imágenes con tamaño digital alto, 12 mediano y 16 bajo**. El dato es resolución nominal del archivo en Commons, NO aprobación de impresión. Las 16 bajas se conservan únicamente como prueba de curaduría hasta hallar másteres mejores.
+- Incorporadas **26 páginas nuevas de contexto** entre láminas: 16 ensayos breves recuperados de `contextos-investigacion-v06.json` y 10 notas originales sobre pose, escenario, circulación, modelos, restauración, soporte y autoría.
+- Aperturas de los ocho capítulos en **11, 17, 31, 65, 73, 93, 121 y 129**, todas impares. Folio 1 de tapa solo a la derecha; retiración de tapa 2 y dedicatorias 3.
+- `index.html` marca `GABINETE · V1.0.0`, `version.json` reporta `SIGLO23-GABINETE-20261107-V1.0.0`; el editor advierte sobre fotos de resolución limitada, fuera de la página impresa, e informa duplicaciones interiores.
+- En todo el corpus nuevo **faltan aún comprobación visual individual, revisión de edad adulta y derechos, y masters locales**. Las fichas y URLs provienen de las denominaciones de Wikimedia Commons, sin verificar cada URL descargando el archivo. No afirmar que todas las fotos están listas para papel de 27×34 cm.
+- **La versión está guardada en GitHub, pero la publicación en Hostinger sigue sin confirmarse**. El agente autorizado debe seguir `DESPLIEGUE_HOSTINGER_V1.md` para sincronizar específicamente esta carpeta y verificar el dominio, sin sobrescribir otras áreas del sitio.
+
+La próxima fase editorial requiere adquirir/descargar másteres originales de calidad, seleccionar una edición realmente óptima y descartar fotos sin adultez, atribución o licencia suficientes. Evitar relleno.
