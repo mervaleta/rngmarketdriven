@@ -112,7 +112,8 @@
         "Control previo y reporte JSON",
         "Páginas izquierda y derecha, aperturas en recto, viudas y huérfanas",
         "Identidad azul del proyecto",
-        "Perfil de preprensa exportable e importable"
+        "Perfil de preprensa exportable e importable",
+        "Vista por pliegos enfrentados: página 1 a derecha, 2-3 juntas, 4-5 juntas; blancos de pantalla excluidos de impresión"
       ],
       "limitations": [
         "Sin PDF/X, ICC, TrimBox ni BleedBox certificados",
