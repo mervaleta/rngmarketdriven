@@ -1,0 +1,24 @@
+name: Siglo23 - Spencer compositor browser E2E
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/siglo23-preprensa-browser.yml"
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Preparar navegador y Puppeteer
+        shell: bash
+        run: |
+          echo "CHROME_BIN=$(which google-chrome || which google-chrome-stable || which chromium || which chromium-browser)" >> "$GITHUB_ENV"
+          npm install --no-save --no-package-lock --ignore-scripts puppeteer-core@24
+      - name: Componer el prefacio de 1884 con Paged.js en Chromium
+        run: node publicdomain/spencer/maquetacion/tests/browser-preprensa.mjs
