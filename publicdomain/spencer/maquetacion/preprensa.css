@@ -14,7 +14,16 @@ button.primary{background:var(--gold);color:#12243a;border-color:var(--gold);fon
 .report{border-left:2px solid var(--gold);padding:8px 10px;background:#172e43;color:#d9e7ed;font-size:11px}
 .stage{min-width:0}.stagebar{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:15px;padding:12px 18px;background:#233850;border-bottom:1px solid var(--line)}.zoom{display:flex;align-items:center;gap:9px;font-size:11px}.zoom input{width:130px}.zoom output{min-width:35px}
 #stageScroll{overflow:auto;height:calc(100vh - 237px);min-height:520px;padding:20px;background:radial-gradient(circle at 35% 12%,#46546b,#24344a)}#rendered{transform-origin:top left}
-#rendered .pagedjs_pages{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center;gap:26px}#rendered .pagedjs_page{margin:0!important;box-shadow:0 12px 28px rgba(0,0,0,.37);background:#fff}
+/* Vista como libro abierto. El primer folio impar queda a la derecha. */
+#rendered .pagedjs_pages{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:24px;min-width:max-content;padding:8px 12px}
+#rendered .s23-spread{display:flex;flex-direction:column;align-items:stretch;gap:8px;min-width:max-content}
+#rendered .s23-spread-caption{font:700 11px/1.4 Montserrat,Arial,sans-serif;letter-spacing:.08em;color:#e1e8ef;text-align:center}
+#rendered .s23-spread-pages{display:flex;gap:0;align-items:stretch;justify-content:center;box-shadow:0 12px 30px rgba(0,0,0,.32);border-radius:2px;overflow:hidden}
+#rendered .s23-spread-slot{flex:0 0 auto;position:relative;min-width:0;min-height:0}
+#rendered .s23-spread-left{box-shadow:inset -8px 0 12px -12px rgba(0,0,0,.4)}
+#rendered .s23-spread-right{box-shadow:inset 8px 0 12px -12px rgba(0,0,0,.4)}
+#rendered .s23-blank-leaf{width:var(--s23-leaf-w,559px);height:var(--s23-leaf-h,794px);background:#d9d6d0;border:1px dashed #a8a49d}
+#rendered .pagedjs_page{margin:0!important;box-shadow:none!important;background:#fff}
 #rendered .pagedjs_pagebox{box-shadow:none!important}.stage-note{padding:10px 18px;margin:0;border-top:1px solid var(--line)}
 #manuscript{position:absolute;left:-200000px;top:0;width:160mm;pointer-events:none}
 @media(max-width:1050px){.layout{grid-template-columns:1fr}.controls{max-height:none}.fields{grid-template-columns:repeat(5,1fr)}.fields label:first-child{grid-column:1/-1}#stageScroll{height:670px}}
@@ -23,7 +32,9 @@ button.primary{background:var(--gold);color:#12243a;border-color:var(--gold);fon
  html,body{margin:0!important;padding:0!important;background:#fff!important;color:#111!important}
  .top,.intro,.controls,.stagebar,.stage-note,#manuscript{display:none!important}
  .layout,.stage,#stageScroll,#rendered{display:block!important;padding:0!important;overflow:visible!important;height:auto!important;min-height:0!important;transform:none!important;background:#fff!important}
- #rendered .pagedjs_pages{display:block!important;padding:0!important;margin:0!important}
+ #rendered .pagedjs_pages{display:block!important;padding:0!important;margin:0!important;min-width:0!important}
+ #rendered .s23-spread,#rendered .s23-spread-pages,#rendered .s23-spread-slot{display:contents!important;box-shadow:none!important;border:0!important}
+ #rendered .s23-spread-caption,#rendered .s23-blank-leaf{display:none!important}
  #rendered{zoom:1!important}
  #rendered .pagedjs_page{box-shadow:none!important;margin:0!important;break-after:page!important;page-break-after:always!important}
 }
