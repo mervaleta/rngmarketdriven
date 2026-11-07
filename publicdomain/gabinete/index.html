@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap">
-<link rel="stylesheet" href="./editor.css?v=0.6.0">
+<link rel="stylesheet" href="./editor.css?v=0.7.0">
 <style id="printCss"></style>
 </head>
 <body>
@@ -19,7 +19,7 @@
   <div class="top-actions">
     <a href="../../" title="Volver a los candidatos de dominio público">← Panel Siglo23</a>
     <a href="../spencer/maquetacion/" title="Comparar con el taller de Herbert Spencer">Estudio Spencer</a>
-    <span class="version">GABINETE · V0.6.0 · ROSA/BORDÓ</span>
+    <span class="version">GABINETE · V0.7.0 · ROSA/BORDÓ</span><span class="unique-policy"><strong>1 vez</strong> por fotografía interior</span>
     <button id="downloadJSON" type="button">Guardar proyecto ↓</button>
     <button id="importJSON" type="button">Importar JSON ↑</button>
     <button id="printProof" type="button" class="primary" title="Imprime una prueba visual; aún no es el PDF definitivo">Prueba de impresión / PDF ↗</button>
@@ -29,7 +29,7 @@
   <div>
     <div class="eyebrow">Laboratorio editorial · Maquetación y estudio histórico</div>
     <h1>El gabinete prohibido <em>— edición de trabajo</em></h1>
-    <p>Un fotolibro cronológico: imágenes a página completa, mosaicos, dípticos y textos breves de contexto. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
+    <p>Fotolibro cronológico: una sola aparición de cada fotografía en el interior, fechas y datos curiosos intercalados. Tapa y aperturas pueden reutilizar imágenes. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
   </div>
   <div class="small-status">CONTENIDO HISTÓRICO PARA ADULTOS · SIN PUBLICACIÓN COMERCIAL</div>
 </section>
@@ -93,7 +93,7 @@
 <aside class="panel right" aria-label="Inspector de página">
  <div class="eyebrow">Página seleccionada</div>
  <h2 id="selectionLabel">— / —</h2>
- <p class="hint">Los cambios de texto e imagen quedan guardados localmente en este navegador. Para transferirlos o enviarlos a otro agente, descargá el proyecto JSON.</p>
+ <p class="hint">Los cambios de texto e imagen quedan guardados localmente. Las imágenes solo se pueden reutilizar en la tapa o las aperturas de capítulo. Para transferirlos o enviarlos a otro agente, descargá el proyecto JSON.</p>
  <div class="subhead">Contenido de la página</div>
  <label class="field">Diseño<select id="editKind" data-field="kind">
    <option value="cover">Cubierta</option>
@@ -104,6 +104,8 @@
    <option value="contents">Índice</option>
    <option value="chapter">Apertura de sección</option>
    <option value="essay">Ensayo</option>
+   <option value="fact">Dato curioso y contexto</option>
+   <option value="timeline">Cronología y fechas</option>
    <option value="photoessay">Fotoensayo (fotografía dominante)</option>
    <option value="diptych">Díptico (2 fotografías)</option>
    <option value="mosaic">Mosaico (3–4 imágenes)</option>
@@ -114,6 +116,9 @@
  <label class="field">Sección<input type="text" id="editSection" data-field="section"></label>
  <label class="field">Título<input type="text" id="editTitle" data-field="title"></label>
  <label class="field">Subtítulo / entradilla<input type="text" id="editSub" data-field="sub"></label>
+ <label class="field">Fecha destacada / intervalo<input type="text" id="editFactDate" data-field="fact_date" placeholder="Ej.: 1851"></label>
+ <label class="field">Dato curioso destacado<textarea id="editFactline" data-field="factline" rows="3"></textarea></label>
+ <label class="field">Fuente documental del dato<input type="url" id="editFactSource" data-field="source_url" placeholder="https://..."></label>
  <label class="field">Texto editorial<textarea rows="10" id="editBody" data-field="body" spellcheck="true"></textarea></label>
  <label class="field">Pie de foto<input type="text" id="editCaption" data-field="caption"></label>
  <div class="subhead">Imagen asignada</div>
@@ -136,6 +141,6 @@
 <input type="file" id="fileInput" accept="application/json,.json">
 <div id="printRoot" aria-hidden="true"></div>
 <div id="toast" role="status" hidden></div>
-<script src="./editor.js?v=0.6.0" defer></script>
+<script src="./editor.js?v=0.7.0" defer></script>
 </body>
 </html>
