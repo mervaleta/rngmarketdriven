@@ -192,3 +192,8 @@ La lectura consta de **seis etapas cronológicas**: asombro de la placa única (
 El archivo **`argumento-curatorial-v12.md`** conserva el guion, los tres criterios de lectura por imagen (estética, tecnología, pudor) y las fuentes institucionales. En `libro.json`, cada obra recibe metadatos de lectura separados de la atribución histórica. **No se presume el sentimiento, edad o consentimiento de un modelo por la pose**: la edición sigue sujeta a comprobación documental individual antes de imprenta.
 
 Los ficheros están **actualizados en GitHub**; no considerar desplegada v1.2.0 en Hostinger hasta leer su `version.json` en el dominio.
+
+
+## Siglo23 Studio Kit v2 · maquetación común (7/11/2026)
+
+Las herramientas de maquetación, la identidad cromática y los controles de preprensa se documentan en [README del upgrade editorial](README-UPGRADE-SIGLO23-V2.md). Incluye cubiertas, pliegos, guardado/importación y auditoría. El PDF de navegador sigue siendo una prueba, no PDF/X certificado; verificar publicación Hostinger por separado.
