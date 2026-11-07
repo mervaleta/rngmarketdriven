@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -576,20 +576,27 @@
     },
     {
       "id": "nota",
-      "kind": "photoessay",
+      "kind": "essay",
       "section": "Introducción",
       "title": "¿Qué fue una imagen prohibida?",
       "body": "Una imagen no es «prohibida» por sus formas solamente: intervienen leyes, convenciones culturales, prácticas comerciales y maneras de mirar. En los años inmediatamente posteriores a 1839, la fotografía se presentó como un procedimiento de extraordinaria fidelidad. Esa credibilidad se extendió también a la representación del cuerpo, que resultó a la vez valiosa para los artistas y problemática para la moral pública.\n\nEste recorrido no pretende equiparar el desnudo artístico y la pornografía. Algunas imágenes se registraban legalmente como modelos para pintores; otras pasaban de mano en mano sin exhibición pública, y ciertos productores enfrentaron procesos judiciales. La documentación disponible no siempre permite saber quién adquirió una copia ni para qué.\n\nLa cronología ofrece una primera clave de lectura: una placa única se consumía de modo distinto a una imagen producida desde un negativo. Cada técnica cambió la escala posible del comercio y también la distancia entre el cuerpo y su representación.\n\nLas obras reunidas aquí están conservadas como objetos museísticos. Por encima de su rareza, interesa leer sus materiales, sus ambientes y las partes de la historia que quedaron fuera del encuadre.",
-      "image": "stereo",
+      "image": null,
       "caption": "",
-      "sub": "Para una historia de los usos de la mirada"
+      "sub": "Para una historia de los usos de la mirada",
+      "fact_date": "1839",
+      "factline": "No toda fotografía de desnudo era ilegal ni toda imagen académica estaba destinada al mismo público.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
     },
     {
       "id": "cronologia",
-      "kind": "essay",
+      "kind": "timeline",
       "section": "Introducción · Cronología",
-      "title": "Los primeros veinte años",
-      "body": "1839 — Presentación pública del procedimiento de daguerrotipo en Francia. Su promesa de fidelidad visual despierta entusiasmo científico, artístico y comercial.\n\nDécada de 1840 — La práctica del desnudo y los ensayos estereoscópicos muestran muy pronto que la nueva técnica puede servir tanto a la representación académica como a la observación íntima.\n\n1851 — Félix-Jacques Moulin es procesado por la producción y comercialización de imágenes consideradas obscenas. La acción de las autoridades confirma la dimensión jurídica del mercado de fotografías.\n\nDécada de 1850 — La difusión del colodión húmedo y de las copias sobre papel amplía las posibilidades de producción y circulación de las imágenes de estudio.\n\nSegunda mitad del siglo XIX — Aumentan los repertorios de retratos, estudios de modelo, vistas estereoscópicas y álbumes. Las fotografías pueden ser a la vez documentos de trabajo, objetos coleccionables o imágenes para consumo privado.\n\nEsta cronología se ofrece como hilo contextual, no como prueba de que cada pieza reunida haya sido ilegal."
+      "title": "Una cronología de la mirada",
+      "body": "1839 — Presentación pública del procedimiento de daguerrotipo en Francia. Su promesa de fidelidad visual despierta entusiasmo científico, artístico y comercial.\n\nDécada de 1840 — La práctica del desnudo y los ensayos estereoscópicos muestran muy pronto que la nueva técnica puede servir tanto a la representación académica como a la observación íntima.\n\n1851 — Félix-Jacques Moulin es procesado por la producción y comercialización de imágenes consideradas obscenas. La acción de las autoridades confirma la dimensión jurídica del mercado de fotografías.\n\nDécada de 1850 — La difusión del colodión húmedo y de las copias sobre papel amplía las posibilidades de producción y circulación de las imágenes de estudio.\n\nSegunda mitad del siglo XIX — Aumentan los repertorios de retratos, estudios de modelo, vistas estereoscópicas y álbumes. Las fotografías pueden ser a la vez documentos de trabajo, objetos coleccionables o imágenes para consumo privado.\n\nEsta cronología se ofrece como hilo contextual, no como prueba de que cada pieza reunida haya sido ilegal.",
+      "fact_date": "1839—1900",
+      "factline": "De la placa singular al negativo reproducible y a los estudios del movimiento.",
+      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/timeline-of-the-daguerreotype-era/",
+      "image": null
     },
     {
       "id": "cap1",
@@ -603,57 +610,41 @@
     },
     {
       "id": "i_informe",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "I · 1839–1849",
-      "title": "El metal, el secreto y la escala",
+      "title": "El día que la fotografía se hizo pública",
       "body": "La aparición del daguerrotipo en 1839 abrió una forma de representación que parecía registrar lo real sin la intermediación de la mano del pintor. Sin embargo, la placa no era una ventana natural: requería preparación, luz, una pose sostenida y un cuidadoso revelado. La superficie plateada devolvía su imagen de modo cambiante según el ángulo desde el que se observara.\n\nLa escala pequeña importa. Frente a una pintura expuesta al público, el daguerrotipo podía entrar en un estuche, un cajón o una colección íntima. Sus usos no eran necesariamente clandestinos, pero la técnica favorecía formas de contemplación personal. La historia de las imágenes eróticas tempranas debe examinarse en relación con ese soporte material.\n\nEn la década de 1840 se ensayaron dispositivos capaces de representar profundidad mediante pares de imágenes. Ese desarrollo introdujo otra experiencia: no bastaba con mirar, había que utilizar un aparato.",
-      "image": "stereo",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "19.08.1839",
+      "factline": "La presentación del daguerrotipo en París abrió la posibilidad de poseer una imagen de extraordinario detalle.",
+      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
     },
     {
       "id": "lam2",
       "kind": "image",
       "section": "I · 1839–1849",
       "title": "La visión en dos tiempos",
-      "body": "Una fotografía estereoscópica no se entendía solo como imagen plana: se concebía para ser vista a través de un aparato que fusionaba dos puntos de vista.",
+      "body": "La estereoscopía exigía dos imágenes ligeramente distintas para crear una ilusión de relieve. Esta pieza permite explicar cómo el aparato también transformaba al espectador: había que acercar el rostro al visor para reconstruir una escena tridimensional.",
       "image": "stereo",
       "caption": "Daguerrotipos estereoscópicos, década de 1840 · Met 1998.90",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282209",
+      "factual_note": true
     },
     {
-      "id": "g_stereo",
-      "kind": "diptych",
-      "section": "I · 1839–1849",
-      "title": "Dos superficies, dos modos de ver",
-      "body": "La imagen estereoscópica y el daguerrotipo escenificado comparten un público capaz de manipular objetos pequeños, aunque sus dispositivos de observación difieren.",
-      "image": null,
-      "images": [
-        "stereo",
-        "mirror"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "crit2",
-      "kind": "analysis",
-      "section": "I · 1839–1849",
-      "title": "El espectador aislado",
-      "body": "Para producir volumen aparente, una cámara registra dos imágenes levemente desplazadas. El espectador mira el par a través de lentes y obtiene una ilusión espacial. La innovación contribuyó a la popularidad de las vistas domésticas: escenas urbanas, paisajes, retratos y también desnudos.\n\nLa experiencia de observar se privatiza. El Met describe este mecanismo de contemplación como una intensificación de la sensación de voyeurismo. En lugar de una pintura de gran formato, compartida en un salón, la imagen pasa a ser un dispositivo que el espectador acerca a su rostro.\n\nNo hay que confundir el aspecto óptico con una prueba de clandestinidad: una misma tecnología servía para usos respetables y otros perseguidos. Lo que cambia son los circuitos sociales de acceso.",
+      "id": "auto_recto_cap2",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Ajuste a recto impar",
+      "body": "",
       "image": null,
       "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "i_vision",
-      "kind": "essay",
-      "section": "I · 1839–1849",
-      "title": "La tecnología no decide el significado",
-      "body": "El estereoscopio no fue inventado para representar desnudos. Paisajes, monumentos y escenas urbanas utilizaron el mismo principio de visión doble. Por eso, una historia del erotismo fotográfico que solo muestre cuerpos pierde de vista el sistema que hizo posible mirarlos.\n\nEl aparato aislaba el campo visual y creaba una impresión de cercanía. En un contexto doméstico, permitía una observación que no tenía el mismo carácter público de una pintura colgada en un salón. La privacidad del dispositivo no prueba la ilegalidad de la imagen que contiene, pero sí ayuda a explicar por qué ciertas fotografías podían valorarse por encima de su simple superficie impresa.",
-      "image": null,
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap2",
@@ -667,94 +658,61 @@
     },
     {
       "id": "ii_informe",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "II · 1850–1852",
-      "title": "La fábrica de intimidad",
+      "title": "Un objeto íntimo, un negocio incipiente",
       "body": "Las fotografías tempranas de desnudo organizan un escenario minucioso. Un espejo agrega otro ángulo del cuerpo, una tela separa el estudio de cualquier habitación real y un mueble convierte una pose en supuesta escena privada. Nada exige pensar que el espectador asiste a un momento espontáneo.\n\nEl realismo fotográfico entra aquí en tensión con una puesta en escena intensamente artificial. La precisión de la cámara sirve para presentar una intimidad que el estudio ha construido. El interés de estos objetos no reside solo en lo que muestran, sino en cómo piden ser contemplados.\n\nEn la misma época, ciertos estudios de modelos podían justificarse por su utilidad académica. La dificultad histórica está en reconstruir qué parte del repertorio respondía a esas necesidades y qué parte se destinaba a compradores ajenos a los talleres.",
-      "image": "mirror",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1850",
+      "factline": "En Nueva York ya existían más de setenta estudios de daguerrotipos. El retrato se convirtió en una actividad comercial masiva.",
+      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
     },
     {
       "id": "lam1",
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "El espejo y la mirada",
-      "body": "Una pequeña placa de hacia 1850 convierte un mueble en instrumento narrativo. El espejo no documenta la intimidad: la fabrica para la cámara.",
+      "body": "El espejo cumple una función compositiva: aporta otro ángulo sin mover la cámara. La pequeña placa del siglo XIX revela la elaboración deliberada de una intimidad que el observador podía sostener literalmente en la mano.",
       "image": "mirror",
       "caption": "Daguerrotipo, ca. 1850 · Met 1997.382.45",
-      "sub": ""
-    },
-    {
-      "id": "g_1850",
-      "kind": "mosaic",
-      "section": "II · 1850–1852",
-      "title": "El cuerpo y sus artificios",
-      "body": "Espejo, mito y pose: tres estrategias tempranas de composición.",
-      "image": null,
-      "images": [
-        "mirror",
-        "danae",
-        "seated"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "crit1",
-      "kind": "analysis",
-      "section": "II · 1850–1852",
-      "title": "La escena no es un accidente",
-      "body": "La arquitectura mínima de la escena revela una cadena de decisiones. Colocar el espejo es aumentar la información visual disponible; orientar la figura hacia él es dividir la composición entre la presencia directa y su reflejo. El procedimiento necesita preparación, posado e iluminación. Es una intimidad coreografiada.\n\nEl Met recuerda que en la Francia decimonónica las autoridades incautaban grandes cantidades de fotografías calificadas de indecentes. La pieza sirve para pensar el desajuste entre una tecnología reproducible, los consumidores privados y el alcance de las leyes. No sabemos quién fue la modelo, qué margen de negociación tuvo ni quién compró la copia; esas preguntas, fundamentales, no deben sustituirse con ficciones.",
-      "image": "mirror",
-      "caption": "",
-      "sub": "Lectura iconográfica y límites documentales"
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282050",
+      "factual_note": true
     },
     {
       "id": "lam_danae_1850",
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "Dánae y el nombre del arte",
-      "body": "El recurso a la mitología clásica coloca el cuerpo fotográfico dentro de una tradición de desnudos autorizados por la pintura.",
+      "body": "El nombre de Dánae remite a un asunto habitual de la pintura clásica. El procedimiento fotográfico y el coloreado manual muestran que estas imágenes no eran escenas espontáneas: podían invocar la mitología para ingresar en un repertorio artístico reconocible.",
       "image": "danae",
       "caption": "Atribuido a Bruno Braquehais, ca. 1850 · Met 2015.400.51",
-      "sub": ""
-    },
-    {
-      "id": "anal_danae",
-      "kind": "analysis",
-      "section": "II · 1850–1852",
-      "title": "Cuando la mitología protege a la cámara",
-      "body": "La figura de Dánae era conocida en el arte europeo mucho antes de la fotografía. Reproducir ese repertorio ayudaba a que una representación corporal se leyera como alusión culta y no simplemente como escena contemporánea.\n\nEste daguerrotipo coloreado exhibe dos formas de construcción. La primera es la pose; la segunda, el añadido de color sobre una imagen obtenida por procedimientos químicos. El resultado no es una copia neutral de la naturaleza, sino una pieza deliberadamente intervenida.\n\nConocer el título y la atribución del museo ayuda a reconstruir el marco cultural. No permite, por sí solo, confirmar dónde se vendió la fotografía ni quién la contempló primero.",
-      "image": "danae",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/291804",
+      "factual_note": true
     },
     {
       "id": "cierreimg",
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "El cuerpo y el límite de la pose",
-      "body": "Una pose que el Met describe como incómoda recuerda los límites de la reconstrucción académica mediante fotografía.",
+      "body": "La aparente naturalidad requería una postura mantenida, iluminación escogida y un decorado de taller. La fotografía temprana capturaba detalles con precisión, pero dependía de un artificio escenográfico muy cuidadoso.",
       "image": "seated",
       "caption": "Daguerrotipo, ca. 1850 · Met 2005.100.30",
-      "sub": ""
-    },
-    {
-      "id": "anal_seated",
-      "kind": "analysis",
-      "section": "II · 1850–1852",
-      "title": "La pose demasiado perfecta",
-      "body": "Una de las paradojas del estudio académico consiste en aspirar a la naturalidad mediante una posición escogida. La tensión entre postura, luz y mobiliario recuerda que la cámara estaba sometida a restricciones técnicas; la inmovilidad era una condición del procedimiento.\n\nEl resultado podía ser útil para registrar proporciones y volúmenes, pero no era un dato sin interpretación. El ángulo de cámara, la duración de la exposición y la manipulación de la iluminación definían qué podía verse. La fotografía parecía hacer visible el cuerpo sin mediaciones, cuando en realidad las acumulaba.",
-      "image": "seated",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283104",
+      "factual_note": true
     },
     {
       "id": "auto_recto_cap3",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
@@ -774,181 +732,139 @@
     },
     {
       "id": "iii_informe",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "III · 1851–1855",
-      "title": "Una palabra conveniente: academia",
+      "title": "La palabra que permitía vender desnudos",
       "body": "«Academia» designaba el estudio de una figura para la formación de artistas. Esa utilidad otorgaba cierta legitimidad a fotografías que, sin esa justificación, podían ser mal vistas por las autoridades. Julien Vallou de Villeneuve registró y comercializó estudios de desnudo en la década de 1850; el Metropolitan Museum documenta ese contexto y las conexiones de sus poses con la pintura de Courbet.\n\nLa categoría, sin embargo, no resuelve la historia del consumo. Una fotografía podía pasar del estudio del pintor a un álbum privado. La circulación vuelve porosas las categorías: arte, documentación y erotismo no eran compartimentos estancos.\n\nEl paso a una copia sobre papel introdujo además una economía distinta. El negativo hacía posible multiplicar las estampas; la venta ya no dependía de una placa irrepetible. La reproducción empieza a estructurar una industria de pequeños objetos visuales.",
-      "image": "vallou_reclining_1851",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1851–1855",
+      "factline": "Vallou registraba sus fotografías como modelos para artistas. El decorado era parte de esa legitimación.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
     },
     {
       "id": "lam_vallou_1851",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Cuerpo suspendido",
-      "body": "Una pose horizontal y una oscuridad dirigida. La carne adquiere peso en una composición que parece sustraerla del espacio cotidiano.",
+      "body": "Entre 1851 y 1855 Vallou registró y comercializó estudios del cuerpo como modelos para artistas. La etiqueta facilitaba su circulación pública; el Metropolitan Museum señala que sus compradores pudieron tener usos muy distintos.",
       "image": "vallou_reclining_1851",
       "caption": "Vallou de Villeneuve, 1851–1853 · Met 2005.100.40",
-      "sub": ""
-    },
-    {
-      "id": "g_vallou",
-      "kind": "mosaic",
-      "section": "III · 1851–1855",
-      "title": "Variaciones de un estudio",
-      "body": "Cuatro fotografías distintas que recurren a telas, apoyos y sombras para organizar la figura.",
-      "image": null,
-      "images": [
-        "vallou_reclining_1851",
-        "vallou",
-        "vallou2",
-        "vallou_standing_1853"
-      ],
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283114",
+      "factual_note": true
     },
     {
       "id": "p_durieu_1851",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La copia y el montaje",
-      "body": "La copia original conserva un montaje que nos recuerda que no vemos un negativo abstracto, sino un objeto coleccionado.",
+      "body": "La atribución a Eugène Durieu no es definitiva. Una ficha de museo que diga «atribuido» es una advertencia importante para el editor: la historia de la fotografía contiene autores, talleres y negativos todavía discutidos.",
       "image": "durieu_nude_1851",
       "caption": "Atribuida posiblemente a Durieu · ca. 1851 · Met 2005.100.724",
-      "sub": ""
-    },
-    {
-      "id": "anal_vallou_1851",
-      "kind": "analysis",
-      "section": "III · 1851–1855",
-      "title": "El vacío también es escenografía",
-      "body": "El fondo poco definido hace que el cuerpo destaque como una forma casi escultórica. La composición recupera poses de la pintura, pero el registro fotográfico conserva una presencia física difícil de reducir a alegoría.\n\nEn su ficha, el Met advierte que la circulación de estos trabajos no puede entenderse exclusivamente como suministro para artistas. La ausencia de un comprador documentado impide asignar una función única a la copia. La incertidumbre no debilita el análisis; lo sitúa en un terreno histórico más preciso.",
-      "image": "vallou_reclining_1851",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286140",
+      "factual_note": true
     },
     {
       "id": "lam5",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El perfil académico",
-      "body": "La postura horizontal y el perfil evocan un repertorio clásico de modelos para pintura y dibujo.",
+      "body": "Una cortina, una postura lateral y una luz controlada bastaban para sugerir que la fotografía servía al trabajo de un pintor. Pero esas mismas decisiones podían ser valoradas por compradores que no pertenecían a ningún taller.",
       "image": "vallou",
       "caption": "Papel salado, ca. 1853 · Met 1993.69.3",
-      "sub": ""
-    },
-    {
-      "id": "crit4",
-      "kind": "analysis",
-      "section": "III · 1851–1855",
-      "title": "¿Arte o erotismo? Una pregunta equivocada",
-      "body": "El lenguaje visual del desnudo académico servía para legitimar la presencia del cuerpo en una imagen, pero también lo transformaba en mercancía. No se trata de resolver una oposición absoluta: el mismo objeto podía ser modelo para un artista, material de colección y estímulo erótico.\n\nLas fotografías de Vallou de Villeneuve muestran un interés por los valores tonales de la piel, los pliegues de tela y las variaciones de postura. La cámara registra texturas con una exactitud que la pintura podía usar como referencia. Al mismo tiempo, el encuadre organiza una observación del cuerpo que excede el entrenamiento técnico.\n\nEl desafío curatorial es evitar dos simplificaciones: elevar todo desnudo a «arte puro» para eludir el problema sexual, o rebajar toda imagen de cuerpo a «pornografía» sin atender a sus funciones concretas.",
-      "image": null,
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/266982",
+      "factual_note": true
     },
     {
       "id": "lam6",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La repetición del motivo",
-      "body": "Una nueva variante del cuerpo recostado muestra cómo el estudio fotográfico podía construir series de posturas.",
+      "body": "Vallou elaboró varias poses de una misma tradición pictórica. La repetición del motivo entre obras distintas revela un repertorio comercial; no autoriza a afirmar que cada fotografía tuvo el mismo destino ni el mismo comprador.",
       "image": "vallou2",
       "caption": "Papel salado, ca. 1853 · Met 1993.69.1",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/266980",
+      "factual_note": true
     },
     {
       "id": "lam_standing_1853",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La espalda y el estudio",
-      "body": "La figura de espaldas y las telas colocadas alrededor del modelo transforman la postura en una escena pensada para contemplarse.",
+      "body": "En esta imagen el rostro queda parcialmente retirado del centro de atención. Con frecuencia conocemos el nombre del fotógrafo y la técnica, pero no la identidad ni las condiciones laborales de quien posó.",
       "image": "vallou_standing_1853",
       "caption": "Vallou de Villeneuve, ca. 1853 · Met 1993.69.2",
-      "sub": ""
-    },
-    {
-      "id": "anal_standing_1853",
-      "kind": "analysis",
-      "section": "III · 1851–1855",
-      "title": "Lo que la espalda oculta",
-      "body": "El giro del cuerpo aleja el rostro y elimina buena parte de las pistas biográficas que permitirían identificar a la persona retratada. Ese anonimato involuntario es un rasgo recurrente del archivo.\n\nEn la imagen de Vallou, el mobiliario y el drapeado se vuelven signos de estudio; proporcionan un contexto visual aceptable para el cuerpo desnudo. No podemos suponer qué relación laboral hubo entre fotógrafo y modelo. El documento da información sobre la composición, pero guarda silencio sobre las condiciones de producción.",
-      "image": "vallou_standing_1853",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/266981",
+      "factual_note": true
     },
     {
       "id": "iii_delacroix",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "III · 1851–1855",
-      "title": "Delacroix y la imagen útil",
+      "title": "Delacroix y la cámara de Durieu",
       "body": "Eugène Durieu produjo estudios fotográficos que interesaron a Eugène Delacroix. El museo describe la colaboración del pintor en la disposición de las poses y el uso de algunas estampas como referencias para dibujar.\n\nEl vínculo ayuda a comprender qué podía aportar la fotografía al taller: continuidad de una postura, fijación de una luz y posibilidad de estudiar el cuerpo sin sostener durante horas una sesión de modelo vivo. Pero el registro también transforma lo que observa. Un encuadre corta el espacio, una tonalidad selecciona volúmenes y la tela dirige la atención.\n\nLa relación entre pintura y cámara no fue una simple sustitución; fue un intercambio de modos de ver.",
-      "image": "delacroix_durieu_drawing",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1853–1854",
+      "factline": "Las fotografías empezaron a funcionar como cuadernos de estudio para pintores.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286255"
     },
     {
       "id": "lam7",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El taller y la postura",
-      "body": "En las fotografías de Eugène Durieu, los apoyos, la articulación del cuerpo y la luz conectan la fotografía con la práctica del dibujo.",
+      "body": "Durieu colaboró con Eugène Delacroix en estudios de modelos durante 1853–1854. La imagen muestra una cámara trabajando en un territorio que todavía compartía procedimientos y convenciones con el dibujo académico.",
       "image": "durieu",
       "caption": "Albúmina desde negativo de vidrio, 1853–54 · Met 2005.100.41",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283115",
+      "factual_note": true
     },
     {
       "id": "p_delacroix",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "De la fotografía al dibujo",
-      "body": "Aquí se ve cómo las fotografías de Durieu podían transformarse en estudios de dibujo; un vínculo material entre las dos artes.",
+      "body": "Este objeto es un dibujo, no una fotografía: Delacroix trasladó a grafito figuras que Durieu había registrado con la cámara. Una fuente excepcional para comprender el intercambio entre ambas prácticas.",
       "image": "delacroix_durieu_drawing",
       "caption": "Dibujo de Delacroix, 1855 · Met 2004.425 · Obra contextual NO fotográfica",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "documento gráfico (no fotografía)",
+      "source_url": "https://www.metmuseum.org/art/collection/search/366184",
+      "factual_note": true
     },
     {
       "id": "lam_durieu_study",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Estudio para una mirada dibujada",
-      "body": "El gesto posado invita a leer la fotografía como apoyo a un trabajo posterior de dibujo, no solo como una imagen autónoma.",
+      "body": "La fotografía permitía conservar una pose cuando la sesión con la persona modelo había terminado. Delacroix elogió las imágenes de Durieu y las utilizó para estudiar volúmenes y relaciones entre luces y sombras.",
       "image": "durieu_study_1853",
       "caption": "Eugène Durieu, 1853–1854 · Met 2005.100.569",
-      "sub": ""
-    },
-    {
-      "id": "g_durieu",
-      "kind": "mosaic",
-      "section": "III · 1851–1855",
-      "title": "La cámara y el dibujo",
-      "body": "Tres fotografías y un dibujo: la relación entre observación corporal y estudio plástico.",
-      "image": null,
-      "images": [
-        "durieu_nude_1851",
-        "durieu",
-        "durieu_study_1853",
-        "delacroix_durieu_drawing"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "anal_durieu_study",
-      "kind": "analysis",
-      "section": "III · 1851–1855",
-      "title": "La cámara como cuaderno de apuntes",
-      "body": "Un estudio fotográfico puede funcionar como referencia estable: ofrece al artista una figura y una distribución de sombras que se mantienen inalterables después de que el modelo abandona el estudio.\n\nEse carácter de archivo visual es crucial para explicar la difusión de la fotografía entre pintores. También revela el trabajo detrás de la imagen: seleccionar la posición de la figura, el soporte, la distancia y los contrastes implica decisiones estéticas.\n\nLa imagen conserva el aspecto de un documento de trabajo y al mismo tiempo puede circular como pieza de colección; ambas condiciones no se excluyen.",
-      "image": "durieu_study_1853",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286255",
+      "factual_note": true
     },
     {
       "id": "auto_recto_cap4",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
@@ -968,77 +884,42 @@
     },
     {
       "id": "iv_informe",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "IV · 1856–1859",
-      "title": "El estudio aparece en la imagen",
+      "title": "Cuando el taller dejó de disfrazarse",
       "body": "Al avanzar la década de 1850, algunas fotografías reducen el aparato de alusiones mitológicas que había permitido encuadrar el desnudo como «arte». El decorado del taller sigue siendo visible, pero el modelo adquiere una presencia menos idealizada.\n\nFranck-François-Genès Chauvassaignes presenta, en una obra fechada entre 1856 y 1859, un desnudo sin demasiada mediación narrativa. El Met lo relaciona con las transformaciones modernas de la pintura del cuerpo, que poco después provocarían grandes debates públicos.\n\nLa fotografía no elimina la escenografía; desplaza su función. Una cortina puede operar como fondo, no como alegoría. Un espejo sigue multiplicando miradas, pero la composición pone en evidencia la producción misma de la escena.",
-      "image": "chauva_studio_1856",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1856–1859",
+      "factline": "El realismo y la ausencia de alegorías transformaron el desnudo fotográfico.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282602"
     },
     {
       "id": "lam_chauva",
       "kind": "image",
       "section": "IV · 1856–1859",
       "title": "La habitación desnuda",
-      "body": "La renuncia a una mitología evidente acentúa la condición de escena de estudio: el espacio se presenta como lugar de trabajo.",
+      "body": "La escena ofrece pocos refugios mitológicos. El estudio y su materialidad se vuelven parte de la imagen, en una época en que el realismo fotográfico comenzaba a modificar también las expectativas sobre la pintura.",
       "image": "chauva_studio_1856",
       "caption": "Chauvassaignes, 1856–1859 · Met 1998.338",
-      "sub": ""
-    },
-    {
-      "id": "anal_chauva",
-      "kind": "analysis",
-      "section": "IV · 1856–1859",
-      "title": "Un realismo incómodo",
-      "body": "La fotografía de Chauvassaignes resulta moderna por su falta de énfasis idealizador. La persona retratada no se disuelve por completo en una figura mítica: la escena conserva signos del estudio y de la materialidad cotidiana.\n\nEl Met interpreta esa franqueza como un precedente importante para la representación de cuerpos en la pintura moderna. Es una comparación histórica sobre el lenguaje visual; no prueba que la obra circulara clandestinamente ni permite reconstruir las circunstancias personales del posado.",
-      "image": "chauva_studio_1856",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282602",
+      "factual_note": true
     },
     {
       "id": "lam_braq_mirror",
       "kind": "image",
       "section": "IV · 1856–1859",
       "title": "Ante el espejo",
-      "body": "La toilette, el reflejo y la composición remiten a una larga tradición pictórica que podía resultar reconocible para el censor.",
+      "body": "Hacia 1854 Braquehais registró sus primeras fotografías para la venta. El Met explica que los espejos, la iluminación suave y las poses basadas en modelos clásicos ayudaban a situar el desnudo fotográfico dentro de un lenguaje artístico tolerado.",
       "image": "braquehais_mirror_1857",
       "caption": "Atribuido a Bruno Braquehais, ca. 1857 · Met 2005.100.279",
-      "sub": ""
-    },
-    {
-      "id": "g_mid1850",
-      "kind": "diptych",
-      "section": "IV · 1856–1859",
-      "title": "Coartadas del taller",
-      "body": "La presencia de un espejo y la austeridad de una escena de estudio generan lecturas diferentes del mismo motivo.",
-      "image": null,
-      "images": [
-        "chauva_studio_1856",
-        "braquehais_mirror_1857"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "anal_braq_mirror",
-      "kind": "analysis",
-      "section": "IV · 1856–1859",
-      "title": "El arte como lenguaje de negociación",
-      "body": "La alegoría ya no tiene por qué aparecer como diosa o escena bíblica: basta con un motivo aceptado en la pintura, como una figura ante su espejo. El Met explica que Braquehais recurrió a la composición clásica y la puesta en escena para situar la fotografía erótica dentro del ámbito tolerado del arte.\n\nLa operación es interesante porque la fotografía conserva una apariencia de realidad inmediata. El ropaje cultural no borra el cuerpo fotografiado; le ofrece un marco de interpretación que favorece su circulación. En esa negociación reside una parte de la historia del primer mercado de imágenes íntimas.",
-      "image": "braquehais_mirror_1857",
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "iv_comparar",
-      "kind": "photoessay",
-      "section": "IV · 1856–1859",
-      "title": "Comparar sin confundir",
-      "body": "Una imagen puede adoptar recursos de la pintura, otra mostrarse cercana al registro de taller; ambas pueden circular por canales diversos. Conviene resistir la tentación de ordenar estas piezas en una escala simple de «más» o «menos» pornográficas.\n\nEl concepto de obscenidad es histórico. Las autoridades regulaban lo que podía publicarse, venderse o exponerse; el público, por su parte, encontraba maneras de adquirir imágenes en circuitos abiertos y privados. Los archivos de museos conservan objetos, pero no siempre sus trayectorias de consumo.\n\nLa comparación entre Chauvassaignes y Braquehais no revela una progresión lineal. Muestra estrategias visuales simultáneas que responden a necesidades, gustos y convenciones distintas.",
-      "image": "braquehais_mirror_1857",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286294",
+      "factual_note": true
     },
     {
       "id": "cap_1870",
@@ -1052,118 +933,87 @@
     },
     {
       "id": "hist_1860_1879",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "V · 1860–1879",
-      "title": "Un mercado que aprendió a multiplicarse",
+      "title": "Del negativo al mercado de copias",
       "body": "Durante la segunda mitad del siglo XIX, el retrato sobre papel se hizo más habitual y los álbumes ocuparon un lugar estable en la vida doméstica. La copia de albúmina, producida a partir de un negativo, permitía series y distribución de imágenes a una escala que las primeras placas singulares no habían ofrecido.\n\nEl comercio de vistas y retratos se apoyó en talleres, impresores, intermediarios y coleccionistas. El desnudo circulaba en un territorio ambiguo: podía registrarse como ejercicio artístico, servirse de decorados clásicos o destinarse a compradores interesados en la intimidad representada.\n\nPara leer estas fotografías no basta identificar una postura. La huella de la circulación comercial está también en el tipo de copia, las marcas de estudio, las impresiones seriadas y los accesorios utilizados para componer una escena. En muchos casos no se conserva el recorrido original de la imagen; por eso la investigación debe distinguir el medio técnico de las hipótesis sobre clientes y censores.",
-      "image": "nadar_1860",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1860–1879",
+      "factline": "Papel, álbum y comercio hicieron de la imagen un objeto intercambiable.",
+      "source_url": "https://www.loc.gov/classroom-materials/civil-war-photographs-new-technologies-and-new-uses/"
     },
     {
       "id": "p_nadar_1860",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "El modelo de Gérôme",
-      "body": "Marie-Christine Leroux, una modelo adulta identificada, posó para el proyecto pictórico de Gérôme dedicado a la figura de Friné.",
+      "body": "Nadar realizó muy pocos desnudos femeninos. Esta fotografía fue encargada como apoyo para una pintura de Jean-Léon Gérôme. La modelo, Marie-Christine Leroux, nació en 1820: es uno de los pocos casos en que conocemos su nombre.",
       "image": "nadar_1860",
       "caption": "Nadar, 1860–61 · Met 1991.1174",
-      "sub": ""
-    },
-    {
-      "id": "paired_1860",
-      "kind": "diptych",
-      "section": "V · 1860–1879",
-      "title": "El encargo y el rostro",
-      "body": "En la fotografía de Nadar conocemos el nombre de la modelo; en la escena enmascarada de 1870, la identidad desaparece de la documentación. La comparación impide tratar como iguales todos los desnudos de taller.",
-      "image": null,
-      "images": [
-        "nadar_1860",
-        "mask_1870"
-      ],
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/266459",
+      "factual_note": true
     },
     {
       "id": "pl_mask1870",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "Una máscara frente a la cámara",
-      "body": "La máscara es una decisión visible: quien posa aparece como cuerpo representado, mientras su identidad permanece parcialmente protegida.",
+      "body": "La máscara permite ocultar un rostro que la fotografía podría fijar de manera reconocible. El Metropolitan Museum explica que algunas modelos aceptaban posar para artistas, pero preferían no ser identificables ante una cámara.",
       "image": "mask_1870",
       "caption": "Anónimo francés, ca. 1870 · Met 2005.100.208",
-      "sub": ""
-    },
-    {
-      "id": "g_anonimato",
-      "kind": "mosaic",
-      "section": "V · 1860–1879",
-      "title": "La identidad en juego",
-      "body": "Una modelo identificada, un rostro enmascarado y un accesorio teatral. No todas las identidades tienen el mismo grado de documentación.",
-      "image": null,
-      "images": [
-        "nadar_1860",
-        "mask_1870",
-        "hat_1870"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "an_mask1870",
-      "kind": "analysis",
-      "section": "V · 1860–1879",
-      "title": "La cara también era un riesgo",
-      "body": "La fotografía parecía ofrecer un registro identificable de las personas. Por eso el ocultamiento del rostro resulta una intervención relevante en el estudio del desnudo. Según la lectura del Metropolitan Museum, no era raro que quienes posaban para artistas evitaran que su cara quedara claramente registrada por una cámara.\n\nLa máscara produce una paradoja. El gesto destinado a disimular la identidad también atrae la mirada hacia ella: convierte el anonimato en parte de la escenografía. No hay evidencia suficiente para afirmar que la fotografía se vendió de manera clandestina; sí la hay para analizar cómo el rostro se transformó en un elemento negociable de la representación.",
-      "image": "mask_1870",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/285695",
+      "factual_note": true
     },
     {
       "id": "pl_hat1870",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "Sombrero, cortina, estudio",
-      "body": "Una fotografía atribuida a un intervalo muy amplio. El sombrero y la composición sitúan la escena en el territorio de la representación deliberada.",
+      "body": "El museo fecha esta imagen entre las décadas de 1870 y 1890, un intervalo amplio. El sombrero crea una tensión visual entre vestido y desnudez; su presencia no permite precisar quién compró la copia.",
       "image": "hat_1870",
       "caption": "Autor desconocido; impresión por Calavas (París), 1870s–1890s · Met 1988.1038",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/265906",
+      "factual_note": true
     },
     {
       "id": "p_eakins_garden",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "Fuera de las paredes del taller",
-      "body": "La figura posada entra al aire libre y el entorno reemplaza los decorados del estudio parisino.",
+      "body": "La composición al aire libre aleja el estudio del repertorio parisino de cortinas y sofás. El entorno se convierte en escenografía. La datación del objeto debe cotejarse antes de fijarlo en una década exacta.",
       "image": "eakins_garden",
       "caption": "Thomas Eakins · Met 43.87.24",
-      "sub": ""
-    },
-    {
-      "id": "an_hat1870",
-      "kind": "analysis",
-      "section": "V · 1860–1879",
-      "title": "La datación no es una precisión decorativa",
-      "body": "El museo fecha esta obra entre las décadas de 1870 y 1890. Aunque el material se ubica dentro de este capítulo como ejemplo de una práctica que se generalizó en ese período, no sería correcto adjudicarle un año concreto.\n\nEl sombrero opera como signo de vestimenta en contraste con el desnudo, y los elementos del taller convierten a la fotografía en una puesta en escena. La presencia de Calavas como impresor permite relacionarla con un circuito de difusión y comercio, pero no prueba quién la compró. Precisar lo que sabemos resulta más interesante que atribuir una biografía ficticia a una imagen seductora.",
-      "image": "hat_1870",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/271891",
+      "factual_note": true
     },
     {
       "id": "ens_anonimato",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "V · 1860–1879",
-      "title": "El anonimato como estructura del archivo",
+      "title": "Una máscara frente a una cámara",
       "body": "La mayor parte de las fotografías de estudio que han llegado a nuestras manos conservan datos del coleccionista y del fotógrafo, pero poco o nada acerca de quienes posaron. La catalogación moderna puede incluir una técnica, una fecha aproximada y un número de inventario, aunque no el nombre ni la historia laboral de la modelo.\n\nEl silencio no debe llenarse con generalizaciones sentimentales. Las situaciones de producción fueron distintas, y las fuentes conservadas rara vez permiten reconstruir acuerdos personales. La lectura contextual exige describir esas lagunas y hacerlas visibles al lado de la imagen.\n\nLa desigualdad entre lo que sabemos del productor y lo que sabemos de la persona representada es parte de la historia cultural del medio. También explica por qué las decisiones de curaduría necesitan criterios documentales, además de criterios estéticos.",
-      "image": "mask_1870",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1870",
+      "factline": "El anonimato podía ser una condición para aceptar una fotografía de desnudo.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/285695"
     },
     {
       "id": "auto_recto_cap_1880",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
@@ -1183,219 +1033,145 @@
     },
     {
       "id": "hist_1880_1900",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VI · 1880–1900",
-      "title": "El estudio se convierte en laboratorio",
+      "title": "La lección que le costó el puesto a Eakins",
       "body": "En las dos últimas décadas del siglo XIX, la fotografía participó cada vez más en el estudio sistemático del cuerpo. Las imágenes podían servir a la enseñanza artística, a la investigación del movimiento y a los experimentos de nuevas sensibilidades visuales. No todo desnudo fotográfico era un producto erótico, y esa distinción es crucial.\n\nThomas Eakins incorporó la fotografía a la formación de artistas en Filadelfia. La práctica del modelo desnudo generó resistencias institucionales, especialmente por la presencia de mujeres en las clases; su carrera estuvo marcada por el conflicto entre observación anatómica y decoro social.\n\nEadweard Muybridge llevó la idea de registro aún más lejos. Sus secuencias fotográficas fraccionaron el movimiento en instantes, transformando el cuerpo de un objeto estático de contemplación en un fenómeno que podía analizarse. Esas series circularon mediante grandes láminas impresas y libros. El gabinete íntimo y el laboratorio se cruzan, pero no son lo mismo.",
-      "image": "eakins_pipes_1880",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1886",
+      "factline": "Una controversia sobre la enseñanza del desnudo provocó su salida de la Pennsylvania Academy.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/271886"
     },
     {
       "id": "pl_eakins_pipes",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Músico desnudo",
-      "body": "El cuerpo masculino aparece situado entre la pose académica y un escenario que incorpora instrumentos musicales.",
+      "body": "El platinotipo registra un estudio masculino de la década de 1880. Thomas Eakins utilizaba la fotografía tanto para la enseñanza como para investigaciones formales y retratos que consideraba obras por derecho propio.",
       "image": "eakins_pipes_1880",
       "caption": "Thomas Eakins, década de 1880 · Met 43.87.21",
-      "sub": ""
-    },
-    {
-      "id": "g_eakins",
-      "kind": "mosaic",
-      "section": "VI · 1880–1900",
-      "title": "Cuerpos y escenarios",
-      "body": "Del exterior al retrato de estudio y a la enseñanza artística, el cuerpo fotografiado ocupa situaciones muy diferentes.",
-      "image": null,
-      "images": [
-        "eakins_garden",
-        "eakins_pipes_1880",
-        "eakins_bill_1889",
-        "eakins_back_1889"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "an_eakins_pipes",
-      "kind": "analysis",
-      "section": "VI · 1880–1900",
-      "title": "Un cuerpo masculino fuera de París",
-      "body": "La figura posada con instrumentos nos lleva de los talleres franceses a la vida académica de Filadelfia. Eakins estudió el cuerpo con una curiosidad anatómica extraordinaria para su época, y utilizó la cámara como parte de un método de observación y enseñanza.\n\nEste giro geográfico y temático impide contar la historia de la fotografía de desnudo como un mercado exclusivamente femenino o francés. Las convenciones de género, la legitimidad de las clases y las discusiones sobre el decoro se manifestaron de manera diferente en cada institución.\n\nEl platinotipo, con su gradación suave, recuerda también que las técnicas de copia siguieron diversificándose a medida que la fotografía adquiría funciones más variadas.",
-      "image": "eakins_pipes_1880",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/271888",
+      "factual_note": true
     },
     {
       "id": "pl_muybridge_1887",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "La postura hecha tiempo",
-      "body": "Una secuencia de imágenes da acceso al movimiento por fragmentos. La cámara deja de preservar una pose única.",
+      "body": "En 1887 apareció la gran publicación de Muybridge sobre locomoción animal y humana. Una sucesión de exposiciones convertía un gesto en fases separadas; esta pieza es una secuencia de estudio del movimiento, no un retrato erótico.",
       "image": "muybridge_1887",
       "caption": "Eadweard Muybridge, *Animal Locomotion*, placa 184 (1887) · USC Libraries",
-      "sub": ""
-    },
-    {
-      "id": "g_movimiento",
-      "kind": "diptych",
-      "section": "VI · 1880–1900",
-      "title": "Pose y secuencia",
-      "body": "El estudio del movimiento vuelve legible la duración; el retrato de Eakins busca fijar una sola presencia.",
-      "image": null,
-      "images": [
-        "muybridge_1887",
-        "eakins_bill_1889"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "an_muybridge",
-      "kind": "analysis",
-      "section": "VI · 1880–1900",
-      "title": "La ciencia también organiza el cuerpo",
-      "body": "Las planchas de *Animal Locomotion* convierten un gesto en una serie de observaciones. Lo que el ojo percibe como continuidad se separa en instantes ordenados. El resultado tiene apariencia de registro científico, pero no pierde sus decisiones de escenografía: posición de cámaras, planos, fondos de referencia y selección de gestos.\n\nLa representación del desnudo dentro de una investigación técnica plantea preguntas distintas de las de una fotografía privada. Las mismas superficies corporales entran en un marco de conocimiento, disciplina y exhibición pública de resultados.\n\nNo resulta útil clasificar esta lámina como erótica por el mero hecho de mostrar un cuerpo sin ropa. Su presencia en el libro permite identificar los límites y las tensiones de las categorías históricas.",
-      "image": "muybridge_1887",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nude_woman_walking_(rbm-QP301M8-1887-184).jpg",
+      "factual_note": true
     },
     {
       "id": "pl_eakins_back",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "El estudio y sus observadores",
-      "body": "La figura posada no aparece aislada: el registro deja entrever el contexto del taller y la presencia de otras personas.",
+      "body": "La imagen deja entrever una clase de arte: modelo, cámara y estudiante comparten espacio. El Met explica que hacia 1889 Eakins combinaba enseñanza, estudios para sus cuadros y fotografía artística autónoma.",
       "image": "eakins_back_1889",
       "caption": "Thomas Eakins, ca. 1889 · Met 43.87.25",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/271892",
+      "factual_note": true
     },
     {
       "id": "p_eakins_bill",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Bill Duckett: un retrato con nombre",
-      "body": "El retratado puede identificarse, lo que abre una perspectiva biográfica ausente en muchos estudios anónimos.",
+      "body": "Bill Duckett, vinculado al círculo de Walt Whitman, figura identificado en la ficha del Metropolitan Museum. La singularidad es documental: sabemos algo de la persona retratada, un privilegio poco frecuente en este archivo.",
       "image": "eakins_bill_1889",
       "caption": "Thomas Eakins, ca. 1889 · Met 43.87.20",
-      "sub": ""
-    },
-    {
-      "id": "paired_eakins",
-      "kind": "diptych",
-      "section": "VI · 1880–1900",
-      "title": "Dos maneras de mirar un modelo",
-      "body": "El estudio puede ser una clase con observadores o una fotografía aislada con una persona identificada. En ambos casos la cámara interviene en una práctica artística, pero cambia quién mira y desde dónde.",
-      "image": null,
-      "images": [
-        "eakins_back_1889",
-        "eakins_bill_1889"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "an_eakins_back",
-      "kind": "analysis",
-      "section": "VI · 1880–1900",
-      "title": "Quién observa a quién",
-      "body": "La fotografía de Eakins permite reconocer un acto de enseñanza. La persona retratada ocupa el centro de la composición, mientras a su alrededor se organiza un espacio de trabajo artístico. En este sentido, la imagen documenta tanto una pose como una relación social de observación.\n\nLa fotografía confiere permanencia a una clase efímera. Al fijar el encuentro entre modelo, dibujantes y cámara, transforma una situación temporal en archivo. El Met subraya que Eakins utilizó estos estudios como apoyo para la pintura y, en ocasiones, como obras fotográficas con autonomía propia.\n\nEl punto de vista ofrece otra enseñanza: quienes examinan a la modelo también forman parte de una historia de poder, aprendizaje y normas institucionales.",
-      "image": "eakins_back_1889",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/271887",
+      "factual_note": true
     },
     {
       "id": "pl_de_meyer",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Una clase de pintura, fotografiada",
-      "body": "La sala y las personas que componen la escena sitúan la figura humana dentro del marco de la instrucción artística.",
+      "body": "Las clases de modelo muestran la circulación del desnudo dentro de una institución artística. Su función fue pedagógica, no necesariamente erótica. Esta distinción evita que la historia del libro quede reducida a una sola etiqueta.",
       "image": "demeyer_1890",
       "caption": "Adolph de Meyer, década de 1890 · Met 1980.1128.17",
-      "sub": ""
-    },
-    {
-      "id": "g_1890",
-      "kind": "mosaic",
-      "section": "VI · 1880–1900",
-      "title": "Vistas de una clase",
-      "body": "Cuatro registros diferentes de un entorno de enseñanza artística.",
-      "image": null,
-      "images": [
-        "demeyer_1890",
-        "demeyer_1890_18",
-        "demeyer_1890_19",
-        "demeyer_1890_20"
-      ],
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/262817",
+      "factual_note": true
     },
     {
       "id": "p_demeyer18",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Clase de pintura · segunda vista",
-      "body": "El mismo ámbito pedagógico ofrece un punto de vista diferente.",
+      "body": "Esta fotografía forma parte de un grupo de vistas diferentes de una clase de pintura. El número de inventario distingue este negativo de los otros: no es una copia repetida, sino un punto de observación propio.",
       "image": "demeyer_1890_18",
       "caption": "Adolf de Meyer · Met 1980.1128.18",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/262818",
+      "factual_note": true
     },
     {
       "id": "p_demeyer19",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Clase de pintura · tercera vista",
-      "body": "La serie muestra que incluso el registro de una clase supone tomar decisiones de encuadre.",
+      "body": "La fotografía presenta otra composición del espacio de enseñanza. Reunir vistas distintas permite reconstruir cómo se organizaba una clase sin confundir una secuencia documental con imágenes duplicadas.",
       "image": "demeyer_1890_19",
       "caption": "Adolf de Meyer · Met 1980.1128.19",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/262819",
+      "factual_note": true
     },
     {
       "id": "p_demeyer20",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Clase de pintura · cuarta vista",
-      "body": "Los cambios en la perspectiva revelan las relaciones entre modelo, escena y observadores.",
+      "body": "El cuarto registro de esta serie documenta una variación real del encuadre. Las obras pueden compartir escenario, fotógrafo y época, pero el archivo las identifica como objetos fotográficos independientes.",
       "image": "demeyer_1890_20",
       "caption": "Adolf de Meyer · Met 1980.1128.20",
-      "sub": ""
-    },
-    {
-      "id": "quad_demeyer",
-      "kind": "mosaic",
-      "section": "VI · 1880–1900",
-      "title": "Una clase, cuatro fotografías",
-      "body": "Una misma práctica registrada desde puntos de vista distintos. Estas son cuatro fotografías de una serie, no cuatro reproducciones idénticas.",
-      "image": null,
-      "images": [
-        "demeyer_1890",
-        "demeyer_1890_18",
-        "demeyer_1890_19",
-        "demeyer_1890_20"
-      ],
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "an_demeyer",
-      "kind": "analysis",
-      "section": "VI · 1880–1900",
-      "title": "La institución entra en el encuadre",
-      "body": "Frente a una fotografía diseñada para un comprador individual, esta escena permite pensar en un público distinto: docentes, estudiantes, practicantes del dibujo y visitantes de un ámbito artístico. La presencia del entorno revela cómo el cuerpo posado podía participar de un programa pedagógico.\n\nEl fotógrafo no se limita a registrar una figura idealizada. Conserva la relación entre pose, distancia y situación colectiva. Hacia el cambio de siglo, esas funciones adquirieron visibilidad en archivos de enseñanza, álbumes de estudios y colecciones de imágenes.\n\nEsta obra funciona como contrapunto a las imágenes anónimas de mediados del siglo XIX: ayuda a comprender que el mismo género fotográfico podía responder a usos muy diferentes.",
-      "image": "demeyer_1890",
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "asset_kind": "fotografía",
+      "source_url": "https://www.metmuseum.org/art/collection/search/262821",
+      "factual_note": true
     },
     {
       "id": "balance_fin_siecle",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VI · 1880–1900",
-      "title": "En el umbral de 1900",
+      "title": "Una fotografía ya no bastaba",
       "body": "Al concluir el siglo, la fotografía ya no era una novedad técnica. Convivían copias económicas, grandes tiradas, estudios académicos y experimentos visuales que anticipaban el pictorialismo. La frontera entre arte, ciencia y entretenimiento no desapareció: se volvió más compleja.\n\nLas obras presentadas a lo largo de este recorrido fueron creadas en lugares y para usos distintos. Las une la representación corporal, pero no necesariamente su destino comercial ni una etiqueta universal de obscenidad.\n\nEl libro gana profundidad si hace visibles esas diferencias. Una imagen erótica de gabinete, una academia registrada, una placa de Muybridge y un platinotipo de Eakins permiten hablar de las múltiples vidas de la fotografía sin confundirlas. El desarrollo posterior de la postal, la reproducción fotomecánica y las colecciones privadas abre otra etapa que necesitará su propia investigación.",
-      "image": "demeyer_1890_19",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1887",
+      "factline": "Muybridge utilizó series temporales para convertir el movimiento en objeto de estudio.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/266439"
+    },
+    {
+      "id": "auto_recto_cap5",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Ajuste a recto impar",
+      "body": "",
+      "image": null,
+      "caption": "",
+      "sub": "",
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap5",
@@ -1409,59 +1185,42 @@
     },
     {
       "id": "v_moulin_historico",
-      "kind": "essay",
+      "kind": "fact",
       "section": "VII · 1850–1900",
-      "title": "1851: el caso Moulin",
+      "title": "El fotógrafo frente al juez",
       "body": "La historia de la censura fotográfica temprana incluye el proceso judicial contra Félix-Jacques Moulin en París en 1851. La acusación permite apreciar la tensión entre un comercio visual nuevo y unas instituciones que intentaban regularlo.\n\nEl episodio resulta revelador no porque toda fotografía del período haya sido clandestina, sino porque muestra que las autoridades distinguían determinados usos, poses y circuitos de venta. La denominación «academia» no siempre garantizaba inmunidad frente a las medidas de control.\n\nEl contexto judicial forma parte del libro aun cuando la edición no reproduzca las imágenes de Moulin. El valor documental de un proceso no depende de hacer circular indiscriminadamente las fotografías relacionadas con él.",
       "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1851",
+      "factline": "Félix-Jacques Moulin recibió una condena de un mes de prisión por la producción de imágenes consideradas obscenas.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282051"
     },
     {
       "id": "v_papel_historico",
-      "kind": "essay",
+      "kind": "fact",
       "section": "VII · 1850–1900",
-      "title": "Del daguerrotipo al álbum",
+      "title": "La revolución del papel",
       "body": "El daguerrotipo genera un positivo directo sobre una placa metálica: una imagen singular, que no se multiplica de la misma manera que una estampa fotográfica obtenida de un negativo. Con los procedimientos de papel salado y el colodión húmedo, la producción de múltiples copias se volvió más practicable.\n\nEsa evolución transformó el negocio visual. Una sola fotografía podía circular como pieza costosa para un comprador concreto, mientras que las reproducciones sobre papel podían ingresar a álbumes, intercambiarse o llegar a públicos más amplios.\n\nLa técnica no determina de forma automática el contenido ni su legitimidad. Pero altera costos, velocidades, escala y, con ellos, las estrategias tanto de los vendedores como de los censores. La historia de lo «prohibido» es inseparable de la historia de la reproducción.",
       "image": null,
       "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "v_informe",
-      "kind": "photoessay",
-      "section": "VII · 1850–1900",
-      "title": "Cómo se vendía una mirada",
-      "body": "Para reconstruir el comercio de fotografías eróticas conviene prestar atención a las formas físicas: placa enmarcada, par estereoscópico, copia suelta, cartulina montada o álbum. Cada soporte define una relación distinta con el comprador, el coleccionista y la exhibición.\n\nLa existencia de una fotografía en un museo actual no prueba su destino inicial. La procedencia puede haber cambiado de dueño muchas veces y las fuentes de un comercio sometido a censura suelen ser fragmentarias. Por eso, en esta edición se distinguen las evidencias institucionales —técnica, fecha, atribución, inventario— de las interpretaciones sobre públicos y circulación.\n\nLas copias que permanecen nos hablan de los objetos que se salvaron. No sabemos cuántas fueron destruidas, confiscadas o perdidas. La ausencia también es parte de la historia del mercado.",
-      "image": "vallou",
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "g_mercado",
-      "kind": "mosaic",
-      "section": "VII · Circulación y censura",
-      "title": "Objetos que circularon",
-      "body": "La placa, el papel salado y la albúmina no se consumían de la misma manera: cambiaron la escala, el costo y el tipo de acceso.",
-      "image": null,
-      "images": [
-        "stereo",
-        "vallou_reclining_1851",
-        "mask_1870",
-        "nadar_1860"
-      ],
-      "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1850–1870",
+      "factline": "El negativo permitió multiplicar imágenes que antes dependían de soportes singulares.",
+      "source_url": "https://www.loc.gov/classroom-materials/civil-war-photographs-new-technologies-and-new-uses/"
     },
     {
       "id": "v_dossier",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VII · 1850–1900",
-      "title": "La palabra «pornografía» y sus fronteras",
+      "title": "La palabra «pornografía» cambió de frontera",
       "body": "Cuando observamos las fotografías del siglo XIX desde el presente, corremos el riesgo de aplicar categorías actuales a prácticas que se organizaban con otros vocabularios. La noción moderna de obscenidad se construyó también mediante leyes, procesos, registros comerciales y disputas sobre el arte.\n\nUna colección responsable puede incluir fotografía erótica y estudios académicos, pero debe explicar qué documentación sustenta cada caracterización. El desnudo no implica automáticamente producción clandestina, y el registro legal como «modelo para artistas» no prueba por sí mismo que todos sus usos fueran pedagógicos.\n\nEn lugar de una clasificación rígida, proponemos anotar en cada ficha la técnica, la cronología, el contexto registrado, la procedencia y el grado de certeza de las interpretaciones.",
-      "image": "hat_1870",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "SIGLO XIX",
+      "factline": "Las categorías actuales no describen necesariamente los usos originales de cada objeto.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
     },
     {
       "id": "cap6",
@@ -1475,46 +1234,40 @@
     },
     {
       "id": "ensfin",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VIII · Memoria y archivo",
-      "title": "Las personas detrás de las poses",
+      "title": "Las personas que no aparecen en los catálogos",
       "body": "Vemos las imágenes; casi nunca conocemos la experiencia de quienes posaron. No conocemos con seguridad sus nombres, acuerdos, pagos o condiciones de trabajo. La historia del coleccionismo conserva a menudo el nombre del fotógrafo, de la técnica y del comprador, pero borra o reduce a la persona retratada a una «modelo». Una lectura contemporánea tiene que hacer visible ese silencio.\n\nTampoco debemos convertir cada obra en testimonio de una clandestinidad demostrada. La censura fue real y tuvo efectos concretos, pero la ausencia de datos de circulación no prueba por sí sola un comercio prohibido. Entre el estudio académico, el retrato privado, el gabinete erótico y el mercado clandestino existieron zonas de solapamiento.\n\nEstas fotografías son «jugosas» precisamente porque no ofrecen una respuesta simple: cruzan la promesa de verdad de la cámara con una cultura de poses, aparatos, ventas, colecciones y prohibiciones. Su interés histórico aumenta cuando dejamos de tratarlas como objetos escandalosos aislados y empezamos a leer lo que sus materiales, sus marcos y sus archivos nos permiten saber.",
-      "image": "eakins_back_1889",
-      "caption": "",
-      "sub": ""
-    },
-    {
-      "id": "g_memoria",
-      "kind": "mosaic",
-      "section": "VIII · Memoria y archivo",
-      "title": "Quién queda en el registro",
-      "body": "El archivo conserva más frecuentemente nombres de fotógrafos y coleccionistas que de personas retratadas.",
       "image": null,
-      "images": [
-        "eakins_bill_1889",
-        "mask_1870",
-        "demeyer_1890"
-      ],
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "EL ARCHIVO",
+      "factline": "La mayoría de las fichas conserva nombres de autores y coleccionistas, pero no de quienes posaron.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/285695"
     },
     {
       "id": "lectura",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VIII · Memoria y archivo",
-      "title": "Cómo mirar una imagen antigua",
+      "title": "Cómo leer una fotografía antigua",
       "body": "Antes de atribuir a una imagen un carácter erótico o pornográfico conviene comenzar por su materialidad. ¿Es una placa única o una copia obtenida de un negativo? ¿Qué tamaño tiene? ¿Se conserva el marco? ¿Qué sabemos del estudio y la procedencia? La escala influye en el acto de mirar: una imagen que cabe en la mano se consume de otra manera que una pintura exhibida en un salón.\n\nEn segundo lugar, distinguir lo documentado de lo interpretado. El museo puede identificar una técnica, una fecha aproximada y un número de inventario; eso no permite reconstruir sin más el deseo del comprador ni la voluntad de la persona que posó. Las pistas están en el objeto, pero no todas las preguntas se responden mediante él.\n\nFinalmente, estudiar la relación entre imagen y circulación. El desnudo académico podía existir como herramienta de artista, mientras algunas fotografías semejantes se ofrecían en circuitos privados. Una pieza puede cambiar de significado cuando pasa de un taller a un álbum particular, de allí a una colección y finalmente a un museo. Este libro propone seguir esas transformaciones.",
-      "image": "delacroix_durieu_drawing"
+      "image": null,
+      "fact_date": "MÉTODO",
+      "factline": "Técnica, tamaño, soporte, procedencia y contexto cuentan tanto como el encuadre.",
+      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
     },
     {
       "id": "vi_informe",
-      "kind": "photoessay",
+      "kind": "fact",
       "section": "VIII · Memoria y archivo",
-      "title": "El museo cambia el objeto",
+      "title": "Cuando el museo cambia la mirada",
       "body": "Una fotografía realizada para un taller o un comprador privado puede terminar expuesta, catalogada y estudiada en una institución pública. Ese cambio de contexto modifica sus usos: la imagen deja de funcionar únicamente como objeto de consumo visual y se convierte en evidencia de una cultura material.\n\nLa ficha museística organiza el conocimiento mediante fechas, técnicas, dimensiones, inventarios y atribuciones, pero suele conservar pocas informaciones sobre quienes posaron. Comprender esos límites ayuda a no inventar identidades ni motivaciones allí donde el archivo guarda silencio.\n\nLa supervivencia de la imagen no equivale a la supervivencia de su historia completa. Investigar el marco, la procedencia y la cadena de colecciones puede ser tan significativo como estudiar el encuadre.",
-      "image": "demeyer_1890",
+      "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "1890",
+      "factline": "Una imagen privada puede transformarse, décadas después, en documento público de historia cultural.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/262817"
     },
     {
       "id": "epilogo_reservado",
@@ -1535,7 +1288,10 @@
       "body": "Las fotografías se han ordenado según la fecha aproximada de realización indicada por la institución que las conserva. Cuando la datación es amplia o incierta, se conserva el intervalo; no se fabrica una precisión que el archivo no ofrece.\n\nCada entrada reúne autor o atribución, técnica fotográfica, período y número de inventario. Las explicaciones distinguen los datos documentados de las hipótesis sobre usos, compradores y circulación. En particular, no toda representación del cuerpo desnudo debe entenderse como imagen clandestina.\n\nLa selección permite aproximarse a los procedimientos y convenciones que definieron el primer mercado de imágenes íntimas. También evidencia lo que no se sabe: con frecuencia ignoramos los nombres de las modelos y las condiciones de producción.\n\nLa curación cronológica incluye ahora obras entre los primeros daguerrotipos y la última década del siglo. Las fechas con intervalos amplios, especialmente en el caso de Calavas, no se deben convertir en fechas exactas. La selección definitiva todavía requiere verificar la historia y el uso de cada copia, además de los derechos de distribución.",
       "image": null,
       "caption": "",
-      "sub": ""
+      "sub": "",
+      "fact_date": "FUENTES",
+      "factline": "El criterio es cronológico y documental; las incertidumbres no se ocultan.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
     },
     {
       "id": "fuentes_final",
@@ -1586,9 +1342,21 @@
       "image": null,
       "caption": "",
       "sub": ""
+    },
+    {
+      "id": "auto_cierre",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Blanco de cierre",
+      "body": "",
+      "image": null,
+      "caption": "",
+      "sub": "",
+      "auto_recto": true,
+      "physical_role": "cierre"
     }
   ],
-  "notes": "Maqueta fotográfica provisional. 25 fotografías diferentes y 1 dibujo de apoyo, en un total de 102 páginas. Las apariciones repetidas en dípticos y mosaicos NO son imágenes nuevas. Todas las fotos siguen apuntando a JPG externos de Wikimedia Commons; se requieren originales descargados y revisión legal/ética antes de publicar.",
+  "notes": "Fotolibro v0.7: 72 páginas, 26 piezas diferentes (25 fotografías y 1 dibujo), ninguna repetición de imagen en el interior. Tapa y carátulas de capítulo pueden repetir por función editorial. Páginas suprimidas archivadas fuera del libro.",
   "updated": "2026-11-06",
   "book_phase": "Curación cronológica — primera fase fotográfica 1840–1859, horizonte 1840–1900",
   "editorial_scope": {
@@ -1605,5 +1373,11 @@
     "current_unique_photographs": 25,
     "current_documentary_drawings": 1,
     "photo_proportion": "Ver estadísticas del maquetador (páginas con imagen; no equivale a imágenes únicas)."
+  },
+  "editorial_rules": {
+    "distinct_interior_image_rule": "Cada imagen exactamente una vez en el interior, sin excepciones.",
+    "cover_chapter_reuse": "Las fotografías de láminas pueden reaparecer en tapa y aperturas de capítulo.",
+    "context": "Datos curiosos y ensayos originales intercalados.",
+    "editorial_archive": "contextos-investigacion-v06.json"
   }
 }
