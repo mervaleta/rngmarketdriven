@@ -1,9 +1,9 @@
 {
   "project": "El gabinete prohibido",
-  "version": "0.6.0",
-  "marker": "SIGLO23-GABINETE-20261106-V0.6.0",
+  "version": "0.7.0",
+  "marker": "SIGLO23-GABINETE-20261106-V0.7.0",
   "updated": "2026-11-06",
-  "expectedPages": 102,
+  "expectedPages": 72,
   "expectedImages": 26,
   "requiredFiles": [
     "index.html",
@@ -11,23 +11,27 @@
     "editor.js",
     "libro.json"
   ],
-  "status": "Cambios confirmados en GitHub, despliegue en Hostinger pendiente de verificar",
+  "status": "Actualización confirmada en repositorio; despliegue de Hostinger no verificado",
   "theme": "rosa-bordo-negro-blanco",
   "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
   "chapterFolios": [
     11,
-    17,
-    27,
+    15,
+    21,
+    33,
+    37,
     45,
-    53,
-    65,
-    85,
-    91
+    57,
+    61
   ],
   "firstSpread": "Izquierda vacía y tapa derecha; siguiente pliego páginas 2 (izq) y 3 (der)",
   "sourceAssets": "Archivos de Wikimedia Commons por URL, no alojados localmente",
   "distinctPhotographs": 25,
   "contextDrawings": 1,
   "photoPages": 79,
-  "editorialMode": "Fotolibro; dípticos, mosaicos y fotoensayos"
+  "editorialMode": "Fotolibro sin fotografías repetidas en interiores; reiteración permitida en tapa y aperturas",
+  "documentaryDrawings": 1,
+  "uniqueInteriorAssets": 26,
+  "duplicateInteriorAssets": 0,
+  "archivedContextFile": "contextos-investigacion-v06.json"
 }
