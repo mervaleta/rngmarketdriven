@@ -52,7 +52,26 @@ function notice(text,isError){
  const el=$('pageLayerStatus');
  if(el){el.textContent=text;el.classList.toggle('alert',!!isError)}
 }
-function seed(){return {boxes:[],flowHidden:false,fit:'cover',meta:null}}
+function seed(key){
+ const model={boxes:[],flowHidden:false,fit:'cover',meta:null};
+ if(key==='cover:front'){
+  model.flowHidden=true;
+  model.boxes=[
+   {id:'front-imprint',x:15,y:11,w:70,h:9,font:11,text:'SIGLO23 · CLÁSICOS'},
+   {id:'front-title',x:12,y:31,w:76,h:24,font:28,text:'El individuo contra el Estado'},
+   {id:'front-author',x:19,y:66,w:62,h:10,font:15,text:'Herbert Spencer'},
+   {id:'front-edition',x:15,y:83,w:70,h:8,font:9,text:'EDICIÓN CRÍTICA E ILUSTRADA'}
+  ];
+ }else if(key==='cover:back'){
+  model.flowHidden=true;
+  model.boxes=[
+   {id:'back-title',x:12,y:16,w:76,h:14,font:25,text:'El individuo contra el Estado'},
+   {id:'back-copy',x:13,y:42,w:74,h:30,font:12,text:'Texto de contratapa pendiente. Seleccioná la caja para redactarlo y ajustá su tamaño desde los laterales.'},
+   {id:'back-imprint',x:22,y:84,w:56,h:9,font:10,text:'SIGLO23'}
+  ];
+ }
+ return model;
+}
 function scheduleSave(item){
  if(saveTimer)clearTimeout(saveTimer);
  const key=item.key;saveTimer=setTimeout(async()=>{
@@ -132,12 +151,23 @@ function selectBox(item,id){
  $('pageBoxSize').value=data.font||12;
  $('pageBoxCoords').textContent=Math.round(data.x)+'%, '+Math.round(data.y)+'% · '+Math.round(data.w)+' × '+Math.round(data.h)+'%';
 }
+function checkOverflow(item){
+ let overflowing=0;
+ for(const el of item.page.querySelectorAll(':scope > .s23-custom-text')){
+  const content=el.querySelector('.s23-custom-text-body');
+  const hasOverflow=!!content&&(content.scrollHeight>el.clientHeight+3 || content.scrollWidth>el.clientWidth+3);
+  el.classList.toggle('s23-text-overflow',hasOverflow);
+  if(hasOverflow)overflowing++;
+ }
+ if(overflowing&&active?.key===item.key)notice(overflowing+' caja(s) desbordan la página. Agrandá el marco desde los puntos laterales o reducí la tipografía.',true);
+}
 function redraw(item){
  item.page.querySelectorAll(':scope > .s23-custom-text').forEach(el=>el.remove());
  const mainArea=item.page.querySelector('.pagedjs_area');
  item.page.classList.toggle('s23-flow-hidden',!!item.model.flowHidden);
  if(mainArea)mainArea.classList.toggle('s23-original-hidden',!!item.model.flowHidden);
  for(const box of item.model.boxes){item.page.append(boxHTML(box))}
+ checkOverflow(item);
  if(active?.key===item.key&&selected){const saved=selected.id;selectBox(item,saved)}
 }
 function addBox(item,text){
@@ -198,7 +228,7 @@ function bindPointer(item){
    Object.assign(data,{x:nx,y:ny,w:nw,h:nh});applyBox(data,el);
    $('pageBoxCoords').textContent=Math.round(data.x)+'%, '+Math.round(data.y)+'% · '+Math.round(data.w)+' × '+Math.round(data.h)+'%';
   }
-  const finish=()=>{window.removeEventListener('pointermove',onMove);window.removeEventListener('pointerup',finish);window.removeEventListener('pointercancel',finish);scheduleSave(item)};
+  const finish=()=>{window.removeEventListener('pointermove',onMove);window.removeEventListener('pointerup',finish);window.removeEventListener('pointercancel',finish);checkOverflow(item);scheduleSave(item)};
   window.addEventListener('pointermove',onMove);window.addEventListener('pointerup',finish,{once:true});window.addEventListener('pointercancel',finish,{once:true});
  });
 }
@@ -251,7 +281,7 @@ async function mount(host,settings){
   let label=kind==='front'?'TAPA · P. 1':kind==='back'?'CONTRATAPA · P. '+num:
    kind==='inside-front'?'INTERIOR TAPA · P. '+num:kind==='inside-back'?'INTERIOR CONTRATAPA · P. '+num:
    kind==='pad'?'BLANCO EDITORIAL · P. '+num:'INTERIOR · P. '+num;
-  const item={key,label,page:leaf,slot,model:(await get('pages',key))||seed(),toolbar:null};
+  const item={key,label,page:leaf,slot,model:(await get('pages',key))||seed(key),toolbar:null};
   pages.set(key,item);
   buildToolbar(item);bindPointer(item);
   const image=await get('images',key);
@@ -337,7 +367,7 @@ function bindControls(){
   const area=active.page.querySelector('.pagedjs_page_content');
   const text=(area?.innerText||'').trim();
   if(!text){notice('Esta página no tiene texto paginado para convertir.',true);return}
-  if(!confirm('Convertir el texto de esta página en una caja independiente? Queda editable y el original se oculta solo en esta página. No se redistribuirá automáticamente al modificar el libro.'))return;
+  if(!window.confirm('¿Convertir el texto paginado en una caja independiente? Queda editable, pero no se redistribuirá automáticamente al cambiar el diseño general.'))return;
   active.model.flowHidden=true;redraw(active);$('pageLayerHideFlow').checked=true;addBox(active,text);
  });
  $('pageRemoveBg').addEventListener('click',async()=>{
@@ -358,13 +388,13 @@ function bindControls(){
   const data=boxFrom(selected.item,selected.id);if(!data)return;
   data.text=$('pageBoxText').value.slice(0,30000);
   selected.el.querySelector('.s23-custom-text-body').textContent=data.text;
-  scheduleSave(selected.item);
+  checkOverflow(selected.item);scheduleSave(selected.item);
  });
  $('pageBoxSize').addEventListener('input',()=>{
   if(!selected)return;
   const data=boxFrom(selected.item,selected.id);if(!data)return;
   data.font=clamp(Number($('pageBoxSize').value)||12,6,72);
-  selected.el.style.fontSize=data.font+'pt';scheduleSave(selected.item);
+  selected.el.style.fontSize=data.font+'pt';checkOverflow(selected.item);scheduleSave(selected.item);
  });
  $('pageDeleteBox').addEventListener('click',()=>{
   if(!selected)return;
