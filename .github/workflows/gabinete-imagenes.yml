@@ -1,0 +1,48 @@
+name: Gabinete - importar fotografias al sitio
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/gabinete-imagenes.yml"
+      - "publicdomain/gabinete/scripts/descargar-imagenes.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gabinete-importar-fotos
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    if: github.repository == 'mervaleta/rngmarketdriven'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Obtener codigo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Motor de imagenes
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Descargar, validar y crear JPG locales
+        env:
+          GABINETE_MAX_IMAGES: '90'
+        run: python publicdomain/gabinete/scripts/descargar-imagenes.py
+      - name: Registrar fotografias y rutas locales en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicdomain/gabinete/libro.json publicdomain/gabinete/version.json publicdomain/gabinete/imagenes/
+          if git diff --cached --quiet; then
+            echo "Nada para publicar"
+            exit 0
+          fi
+          git commit -m "Gabinete: alojar fotografias locales verificadas y reemplazar enlaces externos"
+          git push origin HEAD:main
