@@ -2,7 +2,7 @@
 (function(){
 "use strict";
 var KEY="siglo23-gabinete-editor-v2",LEGACY_KEY="siglo23-gabinete-editor-v1";
-var state={doc:null,view:"grid",active:0,loaded:false,opts:{w:166,h:236,fontSize:10.5,leading:1.48,inner:19,outer:18,top:21,bottom:20,thumb:165,fit:"contain",font:"Georgia,serif"}};
+var state={doc:null,candidates:[],view:"grid",active:0,loaded:false,opts:{w:270,h:340,fontSize:11.75,leading:1.48,inner:24,outer:23,top:27,bottom:25,thumb:150,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
 var nl=function(s){return String(s||"").split(/\n\s*\n/).filter(Boolean).map(function(x){return "<p>"+esc(x).replace(/\n/g,"<br>")+"</p>"}).join("")};
@@ -100,9 +100,20 @@ function assets(){
  });
  $("#stage").innerHTML=mark+'</div>';
 }
+function curation(){
+ var arr=state.candidates||[];
+ var mk='<div class="stage-title"><span>Curaduría artística · '+arr.length+' obras nuevas en estudio</span><span>Fichas documentadas; NO son láminas incorporadas</span></div>';
+ mk+='<div class="context-view"><div class="eyebrow">EXCLUSIVAMENTE FOTOGRAFÍA DE DESNUDO ARTÍSTICO / SENSUAL</div><h2>El próximo salón de imágenes</h2><p>Estas obras están identificadas en museos, pero necesitan máster descargado, control de reproducción y revisión editorial de las personas representadas antes de ingresar al libro. No se cuentan dentro de las fotos integradas.</p></div>';
+ mk+='<div class="asset-grid">';
+ arr.forEach(function(c){
+   mk+='<article class="asset-card candidate-card"><div class="details"><div class="eyebrow">'+esc(c.year)+' · '+esc(c.priority)+' prioridad</div><h3>'+esc(c.title)+'</h3><p><strong>'+esc(c.artist)+'</strong><br>'+esc(c.museum)+' · '+esc(c.accession)+'</p><p>'+esc(c.why_selected)+'</p><div class="candidate-status">En investigación · original no incorporado</div><p class="hint warn">'+esc(c.person_age_review||"")+'</p><div class="detail-buttons"><a href="'+esc(c.museum_url)+'" target="_blank" rel="noopener">Ficha en museo ↗</a></div></div></article>';
+ });
+ mk+='</div>';
+ $("#stage").innerHTML=mk;
+}
 function context(){
  var arr=state.doc.pages.filter(function(p){return ["essay","analysis"].includes(p.kind)});
- var mark='<div class="context-view"><div class="eyebrow">DOSSIER CRÍTICO</div><h2>El relato detrás de las fotografías</h2><p>El libro no presenta el desnudo académico y la fotografía erótica como categorías idénticas. Investiga cómo técnicas, comercios y aparatos de visión modelaron una esfera privada de consumo visual durante el siglo XIX.</p>';
+ var mark='<div class="context-view"><div class="eyebrow">DOSSIER CRÍTICO</div><h2>El relato detrás de las fotografías</h2><p>El libro no presenta el desnudo académico y la fotografía erótica como categorías idénticas. Investiga la belleza de las fotografías de desnudo, su composición, sus circuitos de circulación y la controversia entre arte, sensualidad y censura.</p>';
  arr.forEach(function(p,i){mark+='<h2 style="font-size:28px;margin-top:25px">'+esc(p.title)+'</h2>'+nl(p.body)});
  mark+='<div class="note">Las interpretaciones no sustituyen las fuentes. Las atribuciones fotográficas, el contexto de las técnicas y las declaraciones de derechos deben cotejarse antes de una edición comercial.</div></div>';
  $("#stage").innerHTML=mark;
@@ -130,7 +141,7 @@ function render(){
  if(!state.loaded)return;
  syncVars();document.querySelectorAll("[data-view]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.view===state.view?"true":"false")});
  $("#prev").disabled=state.active<=0;$("#next").disabled=state.active>=state.doc.pages.length-1;
- if(state.view==="grid")grid();else if(state.view==="spread")spread();else if(state.view==="assets")assets();else context();
+ if(state.view==="grid")grid();else if(state.view==="spread")spread();else if(state.view==="assets")assets();else if(state.view==="curation")curation();else context();
  sourceInfo();updateWarnings();
 }
 function updateWarnings(){
@@ -233,6 +244,7 @@ async function boot(){
  try{
   var r=await fetch("./libro.json",{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);
   var d=await r.json();state.doc=d;
+  try{var cr=await fetch("./seleccion-erotica-lujo.json",{cache:"no-store"});if(cr.ok){var cd=await cr.json();state.candidates=cd.unintegrated_candidates||[]}}catch(e){state.candidates=[]}
   try{
    var saved=JSON.parse(localStorage.getItem(KEY)||"null");
    if(saved&&saved.doc&&Array.isArray(saved.doc.pages)){
