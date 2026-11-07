@@ -5,6 +5,7 @@ on:
     paths:
       - "publicdomain/spencer/maquetacion/**"
       - "publicdomain/estudio/**"
+      - "siglo23/**"
       - ".github/workflows/siglo23-m10-hostinger-verify.yml"
 permissions:
   contents: read
@@ -13,28 +14,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
-      - name: Comprobar URLs externas, marcadores y respuestas HTTP
+      - name: Verificar rutas y recursos imprescindibles en Hostinger
         shell: bash
         run: |
           python - <<'PY'
-          import urllib.request, urllib.error
-          targets=[
-            ('Spencer taller M10','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/index.html','M10 · PREPRENSA EXPERIMENTAL'),
-            ('Spencer laboratorio Paged.js','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.html','Paged.js 0.4.3'),
-            ('Estudio rngmarketdriven','https://rngmarketdriven.com/publicdomain/estudio/index.html','Un estudio.'),
-            ('Estudio santoroydonoso','https://santoroydonoso.com/siglo23/index.html','Un estudio.'),
+          import urllib.request
+          required=[
+            ('Spencer M10','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/index.html','M10 · PREPRENSA EXPERIMENTAL'),
+            ('Compositor Paged.js','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.html','Paged.js 0.4.3'),
+            ('Motor JS','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.js','new window.Paged.Previewer()'),
+            ('Hojas CSS','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.css','.pagedjs_pages'),
+            ('Portal editorial','https://rngmarketdriven.com/publicdomain/estudio/index.html','Un estudio.'),
+            ('Acceso corto Siglo23','https://rngmarketdriven.com/siglo23/index.html','Un estudio.')
           ]
-          failure=False
-          for label,url,marker in targets:
-            try:
-              req=urllib.request.Request(url,headers={'User-Agent':'Siglo23-Publication-Verify/1.0','Cache-Control':'no-cache'})
-              with urllib.request.urlopen(req,timeout=20) as r:
-                body=r.read(100000).decode('utf-8','replace')
-                ok=(r.status==200 and marker in body)
-                print(('PUBLICADO' if ok else 'NO COINCIDE'),label,'HTTP',r.status,'marcador',marker,flush=True)
-                if not ok: failure=True
-            except Exception as e:
-              failure=True
-              print('NO VERIFICADO',label,type(e).__name__,str(e)[:200],flush=True)
-          if failure: raise SystemExit('El repositorio está actualizado; Hostinger no confirmó todas las páginas')
+          optional=[('Santoro y Donoso (repositorio actualizado, hosting independiente)','https://santoroydonoso.com/siglo23/index.html','Un estudio.')]
+          fail=False
+          for mandatory,targets in ((True,required),(False,optional)):
+            for label,url,marker in targets:
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Siglo23-Publication-Verify/1.1','Cache-Control':'no-cache'})
+                with urllib.request.urlopen(req,timeout=18) as resp:
+                  text=resp.read(180000).decode('utf-8','replace')
+                  ok=resp.status==200 and marker in text
+                  print(('PUBLICADO' if ok else 'PENDIENTE'),label,'HTTP',resp.status,'marcador:',marker,flush=True)
+                  if not ok and mandatory:fail=True
+              except Exception as exc:
+                print('PENDIENTE',label,type(exc).__name__,str(exc)[:140],flush=True)
+                if mandatory:fail=True
+          if fail:raise SystemExit('No se verificaron todas las rutas obligatorias de RNG Market Driven')
           PY
