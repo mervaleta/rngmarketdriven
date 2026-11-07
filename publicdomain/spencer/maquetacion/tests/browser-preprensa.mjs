@@ -137,7 +137,8 @@ try{
   const front=document.querySelector('[data-s23-key="cover:front"]');
   const custom=[...front.querySelectorAll('.s23-custom-text')].find(el=>el.textContent.includes('Prueba de texto sobre fondo'));
   return {hasImage:front.classList.contains('s23-has-background'),
-   custom:!!custom,width:custom?parseFloat(custom.style.width):0,selected:document.querySelectorAll('.s23-edit-mode').length};
+   custom:!!custom,width:custom?parseFloat(custom.style.width):0,selected:document.querySelectorAll('.s23-edit-mode').length,
+   pages:document.querySelectorAll('#rendered .pagedjs_page').length,status:document.querySelector('#progress')?.textContent};
  });
  assert.ok(persisted.hasImage,'La imagen no se recuperó de IndexedDB');
  assert.ok(persisted.custom&&persisted.width>before,'El texto redimensionado no se conservó');
@@ -151,11 +152,11 @@ try{
   blank: getComputedStyle(document.querySelector('#rendered .s23-blank-leaf')).display,
   leaves:document.querySelectorAll('#rendered .pagedjs_page').length
  }));
- console.log('CONTROL IMPRESIÓN',JSON.stringify({printView,originalPages:result.pages}));
+ console.log('CONTROL IMPRESIÓN',JSON.stringify({printView,firstPages:result.pages,recomposedPages:persisted.pages}));
  assert.equal(printView.spread,'contents','Las cubiertas de pliego no deben afectar la impresión');
  assert.equal(printView.paired,'contents');
  assert.equal(printView.blank,'none','El blanco de visualización no se imprime');
- assert.equal(printView.leaves,result.pages,'Imprimir debe preservar todos los folios');
+ assert.equal(printView.leaves,persisted.pages,'Imprimir debe preservar todos los folios de la composición actual');
 
  console.log('OK E2E Spencer M10: '+result.pages+' páginas en '+result.spreads.length+' pliegos enfrentados, sin hojas visuales en impresión');
 }finally{await browser.close()}
