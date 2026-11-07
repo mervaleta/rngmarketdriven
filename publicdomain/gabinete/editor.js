@@ -1,7 +1,7 @@
 
 (function(){
 "use strict";
-var KEY="siglo23-gabinete-editor-v2",LEGACY_KEY="siglo23-gabinete-editor-v1";
+var KEY="siglo23-gabinete-editor-v3",LEGACY_KEY="siglo23-gabinete-editor-v2";
 var state={doc:null,candidates:[],view:"grid",active:0,loaded:false,opts:{w:270,h:340,fontSize:11.75,leading:1.48,inner:24,outer:23,top:27,bottom:25,thumb:150,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
@@ -102,8 +102,8 @@ function assets(){
 }
 function curation(){
  var arr=state.candidates||[];
- var mk='<div class="stage-title"><span>Curaduría artística · '+arr.length+' obras nuevas en estudio</span><span>Fichas documentadas; NO son láminas incorporadas</span></div>';
- mk+='<div class="context-view"><div class="eyebrow">EXCLUSIVAMENTE FOTOGRAFÍA DE DESNUDO ARTÍSTICO / SENSUAL</div><h2>El próximo salón de imágenes</h2><p>Estas obras están identificadas en museos, pero necesitan máster descargado, control de reproducción y revisión editorial de las personas representadas antes de ingresar al libro. No se cuentan dentro de las fotos integradas.</p></div>';
+ var mk='<div class="stage-title"><span>Curaduría artística · '+arr.length+' obras pendientes</span><span>Belloc, Asser y Nadar ya están incorporadas como láminas</span></div>';
+ mk+='<div class="context-view"><div class="eyebrow">EXCLUSIVAMENTE FOTOGRAFÍA DE DESNUDO ARTÍSTICO / SENSUAL</div><h2>El próximo salón de imágenes</h2><p>Estas candidatas todavía necesitan máster descargado, control de reproducción y documentación editorial de las personas representadas. Las tres obras incorporadas ya pueden verse en los pliegos, aunque todavía no están aprobadas para imprenta. No se cuentan dentro de las fotos integradas.</p></div>';
  mk+='<div class="asset-grid">';
  arr.forEach(function(c){
    mk+='<article class="asset-card candidate-card"><div class="details"><div class="eyebrow">'+esc(c.year)+' · '+esc(c.priority)+' prioridad</div><h3>'+esc(c.title)+'</h3><p><strong>'+esc(c.artist)+'</strong><br>'+esc(c.museum)+' · '+esc(c.accession)+'</p><p>'+esc(c.why_selected)+'</p><div class="candidate-status">En investigación · original no incorporado</div><p class="hint warn">'+esc(c.person_age_review||"")+'</p><div class="detail-buttons"><a href="'+esc(c.museum_url)+'" target="_blank" rel="noopener">Ficha en museo ↗</a></div></div></article>';
