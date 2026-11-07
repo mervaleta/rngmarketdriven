@@ -1,0 +1,31 @@
+name: Gabinete - republicar imagenes faltantes
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/gabinete-republicar.yml"
+      - "publicdomain/gabinete/scripts/republicar-faltantes.py"
+
+permissions:
+  contents: write
+
+jobs:
+  reparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Crear nuevos archivos JPEG para las 12 rutas fallidas
+        run: python publicdomain/gabinete/scripts/republicar-faltantes.py
+      - name: Registrar delta de fotos para sincronizacion del sitio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicdomain/gabinete/imagenes/web/ publicdomain/gabinete/imagenes/manifest.json publicdomain/gabinete/libro.json
+          git commit -m "Gabinete: republicar 12 JPEG propios faltantes en Hostinger"
+          git push origin HEAD:main
