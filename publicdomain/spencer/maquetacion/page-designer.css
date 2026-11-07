@@ -62,3 +62,10 @@
  .s23-background{-webkit-print-color-adjust:exact;print-color-adjust:exact}
  .s23-cover-page{break-after:page!important;page-break-after:always!important}
 }
+/* En las cubiertas las cajas predeterminadas son transparentes y editables. */
+.s23-cover-page.s23-flow-hidden .s23-cover-content{visibility:hidden}
+.s23-cover-page .s23-custom-text{background:transparent;color:#fff7e6;text-shadow:0 2px 5px #000b;border-color:transparent;text-align:center}
+.s23-cover-page.s23-edit-mode .s23-custom-text{border-color:#f1cb83}
+.s23-custom-text.s23-text-overflow{border:3px solid #e33!important;outline:2px solid #fff!important}
+.s23-custom-text.s23-text-overflow:after{content:"TEXTO DESBORDADO";position:absolute;right:0;bottom:0;font:700 9px Montserrat,system-ui,sans-serif;background:#a52126;color:white;padding:2px 4px}
+@media print{.s23-custom-text.s23-text-overflow:after{display:none}}
