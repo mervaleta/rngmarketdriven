@@ -3855,6 +3855,10 @@
     "remotePending": 13,
     "localHostDeployStatus": "GitHub sí, Hostinger por verificar",
     "manifest": "imagenes/manifest.json",
-    "metManifest": "imagenes/maestros/manifest.json"
+    "metManifest": "imagenes/maestros/manifest.json",
+    "hostingerWebsiteVersionVerified": "1.1.0",
+    "hostingerWebFilesVerified": 55,
+    "hostingerWeb404": 0,
+    "masterDownloadWarning": "No imprimir a partir de la copia web servida por el dominio hasta verificar su fidelidad al original."
   }
 }
