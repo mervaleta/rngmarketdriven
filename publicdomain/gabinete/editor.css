@@ -169,3 +169,37 @@
   .top-actions .unique-policy{color:#f8cee0;border:1px solid #b66a89;border-radius:4px;padding:7px 9px;font-size:10px;white-space:nowrap}
   .unique-policy strong{color:#fff}
 }
+
+
+/* GABINETE v0.8.0 — Libro físico de lujo 270×340 mm; una sola línea visual */
+:root{--w:270mm;--h:340mm;--paper:#f9f5ee;--ink:#33282c;--margin-in:24mm;--margin-out:23mm;--margin-top:27mm;--margin-bottom:25mm}
+.page-actual.kind-cover{background:#220d19}
+.page-actual.kind-cover .cover-copy{inset:18mm 19mm 20mm}
+.page-actual.kind-cover .cover-copy h2{font-size:66pt;line-height:.92;letter-spacing:-.035em}
+.page-actual.kind-cover .cover-hero img{object-fit:cover;filter:grayscale(.15) brightness(.58)}
+.page-actual.kind-cover .cover-copy .cover-sub{font-size:19pt;line-height:1.25}
+.page-actual.kind-chapter .chapter-content h2{font-size:57pt;letter-spacing:-.025em}
+.page-actual.kind-chapter .chapter-content p{font-size:19pt}
+.page-actual.kind-chapter .chapter-photo img{filter:grayscale(.1) brightness(.35);object-fit:cover}
+.page-actual.kind-title .page-inner h2{font-size:48pt}
+.page-actual.kind-image .plate{inset:22mm 21mm 58mm}
+.page-actual.kind-image .plate img{object-fit:contain;filter:none;box-shadow:none;max-width:100%;max-height:100%}
+.page-actual.kind-image .plate-info.plate-context{left:24mm;right:23mm;bottom:16mm;height:37mm;border-top:1px solid #aa8e84}
+.page-actual.kind-image .plate-info .plate-fact{font-size:8.6pt;line-height:1.4;max-height:20mm}
+.page-actual.kind-image .plate-info .plate-head strong{font-size:14pt}
+.page-actual.kind-image .plate-info .plate-head span{font-size:7.3pt}
+.page-actual.kind-image .plate-info .plate-source{font-size:6.5pt}
+.page-actual.kind-fact .context-inner .context-date{font-size:65pt}
+.page-actual.kind-fact .context-inner h2{font-size:42pt!important}
+.page-actual.kind-fact .context-inner .context-highlight{font-size:20pt}
+.page-actual.kind-fact .context-inner .context-body{font-size:11pt;line-height:1.55}
+.page-actual.kind-credits .credits-inner{padding-top:38mm}
+.page-actual .running{left:var(--margin-in);right:var(--margin-out)}
+.candidate-card .candidate-status{border-top:1px solid #9e687e;border-bottom:1px solid #9e687e;padding:7px 0;color:#ffc8df;font-weight:700;font-size:10px;margin:12px 0}
+@media screen{
+ .candidate-card{background:#2c1325;border-color:#a36d86}
+ .candidate-card h3{color:#fce3ed}
+ .candidate-card strong{color:#fff}
+ .candidate-card a{color:#ffd5e6}
+ .headline .small-status{color:#fbe6f0;background:#3c162d;border-color:#b27b94}
+}
