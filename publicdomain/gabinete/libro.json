@@ -1757,7 +1757,7 @@
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
       "url": "./imagenes/web/breitner_jordan_6.jpg",
-      "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-liggend-op-een-bed--51cd4c2e468917e768d95198f484f170",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
       "context": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
@@ -1779,7 +1779,8 @@
         "modesty": "el límite entre lo privado y lo que hoy se expone",
         "method": "lectura editorial interpretativa, no biografía del modelo"
       },
-      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final",
+      "catalogueDateEvidence": "Rijksmuseum object catalogue"
     },
     {
       "id": "breitner_jordan_7",
@@ -1794,7 +1795,7 @@
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
       "url": "./imagenes/web/breitner_jordan_7.jpg?v=1.1.1",
-      "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-liggend-op-een-bed--f6802d0a06aea45beb83c15280b69067",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
       "context": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
@@ -1816,14 +1817,15 @@
         "modesty": "el límite entre lo privado y lo que hoy se expone",
         "method": "lectura editorial interpretativa, no biografía del modelo"
       },
-      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final",
+      "catalogueDateEvidence": "Rijksmuseum object catalogue"
     },
     {
       "id": "breitner_jordan_1",
       "filename": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-1.jpg",
       "artist": "George Hendrik Breitner",
-      "year": "ca. 1888",
-      "sortYear": 1888,
+      "year": "ca. 1889",
+      "sortYear": 1889,
       "w": 3960,
       "h": 3974,
       "museum": "Rijksmuseum",
@@ -1831,7 +1833,7 @@
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
       "url": "./imagenes/web/breitner_jordan_1.jpg?v=1.1.2",
-      "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude--eabaae6c96fff5a1e9ce050a7b9a39db",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
       "context": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
@@ -1853,14 +1855,15 @@
         "modesty": "el límite entre lo privado y lo que hoy se expone",
         "method": "lectura editorial interpretativa, no biografía del modelo"
       },
-      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final",
+      "catalogueDateEvidence": "Rijksmuseum object catalogue"
     },
     {
       "id": "breitner_jordan_2",
       "filename": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-2.jpg",
       "artist": "George Hendrik Breitner",
-      "year": "ca. 1888",
-      "sortYear": 1888,
+      "year": "ca. 1890",
+      "sortYear": 1890,
       "w": 2420,
       "h": 2756,
       "museum": "Rijksmuseum",
@@ -1868,7 +1871,7 @@
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
       "url": "./imagenes/web/breitner_jordan_2.jpg?v=1.1.1",
-      "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-op-de-rug-gezien--358f40923bc8bcf03cde127be22fea99",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
       "context": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
@@ -1890,14 +1893,15 @@
         "modesty": "el límite entre lo privado y lo que hoy se expone",
         "method": "lectura editorial interpretativa, no biografía del modelo"
       },
-      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final",
+      "catalogueDateEvidence": "Rijksmuseum object catalogue"
     },
     {
       "id": "breitner_jordan_3",
       "filename": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-3.jpg",
       "artist": "George Hendrik Breitner",
-      "year": "ca. 1888",
-      "sortYear": 1888,
+      "year": "ca. 1889",
+      "sortYear": 1889,
       "w": 3488,
       "h": 3962,
       "museum": "Rijksmuseum",
@@ -1905,7 +1909,7 @@
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
       "url": "./imagenes/web/breitner_jordan_3.jpg?v=1.1.1",
-      "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude-Seen-from-the-Back--768cb75086b4b4a3afc593bde8e502d4",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
       "context": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
@@ -1927,7 +1931,8 @@
         "modesty": "el límite entre lo privado y lo que hoy se expone",
         "method": "lectura editorial interpretativa, no biografía del modelo"
       },
-      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final",
+      "catalogueDateEvidence": "Rijksmuseum object catalogue"
     },
     {
       "id": "eakins_bill_1889",
@@ -2656,7 +2661,7 @@
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "El cuerpo masculino y la pose",
-      "body": "El cuerpo masculino permite ampliar la comparación más allá de las poses femeninas. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
+      "body": "La postura encogida desplaza la mirada hacia el peso y el equilibrio del cuerpo. El desnudo masculino propone otra medida de la intimidad, distinta del repertorio más habitual de figuras femeninas.",
       "caption": "Fotógrafo francés no identificado · década de 1850 · The Metropolitan Museum of Art · MET DP700272",
       "sub": "",
       "image": "met_squat",
@@ -2664,7 +2669,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_anal_danae",
@@ -2685,7 +2690,7 @@
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "El descanso representado",
-      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
+      "body": "La hamaca sugiere descanso, aunque la toma requiera una posición sostenida. ¿Qué convierte una escena aparentemente natural en una imagen cuidadosamente preparada?",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_hammock",
@@ -2693,14 +2698,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_olivier_column",
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "La columna y el cuerpo",
-      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
+      "body": "La columna remite a la tradición clásica que legitimaba la desnudez en las artes. La cámara registra una persona concreta dentro de ese vocabulario idealizado.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_column",
@@ -2708,7 +2713,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_crit1",
@@ -2729,7 +2734,7 @@
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "Tres figuras, una composición",
-      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
+      "body": "La presencia de tres figuras transforma el desnudo en una composición grupal. Importa tanto la relación entre cuerpos como el espacio que los reúne; el significado original exige documentación.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_three",
@@ -2737,14 +2742,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_olivier_bed",
       "kind": "image",
       "section": "II · 1850–1852",
       "title": "La escena junto a la cama",
-      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
+      "body": "La cama lleva el lenguaje del estudio hacia un interior que parece privado. La fotografía construye esa proximidad mediante muebles y pose, no necesariamente mediante espontaneidad.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_bed",
@@ -2752,7 +2757,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "auto_recto_cap3",
@@ -2926,7 +2931,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La curva de la figura recostada",
-      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
+      "body": "La figura recostada era un motivo familiar para quien conocía la pintura. La copia fotográfica cambia su efecto: la luz parece describir un cuerpo particular y no solo un ideal.",
       "caption": "Atribuido a Bruno Braquehais · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_recline",
@@ -2934,7 +2939,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_anal_standing_1853",
@@ -2955,7 +2960,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Una variación de la academia",
-      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
+      "body": "Esta variación permite leer el vocabulario del modelo académico como un repertorio de decisiones sobre la postura. La pose permanece, pero la luz modifica su presencia.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853 · Wikimedia Commons, colección Vallou",
       "sub": "",
       "image": "vallou_9",
@@ -2963,14 +2968,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_vallou_2",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El taller como lenguaje",
-      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
+      "body": "Al colocar esta obra junto a otras del mismo fotógrafo, aparece una pregunta sobre la serie: ¿se buscaba un catálogo de poses, una obra singular o ambas cosas? El archivo no siempre lo aclara.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853 · Wikimedia Commons, colección Vallou",
       "sub": "",
       "image": "vallou_2",
@@ -2978,7 +2983,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_crit4",
@@ -2999,7 +3004,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El velo como frontera",
-      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
+      "body": "El velo introduce un límite en la visión sin hacer desaparecer la figura. Su valor no se reduce a cubrir: también crea contornos, capas de luz y una expectativa visual.",
       "caption": "Bruno Braquehais · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_veil",
@@ -3007,14 +3012,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_durieu_1",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El contorno de Durieu · I",
-      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
+      "body": "En la serie de Durieu, cada variante puede leerse como un ensayo de dibujo fotográfico. Más que un simple registro mecánico, la pose determina la arquitectura de la imagen.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_1",
@@ -3022,7 +3027,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_anal_vallou_1851",
@@ -3043,7 +3048,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El contorno de Durieu · II",
-      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
+      "body": "Una pequeña alteración en el gesto puede cambiar la relación entre luz y figura. Las academias de Durieu invitan a estudiar las decisiones del fotógrafo, no solo la fidelidad de la técnica.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_4",
@@ -3051,14 +3056,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_durieu_5",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El contorno de Durieu · III",
-      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
+      "body": "La serie permite comparar la precisión de la cámara con las convenciones de la academia. El cuerpo pertenece al mismo tiempo a un archivo de modelos y a una composición artística.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_5",
@@ -3066,7 +3071,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "iii_delacroix",
@@ -3086,7 +3091,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Un desnudo en el archivo neerlandés",
-      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
+      "body": "Esta copia conservada en el Rijksmuseum amplía la historia material de las academias francesas. El tránsito hasta el museo es documentable; las primeras miradas de la obra no deben inventarse.",
       "caption": "Eugène Durieu · ca. 1853–1855 · Rijksmuseum · RP-F-2015-34",
       "sub": "",
       "image": "durieu_dutch",
@@ -3094,14 +3099,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_vallou_academic",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La academia como modelo",
-      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
+      "body": "El término «estudio académico» es una clave para entender la recepción del desnudo en el siglo XIX. La tradición pictórica ofrecía formas de mostrar un cuerpo que el nuevo medio hacía muy real.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853–1855 · Wikimedia Commons · 2008.13.25",
       "sub": "",
       "image": "vallou_academic",
@@ -3109,7 +3114,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "lam_asser_stereo_1855",
@@ -3140,7 +3145,7 @@
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Un ensayo de intimidad",
-      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
+      "body": "En el repertorio de d’Olivier, el taller transforma gestos y fondos en una promesa de intimidad. Importa comparar lo que parece accidental con lo que pudo organizarse ante la cámara.",
       "caption": "Louis-Camille d’Olivier · ca. 1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_009",
@@ -3148,14 +3153,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_braque_basket",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El motivo del cesto",
-      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
+      "body": "El cesto es un elemento de escena que invita a pensar en las excusas narrativas del desnudo. Una fotografía puede parecer doméstica y, sin embargo, estar compuesta como un estudio.",
       "caption": "Bruno y Laure Braquehais (atribución a investigar) · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_basket",
@@ -3163,14 +3168,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_braque_dutch",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Una identidad que falta",
-      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
+      "body": "El nombre de la persona retratada no figura en la ficha conocida. El cuerpo está presente con precisión; la identidad, en cambio, exige reconocer un silencio del archivo.",
       "caption": "Bruno Braquehais (atribución de Commons) · década de 1850 · Rijksmuseum · RP-F-F14358-A",
       "sub": "",
       "image": "braque_dutch",
@@ -3178,14 +3183,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_dutch_tambourine",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "El instrumento y la escena",
-      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
+      "body": "La pandereta incorpora un atributo de escena a un cuerpo fotografiado. Los objetos no son el tema del libro, pero ayudan a entender las convenciones que rodeaban a la figura.",
       "caption": "Fotógrafo no identificado · década de 1850 · Rijksmuseum · RP-F-F14356-A",
       "sub": "",
       "image": "dutch_tambourine",
@@ -3193,14 +3198,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_belloc_stereo",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "La intimidad en profundidad",
-      "body": "La composición no es un registro neutro. Aquí importa visión íntima; preguntémonos por un espectador a solas con el dispositivo.",
+      "body": "El daguerrotipo estereoscópico propone una mirada de proximidad extraordinaria. La visión en relieve modifica la experiencia de contemplar una imagen pequeña y privada.",
       "caption": "Auguste Belloc · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "belloc_stereo",
@@ -3208,14 +3213,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_durieu_012",
       "kind": "image",
       "section": "III · 1851–1855",
       "title": "Un gesto del estudio",
-      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
+      "body": "Este estudio de Durieu vuelve a proponer una cuestión clásica: ¿dónde termina el ejercicio de pose y dónde comienza una obra autónoma? La respuesta puede variar con el espectador.",
       "caption": "Eugène Durieu · ca. 1855 · Wikimedia Commons",
       "sub": "",
       "image": "durieu_012",
@@ -3223,7 +3228,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "auto_recto_cap4",
@@ -3407,7 +3412,7 @@
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "El desnudo masculino de espaldas",
-      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
+      "body": "El desnudo masculino visto de espaldas altera el encuentro con el espectador: muestra musculatura y postura, pero sustrae la identidad facial. El recurso es estético antes que una prueba de pudor personal.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Rijksmuseum · RP-F-1996-258",
       "sub": "",
       "image": "marconi_back",
@@ -3415,14 +3420,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_marconi_seated",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "Una postura replegada",
-      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
+      "body": "El modelo sentado, con la cabeza cerca de las rodillas, concentra la composición en una sola curva. La pose académica es aquí también una manera de administrar qué partes del cuerpo se muestran.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Rijksmuseum · RP-F-2001-4-39",
       "sub": "",
       "image": "marconi_seated",
@@ -3430,7 +3435,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_lujo_05",
@@ -3451,7 +3456,7 @@
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "El decorado todavía habla",
-      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
+      "body": "El telón pintado recuerda que la ficción teatral siguió viva en la fotografía de estudio. La mayor precisión técnica no exigía abandonar los fondos heredados de la pintura.",
       "caption": "Gaudenzio Marconi · 1870–1879 · Wikimedia Commons",
       "sub": "",
       "image": "marconi_stage",
@@ -3459,7 +3464,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "pl_hat1870",
@@ -3506,7 +3511,7 @@
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "La música como atributo",
-      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
+      "body": "El violín presta a la figura un atributo de cultura y alegoría. La presencia de un instrumento puede desplazar la lectura de un desnudo entre academia y escena teatral.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Wikimedia Commons",
       "sub": "",
       "image": "marconi_violin",
@@ -3514,7 +3519,7 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_lujo_03",
@@ -3535,7 +3540,7 @@
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "La alfombra y el interior",
-      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
+      "body": "La alfombra sitúa la figura en un espacio interior y le concede un suelo reconocible. Ese detalle vuelve doméstica una puesta en escena que todavía debe leerse como construcción.",
       "caption": "Fotógrafo no identificado · 1856–1890 · Rijksmuseum · RP-F-F08306",
       "sub": "",
       "image": "rijks_glass_carpet",
@@ -3543,14 +3548,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_rijks_glass_mirror",
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "El espejo en la mano",
-      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa reflejo y mirada; preguntémonos por el espejo media entre cuerpo y espectador.",
+      "body": "Sostener un espejo convierte a la figura en participante de una segunda mirada. El reflejo promete acceso a otro ángulo, pero también puede desviar la atención de quien observa.",
       "caption": "Fotógrafo no identificado · 1856–1890 (verificar) · Rijksmuseum · RP-F-F08311",
       "sub": "",
       "image": "rijks_glass_mirror",
@@ -3558,7 +3563,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_an_hat1870",
@@ -3579,7 +3584,7 @@
       "kind": "image",
       "section": "V · 1860–1879",
       "title": "El interior como escenario",
-      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
+      "body": "El interior adquiere un papel propio: no solo rodea el cuerpo, sino que define la clase de intimidad representada. La fecha de esta copia abarca un período amplio y exige cautela.",
       "caption": "Fotógrafo no identificado · 1856–1890 (verificar) · Rijksmuseum · RP-F-F08307",
       "sub": "",
       "image": "rijks_glass_room",
@@ -3587,7 +3592,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_an_mask1870",
@@ -3657,7 +3662,7 @@
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "El libro en el sofá",
-      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
+      "body": "El sofá y el libro sugieren un interior cotidiano, pero la fecha exacta de la fotografía todavía debe verificarse. Su lugar en el tramo final es provisional hasta contrastar el inventario.",
       "caption": "Fotógrafo no identificado · siglo XIX (verificar fecha) · Rijksmuseum · RP-F-F10458",
       "sub": "",
       "image": "rijks_sofa_book",
@@ -3665,7 +3670,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_lujo_08",
@@ -3686,30 +3691,30 @@
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Marie Jordan · en la cama I",
-      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
-      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-6",
+      "body": "El formato pequeño y la escala del cuarto muestran una intimidad distinta de la academia. El Rijksmuseum fecha esta copia hacia 1888 y vincula el conjunto a Marie Jordan.",
+      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum RP-F-BR-1999-6",
       "sub": "",
       "image": "breitner_jordan_6",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-liggend-op-een-bed--51cd4c2e468917e768d95198f484f170",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_breitner_jordan_7",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Marie Jordan · en la cama II",
-      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
-      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-7",
+      "body": "La segunda vista de Marie Jordan sobre la cama permite comparar variaciones dentro de una secuencia privada. No es una repetición editorial: es otra fotografía, con su propio inventario.",
+      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum RP-F-BR-1999-7",
       "sub": "",
       "image": "breitner_jordan_7",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-liggend-op-een-bed--f6802d0a06aea45beb83c15280b69067",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_lujo_07",
@@ -3730,30 +3735,30 @@
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Marie Jordan · de espaldas I",
-      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
-      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-1",
+      "body": "En este retrato de espaldas, el rostro queda fuera de la relación inmediata con quien mira. El Rijksmuseum identifica a Marie Jordan y sitúa la obra alrededor de 1889.",
+      "caption": "George Hendrik Breitner · ca. 1889 · Rijksmuseum RP-F-BR-1999-1",
       "sub": "",
       "image": "breitner_jordan_1",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude--eabaae6c96fff5a1e9ce050a7b9a39db",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_breitner_jordan_2",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Marie Jordan · de espaldas II",
-      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
-      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-2",
+      "body": "Otra vista de espaldas modifica el punto de observación de la misma persona. La serie conserva un nombre, pero no autoriza a reconstruir lo que ella sentía ante la cámara.",
+      "caption": "George Hendrik Breitner · ca. 1890 · Rijksmuseum RP-F-BR-1999-2",
       "sub": "",
       "image": "breitner_jordan_2",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-naakt-op-de-rug-gezien--358f40923bc8bcf03cde127be22fea99",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "contexto_recuperado_an_eakins_pipes",
@@ -3774,22 +3779,22 @@
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Marie Jordan · de espaldas III",
-      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
-      "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-3",
+      "body": "Esta pieza de la secuencia de Jordan permite comparar la habitación con las escenografías de décadas anteriores. La fotografía puede parecer doméstica sin dejar de ser una elección visual.",
+      "caption": "George Hendrik Breitner · ca. 1889 · Rijksmuseum RP-F-BR-1999-3",
       "sub": "",
       "image": "breitner_jordan_3",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude-Seen-from-the-Back--768cb75086b4b4a3afc593bde8e502d4",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_sambourne_kate",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Kate Manning ante la cámara",
-      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
+      "body": "La inscripción del nombre propio cambia la lectura del retrato. El cuerpo ya no es solo una figura anónima: la investigación puede comenzar por la biografía, sin suponer intimidad ni intención.",
       "caption": "Edward Linley Sambourne · 1888 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_kate",
@@ -3797,7 +3802,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "balance_fin_siecle",
@@ -3830,7 +3835,7 @@
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Cañellas · ante el espejo",
-      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
+      "body": "El espejo reaparece en el fin del siglo: un recurso temprano adquiere nuevos matices en otro contexto técnico. La obra invita a comparar reflejo, pose y encuadre con las vistas francesas de 1850.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_mirror",
@@ -3838,14 +3843,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_canellas_bench",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Cañellas · el banco de bambú",
-      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
+      "body": "El banco de bambú introduce un mueble de formas muy marcadas. La figura dialoga con esa geometría; el motivo recuerda hasta qué punto el estudio dispone objetos para dirigir la mirada.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_bench",
@@ -3853,14 +3858,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_canellas_rock",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Cañellas · entre las rocas",
-      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
+      "body": "Las rocas de jardín trasladan la figura hacia un decorado de apariencia natural. Ese fondo no garantiza espontaneidad: puede funcionar como un escenario tan deliberado como la cortina.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_rock",
@@ -3868,14 +3873,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_canellas_gate",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Cañellas · junto a la verja",
-      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
+      "body": "La verja establece un límite visible entre la figura y el espacio circundante. El motivo permite hablar de encuadre y reserva sin atribuir emociones a la persona retratada.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_gate",
@@ -3883,14 +3888,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_canellas_moorish",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Cañellas · el fondo orientalizante",
-      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
+      "body": "El fondo orientalizante remite a un imaginario decorativo propio de su época. La imagen merece leerse como composición histórica, sin tomar su escenografía por un lugar real.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_moorish",
@@ -3898,14 +3903,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_sambourne_pettigrew_4b",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Las hermanas Pettigrew · I",
-      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
+      "body": "La denominación de las hermanas Pettigrew invita a considerar la participación de modelos identificadas en los estudios de fin de siglo. La identidad y la datación requieren cotejo individual.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_pettigrew_4b",
@@ -3913,14 +3918,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_sambourne_pettigrew_5",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Las hermanas Pettigrew · II",
-      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
+      "body": "Una segunda toma del mismo conjunto permite comparar decisiones de pose y distancia. Su pertenencia a una serie no la convierte en un duplicado; sí exige comprobar el original.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_pettigrew_5",
@@ -3928,14 +3933,14 @@
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_sambourne_maude_1",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Maude Easton · I",
-      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
+      "body": "El nombre de Maude Easton permite salir de la idea de un modelo anónimo e intercambiable. El archivo aporta una identidad, pero la pose no cuenta por sí sola su historia.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_maude_1",
@@ -3943,14 +3948,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_sambourne_maude_costume",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Maude Easton · disfraz y pose",
-      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
+      "body": "El traje y el motivo escénico ofrecen un contrapunto al desnudo de academia. Su inclusión definitiva debe decidirse por la calidad artística y la pertinencia temática, no por completar el número de láminas.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_maude_costume",
@@ -3958,14 +3963,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_frank_eugene_hortensia",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Hortensia · el tratamiento de la luz",
-      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
+      "body": "La fotografía de fines de siglo empieza a reivindicar abiertamente su interpretación artística. En esta obra, lo decisivo para la lectura será la relación entre detalle, atmósfera y tratamiento de la copia.",
       "caption": "Frank Eugene · 1898 · Wikimedia Commons",
       "sub": "",
       "image": "frank_eugene_hortensia",
@@ -3973,14 +3978,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_frank_eugene_adam",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "Adán y Eva · una alegoría moderna",
-      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
+      "body": "La referencia a Adán y Eva recuerda que el lenguaje alegórico no desapareció con la intimidad cotidiana. La fotografía puede volver a la tradición pictórica para producir otra imagen moderna.",
       "caption": "Frank Eugene · 1898–1900 (verificar) · The Metropolitan Museum of Art · MET DP263573",
       "sub": "",
       "image": "frank_eugene_adam",
@@ -3988,14 +3993,14 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "nueva_lamina_frank_eugene_cloud",
       "kind": "image",
       "section": "VI · 1880–1900",
       "title": "La gran nube blanca",
-      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
+      "body": "El título propone una imagen poética, no una mera descripción del cuerpo. El cierre de siglo abre un camino donde la atmósfera y la interpretación compiten con la nitidez descriptiva.",
       "caption": "Frank Eugene · ca. 1898–1900 (verificar) · The Metropolitan Museum of Art · MET DP275752",
       "sub": "",
       "image": "frank_eugene_cloud",
@@ -4003,7 +4008,7 @@
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
       "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
-      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
+      "curatorial_note": "Lectura visual sujeta a comprobación de imagen/identidad cuando proceda."
     },
     {
       "id": "auto_recto_cap5",
