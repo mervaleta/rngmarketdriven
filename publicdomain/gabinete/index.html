@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap">
-<link rel="stylesheet" href="./editor.css?v=0.7.0">
+<link rel="stylesheet" href="./editor.css?v=0.8.0">
 <style id="printCss"></style>
 </head>
 <body>
@@ -19,7 +19,7 @@
   <div class="top-actions">
     <a href="../../" title="Volver a los candidatos de dominio público">← Panel Siglo23</a>
     <a href="../spencer/maquetacion/" title="Comparar con el taller de Herbert Spencer">Estudio Spencer</a>
-    <span class="version">GABINETE · V0.7.0 · ROSA/BORDÓ</span><span class="unique-policy"><strong>1 vez</strong> por fotografía interior</span>
+    <span class="version">GABINETE · V0.8.0 · ROSA/BORDÓ</span><span class="unique-policy"><strong>1 vez</strong> por fotografía interior</span>
     <button id="downloadJSON" type="button">Guardar proyecto ↓</button>
     <button id="importJSON" type="button">Importar JSON ↑</button>
     <button id="printProof" type="button" class="primary" title="Imprime una prueba visual; aún no es el PDF definitivo">Prueba de impresión / PDF ↗</button>
@@ -29,9 +29,9 @@
   <div>
     <div class="eyebrow">Laboratorio editorial · Maquetación y estudio histórico</div>
     <h1>El gabinete prohibido <em>— edición de trabajo</em></h1>
-    <p>Fotolibro cronológico: una sola aparición de cada fotografía en el interior, fechas y datos curiosos intercalados. Tapa y aperturas pueden reutilizar imágenes. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
+    <p>Una colección de arte de lujo dedicada exclusivamente a los primeros desnudos fotográficos: sensualidad, luz, composición y contexto histórico. Sin imágenes técnicas ajenas al tema. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
   </div>
-  <div class="small-status">CONTENIDO HISTÓRICO PARA ADULTOS · SIN PUBLICACIÓN COMERCIAL</div>
+  <div class="small-status">EDICIÓN FÍSICA DE LUJO · 27 × 34 CM · EN CURADURÍA</div>
 </section>
 <div class="workarea">
 <aside class="panel left" aria-label="Configuración de maquetación">
@@ -39,14 +39,14 @@
   <div class="eyebrow" id="totalPages">Cargando libro…</div>
   <div class="subhead">01 / Formato del libro</div>
   <div class="two-col">
-   <label class="field">Ancho (mm)<input id="sizeW" type="number" min="90" max="260" value="166" step=".5"></label>
-   <label class="field">Alto (mm)<input id="sizeH" type="number" min="125" max="350" value="236" step=".5"></label>
+   <label class="field">Ancho (mm)<input id="sizeW" type="number" min="90" max="260" value="270" step=".5"></label>
+   <label class="field">Alto (mm)<input id="sizeH" type="number" min="125" max="350" value="340" step=".5"></label>
   </div>
   <div class="two-col">
-   <label class="field">Interior (mm)<input id="mInner" type="number" min="0" value="19" step=".5"></label>
-   <label class="field">Exterior (mm)<input id="mOuter" type="number" min="0" value="18" step=".5"></label>
-   <label class="field">Superior (mm)<input id="mTop" type="number" min="0" value="21" step=".5"></label>
-   <label class="field">Inferior (mm)<input id="mBottom" type="number" min="0" value="20" step=".5"></label>
+   <label class="field">Interior (mm)<input id="mInner" type="number" min="0" value="24" step=".5"></label>
+   <label class="field">Exterior (mm)<input id="mOuter" type="number" min="0" value="23" step=".5"></label>
+   <label class="field">Superior (mm)<input id="mTop" type="number" min="0" value="27" step=".5"></label>
+   <label class="field">Inferior (mm)<input id="mBottom" type="number" min="0" value="25" step=".5"></label>
   </div>
   <div class="subhead">02 / Tipografía</div>
   <label class="field">Familia del cuerpo<select id="bodyFont">
@@ -57,7 +57,7 @@
     <option value="'Times New Roman',serif">Times New Roman</option>
    </select></label>
   <div class="two-col">
-   <label class="field">Cuerpo (pt)<input id="fontSize" type="number" min="7.5" max="17" step=".25" value="10.5"></label>
+   <label class="field">Cuerpo (pt)<input id="fontSize" type="number" min="7.5" max="17" step=".25" value="11.75"></label>
    <label class="field">Interlineado<input id="leading" type="number" min="1.05" max="2" step=".02" value="1.48"></label>
   </div>
   <div class="subhead">03 / Láminas y vista</div>
@@ -65,8 +65,8 @@
     <option value="contain">Completa, sin recorte</option>
     <option value="cover">Ajustar al marco, recortar</option>
   </select></label>
-  <label class="field">Ancho de miniatura (px)<input id="thumb" type="range" min="100" max="250" step="5" value="165"></label>
-  <p class="hint">Las imágenes se muestran en el libro desde archivos históricos abiertos, con enlace a su fuente institucional. No son fotografías inventadas. Para exportación final conviene descargar y archivar los másteres localmente.</p>
+  <label class="field">Ancho de miniatura (px)<input id="thumb" type="range" min="100" max="250" step="5" value="150"></label>
+  <p class="hint">Edición de lujo para impresión: las imágenes se muestran desde archivos históricos abiertos. Los originales deberán descargarse, probarse al tamaño final y validarse antes de cerrar el libro.</p>
   <div class="subhead">04 / Operaciones</div>
   <div class="actions-row"><button id="resetProject" type="button">Restaurar edición base</button></div>
   <p class="hint" id="marginWarn">La vista es orientativa; no resuelve partición tipográfica ni PDF/X.</p>
@@ -80,11 +80,12 @@
     <button type="button" data-view="grid" aria-pressed="true">▦ Libro completo</button>
     <button type="button" data-view="spread" aria-pressed="false">◧ Pliego</button>
     <button type="button" data-view="assets" aria-pressed="false">▧ Banco de imágenes</button>
+    <button type="button" data-view="curation" aria-pressed="false">✦ Curaduría premium</button>
     <button type="button" data-view="context" aria-pressed="false">☷ Ensayo integral</button>
    </div>
    <div class="navigation">
     <button id="prev" type="button" title="Página anterior">←</button>
-    <span id="formatDisplay">166 × 236 mm</span>
+    <span id="formatDisplay">270 × 340 mm</span>
     <button id="next" type="button" title="Página siguiente">→</button>
    </div>
   </div>
@@ -141,6 +142,6 @@
 <input type="file" id="fileInput" accept="application/json,.json">
 <div id="printRoot" aria-hidden="true"></div>
 <div id="toast" role="status" hidden></div>
-<script src="./editor.js?v=0.7.0" defer></script>
+<script src="./editor.js?v=0.8.0" defer></script>
 </body>
 </html>
