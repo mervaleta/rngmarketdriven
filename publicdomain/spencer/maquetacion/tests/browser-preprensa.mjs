@@ -151,10 +151,11 @@ try{
   blank: getComputedStyle(document.querySelector('#rendered .s23-blank-leaf')).display,
   leaves:document.querySelectorAll('#rendered .pagedjs_page').length
  }));
+ console.log('CONTROL IMPRESIÓN',JSON.stringify({printView,originalPages:result.pages}));
  assert.equal(printView.spread,'contents','Las cubiertas de pliego no deben afectar la impresión');
  assert.equal(printView.paired,'contents');
  assert.equal(printView.blank,'none','El blanco de visualización no se imprime');
  assert.equal(printView.leaves,result.pages,'Imprimir debe preservar todos los folios');
- console.log('CONTROL IMPRESIÓN',JSON.stringify(printView));
+
  console.log('OK E2E Spencer M10: '+result.pages+' páginas en '+result.spreads.length+' pliegos enfrentados, sin hojas visuales en impresión');
 }finally{await browser.close()}
