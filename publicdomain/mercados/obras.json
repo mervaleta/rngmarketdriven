@@ -55,8 +55,8 @@
       "id": "M003",
       "titulo": "El gorro de los locos de Flora",
       "original": "Floraes Gecks-Kap",
-      "anio": "1637",
-      "fecha": 1637,
+      "anio": "1720 (satiriza 1637)",
+      "fecha": 1720,
       "autor": "Pieter Nolpe",
       "pais": "Provincias Unidas",
       "region": "Europa",
@@ -72,8 +72,8 @@
       "imagen": "https://staffblogs.le.ac.uk/specialcollections/files/2017/04/SCD01192_Floraes_Gecks-KapArevised.jpg",
       "estado": "documentada",
       "derechos": "Grabado histórico; comprobar licencia de la reproducción digital.",
-      "texto": "La especulación con bulbos se transforma en una taberna con forma de gorro de bufón. El mercado adquiere escenografía propia: los inversores están literalmente dentro de la locura.",
-      "lectura": "Es una de las primeras visualizaciones memorables de una burbuja de activos."
+      "texto": "La especulación con bulbos de tulipán de la década de 1630 vuelve a representarse en una estampa de 1720: el mercado adopta la escenografía de un gorro de bufón. La fecha de la imagen es distinta de la del episodio histórico al que alude. El público reconocía la analogía entre manías especulativas separadas por generaciones.",
+      "lectura": "Sátira retrospectiva del auge de los tulipanes: una imagen de 1720 sobre las operaciones de la década de 1630."
     },
     {
       "id": "M004",
@@ -231,7 +231,7 @@
         "capitalistas"
       ],
       "tecnica": "Litografía",
-      "coleccion": "National Gallery of Art · 2015.143.??",
+      "coleccion": "National Gallery of Art · referencia institucional enlazada (inventario por cotejar)",
       "fuente": "https://www.nga.gov/artworks/196000-comme-quoi-tout-le-monde-de-peut",
       "estado": "documentada",
       "derechos": "NGA: obra y archivo visual identificados como dominio público.",
@@ -348,7 +348,7 @@
       "tecnica": "Litografía · Puck",
       "coleccion": "Library of Congress · 2002718861",
       "fuente": "https://www.loc.gov/item/2002718861/",
-      "imagen": "https://tile.loc.gov/storage-services/service/pnp/cph/3b50000/3b52004v.jpg",
+      "imagen": "https://cdn.loc.gov/service/pnp/cph/3b50000/3b52000/3b52004v.jpg",
       "estado": "documentada",
       "derechos": "Library of Congress: no se conocen restricciones de publicación.",
       "texto": "Los intereses empresariales aparecen como figuras gigantescas dentro de una cámara legislativa diminuta. No se trata de una caricatura sobre un precio: revela el temor al peso institucional del capital concentrado.",
@@ -395,11 +395,37 @@
       "tecnica": "Ilustración en color · Puck",
       "coleccion": "Library of Congress · 2001695241",
       "fuente": "https://www.loc.gov/item/2001695241/",
-      "imagen": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/25800/25884v.jpg",
+      "imagen": "https://cdn.loc.gov/service/pnp/ppmsca/25800/25884v.jpg",
       "estado": "documentada",
       "derechos": "Library of Congress: no se conocen restricciones de publicación.",
       "texto": "Standard Oil es representada como un pulpo: sus tentáculos envuelven industrias, edificios oficiales y se extienden hacia la Casa Blanca. La caricatura transforma la idea abstracta de monopolio en una criatura reconocible.",
       "lectura": "La metáfora del pulpo se convertirá en uno de los lenguajes más persistentes de la crítica al capital concentrado."
+    },
+    {
+      "id": "M018",
+      "titulo": "El gobierno provisional y la fiebre de acciones",
+      "original": "O Governo Provisório / O Encilhamento",
+      "anio": "1890 (fecha de imagen por cotejar)",
+      "fecha": 1890,
+      "autor": "Antonio Bernardes Pereira Neto (atribución en referencia secundaria)",
+      "pais": "Brasil",
+      "region": "América",
+      "capitulo": 6,
+      "tema": [
+        "bolsa",
+        "acciones",
+        "encilhamento",
+        "poder",
+        "crisis"
+      ],
+      "tecnica": "Caricatura de prensa · Revista Illustrada",
+      "coleccion": "Fundação Biblioteca Nacional do Brasil · Revista Illustrada (localización exacta pendiente)",
+      "fuente": "https://bndigital.bn.gov.br/acervo-digital/revista/332747",
+      "imagen": "https://culturaemmovimento.com.br/wp-content/uploads/2020/05/OGovernoProvis%C3%B3rio.jpg",
+      "estado": "Candidata: atribución y página original pendientes",
+      "derechos": "La estampa original es histórica; la fotografía publicada por terceros no se incorpora como copia local sin corroborar su origen/licencia. Buscar ejemplar en BNDigital.",
+      "texto": "Una sátira brasileña del Encilhamento, la fiebre financiera de la primera república: dirigentes y especuladores se acumulan alrededor de un personaje que porta acciones. La imagen, reproducida en un artículo posterior, aparece atribuida a Pereira Neto; es indispensable ubicar la página del número original de la Revista Illustrada antes de incorporarla al arte final.",
+      "lectura": "Brasil aporta una respuesta gráfica local a la especulación bursátil de fines del siglo XIX. Referencia preliminar, no lámina cerrada."
     }
   ]
 }
