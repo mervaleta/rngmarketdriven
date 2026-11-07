@@ -213,7 +213,7 @@ function bindPointer(item){
   if(!resize&&!grip)return;
   const el=target.closest('.s23-custom-text');if(!el)return;
   const data=boxFrom(item,el.dataset.boxId);if(!data)return;
-  ev.preventDefault();
+  ev.preventDefault();ev.stopPropagation();
   selectBox(item,data.id);
   const original={x:data.x,y:data.y,w:data.w,h:data.h};
   const rect=item.page.getBoundingClientRect(),x=ev.clientX,y=ev.clientY;
@@ -233,7 +233,7 @@ function bindPointer(item){
   }
   const finish=()=>{window.removeEventListener('pointermove',onMove);window.removeEventListener('pointerup',finish);window.removeEventListener('pointercancel',finish);checkOverflow(item);scheduleSave(item)};
   window.addEventListener('pointermove',onMove);window.addEventListener('pointerup',finish,{once:true});window.addEventListener('pointercancel',finish,{once:true});
- });
+ },true);
 }
 function buildToolbar(item){
  const bar=document.createElement('div');bar.className='s23-page-toolbar';bar.dataset.pageKey=item.key;
