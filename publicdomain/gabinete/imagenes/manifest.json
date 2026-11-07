@@ -504,144 +504,144 @@
     {
       "id": "breitner_jordan_7",
       "status": "descargado",
-      "web": "./imagenes/web/breitner_jordan_7.jpg",
+      "web": "./imagenes/web/breitner_jordan_7.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg/1280px-Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1077,
-      "bytes": 302677,
-      "sha256": "7787a256fc98c5a2475fcc5f22435cf61e67ee4e98bcf055207e269957a0dd60",
+      "bytes": 287201,
+      "sha256": "a6b62012f784ade3140546dd13a5921a349cfe0a5c83e26631504128cb9e8d86",
       "master": null,
       "quality": "alto"
     },
     {
       "id": "breitner_jordan_1",
       "status": "descargado",
-      "web": "./imagenes/web/breitner_jordan_1.jpg",
+      "web": "./imagenes/web/breitner_jordan_1.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1285,
-      "bytes": 377815,
-      "sha256": "80b95b9ce6e18a1b0309a51b6eb164f966821b3db4f2609e4938a2eed2a07877",
+      "bytes": 358167,
+      "sha256": "44725317be78c97b2088550cefb9deea95ab624f3a6922f8c273e3351f771e34",
       "master": null,
       "quality": "alto"
     },
     {
       "id": "breitner_jordan_2",
       "status": "descargado",
-      "web": "./imagenes/web/breitner_jordan_2.jpg",
+      "web": "./imagenes/web/breitner_jordan_2.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1458,
-      "bytes": 359249,
-      "sha256": "21b13063c91dbba67db333b3cac0bfde3b6df34d9aae9eb8e2a06939e31e6ff8",
+      "bytes": 339100,
+      "sha256": "9893a01018559cf88591a8641ff3b6b602495694b02eaf7932c2a7f81fe286fc",
       "master": null,
       "quality": "medio"
     },
     {
       "id": "breitner_jordan_3",
       "status": "descargado",
-      "web": "./imagenes/web/breitner_jordan_3.jpg",
+      "web": "./imagenes/web/breitner_jordan_3.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1454,
-      "bytes": 383137,
-      "sha256": "8dec8787ddd5bdf485be3dc04d25c8d120363cf6a6a924d82116351442cf504e",
+      "bytes": 363795,
+      "sha256": "6cfe43c8819538c183d4f44b7eda3f02ac7ea5ebe04c34c2e3072d880f6c30c1",
       "master": null,
       "quality": "alto"
     },
     {
       "id": "eakins_bill_1889",
       "status": "descargado",
-      "web": "./imagenes/web/eakins_bill_1889.jpg",
+      "web": "./imagenes/web/eakins_bill_1889.jpg?v=1.1.1",
       "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP331827.jpg",
       "width": 589,
       "height": 624,
-      "bytes": 71547,
-      "sha256": "2cba32749cec34b810cb59e5f358639833d3304cf3e9919e0a8fe485d8d805ad",
+      "bytes": 988336,
+      "sha256": "4898eade61165445f873996ef45149169e76273095ebcc26dd2d49e2d12a9513",
       "master": null,
       "quality": null
     },
     {
       "id": "canellas_mirror",
       "status": "descargado",
-      "web": "./imagenes/web/canellas_mirror.jpg",
+      "web": "./imagenes/web/canellas_mirror.jpg?v=1.1.1",
       "source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nude_before_a_mirror_ca._1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
       "width": 331,
       "height": 500,
-      "bytes": 46837,
-      "sha256": "6f8b5deda4e887506d1ddbbc8d70321e92bbe22d58741a5415d36a21769acfe6",
+      "bytes": 44515,
+      "sha256": "79eb2681c86e83ace5f71a593a5f3c8140cd60dd2c84f746f0b3392a7b5efcea",
       "master": null,
       "quality": "bajo"
     },
     {
       "id": "canellas_gate",
       "status": "descargado",
-      "web": "./imagenes/web/canellas_gate.jpg",
+      "web": "./imagenes/web/canellas_gate.jpg?v=1.1.1",
       "source": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
       "width": 361,
       "height": 500,
-      "bytes": 42987,
-      "sha256": "8ad40221b625fb78ae228b1734af8cdd865893c1ab9b1b20d7437c2020a919d3",
+      "bytes": 41106,
+      "sha256": "72a1f7b131aeb94c6d0f09d828612a20902bc2f202bb4ddc4ebab5e3d6f4b9e8",
       "master": null,
       "quality": "bajo"
     },
     {
       "id": "sambourne_pettigrew_4b",
       "status": "descargado",
-      "web": "./imagenes/web/sambourne_pettigrew_4b.jpg",
+      "web": "./imagenes/web/sambourne_pettigrew_4b.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_%281891%29_-_4b.jpg/1280px-Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_%281891%29_-_4b.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 2107,
-      "bytes": 972326,
-      "sha256": "25d84e4477b0f3f5343127ab35b7ab55fa866dda423771db2de123b14329d0e3",
+      "bytes": 923740,
+      "sha256": "240e8c96a13391af1a20d133d09395c3eb193c978414b9b0c22f6668a54d5c60",
       "master": null,
       "quality": "medio"
     },
     {
       "id": "sambourne_maude_1",
       "status": "descargado",
-      "web": "./imagenes/web/sambourne_maude_1.jpg",
+      "web": "./imagenes/web/sambourne_maude_1.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Maude_Easton_by_Edward_Linley_Sambourne_%281891%29_-_1.jpg/1280px-Maude_Easton_by_Edward_Linley_Sambourne_%281891%29_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 2146,
-      "bytes": 445073,
-      "sha256": "d7b4989aec993324f008b0ae9a845b061c51b23becd1836981af5226f2ad35d2",
+      "bytes": 423782,
+      "sha256": "eb73c3affb6efdd6bd68d2724ade670c87f3bd96f2f8edbc143f2b741728784b",
       "master": null,
       "quality": "medio"
     },
     {
       "id": "sambourne_maude_costume",
       "status": "descargado",
-      "web": "./imagenes/web/sambourne_maude_costume.jpg",
+      "web": "./imagenes/web/sambourne_maude_costume.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg/1280px-Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
       "width": 1280,
       "height": 1778,
-      "bytes": 929261,
-      "sha256": "4daa19cda5a1b6013052dd9804c5031d20e8a7a820c325035cb6a7b2fccd415f",
+      "bytes": 882179,
+      "sha256": "8e9e25e6dad80d9548a2e2cea56adfe4d6d651d92a846371c4cdd5b309275a6c",
       "master": null,
       "quality": "medio"
     },
     {
       "id": "frank_eugene_adam",
       "status": "descargado",
-      "web": "./imagenes/web/frank_eugene_adam.jpg",
+      "web": "./imagenes/web/frank_eugene_adam.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Adam_and_Eve_MET_DP263573.jpg/1280px-Adam_and_Eve_MET_DP263573.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1767,
-      "bytes": 660254,
-      "sha256": "749d15f1efe0dd9fc481b597c5ac90251bb0f81fd7590e92d86377799601f9af",
+      "bytes": 628349,
+      "sha256": "aed14ec9ec1958efce03714f5ba11ebd08ecce3572b2cd03e977c41753aaea3e",
       "master": null,
       "quality": "alto"
     },
     {
       "id": "frank_eugene_cloud",
       "status": "descargado",
-      "web": "./imagenes/web/frank_eugene_cloud.jpg",
+      "web": "./imagenes/web/frank_eugene_cloud.jpg?v=1.1.1",
       "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Great_White_Cloud_MET_DP275752.jpg/1280px-The_Great_White_Cloud_MET_DP275752.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "width": 1280,
       "height": 1581,
-      "bytes": 551064,
-      "sha256": "934a3cd01527ee7ac79b39d6c25fa9ac2ccb3111e6cbe4cb682fa402a0f891c4",
+      "bytes": 522899,
+      "sha256": "257473f98e0587b4faa5df92688d8d00fb37d31ba71ad85d4f4fa3bd26b89e5f",
       "master": null,
       "quality": "alto"
     }
@@ -768,5 +768,69 @@
   "downloaded_count": 55,
   "failures_count": 13,
   "book_images_total": 68,
-  "hosted_only_if_deployed": true
+  "hosted_only_if_deployed": true,
+  "republication_attempt": "1.1.1",
+  "republication_reasons": "Doce rutas con respuesta 404 en control de Hostinger",
+  "republication_images": [
+    {
+      "id": "breitner_jordan_7",
+      "bytes": 287201,
+      "sha256": "a6b62012f784ade3140546dd13a5921a349cfe0a5c83e26631504128cb9e8d86"
+    },
+    {
+      "id": "breitner_jordan_1",
+      "bytes": 358167,
+      "sha256": "44725317be78c97b2088550cefb9deea95ab624f3a6922f8c273e3351f771e34"
+    },
+    {
+      "id": "breitner_jordan_2",
+      "bytes": 339100,
+      "sha256": "9893a01018559cf88591a8641ff3b6b602495694b02eaf7932c2a7f81fe286fc"
+    },
+    {
+      "id": "breitner_jordan_3",
+      "bytes": 363795,
+      "sha256": "6cfe43c8819538c183d4f44b7eda3f02ac7ea5ebe04c34c2e3072d880f6c30c1"
+    },
+    {
+      "id": "eakins_bill_1889",
+      "bytes": 988336,
+      "sha256": "4898eade61165445f873996ef45149169e76273095ebcc26dd2d49e2d12a9513"
+    },
+    {
+      "id": "canellas_mirror",
+      "bytes": 44515,
+      "sha256": "79eb2681c86e83ace5f71a593a5f3c8140cd60dd2c84f746f0b3392a7b5efcea"
+    },
+    {
+      "id": "canellas_gate",
+      "bytes": 41106,
+      "sha256": "72a1f7b131aeb94c6d0f09d828612a20902bc2f202bb4ddc4ebab5e3d6f4b9e8"
+    },
+    {
+      "id": "sambourne_pettigrew_4b",
+      "bytes": 923740,
+      "sha256": "240e8c96a13391af1a20d133d09395c3eb193c978414b9b0c22f6668a54d5c60"
+    },
+    {
+      "id": "sambourne_maude_1",
+      "bytes": 423782,
+      "sha256": "eb73c3affb6efdd6bd68d2724ade670c87f3bd96f2f8edbc143f2b741728784b"
+    },
+    {
+      "id": "sambourne_maude_costume",
+      "bytes": 882179,
+      "sha256": "8e9e25e6dad80d9548a2e2cea56adfe4d6d651d92a846371c4cdd5b309275a6c"
+    },
+    {
+      "id": "frank_eugene_adam",
+      "bytes": 628349,
+      "sha256": "aed14ec9ec1958efce03714f5ba11ebd08ecce3572b2cd03e977c41753aaea3e"
+    },
+    {
+      "id": "frank_eugene_cloud",
+      "bytes": 522899,
+      "sha256": "257473f98e0587b4faa5df92688d8d00fb37d31ba71ad85d4f4fa3bd26b89e5f"
+    }
+  ]
 }
