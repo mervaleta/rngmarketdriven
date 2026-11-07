@@ -161,7 +161,7 @@ function makeCSS(){
  +'@page:right{margin-left:'+px(c.inner)+';margin-right:'+px(c.outer)+';@bottom-right{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
  +'@page:blank{@bottom-left{content:none}@bottom-right{content:none}@bottom-center{content:none}}'
  +'@page:first{@bottom-center{content:none}}'
- +'*{box-sizing:border-box}html,body{margin:0;padding:0;color:#292822;background:#fff}body{font-family:'+font+'}'
+ +'*{box-sizing:border-box}.pagedjs_page{color:#292822;background:#fff;font-family:'+font+'}.book-section,.front,.opening-left,.opening-right{color:#292822}'
  +'.book-section{break-before:page;page-break-before:always}.book-section.recto,.front.recto,.plate.recto{break-before:right}'
  +'.book-section h1{font:normal 21pt/1.22 '+heading+';margin:12mm 0 7mm;text-align:center;break-after:avoid}'
  +'.book-section h2{font:normal 14pt/1.3 '+heading+';margin:6mm 0 2mm;break-after:avoid}'
