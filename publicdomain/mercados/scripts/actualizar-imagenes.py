@@ -21,10 +21,17 @@ MANIFEST={"version":"0.1.0","fecha":"2026-11-07","images":[],"tafereel":[],"erro
 PDF="https://www.dbnl.org/tekst/_taf002tafe01_01/_taf002tafe01_01.pdf"
 
 def get(url, timeout=55, max_bytes=42000000):
-    resp=SESSION.get(url,timeout=timeout)
-    resp.raise_for_status()
-    if len(resp.content)>max_bytes: raise ValueError("Archivo supera limite de descarga")
-    return resp.content
+    last=None
+    for attempt in range(3):
+        try:
+            resp=SESSION.get(url,timeout=timeout)
+            resp.raise_for_status()
+            if len(resp.content)>max_bytes: raise ValueError("Archivo supera limite de descarga")
+            return resp.content
+        except requests.RequestException as exc:
+            last=exc
+            time.sleep(2*(attempt+1))
+    raise last
 
 def save_jpeg(raw, path, maxwidth=1900):
     im=Image.open(io.BytesIO(raw))
@@ -42,6 +49,12 @@ def add_file(w,raw,origin,source_rights):
 
 for w in WORKS:
     try:
+        destination=IMAGES/(w["id"]+".jpg")
+        if destination.exists():
+            with Image.open(destination) as img: shape=img.size
+            MANIFEST["images"].append({"id":w["id"],"path":destination.name,"bytes":destination.stat().st_size,"dimensions":list(shape),"url_origen":w.get("imagen") or "copiado anteriormente de fuente documental","uso":"Archivo verificado previamente; consultar ficha para licencia"})
+            print("EXISTE",w["id"],shape,flush=True)
+            continue
         if w.get("met"):
             raw_meta=get("https://collectionapi.metmuseum.org/public/collection/v1/objects/"+str(w["met"]),max_bytes=250000)
             doc=json.loads(raw_meta)
