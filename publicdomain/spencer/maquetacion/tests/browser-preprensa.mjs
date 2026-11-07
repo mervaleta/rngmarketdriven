@@ -98,6 +98,11 @@ try{
  await page.$eval('#pageBoxText',(el)=>{el.value='Prueba de texto sobre fondo';el.dispatchEvent(new Event('input',{bubbles:true}))});
  const boxSelector='[data-s23-key="cover:front"] .s23-custom-text[data-box-id="'+newBox+'"]';
  const before=await page.$eval(boxSelector,el=>parseFloat(el.style.width));
+ await page.evaluate(()=>{
+  window.__s23Pointer={downs:0,moves:0,targets:[]};
+  document.addEventListener('pointerdown',e=>{window.__s23Pointer.downs++;window.__s23Pointer.targets.push('down '+e.target.className)},{capture:true});
+  document.addEventListener('pointermove',e=>{window.__s23Pointer.moves++},{capture:true});
+ });
  const handle=await page.$(boxSelector+' .s23-resize-e');
  const rect=await handle.boundingBox();
  assert.ok(rect,'Falta el control lateral para redimensionar');
@@ -106,6 +111,8 @@ try{
  await page.mouse.move(rect.x+rect.width/2+26,rect.y+rect.height/2,{steps:8});
  await page.mouse.up();
  const after=await page.$eval(boxSelector,el=>parseFloat(el.style.width));
+ const pointer=await page.evaluate(()=>window.__s23Pointer);
+ console.log('DIAGNÓSTICO ARRASTRE',JSON.stringify({before,after,pointer}));
  assert.ok(after>before,'El marco no se pudo agrandar desde el lateral');
  // Imagen de 1200 x 1600 creada localmente, sin depender de archivos externos.
  await page.evaluate(async()=>{
