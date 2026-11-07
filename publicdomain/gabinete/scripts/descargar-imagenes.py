@@ -30,10 +30,12 @@ WEB.mkdir(parents=True, exist_ok=True)
 MASTER.mkdir(parents=True, exist_ok=True)
 HOSTS = {"upload.wikimedia.org", "thumb.wikimedia.org",
          "commons.wikimedia.org", "www.clevelandart.org",
-         "piction.clevelandart.org", "collectionapi.metmuseum.org"}
+         "piction.clevelandart.org", "collectionapi.metmuseum.org",
+         "images.metmuseum.org"}
 MAX_DOWNLOAD = 34 * 1024 * 1024
 MAX_MASTER = 14 * 1024 * 1024
 LIMIT = int(os.getenv("GABINETE_MAX_IMAGES", "90"))
+MAX_ATTEMPTS = int(os.getenv("GABINETE_MAX_ATTEMPTS", "90"))
 USER_AGENT = "EditorialSiglo23/1.1 (historical-public-domain-book-research; github-actions)"
 book = json.loads(BOOK.read_text(encoding="utf8"))
 manifest = {"generated_utc": datetime.now(timezone.utc).isoformat(),
@@ -48,20 +50,50 @@ def safe_url(url):
     return url
 
 def candidate_urls(im):
-    initial = im.get("source_url") or im.get("url", "")
-    out = [initial] if initial.startswith("https://") else []
-    commons = im.get("commons", "")
-    if "/wiki/File:" in commons:
-        filename = urllib.parse.unquote(commons.split("/wiki/File:", 1)[1])
-        out.append("https://commons.wikimedia.org/wiki/Special:FilePath/" +
-                   urllib.parse.quote(filename, safe="()_,-."))
-    # Para Belloc, probar el TIFF original si el JPEG falla.
+    """Preferir miniaturas públicas (Wikimedia limita descargas masivas de originales)."""
+    original = im.get("source_url") or im.get("url", "")
+    urls = []
+    parsed = urllib.parse.urlparse(original)
+    if parsed.hostname in {"upload.wikimedia.org", "thumb.wikimedia.org"}:
+        path = urllib.parse.unquote(parsed.path)
+        # .../wikipedia/commons/<a>/<ab>/<nombre-de-archivo>
+        m = re.search(r"/wikipedia/commons/([^/])/([^/]+)/([^/]+)$", path)
+        if m:
+            name = m.group(3)
+            safe_name = urllib.parse.quote(name, safe="(),.-_")
+            prefix = "/wikipedia/commons/thumb/" + m.group(1) + "/" + m.group(2)
+            suffix = safe_name + "/1280px-" + safe_name
+            if name.lower().endswith((".tif", ".tiff", ".pdf")):
+                suffix = safe_name + "/lossy-page1-1280px-" + safe_name + ".jpg"
+            urls.append("https://upload.wikimedia.org" + prefix + "/" + suffix)
+            urls.append("https://thumb.wikimedia.org" + prefix + "/" + suffix)
+    if "/wiki/File:" in im.get("commons", ""):
+        name = urllib.parse.unquote(im["commons"].split("/wiki/File:", 1)[1])
+        safe_name = urllib.parse.quote(name, safe="(),.-_")
+        urls.append("https://commons.wikimedia.org/wiki/Special:FilePath/" + safe_name +
+                    "?width=1280")
+    if original.startswith("https://"):
+        urls.append(original)
     if im.get("master_url") and "/wiki/File:" in im["master_url"]:
         filename = urllib.parse.unquote(im["master_url"].split("/wiki/File:", 1)[1])
-        out.append("https://commons.wikimedia.org/wiki/Special:FilePath/" +
-                   urllib.parse.quote(filename, safe="()_,-."))
+        urls.append("https://commons.wikimedia.org/wiki/Special:FilePath/" +
+                    urllib.parse.quote(filename, safe="(),.-_") + "?width=1280")
+    # Las fotografías digitalizadas del Met cuentan también con su CDN museístico.
+    met_url = im.get("museumUrl", "")
+    match = re.search(r"/search/(\d+)", met_url)
+    if match and "metmuseum.org" in met_url:
+        try:
+            api = "https://collectionapi.metmuseum.org/public/collection/v1/objects/" + match.group(1)
+            req = urllib.request.Request(api, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=12) as r:
+                data = json.loads(r.read(500000))
+            image_url = data.get("primaryImageSmall") or data.get("primaryImage")
+            if image_url:
+                urls.insert(0, image_url)
+        except (OSError, ValueError, urllib.error.URLError):
+            pass
     seen = set()
-    return [x for x in out if not (x in seen or seen.add(x))]
+    return [x for x in urls if not (x in seen or seen.add(x))]
 
 def load_binary(url):
     safe_url(url)
@@ -144,7 +176,7 @@ def save_image(im):
 
 count = 0
 for index, im in enumerate(book.get("images", [])):
-    if count >= LIMIT:
+    if count >= LIMIT or index >= MAX_ATTEMPTS:
         break
     result = save_image(im)
     if result["status"] == "error":
@@ -154,7 +186,7 @@ for index, im in enumerate(book.get("images", [])):
         manifest["files"].append(result)
         count += 1
         print("OK", im["id"], result.get("bytes"), flush=True)
-    time.sleep(0.25)
+    time.sleep(1.25)
 
 manifest["downloaded_count"] = len(manifest["files"])
 manifest["failures_count"] = len(manifest["failures"])
