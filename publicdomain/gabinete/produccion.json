@@ -1,22 +1,22 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "updated": "2026-11-07",
   "not_part_of_book": true,
   "current": {
-    "pages": 62,
-    "distinct_photographs": 19,
+    "pages": 66,
+    "distinct_photographs": 22,
     "contextual_drawings": 0,
-    "photo_bearing_pages": 28,
+    "photo_bearing_pages": 31,
     "chapter_openings": [
       11,
       15,
       21,
-      31,
-      35,
-      43,
-      49,
-      53
+      33,
+      39,
+      47,
+      53,
+      57
     ],
     "frontmatter": {
       "cover": 1,
@@ -27,10 +27,13 @@
       "credits": 6,
       "prologue": 7
     },
-    "epilogue_slot": 57,
+    "epilogue_slot": 61,
     "images_local": false,
     "approved_for_print": false,
-    "thematic_status": "Fotografía sensual/artística del siglo XIX; imágenes no temáticas excluidas"
+    "thematic_status": "Fotografía sensual/artística del siglo XIX; imágenes no temáticas excluidas",
+    "unintegrated_candidates": 9,
+    "integrated_new_candidates": 3,
+    "plate_count": 22
   },
   "target": {
     "pages": "144–176, condicionado a imágenes",
@@ -165,7 +168,7 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "Se apartaron 7 imágenes de otro carácter (un dibujo, una secuencia científica, una clase de Eakins y cuatro de de Meyer), archivadas en fuera-de-coleccion-v08.json. Doce desnudos más están documentados en seleccion-erotica-lujo.json, NO integrados hasta descarga/verificación. Los 19 existentes permanecen como enlaces externos.",
+  "notes_on_visuals": "Integradas en libro.json las obras de Auguste Belloc (Cleveland 1998.55), Eduard Isaac Asser (Rijksmuseum RP-F-AB12278-AU) y Nadar (Met 2005.100.253). Una sola lámina interior por obra. Belloc tiene foto de previsualización web de 640 px y TIFF de 5106×3780 en Commons; no se descargó, el PDF final requiere máster. Asser y Nadar tienen JPEG originales remotos de 3026×3986 y 2654×4000, respectivamente, todavía no descargados. Las otras 9 candidatas permanecen en investigación.",
   "luxury_print_proposal": {
     "trim_mm": [
       270,
@@ -176,7 +179,13 @@
     "paper": "170–200 g/m² mate o semimate premium; elegir tras pruebas de tonos, negros y sepias",
     "binding": "Cuadernillos cosidos con guardas, considerar peso y apertura",
     "image_master": "Archivo de resolución suficiente, ICC, prueba de contrato; no aplicar filtros vintage uniformes ni recortar sin sentido",
-    "target": "Libro de arte para coleccionar, no catálogo técnico"
+    "target": "Libro de arte para coleccionar, no catálogo técnico",
+    "artworks_pending_print_file": [
+      "belloc_sofa_1855",
+      "asser_stereo_1855",
+      "nadar_draped_1856"
+    ],
+    "proof_note": "La maqueta web sirve para diseñar; para imprimir 27×34 cm no extrapolar calidad de miniaturas y verificar ppp efectivos de cada fotografía en tamaño real."
   },
   "editorial_files": {
     "concept": "direccion-editorial-lujo.md",
