@@ -4,7 +4,8 @@
 (function(){
 'use strict';
 const DB='s23-spencer-capas-m11',VERSION=1;
-let dbPromise=null,active=null,selected=null,saveTimer=null;
+let dbPromise=null,active=null,selected=null;
+const saveTimers=new Map();
 const pages=new Map(),assetURLs=new Map();
 const $=id=>document.getElementById(id);
 const allowed=/^image\/(jpeg|png|webp|avif|gif)$/;
@@ -73,17 +74,19 @@ function seed(key){
  return model;
 }
 function scheduleSave(item){
- if(saveTimer)clearTimeout(saveTimer);
- const key=item.key;saveTimer=setTimeout(async()=>{
-  try{await set('pages',key,item.model);notice('Composición de '+item.label+' guardada en este navegador.')}
+ const old=saveTimers.get(item.key);if(old)clearTimeout(old);
+ const timer=setTimeout(async()=>{
+  saveTimers.delete(item.key);
+  try{await set('pages',item.key,item.model);notice('Composición de '+item.label+' guardada en este navegador.')}
   catch(err){notice('No se pudo guardar la composición: '+err.message,true)}
- },250);
+ },280);
+ saveTimers.set(item.key,timer);
 }
 async function imageSize(blob){
  const url=URL.createObjectURL(blob);
  try{
-  const img=new Image();img.src=url;
-  await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(Error('No se pudo leer la imagen'))});
+  const img=new Image();
+  await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(Error('No se pudo leer la imagen'));img.src=url});
   return [img.naturalWidth,img.naturalHeight];
  }finally{URL.revokeObjectURL(url)}
 }
@@ -407,6 +410,7 @@ function bindControls(){
   e.target.value='';
  });
  $('pageExportLayers').addEventListener('click',()=>exportBackup().catch(err=>notice(err.message,true)));
+ $('pageImportLayersButton').addEventListener('click',()=>$('pageImportLayers').click());
  $('pageImportLayers').addEventListener('change',async e=>{
   try{if(e.target.files?.[0])await importBackup(e.target.files[0])}catch(err){notice('No se pudo importar: '+err.message,true)}finally{e.target.value=''}
  });
