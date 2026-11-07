@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "updated": "2026-11-07",
+  "status": "codigo accesible, despliegue no verificado",
+  "sharedRoadmap": [
+    "spencer",
+    "gabinete",
+    "siglotimicos",
+    "voyager",
+    "camoati"
+  ],
+  "projects": [
+    {
+      "id": "spencer",
+      "name": "Herbert Spencer",
+      "type": "ensayo crítico",
+      "palette": {
+        "background": "#172d49",
+        "accent": "#edc68a"
+      },
+      "repository": "mervaleta/rngmarketdriven",
+      "sourcePath": "publicdomain/spencer/maquetacion/",
+      "expectedUrl": "https://rngmarketdriven.com/publicdomain/spencer/maquetacion/",
+      "engine": "M09 + M10 experimental",
+      "migrated": "pilot"
+    },
+    {
+      "id": "gabinete",
+      "name": "El gabinete prohibido",
+      "type": "libro fotográfico",
+      "palette": {
+        "background": "#4c213b",
+        "accent": "#e5a5b8"
+      },
+      "repository": "mervaleta/rngmarketdriven",
+      "sourcePath": "publicdomain/gabinete/",
+      "expectedUrl": "https://rngmarketdriven.com/publicdomain/gabinete/",
+      "engine": "V1.2.0",
+      "migrated": "pending"
+    },
+    {
+      "id": "siglotimicos",
+      "name": "Siglotímicos",
+      "type": "trilogía",
+      "palette": {
+        "background": "#3d2d53",
+        "accent": "#c9b3ef"
+      },
+      "repository": "mervaleta/siglotimicos",
+      "sourcePath": "maquetacion/",
+      "expectedUrl": "https://siglotimicos.santoroydonoso.com/maquetacion/index.html",
+      "engine": "prototype 3.2",
+      "migrated": "pending"
+    },
+    {
+      "id": "voyager",
+      "name": "Voyager",
+      "type": "novela",
+      "palette": {
+        "background": "#17295e",
+        "accent": "#a8c8ef"
+      },
+      "repository": "mervaleta/voyager",
+      "sourcePath": "maquetacion/",
+      "expectedUrl": "https://voyager.santoroydonoso.com/maquetacion/index.html",
+      "engine": "V1.0",
+      "migrated": "pending"
+    },
+    {
+      "id": "camoati",
+      "name": "Camoatí",
+      "type": "historia ilustrada",
+      "palette": {
+        "background": "#59402d",
+        "accent": "#e6c38a"
+      },
+      "repository": "mervaleta/camoati",
+      "sourcePath": "maquetacion/",
+      "expectedUrl": "https://camoati.santoroydonoso.com/maquetacion/index.html",
+      "engine": "beta",
+      "migrated": "pending"
+    }
+  ],
+  "archived": [
+    {
+      "id": "spencer-legacy",
+      "repository": "mervaleta/santoroydonoso",
+      "sourcePath": "siglo23/publicdomain/spencer/maquetacion/",
+      "engine": "M04"
+    }
+  ],
+  "notes": "Rutas públicas previstas, no auditadas; las ramas de trabajo no se consideran publicadas."
+}

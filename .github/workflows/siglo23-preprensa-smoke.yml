@@ -1,0 +1,24 @@
+name: Siglo23 · Spencer M10 smoke
+on:
+  push:
+    paths:
+      - 'publicdomain/spencer/maquetacion/**'
+      - 'publicdomain/estudio/**'
+      - '.github/workflows/siglo23-preprensa-smoke.yml'
+  pull_request:
+    paths:
+      - 'publicdomain/spencer/maquetacion/**'
+      - 'publicdomain/estudio/**'
+      - '.github/workflows/siglo23-preprensa-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validar motor experimental y datos editoriales
+        run: node publicdomain/spencer/maquetacion/tests/check-preprensa.mjs
