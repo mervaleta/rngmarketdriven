@@ -27,3 +27,5 @@ button.primary{background:var(--gold);color:#12243a;border-color:var(--gold);fon
  #rendered{zoom:1!important}
  #rendered .pagedjs_page{box-shadow:none!important;margin:0!important;break-after:page!important;page-break-after:always!important}
 }
+.actionlabel{cursor:pointer;display:block;border:1px solid #7891a7;border-radius:6px;background:#294459;color:#fff;padding:10px 12px;text-align:center;font-weight:600}
+.actionlabel:focus-within{outline:2px solid #e6ba75;outline-offset:2px}
