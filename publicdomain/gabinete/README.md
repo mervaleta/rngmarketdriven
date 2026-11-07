@@ -2,7 +2,7 @@
 
 **Ruta objetivo:** https://rngmarketdriven.com/publicdomain/gabinete/index.html  
 **Repositorio:** `mervaleta/rngmarketdriven`, carpeta `publicdomain/gabinete/`.  
-**Versión:** 0.2.1 · 6 de noviembre de 2026.  
+**Versión actual:** 0.8.0 · 7 de noviembre de 2026.  
 **Estado:** maqueta editorial; NO es PDF final ni obra aprobada para publicación comercial.
 
 ## Archivos
@@ -120,3 +120,15 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - Los capítulos continúan en recto impar: folios **11, 15, 21, 33, 37, 45, 57, 61**; la tapa sigue sola a la derecha en la grilla y la vista de pliegos.
 - **Pendiente importante:** ampliar de 25 fotografías únicas a una colección más rica. La depuración reduce el número de páginas, no representa un incremento del corpus visual. También siguen pendientes la descarga y archivo de los originales, la verificación de procedencia/edad/derechos y el despliegue en Hostinger.
 - Marcador de publicación esperado: `GABINETE · V0.7.0 · ROSA/BORDÓ` y `SIGLO23-GABINETE-20261106-V0.7.0` en `version.json`.
+
+
+## Edición de lujo v0.8.0 — Una sola línea visual
+
+- **Fotolibro de arte sensual/erótico del siglo XIX**, no historia general de aparatos ni tecnología ilustrada. El objetivo es honrar a fotógrafos, modelos y la belleza del original.
+- Formato preliminar **270 × 340 mm**, **tapa dura** y **papel mate/semimate premium**; cuadernillos cosidos y pruebas de reproducción antes del arte final.
+- La maqueta de curaduría tiene **62 páginas y 19 fotografías distintas**, una aparición interior por obra. La reducción es producto de retirar **7 materiales ajenos a la línea visual**, archivados en `fuera-de-coleccion-v08.json`.
+- Aperturas en impar: **11, 15, 21, 31, 35, 43, 49, 53**; la tapa sigue sola a la derecha.
+- La pestaña **Curaduría premium** lista **12 nuevas fotografías de desnudo candidatas** con enlaces directos a sus fichas museísticas, guardadas en `seleccion-erotica-lujo.json`. No se cuentan como incorporadas mientras falte el máster o la revisión.
+- El documento `direccion-editorial-lujo.md` fija la propuesta estética, la impresión y el criterio de respeto a las modelos y a sus autores.
+- Extensión y corpus objetivo: **144–176 páginas** y **70–95 fotografías únicas** si la calidad y las fuentes lo permiten; no inflar el libro con repeticiones ni con objetos.
+- Identificador de fuente: `SIGLO23-GABINETE-20261107-V0.8.0`. Estado de Hostinger: no verificado.
