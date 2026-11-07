@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
-  "version": "1.1.0",
-  "marker": "SIGLO23-GABINETE-20261107-V1.1.0",
+  "version": "1.2.0",
+  "marker": "SIGLO23-GABINETE-20261107-V1.2.0",
   "updated": "2026-11-07",
   "expectedPages": 146,
   "expectedImages": 68,
@@ -11,7 +11,7 @@
     "editor.js",
     "libro.json"
   ],
-  "status": "VERIFICADO: versión 1.1.0 y 55/55 archivos web locales responden HTTP 200 en Hostinger. Trece fotografías de otras fuentes aún son externas. Másteres físicos conservados en GitHub, respuesta del dominio no idéntica.",
+  "status": "v1.2.0 actualizada en GitHub; páginas narrativas integradas. Hostinger requiere verificación de despliegue (v1.1.0 fue última verificada).",
   "theme": "rosa-bordo-negro-blanco",
   "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
   "chapterFolios": [
@@ -28,7 +28,7 @@
   "sourceAssets": "Archivos de Wikimedia Commons por URL, no alojados localmente",
   "distinctPhotographs": 68,
   "contextDrawings": 1,
-  "photoPages": 79,
+  "photoPages": 68,
   "editorialMode": "Fotolibro de arte del desnudo sensual/erótico 270×340 mm",
   "documentaryDrawings": 0,
   "uniqueInteriorAssets": 68,
@@ -71,5 +71,13 @@
     "metMasterIdenticalToRepository": false,
     "masterNote": "El archivo servido por Hostinger no coincide en longitud ni SHA-256 con el original en GitHub; no utilizar descargas del dominio como másteres de impresión hasta verificar la causa.",
     "confidence": "Confirmados HTTP 200 para los 55 JPEG web; no certifica calidad editorial ni licencia"
-  }
+  },
+  "narrativeTitle": "El cuerpo, la luz y el secreto",
+  "narrativeAxes": [
+    "estética",
+    "tecnología",
+    "pudor e intimidad"
+  ],
+  "chapterPattern": "6 capítulos cronológicos + 2 ensayos de cierre",
+  "newEditorialCaptions": 46
 }
