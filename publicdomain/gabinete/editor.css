@@ -206,3 +206,12 @@
 
 /* GABINETE v0.9.0 — láminas originales añadidas, impresión de estudio 270×340 */
 .page-actual.kind-image .plate img{image-rendering:auto;object-fit:contain}.page-actual.kind-image .plate-info.plate-context{max-height:38mm}.candidate-card .candidate-status{font-style:normal}
+
+
+/* GABINETE v1.0 — advertencia solo en paneles de trabajo, nunca impresa */
+@media screen {
+ .visual-warning{border:1px solid #db7181;background:#551e32;color:#ffeaf0;padding:8px 10px;margin:10px 0;border-radius:6px;font:600 10px/1.45 'Montserrat',Arial,sans-serif}
+ .visual-status{border:1px solid #a36c85;background:#331528;color:#fff0f5;padding:8px 10px;margin:10px 0;border-radius:6px;font:500 10px/1.4 'Montserrat',Arial,sans-serif}
+ .asset-card .details .visual-warning,.asset-card .details .visual-status{letter-spacing:.02em}
+ .stage-title span:first-child{font-weight:700}
+}
