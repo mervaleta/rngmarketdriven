@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -211,6 +211,46 @@
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
     },
     {
+      "id": "belloc_sofa_1855",
+      "title": "Academic Nude, Reclining on a Sofa",
+      "artist": "Auguste Belloc",
+      "year": "ca. 1855",
+      "sortYear": 1855,
+      "process": "Papel salado desde negativo al colodión húmedo",
+      "museum": "Cleveland Museum of Art",
+      "accession": "1998.55",
+      "license": "CC0, Cleveland Open Access",
+      "w": 5106,
+      "h": 3780,
+      "url": "https://www.clevelandart.org/_next/image?q=75&url=https%3A%2F%2Fpiction.clevelandart.org%2Fcma%2Fump.di%3Fe%3D28F0C26F45F507E81A9AAE667F4999800DD74E5B55ED7C535C7DBDD998EA7E87%26s%3D24247294%26se%3D399313166%26v%3D4%26f%3D1998.55_o5.jpg&w=640",
+      "commons": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
+      "museumUrl": "https://www.clevelandart.org/art/1998.55",
+      "context": "El propio museo destaca el sofá, los pliegues abundantes y la iluminación natural del estudio. Belloc componía escenas que podían interesar tanto a pintores como a compradores particulares, y conseguía una notable riqueza de medios tonos.",
+      "review_status": "Fotografía integrada en la maqueta. Antes de imprimir: verificar edad adulta, comprobar máster y descartar URL de miniatura.",
+      "master_status": "MAQUETA: JPEG de vista web del museo (640 px); MÁSTER CANDIDATO: TIFF de Commons 5106×3780 px, pendiente de descargar y validar",
+      "master_url": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
+      "web_preview_only": true
+    },
+    {
+      "id": "asser_stereo_1855",
+      "title": "Franse erotische stereofoto",
+      "artist": "Eduard Isaac Asser",
+      "year": "ca. 1855",
+      "sortYear": 1855,
+      "process": "Copia al papel salado sobre cartón",
+      "museum": "Rijksmuseum, Ámsterdam",
+      "accession": "RP-F-AB12278-AU",
+      "license": "Dominio público declarado por Rijksmuseum",
+      "w": 3026,
+      "h": 3986,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Franse_erotische_stereofoto%2C_RP-F-AB12278-AU.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Franse_erotische_stereofoto,_RP-F-AB12278-AU.jpg",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Franse-erotische-stereofoto--d8bcb759f333b6333d15c4ba77dd63c7",
+      "context": "Una estereofotografía erótica conservada en Ámsterdam amplía el itinerario más allá de los talleres de París. El estereoscopio añadía un juego de profundidad a un objeto pequeño, concebido para la contemplación cercana.",
+      "review_status": "Fotografía integrada provisionalmente; revisar visualmente y acreditar documentación de modelos adultos antes de impresión comercial.",
+      "master_status": "JPG original remoto en Wikimedia Commons; no alojado localmente"
+    },
+    {
       "id": "chauva_studio_1856",
       "title": "[Female Nude in Studio]",
       "artist": "Franck-François-Genès Chauvassaignes",
@@ -227,6 +267,25 @@
       "museumUrl": "https://www.metmuseum.org/art/collection/search/282602",
       "context": "La escena renuncia a la idealización mitológica y muestra el estudio con una franqueza que el Met compara con la representación moderna del cuerpo de Manet.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+    },
+    {
+      "id": "nadar_draped_1856",
+      "title": "[Draped Standing Nude]",
+      "artist": "Nadar (Gaspard-Félix Tournachon)",
+      "year": "1856–1859",
+      "sortYear": 1856,
+      "process": "Papel salado desde negativo de vidrio",
+      "museum": "The Metropolitan Museum of Art",
+      "accession": "2005.100.253",
+      "license": "CC0, Metropolitan Museum of Art / Wikimedia Commons",
+      "w": 2654,
+      "h": 4000,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Met_DP-16448-002.jpg",
+      "commons": "https://commons.wikimedia.org/wiki/File:Met_DP-16448-002.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/286162",
+      "context": "La figura aparece envuelta en una tela vaporosa, apenas separada del espacio del estudio. Frente al desnudo frontal, el velo construye una expectativa visual que conecta la fotografía con la tradición pictórica.",
+      "review_status": "Obra integrada provisionalmente; antes de vender la edición revisar atribuciones y documentación de la persona retratada.",
+      "master_status": "JPG original remoto 2654×4000 px en Commons; no alojado localmente"
     },
     {
       "id": "braquehais_mirror_1857",
@@ -510,12 +569,13 @@
       "id": "auto_recto_cap2",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Blanco de ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
       "sub": "",
-      "auto_recto": true
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap2",
@@ -583,12 +643,13 @@
       "id": "auto_recto_cap3",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Blanco de ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
       "sub": "",
-      "auto_recto": true
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap3",
@@ -718,6 +779,30 @@
       "factual_note": true
     },
     {
+      "id": "lam_asser_stereo_1855",
+      "kind": "image",
+      "section": "III · 1851–1855",
+      "title": "La intimidad en relieve",
+      "body": "El Rijksmuseum conserva esta fotografía estereoscópica como objeto de hacia 1855. Su formato recuerda que la experiencia erótica del siglo XIX no dependía de una imagen expuesta públicamente: una vista pequeña podía adquirir profundidad en el visor personal.",
+      "image": "asser_stereo_1855",
+      "caption": "Eduard Isaac Asser · ca. 1855 · Rijksmuseum RP-F-AB12278-AU",
+      "sub": "",
+      "factual_note": true,
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Franse-erotische-stereofoto--d8bcb759f333b6333d15c4ba77dd63c7"
+    },
+    {
+      "id": "lam_belloc_sofa_1855",
+      "kind": "image",
+      "section": "III · 1851–1855",
+      "title": "El sofá de Belloc",
+      "body": "Belloc utilizó un sofá, un telón y la luz del estudio para construir una imagen de extraordinaria calidez. Cleveland destaca la riqueza de luces y sombras de esta copia al papel salado. El resultado se sitúa entre el estudio para artistas y el deseo de una mirada privada.",
+      "image": "belloc_sofa_1855",
+      "caption": "Auguste Belloc · ca. 1855 · Cleveland 1998.55",
+      "sub": "",
+      "factual_note": true,
+      "source_url": "https://www.clevelandart.org/art/1998.55"
+    },
+    {
       "id": "cap4",
       "kind": "chapter",
       "section": "IV · 1856–1859",
@@ -765,6 +850,30 @@
       "asset_kind": "fotografía",
       "source_url": "https://www.metmuseum.org/art/collection/search/286294",
       "factual_note": true
+    },
+    {
+      "id": "lam_nadar_draped_1856",
+      "kind": "image",
+      "section": "IV · 1856–1859",
+      "title": "El velo de Nadar",
+      "body": "El drapeado no oculta simplemente: modifica el ritmo de la imagen y llama la atención sobre lo que permanece entre la transparencia y el misterio. Es una obra de formato relativamente pequeño, conservada en papel salado, cuyo registro de luz mantiene el carácter íntimo del primer desnudo fotográfico.",
+      "image": "nadar_draped_1856",
+      "caption": "Nadar · 1856–1859 · The Met 2005.100.253",
+      "sub": "",
+      "factual_note": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/286162"
+    },
+    {
+      "id": "auto_recto_cap_1870",
+      "kind": "blank",
+      "section": "Guarda",
+      "title": "Blanco de ajuste a recto impar",
+      "body": "",
+      "image": null,
+      "caption": "",
+      "sub": "",
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap_1870",
@@ -858,12 +967,13 @@
       "id": "auto_recto_cap_1880",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Blanco de ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
       "sub": "",
-      "auto_recto": true
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap_1880",
@@ -931,12 +1041,13 @@
       "id": "auto_recto_cap5",
       "kind": "blank",
       "section": "Guarda",
-      "title": "Blanco de ajuste a recto",
+      "title": "Blanco de ajuste a recto impar",
       "body": "",
       "image": null,
       "caption": "",
       "sub": "",
-      "auto_recto": true
+      "auto_recto": true,
+      "physical_role": "ajuste_recto"
     },
     {
       "id": "cap5",
@@ -1059,47 +1170,47 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/283114"
     },
     {
-      "id": "creditos_v08_1",
+      "id": "fuentes_v09_1",
       "kind": "sources",
-      "section": "Créditos de las obras",
-      "title": "Índice fotográfico · 01",
-      "body": "Fotógrafo francés no identificado — [Stereographic View of Two Nude Women] (década de 1840). Par de daguerrotipos estereoscópicos. The Metropolitan Museum of Art; inventario 1998.90.\n\nAtribuido a Bruno Braquehais — [Reclining Female Nude Posed as Danae] (década de 1850). Daguerrotipo coloreado. The Metropolitan Museum of Art; inventario 2015.400.51.\n\nAutor francés no identificado — [Nude with Mirror] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art; inventario 1997.382.45.\n\nAutor francés no identificado — [Seated Female Nude] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art; inventario 2005.100.30.\n\nAtribución posible a Eugène Durieu — [Nude] (ca. 1851). Copia al papel salado. The Metropolitan Museum of Art; inventario 2005.100.724.\n\nJulien Vallou de Villeneuve — [Reclining Nude] (1851–1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art; inventario 2005.100.40.",
+      "section": "Créditos museográficos",
+      "title": "Índice de fotografías · 01",
+      "body": "Fotógrafo francés no identificado. [Stereographic View of Two Nude Women] (década de 1840). Par de daguerrotipos estereoscópicos. The Metropolitan Museum of Art; inv. 1998.90.\n\nAtribuido a Bruno Braquehais. [Reclining Female Nude Posed as Danae] (década de 1850). Daguerrotipo coloreado. The Metropolitan Museum of Art; inv. 2015.400.51.\n\nAutor francés no identificado. [Nude with Mirror] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art; inv. 1997.382.45.\n\nAutor francés no identificado. [Seated Female Nude] (ca. 1850). Daguerrotipo. The Metropolitan Museum of Art; inv. 2005.100.30.\n\nAtribución posible a Eugène Durieu. [Nude] (ca. 1851). Copia al papel salado. The Metropolitan Museum of Art; inv. 2005.100.724.\n\nJulien Vallou de Villeneuve. [Reclining Nude] (1851–1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art; inv. 2005.100.40.",
       "image": null,
       "caption": "",
       "sub": ""
     },
     {
-      "id": "creditos_v08_2",
+      "id": "fuentes_v09_2",
       "kind": "sources",
-      "section": "Créditos de las obras",
-      "title": "Índice fotográfico · 02",
-      "body": "Eugène Durieu — [Seated Female Nude] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inventario 2005.100.41.\n\nEugène Durieu — [Nude Study] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inventario 2005.100.569.\n\nJulien Vallou de Villeneuve — [Female Nude, Reclining, in Profile] (ca. 1853). Papel salado a partir de negativo de papel. The Metropolitan Museum of Art; inventario 1993.69.3.\n\nJulien Vallou de Villeneuve — [Reclining Female Nude] (ca. 1853). Papel salado. The Metropolitan Museum of Art; inventario 1993.69.1.\n\nJulien Vallou de Villeneuve — [Standing Female Nude] (ca. 1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art; inventario 1993.69.2.\n\nFranck-François-Genès Chauvassaignes — [Female Nude in Studio] (1856–1859). Copia al papel salado desde negativo de vidrio. The Metropolitan Museum of Art; inventario 1998.338.",
+      "section": "Créditos museográficos",
+      "title": "Índice de fotografías · 02",
+      "body": "Eugène Durieu. [Seated Female Nude] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inv. 2005.100.41.\n\nEugène Durieu. [Nude Study] (1853–1854). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inv. 2005.100.569.\n\nJulien Vallou de Villeneuve. [Female Nude, Reclining, in Profile] (ca. 1853). Papel salado a partir de negativo de papel. The Metropolitan Museum of Art; inv. 1993.69.3.\n\nJulien Vallou de Villeneuve. [Reclining Female Nude] (ca. 1853). Papel salado. The Metropolitan Museum of Art; inv. 1993.69.1.\n\nJulien Vallou de Villeneuve. [Standing Female Nude] (ca. 1853). Copia al papel salado desde negativo de papel. The Metropolitan Museum of Art; inv. 1993.69.2.\n\nAuguste Belloc. Academic Nude, Reclining on a Sofa (ca. 1855). Papel salado desde negativo al colodión húmedo. Cleveland Museum of Art; inv. 1998.55.",
       "image": null,
       "caption": "",
       "sub": ""
     },
     {
-      "id": "creditos_v08_3",
+      "id": "fuentes_v09_3",
       "kind": "sources",
-      "section": "Créditos de las obras",
-      "title": "Índice fotográfico · 03",
-      "body": "Atribuido a Bruno Braquehais — [Nude Before a Mirror] (ca. 1857). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inventario 2005.100.279.\n\nNadar (Gaspard-Félix Tournachon) — [Standing Female Nude] (1860–1861). Papel salado a partir de negativo de vidrio. The Metropolitan Museum of Art; inventario 1991.1174.\n\nAutor francés no identificado — [Female Nude with Mask] (ca. 1870). Albúmina a partir de negativo de vidrio. The Metropolitan Museum of Art; inventario 2005.100.208.\n\nFotógrafo francés no identificado; impresión por Calavas, París — [Nude Woman with Hat in Studio] (1870s–1890s (intervalo amplio)). Albúmina a partir de negativo de vidrio. The Metropolitan Museum of Art; inventario 1988.1038.\n\nThomas Eakins — [Nude Men in the Garden] (década de 1870 (según Commons; confirmar museo)). Platinotipo. The Metropolitan Museum of Art; inventario 43.87.24.\n\nThomas Eakins — [Standing Male Nude with Pipes] (1880s). Platinotipo. The Metropolitan Museum of Art; inventario 43.87.21.",
+      "section": "Créditos museográficos",
+      "title": "Índice de fotografías · 03",
+      "body": "Eduard Isaac Asser. Franse erotische stereofoto (ca. 1855). Copia al papel salado sobre cartón. Rijksmuseum, Ámsterdam; inv. RP-F-AB12278-AU.\n\nFranck-François-Genès Chauvassaignes. [Female Nude in Studio] (1856–1859). Copia al papel salado desde negativo de vidrio. The Metropolitan Museum of Art; inv. 1998.338.\n\nNadar (Gaspard-Félix Tournachon). [Draped Standing Nude] (1856–1859). Papel salado desde negativo de vidrio. The Metropolitan Museum of Art; inv. 2005.100.253.\n\nAtribuido a Bruno Braquehais. [Nude Before a Mirror] (ca. 1857). Copia a la albúmina desde negativo de vidrio. The Metropolitan Museum of Art; inv. 2005.100.279.\n\nNadar (Gaspard-Félix Tournachon). [Standing Female Nude] (1860–1861). Papel salado a partir de negativo de vidrio. The Metropolitan Museum of Art; inv. 1991.1174.\n\nAutor francés no identificado. [Female Nude with Mask] (ca. 1870). Albúmina a partir de negativo de vidrio. The Metropolitan Museum of Art; inv. 2005.100.208.",
       "image": null,
       "caption": "",
       "sub": ""
     },
     {
-      "id": "creditos_v08_4",
+      "id": "fuentes_v09_4",
       "kind": "sources",
-      "section": "Créditos de las obras",
-      "title": "Índice fotográfico · 04",
-      "body": "Thomas Eakins — Bill Duckett Nude, at the Art Students’ League of Philadelphia (ca. 1889). Platinotipo. The Metropolitan Museum of Art; inventario 43.87.20.",
+      "section": "Créditos museográficos",
+      "title": "Índice de fotografías · 04",
+      "body": "Fotógrafo francés no identificado; impresión por Calavas, París. [Nude Woman with Hat in Studio] (1870s–1890s (intervalo amplio)). Albúmina a partir de negativo de vidrio. The Metropolitan Museum of Art; inv. 1988.1038.\n\nThomas Eakins. [Nude Men in the Garden] (década de 1870 (según Commons; confirmar museo)). Platinotipo. The Metropolitan Museum of Art; inv. 43.87.24.\n\nThomas Eakins. [Standing Male Nude with Pipes] (1880s). Platinotipo. The Metropolitan Museum of Art; inv. 43.87.21.\n\nThomas Eakins. Bill Duckett Nude, at the Art Students’ League of Philadelphia (ca. 1889). Platinotipo. The Metropolitan Museum of Art; inv. 43.87.20.",
       "image": null,
       "caption": "",
       "sub": ""
     }
   ],
-  "notes": "Versión de curación v0.8 para gran formato 270×340 mm. Se retiraron del cuerpo siete piezas no alineadas (dibujo, laboratorio del movimiento y clases académicas) y se conservaron en fuera-de-coleccion-v08.json; no se inventaron imágenes de reemplazo. Las candidatas nuevas están documentadas aparte; sus másteres siguen pendientes. Mantener tapa y capítulos en impar.",
+  "notes": "Maqueta v0.9: 22 fotografías únicas, 66 páginas, tres obras de la nueva curación integradas con imágenes y contexto. Belloc tiene miniatura para web de 640 px y TIFF original en Commons para la edición impresa. No se han descargado los másteres. Resto de candidatas quedan fuera hasta verificar imagen y procedencia.",
   "updated": "2026-11-07",
   "book_phase": "Curación cronológica — primera fase fotográfica 1840–1859, horizonte 1840–1900",
   "editorial_scope": {
@@ -1119,7 +1230,13 @@
     "theme": "Desnudo fotográfico histórico de valor sensual/erótico y excelencia artística",
     "scope": "Sin fotografías de aparatos, sin láminas puramente científicas o de escenas de clase",
     "print_intent": "Gran formato de lujo, tapa dura, cuadernillos cosidos, papel fotográfico mate/semimate premium",
-    "external_candidate_file": "seleccion-erotica-lujo.json"
+    "external_candidate_file": "seleccion-erotica-lujo.json",
+    "integrated_new_works": [
+      "GB-LUJO-001",
+      "GB-LUJO-010",
+      "GB-LUJO-011"
+    ],
+    "image_view_policy": "Las imágenes se muestran remotas. Belloc usa miniatura web y tiene TIFF máster localizado, pendiente de descarga."
   },
   "editorial_rules": {
     "distinct_interior_image_rule": "Cada imagen exactamente una vez en el interior, sin excepciones.",
