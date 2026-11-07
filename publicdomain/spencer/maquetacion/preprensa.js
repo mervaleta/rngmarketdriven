@@ -5,6 +5,7 @@
 const $=id=>document.getElementById(id);
 const esc=value=>String(value==null?'':value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const stateKey='siglo23-spencer-maquetacion-v1';
+const profileKey='siglo23-spencer-preprensa-v1';
 const formats={a5:[148,210],trade:[152.4,228.6],compact:[139.7,215.9],large:[170,240]};
 const originalIds=['original-preface','original-new-toryism','original-coming-slavery','original-sins-legislators','original-great-superstition','original-postscript'];
 const titleDefaults={
@@ -32,7 +33,25 @@ const config={
 };
 if(formats[config.trim]){config.width=formats[config.trim][0];config.height=formats[config.trim][1]}
 else{config.width=Number(saved.customW??148);config.height=Number(saved.customH??210)}
-function setFields(){for(const id of ['trim','width','height','inner','outer','top','bottom','bleed','fontSize','leading'])$(id).value=config[id]}
+let profile={};
+try{profile=JSON.parse(localStorage.getItem(profileKey)||'{}')}catch(e){}
+if(profile&&profile.schema===1&&profile.config){
+ for(const id of ['trim','width','height','inner','outer','top','bottom','bleed','fontSize','leading']){
+  if(id==='trim'){if(profile.config.trim in formats||profile.config.trim==='custom')config.trim=profile.config.trim}
+  else if(Number.isFinite(Number(profile.config[id])))config[id]=Number(profile.config[id]);
+ }
+}
+function setFields(){
+ for(const id of ['trim','width','height','inner','outer','top','bottom','bleed','fontSize','leading'])$(id).value=config[id];
+ if(profile?.schema===1){
+  for(const id of ['figures','indices','opening'])if(typeof profile[id]==='boolean')$(id).checked=profile[id];
+ }
+}
+function persist(){
+ const configData=readFields();
+ try{localStorage.setItem(profileKey,JSON.stringify({schema:1,updated:new Date().toISOString(),config:configData,
+ figures:$('figures').checked,indices:$('indices').checked,opening:$('opening').checked}))}catch(e){}
+}
 function readFields(){
  for(const id of ['width','height','inner','outer','top','bottom','bleed','fontSize','leading']){
   config[id]=Number($(id).value);
@@ -157,10 +176,10 @@ function makeCSS(){
  const font=saved.font&&saved.font.startsWith('Montserrat')?'Montserrat,Arial,sans-serif':'Georgia,Times New Roman,serif';
  const heading=saved.headingFont&&saved.headingFont.startsWith('Montserrat')?'Montserrat,Arial,sans-serif':'Georgia,Times New Roman,serif';
  return '@page{size:'+w+' '+h+';margin:'+px(c.top)+' '+px(c.outer)+' '+px(c.bottom)+' '+px(c.inner)+';@bottom-center{content:counter(page);font:8pt Georgia;color:#777}}'
- +'@page:left{margin-left:'+px(c.outer)+';margin-right:'+px(c.inner)+';@bottom-left{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
- +'@page:right{margin-left:'+px(c.inner)+';margin-right:'+px(c.outer)+';@bottom-right{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
- +'@page:blank{@bottom-left{content:none}@bottom-right{content:none}@bottom-center{content:none}}'
- +'@page:first{@bottom-center{content:none}}'
+ +'@page :left{margin-left:'+px(c.outer)+';margin-right:'+px(c.inner)+';@bottom-left{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
+ +'@page :right{margin-left:'+px(c.inner)+';margin-right:'+px(c.outer)+';@bottom-right{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
+ +'@page :blank{@bottom-left{content:none}@bottom-right{content:none}@bottom-center{content:none}}'
+ +'@page :first{@bottom-center{content:none}}'
  +'*{box-sizing:border-box}.pagedjs_page{color:#292822;background:#fff;font-family:'+font+'}.book-section,.front,.opening-left,.opening-right{color:#292822}'
  +'.book-section{break-before:page;page-break-before:always}.book-section.recto,.front.recto,.plate.recto{break-before:right}'
  +'.book-section h1{font:normal 21pt/1.22 '+heading+';margin:12mm 0 7mm;text-align:center;break-after:avoid}'
@@ -243,17 +262,32 @@ async function load(){
  validate();
 }
 $('trim').addEventListener('change',()=>{
- const t=$('trim').value;if(formats[t]){ $('width').value=formats[t][0];$('height').value=formats[t][1]}
+ const t=$('trim').value;if(formats[t]){ $('width').value=formats[t][0];$('height').value=formats[t][1]};persist()
 });
-$('compose').addEventListener('click',compose);
+$('compose').addEventListener('click',()=>{persist();compose()});
 $('print').addEventListener('click',()=>{if(flow){updateZoom();window.print()}});
 $('export').addEventListener('click',()=>{if(!flow)return;
  const html='<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Spencer · fuente paginable de prueba</title><style>'+style+'</style></head><body>'+doc+'</body></html>';
  saveFile('spencer-interior-fuente-paginable.html',html,'text/html;charset=utf-8');
 });
 $('zoom').addEventListener('input',updateZoom);
-for(const id of ['width','height','inner','outer','top','bottom','bleed','fontSize','leading'])$(id).addEventListener('change',validate);
-$('figures').addEventListener('change',validate);$('indices').addEventListener('change',validate);
-$('opening').addEventListener('change',validate);
+for(const id of ['width','height','inner','outer','top','bottom','bleed','fontSize','leading'])$(id).addEventListener('change',()=>{
+ if((id==='width'||id==='height') && formats[$('trim').value] &&
+  (Number($('width').value)!==formats[$('trim').value][0]||Number($('height').value)!==formats[$('trim').value][1]))$('trim').value='custom';
+ persist();validate();
+});
+for(const id of ['figures','indices','opening'])$(id).addEventListener('change',()=>{persist();validate()});
+$('saveProfile').addEventListener('click',()=>{
+ persist();const data=localStorage.getItem(profileKey);
+ if(data)saveFile('siglo23-spencer-perfil-preprensa.json',data,'application/json');
+});
+$('importProfile').addEventListener('change',async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{if(file.size>100000)throw Error('Archivo de perfil demasiado grande');
+ const p=JSON.parse(await file.text());if(p.schema!==1||!p.config||!('width'in p.config))throw Error('No es un perfil de preprensa');
+ profile=p;for(const k of Object.keys(config)){if(k==='trim')config[k]=p.config[k]||'custom';else if(Number.isFinite(Number(p.config[k])))config[k]=Number(p.config[k]);}
+ setFields();persist();validate();stateStatus('Perfil importado. Volvé a componer para aplicar los cambios.');
+ }catch(err){stateStatus('Perfil rechazado: '+err.message)}finally{e.target.value=''}
+});
 load();
 })();
