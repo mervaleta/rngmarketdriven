@@ -84,5 +84,42 @@
     "placement": "verso de cada pliego"
   },
   "study_word_count": 2145,
-  "biography_word_count": 1564
+  "biography_word_count": 1564,
+  "extensions": {
+    "M10-preprensa-beta": {
+      "state": "experimental-no-certificado",
+      "date": "2026-11-07",
+      "layout": "Paged.js 0.4.3 (CDN)",
+      "sources": [
+        "original-ingles-1884.json",
+        "textos/biografia-herbert-spencer-2026.md",
+        "textos/estudio-introductorio-2026.md",
+        "textos/epilogo-2026.md",
+        "indices-editoriales.json",
+        "editorial-assets.js",
+        "chapter-notes.js"
+      ],
+      "entries": [
+        "preprensa.html",
+        "preprensa.js",
+        "preprensa.css",
+        "estudio-theme.css",
+        "estudio-audit.js",
+        "README-PREPRENSA.md"
+      ],
+      "features": [
+        "Composición tipográfica paginada alternativa a la grilla estimada",
+        "Control previo y reporte JSON",
+        "Páginas izquierda y derecha, aperturas en recto, viudas y huérfanas",
+        "Identidad azul del proyecto",
+        "Perfil de preprensa exportable e importable"
+      ],
+      "limitations": [
+        "Sin PDF/X, ICC, TrimBox ni BleedBox certificados",
+        "Índices sin folios definitivos",
+        "Imágenes a sangre y másteres de impresión por verificar",
+        "Sin confirmación de despliegue en Hostinger"
+      ]
+    }
+  }
 }
