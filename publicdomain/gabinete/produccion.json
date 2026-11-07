@@ -168,7 +168,7 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "Integradas en libro.json las obras de Auguste Belloc (Cleveland 1998.55), Eduard Isaac Asser (Rijksmuseum RP-F-AB12278-AU) y Nadar (Met 2005.100.253). Una sola lámina interior por obra. Belloc tiene foto de previsualización web de 640 px y TIFF de 5106×3780 en Commons; no se descargó, el PDF final requiere máster. Asser y Nadar tienen JPEG originales remotos de 3026×3986 y 2654×4000, respectivamente, todavía no descargados. Las otras 9 candidatas permanecen en investigación.",
+  "notes_on_visuals": "Integradas en libro.json las obras de Auguste Belloc (Cleveland 1998.55), Eduard Isaac Asser (Rijksmuseum RP-F-AB12278-AU) y Nadar (Met 2005.100.253). Una sola lámina interior por obra. Belloc tiene derivado JPG de Wikimedia Commons vinculado a TIFF de 5106×3780; no se descargó, el PDF final requiere máster. Asser y Nadar tienen JPEG originales remotos de 3026×3986 y 2654×4000, respectivamente, todavía no descargados. Las otras 9 candidatas permanecen en investigación.",
   "luxury_print_proposal": {
     "trim_mm": [
       270,
@@ -185,7 +185,7 @@
       "asser_stereo_1855",
       "nadar_draped_1856"
     ],
-    "proof_note": "La maqueta web sirve para diseñar; para imprimir 27×34 cm no extrapolar calidad de miniaturas y verificar ppp efectivos de cada fotografía en tamaño real."
+    "proof_note": "La maqueta web sirve para diseñar; para imprimir 27×34 cm no extrapolar calidad de miniaturas y verificar ppp efectivos de cada fotografía en tamaño real. El derivado JPEG web de Belloc no es el TIFF original."
   },
   "editorial_files": {
     "concept": "direccion-editorial-lujo.md",
