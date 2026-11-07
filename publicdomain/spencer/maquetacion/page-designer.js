@@ -382,5 +382,5 @@ function bindControls(){
  });
 }
 document.addEventListener('DOMContentLoaded',bindControls);
-window.S23PageDesigner={mount,getPage:key=>pages.get(key),assignImage,batch,closeEditor};
+window.S23PageDesigner={mount,createCover,getPage:key=>pages.get(key),assignImage,batch,closeEditor};
 })();
