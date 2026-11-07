@@ -1,6 +1,6 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-11-07",
   "not_part_of_book": true,
   "current": {
@@ -47,7 +47,11 @@
     "source_pages": 12,
     "print_ready_master_files": 0,
     "material_review_completed": false,
-    "deploy_status": "GitHub confirmado; Hostinger sin confirmar"
+    "deploy_status": "GitHub confirmado; Hostinger sin confirmar",
+    "images_local_web": 55,
+    "images_external_pending": 13,
+    "original_masters_local": 20,
+    "images_local_on_hostinger_verified": false
   },
   "target": {
     "pages": "144–176, condicionado a imágenes",
@@ -182,7 +186,7 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "v1.0: 68 fotos diferentes; 46 obras nuevas de Commons preseleccionadas (18 con pixels altos reportados, 12 medianas, 16 bajas). 16 adicionales con resolución insuficiente para gran formato. Ninguna nueva URL/binary fue comprobada descargándose en el servidor de Siglo23. Es una maqueta de investigación, no aprobación de derechos, edad adulta ni calidad de imprenta.",
+  "notes_on_visuals": "Importación comprobada por GitHub Actions: 55 JPEG propios en imagenes/web, 20 originales del Met en imagenes/maestros. Trece pendientes, Wikimedia limitó tráfico HTTP 429; no se declararon descargados. Los 20 originales son archivos reales, pero su utilidad para impresión 27×34 cm requiere control de ppp y pruebas de color. Las 55 vistas web tampoco son automáticamente másteres. Publicación en Hostinger por comprobar.",
   "luxury_print_proposal": {
     "trim_mm": [
       270,
