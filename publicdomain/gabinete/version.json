@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
-  "version": "1.0.0",
-  "marker": "SIGLO23-GABINETE-20261107-V1.0.0",
+  "version": "1.1.0",
+  "marker": "SIGLO23-GABINETE-20261107-V1.1.0",
   "updated": "2026-11-07",
   "expectedPages": 146,
   "expectedImages": 68,
@@ -11,7 +11,7 @@
     "editor.js",
     "libro.json"
   ],
-  "status": "CÓDIGO ACTUALIZADO EN GITHUB. SIN VERIFICACIÓN DE DESPLIEGUE EN HOSTINGER.",
+  "status": "55 fotos web y 20 másteres en GitHub. Despliegue de la carpeta imagenes/ en Hostinger pendiente de comprobar.",
   "theme": "rosa-bordo-negro-blanco",
   "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
   "chapterFolios": [
@@ -58,5 +58,6 @@
   "imageAssetManifest": "./imagenes/manifest.json",
   "assetStatus": "Archivos guardados en GitHub; publicación en Hostinger debe verificarse",
   "metOriginalsDownloaded": 20,
-  "metHighQualityWebImages": 20
+  "metHighQualityWebImages": 20,
+  "externalImagesPending": 13
 }
