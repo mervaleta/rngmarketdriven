@@ -12,28 +12,44 @@ permissions:
 jobs:
   consultar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     steps:
-      - name: Comprobar URL y algunos archivos locales
+      - uses: actions/checkout@v4
+      - name: Comprobar version 1.1 y copias propias desde el dominio
         shell: bash
         run: |
           python - <<'PY'
-          import json
-          import urllib.error
-          import urllib.request
+          import concurrent.futures, hashlib, json, urllib.request, urllib.error
+          from pathlib import Path
           root="https://rngmarketdriven.com/publicdomain/gabinete/"
-          paths=["version.json","index.html","imagenes/web/stereo.jpg",
-                 "imagenes/web/belloc_sofa_1855.jpg","imagenes/maestros/stereo.jpg"]
-          for path in paths:
-              url=root+path
+          files=json.loads(Path("publicdomain/gabinete/imagenes/manifest.json").read_text())["files"]
+          def check(x):
+              path=x["web"].lstrip("./")
               try:
-                  req=urllib.request.Request(url,headers={"User-Agent":"EditorialSiglo23-Deployment-Check/1.0"})
-                  with urllib.request.urlopen(req,timeout=20) as response:
-                      mime=response.headers.get("Content-Type","")
-                      data=response.read(1500)
-                      print(json.dumps({"path":path,"status":response.status,"content_type":mime,
-                                        "bytes_available":response.headers.get("Content-Length"),
-                                        "version_snippet":data.decode("utf8","replace")[:250] if path=="version.json" else None}))
+                  req=urllib.request.Request(root+path,headers={"User-Agent":"EditorialSiglo23-Asset-Check/1.1"},method="HEAD")
+                  with urllib.request.urlopen(req,timeout=18) as resp:
+                      return (path,resp.status,resp.headers.get("Content-Type"),resp.headers.get("Content-Length"))
               except Exception as error:
-                  print(json.dumps({"path":path,"error":str(error)[:240]}))
+                  return (path,str(error)[:100],None,None)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
+              results=list(pool.map(check,files))
+          failures=[x for x in results if x[1]!=200 or not x[2] or "image" not in x[2]]
+          print("FOTOS_LOCALES",len(results),"OK",len(results)-len(failures),"FALLIDAS",len(failures),flush=True)
+          print("FALLOS",json.dumps(failures,ensure_ascii=False),flush=True)
+          for path in ("version.json","index.html","imagenes/maestros/stereo.jpg"):
+              try:
+                  req=urllib.request.Request(root+path,headers={"User-Agent":"EditorialSiglo23-Asset-Check/1.1"})
+                  with urllib.request.urlopen(req,timeout=20) as resp:
+                      data=resp.read(3_500_000 if "stereo.jpg" in path else 30_000)
+                  if path=="version.json":
+                      doc=json.loads(data)
+                      print("SITIO_VERSION",doc.get("version"),"FOTOS_LOCALES",doc.get("localImageFiles"),"MASTERS",doc.get("metOriginalsDownloaded"))
+                  elif path=="index.html":
+                      print("HTML_V1.1",b"GABINETE" in data and b"V1.1.0" in data)
+                  else:
+                      orig=Path("publicdomain/gabinete/imagenes/maestros/stereo.jpg").read_bytes()
+                      print("MASTER_SITIO_BYTES",len(data),"MASTER_REPO_BYTES",len(orig),
+                            "MISMA_SHA256",hashlib.sha256(data).digest()==hashlib.sha256(orig).digest())
+              except Exception as error:
+                  print("ERROR_VERIFICACION",path,str(error)[:160])
           PY
