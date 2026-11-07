@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -36,7 +36,13 @@
       "master_sha256": "1f286c4f34fb288c850fd125efcc9ff41f0305d5c0dbdf20a59c1535e54cda88",
       "master_width": 4000,
       "master_height": 2096,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "visión íntima",
+        "technology": "par de imágenes para una profundidad aparente",
+        "modesty": "un espectador a solas con el dispositivo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "danae",
@@ -63,7 +69,13 @@
       "master_sha256": "63d679db71e7e77a67a721604ebaee1dff3ff254e4890ea09010db11ad6e2466",
       "master_width": 3060,
       "master_height": 3340,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "mirror",
@@ -90,7 +102,13 @@
       "master_sha256": "65946b4ef70fcdb1de18d7798b40116c2ac7c28c5132ac6b4c3b2b5734393f3e",
       "master_width": 3109,
       "master_height": 3421,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "reflejo y mirada",
+        "technology": "calidad y técnica de copia a documentar",
+        "modesty": "el espejo media entre cuerpo y espectador",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "seated",
@@ -117,7 +135,13 @@
       "master_sha256": "c5b59ad0556555b8adc6c5ddd34a654b5bd3c74ec2d9ae6a16d2b9079a63b05f",
       "master_width": 1642,
       "master_height": 1928,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "met_squat",
@@ -147,7 +171,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
       "web_sha256": "27d5f11c402bf884444a4d7d492d691c4a49ad8db31d440d7d2d615ba93f0221",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu_nude_1851",
@@ -175,7 +206,13 @@
       "master_sha256": "fc3d24cd2f92a57d68369a951ba5455e543e1560b74ac99eb635153132c91d9e",
       "master_width": 4000,
       "master_height": 2410,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "vallou_reclining_1851",
@@ -202,7 +239,13 @@
       "master_sha256": "70e057e2bbec9b6f11c491de6e22841264cca4eb06d2a6baffbe9f694445a756",
       "master_width": 3621,
       "master_height": 2879,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "olivier_hammock",
@@ -228,7 +271,14 @@
       "review_approved": false,
       "title": "Dolivier nude in hammock",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escena de estudio",
+        "technology": "procedimiento concreto pendiente de verificación",
+        "modesty": "la intimidad construida como ficción visual",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "olivier_column",
@@ -254,7 +304,14 @@
       "review_approved": false,
       "title": "Dolivier nude woman column",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escena de estudio",
+        "technology": "procedimiento concreto pendiente de verificación",
+        "modesty": "la intimidad construida como ficción visual",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "olivier_three",
@@ -280,7 +337,14 @@
       "review_approved": false,
       "title": "Dolivier three nude women",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escena de estudio",
+        "technology": "procedimiento concreto pendiente de verificación",
+        "modesty": "la intimidad construida como ficción visual",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "olivier_bed",
@@ -306,7 +370,14 @@
       "review_approved": false,
       "title": "Dolivier woman at bed",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escena de estudio",
+        "technology": "procedimiento concreto pendiente de verificación",
+        "modesty": "la intimidad construida como ficción visual",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "braque_recline",
@@ -336,7 +407,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
       "web_sha256": "4aff4847137799df6aaa342e7f04f6c758d9deb342c4cb2170d95a8e2d9919f2",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "tela, pose y encuadre",
+        "technology": "negativo y soporte específico a verificar",
+        "modesty": "la pose artística como lenguaje social",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu",
@@ -363,7 +441,13 @@
       "master_sha256": "6c21663e4223c8f372371f60b43dd48edb5f850ce0105ece497474fcb3c5632a",
       "master_width": 2653,
       "master_height": 3858,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "durieu_study_1853",
@@ -390,7 +474,13 @@
       "master_sha256": "e90db73e7bc2bdf6054dcafca32c8e16845f8c8e033ab16dcac5c84b2465c979",
       "master_width": 2461,
       "master_height": 3882,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "vallou",
@@ -417,7 +507,13 @@
       "master_sha256": "b4c273120752f78e1510177a9a9d78ef553809b5d0f3d431809cbff905252770",
       "master_width": 3807,
       "master_height": 2814,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "vallou2",
@@ -444,7 +540,13 @@
       "master_sha256": "958b76ee29b9018cdbb70bc013ee8b1d9fbe8116a092661e3b95beb901a55cef",
       "master_width": 3777,
       "master_height": 2779,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "vallou_standing_1853",
@@ -471,7 +573,13 @@
       "master_sha256": "a7ecf8f2035acfec3bdb6a4a4d21c3600b17557c9e30c436f6f3de387156c053",
       "master_width": 1892,
       "master_height": 2518,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "vallou_9",
@@ -501,7 +609,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Julien_vallou_de_villeneuve_9.jpg",
       "web_sha256": "18e0fd811abf9f7615c2c1a36b287435833d1de9b77ab98cd06ef525d1373551",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "vallou_2",
@@ -531,7 +646,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Julien_vallou_de_villeneuve_2.jpg",
       "web_sha256": "f82c82bd717cdb1842329e2329d23d18034c9aad0cc9d172c1396fd724a50caa",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "braque_veil",
@@ -561,7 +683,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
       "web_sha256": "8dc656ba88b3090d1017ca69274cdbce54a489bcd13694d98370de1a09d69ad8",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "tela, pose y encuadre",
+        "technology": "negativo y soporte específico a verificar",
+        "modesty": "la pose artística como lenguaje social",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu_1",
@@ -591,7 +720,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Durieu_1.jpg",
       "web_sha256": "a4a6c8bd5a5577b0075b56199e67c8f0835a178494e199397bc9c088b24b8e3b",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu_4",
@@ -621,7 +757,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Durieu_4.jpg",
       "web_sha256": "91bcf8a5743d92a017b6c6854db7c762964ddb41a870a0373ebf98a85502d2ee",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu_5",
@@ -651,7 +794,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Durieu_5.jpg",
       "web_sha256": "4c54b459aa574a7306f37655f4f4ef7c9ad4f54599fb18bae2124e5be731ab19",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "durieu_dutch",
@@ -681,7 +831,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
       "web_sha256": "a81966d903c65ba1f1aa2003d3466bc4392fa33800c2bc0dbe1b2ad6a515142f",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "vallou_academic",
@@ -707,7 +864,14 @@
       "review_approved": false,
       "title": "Academic Nude Study (2008.13.25)",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "repertorio del modelo",
+        "technology": "original y técnica a verificar en esta ficha",
+        "modesty": "la figura entre el estudio y el deseo de contemplación",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "belloc_sofa_1855",
@@ -733,7 +897,13 @@
       "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
       "web_sha256": "9a0d984f1dffaaa69ced714884d68b1649f7b7ebe2eccf940f311d4f26d96299",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "belloc_stereo",
@@ -763,7 +933,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Auguste_Belloc_daguerreotype_stereo.jpg",
       "web_sha256": "c87f855831848214d0c833b9290bb5df3150bc42c5c00899203ff1c643ebc61d",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "visión íntima",
+        "technology": "par de imágenes para una profundidad aparente",
+        "modesty": "un espectador a solas con el dispositivo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "braque_dutch",
@@ -793,7 +970,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
       "web_sha256": "3dcfcf9fa5eeeecfbec0cf656ad971cb6c09b0517fd45a1d013ab614d497b977",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "tela, pose y encuadre",
+        "technology": "negativo y soporte específico a verificar",
+        "modesty": "la pose artística como lenguaje social",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "braque_basket",
@@ -823,7 +1007,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Femme_au_panier.jpg",
       "web_sha256": "5a90e1b0cdd123a7d2dc6440d54a90fcefac652223752865deef8e574bcdd618",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "tela, pose y encuadre",
+        "technology": "negativo y soporte específico a verificar",
+        "modesty": "la pose artística como lenguaje social",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "asser_stereo_1855",
@@ -846,7 +1037,13 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Franse_erotische_stereofoto%2C_RP-F-AB12278-AU.jpg",
       "web_sha256": "240e06aacb044d364c5740e5f262f5f9b74b3de726540aa6aba36d26365d43b2",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "visión íntima",
+        "technology": "par de imágenes para una profundidad aparente",
+        "modesty": "un espectador a solas con el dispositivo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "durieu_012",
@@ -872,7 +1069,14 @@
       "review_approved": false,
       "title": "012- Eugène Durieu, c. 1855",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "academia y contorno pictórico",
+        "technology": "papel y negativo deben cotejarse para esta copia",
+        "modesty": "la legitimidad del arte como forma de exposición",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "dutch_tambourine",
@@ -902,7 +1106,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
       "web_sha256": "7218151a45a756caa6d840b7013cbf17fb59dcc668a07ebaad191c95895a6eb2",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "tela, pose y encuadre",
+        "technology": "negativo y soporte específico a verificar",
+        "modesty": "la pose artística como lenguaje social",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "olivier_009",
@@ -928,7 +1139,14 @@
       "review_approved": false,
       "title": "009- Louis Camille d‘Olivier,c.1855",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escena de estudio",
+        "technology": "procedimiento concreto pendiente de verificación",
+        "modesty": "la intimidad construida como ficción visual",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "chauva_studio_1856",
@@ -955,7 +1173,13 @@
       "master_sha256": "e2c173103a3e2cfad79a12c4b6474cdea634c6e833377bee901f725177a67264",
       "master_width": 3070,
       "master_height": 3713,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "nadar_draped_1856",
@@ -983,7 +1207,13 @@
       "master_sha256": "ee2931af7dc08e67d9450fe29fc6afcf3a419221e25cf955364e15dbd3ea0988",
       "master_width": 2654,
       "master_height": 4000,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "braquehais_mirror_1857",
@@ -1010,7 +1240,13 @@
       "master_sha256": "fc83272bad08f0506cf391f35cce3c7b7dbbbe649dcf92f8ef8e0ffe1c03f565",
       "master_width": 2751,
       "master_height": 3425,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "reflejo y mirada",
+        "technology": "calidad y técnica de copia a documentar",
+        "modesty": "el espejo media entre cuerpo y espectador",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "nadar_1860",
@@ -1038,7 +1274,13 @@
       "master_sha256": "bf33257235a9068a83adc7b3f8032b2cf5e861f72c6f8bd7b1d95931ed68691b",
       "master_width": 2633,
       "master_height": 3872,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "mask_1870",
@@ -1065,7 +1307,13 @@
       "master_sha256": "8567844c49b821e20fbd161f54df8ac117315ba230d03f2949a3dd5a20c82958",
       "master_width": 2798,
       "master_height": 3756,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "marconi_back",
@@ -1095,7 +1343,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
       "web_sha256": "8dd62e7fa15c359cfaf07f4eb849a165055e1b5cc3844a070eba644a0305f63b",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia en expansión",
+        "technology": "fotografía de estudio reproducible; técnica por cotejar",
+        "modesty": "la identidad y el gesto bajo una pose sostenida",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "marconi_seated",
@@ -1125,7 +1380,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
       "web_sha256": "ae5f109590bf941c64dc363ae9848d9ba572b7d5b48ccb8d802123991cba4339",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia en expansión",
+        "technology": "fotografía de estudio reproducible; técnica por cotejar",
+        "modesty": "la identidad y el gesto bajo una pose sostenida",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "marconi_stage",
@@ -1151,7 +1413,14 @@
       "review_approved": false,
       "title": "Marconi, Gaudenzio, Female nude with pictorial backdrop 1870-1879",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "academia en expansión",
+        "technology": "fotografía de estudio reproducible; técnica por cotejar",
+        "modesty": "la identidad y el gesto bajo una pose sostenida",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "hat_1870",
@@ -1178,7 +1447,13 @@
       "master_sha256": "40e98ad64a1434d1ae66728a3a9d91619e6e6d784ff2a6d5bf5e0db0fe35430e",
       "master_width": 2889,
       "master_height": 3846,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "rijks_glass_carpet",
@@ -1208,7 +1483,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
       "web_sha256": "7a54b7826395f3de46903d4707fc4a477338840f8456a30107251e66564278d4",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "rijks_glass_mirror",
@@ -1238,7 +1520,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
       "web_sha256": "31eece66ea8627345a88d7c754787227c24841a7cea4036717476c4bde109997",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "reflejo y mirada",
+        "technology": "calidad y técnica de copia a documentar",
+        "modesty": "el espejo media entre cuerpo y espectador",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "rijks_glass_room",
@@ -1268,7 +1557,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
       "web_sha256": "cbd31d33cfe48608030b3c3ac1af0d6e28e07ac44a1d089a2610c0f9989bbbd9",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "marconi_violin",
@@ -1298,7 +1594,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
       "web_sha256": "2dd75662eb77d78b8cad015cbce38572d663f4acf1e3622e0af0daaaed962604",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "academia en expansión",
+        "technology": "fotografía de estudio reproducible; técnica por cotejar",
+        "modesty": "la identidad y el gesto bajo una pose sostenida",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "eakins_garden",
@@ -1326,7 +1629,13 @@
       "master_sha256": "93f4858e0589fba4fed39030bf798c686813b490300d66122ce609949f9ecd9c",
       "master_width": 2519,
       "master_height": 3361,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "rijks_sofa_book",
@@ -1356,7 +1665,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
       "web_sha256": "ac8b004cb820eade9fd6056d0bb7446ac26ce04bc734f341d2f5f4cc6ec2cd3d",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "eakins_pipes_1880",
@@ -1383,7 +1699,13 @@
       "master_sha256": "ef0e1cd2df66d655c3e5aa5a785755b33be969495434ea8c9e3a6e4eae5e1596",
       "master_width": 3021,
       "master_height": 4000,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "sambourne_kate",
@@ -1413,7 +1735,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
       "web_sha256": "56158f54814fba0ecb5e4024e237d1eb976775b82fcd2e2802cbaf4a88339475",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "retrato y pose",
+        "technology": "fotografía de fines de siglo, técnica concreta por verificar",
+        "modesty": "la persona nombrada frente a la mirada de terceros",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "breitner_jordan_6",
@@ -1443,7 +1772,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
       "web_sha256": "d0b11bda0bee794041dddde65d677c391309861e6b3d00127936204171901a9d",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "intimidad doméstica",
+        "technology": "pequeña fotografía de finales del XIX",
+        "modesty": "el límite entre lo privado y lo que hoy se expone",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "breitner_jordan_7",
@@ -1473,7 +1809,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
       "web_sha256": "a6b62012f784ade3140546dd13a5921a349cfe0a5c83e26631504128cb9e8d86",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "intimidad doméstica",
+        "technology": "pequeña fotografía de finales del XIX",
+        "modesty": "el límite entre lo privado y lo que hoy se expone",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "breitner_jordan_1",
@@ -1503,7 +1846,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
       "web_sha256": "e5b716fe1a8568e41ab288598f69e6e51f45d019d85361c49e960db4ac76c805",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "intimidad doméstica",
+        "technology": "pequeña fotografía de finales del XIX",
+        "modesty": "el límite entre lo privado y lo que hoy se expone",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "breitner_jordan_2",
@@ -1533,7 +1883,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
       "web_sha256": "9893a01018559cf88591a8641ff3b6b602495694b02eaf7932c2a7f81fe286fc",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "intimidad doméstica",
+        "technology": "pequeña fotografía de finales del XIX",
+        "modesty": "el límite entre lo privado y lo que hoy se expone",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "breitner_jordan_3",
@@ -1563,7 +1920,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
       "web_sha256": "6cfe43c8819538c183d4f44b7eda3f02ac7ea5ebe04c34c2e3072d880f6c30c1",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "intimidad doméstica",
+        "technology": "pequeña fotografía de finales del XIX",
+        "modesty": "el límite entre lo privado y lo que hoy se expone",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "eakins_bill_1889",
@@ -1591,7 +1955,13 @@
       "master_sha256": "e5662d1d449262b472bccc45ab9d3e22c7dd0adf4bad914bfa6ebfbdc1cdc1e1",
       "master_width": 3220,
       "master_height": 3414,
-      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente",
+      "curatorialAxes": {
+        "aesthetic": "pose y encuadre",
+        "technology": "procedimiento específico de la obra pendiente de revisión",
+        "modesty": "la tensión entre exposición y reserva",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      }
     },
     {
       "id": "canellas_mirror",
@@ -1621,7 +1991,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nude_before_a_mirror_ca._1890.jpg",
       "web_sha256": "79eb2681c86e83ace5f71a593a5f3c8140cd60dd2c84f746f0b3392a7b5efcea",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "escenario de fin de siglo",
+        "technology": "fotografía al papel, técnica exacta por cotejar",
+        "modesty": "lo que la decoración revela o esconde",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "canellas_bench",
@@ -1647,7 +2024,14 @@
       "review_approved": false,
       "title": "Nude seated atop bamboo bench Albumen print, ca. 1890",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escenario de fin de siglo",
+        "technology": "fotografía al papel, técnica exacta por cotejar",
+        "modesty": "lo que la decoración revela o esconde",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "canellas_rock",
@@ -1673,7 +2057,14 @@
       "review_approved": false,
       "title": "Untitled, Nude standing by garden rocks Albumen print, ca. 1890",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escenario de fin de siglo",
+        "technology": "fotografía al papel, técnica exacta por cotejar",
+        "modesty": "lo que la decoración revela o esconde",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "canellas_gate",
@@ -1703,7 +2094,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
       "web_sha256": "0714f5b52c08ca8ba568af3c4db03b6c711713d683bc0643675401cc1a1a9d94",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "escenario de fin de siglo",
+        "technology": "fotografía al papel, técnica exacta por cotejar",
+        "modesty": "lo que la decoración revela o esconde",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "canellas_moorish",
@@ -1729,7 +2127,14 @@
       "review_approved": false,
       "title": "Untitled, Nude before Moorish backdrop Albumen print, ca. 1890",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "escenario de fin de siglo",
+        "technology": "fotografía al papel, técnica exacta por cotejar",
+        "modesty": "lo que la decoración revela o esconde",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "sambourne_pettigrew_4b",
@@ -1759,7 +2164,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
       "web_sha256": "240e8c96a13391af1a20d133d09395c3eb193c978414b9b0c22f6668a54d5c60",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "retrato y pose",
+        "technology": "fotografía de fines de siglo, técnica concreta por verificar",
+        "modesty": "la persona nombrada frente a la mirada de terceros",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "sambourne_pettigrew_5",
@@ -1785,7 +2197,14 @@
       "review_approved": false,
       "title": "Hetty and Lily Pettigrew by Edward Linley Sambourne (1891) - 5",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "curatorialAxes": {
+        "aesthetic": "retrato y pose",
+        "technology": "fotografía de fines de siglo, técnica concreta por verificar",
+        "modesty": "la persona nombrada frente a la mirada de terceros",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "sambourne_maude_1",
@@ -1815,7 +2234,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
       "web_sha256": "eb73c3affb6efdd6bd68d2724ade670c87f3bd96f2f8edbc143f2b741728784b",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "retrato y pose",
+        "technology": "fotografía de fines de siglo, técnica concreta por verificar",
+        "modesty": "la persona nombrada frente a la mirada de terceros",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "sambourne_maude_costume",
@@ -1845,7 +2271,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
       "web_sha256": "ececeb08bbfadff486b0efba8153ee1c8cfcd5cf90fbdfabf69dc6431deb1aa9",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "retrato y pose",
+        "technology": "fotografía de fines de siglo, técnica concreta por verificar",
+        "modesty": "la persona nombrada frente a la mirada de terceros",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "frank_eugene_hortensia",
@@ -1871,7 +2304,14 @@
       "review_approved": false,
       "title": "Frank Eugene - Hortensia, 1898",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "curatorialAxes": {
+        "aesthetic": "interpretación pictórica del cuerpo",
+        "technology": "procedimiento y efectos de impresión por cotejar",
+        "modesty": "el cuerpo como imagen artística antes que documento directo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "frank_eugene_adam",
@@ -1901,7 +2341,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Adam_and_Eve_MET_DP263573.jpg",
       "web_sha256": "fa948ab462a2d04c2dcf9eb3de5beb4c0aec989b62fd58ee9f2cf3b911b275d1",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "interpretación pictórica del cuerpo",
+        "technology": "procedimiento y efectos de impresión por cotejar",
+        "modesty": "el cuerpo como imagen artística antes que documento directo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     },
     {
       "id": "frank_eugene_cloud",
@@ -1931,7 +2378,14 @@
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Great_White_Cloud_MET_DP275752.jpg",
       "web_sha256": "257473f98e0587b4faa5df92688d8d00fb37d31ba71ad85d4f4fa3bd26b89e5f",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "curatorialAxes": {
+        "aesthetic": "interpretación pictórica del cuerpo",
+        "technology": "procedimiento y efectos de impresión por cotejar",
+        "modesty": "el cuerpo como imagen artística antes que documento directo",
+        "method": "lectura editorial interpretativa, no biografía del modelo"
+      },
+      "catalogueReviewStatus": "FICHA DE PRESELECCIÓN; fecha, modelos adultos y procedencia requieren cotejo final"
     }
   ],
   "pages": [
@@ -1940,7 +2394,7 @@
       "kind": "cover",
       "section": "Inicio",
       "title": "EL GABINETE PROHIBIDO",
-      "body": "Arte, deseo y desnudo fotográfico · 1840–1900",
+      "body": "El cuerpo, la luz y el secreto · 1839–1900",
       "image": "mirror",
       "caption": "",
       "sub": "LA BELLEZA DE LO PROHIBIDO"
@@ -1986,7 +2440,7 @@
       "kind": "title",
       "section": "Preliminares · Portadilla",
       "title": "El gabinete prohibido",
-      "body": "Un recorrido por la sensualidad de los primeros desnudos fotográficos del siglo XIX.\n\nEdición y curaduría: Editorial Siglo23.",
+      "body": "EL CUERPO, LA LUZ Y EL SECRETO\n\nEl prodigio de la fotografía y las formas del pudor, 1839–1900.\n\nFotografías históricas de desnudo, seleccionadas y comentadas por Editorial Siglo23.",
       "image": null,
       "caption": "",
       "sub": "La belleza de lo prohibido"
@@ -1996,7 +2450,7 @@
       "kind": "credits",
       "section": "Preliminares",
       "title": "Ficha editorial",
-      "body": "EL GABINETE PROHIBIDO\nArte, deseo y desnudo fotográfico · 1840–1900\n\nEdición, selección y textos originales: Editorial Siglo23.\n\nFuentes fotográficas: colecciones museísticas abiertas de dominio público, citadas individualmente.\n\nEdición de lujo de gran formato en preparación. Buenos Aires · Siglo23.",
+      "body": "EL GABINETE PROHIBIDO\nEl cuerpo, la luz y el secreto · 1839–1900\n\nUna curaduría sobre la transformación estética del desnudo: arte, tecnología y pudor.\n\nEdición, selección y textos: Editorial Siglo23.\nFuentes de las fotografías: registros de museos y colecciones abiertas citados por obra.\nEdición física de lujo, en preparación. Buenos Aires.",
       "image": null,
       "caption": "",
       "sub": ""
@@ -2017,7 +2471,7 @@
       "kind": "contents",
       "section": "Preliminares",
       "title": "Índice",
-      "body": "Presentación · La belleza de lo prohibido|I. 1839–1849 · El primer estremecimiento|II. 1850–1852 · La intimidad inventada|III. 1851–1855 · El pretexto del arte|IV. 1856–1859 · El deseo en el estudio|V. 1860–1879 · El rostro y el secreto|VI. 1880–1900 · Más allá del ideal|VII. La frontera de lo permitido|VIII. La belleza que sobrevivió|Epílogo · Créditos de las obras",
+      "body": "Presentación · El cuerpo, la luz y el secreto|I. 1839–1849 · El asombro de lo real|II. 1850–1852 · El cuerpo entra en escena|III. 1851–1855 · La coartada de la belleza|IV. 1856–1859 · El velo y el espejo|V. 1860–1879 · El secreto se multiplica|VI. 1880–1900 · La intimidad sin alegoría|Coda I · ¿Quién tenía derecho a mirar?|Coda II · La belleza que sobrevivió|Epílogo · Fuentes y créditos",
       "image": null,
       "caption": "",
       "sub": ""
@@ -2026,8 +2480,8 @@
       "id": "nota",
       "kind": "essay",
       "section": "Introducción",
-      "title": "La belleza de lo prohibido",
-      "body": "La cámara apareció como un prodigio técnico y, casi de inmediato, se volvió también un instrumento de intimidad. En sus primeras décadas, fotógrafos y modelos construyeron imágenes de una precisión sorprendente: la piel adquiría volumen, las telas conservaban sus pliegues y un espejo bastaba para convertir un estudio en una escena privada.\n\nEstas fotografías se movieron en una zona cambiante entre la belleza reconocida del desnudo artístico, el interés erótico y las prohibiciones de su tiempo. Algunos productores las registraron como modelos para pintores; otras fueron adquiridas para la contemplación particular. No conviene imponer a todas una misma etiqueta: lo que resultaba tolerable en la pintura podía escandalizar cuando la cámara mostraba un cuerpo con apariencia de realidad.\n\nEste libro propone volver a mirar. Honrar a quienes hicieron posible esas imágenes significa prestar atención a la luz, a la pose, a la copia material y también a las personas retratadas, tantas veces anónimas. No reconstruiremos sus historias donde el archivo calla. Sí intentaremos devolverles presencia, lejos del tono sensacionalista que suele dominar las compilaciones de imágenes antiguas.\n\nLa curaduría es también un gesto de respeto. Cada fotografía se presenta una sola vez en el interior; las cubiertas y aperturas pueden evocarla por razones de diseño. El ritmo será el de una pequeña exposición privada, en papel, donde cada obra merece su espacio.",
+      "title": "El cuerpo, la luz y el secreto",
+      "body": "Cuando la fotografía comenzó a registrar el cuerpo humano, la desnudez tenía siglos de historia en la pintura, pero nunca había poseído exactamente esta apariencia de realidad. En una pequeña superficie de metal o papel, la piel, las telas, los gestos y las sombras adquirieron una presencia desconcertante. El nuevo medio parecía prometer fidelidad absoluta; sin embargo, cada imagen seguía exigiendo decisiones de quien fotografiaba y de quien posaba.\n\nEste libro recorre la transformación de esa estética entre 1839 y 1900. Primero el asombro de la placa única; después los interiores escenificados, la legitimidad de las academias, el velo y el espejo, la circulación de copias y la intimidad que llega hasta una habitación privada. Cada avance técnico plantea una pregunta visual; cada fotografía sugiere otra sobre los límites entre mostrarse, ser visto y permanecer reservado.\n\nEl pudor no desaparece en una línea recta. Cambian sus escenarios, los públicos y las maneras de interpretarlo. No podemos saber lo que sintió una persona anónima al posar; sí podemos estudiar los recursos visibles de la fotografía y el mundo que hizo posible su circulación.\n\nAnte todo, este es un libro para mirar despacio. Las fotografías son protagonistas. Los textos que las acompañan intentan ofrecer contexto, nunca domesticar su belleza ni atribuirles una historia que los archivos no sostienen.",
       "image": null,
       "caption": "",
       "sub": "Para una historia de los usos de la mirada",
@@ -2039,8 +2493,8 @@
       "id": "cronologia",
       "kind": "timeline",
       "section": "Introducción · Cronología",
-      "title": "Un siglo de deseo ante la cámara",
-      "body": "1839 — Presentación pública del procedimiento de daguerrotipo en Francia. Su promesa de fidelidad visual despierta entusiasmo científico, artístico y comercial.\n\nDécada de 1840 — La práctica del desnudo y los ensayos estereoscópicos muestran muy pronto que la nueva técnica puede servir tanto a la representación académica como a la observación íntima.\n\n1851 — Félix-Jacques Moulin es procesado por la producción y comercialización de imágenes consideradas obscenas. La acción de las autoridades confirma la dimensión jurídica del mercado de fotografías.\n\nDécada de 1850 — La difusión del colodión húmedo y de las copias sobre papel amplía las posibilidades de producción y circulación de las imágenes de estudio.\n\nSegunda mitad del siglo XIX — Aumentan los repertorios de retratos, estudios de modelo, vistas estereoscópicas y álbumes. Las fotografías pueden ser a la vez documentos de trabajo, objetos coleccionables o imágenes para consumo privado.\n\nEsta cronología se ofrece como hilo contextual, no como prueba de que cada pieza reunida haya sido ilegal.",
+      "title": "De la placa única a la intimidad privada",
+      "body": "1839 — Presentación pública del daguerrotipo. La nueva imagen conserva un detalle asombroso, pero cada placa es única.\n\nDécada de 1840 — Primeras experiencias de desnudo estereoscópico: el efecto de profundidad refuerza la contemplación individual.\n\n1850–1851 — Se perfeccionan la copia a la albúmina y el negativo al colodión húmedo; las imágenes sobre papel pueden multiplicarse.\n\n1853–1854 — Eugène Durieu fotografía modelos con el concurso de Delacroix: la academia pictórica se convierte en argumento para una técnica nueva.\n\n1855–1860 — Talleres como el de Belloc exploran la pose, la luz y el mobiliario. En 1860 las autoridades francesas incautan miles de sus fotografías.\n\n1860–1879 — La difusión de copias y estereoscopías modifica el público y el destino posible de una fotografía.\n\n1880–1890 — Placas secas y cámaras más accesibles abren nuevas prácticas y permiten miradas menos dependientes del estudio profesional.\n\n1888–1900 — Breitner fotografía a Marie Jordan en la esfera privada; otras búsquedas amplían el lenguaje del desnudo hacia lo cotidiano y lo pictórico.",
       "fact_date": "1839—1900",
       "factline": "De la placa singular al negativo reproducible y a los estudios del movimiento.",
       "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/timeline-of-the-daguerreotype-era/",
@@ -2050,24 +2504,24 @@
       "id": "cap1",
       "kind": "chapter",
       "section": "I · 1839–1849",
-      "title": "El primer estremecimiento",
-      "body": "La llegada de la cámara a la intimidad",
+      "title": "El asombro de lo real",
+      "body": "La invención promete fijar lo que antes parecía imposible: la presencia física. La imagen pequeña abre una mirada extraordinariamente cercana; la persona representada sigue envuelta en convenciones de pose y reserva.",
       "image": "stereo",
       "caption": "",
-      "sub": "Las primeras placas y el estereoscopio"
+      "sub": "1839–1849 · La placa única y el espectador privado"
     },
     {
       "id": "i_informe",
       "kind": "fact",
       "section": "I · 1839–1849",
-      "title": "El día que la fotografía se hizo pública",
-      "body": "La aparición del daguerrotipo en 1839 abrió una forma de representación que parecía registrar lo real sin la intermediación de la mano del pintor. Sin embargo, la placa no era una ventana natural: requería preparación, luz, una pose sostenida y un cuidadoso revelado. La superficie plateada devolvía su imagen de modo cambiante según el ángulo desde el que se observara.\n\nLa escala pequeña importa. Frente a una pintura expuesta al público, el daguerrotipo podía entrar en un estuche, un cajón o una colección íntima. Sus usos no eran necesariamente clandestinos, pero la técnica favorecía formas de contemplación personal. La historia de las imágenes eróticas tempranas debe examinarse en relación con ese soporte material.\n\nEn la década de 1840 se ensayaron dispositivos capaces de representar profundidad mediante pares de imágenes. Ese desarrollo introdujo otra experiencia: no bastaba con mirar, había que utilizar un aparato.",
+      "title": "La fotografía vuelve próximo lo imposible",
+      "body": "El daguerrotipo no era una ventana transparente. La placa, pulida y tratada químicamente, exigía luz y preparación. Se contemplaba de cerca y bajo un ángulo preciso: una imagen minúscula que podía parecer extraordinariamente viva. Cuando la mirada se aplicó al desnudo, los artistas heredaron las poses de la pintura pero obtuvieron algo nuevo: un registro preciso de una presencia humana.\n\nEn la primera estereoscopía, dos vistas ligeramente distintas producían la ilusión de profundidad. El Metropolitan Museum relaciona expresamente ese recurso con el carácter privado de la observación erótica: mirar por un visor era una experiencia individual. No se debe confundir ese efecto con el sentimiento de las modelos, que el registro no documenta.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "19.08.1839",
-      "factline": "La presentación del daguerrotipo en París abrió la posibilidad de poseer una imagen de extraordinario detalle.",
-      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
+      "fact_date": "1839",
+      "factline": "Una placa irrepetible promete fijar la realidad; el cuerpo aún debe inmovilizarse ante ella.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/282209"
     },
     {
       "id": "lam2",
@@ -2125,24 +2579,24 @@
       "id": "cap2",
       "kind": "chapter",
       "section": "II · 1850–1852",
-      "title": "La intimidad inventada",
-      "body": "Espejos, sombras y escenas que nunca fueron espontáneas",
+      "title": "El cuerpo entra en escena",
+      "body": "Espejos, muebles y alusiones mitológicas organizan una nueva experiencia visual. La aparente franqueza fotográfica es el resultado de un estudio cuidadosamente compuesto.",
       "image": "mirror",
       "caption": "",
-      "sub": "Objetos pequeños, escenas calculadas"
+      "sub": "1850–1852 · La intimidad como composición"
     },
     {
       "id": "ii_informe",
       "kind": "fact",
       "section": "II · 1850–1852",
-      "title": "Un objeto íntimo, un negocio incipiente",
-      "body": "Las fotografías tempranas de desnudo organizan un escenario minucioso. Un espejo agrega otro ángulo del cuerpo, una tela separa el estudio de cualquier habitación real y un mueble convierte una pose en supuesta escena privada. Nada exige pensar que el espectador asiste a un momento espontáneo.\n\nEl realismo fotográfico entra aquí en tensión con una puesta en escena intensamente artificial. La precisión de la cámara sirve para presentar una intimidad que el estudio ha construido. El interés de estos objetos no reside solo en lo que muestran, sino en cómo piden ser contemplados.\n\nEn la misma época, ciertos estudios de modelos podían justificarse por su utilidad académica. La dificultad histórica está en reconstruir qué parte del repertorio respondía a esas necesidades y qué parte se destinaba a compradores ajenos a los talleres.",
+      "title": "El cuerpo entra en el taller",
+      "body": "A comienzos de la década de 1850, el desnudo fotográfico suele necesitar un entorno: espejo, sofá, columna, almohadones, cortinas. El taller toma recursos de la pintura y los transforma en escenarios íntimos. La inmovilidad que exige la exposición favorece gestos sostenidos; la pose natural es con frecuencia una pequeña construcción.\n\nLa llegada de nuevos soportes y de negativos de vidrio comienza a separar la toma original de la copia. Es una revolución silenciosa: una imagen que antes podía ser única tendrá potencialmente varios destinatarios. A medida que cambia la reproducción, también se vuelve más compleja la pregunta por quién mira y en qué circunstancias.",
       "image": null,
       "caption": "",
       "sub": "",
       "fact_date": "1850",
-      "factline": "En Nueva York ya existían más de setenta estudios de daguerrotipos. El retrato se convirtió en una actividad comercial masiva.",
-      "source_url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
+      "factline": "La cámara parece descubrir un instante, pero la escena está cuidadosamente dispuesta.",
+      "source_url": "https://www.metmuseum.org/es/essays/the-daguerreian-era-and-early-american-photography-on-paper-1839-1860"
     },
     {
       "id": "lam1",
@@ -2201,15 +2655,16 @@
       "id": "nueva_lamina_met_squat",
       "kind": "image",
       "section": "II · 1850–1852",
-      "title": "Fotógrafo: -Nude Man Squatting on Chair- MET DP700272",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El cuerpo masculino y la pose",
+      "body": "El cuerpo masculino permite ampliar la comparación más allá de las poses femeninas. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
       "caption": "Fotógrafo francés no identificado · década de 1850 · The Metropolitan Museum of Art · MET DP700272",
       "sub": "",
       "image": "met_squat",
       "source_url": "https://commons.wikimedia.org/wiki/File:-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_anal_danae",
@@ -2229,29 +2684,31 @@
       "id": "nueva_lamina_olivier_hammock",
       "kind": "image",
       "section": "II · 1850–1852",
-      "title": "Louis-Camille: Dolivier nude in hammock",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El descanso representado",
+      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_hammock",
       "source_url": "https://commons.wikimedia.org/wiki/File:Dolivier_nude_in_hammock.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_olivier_column",
       "kind": "image",
       "section": "II · 1850–1852",
-      "title": "Louis-Camille: Dolivier nude woman column",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La columna y el cuerpo",
+      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_column",
       "source_url": "https://commons.wikimedia.org/wiki/File:Dolivier_nude_woman_column.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_crit1",
@@ -2271,29 +2728,31 @@
       "id": "nueva_lamina_olivier_three",
       "kind": "image",
       "section": "II · 1850–1852",
-      "title": "Louis-Camille: Dolivier three nude women",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Tres figuras, una composición",
+      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_three",
       "source_url": "https://commons.wikimedia.org/wiki/File:Dolivier_three_nude_women.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_olivier_bed",
       "kind": "image",
       "section": "II · 1850–1852",
-      "title": "Louis-Camille: Dolivier woman at bed",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La escena junto a la cama",
+      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
       "caption": "Louis-Camille d’Olivier · ca. 1850–1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_bed",
       "source_url": "https://commons.wikimedia.org/wiki/File:Dolivier_woman_at_bed.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "auto_recto_cap3",
@@ -2310,24 +2769,24 @@
       "id": "cap3",
       "kind": "chapter",
       "section": "III · 1851–1855",
-      "title": "El pretexto del arte",
-      "body": "La sensualidad protegida por el lenguaje de la pintura",
+      "title": "La coartada de la belleza",
+      "body": "El prestigio de la academia ofrece un idioma legítimo para la desnudez. La cámara descubre otras posibilidades en el dibujo de la luz, la textura de la piel y la pose sostenida.",
       "image": "vallou_reclining_1851",
       "caption": "",
-      "sub": "Papel salado, repertorios y legitimidad"
+      "sub": "1851–1855 · Pintura, academia y fotografía"
     },
     {
       "id": "iii_informe",
       "kind": "fact",
       "section": "III · 1851–1855",
-      "title": "La palabra que permitía vender desnudos",
-      "body": "«Academia» designaba el estudio de una figura para la formación de artistas. Esa utilidad otorgaba cierta legitimidad a fotografías que, sin esa justificación, podían ser mal vistas por las autoridades. Julien Vallou de Villeneuve registró y comercializó estudios de desnudo en la década de 1850; el Metropolitan Museum documenta ese contexto y las conexiones de sus poses con la pintura de Courbet.\n\nLa categoría, sin embargo, no resuelve la historia del consumo. Una fotografía podía pasar del estudio del pintor a un álbum privado. La circulación vuelve porosas las categorías: arte, documentación y erotismo no eran compartimentos estancos.\n\nEl paso a una copia sobre papel introdujo además una economía distinta. El negativo hacía posible multiplicar las estampas; la venta ya no dependía de una placa irrepetible. La reproducción empieza a estructurar una industria de pequeños objetos visuales.",
+      "title": "¿El arte como salvoconducto?",
+      "body": "Los estudios de Eugène Durieu, realizados en 1853–1854 con la colaboración de Eugène Delacroix, muestran la convivencia entre dos lenguajes. La pose y el drapeado remiten al arte reconocido; la fotografía aporta una precisión luminosa y una presencia corporal particular.\n\nEl Met advierte que la herencia de la escultura clásica y de los grandes maestros podía proteger al fotógrafo del censor y al espectador del reproche social. No implica que cada estudio académico ocultara una intención clandestina. Lo que sí resulta visible es una negociación estética: ante una tecnología demasiado realista, el prestigio de la pintura ofrecía una forma de mirar.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "1851–1855",
-      "factline": "Vallou registraba sus fotografías como modelos para artistas. El decorado era parte de esa legitimación.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
+      "fact_date": "1853",
+      "factline": "La referencia a la academia legitima la pose, pero no agota la sensualidad de la imagen.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286255"
     },
     {
       "id": "lam_vallou_1851",
@@ -2466,15 +2925,16 @@
       "id": "nueva_lamina_braque_recline",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Atribuido: Bruno Braquehais (attr) Reclining female nude 1850s",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La curva de la figura recostada",
+      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
       "caption": "Atribuido a Bruno Braquehais · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_recline",
       "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_anal_standing_1853",
@@ -2494,29 +2954,31 @@
       "id": "nueva_lamina_vallou_9",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Julien: Julien vallou de villeneuve 9",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Una variación de la academia",
+      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853 · Wikimedia Commons, colección Vallou",
       "sub": "",
       "image": "vallou_9",
       "source_url": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_9.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_vallou_2",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Julien: Julien vallou de villeneuve 2",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El taller como lenguaje",
+      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853 · Wikimedia Commons, colección Vallou",
       "sub": "",
       "image": "vallou_2",
       "source_url": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_2.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_crit4",
@@ -2536,29 +2998,31 @@
       "id": "nueva_lamina_braque_veil",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Bruno: Bruno-Auguste Braquehais - Seated Female Nude with Veil",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El velo como frontera",
+      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
       "caption": "Bruno Braquehais · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_veil",
       "source_url": "https://commons.wikimedia.org/wiki/File:Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_durieu_1",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Eugène: Durieu 1",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El contorno de Durieu · I",
+      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_1",
       "source_url": "https://commons.wikimedia.org/wiki/File:Durieu_1.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_anal_vallou_1851",
@@ -2578,29 +3042,31 @@
       "id": "nueva_lamina_durieu_4",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Eugène: Durieu 4",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El contorno de Durieu · II",
+      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_4",
       "source_url": "https://commons.wikimedia.org/wiki/File:Durieu_4.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_durieu_5",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Eugène: Durieu 5",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El contorno de Durieu · III",
+      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
       "caption": "Eugène Durieu · 1853–1855 · Wikimedia Commons, colección Durieu",
       "sub": "",
       "image": "durieu_5",
       "source_url": "https://commons.wikimedia.org/wiki/File:Durieu_5.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "iii_delacroix",
@@ -2619,29 +3085,31 @@
       "id": "nueva_lamina_durieu_dutch",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Eugène: Vrouwelijk naakt, RP-F-2015-34",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Un desnudo en el archivo neerlandés",
+      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
       "caption": "Eugène Durieu · ca. 1853–1855 · Rijksmuseum · RP-F-2015-34",
       "sub": "",
       "image": "durieu_dutch",
       "source_url": "https://commons.wikimedia.org/wiki/File:Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_vallou_academic",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Julien: Academic Nude Study (2008.13.25)",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La academia como modelo",
+      "body": "La pose es también una forma de dibujar con luz. Aquí importa repertorio del modelo; preguntémonos por la figura entre el estudio y el deseo de contemplación.",
       "caption": "Julien Vallou de Villeneuve · ca. 1853–1855 · Wikimedia Commons · 2008.13.25",
       "sub": "",
       "image": "vallou_academic",
       "source_url": "https://commons.wikimedia.org/wiki/File:Academic_Nude_Study_(2008.13.25).jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "lam_asser_stereo_1855",
@@ -2671,85 +3139,91 @@
       "id": "nueva_lamina_olivier_009",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Louis-Camille: 009- Louis Camille d‘Olivier,c.1855",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Un ensayo de intimidad",
+      "body": "La escenografía heredada de la pintura todavía organiza la imagen. Aquí importa escena de estudio; preguntémonos por la intimidad construida como ficción visual.",
       "caption": "Louis-Camille d’Olivier · ca. 1855 · Wikimedia Commons, colección de autor",
       "sub": "",
       "image": "olivier_009",
       "source_url": "https://commons.wikimedia.org/wiki/File:009-_Louis_Camille_d%E2%80%98Olivier%2Cc.1855.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_braque_basket",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Bruno: Femme au panier",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El motivo del cesto",
+      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
       "caption": "Bruno y Laure Braquehais (atribución a investigar) · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "braque_basket",
       "source_url": "https://commons.wikimedia.org/wiki/File:Femme_au_panier.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_braque_dutch",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Bruno: Portret van een onbekende naakte vrouw, RP-F-F14358-A",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Una identidad que falta",
+      "body": "El desnudo de estudio puede oscilar entre academia y sensualidad. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
       "caption": "Bruno Braquehais (atribución de Commons) · década de 1850 · Rijksmuseum · RP-F-F14358-A",
       "sub": "",
       "image": "braque_dutch",
       "source_url": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_dutch_tambourine",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Fotógrafo: Portret van een onbekende halfnaakte vrouw met tamboerijn, RP-F-F14356-A",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El instrumento y la escena",
+      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa tela, pose y encuadre; preguntémonos por la pose artística como lenguaje social.",
       "caption": "Fotógrafo no identificado · década de 1850 · Rijksmuseum · RP-F-F14356-A",
       "sub": "",
       "image": "dutch_tambourine",
       "source_url": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_belloc_stereo",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Auguste: Auguste Belloc daguerreotype stereo",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La intimidad en profundidad",
+      "body": "La composición no es un registro neutro. Aquí importa visión íntima; preguntémonos por un espectador a solas con el dispositivo.",
       "caption": "Auguste Belloc · década de 1850 · Wikimedia Commons",
       "sub": "",
       "image": "belloc_stereo",
       "source_url": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_daguerreotype_stereo.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_durieu_012",
       "kind": "image",
       "section": "III · 1851–1855",
-      "title": "Eugène: 012- Eugène Durieu, c. 1855",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Un gesto del estudio",
+      "body": "Esta variante invita a comparar un mismo lenguaje de estudio bajo distintas poses. Aquí importa academia y contorno pictórico; preguntémonos por la legitimidad del arte como forma de exposición.",
       "caption": "Eugène Durieu · ca. 1855 · Wikimedia Commons",
       "sub": "",
       "image": "durieu_012",
       "source_url": "https://commons.wikimedia.org/wiki/File:012-_Eug%C3%A8ne_Durieu%2C_c._1855.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "auto_recto_cap4",
@@ -2766,24 +3240,24 @@
       "id": "cap4",
       "kind": "chapter",
       "section": "IV · 1856–1859",
-      "title": "El deseo en el estudio",
-      "body": "La composición y sus coartadas",
+      "title": "El velo y el espejo",
+      "body": "Las telas, los reflejos y el interior del taller organizan lo visible. La belleza nace también de aquello que el encuadre promete y se reserva.",
       "image": "braquehais_mirror_1857",
       "caption": "",
-      "sub": "Telas, espejos y una modernidad incómoda"
+      "sub": "1856–1859 · Mostrar y sugerir"
     },
     {
       "id": "iv_informe",
       "kind": "fact",
       "section": "IV · 1856–1859",
-      "title": "Cuando el taller dejó de disfrazarse",
-      "body": "Al avanzar la década de 1850, algunas fotografías reducen el aparato de alusiones mitológicas que había permitido encuadrar el desnudo como «arte». El decorado del taller sigue siendo visible, pero el modelo adquiere una presencia menos idealizada.\n\nFranck-François-Genès Chauvassaignes presenta, en una obra fechada entre 1856 y 1859, un desnudo sin demasiada mediación narrativa. El Met lo relaciona con las transformaciones modernas de la pintura del cuerpo, que poco después provocarían grandes debates públicos.\n\nLa fotografía no elimina la escenografía; desplaza su función. Una cortina puede operar como fondo, no como alegoría. Un espejo sigue multiplicando miradas, pero la composición pone en evidencia la producción misma de la escena.",
+      "title": "La delicadeza de revelar y ocultar",
+      "body": "En la segunda mitad de los años cincuenta, el estudio domina mejor la luz, el espacio y la copia fotográfica. El velo filtra la percepción del cuerpo; el espejo duplica la mirada y convierte al observador en parte de una escena visual. La fotografía conserva la apariencia de registro fiel, pero cada uno de esos elementos demuestra que la imagen fue inventada por medio de una composición.\n\nEl pudor no equivale siempre al vestido ni el desnudo a su desaparición. Una figura de espaldas, un reflejo o un gesto pueden reservar algo mientras enseñan otra cosa. Se trata de recursos visuales que podemos comparar, sin afirmar que conocemos las emociones de quienes posaron.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "1856–1859",
-      "factline": "El realismo y la ausencia de alegorías transformaron el desnudo fotográfico.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/282602"
+      "fact_date": "1856",
+      "factline": "La tela y el espejo pueden construir sensualidad sin necesidad de una alegoría.",
+      "source_url": "https://www.metmuseum.org/art/collection/search/286255"
     },
     {
       "id": "lam_chauva",
@@ -2869,24 +3343,24 @@
       "id": "cap_1870",
       "kind": "chapter",
       "section": "V · 1860–1879",
-      "title": "El rostro y el secreto",
-      "body": "La identidad, la máscara y los velos",
+      "title": "El secreto se multiplica",
+      "body": "La reproducción altera el destino de las imágenes. Lo privado puede circular, el rostro puede volverse un riesgo y el sentido del desnudo cambia según quién lo mire.",
       "image": "mask_1870",
       "caption": "",
-      "sub": "1860–1879"
+      "sub": "1860–1879 · La copia, el rostro y el mercado"
     },
     {
       "id": "hist_1860_1879",
       "kind": "fact",
       "section": "V · 1860–1879",
-      "title": "Del negativo al mercado de copias",
-      "body": "Durante la segunda mitad del siglo XIX, el retrato sobre papel se hizo más habitual y los álbumes ocuparon un lugar estable en la vida doméstica. La copia de albúmina, producida a partir de un negativo, permitía series y distribución de imágenes a una escala que las primeras placas singulares no habían ofrecido.\n\nEl comercio de vistas y retratos se apoyó en talleres, impresores, intermediarios y coleccionistas. El desnudo circulaba en un territorio ambiguo: podía registrarse como ejercicio artístico, servirse de decorados clásicos o destinarse a compradores interesados en la intimidad representada.\n\nPara leer estas fotografías no basta identificar una postura. La huella de la circulación comercial está también en el tipo de copia, las marcas de estudio, las impresiones seriadas y los accesorios utilizados para componer una escena. En muchos casos no se conserva el recorrido original de la imagen; por eso la investigación debe distinguir el medio técnico de las hipótesis sobre clientes y censores.",
+      "title": "El secreto aprende a circular",
+      "body": "El negativo, el papel a la albúmina y los talleres especializados ampliaron la circulación de fotografías durante las décadas de 1860 y 1870. Mientras los repertorios artísticos seguían utilizando drapeados y poses consagradas, la reproducción hacía posible que una misma composición llegara a distintas manos.\n\nLa imagen no se volvió automáticamente pública: álbumes, estereoscopios, pequeños formatos y colecciones particulares ofrecieron circuitos diversos. Pero su sentido podía cambiar con el destinatario. El rostro y la máscara, la pose frontal y la escena de taller deben leerse a la luz de esta incertidumbre: no sabemos quién vio cada copia, pero conocemos la capacidad nueva de reproducirla.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "1860–1879",
-      "factline": "Papel, álbum y comercio hicieron de la imagen un objeto intercambiable.",
-      "source_url": "https://www.loc.gov/classroom-materials/civil-war-photographs-new-technologies-and-new-uses/"
+      "fact_date": "1860",
+      "factline": "La posibilidad de multiplicar las copias transforma una relación privada en una cuestión social.",
+      "source_url": "https://www.metmuseum.org/es/essays/the-industrialization-of-french-photography-after-1860"
     },
     {
       "id": "p_nadar_1860",
@@ -2918,11 +3392,11 @@
       "id": "contexto_lujo_06",
       "kind": "fact",
       "section": "V · 1860–1879",
-      "title": "Una biografía dentro del encuadre",
-      "body": "Cuando conocemos el nombre de una persona que posó, la imagen cambia de significado. Marie-Christine Leroux, que trabajó para Nadar, es una excepción valiosa en un archivo dominado por atribuciones fotográficas. La biografía no reemplaza la composición, pero recuerda que detrás del desnudo idealizado existía una persona con relaciones y experiencias que podían trascender la sesión de estudio.",
+      "title": "Un nombre cambia la lectura",
+      "body": "La mayor parte de los desnudos tempranos conserva la firma de un fotógrafo, pero no el nombre de quien posó. Esa asimetría condiciona la historia que podemos contar. Ante un retrato sin nombre, la pose no basta para reconstruir la vida, la profesión o el consentimiento del modelo. En cambio, un conjunto como el de Breitner y Marie Jordan permite reconocer una identidad y un contexto íntimo documentados. La diferencia invita a mirar con atención también los silencios del archivo.",
       "fact_date": "1861",
       "factline": "La fotografía de desnudo combina arte, cuerpo, técnica y biografía; cada copia conserva una historia parcial.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/266459",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude--eabaae6c96fff5a1e9ce050a7b9a39db",
       "image": null,
       "images": [],
       "sub": "",
@@ -2932,29 +3406,31 @@
       "id": "nueva_lamina_marconi_back",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Gaudenzio: Marconi, Gaudenzio (1841-1885) - n. 0035 - Mannelijk academisch naakt, op de rug gezien, RP-F-1996-258",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El desnudo masculino de espaldas",
+      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Rijksmuseum · RP-F-1996-258",
       "sub": "",
       "image": "marconi_back",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_marconi_seated",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Gaudenzio: Marconi, Gaudenzio (1841-1885) - n. 0354 - Studie van een mannelijk naaktmodel, zittend met het hoofd in de knieën, van opzij gezien, RP-F-2001-4-39",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Una postura replegada",
+      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Rijksmuseum · RP-F-2001-4-39",
       "sub": "",
       "image": "marconi_seated",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_lujo_05",
@@ -2974,15 +3450,16 @@
       "id": "nueva_lamina_marconi_stage",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Gaudenzio: Marconi, Gaudenzio, Female nude with pictorial backdrop 1870-1879",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El decorado todavía habla",
+      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
       "caption": "Gaudenzio Marconi · 1870–1879 · Wikimedia Commons",
       "sub": "",
       "image": "marconi_stage",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio%2C_Female_nude_with_pictorial_backdrop_1870-1879.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "pl_hat1870",
@@ -3028,15 +3505,16 @@
       "id": "nueva_lamina_marconi_violin",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Gaudenzio: Marconi Gaudenzio - Nudo accademico femminile con violino",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La música como atributo",
+      "body": "La tradición académica continúa, ahora en repertorios de la segunda mitad del siglo XIX. Aquí importa academia en expansión; preguntémonos por la identidad y el gesto bajo una pose sostenida.",
       "caption": "Gaudenzio Marconi · ca. 1870–1880 · Wikimedia Commons",
       "sub": "",
       "image": "marconi_violin",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_lujo_03",
@@ -3056,29 +3534,31 @@
       "id": "nueva_lamina_rijks_glass_carpet",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Fotógrafo: Naakte vrouw op vloerkleed, RP-F-F08306",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La alfombra y el interior",
+      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
       "caption": "Fotógrafo no identificado · 1856–1890 · Rijksmuseum · RP-F-F08306",
       "sub": "",
       "image": "rijks_glass_carpet",
       "source_url": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_rijks_glass_mirror",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Fotógrafo: Halfnaakte vrouw met spiegel in de hand, RP-F-F08311",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El espejo en la mano",
+      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa reflejo y mirada; preguntémonos por el espejo media entre cuerpo y espectador.",
       "caption": "Fotógrafo no identificado · 1856–1890 (verificar) · Rijksmuseum · RP-F-F08311",
       "sub": "",
       "image": "rijks_glass_mirror",
       "source_url": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_an_hat1870",
@@ -3098,15 +3578,16 @@
       "id": "nueva_lamina_rijks_glass_room",
       "kind": "image",
       "section": "V · 1860–1879",
-      "title": "Fotógrafo: Halfnaakte vrouw in interieur, RP-F-F08307",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El interior como escenario",
+      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
       "caption": "Fotógrafo no identificado · 1856–1890 (verificar) · Rijksmuseum · RP-F-F08307",
       "sub": "",
       "image": "rijks_glass_room",
       "source_url": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_an_mask1870",
@@ -3139,24 +3620,24 @@
       "id": "cap_1880",
       "kind": "chapter",
       "section": "VI · 1880–1900",
-      "title": "Más allá del ideal",
-      "body": "El cuerpo como presencia y expresión",
+      "title": "La intimidad sin alegoría",
+      "body": "La nueva libertad de los formatos y de las cámaras transforma la pose. La fotografía se acerca a la habitación y al cuerpo concreto, sin renunciar a la puesta en escena.",
       "image": "eakins_pipes_1880",
       "caption": "",
-      "sub": "1880–1900"
+      "sub": "1880–1900 · Del estudio al ámbito cotidiano"
     },
     {
       "id": "hist_1880_1900",
       "kind": "fact",
       "section": "VI · 1880–1900",
-      "title": "La controversia del cuerpo verdadero",
-      "body": "En las dos últimas décadas del siglo XIX, la fotografía participó cada vez más en el estudio sistemático del cuerpo. Las imágenes podían servir a la enseñanza artística, a la investigación del movimiento y a los experimentos de nuevas sensibilidades visuales. No todo desnudo fotográfico era un producto erótico, y esa distinción es crucial.\n\nThomas Eakins incorporó la fotografía a la formación de artistas en Filadelfia. La práctica del modelo desnudo generó resistencias institucionales, especialmente por la presencia de mujeres en las clases; su carrera estuvo marcada por el conflicto entre observación anatómica y decoro social.\n\nEadweard Muybridge llevó la idea de registro aún más lejos. Sus secuencias fotográficas fraccionaron el movimiento en instantes, transformando el cuerpo de un objeto estático de contemplación en un fenómeno que podía analizarse. Esas series circularon mediante grandes láminas impresas y libros. El gabinete íntimo y el laboratorio se cruzan, pero no son lo mismo.",
+      "title": "De la academia al momento doméstico",
+      "body": "Las placas secas y la extensión de cámaras más manejables hicieron posible otro ritmo fotográfico al final del siglo XIX. La estética no evolucionó de una sola forma: convivieron el estudio teatral, las composiciones pictóricas y las imágenes que parecen surgir de la vida privada.\n\nUn caso singular es el de George Hendrik Breitner y Marie Jordan. El Rijksmuseum conserva pequeñas fotografías de desnudo realizadas hacia 1889; señala que pertenecieron al ámbito personal de Jordan y permanecieron privadas. Su importancia es doble: nos muestran una relación nueva entre la cámara y el interior doméstico y, de manera excepcional, conservan el nombre de una persona retratada. No son la prueba de que todas las imágenes de fin de siglo fueran espontáneas.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "1886",
-      "factline": "Las tensiones entre desnudo y decoro no desaparecieron al avanzar el siglo: también alcanzaron a quienes lo defendían como materia artística.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/271886"
+      "fact_date": "1888",
+      "factline": "El cuerpo deja de requerir siempre una diosa, un decorado o un fotógrafo profesional.",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Marie-Jordan-Nude--eabaae6c96fff5a1e9ce050a7b9a39db"
     },
     {
       "id": "pl_eakins_pipes",
@@ -3175,15 +3656,16 @@
       "id": "nueva_lamina_rijks_sofa_book",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Fotógrafo: Naakte vrouw zittend op een sofa met een boek, RP-F-F10458",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "El libro en el sofá",
+      "body": "El título del archivo señala un elemento de la escena, pero no agota su significado. Aquí importa pose y encuadre; preguntémonos por la tensión entre exposición y reserva.",
       "caption": "Fotógrafo no identificado · siglo XIX (verificar fecha) · Rijksmuseum · RP-F-F10458",
       "sub": "",
       "image": "rijks_sofa_book",
       "source_url": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_lujo_08",
@@ -3203,29 +3685,31 @@
       "id": "nueva_lamina_breitner_jordan_6",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "George: Marie Jordan naakt liggend op een bed, RP-F-BR-1999-6",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Marie Jordan · en la cama I",
+      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
       "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-6",
       "sub": "",
       "image": "breitner_jordan_6",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_breitner_jordan_7",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "George: Marie Jordan naakt liggend op een bed, RP-F-BR-1999-7",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Marie Jordan · en la cama II",
+      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
       "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-7",
       "sub": "",
       "image": "breitner_jordan_7",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_lujo_07",
@@ -3245,29 +3729,31 @@
       "id": "nueva_lamina_breitner_jordan_1",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "George: Marie Jordan naakt op de rug gezien, RP-F-BR-1999-1",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Marie Jordan · de espaldas I",
+      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
       "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-1",
       "sub": "",
       "image": "breitner_jordan_1",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_breitner_jordan_2",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "George: Marie Jordan naakt op de rug gezien, RP-F-BR-1999-2",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Marie Jordan · de espaldas II",
+      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
       "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-2",
       "sub": "",
       "image": "breitner_jordan_2",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "contexto_recuperado_an_eakins_pipes",
@@ -3287,29 +3773,31 @@
       "id": "nueva_lamina_breitner_jordan_3",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "George: Marie Jordan naakt op de rug gezien, RP-F-BR-1999-3",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Marie Jordan · de espaldas III",
+      "body": "Esta pieza pertenece a la secuencia de Marie Jordan, conservada en el ámbito privado según el Rijksmuseum. Aquí importa intimidad doméstica; preguntémonos por el límite entre lo privado y lo que hoy se expone.",
       "caption": "George Hendrik Breitner · ca. 1888 · Rijksmuseum · RP-F-BR-1999-3",
       "sub": "",
       "image": "breitner_jordan_3",
       "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_sambourne_kate",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Edward: Kate Manning by Edward Linley Sambourne (1888) - 1",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Kate Manning ante la cámara",
+      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
       "caption": "Edward Linley Sambourne · 1888 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_kate",
       "source_url": "https://commons.wikimedia.org/wiki/File:Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "balance_fin_siecle",
@@ -3341,169 +3829,181 @@
       "id": "nueva_lamina_canellas_mirror",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Josep: Nude before a mirror ca. 1890",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Cañellas · ante el espejo",
+      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_mirror",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nude_before_a_mirror_ca._1890.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_canellas_bench",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Josep: Nude seated atop bamboo bench Albumen print, ca. 1890",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Cañellas · el banco de bambú",
+      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_bench",
       "source_url": "https://commons.wikimedia.org/wiki/File:Nude_seated_atop_bamboo_bench_Albumen_print%2C_ca._1890.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_canellas_rock",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Josep: Untitled, Nude standing by garden rocks Albumen print, ca. 1890",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Cañellas · entre las rocas",
+      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_rock",
       "source_url": "https://commons.wikimedia.org/wiki/File:Untitled%2C_Nude_standing_by_garden_rocks_Albumen_print%2C_ca._1890.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_canellas_gate",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Josep: Untitled, Nude standing by an iron gate Albumen print, ca. 1890",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Cañellas · junto a la verja",
+      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_gate",
       "source_url": "https://commons.wikimedia.org/wiki/File:Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_canellas_moorish",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Josep: Untitled, Nude before Moorish backdrop Albumen print, ca. 1890",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Cañellas · el fondo orientalizante",
+      "body": "Cañellas ofrece otro modo de pensar la composición del fin de siglo. Aquí importa escenario de fin de siglo; preguntémonos por lo que la decoración revela o esconde.",
       "caption": "Josep Maria Cañellas · ca. 1890 · Wikimedia Commons",
       "sub": "",
       "image": "canellas_moorish",
       "source_url": "https://commons.wikimedia.org/wiki/File:Untitled%2C_Nude_before_Moorish_backdrop_Albumen_print%2C_ca._1890.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_sambourne_pettigrew_4b",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Edward: Hetty and Lily Pettigrew by Edward Linley Sambourne (1891) - 4b",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Las hermanas Pettigrew · I",
+      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_pettigrew_4b",
       "source_url": "https://commons.wikimedia.org/wiki/File:Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_sambourne_pettigrew_5",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Edward: Hetty and Lily Pettigrew by Edward Linley Sambourne (1891) - 5",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Las hermanas Pettigrew · II",
+      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_pettigrew_5",
       "source_url": "https://commons.wikimedia.org/wiki/File:Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_5.jpg",
       "factual_note": true,
       "print_warning": "SOLO PRUEBA: insuficiente para ampliación 27×34 cm; obtener mejor original",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_sambourne_maude_1",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Edward: Maude Easton by Edward Linley Sambourne (1891) - 1",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Maude Easton · I",
+      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_maude_1",
       "source_url": "https://commons.wikimedia.org/wiki/File:Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_sambourne_maude_costume",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Edward: Maude Easton in Folly Costume by Edward Linley Sambourne (1891)",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Maude Easton · disfraz y pose",
+      "body": "La ficha conserva nombres propios, una excepción valiosa en el desnudo decimonónico. Aquí importa retrato y pose; preguntémonos por la persona nombrada frente a la mirada de terceros.",
       "caption": "Edward Linley Sambourne · 1891 · Wikimedia Commons",
       "sub": "",
       "image": "sambourne_maude_costume",
       "source_url": "https://commons.wikimedia.org/wiki/File:Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_frank_eugene_hortensia",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Frank: Frank Eugene - Hortensia, 1898",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Hortensia · el tratamiento de la luz",
+      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
       "caption": "Frank Eugene · 1898 · Wikimedia Commons",
       "sub": "",
       "image": "frank_eugene_hortensia",
       "source_url": "https://commons.wikimedia.org/wiki/File:Frank_Eugene_-_Hortensia%2C_1898.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_frank_eugene_adam",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Frank: Adam and Eve MET DP263573",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "Adán y Eva · una alegoría moderna",
+      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
       "caption": "Frank Eugene · 1898–1900 (verificar) · The Metropolitan Museum of Art · MET DP263573",
       "sub": "",
       "image": "frank_eugene_adam",
       "source_url": "https://commons.wikimedia.org/wiki/File:Adam_and_Eve_MET_DP263573.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "nueva_lamina_frank_eugene_cloud",
       "kind": "image",
       "section": "VI · 1880–1900",
-      "title": "Frank: The Great White Cloud MET DP275752",
-      "body": "Registro de la tradición de desnudo artístico fotográfico del siglo XIX; el encuadre, la pose y la luz permiten estudiar el lenguaje visual de la época. Procedencia, fecha y técnica de la obra deben cotejarse con su ficha antes de impresión.",
+      "title": "La gran nube blanca",
+      "body": "El cambio de siglo abre nuevas relaciones entre el registro fotográfico y la interpretación artística. Aquí importa interpretación pictórica del cuerpo; preguntémonos por el cuerpo como imagen artística antes que documento directo.",
       "caption": "Frank Eugene · ca. 1898–1900 (verificar) · The Metropolitan Museum of Art · MET DP275752",
       "sub": "",
       "image": "frank_eugene_cloud",
       "source_url": "https://commons.wikimedia.org/wiki/File:The_Great_White_Cloud_MET_DP275752.jpg",
       "factual_note": true,
       "print_warning": "Resolver calidad real del original, sangrado e impresión antes de cerrar PDF",
-      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta"
+      "editorial_review": "fotografía documental en estudio, no aprobada para imprenta",
+      "curatorial_note": "Lectura visual de trabajo; revisar descripción con imagen original."
     },
     {
       "id": "auto_recto_cap5",
@@ -3519,12 +4019,12 @@
     {
       "id": "cap5",
       "kind": "chapter",
-      "section": "VII · Circulación y censura",
-      "title": "La frontera de lo permitido",
-      "body": "Arte, compradores y autoridades",
+      "section": "VII · Coda: circulación y censura",
+      "title": "¿Quién tenía derecho a mirar?",
+      "body": "No hay una frontera inmóvil entre lo artístico y lo obsceno: importan la copia, el comprador, el lugar, el lenguaje de la época y las decisiones de las autoridades.",
       "image": "hat_1870",
       "caption": "",
-      "sub": "Un informe sobre circuitos, no una colección de rumores"
+      "sub": "Coda I · Circulación, pudor y censura (1850–1900)"
     },
     {
       "id": "v_moulin_historico",
@@ -3556,21 +4056,21 @@
       "id": "v_dossier",
       "kind": "fact",
       "section": "VII · 1850–1900",
-      "title": "Lo bello, lo erótico y lo obsceno",
-      "body": "Cuando observamos las fotografías del siglo XIX desde el presente, corremos el riesgo de aplicar categorías actuales a prácticas que se organizaban con otros vocabularios. La noción moderna de obscenidad se construyó también mediante leyes, procesos, registros comerciales y disputas sobre el arte.\n\nUna colección responsable puede incluir fotografía erótica y estudios académicos, pero debe explicar qué documentación sustenta cada caracterización. El desnudo no implica automáticamente producción clandestina, y el registro legal como «modelo para artistas» no prueba por sí mismo que todos sus usos fueran pedagógicos.\n\nEn lugar de una clasificación rígida, proponemos anotar en cada ficha la técnica, la cronología, el contexto registrado, la procedencia y el grado de certeza de las interpretaciones.",
+      "title": "Una frontera decidida por otros",
+      "body": "La frontera entre lo permitido y lo prohibido no estaba escrita únicamente sobre la piel. Dependía de quién producía la fotografía, bajo qué nombre la vendía, dónde podía verse y cómo intervenían las autoridades. El Nelson-Atkins Museum documenta la incautación en 1860 de unas 5.000 fotografías de Auguste Belloc declaradas obscenas por el gobierno francés. Sus desnudos se conservan hoy como piezas de notable elaboración formal.\n\nLa comparación no resuelve el problema; lo hace más interesante. El lenguaje de «estudio para artistas» podía legitimar una pose, pero un mismo soporte podía circular también como objeto de deseo. El libro no llama pornográficas a todas estas imágenes ni proyecta sobre ellas nuestras categorías actuales.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "SIGLO XIX",
-      "factline": "Las categorías actuales no describen necesariamente los usos originales de cada objeto.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/283114"
+      "fact_date": "1850–1900",
+      "factline": "La misma desnudez podía leerse como arte, como mercancía o como obscenidad.",
+      "source_url": "https://art.nelson-atkins.org/objects/57873/two-female-nudes"
     },
     {
       "id": "contexto_lujo_10",
       "kind": "fact",
-      "section": "VIII · Memoria y archivo",
-      "title": "Lo que significa restaurar",
-      "body": "En una fotografía histórica, una mancha puede ser una huella de deterioro o una característica de su procedimiento. La restauración digital debe distinguir ambas cosas: recuperar legibilidad no es fabricar una imagen que nunca existió. La edición de lujo intentará conservar la estructura tonal, los bordes y las marcas del soporte cuando contribuyan a comprender la obra. Un negro demasiado uniforme o un falso sepia podrían traicionar el original.",
+      "section": "VII · Circulación y censura",
+      "title": "Una imagen cambia de destino",
+      "body": "La primera circulación de una fotografía no siempre es la última. Los materiales del siglo XIX pasaron por talleres, colecciones privadas, ventas, archivos e instituciones. De ese tránsito podemos saber mucho si se conservan documentos de procedencia; sin ellos, conviene limitar la interpretación. Que una imagen hoy figure en el museo no prueba que su primera función fuera artística, clandestina o erótica. La pregunta del libro es cómo cambia la manera de mirar cuando cambia el lugar de la copia.",
       "fact_date": "1895",
       "factline": "La fotografía de desnudo combina arte, cuerpo, técnica y biografía; cada copia conserva una historia parcial.",
       "source_url": "https://www.metmuseum.org/art/collection/search/266459",
@@ -3621,12 +4121,12 @@
     {
       "id": "cap6",
       "kind": "chapter",
-      "section": "VIII · Memoria y archivo",
+      "section": "VIII · Coda: memoria y archivo",
       "title": "La belleza que sobrevivió",
-      "body": "Una mirada contemporánea a una intimidad centenaria",
+      "body": "El archivo conserva luz, materia y belleza, pero también silencios. Mirar hoy exige admirar a los pioneros sin inventar intenciones para quienes posaron.",
       "image": "vallou2",
       "caption": "",
-      "sub": "El final abierto de una historia visual"
+      "sub": "Coda II · Las personas, las copias y nuestra mirada"
     },
     {
       "id": "ensfin",
@@ -3656,14 +4156,14 @@
       "id": "vi_informe",
       "kind": "fact",
       "section": "VIII · Memoria y archivo",
-      "title": "Cuando el museo cambia la mirada",
-      "body": "Una fotografía realizada para un taller o un comprador privado puede terminar expuesta, catalogada y estudiada en una institución pública. Ese cambio de contexto modifica sus usos: la imagen deja de funcionar únicamente como objeto de consumo visual y se convierte en evidencia de una cultura material.\n\nLa ficha museística organiza el conocimiento mediante fechas, técnicas, dimensiones, inventarios y atribuciones, pero suele conservar pocas informaciones sobre quienes posaron. Comprender esos límites ayuda a no inventar identidades ni motivaciones allí donde el archivo guarda silencio.\n\nLa supervivencia de la imagen no equivale a la supervivencia de su historia completa. Investigar el marco, la procedencia y la cadena de colecciones puede ser tan significativo como estudiar el encuadre.",
+      "title": "El archivo cambia de público",
+      "body": "El siglo XIX nos dejó copias únicas, positivos al papel, hojas montadas en cartón y registros cuya materialidad puede alterar la manera de percibir la imagen. En el museo, una fotografía que estuvo guardada en un álbum o circuló en un mercado privado recibe otro marco: autor, fecha, procedimiento, procedencia.\n\nLa tarea de una edición de lujo no es «modernizar» el desnudo ni saturarlo de efectos. Es recuperar el registro tonal cuando resulte posible, distinguir original y reproducción, reconocer los nombres que faltan y permitir una observación respetuosa. La belleza que sobrevive no borra las preguntas sobre quién posó ni dónde se vio por primera vez una fotografía.",
       "image": null,
       "caption": "",
       "sub": "",
-      "fact_date": "1890",
-      "factline": "Una imagen privada puede transformarse, décadas después, en documento público de historia cultural.",
-      "source_url": "https://www.metmuseum.org/art/collection/search/262817"
+      "fact_date": "HOY",
+      "factline": "Una imagen privada puede terminar en un museo; el cambio de público no cambia el pasado.",
+      "source_url": "https://www.metmuseum.org/exhibitions/listings/2001/photography-processes-preservation-conservation"
     },
     {
       "id": "epilogo_reservado",
@@ -3674,7 +4174,7 @@
       "image": null,
       "caption": "",
       "sub": "",
-      "editorial_slot": "Epílogo breve, entre 350 y 500 palabras, reservado para la versión cerrada."
+      "editorial_slot": "Espacio reservado para epílogo breve: cómo el pudor se transforma cuando las imágenes cambian de público. No completar sin edición final."
     },
     {
       "id": "cierre_editorial",
@@ -3860,5 +4360,17 @@
     "hostingerWebFilesVerified": 55,
     "hostingerWeb404": 0,
     "masterDownloadWarning": "No imprimir a partir de la copia web servida por el dominio hasta verificar su fidelidad al original."
+  },
+  "editorialArgument": {
+    "title": "El cuerpo, la luz y el secreto",
+    "subtitle": "El prodigio de la fotografía y las formas del pudor, 1839–1900",
+    "axes": [
+      "evolución de la estética",
+      "posibilidades de la tecnología",
+      "pudor, intimidad y circulación"
+    ],
+    "format": "seis capítulos cronológicos y dos codas críticas",
+    "sources": "argumento-curatorial-v12.md",
+    "rule": "El pudor es una interpretación cultural: no inferir emociones ni consentimiento de personas no documentadas."
   }
 }
