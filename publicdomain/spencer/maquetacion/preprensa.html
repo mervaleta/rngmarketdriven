@@ -9,11 +9,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./preprensa.css?v=2-pliegos">
+<link rel="stylesheet" href="./preprensa.css?v=2-pliegos"><link rel="stylesheet" href="./page-designer.css?v=m11">
 <script defer src="https://cdn.jsdelivr.net/npm/pagedjs@0.4.3/dist/paged.js"></script>
 <script defer src="./editorial-assets.js?v=1.6.0"></script>
 <script defer src="./chapter-notes.js?v=1.8.0"></script>
-<script defer src="./preprensa.js?v=2-pliegos"></script>
+<script defer src="./page-designer.js?v=m11"></script><script defer src="./preprensa.js?v=m11"></script>
 </head>
 <body>
 <header class="top">
@@ -45,14 +45,39 @@
  <label class="line"><input type="checkbox" id="opening" checked> Apertura de los cuatro ensayos en doble página</label>
  <p class="micro">La numeración, las imágenes y los índices son preliminares. Las planillas de corte, imposición, perfiles ICC, PDF/X, comprobación de derechos y fuentes incrustadas necesitan certificación aparte.</p>
  <div class="actions"><button class="primary" id="compose">Componer todo el interior</button><button id="print" disabled>Imprimir / guardar PDF</button><button id="export" disabled>Exportar HTML de prueba</button></div><div class="actions"><button id="saveProfile" type="button">Exportar perfil JSON</button><label class="actionlabel" for="importProfile">Importar perfil JSON<input id="importProfile" type="file" accept=".json,application/json" hidden></label></div>
- <h2>02 / Control de preprensa</h2>
+ <section class="s23-layer-controls" aria-label="Diseño de fondos y cajas por página">
+ <h2>02 / Diseño individual de páginas</h2>
+ <p class="small">Después de componer, cada página —incluidas tapa y contratapa— tiene <strong>Cargar fondo</strong> y <strong>Editar página</strong>. Solo la página activada muestra sus controles de texto. Los archivos originales se guardan en tu navegador.</p>
+ <label>Asignar varias imágenes de una vez <input type="file" id="pageBatchImages" multiple accept="image/jpeg,image/png,image/webp,image/avif"></label>
+ <p class="small">Nombres reconocidos: <code>tapa.jpg</code>, <code>contratapa.png</code>, <code>p001.jpg</code>, <code>pagina023.webp</code>. El número corresponde al folio visible; no se inspeccionan carpetas sin autorización.</p>
+ <div class="buttons"><button type="button" id="pageExportLayers">Exportar proyecto con imágenes</button><button type="button" id="pageImportLayersButton" onclick="document.getElementById('pageImportLayers').click()">Importar respaldo</button><input type="file" id="pageImportLayers" accept=".json,application/json" hidden></div>
+ <p id="pageLayerStatus" class="small" role="status">Componé las páginas para poder agregar imágenes y cajas.</p>
+ <div id="pageLayerInspector" hidden>
+  <p class="warn"><strong id="pageLayerSelection">Página</strong> · Los marcos de texto de esta hoja se editan individualmente. El texto maestro se conserva en el documento.</p>
+  <p id="pageLayerImageInfo" class="small">Sin imagen de fondo</p>
+  <label>Encuadre de la imagen <select id="pageLayerFit"><option value="cover">Cubrir página (puede recortar)</option><option value="contain">Imagen completa (puede dejar márgenes)</option></select></label>
+  <div class="buttons"><button type="button" id="pageRemoveBg">Quitar fondo</button><button type="button" id="pageAddBox">+ Caja de texto</button></div>
+  <div class="buttons"><button type="button" id="pageTakeText">Convertir texto paginado en caja</button><button type="button" id="pageLayerClose">Terminar edición</button></div>
+  <label><input type="checkbox" id="pageLayerHideFlow"> Ocultar texto paginado en esta página</label>
+  <p class="small">Al convertir texto en caja, se mantiene una copia editable por página. Ese texto <strong>no se redistribuye automáticamente</strong> si después cambiás el formato general: revisá los desbordes.</p>
+  <div id="pageBoxInspector" hidden>
+   <h2>03 / Caja seleccionada</h2>
+   <label for="pageBoxText">Contenido de la caja</label><textarea id="pageBoxText" rows="5" spellcheck="true"></textarea>
+   <label for="pageBoxSize">Tamaño del texto (pt) <input id="pageBoxSize" type="number" min="6" max="72" step=".5" value="12"></label>
+   <p id="pageBoxCoords" class="small"></p>
+   <button type="button" id="pageDeleteBox">Eliminar caja</button>
+  </div>
+ </div>
+ </section>
+
+ <h2>04 / Control de preprensa</h2>
  <ul id="checks" aria-live="polite"><li>Esperando fuentes del libro…</li></ul>
  <p id="report" class="report" aria-live="polite"></p>
 </aside>
 <main class="stage">
- <div class="stagebar"><strong>Libro abierto · pliegos enfrentados</strong><span id="progress">Sin composición</span><div class="zoom"><label for="zoom">Zoom</label><input type="range" id="zoom" min="35" max="110" step="5" value="70"><output id="zoomLabel">70%</output></div></div>
+ <div class="stagebar"><strong>Libro abierto · tapa, interior y contratapa</strong><span id="progress">Sin composición</span><div class="zoom"><label for="zoom">Zoom</label><input type="range" id="zoom" min="35" max="110" step="5" value="70"><output id="zoomLabel">70%</output></div></div>
  <div id="stageScroll"><div id="rendered"></div></div>
- <p class="stage-note">En pantalla: páginas pares a la izquierda e impares a la derecha, juntas como un libro abierto. La primera página aparece a la derecha. En impresión: páginas individuales consecutivas, sin agregar blancos visuales ni imposición de pliegos. No es PDF/X-4 certificado.</p>
+ <p class="stage-note">La tapa es la página visual 1 y la contratapa es la última. También aparecen los reversos de cubierta y, cuando se necesita, un blanco de ajuste. En impresión de prueba se mantienen las páginas individuales. No es un PDF/X-4 certificado.</p>
 </main>
 </div>
 <div id="manuscript" aria-hidden="true"></div>
