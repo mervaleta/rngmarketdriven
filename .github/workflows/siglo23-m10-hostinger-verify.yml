@@ -1,4 +1,4 @@
-name: Siglo23 - verificar publicacion de Spencer M10 y landing
+name: Siglo23 - verificar publicacion de Spencer M11 y landing
 on:
   workflow_dispatch:
   push:
@@ -20,11 +20,13 @@ jobs:
           python - <<'PY'
           import urllib.request
           required=[
-            ('Spencer M10','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/index.html','M10 · PREPRENSA EXPERIMENTAL'),
+            ('Spencer M11','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/index.html','M11 · EDICIÓN POR PÁGINA'),
             ('Compositor Paged.js','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.html','Paged.js 0.4.3'),
-            ('Vista libro abierto','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.html','Libro abierto · pliegos enfrentados'),
-            ('Motor pliegos pares/impares','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.js?v=2-pliegos','arrangeFacingPages()'),
+            ('Vista con tapas','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.html','Libro abierto · tapa, interior y contratapa'),
+            ('Motor pliegos y cubiertas','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.js?v=m11','createCover'),
             ('Estilos de pliegos contiguos','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.css?v=2-pliegos','s23-spread-pages'),
+            ('Editor por hoja','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/page-designer.js?v=m11','s23-edit-toggle'),
+            ('Estilos de capas','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/page-designer.css?v=m11','s23-custom-text'),
             ('Motor JS','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.js','new window.Paged.Previewer()'),
             ('Hojas CSS','https://rngmarketdriven.com/publicdomain/spencer/maquetacion/preprensa.css','.pagedjs_pages'),
             ('Portal editorial','https://rngmarketdriven.com/publicdomain/estudio/index.html','Un estudio.'),
