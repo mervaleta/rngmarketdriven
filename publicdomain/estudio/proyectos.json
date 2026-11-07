@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "updated": "2026-11-07",
-  "status": "codigo accesible, despliegue no verificado",
+  "status": "Studio Kit v2 fusionado en GitHub; despliegue público a verificar por proyecto",
   "sharedRoadmap": [
     "spencer",
     "gabinete",
@@ -17,69 +17,74 @@
       "type": "ensayo crítico",
       "palette": {
         "background": "#172d49",
-        "accent": "#edc68a"
+        "accent": "#f0c78b"
       },
       "repository": "mervaleta/rngmarketdriven",
       "sourcePath": "publicdomain/spencer/maquetacion/",
       "expectedUrl": "https://rngmarketdriven.com/publicdomain/spencer/maquetacion/",
-      "engine": "M09 + M10 experimental",
-      "migrated": "pilot"
+      "engine": "M11 + Studio Kit v2 + Paged.js",
+      "migrated": "studio-kit-v2",
+      "readme": "publicdomain/spencer/maquetacion/README-UPGRADE-SIGLO23-V2.md"
     },
     {
       "id": "gabinete",
       "name": "El gabinete prohibido",
       "type": "libro fotográfico",
       "palette": {
-        "background": "#4c213b",
-        "accent": "#e5a5b8"
+        "background": "#4a203a",
+        "accent": "#edb5ca"
       },
       "repository": "mervaleta/rngmarketdriven",
       "sourcePath": "publicdomain/gabinete/",
       "expectedUrl": "https://rngmarketdriven.com/publicdomain/gabinete/",
-      "engine": "V1.2.0",
-      "migrated": "pending"
+      "engine": "1.3.0-preprensa + Studio Kit v2",
+      "migrated": "studio-kit-v2",
+      "readme": "publicdomain/gabinete/README-UPGRADE-SIGLO23-V2.md"
     },
     {
       "id": "siglotimicos",
       "name": "Siglotímicos",
       "type": "trilogía",
       "palette": {
-        "background": "#3d2d53",
-        "accent": "#c9b3ef"
+        "background": "#342747",
+        "accent": "#d7bce9"
       },
       "repository": "mervaleta/siglotimicos",
       "sourcePath": "maquetacion/",
       "expectedUrl": "https://siglotimicos.santoroydonoso.com/maquetacion/index.html",
-      "engine": "prototype 3.2",
-      "migrated": "pending"
+      "engine": "3.2 + Studio Kit v2",
+      "migrated": "studio-kit-v2",
+      "readme": "maquetacion/README-UPGRADE-SIGLO23-V2.md"
     },
     {
       "id": "voyager",
       "name": "Voyager",
       "type": "novela",
       "palette": {
-        "background": "#17295e",
-        "accent": "#a8c8ef"
+        "background": "#152e54",
+        "accent": "#a8cdf4"
       },
       "repository": "mervaleta/voyager",
       "sourcePath": "maquetacion/",
       "expectedUrl": "https://voyager.santoroydonoso.com/maquetacion/index.html",
-      "engine": "V1.0",
-      "migrated": "pending"
+      "engine": "V1.0 + Studio Kit v2",
+      "migrated": "studio-kit-v2",
+      "readme": "maquetacion/README-UPGRADE-SIGLO23-V2.md"
     },
     {
       "id": "camoati",
       "name": "Camoatí",
       "type": "historia ilustrada",
       "palette": {
-        "background": "#59402d",
-        "accent": "#e6c38a"
+        "background": "#48311f",
+        "accent": "#f0cb8e"
       },
       "repository": "mervaleta/camoati",
       "sourcePath": "maquetacion/",
       "expectedUrl": "https://camoati.santoroydonoso.com/maquetacion/index.html",
-      "engine": "beta",
-      "migrated": "pending"
+      "engine": "beta con reflujo + Studio Kit v2",
+      "migrated": "studio-kit-v2",
+      "readme": "maquetacion/README-UPGRADE-SIGLO23-V2.md"
     }
   ],
   "archived": [
