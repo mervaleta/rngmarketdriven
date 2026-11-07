@@ -22,12 +22,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 4000,
       "h": 2096,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Stereographic_View_of_Two_Nude_Women_-_MET_DP-15364-001.jpg",
+      "url": "./imagenes/web/stereo.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Stereographic_View_of_Two_Nude_Women_-_MET_DP-15364-001.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/282209",
       "context": "Las dos tomas están hechas desde posiciones ligeramente distintas para producir ilusión de profundidad al mirarlas con un estereoscopio. El dispositivo obligaba a un acto individual de observación: un espectáculo privado y portátil.",
       "sortYear": 1840,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Stereographic_View_of_Two_Nude_Women_-_MET_DP-15364-001.jpg",
+      "web_sha256": "b113ea8635c1d7d4bd9836db8a5384bb6b104ccda02e64e1d706771de618c188",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "danae",
@@ -40,12 +44,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 2923,
       "h": 3185,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/-Reclining_Female_Nude_as_Danae-_MET_DP700142.jpg",
+      "url": "./imagenes/web/danae.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Reclining_Female_Nude_as_Danae-_MET_DP700142.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/291804",
       "context": "La referencia a Dánae, personaje de la mitología grecolatina, proporciona una legitimación cultural que el erotismo del encuadre pone en tensión. El coloreado manual añade una capa de artificio a la supuesta objetividad fotográfica.",
       "sortYear": 1850,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/-Reclining_Female_Nude_as_Danae-_MET_DP700142.jpg",
+      "web_sha256": "4d2d0a879d878ea22e8f606da42f9abb8369f9be86958166f5961f001102f2c9",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "mirror",
@@ -58,12 +66,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 3109,
       "h": 3421,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/-Nude_with_Mirror-_MET_DP263561.jpg",
+      "url": "./imagenes/web/mirror.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_with_Mirror-_MET_DP263561.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/282050",
       "context": "El espejo multiplica los puntos de vista sobre el cuerpo. Más que una captura de intimidad espontánea, esta escena fue construida para la mirada de un cliente: iluminación, mobiliario, pose y reflejo forman parte de una composición comercial.",
       "sortYear": 1850,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/-Nude_with_Mirror-_MET_DP263561.jpg",
+      "web_sha256": "0cfcde9e3b04168b453abcfbf59d629569a1ddf390cc02b2dc72c2edd4aa1091",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "seated",
@@ -76,12 +88,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 1642,
       "h": 1928,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/-Seated_Female_Nude-_MET_DP263565.jpg",
+      "url": "./imagenes/web/seated.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Seated_Female_Nude-_MET_DP263565.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/283104",
       "context": "Una torsión incómoda quiebra el ideal académico de belleza fluida. La rigidez del procedimiento y los límites de la puesta en escena recuerdan que la fotografía del siglo XIX no era una ventana transparente al mundo.",
       "sortYear": 1850,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/-Seated_Female_Nude-_MET_DP263565.jpg",
+      "web_sha256": "8abe41725cb8b62011e8dc592d506b839f44214b9e4d462f7d347b161c47c475",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "met_squat",
@@ -95,7 +111,7 @@
       "accession": "MET DP700272",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
+      "url": "./imagenes/web/met_squat.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -107,7 +123,11 @@
       "review_approved": false,
       "title": "-Nude Man Squatting on Chair- MET DP700272",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg",
+      "web_sha256": "27d5f11c402bf884444a4d7d492d691c4a49ad8db31d440d7d2d615ba93f0221",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_nude_1851",
@@ -121,12 +141,16 @@
       "license": "CC0 — colección museística / Wikimedia Commons",
       "w": 4000,
       "h": 2410,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude-_MET_DP312879.jpg",
+      "url": "./imagenes/web/durieu_nude_1851.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude-_MET_DP312879.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/286140",
       "context": "Estudio de cuerpo recostado cuya atribución a Durieu se presenta como posible, no definitiva. La copia conserva el montaje histórico.",
       "kind": "photograph",
-      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar"
+      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude-_MET_DP312879.jpg",
+      "web_sha256": "b84dc31c5b9e5c499a7f875469805c3e057bf5c8b9a358c24bff3df8006d14f0",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou_reclining_1851",
@@ -140,11 +164,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 3621,
       "h": 2879,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/-Reclining_Nude-_MET_DP147946.jpg",
+      "url": "./imagenes/web/vallou_reclining_1851.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Reclining_Nude-_MET_DP147946.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/283114",
       "context": "Una pose que apenas disimula su corporeidad. El Met subraya cómo las convenciones del gran desnudo pictórico sirvieron para legitimar el realismo del cuerpo fotografiado.",
-      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/-Reclining_Nude-_MET_DP147946.jpg",
+      "web_sha256": "235b8136cda81379228ffe90ddd4e7dd2407da902267ea528ff887186fff825e",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "olivier_hammock",
@@ -291,12 +319,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 2653,
       "h": 3858,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/-Seated_Female_Nude-_MET_DP263566.jpg",
+      "url": "./imagenes/web/durieu.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Seated_Female_Nude-_MET_DP263566.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/283115",
       "context": "La relación de Durieu con el mundo del dibujo académico muestra cómo la cámara podía servir de archivo de poses. El cuerpo se descompone en volúmenes y apoyos; la fotografía aspira a ser modelo, no simplemente retrato.",
       "sortYear": 1853,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/-Seated_Female_Nude-_MET_DP263566.jpg",
+      "web_sha256": "cce0ddddc065da3480c337825fb1332259cf3a2f282ce6ba7a1ff0c05a81ae2b",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_study_1853",
@@ -310,11 +342,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 2461,
       "h": 3882,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/-Nude_Study-_MET_DP139566.jpg",
+      "url": "./imagenes/web/durieu_study_1853.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_Study-_MET_DP139566.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/286255",
       "context": "La figura posada para el dibujo forma parte de una serie vinculada al trabajo de Delacroix. La imagen es un estudio de líneas y pesos visuales más que un documento espontáneo.",
-      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/-Nude_Study-_MET_DP139566.jpg",
+      "web_sha256": "8edd7ac3536f7970aadc318814e2cde026faca6b1022db06b967cea7edcb12d9",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou",
@@ -327,12 +363,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 3807,
       "h": 2814,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/-Female_Nude,_Reclining,_in_Profile-_MET_DT1157.jpg",
+      "url": "./imagenes/web/vallou.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Female_Nude,_Reclining,_in_Profile-_MET_DT1157.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/266982",
       "context": "La pose horizontal y el perfil remiten a convenciones del dibujo y la pintura. La etiqueta de «estudio para artistas» no agota, sin embargo, los usos posibles de la imagen: una misma fotografía podía ser referencia de taller y objeto de deseo.",
       "sortYear": 1853,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/-Female_Nude,_Reclining,_in_Profile-_MET_DT1157.jpg",
+      "web_sha256": "c541b048ecfd75c4e5610fee69995b308a4d0bc6b7da5d27d7b11187a972bf2e",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou2",
@@ -345,12 +385,16 @@
       "license": "CC0 (Met / Commons)",
       "w": 3777,
       "h": 2779,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/-Reclining_Female_Nude-_MET_DT6993.jpg",
+      "url": "./imagenes/web/vallou2.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Reclining_Female_Nude-_MET_DT6993.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/266980",
       "context": "Repetir el motivo del cuerpo recostado no significa repetir una intención única. El encuadre, los tejidos, la escala y la textura de la copia elaboran una retórica visual que podía viajar entre el estudio fotográfico y el estudio de pintura.",
       "sortYear": 1853,
-      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente"
+      "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/-Reclining_Female_Nude-_MET_DT6993.jpg",
+      "web_sha256": "82344e103ba3e188aad6991956e7043505c0564645807e3865c8e219ce3894d6",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou_standing_1853",
@@ -364,11 +408,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 1892,
       "h": 2518,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/-Standing_Female_Nude-_MET_DT6994.jpg",
+      "url": "./imagenes/web/vallou_standing_1853.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Standing_Female_Nude-_MET_DT6994.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/266981",
       "context": "Vista de espalda y un cuidadoso ordenamiento de telas y mobiliario. La imagen pone en primer plano la fabricación de una «academia», entre técnica, estudio de modelo y circulación privada.",
-      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/-Standing_Female_Nude-_MET_DT6994.jpg",
+      "web_sha256": "bfa18caf4cd9592155fd4bc9bafc7b0e14bc05c7bf5a0a9b4ef156808e26b5be",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou_9",
@@ -382,7 +430,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_9.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Julien_vallou_de_villeneuve_9.jpg",
+      "url": "./imagenes/web/vallou_9.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_9.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -394,7 +442,11 @@
       "review_approved": false,
       "title": "Julien vallou de villeneuve 9",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Julien_vallou_de_villeneuve_9.jpg",
+      "web_sha256": "18e0fd811abf9f7615c2c1a36b287435833d1de9b77ab98cd06ef525d1373551",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou_2",
@@ -408,7 +460,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_2.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Julien_vallou_de_villeneuve_2.jpg",
+      "url": "./imagenes/web/vallou_2.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Julien_vallou_de_villeneuve_2.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -420,7 +472,11 @@
       "review_approved": false,
       "title": "Julien vallou de villeneuve 2",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Julien_vallou_de_villeneuve_2.jpg",
+      "web_sha256": "f82c82bd717cdb1842329e2329d23d18034c9aad0cc9d172c1396fd724a50caa",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "braque_veil",
@@ -464,7 +520,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Durieu_1.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Durieu_1.jpg",
+      "url": "./imagenes/web/durieu_1.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Durieu_1.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -476,7 +532,11 @@
       "review_approved": false,
       "title": "Durieu 1",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Durieu_1.jpg",
+      "web_sha256": "a4a6c8bd5a5577b0075b56199e67c8f0835a178494e199397bc9c088b24b8e3b",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_4",
@@ -490,7 +550,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Durieu_4.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Durieu_4.jpg",
+      "url": "./imagenes/web/durieu_4.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Durieu_4.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -502,7 +562,11 @@
       "review_approved": false,
       "title": "Durieu 4",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Durieu_4.jpg",
+      "web_sha256": "91bcf8a5743d92a017b6c6854db7c762964ddb41a870a0373ebf98a85502d2ee",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_5",
@@ -516,7 +580,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Durieu_5.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Durieu_5.jpg",
+      "url": "./imagenes/web/durieu_5.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Durieu_5.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -528,7 +592,11 @@
       "review_approved": false,
       "title": "Durieu 5",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Durieu_5.jpg",
+      "web_sha256": "4c54b459aa574a7306f37655f4f4ef7c9ad4f54599fb18bae2124e5be731ab19",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_dutch",
@@ -542,7 +610,7 @@
       "accession": "RP-F-2015-34",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
+      "url": "./imagenes/web/durieu_dutch.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -554,7 +622,11 @@
       "review_approved": false,
       "title": "Vrouwelijk naakt, RP-F-2015-34",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Vrouwelijk_naakt%2C_RP-F-2015-34.jpg",
+      "web_sha256": "a81966d903c65ba1f1aa2003d3466bc4392fa33800c2bc0dbe1b2ad6a515142f",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "vallou_academic",
@@ -620,7 +692,7 @@
       "accession": "sin inventario",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_daguerreotype_stereo.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Auguste_Belloc_daguerreotype_stereo.jpg",
+      "url": "./imagenes/web/belloc_stereo.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_daguerreotype_stereo.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -632,7 +704,11 @@
       "review_approved": false,
       "title": "Auguste Belloc daguerreotype stereo",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Auguste_Belloc_daguerreotype_stereo.jpg",
+      "web_sha256": "c87f855831848214d0c833b9290bb5df3150bc42c5c00899203ff1c643ebc61d",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "braque_dutch",
@@ -646,7 +722,7 @@
       "accession": "RP-F-F14358-A",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
+      "url": "./imagenes/web/braque_dutch.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -658,7 +734,11 @@
       "review_approved": false,
       "title": "Portret van een onbekende naakte vrouw, RP-F-F14358-A",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg",
+      "web_sha256": "3dcfcf9fa5eeeecfbec0cf656ad971cb6c09b0517fd45a1d013ab614d497b977",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "braque_basket",
@@ -672,7 +752,7 @@
       "accession": "sin inventario",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Femme_au_panier.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Femme_au_panier.jpg",
+      "url": "./imagenes/web/braque_basket.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Femme_au_panier.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -684,7 +764,11 @@
       "review_approved": false,
       "title": "Femme au panier",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Femme_au_panier.jpg",
+      "web_sha256": "5a90e1b0cdd123a7d2dc6440d54a90fcefac652223752865deef8e574bcdd618",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "asser_stereo_1855",
@@ -698,12 +782,16 @@
       "license": "Dominio público declarado por Rijksmuseum",
       "w": 3026,
       "h": 3986,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Franse_erotische_stereofoto%2C_RP-F-AB12278-AU.jpg",
+      "url": "./imagenes/web/asser_stereo_1855.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Franse_erotische_stereofoto,_RP-F-AB12278-AU.jpg",
       "museumUrl": "https://www.rijksmuseum.nl/en/collection/object/Franse-erotische-stereofoto--d8bcb759f333b6333d15c4ba77dd63c7",
       "context": "Una estereofotografía erótica conservada en Ámsterdam amplía el itinerario más allá de los talleres de París. El estereoscopio añadía un juego de profundidad a un objeto pequeño, concebido para la contemplación cercana.",
       "review_status": "Fotografía integrada provisionalmente; revisar visualmente y acreditar documentación de modelos adultos antes de impresión comercial.",
-      "master_status": "JPG original remoto en Wikimedia Commons; no alojado localmente"
+      "master_status": "JPG original remoto en Wikimedia Commons; no alojado localmente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Franse_erotische_stereofoto%2C_RP-F-AB12278-AU.jpg",
+      "web_sha256": "240e06aacb044d364c5740e5f262f5f9b74b3de726540aa6aba36d26365d43b2",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_012",
@@ -743,7 +831,7 @@
       "accession": "RP-F-F14356-A",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
+      "url": "./imagenes/web/dutch_tambourine.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -755,7 +843,11 @@
       "review_approved": false,
       "title": "Portret van een onbekende halfnaakte vrouw met tamboerijn, RP-F-F14356-A",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg",
+      "web_sha256": "7218151a45a756caa6d840b7013cbf17fb59dcc668a07ebaad191c95895a6eb2",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "olivier_009",
@@ -795,11 +887,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 3070,
       "h": 3713,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/-Female_Nude_in_Studio-_MET_DT1168.jpg",
+      "url": "./imagenes/web/chauva_studio_1856.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Female_Nude_in_Studio-_MET_DT1168.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/282602",
       "context": "La escena renuncia a la idealización mitológica y muestra el estudio con una franqueza que el Met compara con la representación moderna del cuerpo de Manet.",
-      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/-Female_Nude_in_Studio-_MET_DT1168.jpg",
+      "web_sha256": "6a3a6b1c6fce851fe092a11191253524df561c64f27b63269aacb3bf7b23560c",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "nadar_draped_1856",
@@ -813,12 +909,16 @@
       "license": "CC0, Metropolitan Museum of Art / Wikimedia Commons",
       "w": 2654,
       "h": 4000,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Met_DP-16448-002.jpg",
+      "url": "./imagenes/web/nadar_draped_1856.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Met_DP-16448-002.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/286162",
       "context": "La figura aparece envuelta en una tela vaporosa, apenas separada del espacio del estudio. Frente al desnudo frontal, el velo construye una expectativa visual que conecta la fotografía con la tradición pictórica.",
       "review_status": "Obra integrada provisionalmente; antes de vender la edición revisar atribuciones y documentación de la persona retratada.",
-      "master_status": "JPG original remoto 2654×4000 px en Commons; no alojado localmente"
+      "master_status": "JPG original remoto 2654×4000 px en Commons; no alojado localmente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Met_DP-16448-002.jpg",
+      "web_sha256": "72779ba9466943c03717d81234823772d7ee8a1406406dedb85d043c10a3c08f",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "braquehais_mirror_1857",
@@ -832,11 +932,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 2938,
       "h": 3711,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/-Nude_Before_a_Mirror-_MET_DP343654.jpg",
+      "url": "./imagenes/web/braquehais_mirror_1857.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_Before_a_Mirror-_MET_DP343654.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/286294",
       "context": "La toilette y el espejo remiten a un repertorio visual aceptado por la pintura. El Met explica cómo ese marco cultural hizo comercializables ciertos estudios de desnudo ante la vigilancia estatal.",
-      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar"
+      "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/-Nude_Before_a_Mirror-_MET_DP343654.jpg",
+      "web_sha256": "f0c9c64dddb85b8fd3b5e867351ed2aea82e3bd39c9182743e73a64328fe3c41",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "nadar_1860",
@@ -850,12 +954,16 @@
       "license": "CC0 — colección museística / Wikimedia Commons",
       "w": 2633,
       "h": 3872,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Standing_Female_Nude-_MET_DP263575.jpg",
+      "url": "./imagenes/web/nadar_1860.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Standing_Female_Nude-_MET_DP263575.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/266459",
       "context": "Marie-Christine Leroux, nacida en 1820, posó para esta fotografía encargada como referencia para Gérôme. Es uno de los raros estudios de desnudo de Nadar.",
       "kind": "photograph",
-      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar"
+      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Standing_Female_Nude-_MET_DP263575.jpg",
+      "web_sha256": "475be61ea1024916020aadd35df3e4586304ea7015b8fdaee6de32d2622e36db",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "mask_1870",
@@ -869,11 +977,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 2798,
       "h": 3756,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/-Female_Nude_with_Mask-_MET_DP263564.jpg",
+      "url": "./imagenes/web/mask_1870.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Female_Nude_with_Mask-_MET_DP263564.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/285695",
       "context": "La máscara conserva el anonimato en una técnica que parecía fijar la identidad con extraordinaria precisión. El museo destaca la ambigüedad entre el estudio académico de figura y el interés erótico de ciertos espectadores.",
-      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial."
+      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/-Female_Nude_with_Mask-_MET_DP263564.jpg",
+      "web_sha256": "dad3fa9faf4d667766008ba671f6e9bf588fac5a7c00cae9f3f6fc2ea953e86a",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "marconi_back",
@@ -887,7 +999,7 @@
       "accession": "RP-F-1996-258",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
+      "url": "./imagenes/web/marconi_back.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -899,7 +1011,11 @@
       "review_approved": false,
       "title": "Marconi, Gaudenzio (1841-1885) - n. 0035 - Mannelijk academisch naakt, op de rug gezien, RP-F-1996-258",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg",
+      "web_sha256": "8dd62e7fa15c359cfaf07f4eb849a165055e1b5cc3844a070eba644a0305f63b",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "marconi_seated",
@@ -913,7 +1029,7 @@
       "accession": "RP-F-2001-4-39",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
+      "url": "./imagenes/web/marconi_seated.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -925,7 +1041,11 @@
       "review_approved": false,
       "title": "Marconi, Gaudenzio (1841-1885) - n. 0354 - Studie van een mannelijk naaktmodel, zittend met het hoofd in de knieën, van opzij gezien, RP-F-2001-4-39",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marconi%2C_Gaudenzio_(1841-1885)_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg",
+      "web_sha256": "ae5f109590bf941c64dc363ae9848d9ba572b7d5b48ccb8d802123991cba4339",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "marconi_stage",
@@ -965,11 +1085,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 2889,
       "h": 3846,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/-Nude_Woman_with_Hat_in_Studio-_MET_DP149528.jpg",
+      "url": "./imagenes/web/hat_1870.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_Woman_with_Hat_in_Studio-_MET_DP149528.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/265906",
       "context": "El sombrero y los elementos del estudio subrayan el carácter construido de la escena. La datación institucional abarca tres décadas; se ubica provisionalmente aquí sin presentarla como obra de año exacto.",
-      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial."
+      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/-Nude_Woman_with_Hat_in_Studio-_MET_DP149528.jpg",
+      "web_sha256": "06d389c4e6a0c685bdc4db8379aa301a4301e992d73666e28f6977533c189453",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "rijks_glass_carpet",
@@ -983,7 +1107,7 @@
       "accession": "RP-F-F08306",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
+      "url": "./imagenes/web/rijks_glass_carpet.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -995,7 +1119,11 @@
       "review_approved": false,
       "title": "Naakte vrouw op vloerkleed, RP-F-F08306",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg",
+      "web_sha256": "7a54b7826395f3de46903d4707fc4a477338840f8456a30107251e66564278d4",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "rijks_glass_mirror",
@@ -1009,7 +1137,7 @@
       "accession": "RP-F-F08311",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
+      "url": "./imagenes/web/rijks_glass_mirror.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1021,7 +1149,11 @@
       "review_approved": false,
       "title": "Halfnaakte vrouw met spiegel in de hand, RP-F-F08311",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg",
+      "web_sha256": "31eece66ea8627345a88d7c754787227c24841a7cea4036717476c4bde109997",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "rijks_glass_room",
@@ -1035,7 +1167,7 @@
       "accession": "RP-F-F08307",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
+      "url": "./imagenes/web/rijks_glass_room.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1047,7 +1179,11 @@
       "review_approved": false,
       "title": "Halfnaakte vrouw in interieur, RP-F-F08307",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg",
+      "web_sha256": "cbd31d33cfe48608030b3c3ac1af0d6e28e07ac44a1d089a2610c0f9989bbbd9",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "marconi_violin",
@@ -1061,7 +1197,7 @@
       "accession": "sin inventario",
       "quality": "bajo",
       "commons": "https://commons.wikimedia.org/wiki/File:Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
+      "url": "./imagenes/web/marconi_violin.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1073,7 +1209,11 @@
       "review_approved": false,
       "title": "Marconi Gaudenzio - Nudo accademico femminile con violino",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg",
+      "web_sha256": "2dd75662eb77d78b8cad015cbce38572d663f4acf1e3622e0af0daaaed962604",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "eakins_garden",
@@ -1087,12 +1227,16 @@
       "license": "CC0 — colección museística / Wikimedia Commons",
       "w": 2519,
       "h": 3361,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude_Men_in_the_Garden-_MET_DP335624.jpg",
+      "url": "./imagenes/web/eakins_garden.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Nude_Men_in_the_Garden-_MET_DP335624.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/271891",
       "context": "Estudio colectivo al aire libre. La comparación con los interiores parisinos permite observar otras condiciones de pose y encuadre.",
       "kind": "photograph",
-      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar"
+      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude_Men_in_the_Garden-_MET_DP335624.jpg",
+      "web_sha256": "0beb5e621d88ca05a7208572ccc80410e64d5ad627f2b5f2a17a22ef7726600e",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "rijks_sofa_book",
@@ -1106,7 +1250,7 @@
       "accession": "RP-F-F10458",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
+      "url": "./imagenes/web/rijks_sofa_book.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1118,7 +1262,11 @@
       "review_approved": false,
       "title": "Naakte vrouw zittend op een sofa met een boek, RP-F-F10458",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg",
+      "web_sha256": "ac8b004cb820eade9fd6056d0bb7446ac26ce04bc734f341d2f5f4cc6ec2cd3d",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "eakins_pipes_1880",
@@ -1132,11 +1280,15 @@
       "license": "CC0 — Metropolitan Museum / Wikimedia Commons",
       "w": 3021,
       "h": 4000,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/-Standing_Male_Nude_with_Pipes-_MET_DP-1102-001.jpg",
+      "url": "./imagenes/web/eakins_pipes_1880.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:-Standing_Male_Nude_with_Pipes-_MET_DP-1102-001.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/271888",
       "context": "En el estudio de Eakins, la pose masculina se vincula con la anatomía, la instrucción y la cultura académica de Filadelfia. La imagen permite ampliar la historia más allá de los circuitos parisinos.",
-      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial."
+      "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/-Standing_Male_Nude_with_Pipes-_MET_DP-1102-001.jpg",
+      "web_sha256": "2d0d74b95b99accdd4513b9fea7d829993d767cb69a0bd2f08f9e89e4a4ea1ab",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "sambourne_kate",
@@ -1150,7 +1302,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
+      "url": "./imagenes/web/sambourne_kate.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1162,7 +1314,11 @@
       "review_approved": false,
       "title": "Kate Manning by Edward Linley Sambourne (1888) - 1",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kate_Manning_by_Edward_Linley_Sambourne_(1888)_-_1.jpg",
+      "web_sha256": "56158f54814fba0ecb5e4024e237d1eb976775b82fcd2e2802cbaf4a88339475",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "breitner_jordan_6",
@@ -1176,7 +1332,7 @@
       "accession": "RP-F-BR-1999-6",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
+      "url": "./imagenes/web/breitner_jordan_6.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1188,7 +1344,11 @@
       "review_approved": false,
       "title": "Marie Jordan naakt liggend op een bed, RP-F-BR-1999-6",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg",
+      "web_sha256": "d0b11bda0bee794041dddde65d677c391309861e6b3d00127936204171901a9d",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "breitner_jordan_7",
@@ -1202,7 +1362,7 @@
       "accession": "RP-F-BR-1999-7",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
+      "url": "./imagenes/web/breitner_jordan_7.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1214,7 +1374,11 @@
       "review_approved": false,
       "title": "Marie Jordan naakt liggend op een bed, RP-F-BR-1999-7",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg",
+      "web_sha256": "7787a256fc98c5a2475fcc5f22435cf61e67ee4e98bcf055207e269957a0dd60",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "breitner_jordan_1",
@@ -1228,7 +1392,7 @@
       "accession": "RP-F-BR-1999-1",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
+      "url": "./imagenes/web/breitner_jordan_1.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1240,7 +1404,11 @@
       "review_approved": false,
       "title": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-1",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg",
+      "web_sha256": "80b95b9ce6e18a1b0309a51b6eb164f966821b3db4f2609e4938a2eed2a07877",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "breitner_jordan_2",
@@ -1254,7 +1422,7 @@
       "accession": "RP-F-BR-1999-2",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
+      "url": "./imagenes/web/breitner_jordan_2.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1266,7 +1434,11 @@
       "review_approved": false,
       "title": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-2",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg",
+      "web_sha256": "21b13063c91dbba67db333b3cac0bfde3b6df34d9aae9eb8e2a06939e31e6ff8",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "breitner_jordan_3",
@@ -1280,7 +1452,7 @@
       "accession": "RP-F-BR-1999-3",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
+      "url": "./imagenes/web/breitner_jordan_3.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1292,7 +1464,11 @@
       "review_approved": false,
       "title": "Marie Jordan naakt op de rug gezien, RP-F-BR-1999-3",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg",
+      "web_sha256": "8dec8787ddd5bdf485be3dc04d25c8d120363cf6a6a924d82116351442cf504e",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "eakins_bill_1889",
@@ -1306,12 +1482,16 @@
       "license": "CC0 — colección museística / Wikimedia Commons",
       "w": 3220,
       "h": 3414,
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bill_Duckett_Nude%2C_at_the_Art_Students%E2%80%99_League_of_Philadelphia_MET_DP331827.jpg",
+      "url": "./imagenes/web/eakins_bill_1889.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Bill_Duckett_Nude,_at_the_Art_Students%E2%80%99_League_of_Philadelphia_MET_DP331827.jpg",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/271887",
       "context": "Estudio de Bill Duckett, compañero de Walt Whitman y modelo de la escuela de Eakins. La identidad del retratado permite contextualizar el trabajo de posado.",
       "kind": "photograph",
-      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar"
+      "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bill_Duckett_Nude%2C_at_the_Art_Students%E2%80%99_League_of_Philadelphia_MET_DP331827.jpg",
+      "web_sha256": "2cba32749cec34b810cb59e5f358639833d3304cf3e9919e0a8fe485d8d805ad",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "canellas_mirror",
@@ -1325,7 +1505,7 @@
       "accession": "sin inventario",
       "quality": "bajo",
       "commons": "https://commons.wikimedia.org/wiki/File:Nude_before_a_mirror_ca._1890.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nude_before_a_mirror_ca._1890.jpg",
+      "url": "./imagenes/web/canellas_mirror.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Nude_before_a_mirror_ca._1890.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1337,7 +1517,11 @@
       "review_approved": false,
       "title": "Nude before a mirror ca. 1890",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nude_before_a_mirror_ca._1890.jpg",
+      "web_sha256": "6f8b5deda4e887506d1ddbbc8d70321e92bbe22d58741a5415d36a21769acfe6",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "canellas_bench",
@@ -1403,7 +1587,7 @@
       "accession": "sin inventario",
       "quality": "bajo",
       "commons": "https://commons.wikimedia.org/wiki/File:Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
+      "url": "./imagenes/web/canellas_gate.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1415,7 +1599,11 @@
       "review_approved": false,
       "title": "Untitled, Nude standing by an iron gate Albumen print, ca. 1890",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg",
+      "web_sha256": "8ad40221b625fb78ae228b1734af8cdd865893c1ab9b1b20d7437c2020a919d3",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "canellas_moorish",
@@ -1455,7 +1643,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
+      "url": "./imagenes/web/sambourne_pettigrew_4b.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1467,7 +1655,11 @@
       "review_approved": false,
       "title": "Hetty and Lily Pettigrew by Edward Linley Sambourne (1891) - 4b",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_(1891)_-_4b.jpg",
+      "web_sha256": "25d84e4477b0f3f5343127ab35b7ab55fa866dda423771db2de123b14329d0e3",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "sambourne_pettigrew_5",
@@ -1507,7 +1699,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
+      "url": "./imagenes/web/sambourne_maude_1.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1519,7 +1711,11 @@
       "review_approved": false,
       "title": "Maude Easton by Edward Linley Sambourne (1891) - 1",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Maude_Easton_by_Edward_Linley_Sambourne_(1891)_-_1.jpg",
+      "web_sha256": "d7b4989aec993324f008b0ae9a845b061c51b23becd1836981af5226f2ad35d2",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "sambourne_maude_costume",
@@ -1533,7 +1729,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
+      "url": "./imagenes/web/sambourne_maude_costume.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1545,7 +1741,11 @@
       "review_approved": false,
       "title": "Maude Easton in Folly Costume by Edward Linley Sambourne (1891)",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
+      "web_sha256": "4daa19cda5a1b6013052dd9804c5031d20e8a7a820c325035cb6a7b2fccd415f",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "frank_eugene_hortensia",
@@ -1585,7 +1785,7 @@
       "accession": "MET DP263573",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:Adam_and_Eve_MET_DP263573.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Adam_and_Eve_MET_DP263573.jpg",
+      "url": "./imagenes/web/frank_eugene_adam.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Adam_and_Eve_MET_DP263573.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1597,7 +1797,11 @@
       "review_approved": false,
       "title": "Adam and Eve MET DP263573",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Adam_and_Eve_MET_DP263573.jpg",
+      "web_sha256": "749d15f1efe0dd9fc481b597c5ac90251bb0f81fd7590e92d86377799601f9af",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "frank_eugene_cloud",
@@ -1611,7 +1815,7 @@
       "accession": "MET DP275752",
       "quality": "alto",
       "commons": "https://commons.wikimedia.org/wiki/File:The_Great_White_Cloud_MET_DP275752.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Great_White_Cloud_MET_DP275752.jpg",
+      "url": "./imagenes/web/frank_eugene_cloud.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:The_Great_White_Cloud_MET_DP275752.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -1623,7 +1827,11 @@
       "review_approved": false,
       "title": "The Great White Cloud MET DP275752",
       "display_class": "reproduccion_de_alta_resolucion_sin_revision_preprensa",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The_Great_White_Cloud_MET_DP275752.jpg",
+      "web_sha256": "934a3cd01527ee7ac79b39d6c25fa9ac2ccb3111e6cbe4cb682fa402a0f891c4",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     }
   ],
   "pages": [

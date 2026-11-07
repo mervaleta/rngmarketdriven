@@ -1,275 +1,703 @@
 {
-  "generated_utc": "2026-11-07T05:18:53.098774+00:00",
+  "generated_utc": "2026-11-07T05:20:48.236727+00:00",
   "project": "El gabinete prohibido",
   "warning": "La descarga no acredita derechos, identidad, edad adulta ni calidad de imprenta.",
   "files": [
     {
-      "id": "braque_recline",
+      "id": "stereo",
       "status": "descargado",
+      "web": "./imagenes/web/stereo.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-15364-001.jpg",
+      "width": 599,
+      "height": 314,
+      "bytes": 42556,
+      "sha256": "b113ea8635c1d7d4bd9836db8a5384bb6b104ccda02e64e1d706771de618c188",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "danae",
+      "status": "descargado",
+      "web": "./imagenes/web/danae.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP700141.jpg",
+      "width": 572,
+      "height": 624,
+      "bytes": 50202,
+      "sha256": "4d2d0a879d878ea22e8f606da42f9abb8369f9be86958166f5961f001102f2c9",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "mirror",
+      "status": "descargado",
+      "web": "./imagenes/web/mirror.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP263561.jpg",
+      "width": 567,
+      "height": 624,
+      "bytes": 101962,
+      "sha256": "0cfcde9e3b04168b453abcfbf59d629569a1ddf390cc02b2dc72c2edd4aa1091",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "seated",
+      "status": "descargado",
+      "web": "./imagenes/web/seated.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP263565.jpg",
+      "width": 532,
+      "height": 625,
+      "bytes": 87374,
+      "sha256": "8abe41725cb8b62011e8dc592d506b839f44214b9e4d462f7d347b161c47c475",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "met_squat",
+      "status": "descargado",
+      "web": "./imagenes/web/met_squat.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/-Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg/1280px--Nude_Man_Squatting_on_Chair-_MET_DP700272.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 892,
+      "bytes": 340852,
+      "sha256": "27d5f11c402bf884444a4d7d492d691c4a49ad8db31d440d7d2d615ba93f0221",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "durieu_nude_1851",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_nude_1851.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP312879.jpg",
+      "width": 599,
+      "height": 361,
+      "bytes": 52188,
+      "sha256": "b84dc31c5b9e5c499a7f875469805c3e057bf5c8b9a358c24bff3df8006d14f0",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "vallou_reclining_1851",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou_reclining_1851.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP147946.jpg",
+      "width": 600,
+      "height": 477,
+      "bytes": 77689,
+      "sha256": "235b8136cda81379228ffe90ddd4e7dd2407da902267ea528ff887186fff825e",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "braque_recline",
+      "status": "reutilizado",
       "web": "./imagenes/web/braque_recline.jpg",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Bruno_Braquehais_%28attr%29_Reclining_female_nude_1850s.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "width": 940,
-      "height": 1056,
-      "bytes": 322101,
-      "sha256": "4aff4847137799df6aaa342e7f04f6c758d9deb342c4cb2170d95a8e2d9919f2",
+      "bytes": 322101
+    },
+    {
+      "id": "durieu",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP263566.jpg",
+      "width": 429,
+      "height": 624,
+      "bytes": 50264,
+      "sha256": "cce0ddddc065da3480c337825fb1332259cf3a2f282ce6ba7a1ff0c05a81ae2b",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "durieu_study_1853",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_study_1853.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP139566.jpg",
+      "width": 396,
+      "height": 625,
+      "bytes": 65182,
+      "sha256": "8edd7ac3536f7970aadc318814e2cde026faca6b1022db06b967cea7edcb12d9",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "vallou",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DT1157.jpg",
+      "width": 600,
+      "height": 443,
+      "bytes": 89612,
+      "sha256": "c541b048ecfd75c4e5610fee69995b308a4d0bc6b7da5d27d7b11187a972bf2e",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "vallou2",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou2.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DT6993.jpg",
+      "width": 600,
+      "height": 441,
+      "bytes": 75532,
+      "sha256": "82344e103ba3e188aad6991956e7043505c0564645807e3865c8e219ce3894d6",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "vallou_standing_1853",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou_standing_1853.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DT6994.jpg",
+      "width": 469,
+      "height": 625,
+      "bytes": 77993,
+      "sha256": "bfa18caf4cd9592155fd4bc9bafc7b0e14bc05c7bf5a0a9b4ef156808e26b5be",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "vallou_9",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou_9.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Julien_vallou_de_villeneuve_9.jpg/1280px-Julien_vallou_de_villeneuve_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1711,
+      "bytes": 330739,
+      "sha256": "18e0fd811abf9f7615c2c1a36b287435833d1de9b77ab98cd06ef525d1373551",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "vallou_2",
+      "status": "descargado",
+      "web": "./imagenes/web/vallou_2.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Julien_vallou_de_villeneuve_2.jpg/1280px-Julien_vallou_de_villeneuve_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1796,
+      "bytes": 521190,
+      "sha256": "f82c82bd717cdb1842329e2329d23d18034c9aad0cc9d172c1396fd724a50caa",
       "master": null,
       "quality": "medio"
     },
     {
       "id": "braque_veil",
-      "status": "descargado",
+      "status": "reutilizado",
       "web": "./imagenes/web/braque_veil.jpg",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "width": 808,
-      "height": 452,
-      "bytes": 79817,
-      "sha256": "8dc656ba88b3090d1017ca69274cdbce54a489bcd13694d98370de1a09d69ad8",
+      "bytes": 79817
+    },
+    {
+      "id": "durieu_1",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_1.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Durieu_1.jpg/1280px-Durieu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1866,
+      "bytes": 769397,
+      "sha256": "a4a6c8bd5a5577b0075b56199e67c8f0835a178494e199397bc9c088b24b8e3b",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "durieu_4",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_4.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Durieu_4.jpg/1280px-Durieu_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1986,
+      "bytes": 473632,
+      "sha256": "91bcf8a5743d92a017b6c6854db7c762964ddb41a870a0373ebf98a85502d2ee",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "durieu_5",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_5.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Durieu_5.jpg/1280px-Durieu_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1758,
+      "bytes": 906048,
+      "sha256": "4c54b459aa574a7306f37655f4f4ef7c9ad4f54599fb18bae2124e5be731ab19",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "durieu_dutch",
+      "status": "descargado",
+      "web": "./imagenes/web/durieu_dutch.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Vrouwelijk_naakt%2C_RP-F-2015-34.jpg/1280px-Vrouwelijk_naakt%2C_RP-F-2015-34.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1678,
+      "bytes": 295998,
+      "sha256": "a81966d903c65ba1f1aa2003d3466bc4392fa33800c2bc0dbe1b2ad6a515142f",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "belloc_sofa_1855",
+      "status": "reutilizado",
+      "web": "./imagenes/web/belloc_sofa_1855.jpg",
+      "bytes": 189989
+    },
+    {
+      "id": "belloc_stereo",
+      "status": "descargado",
+      "web": "./imagenes/web/belloc_stereo.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Auguste_Belloc_daguerreotype_stereo.jpg/1280px-Auguste_Belloc_daguerreotype_stereo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1441,
+      "bytes": 528844,
+      "sha256": "c87f855831848214d0c833b9290bb5df3150bc42c5c00899203ff1c643ebc61d",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "braque_dutch",
+      "status": "descargado",
+      "web": "./imagenes/web/braque_dutch.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg/1280px-Portret_van_een_onbekende_naakte_vrouw%2C_RP-F-F14358-A.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1493,
+      "bytes": 595151,
+      "sha256": "3dcfcf9fa5eeeecfbec0cf656ad971cb6c09b0517fd45a1d013ab614d497b977",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "braque_basket",
+      "status": "descargado",
+      "web": "./imagenes/web/braque_basket.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Femme_au_panier.jpg/1280px-Femme_au_panier.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1945,
+      "bytes": 525878,
+      "sha256": "5a90e1b0cdd123a7d2dc6440d54a90fcefac652223752865deef8e574bcdd618",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "asser_stereo_1855",
+      "status": "descargado",
+      "web": "./imagenes/web/asser_stereo_1855.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Franse_erotische_stereofoto,_RP-F-AB12278-AU.jpg/1280px-Franse_erotische_stereofoto,_RP-F-AB12278-AU.jpg",
+      "width": 1280,
+      "height": 1686,
+      "bytes": 442007,
+      "sha256": "240e06aacb044d364c5740e5f262f5f9b74b3de726540aa6aba36d26365d43b2",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "dutch_tambourine",
+      "status": "descargado",
+      "web": "./imagenes/web/dutch_tambourine.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg/1280px-Portret_van_een_onbekende_halfnaakte_vrouw_met_tamboerijn%2C_RP-F-F14356-A.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1274,
+      "bytes": 564963,
+      "sha256": "7218151a45a756caa6d840b7013cbf17fb59dcc668a07ebaad191c95895a6eb2",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "chauva_studio_1856",
+      "status": "descargado",
+      "web": "./imagenes/web/chauva_studio_1856.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DT1168.jpg",
+      "width": 516,
+      "height": 624,
+      "bytes": 68831,
+      "sha256": "6a3a6b1c6fce851fe092a11191253524df561c64f27b63269aacb3bf7b23560c",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "nadar_draped_1856",
+      "status": "descargado",
+      "web": "./imagenes/web/nadar_draped_1856.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-16448-002.jpg",
+      "width": 414,
+      "height": 624,
+      "bytes": 62992,
+      "sha256": "72779ba9466943c03717d81234823772d7ee8a1406406dedb85d043c10a3c08f",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "braquehais_mirror_1857",
+      "status": "descargado",
+      "web": "./imagenes/web/braquehais_mirror_1857.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP343675.jpg",
+      "width": 502,
+      "height": 625,
+      "bytes": 89002,
+      "sha256": "f0c9c64dddb85b8fd3b5e867351ed2aea82e3bd39c9182743e73a64328fe3c41",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "nadar_1860",
+      "status": "descargado",
+      "web": "./imagenes/web/nadar_1860.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP263575.jpg",
+      "width": 425,
+      "height": 625,
+      "bytes": 52031,
+      "sha256": "475be61ea1024916020aadd35df3e4586304ea7015b8fdaee6de32d2622e36db",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "mask_1870",
+      "status": "descargado",
+      "web": "./imagenes/web/mask_1870.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP263564.jpg",
+      "width": 465,
+      "height": 624,
+      "bytes": 62341,
+      "sha256": "dad3fa9faf4d667766008ba671f6e9bf588fac5a7c00cae9f3f6fc2ea953e86a",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "marconi_back",
+      "status": "descargado",
+      "web": "./imagenes/web/marconi_back.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Marconi%2C_Gaudenzio_%281841-1885%29_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg/1280px-Marconi%2C_Gaudenzio_%281841-1885%29_-_n._0035_-_Mannelijk_academisch_naakt%2C_op_de_rug_gezien%2C_RP-F-1996-258.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1771,
+      "bytes": 457691,
+      "sha256": "8dd62e7fa15c359cfaf07f4eb849a165055e1b5cc3844a070eba644a0305f63b",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "marconi_seated",
+      "status": "descargado",
+      "web": "./imagenes/web/marconi_seated.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Marconi%2C_Gaudenzio_%281841-1885%29_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg/1280px-Marconi%2C_Gaudenzio_%281841-1885%29_-_n._0354_-_Studie_van_een_mannelijk_naaktmodel%2C_zittend_met_het_hoofd_in_de_knie%C3%ABn%2C_van_opzij_gezien%2C_RP-F-2001-4-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1725,
+      "bytes": 530287,
+      "sha256": "ae5f109590bf941c64dc363ae9848d9ba572b7d5b48ccb8d802123991cba4339",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "hat_1870",
+      "status": "descargado",
+      "web": "./imagenes/web/hat_1870.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP149528.jpg",
+      "width": 469,
+      "height": 624,
+      "bytes": 59026,
+      "sha256": "06d389c4e6a0c685bdc4db8379aa301a4301e992d73666e28f6977533c189453",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "rijks_glass_carpet",
+      "status": "descargado",
+      "web": "./imagenes/web/rijks_glass_carpet.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg/1280px-Naakte_vrouw_op_vloerkleed%2C_RP-F-F08306.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 649,
+      "bytes": 163154,
+      "sha256": "7a54b7826395f3de46903d4707fc4a477338840f8456a30107251e66564278d4",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "rijks_glass_mirror",
+      "status": "descargado",
+      "web": "./imagenes/web/rijks_glass_mirror.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg/1280px-Halfnaakte_vrouw_met_spiegel_in_de_hand%2C_RP-F-F08311.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 630,
+      "bytes": 150947,
+      "sha256": "31eece66ea8627345a88d7c754787227c24841a7cea4036717476c4bde109997",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "rijks_glass_room",
+      "status": "descargado",
+      "web": "./imagenes/web/rijks_glass_room.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg/1280px-Halfnaakte_vrouw_in_interieur%2C_RP-F-F08307.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 630,
+      "bytes": 223999,
+      "sha256": "cbd31d33cfe48608030b3c3ac1af0d6e28e07ac44a1d089a2610c0f9989bbbd9",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "marconi_violin",
+      "status": "descargado",
+      "web": "./imagenes/web/marconi_violin.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Marconi_Gaudenzio_-_Nudo_accademico_femminile_con_violino.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "width": 287,
+      "height": 441,
+      "bytes": 38692,
+      "sha256": "2dd75662eb77d78b8cad015cbce38572d663f4acf1e3622e0af0daaaed962604",
       "master": null,
       "quality": "bajo"
     },
     {
-      "id": "belloc_sofa_1855",
+      "id": "eakins_garden",
       "status": "descargado",
-      "web": "./imagenes/web/belloc_sofa_1855.jpg",
-      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
-      "width": 1280,
-      "height": 948,
-      "bytes": 189989,
-      "sha256": "9a0d984f1dffaaa69ced714884d68b1649f7b7ebe2eccf940f311d4f26d96299",
+      "web": "./imagenes/web/eakins_garden.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP335624.jpg",
+      "width": 468,
+      "height": 624,
+      "bytes": 47876,
+      "sha256": "0beb5e621d88ca05a7208572ccc80410e64d5ad627f2b5f2a17a22ef7726600e",
       "master": null,
       "quality": null
+    },
+    {
+      "id": "rijks_sofa_book",
+      "status": "descargado",
+      "web": "./imagenes/web/rijks_sofa_book.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg/1280px-Naakte_vrouw_zittend_op_een_sofa_met_een_boek%2C_RP-F-F10458.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 667,
+      "bytes": 132784,
+      "sha256": "ac8b004cb820eade9fd6056d0bb7446ac26ce04bc734f341d2f5f4cc6ec2cd3d",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "eakins_pipes_1880",
+      "status": "descargado",
+      "web": "./imagenes/web/eakins_pipes_1880.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-1102-001.jpg",
+      "width": 472,
+      "height": 625,
+      "bytes": 72324,
+      "sha256": "2d0d74b95b99accdd4513b9fea7d829993d767cb69a0bd2f08f9e89e4a4ea1ab",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "sambourne_kate",
+      "status": "descargado",
+      "web": "./imagenes/web/sambourne_kate.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kate_Manning_by_Edward_Linley_Sambourne_%281888%29_-_1.jpg/1280px-Kate_Manning_by_Edward_Linley_Sambourne_%281888%29_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 743,
+      "bytes": 275446,
+      "sha256": "56158f54814fba0ecb5e4024e237d1eb976775b82fcd2e2802cbaf4a88339475",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "breitner_jordan_6",
+      "status": "descargado",
+      "web": "./imagenes/web/breitner_jordan_6.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg/1280px-Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 830,
+      "bytes": 246177,
+      "sha256": "d0b11bda0bee794041dddde65d677c391309861e6b3d00127936204171901a9d",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "breitner_jordan_7",
+      "status": "descargado",
+      "web": "./imagenes/web/breitner_jordan_7.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg/1280px-Marie_Jordan_naakt_liggend_op_een_bed%2C_RP-F-BR-1999-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1077,
+      "bytes": 302677,
+      "sha256": "7787a256fc98c5a2475fcc5f22435cf61e67ee4e98bcf055207e269957a0dd60",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "breitner_jordan_1",
+      "status": "descargado",
+      "web": "./imagenes/web/breitner_jordan_1.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1285,
+      "bytes": 377815,
+      "sha256": "80b95b9ce6e18a1b0309a51b6eb164f966821b3db4f2609e4938a2eed2a07877",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "breitner_jordan_2",
+      "status": "descargado",
+      "web": "./imagenes/web/breitner_jordan_2.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1458,
+      "bytes": 359249,
+      "sha256": "21b13063c91dbba67db333b3cac0bfde3b6df34d9aae9eb8e2a06939e31e6ff8",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "breitner_jordan_3",
+      "status": "descargado",
+      "web": "./imagenes/web/breitner_jordan_3.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg/1280px-Marie_Jordan_naakt_op_de_rug_gezien%2C_RP-F-BR-1999-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1454,
+      "bytes": 383137,
+      "sha256": "8dec8787ddd5bdf485be3dc04d25c8d120363cf6a6a924d82116351442cf504e",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "eakins_bill_1889",
+      "status": "descargado",
+      "web": "./imagenes/web/eakins_bill_1889.jpg",
+      "source": "https://images.metmuseum.org/CRDImages/ph/web-large/DP331827.jpg",
+      "width": 589,
+      "height": 624,
+      "bytes": 71547,
+      "sha256": "2cba32749cec34b810cb59e5f358639833d3304cf3e9919e0a8fe485d8d805ad",
+      "master": null,
+      "quality": null
+    },
+    {
+      "id": "canellas_mirror",
+      "status": "descargado",
+      "web": "./imagenes/web/canellas_mirror.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nude_before_a_mirror_ca._1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "width": 331,
+      "height": 500,
+      "bytes": 46837,
+      "sha256": "6f8b5deda4e887506d1ddbbc8d70321e92bbe22d58741a5415d36a21769acfe6",
+      "master": null,
+      "quality": "bajo"
+    },
+    {
+      "id": "canellas_gate",
+      "status": "descargado",
+      "web": "./imagenes/web/canellas_gate.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Untitled%2C_Nude_standing_by_an_iron_gate_Albumen_print%2C_ca._1890.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "width": 361,
+      "height": 500,
+      "bytes": 42987,
+      "sha256": "8ad40221b625fb78ae228b1734af8cdd865893c1ab9b1b20d7437c2020a919d3",
+      "master": null,
+      "quality": "bajo"
+    },
+    {
+      "id": "sambourne_pettigrew_4b",
+      "status": "descargado",
+      "web": "./imagenes/web/sambourne_pettigrew_4b.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_%281891%29_-_4b.jpg/1280px-Hetty_and_Lily_Pettigrew_by_Edward_Linley_Sambourne_%281891%29_-_4b.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 2107,
+      "bytes": 972326,
+      "sha256": "25d84e4477b0f3f5343127ab35b7ab55fa866dda423771db2de123b14329d0e3",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "sambourne_maude_1",
+      "status": "descargado",
+      "web": "./imagenes/web/sambourne_maude_1.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Maude_Easton_by_Edward_Linley_Sambourne_%281891%29_-_1.jpg/1280px-Maude_Easton_by_Edward_Linley_Sambourne_%281891%29_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 2146,
+      "bytes": 445073,
+      "sha256": "d7b4989aec993324f008b0ae9a845b061c51b23becd1836981af5226f2ad35d2",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "sambourne_maude_costume",
+      "status": "descargado",
+      "web": "./imagenes/web/sambourne_maude_costume.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg/1280px-Maude_Easton_in_Folly_Costume_by_Edward_Linley_Sambourne_(1891).jpeg",
+      "width": 1280,
+      "height": 1778,
+      "bytes": 929261,
+      "sha256": "4daa19cda5a1b6013052dd9804c5031d20e8a7a820c325035cb6a7b2fccd415f",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "frank_eugene_adam",
+      "status": "descargado",
+      "web": "./imagenes/web/frank_eugene_adam.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Adam_and_Eve_MET_DP263573.jpg/1280px-Adam_and_Eve_MET_DP263573.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1767,
+      "bytes": 660254,
+      "sha256": "749d15f1efe0dd9fc481b597c5ac90251bb0f81fd7590e92d86377799601f9af",
+      "master": null,
+      "quality": "alto"
+    },
+    {
+      "id": "frank_eugene_cloud",
+      "status": "descargado",
+      "web": "./imagenes/web/frank_eugene_cloud.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Great_White_Cloud_MET_DP275752.jpg/1280px-The_Great_White_Cloud_MET_DP275752.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "width": 1280,
+      "height": 1581,
+      "bytes": 551064,
+      "sha256": "934a3cd01527ee7ac79b39d6c25fa9ac2ccb3111e6cbe4cb682fa402a0f891c4",
+      "master": null,
+      "quality": "alto"
     }
   ],
   "failures": [
     {
-      "id": "stereo",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too Many Requests (015d12c)",
-        "HTTP Error 429: Too Many Requests (015d12c)"
-      ]
-    },
-    {
-      "id": "danae",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too Many Requests (015d12c)",
-        "HTTP Error 429: Too Many Requests (015d12c)"
-      ]
-    },
-    {
-      "id": "mirror",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too Many Requests (015d12c)",
-        "HTTP Error 429: Too Many Requests (015d12c)"
-      ]
-    },
-    {
-      "id": "seated",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too Many Requests (015d12c)",
-        "HTTP Error 429: Too Many Requests (015d12c)"
-      ]
-    },
-    {
-      "id": "met_squat",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too Many Requests (015d12c)",
-        "HTTP Error 429: Too Many Requests (015d12c)"
-      ]
-    },
-    {
-      "id": "durieu_nude_1851",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou_reclining_1851",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
       "id": "olivier_hammock",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too Many Requests (015d12c)"
       ]
     },
     {
       "id": "olivier_column",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too Many Requests (015d12c)"
       ]
     },
     {
       "id": "olivier_three",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too Many Requests (015d12c)"
       ]
     },
     {
       "id": "olivier_bed",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu_study_1853",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou2",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou_standing_1853",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou_9",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "vallou_2",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu_1",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu_4",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu_5",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "durieu_dutch",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)"
       ]
     },
     {
       "id": "vallou_academic",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "belloc_stereo",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "braque_dutch",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "braque_basket",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "asser_stereo_1855",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)"
       ]
     },
     {
       "id": "durieu_012",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "dutch_tambourine",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
         "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
@@ -277,63 +705,8 @@
       "id": "olivier_009",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "chauva_studio_1856",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "nadar_draped_1856",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "braquehais_mirror_1857",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "nadar_1860",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "mask_1870",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "marconi_back",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "marconi_seated",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
         "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
@@ -341,229 +714,59 @@
       "id": "marconi_stage",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
         "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "hat_1870",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "rijks_glass_carpet",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "rijks_glass_mirror",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "rijks_glass_room",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "marconi_violin",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "eakins_garden",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "rijks_sofa_book",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "eakins_pipes_1880",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "sambourne_kate",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "breitner_jordan_6",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "breitner_jordan_7",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
-      ]
-    },
-    {
-      "id": "breitner_jordan_1",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "breitner_jordan_2",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "breitner_jordan_3",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "eakins_bill_1889",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "canellas_mirror",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
       ]
     },
     {
       "id": "canellas_bench",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
     {
       "id": "canellas_rock",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "canellas_gate",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
     {
       "id": "canellas_moorish",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "sambourne_pettigrew_4b",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
     {
       "id": "sambourne_pettigrew_5",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "sambourne_maude_1",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "sambourne_maude_costume",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     },
     {
       "id": "frank_eugene_hortensia",
       "status": "error",
       "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "frank_eugene_adam",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
-      ]
-    },
-    {
-      "id": "frank_eugene_cloud",
-      "status": "error",
-      "reasons": [
-        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
-        "HTTP Error 429: Too many requests (f061ab2)"
+        "HTTP Error 429: Your request does not comply with our robot policy, https://w.wiki/4wJS. Please contact noc@wikimedia.org for further information (0fa5166)",
+        "HTTP Error 404: Not Found",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
       ]
     }
   ],
-  "downloaded_count": 3,
-  "failures_count": 65,
+  "downloaded_count": 55,
+  "failures_count": 13,
   "book_images_total": 68,
   "hosted_only_if_deployed": true
 }
