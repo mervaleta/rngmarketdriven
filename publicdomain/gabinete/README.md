@@ -108,3 +108,15 @@ Descargar los originales desde las fichas individuales, confirmar integridad y r
 - Objetivo a largo plazo: **80–100 fotografías diferentes**, con licencia, calidad y documentación individual. La actual relación entre páginas fotográficas y fotografías distintas muestra por qué hay que seguir ampliando el corpus.
 - Fuentes detalladas en `libro.json`; tareas y limitaciones de producción en `produccion.json`. Imágenes por URL externa, aún no copiadas como archivos maestros al servidor.
 - Versión esperada en la cabecera: `GABINETE · V0.6.0 · ROSA/BORDÓ`. Manifestación: `SIGLO23-GABINETE-20261106-V0.6.0`. No hay confirmación de despliegue automático de GitHub a Hostinger.
+
+
+## v0.7.0 — Una foto, una lámina; excepción para tapa y capítulos (6/11/2026)
+
+- **72 páginas**, **25 fotografías distintas + 1 dibujo de Delacroix**. Los 26 objetos aparecen exactamente **una vez en el interior**: duplicados interiores comprobados = **0**.
+- Se permiten las reutilizaciones en **tapa y aperturas de capítulo**, por su función visual: actualmente 9 portadas y aperturas muestran fotografías que también pueden aparecer en las láminas.
+- **15 páginas de hechos históricos**, **1 cronología** y **26 láminas acompañadas por una curiosidad/documentación breve**. Las fuentes históricas se incluyen como URLs en las fichas y las páginas de datos.
+- Se eliminaron del cuerpo los dípticos y mosaicos que repetían fotografías ya publicadas como láminas individuales; sus textos completos quedan preservados en `contextos-investigacion-v06.json`, fuera de las páginas del libro.
+- La interfaz muestra un contador de duplicaciones interiores y **bloquea la asignación accidental** de una fotografía ya usada fuera de tapa/apertura. Al duplicar una página interior, se copian sus textos pero no su imagen.
+- Los capítulos continúan en recto impar: folios **11, 15, 21, 33, 37, 45, 57, 61**; la tapa sigue sola a la derecha en la grilla y la vista de pliegos.
+- **Pendiente importante:** ampliar de 25 fotografías únicas a una colección más rica. La depuración reduce el número de páginas, no representa un incremento del corpus visual. También siguen pendientes la descarga y archivo de los originales, la verificación de procedencia/edad/derechos y el despliegue en Hostinger.
+- Marcador de publicación esperado: `GABINETE · V0.7.0 · ROSA/BORDÓ` y `SIGLO23-GABINETE-20261106-V0.7.0` en `version.json`.
