@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#162328">
 <meta name="description" content="Estudio interactivo de maquetación para la edición crítica de El individuo contra el Estado de Herbert Spencer: cubierta, páginas, márgenes, tipografía, extras y paginación orientativa.">
 <title>Maquetación · Herbert Spencer — Editorial Siglo23</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"><link rel="stylesheet" href="./editor.css?v=1.8.0">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"><link rel="stylesheet" href="./editor.css?v=1.8.0"><link rel="stylesheet" href="./estudio-theme.css?v=1">
 <style>
 .view-switch{max-width:min(100%,900px);overflow-x:auto;scrollbar-width:thin;scrollbar-color:#84928a #1c2d30}
 .view-switch button{white-space:nowrap;flex:none}
@@ -24,16 +24,22 @@
     <a href="../">← Dossier de Spencer</a>
     <a href="../indice-onomastico/">Onomástico</a><a href="../indice-analitico/">Analítico</a><a href="../indice-obras/">Obras citadas</a>
     <a href="../../">Panel editorial</a>
-    <span class="status">PREPRODUCCIÓN · V1.9</span>
+    <span class="status">PREPRODUCCIÓN · M09 + M10 BETA</span>
     <button id="printProof" class="action primary" type="button">Imprimir prueba / PDF ↗</button>
   </div>
 </header>
 <div class="titlebar">
   <div><div class="eyebrow">Laboratorio editorial · páginas y cubierta</div><h1>Diseñador de maquetación</h1>
     <p>El libro completo en pliegos, con biografía completa, aperturas de capítulo a doble página, cuatro prefacios de lectura y ajustes finos de tipografía.</p></div>
-  <span class="version">M09 · BIOGRAFÍA INTEGRADA</span>
+  <span class="version">M10 · PREPRENSA EXPERIMENTAL</span>
 </div>
 <div class="app-intro-note">La grilla incluye automáticamente la <strong>transcripción completa en inglés de 1884</strong>, dividida en prefacio, cuatro ensayos y posdata. La biografía, el estudio introductorio y el epílogo ya tienen sus manuscritos completos y suman páginas a la grilla. La distribución sigue siendo aproximada. Los ejemplos textuales y folios son ilustrativos.</div>
+<nav class="protools" aria-label="Herramientas profesionales">
+<strong>EDICIÓN PROFESIONAL · M10</strong>
+<a class="primary" href="./preprensa.html" title="Composición real del interior con Paged.js">Componer páginas reales · Paged.js</a>
+<a href="../../estudio/" title="Panel de los proyectos Siglo23">Todos los proyectos</a>
+<span>La grilla actual conserva la paginación estimada; el laboratorio calcula la composición en un documento separado.</span>
+</nav>
 <div class="workspace">
   <aside class="inspector" aria-label="Controles de composición">
     <div class="pane-head"><h2>Propiedades</h2><small>mm / pt</small></div>
@@ -113,7 +119,14 @@
       </label>
       <p class="help">Este campo sirve para probar el diseño de material complementario. El texto principal del libro se carga desde la transcripción inglesa completa de 1884; no depende de este relleno.</p>
     </details>
-    <div class="rule"></div>
+    <details class="pro-audit" open id="s23Audit">
+<summary>CONTROL EDITORIAL Y PREPRENSA · M10</summary>
+<p id="s23AuditStatus" role="status">Preparando diagnóstico de fuentes, imágenes, índices y formato…</p>
+<ul id="s23AuditResults"><li>Comprobando manuscritos…</li></ul>
+<button type="button" id="s23AuditExport">Exportar informe JSON</button>
+<small>Esta lista es preventiva: la aprobación final exige control de galeradas, perfiles de color, especificación de imprenta y PDF/X.</small>
+</details>
+<div class="rule"></div>
     <div class="block-actions">
       <button id="exportPlan" type="button">Guardar plan JSON ↓</button>
       <label for="importPlan" class="action" style="display:inline-flex;align-items:center;font-size:11px;padding:8px 10px">Importar JSON ↑</label>
@@ -224,6 +237,6 @@
     <p class="planning-note">Quedan fuera del cálculo: corrección ortotipográfica, calidad de reproducción de imágenes, tablas reales, saltos manuales de párrafos, pruebas de papel, normativas de cada plataforma y paginación final del manuscrito. La impresión ofrecida es una prueba visual, no un interior de producción.</p>
   </aside>
 </div>
-<script src="./editorial-assets.js?v=1.6.0" defer></script><script src="./chapter-notes.js?v=1.8.0" defer></script><script src="./editor.js?v=1.9.0" defer></script><script src="./overview.js?v=1.8.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script><script src="./editorial-loader.js?v=1.9.0" defer></script><script src="./indices-layout.js?v=1.5.0" defer></script><script src="./indices-loader.js?v=1.5.0" defer></script>
+<script src="./editorial-assets.js?v=1.6.0" defer></script><script src="./chapter-notes.js?v=1.8.0" defer></script><script src="./editor.js?v=1.9.0" defer></script><script src="./overview.js?v=1.8.0" defer></script><script src="./original-loader.js?v=1.2.0" defer></script><script src="./editorial-loader.js?v=1.9.0" defer></script><script src="./indices-layout.js?v=1.5.0" defer></script><script src="./indices-loader.js?v=1.5.0" defer></script><script src="./estudio-audit.js?v=1" defer></script>
 </body>
 </html>
