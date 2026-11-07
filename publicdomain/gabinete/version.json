@@ -1,37 +1,44 @@
 {
   "project": "El gabinete prohibido",
-  "version": "0.7.0",
-  "marker": "SIGLO23-GABINETE-20261106-V0.7.0",
-  "updated": "2026-11-06",
-  "expectedPages": 72,
-  "expectedImages": 26,
+  "version": "0.8.0",
+  "marker": "SIGLO23-GABINETE-20261107-V0.8.0",
+  "updated": "2026-11-07",
+  "expectedPages": 62,
+  "expectedImages": 19,
   "requiredFiles": [
     "index.html",
     "editor.css",
     "editor.js",
     "libro.json"
   ],
-  "status": "Actualización confirmada en repositorio; despliegue de Hostinger no verificado",
+  "status": "GitHub actualizado, Hostinger no verificado",
   "theme": "rosa-bordo-negro-blanco",
   "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
   "chapterFolios": [
     11,
     15,
     21,
-    33,
-    37,
-    45,
-    57,
-    61
+    31,
+    35,
+    43,
+    49,
+    53
   ],
   "firstSpread": "Izquierda vacía y tapa derecha; siguiente pliego páginas 2 (izq) y 3 (der)",
   "sourceAssets": "Archivos de Wikimedia Commons por URL, no alojados localmente",
-  "distinctPhotographs": 25,
+  "distinctPhotographs": 19,
   "contextDrawings": 1,
   "photoPages": 79,
-  "editorialMode": "Fotolibro sin fotografías repetidas en interiores; reiteración permitida en tapa y aperturas",
-  "documentaryDrawings": 1,
-  "uniqueInteriorAssets": 26,
+  "editorialMode": "Fotolibro de arte del desnudo sensual/erótico 270×340 mm",
+  "documentaryDrawings": 0,
+  "uniqueInteriorAssets": 19,
   "duplicateInteriorAssets": 0,
-  "archivedContextFile": "contextos-investigacion-v06.json"
+  "archivedContextFile": "contextos-investigacion-v06.json",
+  "printSize_mm": [
+    270,
+    340
+  ],
+  "newCandidateRecords": 12,
+  "candidatesIntegrated": 0,
+  "sourceOfTruth": "direccion-editorial-lujo.md"
 }
