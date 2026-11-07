@@ -87,7 +87,7 @@ try{
  assert.equal(cover.toolbar,result.pages,'Cada página debe tener botón propio de edición');
  assert.ok(cover.layers>=6,'Tapa y contratapa deben incluir cajas editables de texto');
  assert.equal(cover.firstFlowHidden,true,'La portada debe usar sus cajas editables');
- await page.click('[data-s23-key="cover:front"] .s23-edit-toggle');
+ await page.click('[data-page-key="cover:front"] .s23-edit-toggle');
  await page.waitForFunction(()=>!document.querySelector('#pageLayerInspector').hidden);
  const otherEditing=await page.evaluate(()=>document.querySelectorAll('.s23-edit-mode').length);
  assert.equal(otherEditing,1,'Solo se edita una página por vez');
