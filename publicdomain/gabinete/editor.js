@@ -34,13 +34,15 @@ function syncVars(){
  $("#printCss").textContent="@media print{@page{size:"+o.w+"mm "+o.h+"mm;margin:0}}";
 }
 function pageHtml(pg,idx){
- var im=imgById(pg.image),t=esc(pg.title),section=esc(pg.section),body=nl(pg.body),css="page-actual kind-"+esc(pg.kind)+" "+(idx%2?"verso":"recto");
+ var im=imgById(pg.image),t=esc(pg.title),section=esc(pg.section),body=nl(pg.body),css="page-actual kind-"+esc(pg.kind)+(pg.role==="back"?" back-cover":"")+" "+(idx%2?"verso":"recto");
  var outer='<article class="'+css+'" data-page="'+idx+'">';
  if(pg.kind==="blank"){ /* Página física deliberadamente vacía: retiración, dedicatorias o ajuste a recto. */
  }else if(pg.kind==="reserved"){
   outer+='<div class="page-inner reserved-inner"><span class="kicker">'+section+'</span><h2>'+t+'</h2></div>';
  }else if(pg.kind==="credits"){
   outer+='<div class="page-inner credits-inner"><span class="kicker">'+section+'</span><h2>'+t+'</h2><div class="body-text">'+body+'</div></div>';
+ }else if(pg.kind==="cover"&&pg.role==="back"){
+  outer+='<div class="cover-copy back-cover-copy"><div class="imprint">SIGLO23 · ARCHIVOS DE LA MIRADA</div><div><h2>'+t+'</h2><div class="cover-sub">'+esc(pg.body||"")+'</div></div><div class="era">'+esc(pg.sub||"") +' · CONTRATAPA DE PRUEBA</div></div>';
  }else if(pg.kind==="cover"){
   outer+='<div class="cover-hero">'+imgTag(im,"",pg.title,"eager")+'</div><div class="cover-copy"><div class="imprint">SIGLO 23 · ARCHIVOS DE LA MIRADA</div><div><h2>'+t+'</h2><div class="cover-sub">'+esc(pg.body)+'</div></div><div class="era">'+esc(pg.sub||"1840–1900")+'</div></div>';
  }else if(pg.kind==="chapter"){
@@ -70,7 +72,7 @@ function pageHtml(pg,idx){
   if(pg.sub)outer+='<p class="deck">'+esc(pg.sub)+'</p>';
   outer+='<div class="body-text">'+body+'</div></div>';
  }
- if(idx>0&&!["image","chapter","blank","credits","reserved"].includes(pg.kind))outer+='<div class="folio">'+(idx+1)+'</div>';
+ if(idx>0&&!["image","chapter","blank","credits","reserved","cover"].includes(pg.kind))outer+='<div class="folio">'+(idx+1)+'</div>';
  outer+='</article>';return outer;
 }
 function placePg(pg,idx,scale,extraClass){
