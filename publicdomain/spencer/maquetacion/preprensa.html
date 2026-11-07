@@ -50,7 +50,7 @@
  <p class="small">Después de componer, cada página —incluidas tapa y contratapa— tiene <strong>Cargar fondo</strong> y <strong>Editar página</strong>. Solo la página activada muestra sus controles de texto. Los archivos originales se guardan en tu navegador.</p>
  <label>Asignar varias imágenes de una vez <input type="file" id="pageBatchImages" multiple accept="image/jpeg,image/png,image/webp,image/avif"></label>
  <p class="small">Nombres reconocidos: <code>tapa.jpg</code>, <code>contratapa.png</code>, <code>p001.jpg</code>, <code>pagina023.webp</code>. El número corresponde al folio visible; no se inspeccionan carpetas sin autorización.</p>
- <div class="buttons"><button type="button" id="pageExportLayers">Exportar proyecto con imágenes</button><button type="button" id="pageImportLayersButton" onclick="document.getElementById('pageImportLayers').click()">Importar respaldo</button><input type="file" id="pageImportLayers" accept=".json,application/json" hidden></div>
+ <div class="buttons"><button type="button" id="pageExportLayers">Exportar proyecto con imágenes</button><button type="button" id="pageImportLayersButton">Importar respaldo</button><input type="file" id="pageImportLayers" accept=".json,application/json" hidden></div>
  <p id="pageLayerStatus" class="small" role="status">Componé las páginas para poder agregar imágenes y cajas.</p>
  <div id="pageLayerInspector" hidden>
   <p class="warn"><strong id="pageLayerSelection">Página</strong> · Los marcos de texto de esta hoja se editan individualmente. El texto maestro se conserva en el documento.</p>
