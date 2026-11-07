@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - ".github/workflows/siglo23-preprensa-browser.yml"
+      - "publicdomain/spencer/maquetacion/tests/browser-preprensa.mjs"
 permissions:
   contents: read
 jobs:
