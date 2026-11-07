@@ -137,6 +137,11 @@ function tableContents(sections){
  .filter(s=>!(['prologue','context'].includes(s.id)&&!sourceText(s.id)))
  .map(s=>'<li><a href="#'+esc(s.id)+'">'+esc(s.name||titleFor(s.id))+'</a></li>').join('');
 }
+function coverLeaf(kind){
+ const t=esc(saved.title||'El individuo contra el Estado'),a=esc(saved.author||'Herbert Spencer'),imprint=esc(saved.imprint||'SIGLO23');
+ if(kind==='front')return '<section class="book-cover s23-front-cover" id="s23-tapa"><small>'+imprint+' · CLÁSICOS</small><h1>'+t+'</h1><h2>'+a+'</h2><span>EDICIÓN CRÍTICA E ILUSTRADA · TAPA DE PRUEBA</span></section>';
+ return '<section class="book-cover s23-back-cover" id="s23-contratapa"><small>'+imprint+' · CLÁSICOS</small><h2>'+t+'</h2><p>Los ensayos de Herbert Spencer publicados en 1884, acompañados por un aparato editorial de lectura y fuentes históricas.</p><p class="s23-cover-status">Texto preliminar de contratapa, pendiente de aprobación editorial.</p><span>EDITORIAL SIGLO23</span></section>';
+}
 function bookHTML(){
  const sections=Array.isArray(saved.sections)&&saved.sections.length?saved.sections:fallbackSections;
  const originalMap=new Map((book?.chapters||[]).map(x=>[x.id,x]));
@@ -169,19 +174,22 @@ function bookHTML(){
   output+=sectionBlock(id,name,paras(raw,!chapter),!essay&&s.recto,'reading '+(essay&&$('opening').checked?'essay-after-opening':''));
   output+=figureParts(id);
  }
- return output;
+ return coverLeaf('front')+output+coverLeaf('back');
 }
 function makeCSS(){
  const c=config,px=v=>Math.max(0,Number(v))+'mm',w=px(c.width),h=px(c.height);
  const font=saved.font&&saved.font.startsWith('Montserrat')?'Montserrat,Arial,sans-serif':'Georgia,Times New Roman,serif';
  const heading=saved.headingFont&&saved.headingFont.startsWith('Montserrat')?'Montserrat,Arial,sans-serif':'Georgia,Times New Roman,serif';
- return '@page{size:'+w+' '+h+';margin:'+px(c.top)+' '+px(c.outer)+' '+px(c.bottom)+' '+px(c.inner)+';@bottom-center{content:counter(page);font:8pt Georgia;color:#777}}'
+ return '@page cover{size:'+w+' '+h+';margin:0;@bottom-left{content:none}@bottom-right{content:none}@bottom-center{content:none}}'
+ + '@page{size:'+w+' '+h+';margin:'+px(c.top)+' '+px(c.outer)+' '+px(c.bottom)+' '+px(c.inner)+';@bottom-center{content:counter(page);font:8pt Georgia;color:#777}}'
  +'@page :left{margin-left:'+px(c.outer)+';margin-right:'+px(c.inner)+';@bottom-left{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
  +'@page :right{margin-left:'+px(c.inner)+';margin-right:'+px(c.outer)+';@bottom-right{content:counter(page);font:8pt Georgia;color:#777}@bottom-center{content:none}}'
  +'@page :blank{@bottom-left{content:none}@bottom-right{content:none}@bottom-center{content:none}}'
  +'@page :first{@bottom-center{content:none}}'
  +'*{box-sizing:border-box}.pagedjs_page{color:#292822;background:#fff;font-family:'+font+'}.book-section,.front,.opening-left,.opening-right{color:#292822}'
  +'.book-section{break-before:page;page-break-before:always}.book-section.recto,.front.recto,.plate.recto{break-before:right}'
+  +'.book-cover{page:cover;display:flex;flex-direction:column;align-items:center;justify-content:space-around;text-align:center;box-sizing:border-box;width:'+w+';height:'+h+';padding:20mm 17mm;background:#243d52;color:#f6e6c9;break-after:page;overflow:hidden}'
+  +'.book-cover h1{font:normal 30pt/1.17 '+heading+';margin:10mm 0 3mm}.book-cover h2{font:normal 17pt/1.25 '+heading+';margin:4mm 0}.book-cover small,.book-cover span{font:700 8pt Montserrat,Arial;letter-spacing:.19em}.book-cover p{max-width:90%;font:11pt/1.55 Georgia}.book-cover .s23-cover-status{font:italic 8.5pt/1.5 Georgia;color:#dfc9a4}.book-cover.s23-back-cover{break-before:left;background:#21364b}'
  +'.book-section h1{font:normal 21pt/1.22 '+heading+';margin:12mm 0 7mm;text-align:center;break-after:avoid}'
  +'.book-section h2{font:normal 14pt/1.3 '+heading+';margin:6mm 0 2mm;break-after:avoid}'
  +'.book-section h3{font:bold 10pt/1.3 '+heading+';margin:2mm 0 1mm;break-after:avoid}'

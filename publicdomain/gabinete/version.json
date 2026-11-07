@@ -1,9 +1,9 @@
 {
   "project": "El gabinete prohibido",
-  "version": "1.2.0",
-  "marker": "SIGLO23-GABINETE-20261107-V1.2.0",
+  "version": "1.3.0-preprensa",
+  "marker": "SIGLO23-GABINETE-20261107-V1.3-STUDIO2",
   "updated": "2026-11-07",
-  "expectedPages": 146,
+  "expectedPages": 148,
   "expectedImages": 68,
   "requiredFiles": [
     "index.html",
@@ -11,9 +11,9 @@
     "editor.js",
     "libro.json"
   ],
-  "status": "v1.2.0 actualizada en GitHub; páginas narrativas integradas. Hostinger requiere verificación de despliegue (v1.1.0 fue última verificada).",
+  "status": "Upgrade v1.3 preparado en rama: primera tapa y contratapa final, Studio Kit v2; no validado en Hostinger ni certificado PDF/X.",
   "theme": "rosa-bordo-negro-blanco",
-  "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5",
+  "frontmatter": "Tapa recto 1, retiración 2, dedicatorias 3, verso 4, portadilla 5 · dos páginas de cierre añadidas (retiración + contratapa física)",
   "chapterFolios": [
     11,
     17,
@@ -79,5 +79,21 @@
     "pudor e intimidad"
   ],
   "chapterPattern": "6 capítulos cronológicos + 2 ensayos de cierre",
-  "newEditorialCaptions": 46
+  "newEditorialCaptions": 46,
+  "studioKit": {
+    "version": "2.0",
+    "commonTools": [
+      "Libro completo",
+      "Pliego",
+      "Tapa",
+      "Contratapa",
+      "Revisar desbordes",
+      "Informe JSON",
+      "Guardar proyecto",
+      "Importar proyecto",
+      "Prueba PDF"
+    ],
+    "theme": "#4a203a",
+    "lastPage": "Contratapa 148"
+  }
 }

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap">
-<link rel="stylesheet" href="./editor.css?v=1.2.0">
+<link rel="stylesheet" href="./editor.css?v=1.3.0">
 <style id="printCss"></style>
 </head>
 <body>
@@ -19,7 +19,7 @@
   <div class="top-actions">
     <a href="../../" title="Volver a los candidatos de dominio público">← Panel Siglo23</a>
     <a href="../spencer/maquetacion/" title="Comparar con el taller de Herbert Spencer">Estudio Spencer</a>
-    <span class="version">GABINETE · V1.2.0 · ROSA/BORDÓ</span><span class="unique-policy"><strong>1 vez</strong> por fotografía interior</span>
+    <span class="version">GABINETE · V1.3 EXPERIMENTAL · BORDÓ</span><span class="unique-policy"><strong>1 vez</strong> por fotografía interior</span>
     <button id="downloadJSON" type="button">Guardar proyecto ↓</button>
     <button id="importJSON" type="button">Importar JSON ↑</button>
     <button id="printProof" type="button" class="primary" title="Imprime una prueba visual; aún no es el PDF definitivo">Prueba de impresión / PDF ↗</button>
@@ -29,7 +29,7 @@
   <div>
     <div class="eyebrow">Laboratorio editorial · Maquetación y estudio histórico</div>
     <h1>El gabinete prohibido <em>— edición de trabajo</em></h1>
-    <p>Una historia del cuerpo, la luz y el secreto: la evolución del desnudo fotográfico entre el prodigio técnico, la invención estética y el pudor. Seis capítulos cronológicos, dos ensayos finales, 146 páginas y 68 fotografías. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
+    <p>Una historia del cuerpo, la luz y el secreto: la evolución del desnudo fotográfico entre el prodigio técnico, la invención estética y el pudor. Seis capítulos cronológicos, dos ensayos finales, 148 páginas y 68 fotografías. Seleccioná una página, cambiá los textos o el orden y guardá un respaldo para continuar la edición.</p>
   </div>
   <div class="small-status">EDICIÓN FÍSICA DE LUJO · 27 × 34 CM · EN CURADURÍA</div>
 </section>
@@ -142,6 +142,7 @@
 <input type="file" id="fileInput" accept="application/json,.json">
 <div id="printRoot" aria-hidden="true"></div>
 <div id="toast" role="status" hidden></div>
-<script src="./editor.js?v=1.2.0" defer></script>
+<script src="./editor.js?v=1.3.0" defer></script>
+<script src="./estudio-comun.js?v=2.0" data-project="gabinete" defer></script>
 </body>
 </html>

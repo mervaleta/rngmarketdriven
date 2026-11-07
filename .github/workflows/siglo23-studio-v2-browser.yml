@@ -1,0 +1,50 @@
+name: Siglo23 Studio v2 - prueba de editor
+on:
+  push:
+    paths:
+      - "**/estudio-comun.js"
+      - "**/overview.js"
+      - "**/libro.json"
+      - "**/maquetacion/index.html"
+      - "**/editor.css"
+      - "**/s23-studio-v2.mjs"
+      - ".github/workflows/siglo23-studio-v2-browser.yml"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Preparar Chromium y Puppeteer
+        shell: bash
+        run: |
+          echo "CHROME_BIN=$(which google-chrome || which google-chrome-stable || which chromium || which chromium-browser)" >> "$GITHUB_ENV"
+          npm install --no-save --no-package-lock --ignore-scripts puppeteer-core@24
+      - name: Iniciar servidor local para probar los archivos de la rama
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/s23-server.log 2>&1 &
+          sleep 2
+      - name: Probar Spencer Studio
+        env:
+          S23_PROJECT: spencer
+          S23_URL: http://127.0.0.1:8765/publicdomain/spencer/maquetacion/index.html
+        run: node publicdomain/tests/s23-studio-v2.mjs
+      - name: Probar Gabinete Studio
+        env:
+          S23_PROJECT: gabinete
+          S23_URL: http://127.0.0.1:8765/publicdomain/gabinete/index.html
+        run: node publicdomain/tests/s23-studio-v2.mjs
+      - name: Adjuntar capturas de navegador
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: estudio-v2
+          path: s23-studio-*.png
+          if-no-files-found: ignore
