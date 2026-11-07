@@ -1,7 +1,7 @@
 
 (function(){
 "use strict";
-var KEY="siglo23-gabinete-editor-v5",LEGACY_KEY="siglo23-gabinete-editor-v4";
+var KEY="siglo23-gabinete-editor-v6",LEGACY_KEY="siglo23-gabinete-editor-v5";
 var state={doc:null,candidates:[],view:"grid",active:0,loaded:false,opts:{w:270,h:340,fontSize:11.75,leading:1.48,inner:24,outer:23,top:27,bottom:25,thumb:150,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
