@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "fecha": "2026-11-07",
+  "images": [
+    {
+      "id": "M001",
+      "path": "M001.jpg",
+      "bytes": 1374925,
+      "dimensions": [
+        1900,
+        1464
+      ],
+      "url_origen": "https://images.metmuseum.org/CRDImages/dp/original/DP808184.jpg",
+      "uso": "Met Open Access / objeto de dominio publico"
+    },
+    {
+      "id": "M008",
+      "path": "M008.jpg",
+      "bytes": 1580022,
+      "dimensions": [
+        1900,
+        1516
+      ],
+      "url_origen": "https://images.metmuseum.org/CRDImages/dp/original/DP824513.jpg",
+      "uso": "Met Open Access / objeto de dominio publico"
+    }
+  ],
+  "tafereel": [],
+  "errors": [
+    "M015: 404 Client Error: Not Found for url: https://tile.loc.gov/storage-services/service/pnp/cph/3b50000/3b52004v.jpg",
+    "M017: 429 Client Error: Too Many Requests for url: https://tile.loc.gov/storage-services/service/pnp/ppmsca/25800/25884v.jpg"
+  ]
+}
