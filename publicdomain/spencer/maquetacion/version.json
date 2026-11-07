@@ -121,6 +121,33 @@
         "Imágenes a sangre y másteres de impresión por verificar",
         "Sin confirmación de despliegue en Hostinger"
       ]
+    },
+    "M11-capas-por-pagina": {
+      "date": "2026-11-07",
+      "state": "experimental-en-validacion",
+      "files": [
+        "page-designer.js",
+        "page-designer.css",
+        "README-CAPAS-POR-PAGINA.md"
+      ],
+      "features": [
+        "Tapa como página visual 1 y contratapa como última página",
+        "Reversos de cubiertas y pliegos enfrentados",
+        "Botón de edición independiente en cada página",
+        "Subida de imagen por página y asociación por nombre de archivo",
+        "Imágenes completas y metadatos guardados en IndexedDB del navegador",
+        "Cajas de texto de tapa/contratapa y personalizadas: arrastrables y redimensionables desde ocho bordes",
+        "Inspector de texto, tipografía, encuadre y controles para ocultar texto original",
+        "Advertencia de desborde en marcos manuales",
+        "Respaldo JSON con capas e imágenes para transportar el proyecto"
+      ],
+      "limitations": [
+        "Originales de imagen y cambios se guardan solo en el navegador del usuario",
+        "Las cajas convertidas desde Paged.js no se repaginan automáticamente",
+        "No hay sincronización ni descubrimiento autónomo de carpetas locales",
+        "La numeración visual que incluye cubiertas no equivale a la foliación del manuscrito",
+        "Impresión de prueba sin PDF/X certificado, perfil ICC ni imposición"
+      ]
     }
   }
 }
