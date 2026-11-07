@@ -1,6 +1,6 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated": "2026-11-07",
   "not_part_of_book": true,
   "current": {
@@ -55,7 +55,12 @@
     "local_web_checked": 55,
     "local_web_ok": 55,
     "local_web_404": 0,
-    "masters_exact_from_site": false
+    "masters_exact_from_site": false,
+    "editorial_arc": "Estética + prodigio técnico + pudor",
+    "six_chronological_chapters": true,
+    "two_retrospective_codas": true,
+    "editorial_captions_reworked": 46,
+    "hostinger_v12_verified": false
   },
   "target": {
     "pages": "144–176, condicionado a imágenes",
@@ -212,7 +217,8 @@
   "editorial_files": {
     "concept": "direccion-editorial-lujo.md",
     "candidates": "seleccion-erotica-lujo.json",
-    "excluded": "fuera-de-coleccion-v08.json"
+    "excluded": "fuera-de-coleccion-v08.json",
+    "story": "argumento-curatorial-v12.md"
   },
   "unresolved_issues": [
     "Publicar a Hostinger los ficheros web del repositorio main en public_html/publicdomain/gabinete sin sobrescribir el resto del sitio",
@@ -222,5 +228,14 @@
     "Sustituir las 16 copias de baja resolución por originales de calidad superior antes del arte final",
     "Corregir los textos de pie genéricos en las nuevas láminas tras evaluación visual de cada obra",
     "Elegir papel, tapa, procesos de color, imposición y prueba de imprenta antes de fijar extensión y PDF/X"
-  ]
+  ],
+  "editorial_criteria": {
+    "narrative_title": "El cuerpo, la luz y el secreto",
+    "aesthetic": "La transición desde la pose pictórica a lo íntimo, sin describir una evolución lineal ni irreversible",
+    "technology": "Daguerrotipo singular; colodión, papel salado y albúmina; circulación estereoscópica y copia; placa seca y fotografía aficionada",
+    "modesty": "Pudor histórico como negociación entre mostrarse, ocultarse, público y circulación; jamás atribuir emociones o consentimiento no documentados",
+    "section_design": "Capítulos I–VI cronológicos; VII–VIII como codas no cronológicas",
+    "source": "argumento-curatorial-v12.md",
+    "method": "Distinguir datos de museos de lectura visual interpretativa. Confirmar modelos adultos y resolución de cada máster antes de impresión."
+  }
 }
