@@ -222,14 +222,15 @@
       "license": "CC0, Cleveland Open Access",
       "w": 5106,
       "h": 3780,
-      "url": "https://www.clevelandart.org/_next/image?q=75&url=https%3A%2F%2Fpiction.clevelandart.org%2Fcma%2Fump.di%3Fe%3D28F0C26F45F507E81A9AAE667F4999800DD74E5B55ED7C535C7DBDD998EA7E87%26s%3D24247294%26se%3D399313166%26v%3D4%26f%3D1998.55_o5.jpg&w=640",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
       "museumUrl": "https://www.clevelandart.org/art/1998.55",
       "context": "El propio museo destaca el sofá, los pliegues abundantes y la iluminación natural del estudio. Belloc componía escenas que podían interesar tanto a pintores como a compradores particulares, y conseguía una notable riqueza de medios tonos.",
       "review_status": "Fotografía integrada en la maqueta. Antes de imprimir: verificar edad adulta, comprobar máster y descartar URL de miniatura.",
-      "master_status": "MAQUETA: JPEG de vista web del museo (640 px); MÁSTER CANDIDATO: TIFF de Commons 5106×3780 px, pendiente de descargar y validar",
+      "master_status": "Derivado JPEG de Wikimedia Commons para maqueta; TIFF maestro de 5106×3780 px pendiente de descarga",
       "master_url": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
-      "web_preview_only": true
+      "web_preview_only": true,
+      "web_preview_source": "Wikimedia Commons TIFF JPEG thumbnail"
     },
     {
       "id": "asser_stereo_1855",
