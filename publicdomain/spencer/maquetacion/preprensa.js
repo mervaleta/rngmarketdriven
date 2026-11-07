@@ -208,8 +208,16 @@ function arrangeFacingPages(){
  const host=$('rendered');
  const pagesRoot=host.querySelector('.pagedjs_pages');
  if(!pagesRoot)throw Error('Paged.js no devolvió un contenedor de páginas');
- const sheets=Array.from(pagesRoot.children).filter(x=>x.classList.contains('pagedjs_page'));
- if(!sheets.length)throw Error('No hay páginas compuestas para armar pliegos');
+ const interiors=Array.from(pagesRoot.children).filter(x=>x.classList.contains('pagedjs_page'));
+ if(!interiors.length)throw Error('No hay páginas compuestas para armar pliegos');
+ const designer=window.S23PageDesigner;
+ if(!designer?.createCover)throw Error('Falta el editor de tapa y contratapa');
+ const front=designer.createCover('front',config,saved);
+ const insideFront=designer.createCover('inside-front',config,saved);
+ const insideBack=designer.createCover('inside-back',config,saved);
+ const back=designer.createCover('back',config,saved);
+ const pad=interiors.length%2?designer.createCover('pad',config,saved):null;
+ const sheets=[front,insideFront,...interiors,...(pad?[pad]:[]),insideBack,back];
  const first=sheets[0];
  const box=first.getBoundingClientRect();
  pagesRoot.style.setProperty('--s23-leaf-w',Math.max(1,box.width)+'px');
@@ -242,6 +250,14 @@ function arrangeFacingPages(){
   const item=getSpread(numberPair);
   const side=number%2===0?'left':'right';
   leaf.dataset.s23Folio=String(number);
+  const kind=i===0?'front':i===1?'inside-front':
+   i<2+interiors.length?'interior':
+   pad&&i===2+interiors.length?'pad':
+   i===sheets.length-2?'inside-back':'back';
+  leaf.dataset.s23Kind=kind;
+  leaf.dataset.s23Key=kind==='interior'?'interior:'+(i-1):kind==='front'?'cover:front':
+   kind==='inside-front'?'cover:inside-front':kind==='back'?'cover:back':
+   kind==='inside-back'?'cover:inside-back':'cover:pad';
   item.slots[side].append(leaf);
  });
  const fragment=document.createDocumentFragment();
@@ -268,6 +284,7 @@ function arrangeFacingPages(){
  pagesRoot.replaceChildren(fragment);
  return {folios:sheets.length,pliegos:all.size};
 }
+function interiorsCount(){return $('rendered').querySelectorAll('[data-s23-kind="interior"]').length}
 function updateZoom(){
  const pct=Number($('zoom').value);
  $('zoomLabel').textContent=pct+'%';
@@ -293,9 +310,13 @@ async function compose(){
   flow=await paginator.preview($('manuscript'),[cssUrl],$('rendered'));
   const facing=arrangeFacingPages();
   const pages=facing.folios;
+  try{await window.S23PageDesigner.mount($('rendered'),config)}catch(error){
+   console.error('Capas de página no disponibles:',error);
+   stateStatus('El libro se paginó, pero no se pudieron cargar las capas: '+error.message);
+  }
   const pics=$('rendered').querySelectorAll('img');
   let missing=0;for(const im of pics)if(!im.complete||!im.naturalWidth)missing++;
-  stateStatus(num(pages)+' páginas compuestas en '+num(facing.pliegos)+' pliegos enfrentados. '+(missing?missing+' imagen(es) no cargadas.':'Imágenes a verificar en preimpresión.')+' Folios e índices sujetos a revisión.');
+  stateStatus(num(pages)+' caras visibles ('+num(interiorsCount())+' interiores, tapa y contratapa) en '+num(facing.pliegos)+' pliegos enfrentados. '+(missing?missing+' imagen(es) no cargadas.':'Imágenes a verificar en preimpresión.')+' Folios e índices sujetos a revisión.');
   $('print').disabled=false;$('export').disabled=false;updateZoom();
  }catch(err){stateStatus('Falló la composición: '+(err?.message||String(err)));console.error(err)}
  finally{isWorking=false;$('compose').disabled=false}

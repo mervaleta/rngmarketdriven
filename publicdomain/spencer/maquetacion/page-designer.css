@@ -1,0 +1,71 @@
+/* Siglo23 M11 · capas por página, activación individual.
+   No modifica la paginación ni el flujo maestro de Paged.js. */
+.s23-page-toolbar{position:absolute;left:0;right:0;top:-40px;min-height:34px;display:flex;align-items:center;gap:5px;z-index:15;padding:2px 3px;color:#edf4fa;font:700 10px Montserrat,system-ui,sans-serif;white-space:nowrap}
+.s23-page-toolbar button{padding:5px 7px;font:700 10px Montserrat,system-ui,sans-serif;white-space:nowrap;border-color:#89a9c0;background:#233e5b}
+.s23-page-toolbar .s23-edit-toggle{background:#d5b47c;color:#1b3045;border-color:#d5b47c}
+.s23-page-badge{background:#122b44cf;color:#f5e0b8;padding:5px 6px;letter-spacing:.03em;border-radius:3px}
+.s23-spread{padding-top:42px}
+.s23-spread-pages{overflow:visible!important}
+.s23-spread-slot{position:relative;overflow:visible}
+.s23-slot-editing{outline:3px solid #e7b878;outline-offset:3px;z-index:5}
+.s23-spread-pages .pagedjs_page{position:relative!important;isolation:isolate}
+.s23-spread-pages .pagedjs_pagebox{position:relative;z-index:2;background:transparent!important}
+.s23-spread-pages .pagedjs_sheet{background:transparent!important}
+.s23-spread-pages .pagedjs_page_content{background:transparent!important}
+.s23-background{position:absolute;inset:0;z-index:0;pointer-events:none;background-size:cover;background-position:center;background-repeat:no-repeat;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.s23-has-background .pagedjs_pagebox{background:transparent!important}
+.s23-cover-page{background:#173047!important;color:#f7ebd8;display:flex;align-items:stretch;justify-content:center}
+.s23-cover-content{position:relative;z-index:2;width:100%;height:100%;padding:15% 11%;display:flex;flex-direction:column;justify-content:space-between;text-align:center;font-family:Georgia,serif;overflow:hidden}
+.s23-front .s23-cover-content{box-shadow:inset 0 0 0 2px #d4b98555}
+.s23-cover-title{font-size:clamp(16px,3vw,42px);line-height:1.1;margin:auto 0 15%;overflow-wrap:anywhere;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.s23-cover-imprint{font:700 11px Montserrat,system-ui,sans-serif;letter-spacing:.18em}
+.s23-cover-author{font-size:16px;letter-spacing:.07em}.s23-cover-bottom{font:9px Montserrat,system-ui,sans-serif;letter-spacing:.15em}
+.s23-back{background:#1c3545!important}
+.s23-cover-back-title{font-size:27px;line-height:1.2;margin:20% 0 4%}
+.s23-cover-back-description{font:13px/1.5 Georgia,serif;text-align:left}
+.s23-inside-front,.s23-inside-back,.s23-pad{background:#faf8f2!important;color:#aaa}
+.s23-cover-plain{font:10px Montserrat,sans-serif;letter-spacing:.11em;margin:auto;opacity:.4}
+.s23-custom-text{position:absolute;z-index:9;background:rgba(255,253,247,.92);color:#222a2c;border:1px solid transparent;box-sizing:border-box;padding:8px;overflow:hidden;white-space:pre-wrap;overflow-wrap:anywhere;font-family:Georgia,serif;line-height:1.33;text-align:left;print-color-adjust:exact}
+.s23-custom-text-body{max-width:100%;max-height:100%;overflow:visible}
+.s23-edit-mode .s23-custom-text{border:1px dashed #d3a24a;cursor:text}
+.s23-selected{border:2px solid #db9b27!important;outline:1px solid #fff5c8;box-shadow:0 2px 15px #1c253266}
+.s23-box-grip{position:absolute;left:0;top:0;right:0;min-height:22px;text-align:center;background:#244965e6;color:#fff;border:0;border-radius:0!important;padding:2px;font:700 10px Montserrat,system-ui,sans-serif;opacity:0;cursor:grab;touch-action:none;z-index:20}
+.s23-edit-mode .s23-box-grip{opacity:1}
+.s23-edit-mode .s23-custom-text-body{padding-top:20px}
+.s23-resize{display:none;position:absolute;width:11px;height:11px;background:#e3aa36;border:1px solid #fff;z-index:22;touch-action:none;transform:translate(-50%,-50%)}
+.s23-edit-mode .s23-resize{display:block}
+.s23-resize-n{top:0;left:50%;cursor:n-resize}.s23-resize-s{top:100%;left:50%;cursor:s-resize}
+.s23-resize-w{top:50%;left:0;cursor:w-resize}.s23-resize-e{top:50%;left:100%;cursor:e-resize}
+.s23-resize-ne{top:0;left:100%;cursor:ne-resize}.s23-resize-nw{top:0;left:0;cursor:nw-resize}
+.s23-resize-se{top:100%;left:100%;cursor:se-resize}.s23-resize-sw{top:100%;left:0;cursor:sw-resize}
+.s23-flow-hidden .pagedjs_page_content{visibility:hidden!important}
+.s23-layer-controls{margin:20px 0 0;border-top:1px solid #668099;padding:20px 0 5px}
+.s23-layer-controls h2{font-size:12px;letter-spacing:.1em}
+.s23-layer-controls label{display:flex;align-items:center;gap:8px;font-size:11px;color:#d7e1e9;margin:10px 0}
+.s23-layer-controls input[type=checkbox]{accent-color:#e8b977}
+.s23-layer-controls select,.s23-layer-controls input[type=number],.s23-layer-controls textarea{background:#102539;border:1px solid #8197ac;border-radius:4px;color:#fff;padding:7px;max-width:100%}
+.s23-layer-controls textarea{width:100%;min-height:110px;resize:vertical;font:12px/1.5 Georgia,serif}
+.s23-layer-controls .small{font-size:10px;color:#c4d5e0;line-height:1.6}
+.s23-layer-controls .alert{color:#ffbda7}
+.s23-layer-controls .buttons{display:flex;gap:7px;flex-wrap:wrap;margin:9px 0}
+.s23-layer-controls button{padding:8px 10px;font-size:10px}
+.s23-layer-controls input[type=file]{max-width:100%;font-size:10px}
+.s23-layer-controls #pageBoxInspector{border-top:1px solid #8291a5;margin-top:14px;padding-top:13px}
+.s23-layer-controls #pageBoxInspector[hidden],.s23-layer-controls #pageLayerInspector[hidden]{display:none!important}
+.s23-layer-controls .warn{border-left:2px solid #e0b66c;background:#273c56;padding:8px;font-size:11px}
+@media screen and (max-width:870px){.s23-page-toolbar{top:-46px;font-size:9px;gap:2px}.s23-page-badge{font-size:9px}.s23-page-toolbar button{font-size:9px;padding:4px}.s23-spread{padding-top:48px}}
+@media print{
+ .s23-page-toolbar,.s23-box-grip,.s23-resize,.s23-spread-caption,.s23-layer-controls{display:none!important}
+ .s23-spread{padding:0!important}
+ .s23-custom-text{border:0!important;outline:0!important;box-shadow:none!important}
+ .s23-custom-text-body{padding-top:0!important}
+ .s23-background{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .s23-cover-page{break-after:page!important;page-break-after:always!important}
+}
+/* En las cubiertas las cajas predeterminadas son transparentes y editables. */
+.s23-cover-page.s23-flow-hidden .s23-cover-content{visibility:hidden}
+.s23-cover-page .s23-custom-text{background:transparent;color:#fff7e6;text-shadow:0 2px 5px #000b;border-color:transparent;text-align:center}
+.s23-cover-page.s23-edit-mode .s23-custom-text{border-color:#f1cb83}
+.s23-custom-text.s23-text-overflow{border:3px solid #e33!important;outline:2px solid #fff!important}
+.s23-custom-text.s23-text-overflow:after{content:"TEXTO DESBORDADO";position:absolute;right:0;bottom:0;font:700 9px Montserrat,system-ui,sans-serif;background:#a52126;color:white;padding:2px 4px}
+@media print{.s23-custom-text.s23-text-overflow:after{display:none}}
