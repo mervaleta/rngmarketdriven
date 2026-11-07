@@ -12,7 +12,7 @@
 #fileInput{display:none}.bottom{padding:10px 19px;background:#0e1e21;border-top:1px solid #435754;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:10px;color:#b7c9c0;letter-spacing:.02em}
 #printRoot{display:none}
 @media(max-width:1180px){.workarea{grid-template-columns:245px minmax(0,1fr) 245px}.stage{padding:12px}.panel{padding:13px}}@media(max-width:950px){.workarea{grid-template-columns:260px minmax(0,1fr)}.panel.right{grid-column:1/-1;border-top:1px solid #455c58;max-height:none}.stage{max-height:none}.panel.left{max-height:calc(100vh - 150px)}}@media(max-width:670px){#appHeader{padding:12px}.headline{padding:14px}.workarea{display:block}.panel.left{max-height:none}.panel.right{max-height:none}.stage{min-height:520px}.book-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.headline .small-status{display:none}.top-actions a,.top-actions button{padding:7px 9px}.stagebar{gap:12px}}
-@page{size:166mm 236mm;margin:0}
+@page{size:270mm 340mm;margin:0}
 @media print{body{background:#fff!important}#appHeader,.headline,.workarea,.bottom,#toast{display:none!important}#printRoot{display:block!important}.print-sheet{break-after:page;page-break-after:always;break-inside:avoid;page-break-inside:avoid;width:var(--w);height:var(--h);position:relative;overflow:hidden}.print-sheet:last-child{break-after:auto}.print-sheet .page-actual{box-shadow:none}a{color:inherit!important}*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}}
 
 
@@ -203,3 +203,6 @@
  .candidate-card a{color:#ffd5e6}
  .headline .small-status{color:#fbe6f0;background:#3c162d;border-color:#b27b94}
 }
+
+/* GABINETE v0.9.0 — láminas originales añadidas, impresión de estudio 270×340 */
+.page-actual.kind-image .plate img{image-rendering:auto;object-fit:contain}.page-actual.kind-image .plate-info.plate-context{max-height:38mm}.candidate-card .candidate-status{font-style:normal}
