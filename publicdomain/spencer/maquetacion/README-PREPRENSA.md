@@ -65,3 +65,10 @@ Fecha: 7 de noviembre de 2026. Fuente: `publicdomain/spencer/maquetacion/`.
 ## Pliegos enfrentados — actualización de lectura
 
 La vista Paged.js dispone las hojas tal como se leen en un libro abierto: folio 1 a la derecha, folios pares a la izquierda e impares a la derecha. Cada pliego agrupa las hojas contiguas **sin medianil visual**. Los espacios simulados en el primer o último pliego son solo marcadores de pantalla; no se exportan ni se agregan a la paginación. Al imprimir se aplanan los contenedores de vista y salen páginas individuales en orden, no una imposición de imprenta. Prueba Chromium de tres páginas: dos pliegos, orden y posición correctos; vista de impresión sin los blancos artificiales.
+
+
+## M11 · Diseño por página y cubiertas (7/11/2026)
+
+Se incorporaron tapa y contratapa como páginas extremas de la lectura con hojas internas de cubierta y un blanco de ajuste cuando es necesario. Cada hoja incluye controles propios de carga de fondo y el botón «Editar página», que habilita solo ese marco. Las imágenes se guardan como originales en IndexedDB del navegador, y las cajas manuales son redimensionables desde sus ocho tiradores. La importación múltiple reconoce nombres por folio visual; los demás quedan sin asignar. El respaldo JSON transporta capas e imágenes. Véase [README-CAPAS-POR-PAGINA.md](README-CAPAS-POR-PAGINA.md).
+
+Prueba Chromium local aprobada para tapas, arrastre lateral, carga y recuperación del fondo, edición aislada y estilos de impresión. **Pendiente:** paginación determinista entre distintas recomposiciones y validación de páginas de texto muy extensas. La foliación visual incluyendo tapas no reemplaza los folios del interior ni supone arte final de imprenta.
