@@ -1,7 +1,7 @@
 
 (function(){
 "use strict";
-var KEY="siglo23-gabinete-editor-v4",LEGACY_KEY="siglo23-gabinete-editor-v3";
+var KEY="siglo23-gabinete-editor-v5",LEGACY_KEY="siglo23-gabinete-editor-v4";
 var state={doc:null,candidates:[],view:"grid",active:0,loaded:false,opts:{w:270,h:340,fontSize:11.75,leading:1.48,inner:24,outer:23,top:27,bottom:25,thumb:150,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
@@ -9,16 +9,28 @@ var nl=function(s){return String(s||"").split(/\n\s*\n/).filter(Boolean).map(fun
 var pxpermm=96/25.4;
 function toast(msg){var el=$("#toast");el.textContent=msg;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(function(){el.hidden=true},3000)}
 function imgById(id){return (state.doc.images||[]).find(function(i){return i.id===id})||null}
-function imgTag(im,cls,alt,loading){if(!im)return "";return '<img class="'+(cls||"")+'" src="'+esc(im.url)+'" alt="'+esc(alt||im.title)+'" loading="'+(loading||"lazy")+'" referrerpolicy="no-referrer">'}
+function imgTag(im,cls,alt,loading){
+ if(!im)return "";
+ var local=String(im.url||"").indexOf("./imagenes/")===0;
+ var fallback=local&&im.source_url?' data-fallback-src="'+esc(im.source_url)+'"':"";
+ return '<img class="'+(cls||"")+'" src="'+esc(im.url)+'" alt="'+esc(alt||im.title)+'" loading="'+(loading||"lazy")+'" referrerpolicy="no-referrer"'+fallback+'>';
+}
+document.addEventListener("error",function(ev){
+ var el=ev.target;if(!el||el.tagName!=="IMG")return;
+ if(el.dataset.fallbackSrc&&!el.dataset.fallbackUsed){el.dataset.fallbackUsed="1";el.src=el.dataset.fallbackSrc;}
+ else{el.classList.add("missing-archive-image");el.title="La reproducción todavía no está disponible";}
+},true);
 function saveLocal(){try{localStorage.setItem(KEY,JSON.stringify({doc:state.doc,opts:state.opts,active:state.active}));$("#saveStatus").textContent="Guardado local · "+new Date().toLocaleTimeString("es-AR",{hour:"2-digit",minute:"2-digit"})}catch(e){$("#saveStatus").textContent="Almacenamiento lleno: exportá un respaldo JSON";}}
 function syncVars(){
  var o=state.opts;
  [["--w",o.w+"mm"],["--h",o.h+"mm"],["--pt",o.fontSize+"pt"],["--leading",o.leading],["--margin-in",o.inner+"mm"],["--margin-out",o.outer+"mm"],["--margin-top",o.top+"mm"],["--margin-bottom",o.bottom+"mm"],["--fit",o.fit],["--fbody",o.font]].forEach(function(x){document.documentElement.style.setProperty(x[0],x[1])});
  var photos=(state.doc.images||[]).filter(function(i){return i.kind!=="drawing"}).length; var limited=(state.doc.images||[]).filter(function(i){return i.quality==="bajo"}).length;
+ var localCount=state.doc.images.filter(function(i){return String(i.url||"").startsWith("./imagenes/")}).length;
+ var masterCount=state.doc.images.filter(function(i){return !!i.local_master_url}).length;
  var visualPages=state.doc.pages.filter(function(p){return (p.image&&imgById(p.image))||(Array.isArray(p.images)&&p.images.some(imgById))}).length;
  var uses=new Map();state.doc.pages.forEach(function(p){if(["cover","chapter"].includes(p.kind))return;[...(p.image?[p.image]:[]),...(p.images||[])].forEach(function(id){uses.set(id,(uses.get(id)||0)+1)})});
  var repeats=[...uses.values()].filter(function(x){return x>1}).length;
- $("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas ilustradas · "+(repeats?"ATENCIÓN: "+repeats+" duplicadas interiores":"0 duplicadas interiores")+" · "+limited+" fotos de baja resolución";
+ $("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas ilustradas · "+(repeats?"ATENCIÓN: "+repeats+" duplicadas interiores":"0 duplicadas interiores")+" · "+localCount+"/"+photos+" web locales · "+masterCount+" másteres · "+limited+" de baja resolución";
  $("#printCss").textContent="@media print{@page{size:"+o.w+"mm "+o.h+"mm;margin:0}}";
 }
 function pageHtml(pg,idx){
@@ -98,7 +110,10 @@ function assets(){
  state.doc.images.forEach(function(im,i){
   var quality=im.quality==="bajo"?"Resolución baja · maqueta únicamente":im.quality==="medio"?"Resolución intermedia · cotejar tamaño":im.quality==="alto"?"Resolución alta declarada · sin preprensa":"Resolución para impresión no comprobada";
   var qualityClass=im.quality==="bajo"?"visual-warning":"visual-status";
-  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'<div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><div class="'+qualityClass+'">'+esc(quality)+'</div><p>'+esc(im.review_status||"Original no aprobado para impresión comercial")+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha de referencia ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Abrir reproducción ↗</a></div></div></article>';
+  var local=String(im.url||"").startsWith("./imagenes/");
+  var hosted=local?"COPIA WEB EN EL PROYECTO":"DESCARGA PENDIENTE; ENLACE EXTERNO";
+  var master=im.local_master_url?'<a href="'+esc(im.local_master_url)+'" target="_blank" rel="noopener">Máster propio ↗</a>':"";
+  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'<div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><div class="'+qualityClass+'">'+esc(quality)+'</div><div class="asset-host-status">'+esc(hosted)+'</div><p>'+esc(im.review_status||"Original no aprobado para impresión comercial")+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha de referencia ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Abrir reproducción ↗</a>'+master+'</div></div></article>';
  });
  $("#stage").innerHTML=mark+'</div>';
 }
@@ -140,6 +155,7 @@ function sourceInfo(){
  if(im&&im.review_approved===false){
   $("#imageInfo").innerHTML+='<div class="'+(im.quality==="bajo"?"visual-warning":"visual-status")+'">'+esc(im.print_warning||"Ficha pendiente de control editorial antes de impresión")+'<br>'+esc(im.review_status||"")+'</div>';
  }
+ if(im)$("#imageInfo").innerHTML+='<div class="asset-host-status">'+(String(im.url||"").startsWith("./imagenes/")?"Archivo web propio":"Reproducción pendiente de descargar")+(im.local_master_url?" · máster original disponible":"")+'</div>';
  $("#editImageUrl").value=im?im.url:"";$("#editImageUrl").disabled=!im;
 }
 function render(){
