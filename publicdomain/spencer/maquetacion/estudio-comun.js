@@ -111,7 +111,7 @@ bar.addEventListener('click',function(e){
  case 'report':saveReport();break;
  case 'save':if(!click('#exportPlan,#downloadJSON,#export'))feedback('Usá el botón de guardado del proyecto.');break;
  case 'load':if(!click('#importJSON,#importPlan,#import'))feedback('Usá el importador del proyecto.');break;
- case 'pdf':if(!click('#printWholeBook,#print-top,#printProof'))feedback('Usá la función de impresión del proyecto.');break;
+ case 'pdf':if(project==='spencer'){location.href='./preprensa.html';feedback('Abrir compositor del libro completo.');break}if(!click('#printWholeBook,#print-top,#printProof'))feedback('Usá la función de impresión del proyecto.');break;
  }
 });
 window.S23StudioKit={project:project,version:'2.0',audit:audit,openCover:cover};
