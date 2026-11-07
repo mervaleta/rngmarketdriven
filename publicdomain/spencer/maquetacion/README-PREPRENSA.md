@@ -60,3 +60,8 @@ Fecha: 7 de noviembre de 2026. Fuente: `publicdomain/spencer/maquetacion/`.
 - Publicación Hostinger vía GitHub Actions: **verificada** para el taller M10, compositor, JS/CSS y las dos rutas de landing en RNG Market Driven. La URL `santoroydonoso.com/siglo23/` sigue sirviendo un contenido anterior (publicación pendiente).
 - Chromium/Puppeteer: **aprobado** al componer el prefacio real en tres páginas; fuente presente y botón de impresión habilitado. Esta prueba no verifica todo el libro ni prueba PDF/X.
 - En la segunda ejecución del navegador se observó un **HTTP 403 en una petición inicial automatizada** a `preprensa.html`, antes de una carga posterior exitosa. Revisar si se reproduce en navegación humana y, en caso afirmativo, analizar reglas del alojamiento/CDN; no se diagnosticó su causa.
+
+
+## Pliegos enfrentados — actualización de lectura
+
+La vista Paged.js dispone las hojas tal como se leen en un libro abierto: folio 1 a la derecha, folios pares a la izquierda e impares a la derecha. Cada pliego agrupa las hojas contiguas **sin medianil visual**. Los espacios simulados en el primer o último pliego son solo marcadores de pantalla; no se exportan ni se agregan a la paginación. Al imprimir se aplanan los contenedores de vista y salen páginas individuales en orden, no una imposición de imprenta. Prueba Chromium de tres páginas: dos pliegos, orden y posición correctos; vista de impresión sin los blancos artificiales.
