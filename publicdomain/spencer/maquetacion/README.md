@@ -143,3 +143,8 @@ Cuatro reflexiones propias de Siglo23 están integradas en las páginas izquierd
 ## M10 — Preprensa y estudio profesional experimental (7/11/2026)
 
 Se incorporó `preprensa.html` como prueba independiente de composición con Paged.js 0.4.3. Se añadieron la auditoría exportable, la identidad visual azul del proyecto, perfiles de salida guardados localmente y el enlace al portal `../../estudio/`. La grilla y los manuscritos M09 **no se sustituyen**. Los números de página del nuevo compositor no son automáticamente los del índice de la grilla. El PDF del navegador sigue siendo una prueba, no PDF/X de imprenta. Véase [README-PREPRENSA.md](README-PREPRENSA.md) para flujo, limitaciones, licencias y trabajo pendiente. Cambios confirmados solamente en GitHub hasta verificar Hostinger.
+
+
+## Siglo23 Studio Kit v2 · maquetación común (7/11/2026)
+
+Las herramientas de maquetación, la identidad cromática y los controles de preprensa se documentan en [README del upgrade editorial](README-UPGRADE-SIGLO23-V2.md). Incluye cubiertas, pliegos, guardado/importación y auditoría. El PDF de navegador sigue siendo una prueba, no PDF/X certificado; verificar publicación Hostinger por separado.
