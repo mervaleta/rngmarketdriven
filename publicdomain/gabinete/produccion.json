@@ -1,23 +1,23 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "updated": "2026-11-06",
   "not_part_of_book": true,
   "current": {
-    "pages": 102,
+    "pages": 72,
     "distinct_photographs": 25,
     "contextual_drawings": 1,
-    "photo_bearing_pages": 79,
+    "photo_bearing_pages": 35,
     "photo_bearing_share_percent": 77.5,
     "chapter_openings": [
       11,
-      17,
-      27,
+      15,
+      21,
+      33,
+      37,
       45,
-      53,
-      65,
-      85,
-      91
+      57,
+      61
     ],
     "frontmatter": {
       "cover": 1,
@@ -28,7 +28,7 @@
       "credits": 6,
       "prologue_slot": 7
     },
-    "epilogue_slot": 96,
+    "epilogue_slot": 65,
     "images_local": false,
     "photobook_layouts": {
       "single_image_plates": 26,
@@ -37,15 +37,19 @@
       "photoessays": 16
     },
     "notes": "No confundir páginas que contienen fotos con fotografías distintas; las galerías recirculan imágenes ya incluidas.",
-    "master_files_on_server": false
+    "master_files_on_server": false,
+    "unique_interior_assets": 26,
+    "duplicate_interior_assets": 0,
+    "editorial_context_pages": 16,
+    "photo_plates": 26
   },
   "target": {
     "period": "1840–1900",
-    "distinct_photographs": "80–100 obras individuales con documentación y calidad suficientes, sujeto a disponibilidad y descarte",
+    "distinct_photographs": "80–100 fotografías distintas si la documentación y la calidad lo permiten",
     "pages": "140–180 páginas de carácter fotográfico, ajustar al corpus seleccionado",
-    "format": "Libro físico en Argentina; taller web previo a PDF final",
+    "format": "Fotolibro documental de fotografías distintas; cada pieza aparece una sola vez dentro del cuerpo, salvo tapa y carátulas",
     "visual_proportion": "70% o más de páginas con fotografías en la maqueta",
-    "priority": "Incorporar 50–75 fotografías adicionales realmente distintas, no repetir imágenes para inflar conteos"
+    "priority": "Ampliar el corpus sin repetir fotos; sumar datos y contextos con fuente comprobable"
   },
   "production_notes": [
     "Conservar fuera de libro.json el plan de compra/descarga de imágenes y las advertencias operativas de la edición.",
@@ -170,5 +174,5 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "Se agregaron siete fotos en JPG de fuentes documentadas (Durieu atribuido, Nadar, Eakins, tres variantes de de Meyer) y un dibujo de Delacroix como documento de contexto, contabilizado aparte. Los archivos NO se guardaron localmente; continúan apuntando a Commons."
+  "notes_on_visuals": "La v0.7.0 conserva una lámina para cada fotografía (25) y un dibujo contextual. Tapa y carátulas pueden reutilizar imágenes, pero el interior excluye repeticiones. Los contextos de las páginas eliminadas quedaron en contextos-investigacion-v06.json. No se han descargado los másteres a GitHub/Hostinger."
 }
