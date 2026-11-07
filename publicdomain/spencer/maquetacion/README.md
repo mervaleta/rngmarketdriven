@@ -138,3 +138,8 @@ Cuatro reflexiones propias de Siglo23 están integradas en las páginas izquierd
 - No se agregan ilustraciones: se conserva el retrato/caricatura de Herbert Spencer ya registrado entre las cuatro láminas aprobadas. Las referencias biográficas se añaden a la bibliografía existente, que permanece en una sola doble página.
 - Se mantienen el estudio, los cuatro prefacios de los ensayos, el epílogo, el texto original y los índices. La paginación es aproximada, no un archivo listo para imprimir.
 - La entrega se confirma en GitHub; **no se confirma que Hostinger haya recibido automáticamente los archivos**. Para publicar M09 deben estar juntos `index.html`, `editor.js`, `editorial-loader.js`, `editorial-assets.js`, `version.json` y `textos/biografia-herbert-spencer-2026.md` además de los archivos anteriores de M08.
+
+
+## M10 — Preprensa y estudio profesional experimental (7/11/2026)
+
+Se incorporó `preprensa.html` como prueba independiente de composición con Paged.js 0.4.3. Se añadieron la auditoría exportable, la identidad visual azul del proyecto, perfiles de salida guardados localmente y el enlace al portal `../../estudio/`. La grilla y los manuscritos M09 **no se sustituyen**. Los números de página del nuevo compositor no son automáticamente los del índice de la grilla. El PDF del navegador sigue siendo una prueba, no PDF/X de imprenta. Véase [README-PREPRENSA.md](README-PREPRENSA.md) para flujo, limitaciones, licencias y trabajo pendiente. Cambios confirmados solamente en GitHub hasta verificar Hostinger.
