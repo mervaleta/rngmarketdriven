@@ -3,7 +3,7 @@
 const $ = s => document.querySelector(s), $$ = s => Array.from(document.querySelectorAll(s));
 const esc = v => String(v ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const LIB = "siglo23-mercados-v0.1.0";
-let works=[], chapters=[], pages=[], pageIndex=0, view="spread", selected={}, notes={}, currentSection="libro", metRequested=false;
+let works=[], chapters=[], extras=[], pages=[], pageIndex=0, view="spread", selected={}, notes={}, currentSection="libro", metRequested=false;
 const store = () => {try{localStorage.setItem(LIB,JSON.stringify({selected,notes,view,pageIndex}))}catch(e){}};
 try{const s=JSON.parse(localStorage.getItem(LIB)||"{}");selected=s.selected||{};notes=s.notes||{};view=s.view||"spread";pageIndex=Number(s.pageIndex)||0;}catch(e){}
 const archives=[
@@ -84,6 +84,8 @@ function makePage(p){
     inner=meta+'<div class="essay-note">CAPÍTULO '+esc(c.n)+' · '+esc(c.eje)+'</div><h2>'+esc(p.part===0?c.titulo:"Una imagen de su tiempo")+'</h2><div class="page-prose">'+p.paragraphs.map(t=>'<p>'+esc(t)+'</p>').join("")+'</div>'+foot;break;
   case "plate":
     extra="page-plate";inner=meta+imageMarkup(w)+'<h3>'+esc(w.titulo)+'</h3><div class="plate-sub">'+esc(w.autor)+' · '+esc(w.pais)+' · '+esc(w.anio)+'</div><div class="plate-foot">LÁMINA '+esc(w.id.replace("M",""))+' · '+esc(w.tecnica)+'</div>'+foot;break;
+  case "extra":
+    extra="page-plate";inner=meta+'<div class="art-image"><div class="art-placeholder"><div class="large-dingbat">✦</div><span>Estampa histórica en inventario</span></div><img src="./'+esc(p.extra.image)+'" loading="lazy" alt="Facsímil del Tafereel, página '+esc(p.extra.pdf_page)+'" onload="this.classList.add(\'loaded\')"></div><h3>Archivo de la locura, 1720</h3><div class="plate-sub">LÁMINA SIN ATRIBUCIÓN DEFINITIVA · DBNL · Página '+esc(p.extra.pdf_page)+'</div><div class="plate-foot"><a href="'+esc(p.extra.source_catalog)+'" target="_blank" rel="noopener">Identificar en el ejemplar original ↗</a></div>'+foot;break;
   case "commentary":
     extra="page-commentary";inner=meta+'<div class="signature">LECTURA DE LA LÁMINA · '+esc(w.id)+'</div><h3>'+esc(w.titulo)+'</h3><p class="page-quote">'+esc(w.lectura)+'</p><div class="page-prose"><p>'+esc(w.texto)+'</p><p>'+esc("Contexto: "+w.pais+" · "+w.anio+". Técnica: "+w.tecnica+". La fuente institucional enlazada permite continuar la investigación iconográfica.")+'</p></div><div class="record"><strong>PROCEDENCIA</strong><div>'+esc(w.coleccion)+'</div><div>Estado: '+esc(w.estado)+'. Derechos: '+esc(w.derechos)+'</div><a href="'+esc(w.fuente)+'" target="_blank" rel="noopener">Consultar ficha original ↗</a></div>'+foot;break;
   case "closing":
@@ -101,6 +103,7 @@ function buildPages(){
    add("essay",{chapter:ch,paragraphs:ch.texto.slice(0,2),part:0});
    add("essay",{chapter:ch,paragraphs:ch.texto.slice(2),part:1});
    works.filter(w=>w.capitulo===chapters.indexOf(ch)+1).forEach(w=>{add("plate",{chapter:ch,work:w});add("commentary",{chapter:ch,work:w})});
+   if(ch.n==="III") extras.forEach(ex=>add("extra",{chapter:ch,extra:ex}));
  });
  add("closing");add("colophon");
  pageIndex=Math.max(0,Math.min(pageIndex,pages.length-1));
@@ -205,11 +208,11 @@ function bind(){
 }
 async function init(){
  try{
- const [wr,cr]=await Promise.all([fetch("./obras.json?v=0.1.0"),fetch("./capitulos.json?v=0.1.0")]);if(!wr.ok||!cr.ok)throw new Error("Faltan archivos JSON");
- works=(await wr.json()).obras;chapters=(await cr.json()).capitulos;
+ const [wr,cr,lr]=await Promise.all([fetch("./obras.json?v=0.1.0"),fetch("./capitulos.json?v=0.1.0"),fetch("./laminas.json?v=0.1.0").catch(()=>null)]);if(!wr.ok||!cr.ok)throw new Error("Faltan archivos JSON");
+ works=(await wr.json()).obras;chapters=(await cr.json()).capitulos;extras=lr&&lr.ok?(await lr.json()).laminas:[];
  buildPages();renderChapters();renderTimeline();bind();stage();
- $("#statsTop").textContent=works.length+" obras · "+chapters.length+" capítulos";
- $("#archiveStats").textContent=works.length+" piezas documentadas";
+ $("#statsTop").textContent=works.length+" obras · "+chapters.length+" capítulos · "+extras.length+" estampas de archivo";
+ $("#archiveStats").textContent=works.length+" piezas documentadas + "+extras.length+" estampas en identificación";
  // Keep the selected view when returning from another section.
  archive();queryMet();
  }catch(e){$("#bookStage").innerHTML='<div class="loading"><strong>No se cargó el archivo editorial.</strong><p>Comprobar que index.html, app.js, capitulos.json y obras.json estén en el mismo directorio.</p></div>';$("#statsTop").textContent="Archivo no disponible";console.error(e);}
