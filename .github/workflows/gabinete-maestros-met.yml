@@ -1,0 +1,41 @@
+name: Gabinete - recuperar originales del Met
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/gabinete-maestros-met.yml"
+      - "publicdomain/gabinete/scripts/importar-maestros-met.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gabinete-maestros-met
+  cancel-in-progress: false
+
+jobs:
+  masters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --disable-pip-version-check pillow==11.3.0
+      - name: Descargar originales de objetos PD del Met
+        run: python publicdomain/gabinete/scripts/importar-maestros-met.py
+      - name: Publicar archivos propios en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicdomain/gabinete/libro.json publicdomain/gabinete/version.json publicdomain/gabinete/imagenes/
+          if git diff --cached --quiet; then
+            echo "No hay cambios"
+          else
+            git commit -m "Gabinete: guardar originales del Met y vistas web locales de alta resolucion"
+            git push origin HEAD:main
+          fi
