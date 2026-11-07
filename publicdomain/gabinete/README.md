@@ -169,3 +169,13 @@ La próxima fase editorial requiere adquirir/descargar másteres originales de c
 - Las imágenes locales deben publicarse junto con `libro.json` en Hostinger; **GitHub no equivale al alojamiento web del dominio**. Existe un control remoto definido en `.github/workflows/gabinete-publicacion.yml`.
 - En el maquetador se distingue copia web local, máster original, resolución baja y fotografías por importar.
 - Los originales descargados requieren cotejo de derechos, modelos adultos, tonalidad y calidad efectiva a escala 27×34 antes de aprobación comercial.
+
+
+### Verificación de publicación local (7/11/2026)
+
+- Control desde GitHub Actions contra el **dominio real**: `version.json` devuelve **v1.1.0**.
+- Se comprobaron **55/55 JPG locales** por HTTP HEAD: **55 disponibles (200), cero 404**.
+- Faltan **13 reproducciones aún enlazadas externamente**, identificadas en `imagenes/manifest.json`; no se alteraron los enlaces cuando falló la descarga.
+- Se almacenan **20 originales del Met en `imagenes/maestros/`**. Una muestra (`stereo.jpg`) **no coincide** entre GitHub y la descarga desde Hostinger (distintos bytes y SHA-256). No utilizar copias servidas por el dominio como originales para imprenta hasta revisar conversión/CDN. El archivo de GitHub conserva el original descargado desde la API del Met.
+- La maqueta de 146 páginas y 68 fotografías permanece intacta, con 55 JPEG web propios y 13 enlaces externos pendientes.
+- Los flujos de importación y control están en `.github/workflows/gabinete-imagenes.yml`, `gabinete-maestros-met.yml` y `gabinete-publicacion.yml`.
