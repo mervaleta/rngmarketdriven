@@ -2,7 +2,7 @@
 
 **Ruta objetivo:** https://rngmarketdriven.com/publicdomain/gabinete/index.html  
 **Repositorio:** `mervaleta/rngmarketdriven`, carpeta `publicdomain/gabinete/`.  
-**Versión actual:** 1.1.0 · 7 de noviembre de 2026.  
+**Versión actual:** 1.2.0 · 7 de noviembre de 2026.  
 **Estado:** maqueta editorial; NO es PDF final ni obra aprobada para publicación comercial.
 
 ## Archivos
@@ -179,3 +179,16 @@ La próxima fase editorial requiere adquirir/descargar másteres originales de c
 - Se almacenan **20 originales del Met en `imagenes/maestros/`**. Una muestra (`stereo.jpg`) **no coincide** entre GitHub y la descarga desde Hostinger (distintos bytes y SHA-256). No utilizar copias servidas por el dominio como originales para imprenta hasta revisar conversión/CDN. El archivo de GitHub conserva el original descargado desde la API del Met.
 - La maqueta de 146 páginas y 68 fotografías permanece intacta, con 55 JPEG web propios y 13 enlaces externos pendientes.
 - Los flujos de importación y control están en `.github/workflows/gabinete-imagenes.yml`, `gabinete-maestros-met.yml` y `gabinete-publicacion.yml`.
+
+
+## v1.2.0 — Un argumento curatorial, no solo una cronología
+
+**Tema:** *El cuerpo, la luz y el secreto. El prodigio de la fotografía y las formas del pudor, 1839–1900.*
+
+Se revisaron los encabezados de los **ocho capítulos**, la introducción, la cronología y **ocho textos de apertura documentados**. Se diferenciaron los títulos y comentarios de **46 láminas** que tenían rótulos automáticos y notas genéricas, priorizando la mirada estética antes que el artificio tecnológico. Las **68 fotografías diferentes** y las **146 páginas** se mantienen; ninguna lámina interior fue duplicada. Las aperturas continúan en los folios **11, 17, 31, 65, 73, 93, 121 y 129**, todos impares.
+
+La lectura consta de **seis etapas cronológicas**: asombro de la placa única (1839–1849), cuerpo puesto en escena (1850–1852), coartada artística (1851–1855), velo y espejo (1856–1859), multiplicación de copias (1860–1879) e intimidad de fin de siglo (1880–1900). Las dos secciones últimas son **codas retrospectivas**, no nuevos períodos: censura/circulación y memoria/archivo.
+
+El archivo **`argumento-curatorial-v12.md`** conserva el guion, los tres criterios de lectura por imagen (estética, tecnología, pudor) y las fuentes institucionales. En `libro.json`, cada obra recibe metadatos de lectura separados de la atribución histórica. **No se presume el sentimiento, edad o consentimiento de un modelo por la pose**: la edición sigue sujeta a comprobación documental individual antes de imprenta.
+
+Los ficheros están **actualizados en GitHub**; no considerar desplegada v1.2.0 en Hostinger hasta leer su `version.json` en el dominio.
