@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#202f2c">
+<meta name="description" content="El humor de los mercados: un libro en preparación sobre cuatro siglos de sátira económica y financiera en la historia del arte. Editorial Siglo23.">
+<title>El humor de los mercados · Siglo23</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css?v=0.1.0">
+<script src="./app.js?v=0.1.0" defer></script>
+</head>
+<body>
+<header class="masthead">
+ <a class="brand" href="../" aria-label="Volver al laboratorio Siglo23"><span class="brand-icon">S<span>23</span></span><span class="brand-text">EDITORIAL SIGLO23<small>LABORATORIO DE LIBROS</small></span></a>
+ <nav class="topnav" aria-label="Secciones">
+  <button class="tab active" data-section="libro">El libro</button><button class="tab" data-section="archivo">Archivo visual</button><button class="tab" data-section="cronologia">Cronología</button><button class="tab" data-section="fuentes">Fuentes y derechos</button>
+ </nav>
+ <div class="mast-tools"><span class="version" id="version">MERCADOS · V0.1.0</span><button id="export" type="button" title="Guardar notas y selección como JSON">Exportar edición ↓</button></div>
+</header>
+<div class="announcement"><span class="dot"></span> <strong>EDICIÓN DE INVESTIGACIÓN · NO FINAL</strong> <span>Un atlas narrativo del ingenio con que los artistas han contado la vida económica.</span><span id="statsTop" class="announcement-right">Cargando inventario…</span></div>
+<section class="hero">
+ <div class="hero-main"><span class="eyebrow">SIGLO23 · HISTORIA DEL ARTE Y DE LAS FINANZAS</span>
+  <h1>El humor <em>de los mercados</em></h1>
+  <p class="hero-subtitle">Burbujas, banqueros, monopolios, deudas, delirios y pánicos vistos por quienes dibujaron su tiempo.</p>
+  <p class="hero-note">De las bolsas de dinero que se baten en duelo a los pulpos que abrazan gobiernos; de la tulipomanía europea al pez gato japonés, y de la Bolsa de París a la prensa satírica argentina.</p>
+  <div class="hero-actions"><button class="primary" id="startReading">Abrir el libro <span>↗</span></button><button class="secondary" data-jump="archivo">Explorar las obras</button></div>
+ </div>
+ <div class="hero-art" aria-label="Composición tipográfica sobre la historia del humor financiero"><div class="hero-frame"><span class="folio">1720 · AMSTERDAM</span><div class="hero-swirl">§</div><strong>THE GREAT<br>MIRROR<br><i>of</i> FOLLY</strong><span class="hero-deco">ESPEJO DE LA ESPECULACIÓN</span><span class="hero-rule"></span><small>El mercado como teatro de costumbres</small></div></div>
+</section>
+<section id="section-libro" class="section active" aria-label="Edición digital">
+ <div class="section-head"><div><span class="eyebrow">01 / EL LIBRO</span><h2>La edición, desplegada</h2><p>Recorré la maqueta como páginas sueltas, como libro abierto o en formato de lectura. Los cambios de selección se guardan en tu navegador.</p></div><div class="section-controls">
+  <div class="segmented" role="group" aria-label="Modo de lectura"><button data-view="spread" class="active">Pliegos</button><button data-view="grid">Libro completo</button><button data-view="read">Lectura</button></div>
+  <button id="print" class="action">Prueba de impresión / PDF</button>
+ </div></div>
+ <div class="workbench">
+   <aside class="chapter-sidebar"><span class="eyebrow">CONTENIDOS</span><div id="chapterList" class="chapter-list"></div><div class="aside-note">Formato orientativo<br><strong>27 × 34 cm</strong><br>Gran formato · Tapa dura<br><small>Margen de sangre previsto: 3 mm. Impresión final sujeta a preprensa.</small></div></aside>
+   <main class="book-container">
+    <div class="bookbar"><div><span id="pageCounter" class="eyebrow">—</span><span id="currentChapter">Cargando libro</span></div><div class="booknav"><button id="prevPage" aria-label="Páginas anteriores">←</button><span id="rangeLabel">—</span><button id="nextPage" aria-label="Páginas siguientes">→</button></div></div>
+    <div id="bookStage" class="book-stage" aria-live="polite"><div class="loading">Preparando las páginas…</div></div>
+    <div class="work-footer"><span>Prueba editorial: la imagen digital no reemplaza el original para impresión.</span><button id="topBook">Volver al principio ↑</button></div>
+   </main>
+ </div>
+</section>
+<section id="section-archivo" class="section" aria-label="Banco de obras">
+ <div class="section-head"><div><span class="eyebrow">02 / ARCHIVO CURADO</span><h2>Inventario de las obras</h2><p>Cada pieza tiene una ficha documentada, análisis e hipervínculo al registro institucional. «Documentada» no equivale a imagen maestra descargada o a permisos universales.</p></div><div id="archiveStats" class="collection-summary"></div></div>
+ <div class="archive-controls"><label class="search-wrap"><span>Buscar</span><input type="search" id="searchWork" placeholder="Autor, país, burbuja, monopolio, Bolsa…"></label><label><span>Región</span><select id="filterRegion"><option value="">Todas</option><option>Europa</option><option>América</option><option>Asia</option></select></label><label><span>Capítulo</span><select id="filterChapter"><option value="">Todos</option></select></label><label><span>Ordenar</span><select id="sortWorks"><option value="fecha">Cronológico</option><option value="pais">País</option><option value="autor">Autor</option></select></label><span class="filterCount" id="countWorks"></span></div>
+ <div id="workGrid" class="work-grid"></div>
+</section>
+<section id="section-cronologia" class="section" aria-label="Cronología global">
+ <div class="section-head"><div><span class="eyebrow">03 / ATLAS HISTÓRICO</span><h2>Los momentos del humor financiero</h2><p>Una cartografía cronológica abierta. Se señalan los núcleos ya documentados y, de manera diferenciada, las geografías por investigar.</p></div></div>
+ <div id="timeline" class="timeline"></div>
+ <div class="research-panel"><span class="eyebrow">AGENDA DE RELEVAMIENTO · NO INCORPORADA COMO IMAGEN CERTIFICADA</span><h3>Una historia internacional, no un canon exclusivamente europeo</h3>
+ <p>La primera selección cubre casos concretos de Europa, Estados Unidos, Argentina y Japón. La ampliación prioritaria deberá examinar archivos gráficos de Brasil, México, China, India, el mundo otomano, Rusia, África y el Sudeste Asiático. Para el siglo XX y XXI deberán distinguirse la discusión crítica de obras y la autorización de reproducción.</p><div id="researchLanes" class="lane-grid"></div></div>
+</section>
+<section id="section-fuentes" class="section" aria-label="Fuentes y metodología">
+ <div class="section-head"><div><span class="eyebrow">04 / APARATO CRÍTICO</span><h2>Fuentes, procedencia y criterios</h2><p>El libro busca poder publicarse en papel de lujo: cada imagen deberá soportar una revisión iconográfica, jurídica y técnica antes del cierre.</p></div></div>
+ <div class="source-layout"><article class="source-copy">
+ <h3>Qué entra en este libro</h3><p>Obras plásticas que elaboran una mirada irónica, satírica o alegórica sobre dinero, intercambio, instituciones financieras, trabajo, precios, monopolios o crisis. No todas las imágenes deben provocar risa: algunas denuncian, otras caricaturizan, otras transforman la economía en espectáculo.</p>
+ <h3>Qué no afirmamos</h3><p>El conjunto actual no es un inventario universal de todos los países y períodos. Tampoco una lista de permisos de impresión concedidos. La edad de una obra, la licencia del archivo digital, el derecho moral de atribución y el derecho de una traducción son cuestiones distintas.</p>
+ <h3>Protocolo de cada lámina</h3><ol><li>Confirmar artista, fecha, atribución, técnica, inscripción y localización.</li><li>Guardar el enlace de catálogo y el identificador persistente.</li><li>Obtener un máster digital propio y registrar su URL, pixelaje, derechos y procedencia.</li><li>Analizar símbolos, destinatarios de la sátira, contexto económico y sesgos de representación.</li><li>Revisar uso comercial en los mercados de distribución y preprensa (resolución al tamaño final, recortes, color, dobleces, sangrías).</li></ol>
+ <h3>Nota histórica</h3><p>La caricatura no es una prueba de que el artista tenga razón. Es evidencia de la manera en que determinados públicos imaginaron el poder económico. Una lectura contemporánea debe examinar también prejuicios antisemitas, clasistas, coloniales o de género cuando aparecen en el material histórico, sin normalizarlos.</p></article>
+ <aside class="source-links"><h3>Repositorios de investigación</h3><div id="sourcesList"></div><h3>Archivo fundacional</h3><p><em>Het Groote Tafereel der Dwaasheid</em>, 1720: facsímil local de investigación de 344 páginas, conservado en el expediente de trabajo. La copia de NYPL reúne 76 estampas, pero las colaciones históricas varían entre ejemplares.</p><a href="https://old-digitalcollections.nypl.org/collections/het-groote-tafereel-der-dwaasheid" target="_blank" rel="noopener">Consultar fondo de NYPL ↗</a></aside></div>
+</section>
+<footer class="footer"><span><strong>SIGLO23</strong> / EL HUMOR DE LOS MERCADOS</span><span>v0.1.0 · 7 NOV 2026 · Edición de trabajo · Noindex</span><span>Fuentes y autores identificados en sus fichas · <a href="../">Volver a Public Domain</a></span></footer>
+<div id="lightbox" class="lightbox" hidden><div class="lightbox-overlay" data-close></div><div class="lightbox-panel"><button id="closeLightbox" aria-label="Cerrar ficha">×</button><div id="lightboxContent"></div></div></div>
+<div id="printRoot" aria-hidden="true"></div>
+</body>
+</html>
