@@ -43,6 +43,7 @@ const editorialIntro=[
 "Este libro propone leer las imágenes como fuentes de la experiencia económica. No pretende demostrar que la sátira haya sido siempre exacta ni que la víctima de una caricatura mereciera su condena. Su atención se dirige al acto cultural por el cual una sociedad expresa visualmente sus temores sobre la riqueza, la desigualdad, el privilegio, la deuda y el deseo de enriquecerse.",
 "La edición parte de obras de dominio público o con acceso institucional documentado. El propósito es producir un gran libro físico de arte, con láminas generosas y textos que ayuden a mirar. Las imágenes aún no disponibles en calidad de imprenta permanecen explícitamente señaladas como pendientes. La curaduría se ampliará a todas las regiones que puedan documentarse rigurosamente."
 ];
+function allWorks(){return [...works,...extras.map(ex=>({id:ex.id,titulo:ex.title_es||ex.title,original:ex.title,autor:ex.artist||"Grabador por verificar",anio:"1720",fecha:1720,pais:"Países Bajos",region:"Europa",capitulo:3,tema:["burbujas","acciones","1720","grabado"],tecnica:"Grabado histórico",coleccion:ex.source_type||"Wikimedia Commons / archivos originales",fuente:ex.source_catalog||ex.source,estado:"Registro histórico en revisión",derechos:ex.rights_review||"Verificar ficha e imagen",texto:"Una estampa del gran archivo satírico de 1720. El título histórico y los detalles iconográficos se cotejarán con la institución custodiante antes de cerrar la edición.",lectura:"Una imagen de la crítica visual de la especulación financiera neerlandesa.",_local:"./"+ex.image,imagen:"./"+ex.image}))]}
 function imageMarkup(w,cls="art-image",small=false){
  const title=esc(w.titulo);
  return '<div class="'+cls+'" data-work="'+esc(w.id)+'"><div class="art-placeholder"><div class="large-dingbat">✦</div><strong>Archivo visual · '+esc(w.anio)+'</strong><span>Imagen de la obra: por confirmar o descargar. Ver ficha institucional.</span></div><img data-image="'+esc(w.id)+'" alt="'+title+' — '+esc(w.autor)+'" loading="'+(small?"lazy":"eager")+'"></div>';
@@ -50,9 +51,9 @@ function imageMarkup(w,cls="art-image",small=false){
 function getImg(w){return w._local || w.imagen || "";}
 function imageSetup(scope=document){
  scope.querySelectorAll("img[data-image]").forEach(img=>{
-   const w=works.find(x=>x.id===img.dataset.image);if(!w)return;
+   const w=allWorks().find(x=>x.id===img.dataset.image);if(!w)return;
    // Try our own local copy before external sources.
-   const local="./imagenes/"+w.id+".jpg";
+   const local=w._local || "./imagenes/"+w.id+".jpg";
    const fallback=getImg(w);
    if(img.dataset.bound==="1")return;img.dataset.bound="1";
    let state=0;
@@ -145,7 +146,7 @@ function renderChapters(){
  $("#filterChapter").insertAdjacentHTML("beforeend",chapters.map((c,i)=>'<option value="'+(i+1)+'">'+esc(c.n)+" · "+esc(c.titulo)+'</option>').join(""));
 }
 function archive(){
- let list=works.filter(w=>{
+ let list=allWorks().filter(w=>{
   const term=($("#searchWork").value||"").trim().toLowerCase();
   const hay=[w.titulo,w.original,w.autor,w.pais,w.texto,...w.tema].join(" ").toLowerCase();
   return (!term||hay.includes(term))&&(!$("#filterRegion").value||w.region===$("#filterRegion").value)&&(!$("#filterChapter").value||String(w.capitulo)===$("#filterChapter").value);
@@ -159,7 +160,7 @@ function archive(){
  $$("[data-select]").forEach(btn=>btn.addEventListener("click",()=>{const id=btn.dataset.select;selected[id]=!selected[id];store();archive()}));
 }
 function openDetail(id){
- const w=works.find(x=>x.id===id);if(!w)return;
+ const w=allWorks().find(x=>x.id===id);if(!w)return;
  $("#lightboxContent").innerHTML='<div class="eyebrow">FICHA '+esc(w.id)+' · '+esc(w.anio)+'</div><h2>'+esc(w.titulo)+'</h2><div class="lightbox-image">'+imageMarkup(w)+'</div><div class="metadata"><div><small>Original</small><strong>'+esc(w.original)+'</strong></div><div><small>Artista / técnica</small><strong>'+esc(w.autor)+' · '+esc(w.tecnica)+'</strong></div><div><small>País y período</small><strong>'+esc(w.pais)+' · '+esc(w.anio)+'</strong></div><div><small>Colección</small><strong>'+esc(w.coleccion)+'</strong></div></div><p>'+esc(w.texto)+'</p><p><strong>Lectura editorial:</strong> '+esc(w.lectura)+'</p><p><strong>Derechos / procedencia:</strong> '+esc(w.derechos)+'</p><a class="source-action" href="'+esc(w.fuente)+'" target="_blank" rel="noopener">Ver registro del museo o biblioteca ↗</a><label for="workNote" class="eyebrow">NOTAS DEL EDITOR</label><textarea id="workNote" placeholder="Observaciones, traducciones, comprobaciones y ajustes de página…">'+esc(notes[w.id]||"")+'</textarea><button class="save" data-save-note="'+esc(w.id)+'">Guardar nota en este navegador</button>';
  $("#lightbox").hidden=false;document.body.style.overflow="hidden";imageSetup($("#lightbox"));
  $$("[data-save-note]").forEach(b=>b.addEventListener("click",()=>{notes[b.dataset.saveNote]=$("#workNote").value;store();b.textContent="✓ Nota guardada"}));
@@ -177,7 +178,7 @@ function openSection(id){
  if(id==="archivo")archive();if(id==="libro")stage();window.scrollTo({top:0,behavior:"smooth"});
 }
 function exportState(){
- const payload={proyecto:"Siglo23 · El humor de los mercados",version:"0.1.0",fecha:new Date().toISOString(),obras:works,capitulos:chapters,seleccionadas:Object.keys(selected).filter(k=>selected[k]),notas:notes,maqueta:{paginas:pages.length,formato_mm:"270x340",sangrado_mm:3}};
+ const payload={proyecto:"Siglo23 · El humor de los mercados",version:"0.1.0",fecha:new Date().toISOString(),obras:works,laminas:extras,capitulos:chapters,seleccionadas:Object.keys(selected).filter(k=>selected[k]),notas:notes,maqueta:{paginas:pages.length,formato_mm:"270x340",sangrado_mm:3}};
  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="siglo23-mercados-edicion-0.1.0.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 }
 async function queryMet(){
@@ -212,7 +213,7 @@ async function init(){
  works=(await wr.json()).obras;chapters=(await cr.json()).capitulos;extras=lr&&lr.ok?(await lr.json()).laminas:[];
  buildPages();renderChapters();renderTimeline();bind();stage();
  $("#statsTop").textContent=works.length+" obras · "+chapters.length+" capítulos · "+extras.length+" estampas de archivo";
- $("#archiveStats").textContent=works.length+" piezas documentadas + "+extras.length+" estampas en identificación";
+ $("#archiveStats").textContent=(works.length+extras.length)+" piezas en inventario · "+extras.length+" estampas de 1720 añadidas";
  // Keep the selected view when returning from another section.
  archive();queryMet();
  }catch(e){$("#bookStage").innerHTML='<div class="loading"><strong>No se cargó el archivo editorial.</strong><p>Comprobar que index.html, app.js, capitulos.json y obras.json estén en el mismo directorio.</p></div>';$("#statsTop").textContent="Archivo no disponible";console.error(e);}
