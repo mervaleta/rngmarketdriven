@@ -1,0 +1,50 @@
+name: Siglo23 Mercados - descargar imágenes históricas
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/mercados-imagenes.yml"
+      - "publicdomain/mercados/scripts/actualizar-imagenes.py"
+
+permissions:
+  contents: write
+
+jobs:
+  compilar_archivo_visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Preparar lectura de PDF e imágenes
+        run: python -m pip install --disable-pip-version-check requests==2.32.5 Pillow==11.3.0 pymupdf==1.26.5
+      - name: Descargar reproducciones documentadas y extraer imágenes del Tafereel
+        run: python publicdomain/mercados/scripts/actualizar-imagenes.py
+      - name: Registrar los archivos web en el repositorio
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicdomain/mercados/imagenes/ publicdomain/mercados/laminas.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Mercados: incorporar archivos historicos locales, manifiesto y laminas"
+            git push origin HEAD:main
+          fi
+      - name: Prueba estática del visor
+        run: |
+          node --check publicdomain/mercados/app.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('publicdomain/mercados')
+          works=json.loads((p/'obras.json').read_text())['obras']
+          chapters=json.loads((p/'capitulos.json').read_text())['capitulos']
+          plates=json.loads((p/'laminas.json').read_text())['laminas']
+          print('VERIFICACION',len(works),'obras',len(chapters),'capitulos',len(plates),'láminas de archivo')
+          assert len(works)>=15 and len(chapters)==7
+          PY
