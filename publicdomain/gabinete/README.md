@@ -2,7 +2,7 @@
 
 **Ruta objetivo:** https://rngmarketdriven.com/publicdomain/gabinete/index.html  
 **Repositorio:** `mervaleta/rngmarketdriven`, carpeta `publicdomain/gabinete/`.  
-**Versión actual:** 1.0.0 · 7 de noviembre de 2026.  
+**Versión actual:** 1.1.0 · 7 de noviembre de 2026.  
 **Estado:** maqueta editorial; NO es PDF final ni obra aprobada para publicación comercial.
 
 ## Archivos
@@ -159,3 +159,13 @@ El compromiso editorial era **duplicar al menos** la extensión de la v0.9 (66 p
 - **La versión está guardada en GitHub, pero la publicación en Hostinger sigue sin confirmarse**. El agente autorizado debe seguir `DESPLIEGUE_HOSTINGER_V1.md` para sincronizar específicamente esta carpeta y verificar el dominio, sin sobrescribir otras áreas del sitio.
 
 La próxima fase editorial requiere adquirir/descargar másteres originales de calidad, seleccionar una edición realmente óptima y descartar fotos sin adultez, atribución o licencia suficientes. Evitar relleno.
+
+
+## v1.1.0 — Fotografías alojadas en el repositorio, sin depender de Commons para las copias recuperadas
+
+- **55 imágenes web descargadas y guardadas** como JPEG real bajo `imagenes/web/`; `libro.json` usa rutas locales solo cuando el archivo existe.
+- **20 originales digitales del Metropolitan Museum** descargados desde su API Public Domain, conservados en `imagenes/maestros/`; el editor incluye enlaces a estos archivos.
+- **13 imágenes pendientes** mantienen la referencia externa, debido a bloqueos 429 o errores de archivo en las fuentes. Ver `imagenes/manifest.json` para nombres y errores.
+- Las imágenes locales deben publicarse junto con `libro.json` en Hostinger; **GitHub no equivale al alojamiento web del dominio**. Existe un control remoto definido en `.github/workflows/gabinete-publicacion.yml`.
+- En el maquetador se distingue copia web local, máster original, resolución baja y fotografías por importar.
+- Los originales descargados requieren cotejo de derechos, modelos adultos, tonalidad y calidad efectiva a escala 27×34 antes de aprobación comercial.
