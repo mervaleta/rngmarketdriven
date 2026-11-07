@@ -29,9 +29,14 @@
       "sortYear": 1840,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Stereographic_View_of_Two_Nude_Women_-_MET_DP-15364-001.jpg",
-      "web_sha256": "b113ea8635c1d7d4bd9836db8a5384bb6b104ccda02e64e1d706771de618c188",
+      "web_sha256": "38710ec0e3e4c044305e108ad8da5038e2ee48a6996dd4c31dfbfd21224b7a13",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/stereo.jpg",
+      "master_sha256": "1f286c4f34fb288c850fd125efcc9ff41f0305d5c0dbdf20a59c1535e54cda88",
+      "master_width": 4000,
+      "master_height": 2096,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "danae",
@@ -51,9 +56,14 @@
       "sortYear": 1850,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/-Reclining_Female_Nude_as_Danae-_MET_DP700142.jpg",
-      "web_sha256": "4d2d0a879d878ea22e8f606da42f9abb8369f9be86958166f5961f001102f2c9",
+      "web_sha256": "cc1bb6f2ee0611f17d42865bafb7b17ffbdd63cd724ef898e12a4f269bbba3aa",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/danae.jpg",
+      "master_sha256": "63d679db71e7e77a67a721604ebaee1dff3ff254e4890ea09010db11ad6e2466",
+      "master_width": 3060,
+      "master_height": 3340,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "mirror",
@@ -73,9 +83,14 @@
       "sortYear": 1850,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/-Nude_with_Mirror-_MET_DP263561.jpg",
-      "web_sha256": "0cfcde9e3b04168b453abcfbf59d629569a1ddf390cc02b2dc72c2edd4aa1091",
+      "web_sha256": "83cc46d80863569fcf879c8c3b69e1a410defcd0191175dcbcbb1ad4352a8fac",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/mirror.jpg",
+      "master_sha256": "65946b4ef70fcdb1de18d7798b40116c2ac7c28c5132ac6b4c3b2b5734393f3e",
+      "master_width": 3109,
+      "master_height": 3421,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "seated",
@@ -95,9 +110,14 @@
       "sortYear": 1850,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/-Seated_Female_Nude-_MET_DP263565.jpg",
-      "web_sha256": "8abe41725cb8b62011e8dc592d506b839f44214b9e4d462f7d347b161c47c475",
+      "web_sha256": "392ce3f3fe96e5b377ae3247c0889c5f87e0f4dbaecfdda618343248ca354554",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/seated.jpg",
+      "master_sha256": "c5b59ad0556555b8adc6c5ddd34a654b5bd3c74ec2d9ae6a16d2b9079a63b05f",
+      "master_width": 1642,
+      "master_height": 1928,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "met_squat",
@@ -148,9 +168,14 @@
       "kind": "photograph",
       "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude-_MET_DP312879.jpg",
-      "web_sha256": "b84dc31c5b9e5c499a7f875469805c3e057bf5c8b9a358c24bff3df8006d14f0",
+      "web_sha256": "a32c463b6c8179ab470b66c46f1e6664b2cd2877b801a1eb75294e5c29327550",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/durieu_nude_1851.jpg",
+      "master_sha256": "fc3d24cd2f92a57d68369a951ba5455e543e1560b74ac99eb635153132c91d9e",
+      "master_width": 4000,
+      "master_height": 2410,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "vallou_reclining_1851",
@@ -170,9 +195,14 @@
       "context": "Una pose que apenas disimula su corporeidad. El Met subraya cómo las convenciones del gran desnudo pictórico sirvieron para legitimar el realismo del cuerpo fotografiado.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/-Reclining_Nude-_MET_DP147946.jpg",
-      "web_sha256": "235b8136cda81379228ffe90ddd4e7dd2407da902267ea528ff887186fff825e",
+      "web_sha256": "31eedfa109f3516e8f2456932d004687e527dd292179319f3fd73e13d824e9f4",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/vallou_reclining_1851.jpg",
+      "master_sha256": "70e057e2bbec9b6f11c491de6e22841264cca4eb06d2a6baffbe9f694445a756",
+      "master_width": 3621,
+      "master_height": 2879,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "olivier_hammock",
@@ -326,9 +356,14 @@
       "sortYear": 1853,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/-Seated_Female_Nude-_MET_DP263566.jpg",
-      "web_sha256": "cce0ddddc065da3480c337825fb1332259cf3a2f282ce6ba7a1ff0c05a81ae2b",
+      "web_sha256": "da1e0b8b0173b6dc7dd616a862826d1a9191c06642cbad64f9ae598a621383cd",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/durieu.jpg",
+      "master_sha256": "6c21663e4223c8f372371f60b43dd48edb5f850ce0105ece497474fcb3c5632a",
+      "master_width": 2653,
+      "master_height": 3858,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "durieu_study_1853",
@@ -348,9 +383,14 @@
       "context": "La figura posada para el dibujo forma parte de una serie vinculada al trabajo de Delacroix. La imagen es un estudio de líneas y pesos visuales más que un documento espontáneo.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/-Nude_Study-_MET_DP139566.jpg",
-      "web_sha256": "8edd7ac3536f7970aadc318814e2cde026faca6b1022db06b967cea7edcb12d9",
+      "web_sha256": "c045befdf0f4c3989b578e9894cbe723a4f516caf0fb8ace9c045e64d4ce3191",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/durieu_study_1853.jpg",
+      "master_sha256": "e90db73e7bc2bdf6054dcafca32c8e16845f8c8e033ab16dcac5c84b2465c979",
+      "master_width": 2461,
+      "master_height": 3882,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "vallou",
@@ -370,9 +410,14 @@
       "sortYear": 1853,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/-Female_Nude,_Reclining,_in_Profile-_MET_DT1157.jpg",
-      "web_sha256": "c541b048ecfd75c4e5610fee69995b308a4d0bc6b7da5d27d7b11187a972bf2e",
+      "web_sha256": "6c8c5c3b33dd7748b1e8cdca505835bb49e81e3d61310bae4937e4316c1f0e4a",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/vallou.jpg",
+      "master_sha256": "b4c273120752f78e1510177a9a9d78ef553809b5d0f3d431809cbff905252770",
+      "master_width": 3807,
+      "master_height": 2814,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "vallou2",
@@ -392,9 +437,14 @@
       "sortYear": 1853,
       "review_status": "preselección museística; revisión final de derechos, procedencia y edad adulta pendiente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/-Reclining_Female_Nude-_MET_DT6993.jpg",
-      "web_sha256": "82344e103ba3e188aad6991956e7043505c0564645807e3865c8e219ce3894d6",
+      "web_sha256": "a46fddab7c3d9a91f75eb884e8755422248a995affd6a91b5331aebef932f561",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/vallou2.jpg",
+      "master_sha256": "958b76ee29b9018cdbb70bc013ee8b1d9fbe8116a092661e3b95beb901a55cef",
+      "master_width": 3777,
+      "master_height": 2779,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "vallou_standing_1853",
@@ -414,9 +464,14 @@
       "context": "Vista de espalda y un cuidadoso ordenamiento de telas y mobiliario. La imagen pone en primer plano la fabricación de una «academia», entre técnica, estudio de modelo y circulación privada.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/-Standing_Female_Nude-_MET_DT6994.jpg",
-      "web_sha256": "bfa18caf4cd9592155fd4bc9bafc7b0e14bc05c7bf5a0a9b4ef156808e26b5be",
+      "web_sha256": "124d698a13c51d26910b1e331c6936ec7ba26951b2d0f918f3c523d5cca96247",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/vallou_standing_1853.jpg",
+      "master_sha256": "a7ecf8f2035acfec3bdb6a4a4d21c3600b17557c9e30c436f6f3de387156c053",
+      "master_width": 1892,
+      "master_height": 2518,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "vallou_9",
@@ -893,9 +948,14 @@
       "context": "La escena renuncia a la idealización mitológica y muestra el estudio con una franqueza que el Met compara con la representación moderna del cuerpo de Manet.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/-Female_Nude_in_Studio-_MET_DT1168.jpg",
-      "web_sha256": "6a3a6b1c6fce851fe092a11191253524df561c64f27b63269aacb3bf7b23560c",
+      "web_sha256": "7afeb0ee6e0c3084b24eab32a7724fd8869b75047ef45d16ad4771b8b99a457a",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/chauva_studio_1856.jpg",
+      "master_sha256": "e2c173103a3e2cfad79a12c4b6474cdea634c6e833377bee901f725177a67264",
+      "master_width": 3070,
+      "master_height": 3713,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "nadar_draped_1856",
@@ -916,9 +976,14 @@
       "review_status": "Obra integrada provisionalmente; antes de vender la edición revisar atribuciones y documentación de la persona retratada.",
       "master_status": "JPG original remoto 2654×4000 px en Commons; no alojado localmente",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Met_DP-16448-002.jpg",
-      "web_sha256": "72779ba9466943c03717d81234823772d7ee8a1406406dedb85d043c10a3c08f",
+      "web_sha256": "8f6cd2ab6d28b1665066edac505fb98a5a76ac5f3b02ce6ddffa5d68afa51bba",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/nadar_draped_1856.jpg",
+      "master_sha256": "ee2931af7dc08e67d9450fe29fc6afcf3a419221e25cf955364e15dbd3ea0988",
+      "master_width": 2654,
+      "master_height": 4000,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "braquehais_mirror_1857",
@@ -938,9 +1003,14 @@
       "context": "La toilette y el espejo remiten a un repertorio visual aceptado por la pintura. El Met explica cómo ese marco cultural hizo comercializables ciertos estudios de desnudo ante la vigilancia estatal.",
       "review_status": "preselección histórica; revisar procedencia y edad adulta documentada antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/-Nude_Before_a_Mirror-_MET_DP343654.jpg",
-      "web_sha256": "f0c9c64dddb85b8fd3b5e867351ed2aea82e3bd39c9182743e73a64328fe3c41",
+      "web_sha256": "0416c19da422e517308889d2e11339d5edc2864dec6948a2296fa22633aff877",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/braquehais_mirror_1857.jpg",
+      "master_sha256": "fc83272bad08f0506cf391f35cce3c7b7dbbbe649dcf92f8ef8e0ffe1c03f565",
+      "master_width": 2751,
+      "master_height": 3425,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "nadar_1860",
@@ -961,9 +1031,14 @@
       "kind": "photograph",
       "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Standing_Female_Nude-_MET_DP263575.jpg",
-      "web_sha256": "475be61ea1024916020aadd35df3e4586304ea7015b8fdaee6de32d2622e36db",
+      "web_sha256": "a7a3efaf06ca664b4e421b08557d7753bb70356931afe1371f9fa2eaec5ec3b9",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/nadar_1860.jpg",
+      "master_sha256": "bf33257235a9068a83adc7b3f8032b2cf5e861f72c6f8bd7b1d95931ed68691b",
+      "master_width": 2633,
+      "master_height": 3872,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "mask_1870",
@@ -983,9 +1058,14 @@
       "context": "La máscara conserva el anonimato en una técnica que parecía fijar la identidad con extraordinaria precisión. El museo destaca la ambigüedad entre el estudio académico de figura y el interés erótico de ciertos espectadores.",
       "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/-Female_Nude_with_Mask-_MET_DP263564.jpg",
-      "web_sha256": "dad3fa9faf4d667766008ba671f6e9bf588fac5a7c00cae9f3f6fc2ea953e86a",
+      "web_sha256": "32e609ea5bbfb0928370341f27dc207769ee8f87982a8e27255160aa1bbb20e1",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/mask_1870.jpg",
+      "master_sha256": "8567844c49b821e20fbd161f54df8ac117315ba230d03f2949a3dd5a20c82958",
+      "master_width": 2798,
+      "master_height": 3756,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "marconi_back",
@@ -1091,9 +1171,14 @@
       "context": "El sombrero y los elementos del estudio subrayan el carácter construido de la escena. La datación institucional abarca tres décadas; se ubica provisionalmente aquí sin presentarla como obra de año exacto.",
       "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/-Nude_Woman_with_Hat_in_Studio-_MET_DP149528.jpg",
-      "web_sha256": "06d389c4e6a0c685bdc4db8379aa301a4301e992d73666e28f6977533c189453",
+      "web_sha256": "af75c326056cd673b5da80169a9c0d32fa72e6e2bc359ca409a859f8ebeda789",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/hat_1870.jpg",
+      "master_sha256": "40e98ad64a1434d1ae66728a3a9d91619e6e6d784ff2a6d5bf5e0db0fe35430e",
+      "master_width": 2889,
+      "master_height": 3846,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "rijks_glass_carpet",
@@ -1234,9 +1319,14 @@
       "kind": "photograph",
       "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/-Nude_Men_in_the_Garden-_MET_DP335624.jpg",
-      "web_sha256": "0beb5e621d88ca05a7208572ccc80410e64d5ad627f2b5f2a17a22ef7726600e",
+      "web_sha256": "42cf684bc82a580f53744ac1169fa8dc41a5bdc440adca8cbd6cbccb9f6f5787",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/eakins_garden.jpg",
+      "master_sha256": "93f4858e0589fba4fed39030bf798c686813b490300d66122ce609949f9ecd9c",
+      "master_width": 2519,
+      "master_height": 3361,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "rijks_sofa_book",
@@ -1286,9 +1376,14 @@
       "context": "En el estudio de Eakins, la pose masculina se vincula con la anatomía, la instrucción y la cultura académica de Filadelfia. La imagen permite ampliar la historia más allá de los circuitos parisinos.",
       "review_status": "Imagen preseleccionada, datos museísticos cotejados. Pendiente de revisión de identidad/edad adulta y adecuación legal para edición comercial.",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/-Standing_Male_Nude_with_Pipes-_MET_DP-1102-001.jpg",
-      "web_sha256": "2d0d74b95b99accdd4513b9fea7d829993d767cb69a0bd2f08f9e89e4a4ea1ab",
+      "web_sha256": "c6526ef0b51ef9345cfb79b0bfdb051ff409abfdd9f84e4503bd453397c9623e",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/eakins_pipes_1880.jpg",
+      "master_sha256": "ef0e1cd2df66d655c3e5aa5a785755b33be969495434ea8c9e3a6e4eae5e1596",
+      "master_width": 3021,
+      "master_height": 4000,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "sambourne_kate",
@@ -1489,9 +1584,14 @@
       "kind": "photograph",
       "review_status": "Reproducción museística documentada; comprobar edad adulta, procedencia y cumplimiento legal antes de comercializar",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bill_Duckett_Nude%2C_at_the_Art_Students%E2%80%99_League_of_Philadelphia_MET_DP331827.jpg",
-      "web_sha256": "2cba32749cec34b810cb59e5f358639833d3304cf3e9919e0a8fe485d8d805ad",
+      "web_sha256": "e013e89071d4de820d45767478398e55bca698170721494d9aa5d9e1542c73b5",
       "local_web_available": true,
-      "download_status": "guardado_localmente_en_repositorio"
+      "download_status": "guardado_localmente_en_repositorio",
+      "local_master_url": "./imagenes/maestros/eakins_bill_1889.jpg",
+      "master_sha256": "e5662d1d449262b472bccc45ab9d3e22c7dd0adf4bad914bfa6ebfbdc1cdc1e1",
+      "master_width": 3220,
+      "master_height": 3414,
+      "print_master_status": "ORIGINAL MET DESCARGADO; revisión de imprenta pendiente"
     },
     {
       "id": "canellas_mirror",

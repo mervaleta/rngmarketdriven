@@ -1,0 +1,249 @@
+{
+  "source": "The Metropolitan Museum of Art Open Access API",
+  "scope": "Solo obras de dominio público y objetos identificados",
+  "saved_masters": [
+    {
+      "id": "stereo",
+      "bytes": 1678366,
+      "width": 4000,
+      "height": 2096,
+      "file": "imagenes/maestros/stereo.jpg"
+    },
+    {
+      "id": "danae",
+      "bytes": 2191519,
+      "width": 3060,
+      "height": 3340,
+      "file": "imagenes/maestros/danae.jpg"
+    },
+    {
+      "id": "mirror",
+      "bytes": 2704396,
+      "width": 3109,
+      "height": 3421,
+      "file": "imagenes/maestros/mirror.jpg"
+    },
+    {
+      "id": "seated",
+      "bytes": 2249828,
+      "width": 1642,
+      "height": 1928,
+      "file": "imagenes/maestros/seated.jpg"
+    },
+    {
+      "id": "durieu_nude_1851",
+      "bytes": 2267890,
+      "width": 4000,
+      "height": 2410,
+      "file": "imagenes/maestros/durieu_nude_1851.jpg"
+    },
+    {
+      "id": "vallou_reclining_1851",
+      "bytes": 1902242,
+      "width": 3621,
+      "height": 2879,
+      "file": "imagenes/maestros/vallou_reclining_1851.jpg"
+    },
+    {
+      "id": "durieu",
+      "bytes": 2272373,
+      "width": 2653,
+      "height": 3858,
+      "file": "imagenes/maestros/durieu.jpg"
+    },
+    {
+      "id": "durieu_study_1853",
+      "bytes": 1519723,
+      "width": 2461,
+      "height": 3882,
+      "file": "imagenes/maestros/durieu_study_1853.jpg"
+    },
+    {
+      "id": "vallou",
+      "bytes": 3028385,
+      "width": 3807,
+      "height": 2814,
+      "file": "imagenes/maestros/vallou.jpg"
+    },
+    {
+      "id": "vallou2",
+      "bytes": 2272711,
+      "width": 3777,
+      "height": 2779,
+      "file": "imagenes/maestros/vallou2.jpg"
+    },
+    {
+      "id": "vallou_standing_1853",
+      "bytes": 960216,
+      "width": 1892,
+      "height": 2518,
+      "file": "imagenes/maestros/vallou_standing_1853.jpg"
+    },
+    {
+      "id": "chauva_studio_1856",
+      "bytes": 1945240,
+      "width": 3070,
+      "height": 3713,
+      "file": "imagenes/maestros/chauva_studio_1856.jpg"
+    },
+    {
+      "id": "nadar_draped_1856",
+      "bytes": 3258662,
+      "width": 2654,
+      "height": 4000,
+      "file": "imagenes/maestros/nadar_draped_1856.jpg"
+    },
+    {
+      "id": "braquehais_mirror_1857",
+      "bytes": 2349704,
+      "width": 2751,
+      "height": 3425,
+      "file": "imagenes/maestros/braquehais_mirror_1857.jpg"
+    },
+    {
+      "id": "nadar_1860",
+      "bytes": 2591227,
+      "width": 2633,
+      "height": 3872,
+      "file": "imagenes/maestros/nadar_1860.jpg"
+    },
+    {
+      "id": "mask_1870",
+      "bytes": 2249157,
+      "width": 2798,
+      "height": 3756,
+      "file": "imagenes/maestros/mask_1870.jpg"
+    },
+    {
+      "id": "hat_1870",
+      "bytes": 1800478,
+      "width": 2889,
+      "height": 3846,
+      "file": "imagenes/maestros/hat_1870.jpg"
+    },
+    {
+      "id": "eakins_garden",
+      "bytes": 1791456,
+      "width": 2519,
+      "height": 3361,
+      "file": "imagenes/maestros/eakins_garden.jpg"
+    },
+    {
+      "id": "eakins_pipes_1880",
+      "bytes": 2715680,
+      "width": 3021,
+      "height": 4000,
+      "file": "imagenes/maestros/eakins_pipes_1880.jpg"
+    },
+    {
+      "id": "eakins_bill_1889",
+      "bytes": 2291421,
+      "width": 3220,
+      "height": 3414,
+      "file": "imagenes/maestros/eakins_bill_1889.jpg"
+    }
+  ],
+  "updated_web": [
+    {
+      "id": "stereo",
+      "width": 2400,
+      "height": 1258
+    },
+    {
+      "id": "danae",
+      "width": 2199,
+      "height": 2400
+    },
+    {
+      "id": "mirror",
+      "width": 2181,
+      "height": 2400
+    },
+    {
+      "id": "seated",
+      "width": 1642,
+      "height": 1928
+    },
+    {
+      "id": "durieu_nude_1851",
+      "width": 2400,
+      "height": 1446
+    },
+    {
+      "id": "vallou_reclining_1851",
+      "width": 2400,
+      "height": 1908
+    },
+    {
+      "id": "durieu",
+      "width": 1650,
+      "height": 2400
+    },
+    {
+      "id": "durieu_study_1853",
+      "width": 1521,
+      "height": 2400
+    },
+    {
+      "id": "vallou",
+      "width": 2400,
+      "height": 1774
+    },
+    {
+      "id": "vallou2",
+      "width": 2400,
+      "height": 1766
+    },
+    {
+      "id": "vallou_standing_1853",
+      "width": 1803,
+      "height": 2400
+    },
+    {
+      "id": "chauva_studio_1856",
+      "width": 1984,
+      "height": 2400
+    },
+    {
+      "id": "nadar_draped_1856",
+      "width": 1592,
+      "height": 2400
+    },
+    {
+      "id": "braquehais_mirror_1857",
+      "width": 1928,
+      "height": 2400
+    },
+    {
+      "id": "nadar_1860",
+      "width": 1632,
+      "height": 2400
+    },
+    {
+      "id": "mask_1870",
+      "width": 1788,
+      "height": 2400
+    },
+    {
+      "id": "hat_1870",
+      "width": 1803,
+      "height": 2400
+    },
+    {
+      "id": "eakins_garden",
+      "width": 1799,
+      "height": 2400
+    },
+    {
+      "id": "eakins_pipes_1880",
+      "width": 1813,
+      "height": 2400
+    },
+    {
+      "id": "eakins_bill_1889",
+      "width": 2264,
+      "height": 2400
+    }
+  ],
+  "failed": []
+}

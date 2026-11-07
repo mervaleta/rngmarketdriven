@@ -56,5 +56,7 @@
   "localImageFiles": 55,
   "imageDownloadFailures": 13,
   "imageAssetManifest": "./imagenes/manifest.json",
-  "assetStatus": "Archivos guardados en GitHub; publicación en Hostinger debe verificarse"
+  "assetStatus": "Archivos guardados en GitHub; publicación en Hostinger debe verificarse",
+  "metOriginalsDownloaded": 20,
+  "metHighQualityWebImages": 20
 }
