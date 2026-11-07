@@ -1,0 +1,16 @@
+/* Siglo23 · Spencer: azul editorial, identidad del proyecto.
+   Solo interfaz de pantalla; no altera los colores ni las medidas del libro. */
+:root{--ui:#17273b;--ui2:#20354b;--ui3:#294059;--line:#4b637b;--muted:#b8c6d0;--gold:#e2b478;--stage:#24364c;--active:#f0ce94}
+body{background:var(--ui)}
+.top{background:#101f32;border-bottom-color:#4a6278}
+.inspector,.planner{background:var(--ui2);border-color:#476076}
+.titlebar{border-bottom-color:#40596e}
+.studio{background:radial-gradient(circle at 55% 25%,#45546d,#1d3047 72%)}
+.studio-tools,.overview-toolbar,.spread-toolbar{background:#1b3046;border-bottom-color:#476178}
+.section-row,.page-map,.metric{background:#182c42}
+.protools{display:flex;align-items:center;flex-wrap:wrap;gap:9px;padding:12px 20px;background:#162e47;border-bottom:1px solid #526b80;font-size:11px}
+.protools strong{letter-spacing:.09em;color:#f0cd93}.protools a{padding:8px 12px;border:1px solid #9cb4c6;border-radius:5px;text-decoration:none;color:#f1e4d1;font-weight:700}.protools a.primary{background:#e2b478;color:#142238;border-color:#e2b478}
+.pro-audit{border:1px solid #637c91;margin:15px 0 20px;padding:12px;background:#172b42;border-radius:5px}.pro-audit summary{cursor:pointer;font-weight:700;color:#f0ce94;font-size:11px;letter-spacing:.07em}
+.pro-audit h3{font-size:10px;color:#f0ce94}.pro-audit p,.pro-audit li{font-size:11px;color:#d5e0e8;line-height:1.6}.pro-audit ul{padding-left:18px}.pro-audit .audit-bad{color:#ffc1af}.pro-audit .audit-warn{color:#f7d5a0}.pro-audit .audit-ok{color:#acd9be}
+.pro-audit button{border:1px solid #8da9c1;border-radius:5px;background:#28445f;color:#fff;padding:9px 11px}
+.pro-audit small{color:#a8bfd0;display:block;margin-top:8px}
