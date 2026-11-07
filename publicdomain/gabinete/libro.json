@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -3810,7 +3810,7 @@
       "caption": ""
     }
   ],
-  "notes": "MAQUETA AMPLIADA v1.0: 146 páginas, 68 fotografías distintas, 46 nuevas láminas de acceso a Commons, 26 nuevas páginas de contexto. La selección incluye pruebas editoriales de baja resolución que NO están aprobadas para producción física. Las imágenes de modelos no han pasado aún todas las comprobaciones de edad. No publicado automáticamente en Hostinger. Paginación reorganizada: láminas por fecha dentro de cada capítulo, contextos intercalados cada dos láminas cuando hay material.",
+  "notes": "MAQUETA AMPLIADA v1.0: 146 páginas, 68 fotografías distintas, 46 nuevas láminas de acceso a Commons, 26 nuevas páginas de contexto. La selección incluye pruebas editoriales de baja resolución que NO están aprobadas para producción física. Las imágenes de modelos no han pasado aún todas las comprobaciones de edad. No publicado automáticamente en Hostinger. Paginación reorganizada: láminas por fecha dentro de cada capítulo, contextos intercalados cada dos láminas cuando hay material. Archivos locales alojados en el repositorio: 55 copias JPEG web y 20 originales fotográficos del Met. Trece fotos tienen aún URL externa, porque la descarga fue bloqueada o no se halló el archivo. La carpeta debe desplegarse en Hostinger junto con libro.json.",
   "updated": "2026-11-07",
   "book_phase": "Curación cronológica — primera fase fotográfica 1840–1859, horizonte 1840–1900",
   "editorial_scope": {
@@ -3847,5 +3847,14 @@
     "editorial_archive": "contextos-investigacion-v06.json",
     "artistic_focus": "Únicamente fotografías de desnudo artístico/sensual, no cámaras u otros objetos de época; fotografía académica solo cuando tenga relevancia visual clara",
     "quality_over_quantity": true
+  },
+  "imageHosting": {
+    "location": "publicdomain/gabinete/imagenes/",
+    "localWebCopies": 55,
+    "localOriginalMasters": 20,
+    "remotePending": 13,
+    "localHostDeployStatus": "GitHub sí, Hostinger por verificar",
+    "manifest": "imagenes/manifest.json",
+    "metManifest": "imagenes/maestros/manifest.json"
   }
 }
