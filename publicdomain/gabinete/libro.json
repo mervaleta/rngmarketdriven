@@ -262,7 +262,7 @@
       "accession": "sin inventario",
       "quality": "medio",
       "commons": "https://commons.wikimedia.org/wiki/File:Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
+      "url": "./imagenes/web/braque_recline.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -274,7 +274,11 @@
       "review_approved": false,
       "title": "Bruno Braquehais (attr) Reclining female nude 1850s",
       "display_class": "copia_de_trabajo",
-      "print_approval": "pendiente"
+      "print_approval": "pendiente",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bruno_Braquehais_(attr)_Reclining_female_nude_1850s.jpg",
+      "web_sha256": "4aff4847137799df6aaa342e7f04f6c758d9deb342c4cb2170d95a8e2d9919f2",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu",
@@ -430,7 +434,7 @@
       "accession": "sin inventario",
       "quality": "bajo",
       "commons": "https://commons.wikimedia.org/wiki/File:Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
+      "url": "./imagenes/web/braque_veil.jpg",
       "museumUrl": "https://commons.wikimedia.org/wiki/File:Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
       "license": "Fuente en Wikimedia Commons; derechos específicos del archivo a confirmar para edición comercial",
       "process": "Fotografía histórica, técnica individual pendiente de cotejo",
@@ -442,7 +446,11 @@
       "review_approved": false,
       "title": "Bruno-Auguste Braquehais - Seated Female Nude with Veil",
       "display_class": "archivo_de_resolucion_limitada",
-      "print_approval": "no"
+      "print_approval": "no",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg",
+      "web_sha256": "8dc656ba88b3090d1017ca69274cdbce54a489bcd13694d98370de1a09d69ad8",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "durieu_1",
@@ -586,7 +594,7 @@
       "license": "CC0, Cleveland Open Access",
       "w": 5106,
       "h": 3780,
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
+      "url": "./imagenes/web/belloc_sofa_1855.jpg",
       "commons": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
       "museumUrl": "https://www.clevelandart.org/art/1998.55",
       "context": "El propio museo destaca el sofá, los pliegues abundantes y la iluminación natural del estudio. Belloc componía escenas que podían interesar tanto a pintores como a compradores particulares, y conseguía una notable riqueza de medios tonos.",
@@ -594,7 +602,11 @@
       "master_status": "Derivado JPEG de Wikimedia Commons para maqueta; TIFF maestro de 5106×3780 px pendiente de descarga",
       "master_url": "https://commons.wikimedia.org/wiki/File:Auguste_Belloc_-_Academic_Nude,_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif",
       "web_preview_only": true,
-      "web_preview_source": "Wikimedia Commons TIFF JPEG thumbnail"
+      "web_preview_source": "Wikimedia Commons TIFF JPEG thumbnail",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
+      "web_sha256": "9a0d984f1dffaaa69ced714884d68b1649f7b7ebe2eccf940f311d4f26d96299",
+      "local_web_available": true,
+      "download_status": "guardado_localmente_en_repositorio"
     },
     {
       "id": "belloc_stereo",

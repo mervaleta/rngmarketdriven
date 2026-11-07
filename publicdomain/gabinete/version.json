@@ -52,5 +52,9 @@
     "bajo": 16
   },
   "printReady": false,
-  "assetsOnHostinger": false
+  "assetsOnHostinger": false,
+  "localImageFiles": 3,
+  "imageDownloadFailures": 65,
+  "imageAssetManifest": "./imagenes/manifest.json",
+  "assetStatus": "Archivos guardados en GitHub; publicación en Hostinger debe verificarse"
 }

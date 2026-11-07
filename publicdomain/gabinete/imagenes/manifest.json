@@ -1,0 +1,569 @@
+{
+  "generated_utc": "2026-11-07T05:18:53.098774+00:00",
+  "project": "El gabinete prohibido",
+  "warning": "La descarga no acredita derechos, identidad, edad adulta ni calidad de imprenta.",
+  "files": [
+    {
+      "id": "braque_recline",
+      "status": "descargado",
+      "web": "./imagenes/web/braque_recline.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Bruno_Braquehais_%28attr%29_Reclining_female_nude_1850s.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "width": 940,
+      "height": 1056,
+      "bytes": 322101,
+      "sha256": "4aff4847137799df6aaa342e7f04f6c758d9deb342c4cb2170d95a8e2d9919f2",
+      "master": null,
+      "quality": "medio"
+    },
+    {
+      "id": "braque_veil",
+      "status": "descargado",
+      "web": "./imagenes/web/braque_veil.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bruno-Auguste_Braquehais_-_Seated_Female_Nude_with_Veil.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "width": 808,
+      "height": 452,
+      "bytes": 79817,
+      "sha256": "8dc656ba88b3090d1017ca69274cdbce54a489bcd13694d98370de1a09d69ad8",
+      "master": null,
+      "quality": "bajo"
+    },
+    {
+      "id": "belloc_sofa_1855",
+      "status": "descargado",
+      "web": "./imagenes/web/belloc_sofa_1855.jpg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif/lossy-page1-1280px-Auguste_Belloc_-_Academic_Nude%2C_Reclining_on_a_Sofa_-_1998.55_-_Cleveland_Museum_of_Art.tif.jpg",
+      "width": 1280,
+      "height": 948,
+      "bytes": 189989,
+      "sha256": "9a0d984f1dffaaa69ced714884d68b1649f7b7ebe2eccf940f311d4f26d96299",
+      "master": null,
+      "quality": null
+    }
+  ],
+  "failures": [
+    {
+      "id": "stereo",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 429: Too Many Requests (015d12c)"
+      ]
+    },
+    {
+      "id": "danae",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 429: Too Many Requests (015d12c)"
+      ]
+    },
+    {
+      "id": "mirror",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 429: Too Many Requests (015d12c)"
+      ]
+    },
+    {
+      "id": "seated",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 429: Too Many Requests (015d12c)"
+      ]
+    },
+    {
+      "id": "met_squat",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too Many Requests (015d12c)",
+        "HTTP Error 429: Too Many Requests (015d12c)"
+      ]
+    },
+    {
+      "id": "durieu_nude_1851",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou_reclining_1851",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "olivier_hammock",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "olivier_column",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "olivier_three",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "olivier_bed",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_study_1853",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou2",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou_standing_1853",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou_9",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou_2",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_1",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_4",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_5",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_dutch",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "vallou_academic",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "belloc_stereo",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "braque_dutch",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "braque_basket",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "asser_stereo_1855",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "durieu_012",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "dutch_tambourine",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "olivier_009",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "chauva_studio_1856",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "nadar_draped_1856",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "braquehais_mirror_1857",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "nadar_1860",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "mask_1870",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "marconi_back",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "marconi_seated",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "marconi_stage",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "hat_1870",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "rijks_glass_carpet",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "rijks_glass_mirror",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "rijks_glass_room",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "marconi_violin",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "eakins_garden",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "rijks_sofa_book",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "eakins_pipes_1880",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "sambourne_kate",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "breitner_jordan_6",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "breitner_jordan_7",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi"
+      ]
+    },
+    {
+      "id": "breitner_jordan_1",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "breitner_jordan_2",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "breitner_jordan_3",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "eakins_bill_1889",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "canellas_mirror",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "canellas_bench",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "canellas_rock",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "canellas_gate",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "canellas_moorish",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "sambourne_pettigrew_4b",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "sambourne_pettigrew_5",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "sambourne_maude_1",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "sambourne_maude_costume",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "frank_eugene_hortensia",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "frank_eugene_adam",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    },
+    {
+      "id": "frank_eugene_cloud",
+      "status": "error",
+      "reasons": [
+        "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wi",
+        "HTTP Error 429: Too many requests (f061ab2)"
+      ]
+    }
+  ],
+  "downloaded_count": 3,
+  "failures_count": 65,
+  "book_images_total": 68,
+  "hosted_only_if_deployed": true
+}
