@@ -2,7 +2,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => Array.from(document.querySelectorAll(s));
 const esc = v => String(v ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const LIB = "siglo23-mercados-v0.1.0";
+const LIB = "siglo23-mercados-v0.2.0";
 let works=[], chapters=[], extras=[], pages=[], pageIndex=0, view="spread", selected={}, notes={}, currentSection="libro", metRequested=false;
 const store = () => {try{localStorage.setItem(LIB,JSON.stringify({selected,notes,view,pageIndex}))}catch(e){}};
 try{const s=JSON.parse(localStorage.getItem(LIB)||"{}");selected=s.selected||{};notes=s.notes||{};view=s.view||"spread";pageIndex=Number(s.pageIndex)||0;}catch(e){}
@@ -94,7 +94,7 @@ function makePage(p){
   case "blank":
     inner=meta+'<div style="flex:1;display:grid;place-items:center;color:#a59c8d;font-family:var(--serif);font-size:22px;font-style:italic">El humor de los mercados</div>'+foot;break;
   case "colophon":
-    inner=meta+'<h2>Nota para la<br>edición impresa</h2><div class="page-prose"><p>Esta maqueta documenta una selección inicial de obras y ensayos, no un original definitivo de imprenta. Las imágenes sin máster disponible están marcadas como tales; no deben sustituirse por ilustraciones inventadas. Los títulos y fichas deberán contrastarse con cada institución custodiante.</p><p>Formato en estudio: 270 × 340 mm · impresión de alta calidad · tapa dura · cuerpo en tipografía de lectura clásica y señalización Montserrat · fotografías o grabados reproducidos con amplia respiración tipográfica.</p><p>Índices previstos: autores, artistas, lugares, episodios económicos, técnicas y colecciones. Fuentes de la investigación: Met, Rijksmuseum, Harvard Baker Library, NGA, Library of Congress, Universidad de Tokio, Biblioteca Nacional argentina, NYPL y DBNL.</p><p>Versión de preproducción: 0.1.0 · 7 de noviembre de 2026.</p></div>'+foot;break;
+    inner=meta+'<h2>Nota para la<br>edición impresa</h2><div class="page-prose"><p>Esta maqueta documenta una selección inicial de obras y ensayos, no un original definitivo de imprenta. Las imágenes sin máster disponible están marcadas como tales; no deben sustituirse por ilustraciones inventadas. Los títulos y fichas deberán contrastarse con cada institución custodiante.</p><p>Formato en estudio: 270 × 340 mm · impresión de alta calidad · tapa dura · cuerpo en tipografía de lectura clásica y señalización Montserrat · fotografías o grabados reproducidos con amplia respiración tipográfica.</p><p>Índices previstos: autores, artistas, lugares, episodios económicos, técnicas y colecciones. Fuentes de la investigación: Met, Rijksmuseum, Harvard Baker Library, NGA, Library of Congress, Universidad de Tokio, Biblioteca Nacional argentina, NYPL y DBNL.</p><p>Versión de preproducción: 0.2.0 · 7 de noviembre de 2026.</p></div>'+foot;break;
  }
  return '<article class="paper '+extra+'" data-page="'+p.number+'" aria-label="Página '+p.number+'"><div class="page-inner">'+inner+'</div></article>';
 }
@@ -181,8 +181,8 @@ function openSection(id){
  if(id==="archivo")archive();if(id==="libro")stage();window.scrollTo({top:0,behavior:"smooth"});
 }
 function exportState(){
- const payload={proyecto:"Siglo23 · El humor de los mercados",version:"0.1.0",fecha:new Date().toISOString(),obras:works,laminas:extras,capitulos:chapters,seleccionadas:Object.keys(selected).filter(k=>selected[k]),notas:notes,maqueta:{paginas:pages.length,formato_mm:"270x340",sangrado_mm:3}};
- const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="siglo23-mercados-edicion-0.1.0.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+ const payload={proyecto:"Siglo23 · El humor de los mercados",version:"0.2.0",fecha:new Date().toISOString(),obras:works,laminas:extras,capitulos:chapters,seleccionadas:Object.keys(selected).filter(k=>selected[k]),notas:notes,maqueta:{paginas:pages.length,formato_mm:"270x340",sangrado_mm:3}};
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="siglo23-mercados-edicion-0.2.0.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 }
 async function queryMet(){
  if(metRequested)return;metRequested=true;
@@ -212,7 +212,7 @@ function bind(){
 }
 async function init(){
  try{
- const [wr,cr,lr]=await Promise.all([fetch("./obras.json?v=0.1.0"),fetch("./capitulos.json?v=0.1.0"),fetch("./laminas.json?v=0.1.0").catch(()=>null)]);if(!wr.ok||!cr.ok)throw new Error("Faltan archivos JSON");
+ const [wr,cr,lr]=await Promise.all([fetch("./obras.json?v=0.2.0"),fetch("./capitulos.json?v=0.2.0"),fetch("./laminas.json?v=0.2.0").catch(()=>null)]);if(!wr.ok||!cr.ok)throw new Error("Faltan archivos JSON");
  works=(await wr.json()).obras;chapters=(await cr.json()).capitulos;extras=lr&&lr.ok?(await lr.json()).laminas:[];
  buildPages();renderChapters();renderTimeline();bind();stage();
  $("#statsTop").textContent=works.length+" obras · "+chapters.length+" capítulos · "+extras.length+" estampas de archivo";
