@@ -35,7 +35,7 @@ try{
  await page.click('#compose');
  await page.waitForFunction(()=>{
   const s=document.querySelector('#progress')?.textContent||'';
-  return /páginas compuestas|Falló la composición|No se cargó Paged.js|No se encontró el original/.test(s);
+  return /caras visibles|Falló la composición|No se cargó Paged.js|No se encontró el original/.test(s);
  },{timeout:90000});
  const result=await page.evaluate(()=>{
   const spreads=[...document.querySelectorAll('#rendered .s23-spread')];
@@ -61,7 +61,7 @@ try{
  });
  console.log('RESULTADO E2E',JSON.stringify(result));
  if(errors.length)console.log('LOG NAVEGADOR',errors.slice(0,6));
- assert.match(result.status,/páginas compuestas/);
+ assert.match(result.status,/caras visibles/);
  assert.ok(result.pages>=1&&result.pages<20,'La muestra no produjo un paginado razonable');
  assert.equal(result.hasSource,true);
  assert.equal(result.printEnabled,true);
