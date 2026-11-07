@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#182942">
+<title>Preprensa · Herbert Spencer — Siglo23</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./preprensa.css?v=1">
+<script defer src="https://cdn.jsdelivr.net/npm/pagedjs@0.4.3/dist/paged.js"></script>
+<script defer src="./editorial-assets.js?v=1.6.0"></script>
+<script defer src="./chapter-notes.js?v=1.8.0"></script>
+<script defer src="./preprensa.js?v=1"></script>
+</head>
+<body>
+<header class="top">
+ <a class="brand" href="./index.html"><strong>S·23</strong><span>ESTUDIO EDITORIAL <b>SPENCER / PREPRENSA</b></span></a>
+ <nav><a href="./index.html">← Volver a la grilla</a><a href="../../estudio/">Estudio Siglo23</a></nav>
+</header>
+<section class="intro">
+ <div><p class="kicker">PRUEBA DE COMPOSICIÓN · Paged.js 0.4.3</p><h1>Composición tipográfica real</h1>
+ <p>Calculá los saltos de página con el texto real, márgenes enfrentados, viudas y huérfanas. Esta herramienta usa el plan guardado por el taller de Spencer sin sobrescribirlo.</p></div>
+ <div class="state" id="sourceState" role="status">Comprobando fuentes…</div>
+</section>
+<div class="layout">
+<aside class="controls">
+ <h2>01 / Configuración de salida</h2>
+ <div class="fields">
+  <label>Formato<select id="trim"><option value="a5">A5 · 148 × 210 mm</option><option value="trade">6 × 9″ · 152,4 × 228,6 mm</option><option value="compact">5,5 × 8,5″ · 139,7 × 215,9 mm</option><option value="large">170 × 240 mm</option><option value="custom">Personalizado</option></select></label>
+  <label>Ancho (mm)<input id="width" type="number" min="90" max="300" step=".1"></label>
+  <label>Alto (mm)<input id="height" type="number" min="120" max="350" step=".1"></label>
+  <label>Interior (mm)<input id="inner" type="number" min="0" step=".5"></label>
+  <label>Exterior (mm)<input id="outer" type="number" min="0" step=".5"></label>
+  <label>Superior (mm)<input id="top" type="number" min="0" step=".5"></label>
+  <label>Inferior (mm)<input id="bottom" type="number" min="0" step=".5"></label>
+  <label>Sangrado previsto (mm)<input id="bleed" type="number" min="0" step=".5"></label>
+  <label>Cuerpo (pt)<input id="fontSize" type="number" min="7" max="20" step=".25"></label>
+  <label>Interlínea<input id="leading" type="number" min="1" max="2.4" step=".05"></label>
+ </div>
+ <label class="line"><input type="checkbox" id="figures" checked> Incluir láminas ilustrativas</label>
+ <label class="line"><input type="checkbox" id="indices" checked> Incluir índices editoriales</label>
+ <label class="line"><input type="checkbox" id="opening" checked> Apertura de los cuatro ensayos en doble página</label>
+ <p class="micro">La numeración, las imágenes y los índices son preliminares. Las planillas de corte, imposición, perfiles ICC, PDF/X, comprobación de derechos y fuentes incrustadas necesitan certificación aparte.</p>
+ <div class="actions"><button class="primary" id="compose">Componer todo el interior</button><button id="print" disabled>Imprimir / guardar PDF</button><button id="export" disabled>Exportar HTML de prueba</button></div>
+ <h2>02 / Control de preprensa</h2>
+ <ul id="checks" aria-live="polite"><li>Esperando fuentes del libro…</li></ul>
+ <p id="report" class="report" aria-live="polite"></p>
+</aside>
+<main class="stage">
+ <div class="stagebar"><strong>Pliegos paginados</strong><span id="progress">Sin composición</span><div class="zoom"><label for="zoom">Zoom</label><input type="range" id="zoom" min="35" max="110" step="5" value="70"><output id="zoomLabel">70%</output></div></div>
+ <div id="stageScroll"><div id="rendered"></div></div>
+ <p class="stage-note">Salida de prueba orientada a lectura y corrección. Guardar como PDF desde el navegador no produce automáticamente un archivo PDF/X-4 certificado.</p>
+</main>
+</div>
+<div id="manuscript" aria-hidden="true"></div>
+</body>
+</html>
