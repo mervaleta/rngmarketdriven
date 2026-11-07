@@ -52,3 +52,11 @@ Fecha: 7 de noviembre de 2026. Fuente: `publicdomain/spencer/maquetacion/`.
 - Documentación de CSS Paged Media: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Paged_media
 - Original inglés: `original-ingles-1884.json`; fuentes y pendientes registrados en `README.md` y en el propio JSON.
 - Metadatos editoriales: `editorial-assets.js`, `chapter-notes.js`, `indices-editoriales.json`.
+
+
+## Verificaciones ejecutadas el 7/11/2026
+
+- GitHub Actions (smoke M10): **aprobado**; estructura, 45.792 palabras, seis partes, tres índices y sintaxis JavaScript.
+- Publicación Hostinger vía GitHub Actions: **verificada** para el taller M10, compositor, JS/CSS y las dos rutas de landing en RNG Market Driven. La URL `santoroydonoso.com/siglo23/` sigue sirviendo un contenido anterior (publicación pendiente).
+- Chromium/Puppeteer: **aprobado** al componer el prefacio real en tres páginas; fuente presente y botón de impresión habilitado. Esta prueba no verifica todo el libro ni prueba PDF/X.
+- En la segunda ejecución del navegador se observó un **HTTP 403 en una petición inicial automatizada** a `preprensa.html`, antes de una carga posterior exitosa. Revisar si se reproduce en navegación humana y, en caso afirmativo, analizar reglas del alojamiento/CDN; no se diagnosticó su causa.
