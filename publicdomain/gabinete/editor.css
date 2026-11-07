@@ -222,3 +222,6 @@
  .asset-host-status{font:600 10px/1.5 'Montserrat',Arial,sans-serif;color:#ffe0ed;border-left:3px solid #c87599;background:#42162e;padding:8px 10px;margin:8px 0;}
  img.missing-archive-image{outline:2px dashed #d97588;outline-offset:-2px}
 }
+
+/* Siglo23 Studio v2 · contratapa final de prueba */
+.page-actual.kind-cover.back-cover{background:linear-gradient(155deg,#511e3b,#271421)!important;color:#f9e8e4}.page-actual.kind-cover.back-cover .cover-copy{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:26mm 24mm 22mm;background:transparent}.page-actual.kind-cover.back-cover .cover-copy h2{font:normal 38pt/1.1 'Cormorant Garamond',Georgia,serif}.page-actual.kind-cover.back-cover .cover-sub{font:normal 16pt/1.45 'Cormorant Garamond',Georgia,serif;max-width:90%}
