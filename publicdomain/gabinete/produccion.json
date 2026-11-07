@@ -1,22 +1,22 @@
 {
   "project": "El gabinete prohibido — notas internas de producción",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "updated": "2026-11-07",
   "not_part_of_book": true,
   "current": {
-    "pages": 66,
-    "distinct_photographs": 22,
+    "pages": 146,
+    "distinct_photographs": 68,
     "contextual_drawings": 0,
-    "photo_bearing_pages": 31,
+    "photo_bearing_pages": 77,
     "chapter_openings": [
       11,
-      15,
-      21,
-      33,
-      39,
-      47,
-      53,
-      57
+      17,
+      31,
+      65,
+      73,
+      93,
+      121,
+      129
     ],
     "frontmatter": {
       "cover": 1,
@@ -27,13 +27,27 @@
       "credits": 6,
       "prologue": 7
     },
-    "epilogue_slot": 61,
+    "epilogue_slot": 133,
     "images_local": false,
     "approved_for_print": false,
     "thematic_status": "Fotografía sensual/artística del siglo XIX; imágenes no temáticas excluidas",
     "unintegrated_candidates": 9,
     "integrated_new_candidates": 3,
-    "plate_count": 22
+    "plate_count": 68,
+    "candidate_photo_batches": {
+      "existing_pre_v1": 22,
+      "new_this_version": 46,
+      "quality": {
+        "alto": 18,
+        "medio": 12,
+        "bajo": 16
+      }
+    },
+    "fact_pages": 41,
+    "source_pages": 12,
+    "print_ready_master_files": 0,
+    "material_review_completed": false,
+    "deploy_status": "GitHub confirmado; Hostinger sin confirmar"
   },
   "target": {
     "pages": "144–176, condicionado a imágenes",
@@ -168,7 +182,7 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "Integradas en libro.json las obras de Auguste Belloc (Cleveland 1998.55), Eduard Isaac Asser (Rijksmuseum RP-F-AB12278-AU) y Nadar (Met 2005.100.253). Una sola lámina interior por obra. Belloc tiene derivado JPG de Wikimedia Commons vinculado a TIFF de 5106×3780; no se descargó, el PDF final requiere máster. Asser y Nadar tienen JPEG originales remotos de 3026×3986 y 2654×4000, respectivamente, todavía no descargados. Las otras 9 candidatas permanecen en investigación.",
+  "notes_on_visuals": "v1.0: 68 fotos diferentes; 46 obras nuevas de Commons preseleccionadas (18 con pixels altos reportados, 12 medianas, 16 bajas). 16 adicionales con resolución insuficiente para gran formato. Ninguna nueva URL/binary fue comprobada descargándose en el servidor de Siglo23. Es una maqueta de investigación, no aprobación de derechos, edad adulta ni calidad de imprenta.",
   "luxury_print_proposal": {
     "trim_mm": [
       270,
@@ -191,5 +205,14 @@
     "concept": "direccion-editorial-lujo.md",
     "candidates": "seleccion-erotica-lujo.json",
     "excluded": "fuera-de-coleccion-v08.json"
-  }
+  },
+  "unresolved_issues": [
+    "Publicar a Hostinger los ficheros web del repositorio main en public_html/publicdomain/gabinete sin sobrescribir el resto del sitio",
+    "Cotejar cada fotografía individualmente para verificar que representa adultos y no contenido inadecuado; excluir cualquier registro dudoso",
+    "Comprobar los URLs directos de 46 nuevas imágenes, la identificación museística, el origen, la datación y la licencia",
+    "Descargar másteres fotográficos al hosting o al repositorio controlado; no depender de enlaces hotlink para el PDF",
+    "Sustituir las 16 copias de baja resolución por originales de calidad superior antes del arte final",
+    "Corregir los textos de pie genéricos en las nuevas láminas tras evaluación visual de cada obra",
+    "Elegir papel, tapa, procesos de color, imposición y prueba de imprenta antes de fijar extensión y PDF/X"
+  ]
 }
