@@ -5,6 +5,9 @@ on:
     paths:
       - ".github/workflows/siglo23-preprensa-browser.yml"
       - "publicdomain/spencer/maquetacion/tests/browser-preprensa.mjs"
+      - "publicdomain/spencer/maquetacion/preprensa.js"
+      - "publicdomain/spencer/maquetacion/preprensa.css"
+      - "publicdomain/spencer/maquetacion/preprensa.html"
 permissions:
   contents: read
 jobs:
@@ -21,5 +24,19 @@ jobs:
         run: |
           echo "CHROME_BIN=$(which google-chrome || which google-chrome-stable || which chromium || which chromium-browser)" >> "$GITHUB_ENV"
           npm install --no-save --no-package-lock --ignore-scripts puppeteer-core@24
-      - name: Componer el prefacio de 1884 con Paged.js en Chromium
-        run: node publicdomain/spencer/maquetacion/tests/browser-preprensa.mjs
+      - name: Componer el prefacio local y verificar pliegos enfrentados con Chromium
+        env:
+          S23_PREPRENSA_URL: http://127.0.0.1:8765/preprensa.html
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory publicdomain/spencer/maquetacion > /tmp/s23-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" || true' EXIT
+          sleep 2
+          node publicdomain/spencer/maquetacion/tests/browser-preprensa.mjs
+      - name: Guardar captura visual del pliego
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spencer-pliegos-e2e
+          path: spencer-pliegos-e2e.png
+          if-no-files-found: ignore

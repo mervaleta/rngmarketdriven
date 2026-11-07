@@ -202,6 +202,72 @@ function makeCSS(){
  +'.indices{font:9pt/1.4 Georgia}.index-columns{column-count:2;column-gap:7mm}.index-entry{break-inside:avoid;margin:0 0 4mm}.index-entry h3{font-size:9pt;margin:0}.index-entry em{display:block;font-size:8pt}.index-entry p{margin:1mm 0}.index-entry small{display:block;color:#666;font-size:7pt}.editor-note{font:italic 9pt Georgia;margin-bottom:8mm}'
  +'.soft-break{white-space:normal}img{max-width:100%}';
 }
+/* Parejas de lectura: 1 en recto; 2-3, 4-5, etc. Los blancos de pantalla
+   NO se agregan al PDF ni modifican la secuencia de páginas compuestas. */
+function arrangeFacingPages(){
+ const host=$('rendered');
+ const pagesRoot=host.querySelector('.pagedjs_pages');
+ if(!pagesRoot)throw Error('Paged.js no devolvió un contenedor de páginas');
+ const sheets=Array.from(pagesRoot.children).filter(x=>x.classList.contains('pagedjs_page'));
+ if(!sheets.length)throw Error('No hay páginas compuestas para armar pliegos');
+ const first=sheets[0];
+ const box=first.getBoundingClientRect();
+ pagesRoot.style.setProperty('--s23-leaf-w',Math.max(1,box.width)+'px');
+ pagesRoot.style.setProperty('--s23-leaf-h',Math.max(1,box.height)+'px');
+ const all=new Map();
+ function getSpread(index){
+  if(all.has(index))return all.get(index);
+  const spread=document.createElement('section');
+  spread.className='s23-spread';
+  spread.dataset.spread=String(index+1);
+  const heading=document.createElement('div');
+  heading.className='s23-spread-caption';
+  const open=document.createElement('div');
+  open.className='s23-spread-pages';
+  const slots={};
+  for(const side of ['left','right']){
+   const slot=document.createElement('div');
+   slot.className='s23-spread-slot s23-spread-'+side;
+   slot.dataset.side=side;
+   open.append(slot);slots[side]=slot;
+  }
+  spread.append(heading,open);
+  const result={spread,heading,slots};
+  all.set(index,result);
+  return result;
+ }
+ sheets.forEach((leaf,i)=>{
+  const number=i+1;
+  const numberPair=Math.floor(number/2);
+  const item=getSpread(numberPair);
+  const side=number%2===0?'left':'right';
+  leaf.dataset.s23Folio=String(number);
+  item.slots[side].append(leaf);
+ });
+ const fragment=document.createDocumentFragment();
+ for(const [index,item] of [...all.entries()].sort((a,b)=>a[0]-b[0])){
+  const left=item.slots.left,right=item.slots.right;
+  const hasLeft=!!left.querySelector('.pagedjs_page');
+  const hasRight=!!right.querySelector('.pagedjs_page');
+  for(const [slot,exists] of [[left,hasLeft],[right,hasRight]]){
+   if(!exists){
+    slot.classList.add('s23-visual-blank');
+    const filler=document.createElement('div');
+    filler.className='s23-blank-leaf';
+    filler.setAttribute('aria-hidden','true');
+    slot.append(filler);
+   }
+  }
+  const even=index*2,odd=even+1;
+  item.heading.textContent=index===0?'Pliego 1 · página 1 a la derecha':
+   hasLeft&&hasRight?'Pliego '+(index+1)+' · páginas '+even+'–'+odd:
+   'Pliego '+(index+1)+' · página '+even+' a la izquierda';
+  item.spread.setAttribute('aria-label',item.heading.textContent);
+  fragment.append(item.spread);
+ }
+ pagesRoot.replaceChildren(fragment);
+ return {folios:sheets.length,pliegos:all.size};
+}
 function updateZoom(){
  const pct=Number($('zoom').value);
  $('zoomLabel').textContent=pct+'%';
@@ -225,10 +291,11 @@ async function compose(){
   await document.fonts.ready;
   const paginator=new window.Paged.Previewer();
   flow=await paginator.preview($('manuscript'),[cssUrl],$('rendered'));
-  const pages=Number(flow?.total)||$('rendered').querySelectorAll('.pagedjs_page').length;
+  const facing=arrangeFacingPages();
+  const pages=facing.folios;
   const pics=$('rendered').querySelectorAll('img');
   let missing=0;for(const im of pics)if(!im.complete||!im.naturalWidth)missing++;
-  stateStatus(num(pages)+' páginas compuestas por Paged.js. '+(missing?missing+' imagen(es) no cargadas.':'Imágenes a verificar en preimpresión.')+' Folios e índices sujetos a revisión.');
+  stateStatus(num(pages)+' páginas compuestas en '+num(facing.pliegos)+' pliegos enfrentados. '+(missing?missing+' imagen(es) no cargadas.':'Imágenes a verificar en preimpresión.')+' Folios e índices sujetos a revisión.');
   $('print').disabled=false;$('export').disabled=false;updateZoom();
  }catch(err){stateStatus('Falló la composición: '+(err?.message||String(err)));console.error(err)}
  finally{isWorking=false;$('compose').disabled=false}
