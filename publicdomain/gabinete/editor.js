@@ -14,7 +14,11 @@ function saveLocal(){try{localStorage.setItem(KEY,JSON.stringify({doc:state.doc,
 function syncVars(){
  var o=state.opts;
  [["--w",o.w+"mm"],["--h",o.h+"mm"],["--pt",o.fontSize+"pt"],["--leading",o.leading],["--margin-in",o.inner+"mm"],["--margin-out",o.outer+"mm"],["--margin-top",o.top+"mm"],["--margin-bottom",o.bottom+"mm"],["--fit",o.fit],["--fbody",o.font]].forEach(function(x){document.documentElement.style.setProperty(x[0],x[1])});
- var photos=(state.doc.images||[]).filter(function(i){return i.kind!=="drawing"}).length,visualPages=state.doc.pages.filter(function(p){return (p.image&&imgById(p.image))||(Array.isArray(p.images)&&p.images.some(imgById))}).length;$("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas con imágenes";
+ var photos=(state.doc.images||[]).filter(function(i){return i.kind!=="drawing"}).length;
+ var visualPages=state.doc.pages.filter(function(p){return (p.image&&imgById(p.image))||(Array.isArray(p.images)&&p.images.some(imgById))}).length;
+ var uses=new Map();state.doc.pages.forEach(function(p){if(["cover","chapter"].includes(p.kind))return;[...(p.image?[p.image]:[]),...(p.images||[])].forEach(function(id){uses.set(id,(uses.get(id)||0)+1)})});
+ var repeats=[...uses.values()].filter(function(x){return x>1}).length;
+ $("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas ilustradas · "+(repeats?"ATENCIÓN: "+repeats+" duplicadas interiores":"0 duplicadas interiores");
  $("#printCss").textContent="@media print{@page{size:"+o.w+"mm "+o.h+"mm;margin:0}}";
 }
 function pageHtml(pg,idx){
@@ -30,7 +34,9 @@ function pageHtml(pg,idx){
  }else if(pg.kind==="chapter"){
   outer+='<div class="chapter-photo">'+imgTag(im,"",pg.title)+'</div><div class="chapter-content"><span class="chapter-id">'+section+'</span><h2>'+t+'</h2><p>'+esc(pg.body)+'</p></div><div class="chapter-bottom">'+esc(pg.sub||"")+'</div>';
  }else if(pg.kind==="image"){
-  outer+='<div class="plate">'+imgTag(im,"","Fotografía de archivo: "+pg.title)+'</div><div class="plate-info"><strong>'+t+'</strong><span>'+esc(pg.caption||"")+'</span></div>';
+  outer+='<div class="plate">'+imgTag(im,"","Documento de archivo: "+pg.title)+'</div><div class="plate-info plate-context"><div class="plate-head"><strong>'+t+'</strong><span>'+esc(pg.caption||"")+'</span></div><p class="plate-fact">'+esc(pg.body||(im&&im.context)||"")+'</p><div class="plate-source">'+esc(im?im.museum+" · "+im.accession:"")+' · '+esc(pg.asset_kind||"")+'</div></div>';
+ }else if(pg.kind==="fact"||pg.kind==="timeline"){
+  outer+='<div class="running">'+section+'</div><div class="page-inner context-inner '+(pg.kind==="timeline"?"timeline-inner":"")+'"><span class="kicker">'+section+'</span><div class="context-date">'+esc(pg.fact_date||"")+'</div><h2>'+t+'</h2><div class="context-highlight">'+esc(pg.factline||"")+'</div><div class="context-rule"></div><div class="context-body">'+body+'</div>'+(pg.source_url?'<div class="context-foot"><a href="'+esc(pg.source_url)+'" target="_blank" rel="noopener">Fuente documental ↗</a></div>':"")+'</div>';
  }else if(pg.kind==="diptych"||pg.kind==="mosaic"){
   var arr=(Array.isArray(pg.images)?pg.images:[]).map(imgById).filter(Boolean);
   outer+='<div class="page-inner gallery-inner"><span class="kicker">'+section+'</span><h2>'+t+'</h2><div class="gallery-photo-grid '+(pg.kind==="diptych"?"diptych-layout":"mosaic-layout")+'">';
@@ -113,6 +119,9 @@ function sourceInfo(){
  $("#editImage").innerHTML='<option value="">Sin imagen</option>'+state.doc.images.map(function(i){return '<option value="'+esc(i.id)+'">'+esc(i.artist+" · "+i.title)+'</option>'}).join("");
  $("#editImage").value=p.image||"";
  $("#editImages").value=Array.isArray(p.images)?p.images.join(", "):"";
+ $("#editFactDate").value=p.fact_date||"";
+ $("#editFactline").value=p.factline||"";
+ $("#editFactSource").value=p.source_url||"";
  $("#imageInfo").innerHTML=im?'<div class="meta-card">'+imgTag(im,"","Imagen "+im.title)+'</div><strong>'+esc(im.title)+'</strong><p>'+esc(im.artist)+' · '+esc(im.year)+'</p><p>'+esc(im.museum)+' · '+esc(im.accession)+'</p><p>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><a target="_blank" rel="noopener" href="'+esc(im.museumUrl)+'">Ficha museística ↗</a><a target="_blank" rel="noopener" href="'+esc(im.commons)+'">Ficha de archivo abierto ↗</a><a target="_blank" rel="noopener" href="'+esc(im.url)+'">Abrir imagen original ↗</a>':'<p class="hint">Esta página no tiene imagen asignada.</p>';
  if(!im&&Array.isArray(p.images)&&p.images.length)$("#imageInfo").innerHTML='<div class="meta-card"><strong>'+p.images.length+' fotografías en esta página</strong><p>'+p.images.map(function(id){var x=imgById(id);return esc(x?x.artist+" · "+x.title:id)}).join("<br>")+'</p></div>';
  $("#editImageUrl").value=im?im.url:"";$("#editImageUrl").disabled=!im;
@@ -155,9 +164,23 @@ function doPrint(){
 function onFieldChange(ev){
  var field=ev.target.dataset.field;if(!field)return;
  var pg=state.doc.pages[state.active];
+ var otherUses=new Set();
+ state.doc.pages.forEach(function(p){if(p.id===pg.id||["cover","chapter"].includes(p.kind))return;[...(p.image?[p.image]:[]),...(p.images||[])].forEach(function(id){otherUses.add(id)})});
  if(field==="imageUrl"){var im=imgById(pg.image);if(im)im.url=ev.target.value.trim();}
- else if(field==="images"){pg.images=ev.target.value.split(",").map(function(x){return x.trim()}).filter(function(id){return !!imgById(id)}).slice(0,4);}
- else pg[field]=ev.target.value;
+ else if(field==="image"){
+   var next=ev.target.value||null;
+   if(next&&!["cover","chapter"].includes(pg.kind)&&otherUses.has(next)){toast("Esta imagen ya aparece dentro del libro. Solo puede repetirse en tapa o apertura de capítulo.");render();return;}
+   pg.image=next;
+ }
+ else if(field==="images"){
+   var ids=[...new Set(ev.target.value.split(",").map(function(x){return x.trim()}).filter(function(id){return !!imgById(id)}))].slice(0,4);
+   if(!["cover","chapter"].includes(pg.kind)&&(ids.some(function(id){return otherUses.has(id)||(pg.image&&pg.image===id)}))){toast("Una o más imágenes ya se usaron en el interior. Solo tapa y capítulos pueden repetir.");render();return;}
+   pg.images=ids;
+ }
+ else if(field==="kind"){
+   pg.kind=ev.target.value;
+   if(!["cover","chapter"].includes(pg.kind)&&((pg.image&&otherUses.has(pg.image))||(pg.images||[]).some(function(id){return otherUses.has(id)}))){pg.image=null;pg.images=[];toast("Al convertir esta página se liberaron las imágenes duplicadas.")}
+ }else pg[field]=ev.target.value;
  normalizeFolio();saveLocal();render();
 }
 function navigate(delta){
@@ -179,7 +202,7 @@ function normalizeFolio(){
 function modifyPage(kind){
  var pg=state.doc.pages[state.active];if(!pg)return;
  if(kind==="add"){var item={id:"personal-"+Date.now(),kind:"essay",section:"Nueva sección",title:"Página nueva",body:"Escribí aquí el texto original de Editorial Siglo23.",image:null,caption:"",sub:""};state.doc.pages.splice(state.active+1,0,item);state.active++;}
- else if(kind==="copy"){var clone=JSON.parse(JSON.stringify(pg));clone.id="copia-"+Date.now();clone.title+=" (copia)";state.doc.pages.splice(state.active+1,0,clone);state.active++;}
+ else if(kind==="copy"){var clone=JSON.parse(JSON.stringify(pg));clone.id="copia-"+Date.now();clone.title+=" (copia)";if(!["cover","chapter"].includes(clone.kind)){clone.image=null;clone.images=[];if(clone.kind==="image")clone.kind="fact";toast("Duplicaste el texto, pero no la imagen: una sola aparición por fotografía en el interior.");}state.doc.pages.splice(state.active+1,0,clone);state.active++;}
  else if(kind==="delete"){if(state.doc.pages.length<2||!confirm("¿Eliminar esta página del proyecto local?"))return;state.doc.pages.splice(state.active,1);state.active=Math.min(state.active,state.doc.pages.length-1);}
  else if(kind==="up"&&state.active>0){var a=state.active;[state.doc.pages[a-1],state.doc.pages[a]]=[state.doc.pages[a],state.doc.pages[a-1]];state.active--;}
  else if(kind==="down"&&state.active<state.doc.pages.length-1){var a=state.active;[state.doc.pages[a+1],state.doc.pages[a]]=[state.doc.pages[a],state.doc.pages[a+1]];state.active++;}
