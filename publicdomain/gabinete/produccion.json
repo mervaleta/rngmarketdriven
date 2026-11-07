@@ -51,7 +51,11 @@
     "images_local_web": 55,
     "images_external_pending": 13,
     "original_masters_local": 20,
-    "images_local_on_hostinger_verified": false
+    "images_local_on_hostinger_verified": true,
+    "local_web_checked": 55,
+    "local_web_ok": 55,
+    "local_web_404": 0,
+    "masters_exact_from_site": false
   },
   "target": {
     "pages": "144–176, condicionado a imágenes",
@@ -186,7 +190,7 @@
       "use": "Investigación textual, sin reproducciones sensibles."
     }
   ],
-  "notes_on_visuals": "Importación comprobada por GitHub Actions: 55 JPEG propios en imagenes/web, 20 originales del Met en imagenes/maestros. Trece pendientes, Wikimedia limitó tráfico HTTP 429; no se declararon descargados. Los 20 originales son archivos reales, pero su utilidad para impresión 27×34 cm requiere control de ppp y pruebas de color. Las 55 vistas web tampoco son automáticamente másteres. Publicación en Hostinger por comprobar.",
+  "notes_on_visuals": "Importación comprobada por GitHub Actions: 55 JPEG propios en imagenes/web, 20 originales del Met en imagenes/maestros. Trece pendientes, Wikimedia limitó tráfico HTTP 429; no se declararon descargados. Los 20 originales son archivos reales, pero su utilidad para impresión 27×34 cm requiere control de ppp y pruebas de color. Las 55 vistas web tampoco son automáticamente másteres. Publicación en Hostinger por comprobar. Verificación final de 55/55 archivos locales en Hostinger (HEAD HTTP 200, image/jpeg). El máster stereo.jpg alojado en dominio devolvió 158687 bytes mientras que el original de GitHub consta de 1678366 bytes; SHA-256 diferente: conservar masters de GitHub y analizar compresión/proxy antes de impresión. 13 fotos sin archivo local permanecen bajo URLs externas.",
   "luxury_print_proposal": {
     "trim_mm": [
       270,
