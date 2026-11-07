@@ -1,7 +1,7 @@
 
 (function(){
 "use strict";
-var KEY="siglo23-gabinete-editor-v3",LEGACY_KEY="siglo23-gabinete-editor-v2";
+var KEY="siglo23-gabinete-editor-v4",LEGACY_KEY="siglo23-gabinete-editor-v3";
 var state={doc:null,candidates:[],view:"grid",active:0,loaded:false,opts:{w:270,h:340,fontSize:11.75,leading:1.48,inner:24,outer:23,top:27,bottom:25,thumb:150,fit:"contain",font:"Georgia,serif"}};
 var $=function(s){return document.querySelector(s)};
 var esc=function(x){return String(x==null?"":x).replace(/[&<>"']/g,function(k){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[k]})};
@@ -14,11 +14,11 @@ function saveLocal(){try{localStorage.setItem(KEY,JSON.stringify({doc:state.doc,
 function syncVars(){
  var o=state.opts;
  [["--w",o.w+"mm"],["--h",o.h+"mm"],["--pt",o.fontSize+"pt"],["--leading",o.leading],["--margin-in",o.inner+"mm"],["--margin-out",o.outer+"mm"],["--margin-top",o.top+"mm"],["--margin-bottom",o.bottom+"mm"],["--fit",o.fit],["--fbody",o.font]].forEach(function(x){document.documentElement.style.setProperty(x[0],x[1])});
- var photos=(state.doc.images||[]).filter(function(i){return i.kind!=="drawing"}).length;
+ var photos=(state.doc.images||[]).filter(function(i){return i.kind!=="drawing"}).length; var limited=(state.doc.images||[]).filter(function(i){return i.quality==="bajo"}).length;
  var visualPages=state.doc.pages.filter(function(p){return (p.image&&imgById(p.image))||(Array.isArray(p.images)&&p.images.some(imgById))}).length;
  var uses=new Map();state.doc.pages.forEach(function(p){if(["cover","chapter"].includes(p.kind))return;[...(p.image?[p.image]:[]),...(p.images||[])].forEach(function(id){uses.set(id,(uses.get(id)||0)+1)})});
  var repeats=[...uses.values()].filter(function(x){return x>1}).length;
- $("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas ilustradas · "+(repeats?"ATENCIÓN: "+repeats+" duplicadas interiores":"0 duplicadas interiores");
+ $("#totalPages").textContent=state.doc.pages.length+" páginas · "+photos+" fotografías distintas · "+visualPages+" páginas ilustradas · "+(repeats?"ATENCIÓN: "+repeats+" duplicadas interiores":"0 duplicadas interiores")+" · "+limited+" fotos de baja resolución";
  $("#printCss").textContent="@media print{@page{size:"+o.w+"mm "+o.h+"mm;margin:0}}";
 }
 function pageHtml(pg,idx){
@@ -94,9 +94,11 @@ function spread(){
  stage.innerHTML=mark;
 }
 function assets(){
- var mark='<div class="stage-title"><span>Banco visual documentado</span><span>Obras reproducidas en la maqueta · archivos originales en alta resolución</span></div><div class="asset-grid">';
+ var mark='<div class="stage-title"><span>Banco visual · '+state.doc.images.length+' fotografías registradas</span><span>Preselección; calidad variable y revisión final pendiente</span></div><div class="asset-grid">';
  state.doc.images.forEach(function(im,i){
-  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'<div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><p>'+esc(im.context)+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha del museo ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Imagen a tamaño original ↗</a></div></div></article>';
+  var quality=im.quality==="bajo"?"Resolución baja · maqueta únicamente":im.quality==="medio"?"Resolución intermedia · cotejar tamaño":im.quality==="alto"?"Resolución alta declarada · sin preprensa":"Resolución para impresión no comprobada";
+  var qualityClass=im.quality==="bajo"?"visual-warning":"visual-status";
+  mark+='<article class="asset-card">'+imgTag(im,"","Fotografía histórica "+im.title)+'<div class="details"><div class="eyebrow">ARCHIVO '+String(i+1).padStart(2,"0")+' · '+esc(im.year)+'</div><h3>'+esc(im.title)+'</h3><p>'+esc(im.artist)+'<br>'+esc(im.process)+' · '+esc(im.accession)+'<br>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><div class="'+qualityClass+'">'+esc(quality)+'</div><p>'+esc(im.review_status||"Original no aprobado para impresión comercial")+'</p><div class="detail-buttons"><a href="'+esc(im.museumUrl)+'" target="_blank" rel="noopener">Ficha de referencia ↗</a><a href="'+esc(im.commons)+'" target="_blank" rel="noopener">Archivo y derechos ↗</a><a href="'+esc(im.url)+'" target="_blank" rel="noopener">Abrir reproducción ↗</a></div></div></article>';
  });
  $("#stage").innerHTML=mark+'</div>';
 }
@@ -112,7 +114,7 @@ function curation(){
  $("#stage").innerHTML=mk;
 }
 function context(){
- var arr=state.doc.pages.filter(function(p){return ["essay","analysis"].includes(p.kind)});
+ var arr=state.doc.pages.filter(function(p){return ["essay","analysis","fact","timeline"].includes(p.kind)});
  var mark='<div class="context-view"><div class="eyebrow">DOSSIER CRÍTICO</div><h2>El relato detrás de las fotografías</h2><p>El libro no presenta el desnudo académico y la fotografía erótica como categorías idénticas. Investiga la belleza de las fotografías de desnudo, su composición, sus circuitos de circulación y la controversia entre arte, sensualidad y censura.</p>';
  arr.forEach(function(p,i){mark+='<h2 style="font-size:28px;margin-top:25px">'+esc(p.title)+'</h2>'+nl(p.body)});
  mark+='<div class="note">Las interpretaciones no sustituyen las fuentes. Las atribuciones fotográficas, el contexto de las técnicas y las declaraciones de derechos deben cotejarse antes de una edición comercial.</div></div>';
@@ -135,6 +137,9 @@ function sourceInfo(){
  $("#editFactSource").value=p.source_url||"";
  $("#imageInfo").innerHTML=im?'<div class="meta-card">'+imgTag(im,"","Imagen "+im.title)+'</div><strong>'+esc(im.title)+'</strong><p>'+esc(im.artist)+' · '+esc(im.year)+'</p><p>'+esc(im.museum)+' · '+esc(im.accession)+'</p><p>'+esc(im.w)+' × '+esc(im.h)+' px · '+esc(im.license)+'</p><a target="_blank" rel="noopener" href="'+esc(im.museumUrl)+'">Ficha museística ↗</a><a target="_blank" rel="noopener" href="'+esc(im.commons)+'">Ficha de archivo abierto ↗</a><a target="_blank" rel="noopener" href="'+esc(im.url)+'">Abrir imagen original ↗</a>':'<p class="hint">Esta página no tiene imagen asignada.</p>';
  if(!im&&Array.isArray(p.images)&&p.images.length)$("#imageInfo").innerHTML='<div class="meta-card"><strong>'+p.images.length+' fotografías en esta página</strong><p>'+p.images.map(function(id){var x=imgById(id);return esc(x?x.artist+" · "+x.title:id)}).join("<br>")+'</p></div>';
+ if(im&&im.review_approved===false){
+  $("#imageInfo").innerHTML+='<div class="'+(im.quality==="bajo"?"visual-warning":"visual-status")+'">'+esc(im.print_warning||"Ficha pendiente de control editorial antes de impresión")+'<br>'+esc(im.review_status||"")+'</div>';
+ }
  $("#editImageUrl").value=im?im.url:"";$("#editImageUrl").disabled=!im;
 }
 function render(){
