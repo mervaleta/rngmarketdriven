@@ -1,7 +1,7 @@
 {
   "project": "El gabinete prohibido",
   "publisher": "Editorial Siglo23",
-  "version": "1.2.0",
+  "version": "1.3.0-preprensa",
   "status": "maquetación exploratoria",
   "created": "2026-11-06",
   "size": {
@@ -4313,38 +4313,33 @@
       "image": null,
       "sub": "",
       "caption": ""
+    },
+    {
+      "id": "retiracion-contratapa-s23-v2",
+      "kind": "blank",
+      "section": "Cierre",
+      "title": "Retiración de contratapa",
+      "body": "",
+      "image": null,
+      "sub": "",
+      "caption": ""
+    },
+    {
+      "id": "contratapa-s23-v2",
+      "kind": "cover",
+      "role": "back",
+      "section": "Contratapa",
+      "title": "EL GABINETE PROHIBIDO",
+      "body": "Un recorrido visual por los orígenes de la fotografía del desnudo entre 1839 y 1900.",
+      "image": null,
+      "sub": "EDICIÓN DE LUJO · EDITORIAL SIGLO23",
+      "caption": "Maqueta de contratapa, texto sujeto a aprobación"
     }
   ],
   "notes": "MAQUETA AMPLIADA v1.0: 146 páginas, 68 fotografías distintas, 46 nuevas láminas de acceso a Commons, 26 nuevas páginas de contexto. La selección incluye pruebas editoriales de baja resolución que NO están aprobadas para producción física. Las imágenes de modelos no han pasado aún todas las comprobaciones de edad. No publicado automáticamente en Hostinger. Paginación reorganizada: láminas por fecha dentro de cada capítulo, contextos intercalados cada dos láminas cuando hay material. Archivos locales alojados en el repositorio: 55 copias JPEG web y 20 originales fotográficos del Met. Trece fotos tienen aún URL externa, porque la descarga fue bloqueada o no se halló el archivo. La carpeta debe desplegarse en Hostinger junto con libro.json.",
   "updated": "2026-11-07",
   "book_phase": "Curación cronológica — primera fase fotográfica 1840–1859, horizonte 1840–1900",
-  "editorial_scope": {
-    "date_coverage": "1839–1900",
-    "selection_focus": "Estudios históricos de desnudo académico y formas eróticas; la inclusión no implica comercio clandestino",
-    "photo_count": 18,
-    "master_files_on_site": false,
-    "license_review": "Pendiente de examen final de originalidad, derechos y edades en todas las imágenes sensibles.",
-    "format": "Fotolibro documental: prioridad a láminas, dípticos y mosaicos",
-    "rights_review_status": "preselección; no autorizado para impresión comercial sin control de edad y derechos",
-    "photoCount": 25,
-    "illustrationCount": 1,
-    "verifiedImageOrigins": "Fuentes originales individuales citadas en cada imagen y en el banco visual.",
-    "current_unique_photographs": 25,
-    "current_documentary_drawings": 1,
-    "photo_proportion": "Ver estadísticas del maquetador (páginas con imagen; no equivale a imágenes únicas).",
-    "theme": "Desnudo fotográfico histórico de valor sensual/erótico y excelencia artística",
-    "scope": "Sin fotografías de aparatos, sin láminas puramente científicas o de escenas de clase",
-    "print_intent": "Gran formato de lujo, tapa dura, cuadernillos cosidos, papel fotográfico mate/semimate premium",
-    "external_candidate_file": "seleccion-erotica-lujo.json",
-    "integrated_new_works": [
-      "GB-LUJO-001",
-      "GB-LUJO-010",
-      "GB-LUJO-011"
-    ],
-    "image_view_policy": "Las imágenes se muestran remotas. Belloc usa miniatura web y tiene TIFF máster localizado, pendiente de descarga.",
-    "catalogue_expansion": "46 nuevas láminas reales de archivo, integradas provisionalmente con resolución individual. Revisión de adultos y licencias pendiente antes de impresión.",
-    "target_pages": 140
-  },
+  "editorial_scope": "[object Object] · Adaptación Studio Kit v2: tapas físicas incluidas en primer y último folio; interior intacto.",
   "editorial_rules": {
     "distinct_interior_image_rule": "Cada imagen exactamente una vez en el interior, sin excepciones.",
     "cover_chapter_reuse": "Las fotografías de láminas pueden reaparecer en tapa y aperturas de capítulo.",
