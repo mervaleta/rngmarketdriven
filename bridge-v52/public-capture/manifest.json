@@ -1,0 +1,149 @@
+{
+  "timestamp_utc": "2026-11-21T23:58:23.463749+00:00",
+  "origin": "https://siglo23.santoroydonoso.com",
+  "scope": "Public HTTP GET only; NOT a full Hostinger server or PHP source backup",
+  "files": [
+    {
+      "url": "https://siglo23.santoroydonoso.com/",
+      "path": "index.html",
+      "sha256": "3da95fa60a72ab4e68ab035d871707435deeceb753c9928314424393f9e1901d",
+      "bytes": 8197,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/",
+      "path": "libros/index.html",
+      "sha256": "63c92318be9c4dbeca16a19bca161282374039549ffbecaf480f24b1b1c0b88e",
+      "bytes": 7433,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/editorial/",
+      "path": "editorial/index.html",
+      "sha256": "cb7d42ceea0496bc26b40b47d423f584e00f9f41b2afbf90ed583b67bb7348d9",
+      "bytes": 39087,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/home-catalogue-9494c11ebee7.css",
+      "path": "home-catalogue-9494c11ebee7.css",
+      "sha256": "9494c11ebee74b0266ace1f05ddfca8a390d8db922f5fd703fd468a05b69bcec",
+      "bytes": 1012,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/home-order-8d15f562e7f6.css",
+      "path": "home-order-8d15f562e7f6.css",
+      "sha256": "8d15f562e7f62c4131b801add2c972defc578ee8977788087a8cbc6c96b2844c",
+      "bytes": 433,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/navigation.css",
+      "path": "navigation.css",
+      "sha256": "ddc07c521e9c42f92725b949246065bb8cdb3f403b9e1b6467c9b4454dcacbbd",
+      "bytes": 1379,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/shared-header-d0dd5ff929ba.css",
+      "path": "shared-header-d0dd5ff929ba.css",
+      "sha256": "d0dd5ff929ba6df59eaba8b95324cb7e5391bb202e4fa5bd7e83d6cbe884e6c7",
+      "bytes": 2713,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/home-account-nav-v1.css",
+      "path": "home-account-nav-v1.css",
+      "sha256": "6b0192bae7e45229eba55146573504bffe3ec1610a07ab42fc78758b6024aaee",
+      "bytes": 360,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/home-editorial-a4a6db2f6543.css",
+      "path": "home-editorial-a4a6db2f6543.css",
+      "sha256": "a4a6db2f6543abc9abe4615a8105d14710ce50658b777f0fbf36bdb2e77daaf8",
+      "bytes": 9719,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/club-mark-nav-v1.png",
+      "path": "club-mark-nav-v1.png",
+      "sha256": "2dcf2bcbf01873f522401905c7a046bb206d4c80ec58b4914854b945c96869c3",
+      "bytes": 8890,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/account-avatar-4bc1d6127052.css",
+      "path": "account-avatar-4bc1d6127052.css",
+      "sha256": "4bc1d61270521d5d0afaa056675677dbf604ba2879cb256e60026d6eefb8354f",
+      "bytes": 6137,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/account-default-v3.png",
+      "path": "account-default-v3.png",
+      "sha256": "a66224dd45861e3768c0f09680af6194b2a136e2a191acfb301cb25b46d0ac42",
+      "bytes": 10663,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/assets/humor-mercados-mockup-10b75e7a27a0.webp",
+      "path": "assets/humor-mercados-mockup-10b75e7a27a0.webp",
+      "sha256": "10b75e7a27a0cb529287939240074d56e5dbc4ecdf7b24a045305877d5f4a930",
+      "bytes": 43636,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/assets/conspiranoia-mockup-b4e16879903f.webp",
+      "path": "assets/conspiranoia-mockup-b4e16879903f.webp",
+      "sha256": "b4e16879903f6d7037aef9f105126e7fb280a22baf86f0e4a69e7e3e40225fb1",
+      "bytes": 38440,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/editorial-e39a6f9b62e5.css",
+      "path": "libros/editorial-e39a6f9b62e5.css",
+      "sha256": "e39a6f9b62e50ef554523db951861d883453941a15a6caf19c4e3b6346ec41ca",
+      "bytes": 6920,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/config.js",
+      "path": "libros/config.js",
+      "sha256": "40afce162429a507cfa5198c6c08701a87845d8edfa89918a4125931bff02363",
+      "bytes": 204,
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/main.js",
+      "path": "libros/main.js",
+      "sha256": "009410353f86aa1b3fa7813ac688c24b09050eb7e4182670351f5b88208b1ba3",
+      "bytes": 734,
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/assets/logo-santoro-donoso-oficial-transparente.png",
+      "path": "assets/logo-santoro-donoso-oficial-transparente.png",
+      "sha256": "1fcb20510b0c886515cc00c6314fb047146bc7bfe9c7833ee543081d02ee9875",
+      "bytes": 160203,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/libro-en-perspectiva.jpg",
+      "path": "libros/libro-en-perspectiva.jpg",
+      "sha256": "1c06da0d2ce460d11afc02943111354da99016e420418390c7b50ea86954f35a",
+      "bytes": 60249,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://siglo23.santoroydonoso.com/libros/tapa-libro.jpg",
+      "path": "libros/tapa-libro.jpg",
+      "sha256": "f96fd99edbec84e575d9e8ea1097b6baec7cffc53e85595112eb89138c5008f4",
+      "bytes": 75212,
+      "content_type": "image/jpeg"
+    }
+  ],
+  "errors": [],
+  "found_root": true
+}

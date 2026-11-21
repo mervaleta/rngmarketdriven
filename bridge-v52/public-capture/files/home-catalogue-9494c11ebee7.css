@@ -1,0 +1,9 @@
+/* Siglo 23 home catalogue and HUMANIDAD 101, v5.1 */
+.s23-home .conspiranoia-cover{width:180px;max-width:100%;background:#fff;margin:0}
+.s23-home .book-archive{grid-template-columns:180px minmax(0,1fr) auto}
+.s23-home .conspiranoia-cover img,.s23-home .home-launch-art img{height:auto;object-fit:contain;box-shadow:none}
+.s23-home .saga-more{margin:18px 0 0;border-top:1px solid var(--s23-line);padding-top:18px}
+.s23-home .saga-more>summary{cursor:pointer;font:600 13px/1.6 Montserrat,Arial,sans-serif;min-height:44px;display:list-item;list-style:disclosure-closed inside;color:var(--s23-wine);padding:10px 0}
+.s23-home .saga-more[open]>summary{list-style:disclosure-open inside;margin-bottom:14px}
+@media(max-width:760px){.s23-home .book-archive{grid-template-columns:115px minmax(0,1fr)}.s23-home .conspiranoia-cover{width:115px}}
+@media(max-width:380px){.s23-home .book-archive{grid-template-columns:1fr}.s23-home .conspiranoia-cover{width:160px;grid-row:auto}.s23-home .book-archive-status{grid-column:1}}
