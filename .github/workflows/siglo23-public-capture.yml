@@ -1,0 +1,25 @@
+name: Backup publico Siglo23 (solo lectura, rama aislada)
+on:
+  push:
+    branches:
+      - bridge/siglo23-v52-20261121
+    paths:
+      - bridge-v52/public-capture.py
+      - .github/workflows/siglo23-public-capture.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Backup GET publico sin credenciales
+        run: python3 bridge-v52/public-capture.py
+      - name: Commit snapshot en la rama de seguridad
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bridge-v52/public-capture
+          git diff --cached --quiet || (git commit -m "Respaldo de paginas publicas y assets Siglo23" && git push)
