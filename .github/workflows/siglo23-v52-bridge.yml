@@ -1,0 +1,28 @@
+name: Siglo23 v5.2 public asset bridge (isolated branch)
+on:
+  push:
+    branches:
+      - bridge/siglo23-v52-20261121
+    paths:
+      - .github/workflows/siglo23-v52-bridge.yml
+      - bridge-v52/manifest.json
+      - bridge-v52/bridge.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch-public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Retrieve restored public files and verify SHA-256
+        run: python3 bridge-v52/bridge.py
+      - name: Commit base64 transport files only on isolated branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bridge-v52/b64
+          git diff --cached --quiet || (git commit -m "Bridge 26 public assets from live Siglo23" && git push)

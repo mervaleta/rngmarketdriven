@@ -1,0 +1,32 @@
+{
+  "description": "SHA-256 exactos de los 26 archivos del ZIP recuperado, aportado por el propietario; los originales NO proceden de la web si el hash no coincide",
+  "source_site": "https://siglo23.santoroydonoso.com",
+  "files": {
+    "account-avatar-4bc1d6127052.css": "4bc1d61270521d5d0afaa056675677dbf604ba2879cb256e60026d6eefb8354f",
+    "account-default-v3.png": "87fa5fb3ae676c8229789f796c95b8e302cf99b74a6b55de44ad5efc81574371",
+    "assets/conspiranoia-mockup-b4e16879903f.webp": "b4e16879903f6d7037aef9f105126e7fb280a22baf86f0e4a69e7e3e40225fb1",
+    "assets/fonts/OFL-Montserrat.txt": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+    "assets/fonts/montserrat-400.ttf": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96",
+    "assets/fonts/montserrat-500.ttf": "637639da93fdd9178e52662cce4bd5a59a544eb60677bb6ef9f89bc472607e5d",
+    "assets/fonts/montserrat-600.ttf": "c535bb158e8cfc3c27654f73aa68a87732899e7d9b10d8496b68605a56d947a7",
+    "assets/fonts/montserrat-700.ttf": "247f052d2f5b84a5bbe7831c3b08a71ca391ff54f1dfb9be88a3d3da569e3a38",
+    "assets/fonts/montserrat-800.ttf": "f0123e28dc0c4cac86559d1ffe587dded6ec57a4819956f56fcf6ad31d696eed",
+    "assets/humor-mercados-mockup-10b75e7a27a0.webp": "10b75e7a27a0cb529287939240074d56e5dbc4ecdf7b24a045305877d5f4a930",
+    "assets/logo-santoro-donoso-oficial-transparente.png": "64e9d5d895ce5532712961614434fe82812d958988da8b10cd8a63be449ef651",
+    "club-mark-nav-v1.png": "968e0b28dfa2bfb334eff6c4efadfbee3d8911f93ad7fa9fd13cd4f6b384323f",
+    "home-account-nav-v1.css": "6b0192bae7e45229eba55146573504bffe3ec1610a07ab42fc78758b6024aaee",
+    "home-catalogue-9494c11ebee7.css": "9494c11ebee74b0266ace1f05ddfca8a390d8db922f5fd703fd468a05b69bcec",
+    "home-editorial-a4a6db2f6543.css": "a4a6db2f6543abc9abe4615a8105d14710ce50658b777f0fbf36bdb2e77daaf8",
+    "home-order-8d15f562e7f6.css": "8d15f562e7f62c4131b801add2c972defc578ee8977788087a8cbc6c96b2844c",
+    "index.html": "8b3f47c9023f26b61066554f33a6c58c6ca8a1520055bb9e619288652e18acb6",
+    "libros/config.js": "40afce162429a507cfa5198c6c08701a87845d8edfa89918a4125931bff02363",
+    "libros/editorial-e39a6f9b62e5.css": "e39a6f9b62e50ef554523db951861d883453941a15a6caf19c4e3b6346ec41ca",
+    "libros/index.html": "63c92318be9c4dbeca16a19bca161282374039549ffbecaf480f24b1b1c0b88e",
+    "libros/libro-en-perspectiva.jpg": "09cd7f9b9f509b051ad394a9dfb398aa188e5bd1532261e8506a500d4eb160e2",
+    "libros/main.js": "009410353f86aa1b3fa7813ac688c24b09050eb7e4182670351f5b88208b1ba3",
+    "libros/styles.css": "0ac2f0ef8d83702f51cc5fbb36af9d443c1243e46aacf6fa9b15b25177a445a4",
+    "libros/tapa-libro.jpg": "c9af13e6589f8f44a3eda9595a7c53c880df0db79ded60ebd73eb4e83bd51efa",
+    "navigation.css": "ddc07c521e9c42f92725b949246065bb8cdb3f403b9e1b6467c9b4454dcacbbd",
+    "shared-header-d0dd5ff929ba.css": "d0dd5ff929ba6df59eaba8b95324cb7e5391bb202e4fa5bd7e83d6cbe884e6c7"
+  }
+}
