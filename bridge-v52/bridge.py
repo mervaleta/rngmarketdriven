@@ -35,7 +35,10 @@ for rel, expected in files.items():
     digest=hashlib.sha256(data).hexdigest()
     if digest!=expected:
         mismatch.append({"file":rel,"expected":expected,"download_sha256":digest,"bytes":len(data)})
-        print("MISMATCH",rel,len(data),digest,flush=True)
+        live=ROOT/"b64"/"live"/(rel+".b64")
+        live.parent.mkdir(parents=True,exist_ok=True)
+        live.write_text(base64.b64encode(data).decode("ascii"),encoding="ascii")
+        print("MISMATCH_LIVE_COPY",rel,len(data),digest,flush=True)
         continue
     path=ROOT/"b64"/(rel+".b64")
     path.parent.mkdir(parents=True,exist_ok=True)
