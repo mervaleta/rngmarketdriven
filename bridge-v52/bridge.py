@@ -1,7 +1,6 @@
 import base64
 import hashlib
 import json
-import subprocess
 import time
 import urllib.request
 from pathlib import Path
@@ -13,24 +12,36 @@ SITE=DATA["source_site"]
 assert SITE=="https://siglo23.santoroydonoso.com"
 files=DATA["files"]
 assert len(files)==26
+matched=[]
+mismatch=[]
+errors=[]
 for rel, expected in files.items():
     url=SITE+"/"+quote(rel,safe="/")
     data=None
-    for i in range(4):
+    for i in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 Siglo23 backup bridge", "Accept-Encoding":"identity"}),timeout=30) as r:
+            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 Siglo23 backup bridge", "Accept-Encoding":"identity"}),timeout=25) as r:
                 data=r.read(2_000_000)
                 assert r.read(1)==b"", "oversize"
             break
         except Exception as e:
-            print("Fetch error",rel,i,repr(e),flush=True)
-            if i==3:raise
-            time.sleep(3)
+            if i==2:
+                errors.append({"file":rel,"error":str(e)})
+                print("DOWNLOAD ERROR",rel,str(e),flush=True)
+            else:
+                time.sleep(2)
+    if data is None:
+        continue
     digest=hashlib.sha256(data).hexdigest()
     if digest!=expected:
-        raise ValueError(f"SHA mismatch on {rel}: {digest}, expected {expected}")
+        mismatch.append({"file":rel,"expected":expected,"download_sha256":digest,"bytes":len(data)})
+        print("MISMATCH",rel,len(data),digest,flush=True)
+        continue
     path=ROOT/"b64"/(rel+".b64")
     path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(base64.b64encode(data).decode("ascii"),encoding="ascii")
-    print("Verified",rel,len(data),flush=True)
-print("All public assets verified against user's ZIP SHA256")
+    matched.append(rel)
+    print("VERIFIED",rel,len(data),flush=True)
+report={"matched":matched,"mismatched":mismatch,"errors":errors}
+(ROOT/"report.json").write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding="utf-8")
+print("REPORT",len(matched),"matched",len(mismatch),"mismatched",len(errors),"errors",flush=True)
