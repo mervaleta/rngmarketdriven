@@ -1,0 +1,63 @@
+{
+  "matched": [
+    "account-avatar-4bc1d6127052.css",
+    "assets/conspiranoia-mockup-b4e16879903f.webp",
+    "assets/fonts/OFL-Montserrat.txt",
+    "assets/fonts/montserrat-400.ttf",
+    "assets/fonts/montserrat-500.ttf",
+    "assets/fonts/montserrat-600.ttf",
+    "assets/fonts/montserrat-700.ttf",
+    "assets/fonts/montserrat-800.ttf",
+    "assets/humor-mercados-mockup-10b75e7a27a0.webp",
+    "home-account-nav-v1.css",
+    "home-catalogue-9494c11ebee7.css",
+    "home-editorial-a4a6db2f6543.css",
+    "home-order-8d15f562e7f6.css",
+    "libros/config.js",
+    "libros/editorial-e39a6f9b62e5.css",
+    "libros/index.html",
+    "libros/main.js",
+    "libros/styles.css",
+    "navigation.css",
+    "shared-header-d0dd5ff929ba.css"
+  ],
+  "mismatched": [
+    {
+      "file": "account-default-v3.png",
+      "expected": "87fa5fb3ae676c8229789f796c95b8e302cf99b74a6b55de44ad5efc81574371",
+      "download_sha256": "a66224dd45861e3768c0f09680af6194b2a136e2a191acfb301cb25b46d0ac42",
+      "bytes": 10663
+    },
+    {
+      "file": "assets/logo-santoro-donoso-oficial-transparente.png",
+      "expected": "64e9d5d895ce5532712961614434fe82812d958988da8b10cd8a63be449ef651",
+      "download_sha256": "1fcb20510b0c886515cc00c6314fb047146bc7bfe9c7833ee543081d02ee9875",
+      "bytes": 160203
+    },
+    {
+      "file": "club-mark-nav-v1.png",
+      "expected": "968e0b28dfa2bfb334eff6c4efadfbee3d8911f93ad7fa9fd13cd4f6b384323f",
+      "download_sha256": "2dcf2bcbf01873f522401905c7a046bb206d4c80ec58b4914854b945c96869c3",
+      "bytes": 8890
+    },
+    {
+      "file": "index.html",
+      "expected": "8b3f47c9023f26b61066554f33a6c58c6ca8a1520055bb9e619288652e18acb6",
+      "download_sha256": "3da95fa60a72ab4e68ab035d871707435deeceb753c9928314424393f9e1901d",
+      "bytes": 8197
+    },
+    {
+      "file": "libros/libro-en-perspectiva.jpg",
+      "expected": "09cd7f9b9f509b051ad394a9dfb398aa188e5bd1532261e8506a500d4eb160e2",
+      "download_sha256": "1c06da0d2ce460d11afc02943111354da99016e420418390c7b50ea86954f35a",
+      "bytes": 60249
+    },
+    {
+      "file": "libros/tapa-libro.jpg",
+      "expected": "c9af13e6589f8f44a3eda9595a7c53c880df0db79ded60ebd73eb4e83bd51efa",
+      "download_sha256": "f96fd99edbec84e575d9e8ea1097b6baec7cffc53e85595112eb89138c5008f4",
+      "bytes": 75212
+    }
+  ],
+  "errors": []
+}
