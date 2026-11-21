@@ -45,6 +45,9 @@ def save(path,raw,typ):
  target=OUT/"files"/name
  target.parent.mkdir(parents=True,exist_ok=True)
  target.write_bytes(raw)
+ b64=OUT.parent/"public-capture-b64"/(name+".b64")
+ b64.parent.mkdir(parents=True,exist_ok=True)
+ b64.write_text(base64.b64encode(raw).decode("ascii"),encoding="ascii")
  return {"url":ORIGIN+path,"path":name,"sha256":sha256(raw).hexdigest(),"bytes":len(raw),"content_type":typ}
 
 OUT.mkdir(parents=True,exist_ok=True)
