@@ -24,5 +24,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bridge-v52/b64
+          git add bridge-v52/b64 bridge-v52/report.json
           git diff --cached --quiet || (git commit -m "Bridge 26 public assets from live Siglo23" && git push)
