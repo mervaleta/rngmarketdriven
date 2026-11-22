@@ -1,0 +1,10 @@
+{
+  "php_version": "8.3.37",
+  "webroot_index": true,
+  "backup_found": true,
+  "backup_bytes": 80193314,
+  "archive_list_possible": false,
+  "phar_possible": true,
+  "php_files_in_backup": [],
+  "errors": []
+}
