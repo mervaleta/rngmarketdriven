@@ -1,14 +1,14 @@
 {
-  "checked_utc": "2026-11-22T00:46:48.088070+00:00",
-  "commit": "450e39334f546f3e126e6741368b7fae3bc3bbab",
+  "checked_utc": "2026-11-22T00:54:23.817485+00:00",
+  "commit": "f565f22746d2127466ec18d123939cad886fcc93",
   "site": "https://siglo23.santoroydonoso.com",
   "results": [
     {
       "name": "editorial",
       "route": "/editorial/",
-      "url": "https://siglo23.santoroydonoso.com/editorial/?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/editorial/?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/editorial/?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/?audit=f565f22746",
       "bytes_read": 56788,
       "title": "Mesa editorial — Siglo23",
       "markers": {
@@ -22,9 +22,9 @@
     {
       "name": "proyectos",
       "route": "/editorial/nuevos/",
-      "url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=f565f22746",
       "bytes_read": 5277,
       "title": "Ideas, libros y relatos · Catálogo de desarrollo · Siglo 23",
       "markers": {
@@ -37,9 +37,9 @@
     {
       "name": "datos_proyectos",
       "route": "/editorial/nuevos/proyectos.js",
-      "url": "https://siglo23.santoroydonoso.com/editorial/nuevos/proyectos.js?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/editorial/nuevos/proyectos.js?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/editorial/nuevos/proyectos.js?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/nuevos/proyectos.js?audit=f565f22746",
       "bytes_read": 4239,
       "title": null,
       "markers": {
@@ -54,9 +54,9 @@
     {
       "name": "satira",
       "route": "/editorial/archivo/mercados/",
-      "url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=f565f22746",
       "bytes_read": 10973,
       "title": "La sátira de los mercados: Historia ilustrada de burbujas, fraudes y otros delirios financieros · Siglo23",
       "markers": {
@@ -68,9 +68,9 @@
     {
       "name": "home",
       "route": "/",
-      "url": "https://siglo23.santoroydonoso.com/?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/?audit=f565f22746",
       "bytes_read": 8197,
       "title": "Siglo 23 · Editorial",
       "markers": {
@@ -82,9 +82,9 @@
     {
       "name": "home_html",
       "route": "/index.html",
-      "url": "https://siglo23.santoroydonoso.com/index.html?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/index.html?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/index.html?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/index.html?audit=f565f22746",
       "bytes_read": 8197,
       "title": "Siglo 23 · Editorial",
       "markers": {
@@ -93,20 +93,11 @@
       "ok": true
     },
     {
-      "name": "home_php",
-      "route": "/index.php",
-      "url": "https://siglo23.santoroydonoso.com/index.php?audit=450e39334f",
-      "http": 503,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "error_page": "<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex\"><title>No pudimos completar la operación | Siglo 23</title><link rel=\"stylesheet\" href=\"cuenta.css?v=3.1\"><link rel=\"stylesheet\" href=\"community.css?v=fogon-v2\"><link rel=\"stylesheet\" href=\"editorial-design.css?v=20261021-club\"><link rel=\"stylesheet\" href=\"profile-settings-3b7790a2065c.css\"><link rel=\"stylesheet\" href=\"navigation.css?v=1\"><link rel=\"stylesheet\" href=\"fogon-ui-v2.css?v=1\"><link rel=\"stylesheet\" href=\"platform.css?v=1\"><link rel=\"stylesheet\" href=\"public-profile.css?v=1\"><link rel=\"stylesheet\" href=\"club-layout-4a4f5b0d1bac.css\"><link rel=\"stylesheet\" href=\"shared-header-d0dd5ff929ba.css\"><link rel=\"stylesheet\" href=\"/workspace-editorial-2a58d8ee0a06.css\"></head><body data-s23-tone=\"club\" class=\"s23-workspace-theme\" ><main class=\"shell\"><header class=\"top unified-header\"><div class=\"brand\"><a href=\"/\" aria-label=\"Siglo 23, inicio\">SIGLO <b>23</b></a></div><nav aria-label=\"Navegación principal\"><a href=\"/comunidad.php\"><img class=\"s23-club-icon\" src=\"/club-mark-nav-v1.png\" alt=\"\" width=\"29\" height=\"29\" style=\"object-fit:contain;vertical-align:middle;margin-right:7px\">El Club</a><link rel=\"stylesheet\" href=\"/account-avatar-4bc1d6127052.css\"><div class=\"fg-session-bar\"><details class=\"fg-account\"><summary class=\"fg-account-icon\" aria-label=\"Abrir menú de acceso al Club\" title=\"Acceder al Club\"><img c"
-    },
-    {
       "name": "libros",
       "route": "/libros/",
-      "url": "https://siglo23.santoroydonoso.com/libros/?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/libros/?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/libros/?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/libros/?audit=f565f22746",
       "bytes_read": 7433,
       "title": "El humor de los mercados · Santoro &amp; Donoso",
       "markers": {
@@ -117,9 +108,9 @@
     {
       "name": "club",
       "route": "/comunidad.php",
-      "url": "https://siglo23.santoroydonoso.com/comunidad.php?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/comunidad.php?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/comunidad.php?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/comunidad.php?audit=f565f22746",
       "bytes_read": 3642,
       "title": "Club de Cazadores de Milanesas | Siglo 23",
       "markers": {},
@@ -128,9 +119,9 @@
     {
       "name": "contacto",
       "route": "/contacto.php",
-      "url": "https://siglo23.santoroydonoso.com/contacto.php?audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/contacto.php?audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/contacto.php?audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/contacto.php?audit=f565f22746",
       "bytes_read": 3594,
       "title": "Contacto | Siglo 23",
       "markers": {},
@@ -139,14 +130,14 @@
     {
       "name": "cuenta",
       "route": "/cuenta.php?modo=ingresar",
-      "url": "https://siglo23.santoroydonoso.com/cuenta.php?modo=ingresar&audit=450e39334f",
+      "url": "https://siglo23.santoroydonoso.com/cuenta.php?modo=ingresar&audit=f565f22746",
       "http": 200,
-      "final_url": "https://siglo23.santoroydonoso.com/cuenta.php?modo=ingresar&audit=450e39334f",
+      "final_url": "https://siglo23.santoroydonoso.com/cuenta.php?modo=ingresar&audit=f565f22746",
       "bytes_read": 3561,
       "title": "Ingresar | Siglo 23",
       "markers": {},
       "ok": true
     }
   ],
-  "all_passed": false
+  "all_passed": true
 }
