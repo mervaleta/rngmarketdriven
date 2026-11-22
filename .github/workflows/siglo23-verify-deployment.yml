@@ -1,0 +1,27 @@
+name: Verificar despliegue Siglo23, cambios editoriales y rutas preservadas
+on:
+  push:
+    branches: [bridge/siglo23-v52-20261121]
+    paths:
+      - "bridge-v52/verify-deployment.py"
+      - ".github/workflows/siglo23-verify-deployment.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: GET verify editorial home books and PHP
+        run: python3 bridge-v52/verify-deployment.py
+      - name: Preserve check JSON (even if failure)
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f bridge-v52/public-deploy-check.json ]; then
+            git add bridge-v52/public-deploy-check.json
+            git diff --cached --quiet || (git commit -m "Resultado smoke test web tras publicar editorial" && git push)
+          fi
