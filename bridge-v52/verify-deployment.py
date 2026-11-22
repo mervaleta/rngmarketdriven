@@ -4,7 +4,7 @@ import json,datetime,time,urllib.request,urllib.error
 from html.parser import HTMLParser
 from pathlib import Path
 ORIGIN="https://siglo23.santoroydonoso.com"
-MARK="450e39334f546f3e126e6741368b7fae3bc3bbab"
+MARK="f565f22746d2127466ec18d123939cad886fcc93"
 CHECKS=[
  ("/editorial/","editorial",["Mesa editorial","Finanzas para Aliens","La sátira de los mercados","v0.7"]),
  ("/editorial/nuevos/","proyectos",["Ella y los años","El ángel","proyectos.js"]),
@@ -12,7 +12,6 @@ CHECKS=[
  ("/editorial/archivo/mercados/","satira",["La sátira","Historia ilustrada de burbujas, fraudes y otros delirios financieros"]),
  ("/","home",["El humor de los mercados","El Club"]),
  ("/index.html","home_html",["El humor de los mercados"]),
- ("/index.php","home_php",[]),
  ("/libros/","libros",["El humor de los mercados"]),
  ("/comunidad.php","club",[]),
  ("/contacto.php","contacto",[]),
