@@ -1,0 +1,17 @@
+name: Probar transferencia segura de artifact
+on:
+  push:
+    branches: [bridge/siglo23-v52-20261121]
+    paths: [.github/workflows/siglo23-artifact-smoke.yml]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crear prueba sin datos
+        run: echo "ARTIFACT_TRANSFER_OK" > /tmp/transfer-check.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sig23-transfer-test
+          path: /tmp/transfer-check.txt
