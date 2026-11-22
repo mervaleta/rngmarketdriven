@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import urllib.request,urllib.error,json,time,pathlib
-url="https://siglo23.santoroydonoso.com/__s23_recover_probe_b0f6fd84236a9b0914efb70b.php?t=hsNVP6Eo4gLORn6phaeFlvPMRWkIModQxgs5KBhW5fs&mode=restore&r=SXFZKILA262q0BljZ9mpaUztNWvTio9U4Wy_hA"
+url="https://siglo23.santoroydonoso.com/__s23_recover_probe_b0f6fd84236a9b0914efb70b.php?t=hsNVP6Eo4gLORn6phaeFlvPMRWkIModQxgs5KBhW5fs&mode=repairhome&r=SXFZKILA262q0BljZ9mpaUztNWvTio9U4Wy_hA"
 result=None
 for n in range(10):
  try:
