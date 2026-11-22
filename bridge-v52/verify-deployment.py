@@ -11,6 +11,8 @@ CHECKS=[
  ("/editorial/nuevos/proyectos.js","datos_proyectos",["Finanzas para Aliens","Economía para Aliens","Real Estate para Aliens","Ella y los años","El ángel"]),
  ("/editorial/archivo/mercados/","satira",["La sátira","Historia ilustrada de burbujas, fraudes y otros delirios financieros"]),
  ("/","home",["El humor de los mercados","El Club"]),
+ ("/index.html","home_html",["El humor de los mercados"]),
+ ("/index.php","home_php",[]),
  ("/libros/","libros",["El humor de los mercados"]),
  ("/comunidad.php","club",[]),
  ("/contacto.php","contacto",[]),
@@ -26,7 +28,7 @@ for route,name,markers in CHECKS:
    raw=resp.read(300_000);body=raw.decode("utf8","replace");code=resp.status
    entry.update({"http":code,"final_url":resp.url,"bytes_read":len(raw),"markers":{term:(term in body) for term in markers}})
    entry["ok"]=code==200 and all(entry["markers"].values())
- except urllib.error.HTTPError as e:entry.update({"http":e.code,"ok":False,"error":str(e)})
+ except urllib.error.HTTPError as e:entry.update({"http":e.code,"ok":False,"error":str(e),"error_page":e.read(350).decode("utf8","replace")})
  except Exception as e:entry.update({"http":None,"ok":False,"error":str(e)})
  results.append(entry)
  print(name,entry["http"],entry["ok"],entry.get("markers",""),flush=True)
