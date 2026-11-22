@@ -26,9 +26,9 @@ for route,name,markers in CHECKS:
   req=urllib.request.Request(url,headers={"User-Agent":"Siglo23Verification/2026-11-21","Cache-Control":"no-cache","Accept-Encoding":"identity"})
   with urllib.request.urlopen(req,timeout=22) as resp:
    raw=resp.read(300_000);body=raw.decode("utf8","replace");code=resp.status
-   entry.update({"http":code,"final_url":resp.url,"bytes_read":len(raw),"markers":{term:(term in body) for term in markers}})
+   entry.update({"http":code,"final_url":resp.url,"bytes_read":len(raw),"title":__import__("re").search(r"<title[^>]*>(.*?)</title>",body,__import__("re").I|__import__("re").S).group(1) if __import__("re").search(r"<title[^>]*>(.*?)</title>",body,__import__("re").I|__import__("re").S) else None,"markers":{term:(term in body) for term in markers}})
    entry["ok"]=code==200 and all(entry["markers"].values())
- except urllib.error.HTTPError as e:entry.update({"http":e.code,"ok":False,"error":str(e),"error_page":e.read(350).decode("utf8","replace")})
+ except urllib.error.HTTPError as e:entry.update({"http":e.code,"ok":False,"error":str(e),"error_page":e.read(1500).decode("utf8","replace")})
  except Exception as e:entry.update({"http":None,"ok":False,"error":str(e)})
  results.append(entry)
  print(name,entry["http"],entry["ok"],entry.get("markers",""),flush=True)
