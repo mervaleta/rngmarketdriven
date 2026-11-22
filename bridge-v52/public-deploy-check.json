@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-22T00:43:15.200646+00:00",
+  "checked_utc": "2026-11-22T00:44:06.623715+00:00",
   "commit": "97ce25864cbeec407e9f31e6bffab9194f335801",
   "site": "https://siglo23.santoroydonoso.com",
   "results": [
@@ -67,7 +67,26 @@
       "url": "https://siglo23.santoroydonoso.com/?audit=97ce25864c",
       "http": 503,
       "ok": false,
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTP Error 503: Service Unavailable",
+      "error_page": "<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex\"><title>No pudimos completar la operación | Siglo 23</title><link rel=\"stylesheet\" href=\"cuenta.css?v=3.1\"><link rel=\"stylesheet\" href=\"community.css?v=fogon-v2\"><link rel=\"stylesheet\" h"
+    },
+    {
+      "name": "home_html",
+      "route": "/index.html",
+      "url": "https://siglo23.santoroydonoso.com/index.html?audit=97ce25864c",
+      "http": 503,
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable",
+      "error_page": "<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex\"><title>No pudimos completar la operación | Siglo 23</title><link rel=\"stylesheet\" href=\"cuenta.css?v=3.1\"><link rel=\"stylesheet\" href=\"community.css?v=fogon-v2\"><link rel=\"stylesheet\" h"
+    },
+    {
+      "name": "home_php",
+      "route": "/index.php",
+      "url": "https://siglo23.santoroydonoso.com/index.php?audit=97ce25864c",
+      "http": 503,
+      "ok": false,
+      "error": "HTTP Error 503: Service Unavailable",
+      "error_page": "<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex\"><title>No pudimos completar la operación | Siglo 23</title><link rel=\"stylesheet\" href=\"cuenta.css?v=3.1\"><link rel=\"stylesheet\" href=\"community.css?v=fogon-v2\"><link rel=\"stylesheet\" h"
     },
     {
       "name": "libros",
