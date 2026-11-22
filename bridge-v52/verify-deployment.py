@@ -4,7 +4,7 @@ import json,datetime,time,urllib.request,urllib.error
 from html.parser import HTMLParser
 from pathlib import Path
 ORIGIN="https://siglo23.santoroydonoso.com"
-MARK="861dc68c87395c6e2a471bdc1cc7f3d7718ef3c8"
+MARK="2652b5b979a0419b269cd9001547eba080f9fe54"
 CHECKS=[
  ("/editorial/","editorial",["Mesa editorial","Finanzas para Aliens","La sátira de los mercados","v0.7"]),
  ("/editorial/nuevos/","proyectos",["Finanzas para Aliens","Economía para Aliens","Real Estate para Aliens","Ella y los años","El ángel"]),
