@@ -1,0 +1,92 @@
+{
+  "checked_utc": "2026-11-22T00:32:55.825844+00:00",
+  "commit": "861dc68c87395c6e2a471bdc1cc7f3d7718ef3c8",
+  "site": "https://siglo23.santoroydonoso.com",
+  "results": [
+    {
+      "name": "editorial",
+      "route": "/editorial/",
+      "url": "https://siglo23.santoroydonoso.com/editorial/?audit=861dc68c87",
+      "http": 200,
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/?audit=861dc68c87",
+      "bytes_read": 56788,
+      "markers": {
+        "Mesa editorial": true,
+        "Finanzas para Aliens": true,
+        "La sátira de los mercados": true,
+        "v0.7": true
+      },
+      "ok": true
+    },
+    {
+      "name": "proyectos",
+      "route": "/editorial/nuevos/",
+      "url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=861dc68c87",
+      "http": 200,
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/nuevos/?audit=861dc68c87",
+      "bytes_read": 5277,
+      "markers": {
+        "Finanzas para Aliens": false,
+        "Economía para Aliens": false,
+        "Real Estate para Aliens": false,
+        "Ella y los años": true,
+        "El ángel": true
+      },
+      "ok": false
+    },
+    {
+      "name": "satira",
+      "route": "/editorial/archivo/mercados/",
+      "url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=861dc68c87",
+      "http": 200,
+      "final_url": "https://siglo23.santoroydonoso.com/editorial/archivo/mercados/?audit=861dc68c87",
+      "bytes_read": 10973,
+      "markers": {
+        "La sátira": true,
+        "Historia ilustrada de burbujas, fraudes y otros delirios financieros": true
+      },
+      "ok": true
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://siglo23.santoroydonoso.com/?audit=861dc68c87",
+      "http": 403,
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "libros",
+      "route": "/libros/",
+      "url": "https://siglo23.santoroydonoso.com/libros/?audit=861dc68c87",
+      "http": 404,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "club",
+      "route": "/comunidad.php",
+      "url": "https://siglo23.santoroydonoso.com/comunidad.php?audit=861dc68c87",
+      "http": 404,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "contacto",
+      "route": "/contacto.php",
+      "url": "https://siglo23.santoroydonoso.com/contacto.php?audit=861dc68c87",
+      "http": 404,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "cuenta",
+      "route": "/cuenta.php?modo=ingresar",
+      "url": "https://siglo23.santoroydonoso.com/cuenta.php?modo=ingresar&audit=861dc68c87",
+      "http": 404,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "all_passed": false
+}
