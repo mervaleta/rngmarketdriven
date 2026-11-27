@@ -48,3 +48,22 @@ CrossQuiz agrega puntos de rareza exclusivamente de demostración (100 respuesta
 
 ## Encuesta permanente del mundillo cross
 La home enlaza a /encuesta/index.php. Catálogo: includes/survey.json, revisión 1, doce preguntas opcionales de hábitos y preferencias. Usa una SQLite independiente en private/ con nombre derivado de setup_key; solo se crea si la configuración de almacenamiento privado está verificada, HTTPS activo y PHP tiene PDO SQLite. Nunca se guarda una fila por participante, identificadores, IP, sesión, fecha/hora individual ni respuestas enlazadas: solo contadores por mes/revisión/pregunta/opción. El header de esta ruta no consulta la sesión ni carga JavaScript de cuenta. Los registros técnicos del hosting pueden existir; revisar retención y acceso. Participación voluntaria 18+, sin incentivos y sin identificación de duplicados: no interpretar recuentos como personas únicas. Resultados del mes anterior, mínimo 20 por pregunta y agrupación de opciones con menos de 5; no mostrar pregunta si el grupo pequeño suma entre 1 y 4. No hay cruces ni resultados del mes en curso. Cambiar la revisión si cambian opciones o preguntas; no reutilizar IDs con otro significado. Verificar con datos de prueba en una instalación separada, no contaminar resultados reales. No versionar la base de encuesta. Conservarla junto con private/ en migraciones, con permisos y protección comprobados.
+
+## Registro verificado por correo (beta)
+PHPMailer v7.2.0, upstream https://github.com/PHPMailer/PHPMailer/tree/v7.2.0, archivos src/PHPMailer.php, src/SMTP.php, src/Exception.php y LICENSE sin modificar, en includes/vendor/PHPMailer/. No requiere Composer. Delight PHP-Auth (MIT) evaluado, no instalado: conservamos las identidades y relaciones de Studio. Mantener PHPMailer actualizado y revisar avisos de seguridad.
+1. Confirmar que SQLite y sesiones funcionan, HTTPS, bloqueo HTTP de private/ e includes/, y que ya existe un administrador. Preservar setup_key y respaldar los datos antes del Redeploy.
+2. En hPanel crear una casilla de correo exclusiva para los mensajes de acceso, de nombre neutro. Si usa Hostinger Email, consultar sus parámetros SMTP en Emails > Connect Apps & Devices. Los parámetros comunes son smtp.hostinger.com y 465 (TLS implícito) o 587 (STARTTLS). No compartir credenciales en el chat ni GitHub.
+3. Editar el array existente de cross/private/config.php (NO reemplazar setup_key ni storage_verified). Agregar:
+```php
+'smtp' => [
+    'host' => 'smtp.hostinger.com',
+    'port' => 465,
+    'username' => 'TU_CASILLA_REAL',
+    'password' => 'CONTRASENA_DE_LA_CASILLA',
+],
+'allow_registration' => true,
+```
+Para primeras pruebas preferir mantener allow_registration=false y vincular el correo a la cuenta existente desde su ficha; solo abrir temporalmente el registro a cuentas de prueba cuando el correo funcione. No abrir la beta general antes de revisar privacidad y permisos.
+4. /cuenta/?v=register: email, alias, nombre visible, contraseña y declaración de mayoría de edad. Se envía un código de 8 dígitos que caduca a los 15 minutos; se verifica en el mismo navegador, máximo cinco intentos. No se crea el usuario antes de verificar. /cuenta/?v=login: email o alias + contraseña. En el perfil propio: vincular/cambiar correo con contraseña actual y verificación. No modifica las cuentas antiguas; los bots no pueden iniciar sesión.
+5. Verificar registro, error de código, vencimiento, correo repetido, alias repetido, correo no disponible, login por alias/email, perfil y cierre de sesión. Probar solo cuentas ficticias. El nuevo registro permanece cerrado si falta SMTP. El login de usuarios existentes sigue funcionando sin SMTP.
+6. SQLite guarda únicamente un HMAC del correo normalizado con la clave privada, no su valor en claro. El correo se utiliza transitoriamente para SMTP. El proveedor de correo puede conservar mensajes y metadatos. No guardar email en logs ni usarlo para marketing. El código no aparece en URLs. Conservar setup_key para que los emails sigan siendo localizables. Los límites de envío usan buckets HMAC, sin almacenar IP/correo literal. Recuperación de contraseña por correo y revocación de sesiones global aún no implementadas. No prometer seguridad auditada ni entrega confirmada antes de probar el servidor.
