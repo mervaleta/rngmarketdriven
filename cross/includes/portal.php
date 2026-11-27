@@ -13,6 +13,7 @@ if($view==='ranking'&&!$memberMode){header('Location: '.$base.'cuenta/?v=login',
 $gameConfig=$memberMode?['url'=>$base.'community.php?v=game_api','csrf'=>$_SESSION['csrf']]:null;
 $html=str_replace('<!--STUDIO_HEADER-->',studioHeader($active),$html);
 $html=str_replace('<!--STUDIO_STYLE-->','<link rel="stylesheet" href="'.studioEsc($base).'assets/shared.css?v=2">',$html);
+$html=str_replace('<!--STUDIO_BASE_LINK-->',studioEsc($base),$html);
 $html=str_replace('<!--STUDIO_INITIAL-->',json_encode($view,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 $html=str_replace('<!--STUDIO_BASE-->',json_encode($base,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 // The public demo ranking exposes only seeded bot aliases and scores, never member data.
