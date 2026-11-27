@@ -51,6 +51,9 @@ def build():
     maintained=ROOT/"minijuegos/style-lab/engine/editor/editor.js"
     if maintained.is_file(): s=maintained.read_text()
     js.write_text(s)
+    # Keep the local network timeout and fitting fixes in the shared library.
+    maintained_core=ROOT/"minijuegos/style-lab/engine/lib/avatar-core.js"
+    if maintained_core.is_file(): shutil.copy2(maintained_core,TARGET/"lib/avatar-core.js")
     (TARGET/"icon.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#a13c78"/><path fill="white" d="M16 3 19 13 29 16 19 19 16 29 13 19 3 16 13 13Z"/></svg>')
     # .gz files contain raw gzip bytes for explicit browser decompression.
     (TARGET/".htaccess").write_text("Options -Indexes\n<IfModule mod_mime.c>\nAddType application/octet-stream .gz\nRemoveEncoding .gz\nAddType text/javascript .mjs .js\n</IfModule>\n<IfModule mod_headers.c>\nHeader always set X-Robots-Tag \"noindex, nofollow\"\nHeader always set Referrer-Policy \"no-referrer\"\n</IfModule>\n")
