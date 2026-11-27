@@ -143,7 +143,7 @@
 #app{flex-direction:row-reverse}#side{border-right:0;border-left:1px solid var(--line);width:min(43%,380px)}
 .tile,button.plain,#bar input[type=text],#expr-row select{background:#f2e1ec;color:var(--fg)}.tile img{background:#e7d3e1}
 #photo,#share,#fixlink,#panel-fixlink,#send,#open{display:none!important}
-#quick{display:block}#camera button{background:#fff9;color:#43293d}#bar{padding:8px}#view canvas{touch-action:none}
+#quick{display:grid;grid-template-columns:1fr 1fr;gap:6px}#camera button{background:#fff9;color:#43293d}#bar{padding:8px}#view canvas{touch-action:none}
 @media(max-width:650px){#app{flex-direction:column-reverse}#view{flex:none;height:44vh;min-height:260px}#side{width:100%;flex:1;border:0}#panel{min-height:100px}}
 </style></head>
 <body>
@@ -151,7 +151,7 @@
 <div id="side">
   <div id="panel">
     <h1>Studio · Probador 3D</h1>
-    <div id="quick"><button class="plain" id="surprise" title="A random person in one of the ready-made outfits">Sorprendeme</button><button class="plain" id="share" title="A link that opens this avatar in the maker">Copy link</button><button class="plain" id="photo" title="Face shape, skin tone, eye and hair color from your camera or photos of a face. Nothing is uploaded.">From a photo <span class="beta">beta</span></button></div>
+    <div id="quick"><button class="plain" id="surprise" title="Cambiar cuerpo, rostro, colores y vestuario">Todo al azar</button><button class="plain" id="random-body">Cuerpo y rostro</button><button class="plain" id="random-colors">Colores</button><button class="plain" id="random-look">Vestuario y pelo</button><button class="plain" id="share" title="A link that opens this avatar in the maker">Copy link</button><button class="plain" id="photo" title="Face shape, skin tone, eye and hair color from your camera or photos of a face. Nothing is uploaded.">From a photo <span class="beta">beta</span></button></div>
     <details id="start">
       <summary>Modelos iniciales</summary>
       <div class="tiles" id="presets"></div>
@@ -279,7 +279,7 @@ const fail=(error)=>{
   box.append(p,detail,retry);loading.append(box);
 };
 const deadline=setTimeout(()=>{if(!window.avatarEditor)fail(new Error("El modelo tardó demasiado en responder."))},45000);
-try{await import("./editor.js?v=boot-3");clearTimeout(deadline);}catch(error){clearTimeout(deadline);fail(error);}
+try{await import("./editor.js?v=random-4");clearTimeout(deadline);}catch(error){clearTimeout(deadline);fail(error);}
 </script>
 </body>
 </html>
