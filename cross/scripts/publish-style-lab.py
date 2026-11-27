@@ -31,6 +31,8 @@ def build():
 #quick{display:block}#camera button{background:#fff9;color:#43293d}#bar{padding:8px}#view canvas{touch-action:none}
 @media(max-width:650px){#app{flex-direction:column-reverse}#view{flex:none;height:44vh;min-height:260px}#side{width:100%;flex:1;border:0}#panel{min-height:100px}}
 </style></head>""")
+    maintained_html=ROOT/"minijuegos/style-lab/engine/editor/index.html"
+    if maintained_html.is_file(): s=maintained_html.read_text()
     html.write_text(s)
     js=TARGET/"editor/editor.js";s=js.read_text()
     s=replace(s,'gender: 1, age: 0.5','gender: 0.35, age: 0.5')
