@@ -1198,5 +1198,1620 @@
     "type": "product",
     "suggestion": "Vestidos sin tirantes o palabra de honor",
     "offers": []
+  },
+  "corpino-balconette": {
+    "type": "product",
+    "suggestion": "Corpiño balconette",
+    "offers": []
+  },
+  "corpino-demi": {
+    "type": "product",
+    "suggestion": "Corpiño demi cup",
+    "offers": []
+  },
+  "corpino-copa-completa": {
+    "type": "product",
+    "suggestion": "Corpiño de copa completa",
+    "offers": []
+  },
+  "corpino-plunge": {
+    "type": "product",
+    "suggestion": "Corpiño plunge",
+    "offers": []
+  },
+  "corpino-triangular": {
+    "type": "product",
+    "suggestion": "Corpiño triangular",
+    "offers": []
+  },
+  "corpino-con-aros": {
+    "type": "product",
+    "suggestion": "Corpiño con aros",
+    "offers": []
+  },
+  "corpino-sin-aros": {
+    "type": "product",
+    "suggestion": "Corpiño sin aros",
+    "offers": []
+  },
+  "corpino-moldeado": {
+    "type": "product",
+    "suggestion": "Corpiño de copa moldeada",
+    "offers": []
+  },
+  "corpino-sin-costuras": {
+    "type": "product",
+    "suggestion": "Corpiño sin costuras",
+    "offers": []
+  },
+  "corpino-minimizer": {
+    "type": "product",
+    "suggestion": "Corpiño minimizer",
+    "offers": []
+  },
+  "corpino-longline": {
+    "type": "product",
+    "suggestion": "Corpiño longline",
+    "offers": []
+  },
+  "corpino-deportivo": {
+    "type": "product",
+    "suggestion": "Corpiño deportivo",
+    "offers": []
+  },
+  "corpino-multiposicion": {
+    "type": "product",
+    "suggestion": "Corpiño multiposición",
+    "offers": []
+  },
+  "corpino-racerback": {
+    "type": "product",
+    "suggestion": "Corpiño espalda deportiva",
+    "offers": []
+  },
+  "corpino-adhesivo": {
+    "type": "product",
+    "suggestion": "Corpiño adhesivo",
+    "offers": []
+  },
+  "corpino-con-bolsillos": {
+    "type": "product",
+    "suggestion": "Corpiño con bolsillos",
+    "offers": []
+  },
+  "corpino-front-closure": {
+    "type": "product",
+    "suggestion": "Corpiño de cierre delantero",
+    "offers": []
+  },
+  "bombacha-bikini": {
+    "type": "product",
+    "suggestion": "Bombacha bikini",
+    "offers": []
+  },
+  "bombacha-clasica": {
+    "type": "product",
+    "suggestion": "Bombacha clásica",
+    "offers": []
+  },
+  "bombacha-hipster": {
+    "type": "product",
+    "suggestion": "Bombacha hipster",
+    "offers": []
+  },
+  "bombacha-brasilena": {
+    "type": "product",
+    "suggestion": "Bombacha brasileña",
+    "offers": []
+  },
+  "bombacha-cheeky": {
+    "type": "product",
+    "suggestion": "Bombacha cheeky",
+    "offers": []
+  },
+  "bombacha-colaless": {
+    "type": "product",
+    "suggestion": "Bombacha colaless",
+    "offers": []
+  },
+  "bombacha-tiro-bajo": {
+    "type": "product",
+    "suggestion": "Bombacha de tiro bajo",
+    "offers": []
+  },
+  "bombacha-sin-costuras": {
+    "type": "product",
+    "suggestion": "Bombacha sin costuras",
+    "offers": []
+  },
+  "bombacha-de-microfibra": {
+    "type": "product",
+    "suggestion": "Bombacha de microfibra",
+    "offers": []
+  },
+  "bombacha-de-encaje": {
+    "type": "product",
+    "suggestion": "Bombacha de encaje",
+    "offers": []
+  },
+  "short-interior": {
+    "type": "product",
+    "suggestion": "Short interior",
+    "offers": []
+  },
+  "faja-cinturilla": {
+    "type": "product",
+    "suggestion": "Faja cinturilla",
+    "offers": []
+  },
+  "faja-short": {
+    "type": "product",
+    "suggestion": "Faja short",
+    "offers": []
+  },
+  "faja-body": {
+    "type": "product",
+    "suggestion": "Body modelador",
+    "offers": []
+  },
+  "faja-bombacha": {
+    "type": "product",
+    "suggestion": "Bombacha modeladora",
+    "offers": []
+  },
+  "faja-enagua": {
+    "type": "product",
+    "suggestion": "Enagua modeladora",
+    "offers": []
+  },
+  "faja-tiro-alto": {
+    "type": "product",
+    "suggestion": "Faja de tiro alto",
+    "offers": []
+  },
+  "lenceria": {
+    "type": "product",
+    "suggestion": "Lencería",
+    "offers": []
+  },
+  "conjunto-de-lenceria": {
+    "type": "product",
+    "suggestion": "Conjunto de lencería",
+    "offers": []
+  },
+  "corselet": {
+    "type": "product",
+    "suggestion": "Corselet",
+    "offers": []
+  },
+  "basque": {
+    "type": "product",
+    "suggestion": "Basque",
+    "offers": []
+  },
+  "corset-underbust": {
+    "type": "product",
+    "suggestion": "Corset bajo busto",
+    "offers": []
+  },
+  "corset-overbust": {
+    "type": "product",
+    "suggestion": "Corset sobre busto",
+    "offers": []
+  },
+  "liga": {
+    "type": "product",
+    "suggestion": "Liga de pierna",
+    "offers": []
+  },
+  "cinturon-liguero": {
+    "type": "product",
+    "suggestion": "Cinturón liguero",
+    "offers": []
+  },
+  "combinacion-entera": {
+    "type": "product",
+    "suggestion": "Combinación entera",
+    "offers": []
+  },
+  "combinacion-media": {
+    "type": "product",
+    "suggestion": "Media combinación",
+    "offers": []
+  },
+  "camiseta-interior": {
+    "type": "product",
+    "suggestion": "Camiseta interior",
+    "offers": []
+  },
+  "body-de-encaje": {
+    "type": "product",
+    "suggestion": "Body de encaje",
+    "offers": []
+  },
+  "cubrepezones": {
+    "type": "product",
+    "suggestion": "Cubrepezones",
+    "offers": []
+  },
+  "extensor-de-corpino": {
+    "type": "product",
+    "suggestion": "Extensor de corpiño",
+    "offers": []
+  },
+  "breteles-removibles": {
+    "type": "product",
+    "suggestion": "Breteles removibles",
+    "offers": []
+  },
+  "pijama": {
+    "type": "product",
+    "suggestion": "Pijama",
+    "offers": []
+  },
+  "pijama-short": {
+    "type": "product",
+    "suggestion": "Pijama corto",
+    "offers": []
+  },
+  "pijama-largo": {
+    "type": "product",
+    "suggestion": "Pijama largo",
+    "offers": []
+  },
+  "pijama-saten": {
+    "type": "product",
+    "suggestion": "Pijama de satén",
+    "offers": []
+  },
+  "babydoll": {
+    "type": "product",
+    "suggestion": "Babydoll",
+    "offers": []
+  },
+  "bata": {
+    "type": "product",
+    "suggestion": "Bata",
+    "offers": []
+  },
+  "bata-kimono": {
+    "type": "product",
+    "suggestion": "Bata estilo kimono",
+    "offers": []
+  },
+  "camison-largo": {
+    "type": "product",
+    "suggestion": "Camisón largo",
+    "offers": []
+  },
+  "camison-saten": {
+    "type": "product",
+    "suggestion": "Camisón de satén",
+    "offers": []
+  },
+  "medias-autoadherentes": {
+    "type": "product",
+    "suggestion": "Medias autoadherentes",
+    "offers": []
+  },
+  "medias-para-liguero": {
+    "type": "product",
+    "suggestion": "Medias para liguero",
+    "offers": []
+  },
+  "medias-fully-fashioned": {
+    "type": "product",
+    "suggestion": "Medias fully fashioned",
+    "offers": []
+  },
+  "medias-seamless": {
+    "type": "product",
+    "suggestion": "Medias sin costura",
+    "offers": []
+  },
+  "medias-microred": {
+    "type": "product",
+    "suggestion": "Medias de microred",
+    "offers": []
+  },
+  "medias-macrored": {
+    "type": "product",
+    "suggestion": "Medias de red amplia",
+    "offers": []
+  },
+  "medias-lunares": {
+    "type": "product",
+    "suggestion": "Medias con lunares",
+    "offers": []
+  },
+  "medias-estampadas": {
+    "type": "product",
+    "suggestion": "Medias estampadas",
+    "offers": []
+  },
+  "medias-acanaladas": {
+    "type": "product",
+    "suggestion": "Medias acanaladas",
+    "offers": []
+  },
+  "medias-caladas": {
+    "type": "product",
+    "suggestion": "Medias caladas",
+    "offers": []
+  },
+  "medias-brillantes": {
+    "type": "product",
+    "suggestion": "Medias brillantes",
+    "offers": []
+  },
+  "medias-mate": {
+    "type": "product",
+    "suggestion": "Medias mate",
+    "offers": []
+  },
+  "medias-color": {
+    "type": "product",
+    "suggestion": "Medias de color",
+    "offers": []
+  },
+  "medias-de-compresion": {
+    "type": "product",
+    "suggestion": "Medias de compresión",
+    "offers": []
+  },
+  "medias-invisibles": {
+    "type": "product",
+    "suggestion": "Medias invisibles",
+    "offers": []
+  },
+  "medias-media-cana": {
+    "type": "product",
+    "suggestion": "Medias de media caña",
+    "offers": []
+  },
+  "medias-sobre-rodilla": {
+    "type": "product",
+    "suggestion": "Medias sobre la rodilla",
+    "offers": []
+  },
+  "medias-punta-reforzada": {
+    "type": "product",
+    "suggestion": "Medias con punta reforzada",
+    "offers": []
+  },
+  "medias-punta-abierta": {
+    "type": "product",
+    "suggestion": "Medias de punta abierta",
+    "offers": []
+  },
+  "medias-punta-invisible": {
+    "type": "product",
+    "suggestion": "Medias de punta invisible",
+    "offers": []
+  },
+  "pantimedias-sin-pie": {
+    "type": "product",
+    "suggestion": "Pantimedias sin pie",
+    "offers": []
+  },
+  "pantimedias-control-top": {
+    "type": "product",
+    "suggestion": "Pantimedias control top",
+    "offers": []
+  },
+  "pantimedias-tiro-bajo": {
+    "type": "product",
+    "suggestion": "Pantimedias de tiro bajo",
+    "offers": []
+  },
+  "calentadores": {
+    "type": "product",
+    "suggestion": "Calentadores de piernas",
+    "offers": []
+  },
+  "cartera-hobo": {
+    "type": "product",
+    "suggestion": "Cartera hobo",
+    "offers": []
+  },
+  "cartera-satchel": {
+    "type": "product",
+    "suggestion": "Cartera satchel",
+    "offers": []
+  },
+  "cartera-bucket": {
+    "type": "product",
+    "suggestion": "Cartera tipo balde",
+    "offers": []
+  },
+  "cartera-de-hombro": {
+    "type": "product",
+    "suggestion": "Cartera de hombro",
+    "offers": []
+  },
+  "cartera-de-mano": {
+    "type": "product",
+    "suggestion": "Cartera de mano",
+    "offers": []
+  },
+  "cartera-sobre": {
+    "type": "product",
+    "suggestion": "Cartera tipo sobre",
+    "offers": []
+  },
+  "minibag": {
+    "type": "product",
+    "suggestion": "Minibag",
+    "offers": []
+  },
+  "bolso-shopper": {
+    "type": "product",
+    "suggestion": "Bolso shopper",
+    "offers": []
+  },
+  "bolso-weekender": {
+    "type": "product",
+    "suggestion": "Bolso weekender",
+    "offers": []
+  },
+  "rinonera": {
+    "type": "product",
+    "suggestion": "Riñonera",
+    "offers": []
+  },
+  "mochila": {
+    "type": "product",
+    "suggestion": "Mochila",
+    "offers": []
+  },
+  "monedero": {
+    "type": "product",
+    "suggestion": "Monedero",
+    "offers": []
+  },
+  "billetera": {
+    "type": "product",
+    "suggestion": "Billetera",
+    "offers": []
+  },
+  "bufanda": {
+    "type": "product",
+    "suggestion": "Bufanda",
+    "offers": []
+  },
+  "pashmina": {
+    "type": "product",
+    "suggestion": "Pashmina",
+    "offers": []
+  },
+  "chal": {
+    "type": "product",
+    "suggestion": "Chal",
+    "offers": []
+  },
+  "estola": {
+    "type": "product",
+    "suggestion": "Estola",
+    "offers": []
+  },
+  "fular": {
+    "type": "product",
+    "suggestion": "Fular",
+    "offers": []
+  },
+  "panuelo-cuello": {
+    "type": "product",
+    "suggestion": "Pañuelo de cuello",
+    "offers": []
+  },
+  "cinturon-fino": {
+    "type": "product",
+    "suggestion": "Cinturón fino",
+    "offers": []
+  },
+  "cinturon-ancho": {
+    "type": "product",
+    "suggestion": "Cinturón ancho",
+    "offers": []
+  },
+  "cinturon-cadena": {
+    "type": "product",
+    "suggestion": "Cinturón de cadena",
+    "offers": []
+  },
+  "cinturon-fajin": {
+    "type": "product",
+    "suggestion": "Fajín",
+    "offers": []
+  },
+  "guantes-largos": {
+    "type": "product",
+    "suggestion": "Guantes largos",
+    "offers": []
+  },
+  "guantes-sin-dedos": {
+    "type": "product",
+    "suggestion": "Guantes sin dedos",
+    "offers": []
+  },
+  "sombrero-fedora": {
+    "type": "product",
+    "suggestion": "Sombrero fedora",
+    "offers": []
+  },
+  "sombrero-bucket": {
+    "type": "product",
+    "suggestion": "Sombrero piluso",
+    "offers": []
+  },
+  "boina": {
+    "type": "product",
+    "suggestion": "Boina",
+    "offers": []
+  },
+  "sombrero-cloche": {
+    "type": "product",
+    "suggestion": "Sombrero cloche",
+    "offers": []
+  },
+  "sombrero-ala-ancha": {
+    "type": "product",
+    "suggestion": "Sombrero de ala ancha",
+    "offers": []
+  },
+  "tocados": {
+    "type": "product",
+    "suggestion": "Tocado",
+    "offers": []
+  },
+  "scrunchie": {
+    "type": "product",
+    "suggestion": "Scrunchie",
+    "offers": []
+  },
+  "hebilla-de-pelo": {
+    "type": "product",
+    "suggestion": "Hebilla de pelo",
+    "offers": []
+  },
+  "pinza-de-pelo": {
+    "type": "product",
+    "suggestion": "Pinza de pelo",
+    "offers": []
+  },
+  "horquilla": {
+    "type": "product",
+    "suggestion": "Horquilla",
+    "offers": []
+  },
+  "peineta": {
+    "type": "product",
+    "suggestion": "Peineta",
+    "offers": []
+  },
+  "vincha-turbante": {
+    "type": "product",
+    "suggestion": "Vincha estilo turbante",
+    "offers": []
+  },
+  "aros-argolla": {
+    "type": "product",
+    "suggestion": "Aros argolla",
+    "offers": []
+  },
+  "aros-boton": {
+    "type": "product",
+    "suggestion": "Aros botón",
+    "offers": []
+  },
+  "aros-colgantes": {
+    "type": "product",
+    "suggestion": "Aros colgantes",
+    "offers": []
+  },
+  "aros-clip": {
+    "type": "product",
+    "suggestion": "Aros de clip",
+    "offers": []
+  },
+  "ear-cuff": {
+    "type": "product",
+    "suggestion": "Ear cuff",
+    "offers": []
+  },
+  "collar-cadena": {
+    "type": "product",
+    "suggestion": "Collar de cadena",
+    "offers": []
+  },
+  "collar-dije": {
+    "type": "product",
+    "suggestion": "Collar con dije",
+    "offers": []
+  },
+  "collar-perlas": {
+    "type": "product",
+    "suggestion": "Collar de perlas",
+    "offers": []
+  },
+  "pulsera-rigida": {
+    "type": "product",
+    "suggestion": "Pulsera rígida",
+    "offers": []
+  },
+  "brazalete": {
+    "type": "product",
+    "suggestion": "Brazalete",
+    "offers": []
+  },
+  "anillo-sello": {
+    "type": "product",
+    "suggestion": "Anillo sello",
+    "offers": []
+  },
+  "reloj-pulsera": {
+    "type": "product",
+    "suggestion": "Reloj de pulsera",
+    "offers": []
+  },
+  "anteojos-de-sol": {
+    "type": "product",
+    "suggestion": "Anteojos de sol",
+    "offers": []
+  },
+  "anteojos-cat-eye": {
+    "type": "product",
+    "suggestion": "Anteojos cat eye",
+    "offers": []
+  },
+  "abanico": {
+    "type": "product",
+    "suggestion": "Abanico",
+    "offers": []
+  },
+  "paraguas": {
+    "type": "product",
+    "suggestion": "Paraguas",
+    "offers": []
+  },
+  "sombrilla": {
+    "type": "product",
+    "suggestion": "Sombrilla",
+    "offers": []
+  },
+  "falda-de-saten": {
+    "type": "product",
+    "suggestion": "Falda de satén",
+    "offers": []
+  },
+  "falda-lencera": {
+    "type": "product",
+    "suggestion": "Falda lencera",
+    "offers": []
+  },
+  "falda-tableada": {
+    "type": "product",
+    "suggestion": "Falda tableada",
+    "offers": []
+  },
+  "falda-acordeon": {
+    "type": "product",
+    "suggestion": "Falda plisada acordeón",
+    "offers": []
+  },
+  "falda-godet": {
+    "type": "product",
+    "suggestion": "Falda con godets",
+    "offers": []
+  },
+  "falda-sirena": {
+    "type": "product",
+    "suggestion": "Falda sirena",
+    "offers": []
+  },
+  "falda-globo": {
+    "type": "product",
+    "suggestion": "Falda globo",
+    "offers": []
+  },
+  "falda-pareo": {
+    "type": "product",
+    "suggestion": "Falda pareo",
+    "offers": []
+  },
+  "falda-shorts": {
+    "type": "product",
+    "suggestion": "Falda short",
+    "offers": []
+  },
+  "falda-con-volados": {
+    "type": "product",
+    "suggestion": "Falda con volados",
+    "offers": []
+  },
+  "falda-de-panas": {
+    "type": "product",
+    "suggestion": "Falda de pana",
+    "offers": []
+  },
+  "vestido-fit-and-flare": {
+    "type": "product",
+    "suggestion": "Vestido fit and flare",
+    "offers": []
+  },
+  "vestido-camiseta": {
+    "type": "product",
+    "suggestion": "Vestido camiseta",
+    "offers": []
+  },
+  "vestido-polo": {
+    "type": "product",
+    "suggestion": "Vestido polo",
+    "offers": []
+  },
+  "vestido-sweater": {
+    "type": "product",
+    "suggestion": "Vestido de punto",
+    "offers": []
+  },
+  "vestido-halter": {
+    "type": "product",
+    "suggestion": "Vestido halter",
+    "offers": []
+  },
+  "vestido-un-hombro": {
+    "type": "product",
+    "suggestion": "Vestido de un hombro",
+    "offers": []
+  },
+  "vestido-hombros-caidos": {
+    "type": "product",
+    "suggestion": "Vestido de hombros caídos",
+    "offers": []
+  },
+  "vestido-baby-doll": {
+    "type": "product",
+    "suggestion": "Vestido babydoll",
+    "offers": []
+  },
+  "vestido-trapecio": {
+    "type": "product",
+    "suggestion": "Vestido trapecio",
+    "offers": []
+  },
+  "vestido-shift": {
+    "type": "product",
+    "suggestion": "Vestido recto shift",
+    "offers": []
+  },
+  "vestido-peplum": {
+    "type": "product",
+    "suggestion": "Vestido peplum",
+    "offers": []
+  },
+  "vestido-cut-out": {
+    "type": "product",
+    "suggestion": "Vestido cut out",
+    "offers": []
+  },
+  "vestido-falda-globo": {
+    "type": "product",
+    "suggestion": "Vestido de falda globo",
+    "offers": []
+  },
+  "vestido-tutu": {
+    "type": "product",
+    "suggestion": "Vestido con tutú",
+    "offers": []
+  },
+  "top-bandeau": {
+    "type": "product",
+    "suggestion": "Top bandeau",
+    "offers": []
+  },
+  "top-peplum": {
+    "type": "product",
+    "suggestion": "Top peplum",
+    "offers": []
+  },
+  "top-un-hombro": {
+    "type": "product",
+    "suggestion": "Top de un hombro",
+    "offers": []
+  },
+  "top-bardot": {
+    "type": "product",
+    "suggestion": "Top Bardot",
+    "offers": []
+  },
+  "top-lencero": {
+    "type": "product",
+    "suggestion": "Top lencero",
+    "offers": []
+  },
+  "top-cruzado": {
+    "type": "product",
+    "suggestion": "Top cruzado",
+    "offers": []
+  },
+  "top-corset": {
+    "type": "product",
+    "suggestion": "Top estilo corset",
+    "offers": []
+  },
+  "top-racerback": {
+    "type": "product",
+    "suggestion": "Top espalda deportiva",
+    "offers": []
+  },
+  "top-tirantes-finos": {
+    "type": "product",
+    "suggestion": "Top de tirantes finos",
+    "offers": []
+  },
+  "top-tejido": {
+    "type": "product",
+    "suggestion": "Top tejido",
+    "offers": []
+  },
+  "top-asimetrico": {
+    "type": "product",
+    "suggestion": "Top asimétrico",
+    "offers": []
+  },
+  "blusa-lazo": {
+    "type": "product",
+    "suggestion": "Blusa con lazo",
+    "offers": []
+  },
+  "blusa-manga-globo": {
+    "type": "product",
+    "suggestion": "Blusa de manga globo",
+    "offers": []
+  },
+  "blusa-campesina": {
+    "type": "product",
+    "suggestion": "Blusa campesina",
+    "offers": []
+  },
+  "blusa-transparente": {
+    "type": "product",
+    "suggestion": "Blusa transparente",
+    "offers": []
+  },
+  "camisa-oversize": {
+    "type": "product",
+    "suggestion": "Camisa oversize",
+    "offers": []
+  },
+  "camisa-de-denim": {
+    "type": "product",
+    "suggestion": "Camisa de denim",
+    "offers": []
+  },
+  "chaleco": {
+    "type": "product",
+    "suggestion": "Chaleco",
+    "offers": []
+  },
+  "chaleco-sastrero": {
+    "type": "product",
+    "suggestion": "Chaleco sastrero",
+    "offers": []
+  },
+  "sweater": {
+    "type": "product",
+    "suggestion": "Suéter",
+    "offers": []
+  },
+  "sweater-cuello-alto": {
+    "type": "product",
+    "suggestion": "Suéter de cuello alto",
+    "offers": []
+  },
+  "sweater-cuello-v": {
+    "type": "product",
+    "suggestion": "Suéter de escote V",
+    "offers": []
+  },
+  "sweater-cropped": {
+    "type": "product",
+    "suggestion": "Suéter corto",
+    "offers": []
+  },
+  "buzo": {
+    "type": "product",
+    "suggestion": "Buzo",
+    "offers": []
+  },
+  "buzo-con-capucha": {
+    "type": "product",
+    "suggestion": "Buzo con capucha",
+    "offers": []
+  },
+  "kimono-de-vestir": {
+    "type": "product",
+    "suggestion": "Kimono de vestir",
+    "offers": []
+  },
+  "pantalon-recto": {
+    "type": "product",
+    "suggestion": "Pantalón recto",
+    "offers": []
+  },
+  "pantalon-cigarette": {
+    "type": "product",
+    "suggestion": "Pantalón cigarette",
+    "offers": []
+  },
+  "pantalon-tapered": {
+    "type": "product",
+    "suggestion": "Pantalón tapered",
+    "offers": []
+  },
+  "pantalon-barrel": {
+    "type": "product",
+    "suggestion": "Pantalón barrel",
+    "offers": []
+  },
+  "pantalon-paperbag": {
+    "type": "product",
+    "suggestion": "Pantalón paperbag",
+    "offers": []
+  },
+  "pantalon-sastrero": {
+    "type": "product",
+    "suggestion": "Pantalón sastrero",
+    "offers": []
+  },
+  "pantalon-pinzas": {
+    "type": "product",
+    "suggestion": "Pantalón con pinzas",
+    "offers": []
+  },
+  "pantalon-capri": {
+    "type": "product",
+    "suggestion": "Pantalón capri",
+    "offers": []
+  },
+  "pantalon-jogger": {
+    "type": "product",
+    "suggestion": "Pantalón jogger",
+    "offers": []
+  },
+  "pantalon-bootcut": {
+    "type": "product",
+    "suggestion": "Pantalón bootcut",
+    "offers": []
+  },
+  "pantalon-de-lino": {
+    "type": "product",
+    "suggestion": "Pantalón de lino",
+    "offers": []
+  },
+  "jean-recto": {
+    "type": "product",
+    "suggestion": "Jean recto",
+    "offers": []
+  },
+  "jean-boyfriend": {
+    "type": "product",
+    "suggestion": "Jean boyfriend",
+    "offers": []
+  },
+  "jean-flare": {
+    "type": "product",
+    "suggestion": "Jean flare",
+    "offers": []
+  },
+  "jean-wide-leg": {
+    "type": "product",
+    "suggestion": "Jean wide leg",
+    "offers": []
+  },
+  "jean-tiro-alto": {
+    "type": "product",
+    "suggestion": "Jean de tiro alto",
+    "offers": []
+  },
+  "bermuda": {
+    "type": "product",
+    "suggestion": "Bermuda",
+    "offers": []
+  },
+  "short-sastrero": {
+    "type": "product",
+    "suggestion": "Short sastrero",
+    "offers": []
+  },
+  "short-de-denim": {
+    "type": "product",
+    "suggestion": "Short de denim",
+    "offers": []
+  },
+  "enterito-corto": {
+    "type": "product",
+    "suggestion": "Enterito corto",
+    "offers": []
+  },
+  "jardinero": {
+    "type": "product",
+    "suggestion": "Jardinero",
+    "offers": []
+  },
+  "calzas-estampadas": {
+    "type": "product",
+    "suggestion": "Calzas estampadas",
+    "offers": []
+  },
+  "calzas-acampanadas": {
+    "type": "product",
+    "suggestion": "Calzas acampanadas",
+    "offers": []
+  },
+  "campera-bomber": {
+    "type": "product",
+    "suggestion": "Campera bomber",
+    "offers": []
+  },
+  "campera-biker": {
+    "type": "product",
+    "suggestion": "Campera biker",
+    "offers": []
+  },
+  "campera-de-denim": {
+    "type": "product",
+    "suggestion": "Campera de denim",
+    "offers": []
+  },
+  "campera-puffer": {
+    "type": "product",
+    "suggestion": "Campera inflada",
+    "offers": []
+  },
+  "parka": {
+    "type": "product",
+    "suggestion": "Parka",
+    "offers": []
+  },
+  "tapado-cruzado": {
+    "type": "product",
+    "suggestion": "Tapado cruzado",
+    "offers": []
+  },
+  "tapado-doble-botonadura": {
+    "type": "product",
+    "suggestion": "Tapado de doble botonadura",
+    "offers": []
+  },
+  "tapado-peacoat": {
+    "type": "product",
+    "suggestion": "Tapado peacoat",
+    "offers": []
+  },
+  "capa": {
+    "type": "product",
+    "suggestion": "Capa",
+    "offers": []
+  },
+  "chaleco-acolchado": {
+    "type": "product",
+    "suggestion": "Chaleco acolchado",
+    "offers": []
+  },
+  "blazer-oversize": {
+    "type": "product",
+    "suggestion": "Blazer oversize",
+    "offers": []
+  },
+  "blazer-corto": {
+    "type": "product",
+    "suggestion": "Blazer corto",
+    "offers": []
+  },
+  "cardigan-largo": {
+    "type": "product",
+    "suggestion": "Cárdigan largo",
+    "offers": []
+  },
+  "bota-chelsea": {
+    "type": "product",
+    "suggestion": "Bota Chelsea",
+    "offers": []
+  },
+  "bota-combate": {
+    "type": "product",
+    "suggestion": "Bota de combate",
+    "offers": []
+  },
+  "bota-sobre-rodilla": {
+    "type": "product",
+    "suggestion": "Bota sobre la rodilla",
+    "offers": []
+  },
+  "bota-de-montar": {
+    "type": "product",
+    "suggestion": "Bota de montar",
+    "offers": []
+  },
+  "botin-sock": {
+    "type": "product",
+    "suggestion": "Botín calcetín",
+    "offers": []
+  },
+  "sandalia-gladiadora": {
+    "type": "product",
+    "suggestion": "Sandalia gladiadora",
+    "offers": []
+  },
+  "sandalia-t-bar": {
+    "type": "product",
+    "suggestion": "Sandalia T-bar",
+    "offers": []
+  },
+  "sandalia-dedos": {
+    "type": "product",
+    "suggestion": "Sandalia de dedo",
+    "offers": []
+  },
+  "sandalia-plataforma": {
+    "type": "product",
+    "suggestion": "Sandalia de plataforma",
+    "offers": []
+  },
+  "sandalia-slide": {
+    "type": "product",
+    "suggestion": "Sandalia slide",
+    "offers": []
+  },
+  "zapato-oxford": {
+    "type": "product",
+    "suggestion": "Zapato Oxford",
+    "offers": []
+  },
+  "zapato-derby": {
+    "type": "product",
+    "suggestion": "Zapato Derby",
+    "offers": []
+  },
+  "zapato-monk": {
+    "type": "product",
+    "suggestion": "Zapato monk",
+    "offers": []
+  },
+  "zapatilla-plataforma": {
+    "type": "product",
+    "suggestion": "Zapatilla de plataforma",
+    "offers": []
+  },
+  "zueco": {
+    "type": "product",
+    "suggestion": "Zueco",
+    "offers": []
+  },
+  "zapato-dorsay": {
+    "type": "product",
+    "suggestion": "Zapato d'Orsay",
+    "offers": []
+  },
+  "taco-carrete": {
+    "type": "product",
+    "suggestion": "Taco carrete",
+    "offers": []
+  },
+  "taco-geometrico": {
+    "type": "product",
+    "suggestion": "Taco geométrico",
+    "offers": []
+  },
+  "traje-de-bano": {
+    "type": "product",
+    "suggestion": "Traje de baño",
+    "offers": []
+  },
+  "malla-entera": {
+    "type": "product",
+    "suggestion": "Malla entera",
+    "offers": []
+  },
+  "bikini": {
+    "type": "product",
+    "suggestion": "Bikini",
+    "offers": []
+  },
+  "tankini": {
+    "type": "product",
+    "suggestion": "Tankini",
+    "offers": []
+  },
+  "trikini": {
+    "type": "product",
+    "suggestion": "Trikini",
+    "offers": []
+  },
+  "bikini-triangular": {
+    "type": "product",
+    "suggestion": "Bikini triangular",
+    "offers": []
+  },
+  "bikini-bandeau": {
+    "type": "product",
+    "suggestion": "Bikini bandeau",
+    "offers": []
+  },
+  "bikini-tiro-alto": {
+    "type": "product",
+    "suggestion": "Bikini de tiro alto",
+    "offers": []
+  },
+  "pareo": {
+    "type": "product",
+    "suggestion": "Pareo",
+    "offers": []
+  },
+  "salida-de-bano": {
+    "type": "product",
+    "suggestion": "Salida de baño",
+    "offers": []
+  },
+  "vestido-de-playa": {
+    "type": "product",
+    "suggestion": "Vestido de playa",
+    "offers": []
+  },
+  "escote-en-v": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "escote-cuadrado": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "escote-corazon": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "escote-bote": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "escote-redondo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "escote-ilusion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cuello-alto": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cuello-mao": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cuello-peter-pan": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cuello-solapa": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-globo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-campana": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-obispo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-raglan": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-murcielago": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-tres-cuartos": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "manga-casquillo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "peplum": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "godet": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "pinza-de-costura": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "fruncido": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "drapeado": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "forro": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "entretela": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "abertura": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cierre-invisible": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "tiro-alto": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "tiro-medio": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "tiro-bajo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "aro-de-corpino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "banda-de-corpino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "puente-de-corpino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "copa-preformada": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "copa-triangulo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "copa-rellena": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "broche-de-corpino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "ballena": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "refuerzo-intimo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "espalda-racerback": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "banda-de-media": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "banda-de-silicona": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "talon-reforzado": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "talon-cubano": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "talon-frances": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "costura-trasera": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "denier-bajo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "denier-alto": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "tul": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "organza": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "gasa": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "crepe": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "terciopelo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "pana": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "denim": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "lino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "viscosa": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "microfibra": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "modal": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "lyocell": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "punto": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "jacquard": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "broderie": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "guipur": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "charmeuse": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "mesh": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cuero-sintetico": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "neopreno": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "babydoll-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "kimono-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "bikini-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cat-eye-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
   }
 }

@@ -1,0 +1,401 @@
+[
+  {
+    "slug": "oficina-clasica",
+    "name": "Oficina clásica",
+    "category": "Trabajo",
+    "season": "Todo el año",
+    "palette": "Neutros con un acento",
+    "description": "Una base de sastrería simple con accesorios discretos.",
+    "items": [
+      "blusa",
+      "blazer",
+      "pantalon-sastrero",
+      "mocasin",
+      "cartera-satchel",
+      "aros-boton"
+    ],
+    "tip": "Cambiá el mocasín por ballerinas si preferís una silueta más liviana."
+  },
+  {
+    "slug": "oficina-falda",
+    "name": "Oficina con pollera",
+    "category": "Trabajo",
+    "season": "Otoño / invierno",
+    "palette": "Gris, negro y crema",
+    "description": "Pollera estructurada y capas ligeras para un conjunto de oficina.",
+    "items": [
+      "falda-lapiz",
+      "blusa-lazo",
+      "cardigan",
+      "medias-opacas",
+      "kitten-heel",
+      "cartera-de-hombro"
+    ],
+    "tip": "Elegí la altura de taco y largo de pollera según comodidad."
+  },
+  {
+    "slug": "casual-jean",
+    "name": "Casual de día",
+    "category": "Casual",
+    "season": "Todo el año",
+    "palette": "Denim y blanco",
+    "description": "Prendas fáciles de combinar para una salida informal.",
+    "items": [
+      "jean-recto",
+      "camiseta",
+      "campera-de-denim",
+      "zapatilla",
+      "bandolera",
+      "aros-argolla"
+    ],
+    "tip": "Una camisa abierta puede reemplazar la campera en días cálidos."
+  },
+  {
+    "slug": "casual-cafeteria",
+    "name": "Café de tarde",
+    "category": "Casual",
+    "season": "Primavera / otoño",
+    "palette": "Crudo, rosa y marrón",
+    "description": "Texturas suaves, cintura definida y accesorios pequeños.",
+    "items": [
+      "falda-midi",
+      "sweater-cropped",
+      "ballerina",
+      "cartera-hobo",
+      "collar-dije"
+    ],
+    "tip": "Sumá medias transparentes si baja la temperatura."
+  },
+  {
+    "slug": "coquette",
+    "name": "Coquette suave",
+    "category": "Estética",
+    "season": "Primavera",
+    "palette": "Rosa empolvado y crema",
+    "description": "Lazos, pequeñas perlas y una silueta de vuelo.",
+    "items": [
+      "blusa-lazo",
+      "falda-evase",
+      "medias-transparentes",
+      "mercedita",
+      "mono",
+      "collar-perlas"
+    ],
+    "tip": "Un solo detalle de lazo puede ser suficiente."
+  },
+  {
+    "slug": "balletcore",
+    "name": "Balletcore urbano",
+    "category": "Estética",
+    "season": "Primavera / otoño",
+    "palette": "Rosa, gris y negro",
+    "description": "Inspiración de danza adaptada a prendas cotidianas.",
+    "items": [
+      "top-cruzado",
+      "falda-plisada",
+      "calentadores",
+      "ballerina",
+      "cardigan",
+      "scrunchie"
+    ],
+    "tip": "Usá calzas como alternativa a la pollera."
+  },
+  {
+    "slug": "preppy",
+    "name": "Preppy colegial adulto",
+    "category": "Estética",
+    "season": "Otoño / invierno",
+    "palette": "Azul marino, beige y bordó",
+    "description": "Sastrería relajada, punto y pliegues.",
+    "items": [
+      "camisa",
+      "sweater-cuello-v",
+      "falda-tableada",
+      "medias-media-cana",
+      "mocasin",
+      "cartera-satchel"
+    ],
+    "tip": "Mantené las capas con suficiente holgura para moverte."
+  },
+  {
+    "slug": "pin-up",
+    "name": "Pin-up retro",
+    "category": "Estética",
+    "season": "Primavera / verano",
+    "palette": "Rojo, negro y blanco",
+    "description": "Silueta marcada y guiños gráficos de inspiración vintage.",
+    "items": [
+      "vestido-fit-and-flare",
+      "cinturon-fino",
+      "peep-toe",
+      "cartera-de-mano",
+      "anteojos-cat-eye",
+      "lip-liner"
+    ],
+    "tip": "Un labial o pañuelo de color puede aportar el acento."
+  },
+  {
+    "slug": "cottagecore",
+    "name": "Cottagecore",
+    "category": "Estética",
+    "season": "Primavera / verano",
+    "palette": "Verde suave, crema y floral",
+    "description": "Tejidos livianos y accesorios de inspiración campestre.",
+    "items": [
+      "blusa-campesina",
+      "falda-midi",
+      "alpargata",
+      "sombrero-ala-ancha",
+      "cartera-bucket"
+    ],
+    "tip": "Elegí un estampado protagonista y acompañalo con tonos lisos."
+  },
+  {
+    "slug": "minimalista",
+    "name": "Minimalismo neutro",
+    "category": "Casual",
+    "season": "Todo el año",
+    "palette": "Negro, blanco y arena",
+    "description": "Pocas piezas, líneas limpias y accesorios simples.",
+    "items": [
+      "top-tirantes-finos",
+      "pantalon-wide-leg",
+      "blazer-oversize",
+      "mule",
+      "cartera-de-hombro",
+      "aros-boton"
+    ],
+    "tip": "El contraste de texturas aporta interés sin sumar colores."
+  },
+  {
+    "slug": "coctel",
+    "name": "Cóctel de noche",
+    "category": "Fiesta",
+    "season": "Todo el año",
+    "palette": "Negro y metalizado",
+    "description": "Vestido de fiesta con piezas pequeñas y un maquillaje definido.",
+    "items": [
+      "vestido-de-coctel",
+      "stiletto",
+      "clutch",
+      "aros-colgantes",
+      "medias-transparentes",
+      "cat-eye"
+    ],
+    "tip": "El calzado de taco bloque es una alternativa de estilo."
+  },
+  {
+    "slug": "gala",
+    "name": "Gala elegante",
+    "category": "Fiesta",
+    "season": "Todo el año",
+    "palette": "Azul profundo y plata",
+    "description": "Silueta larga y complementos de ocasión.",
+    "items": [
+      "vestido-de-gala",
+      "estola",
+      "sandalia-de-taco",
+      "cartera-sobre",
+      "aros-colgantes",
+      "updo"
+    ],
+    "tip": "Coordiná largo de vestido y altura de calzado antes de salir."
+  },
+  {
+    "slug": "noche-lencera",
+    "name": "Noche de satén",
+    "category": "Fiesta",
+    "season": "Primavera / verano",
+    "palette": "Champán y negro",
+    "description": "Prenda exterior de inspiración lencera equilibrada con un abrigo ligero.",
+    "items": [
+      "vestido-lencero",
+      "blazer",
+      "kitten-heel",
+      "minibag",
+      "collar-cadena",
+      "lip-tint"
+    ],
+    "tip": "Verificá opacidad y elegí ropa interior según el corte."
+  },
+  {
+    "slug": "invierno",
+    "name": "Invierno en capas",
+    "category": "Casual",
+    "season": "Invierno",
+    "palette": "Bordó, gris y negro",
+    "description": "Texturas abrigadas y capas que permiten ajustar la temperatura.",
+    "items": [
+      "sweater-cuello-alto",
+      "falda-midi",
+      "medias-termicas",
+      "bota-alta",
+      "tapado",
+      "bufanda"
+    ],
+    "tip": "También funciona con pantalón recto."
+  },
+  {
+    "slug": "verano-lino",
+    "name": "Verano de lino",
+    "category": "Casual",
+    "season": "Verano",
+    "palette": "Arena y blanco",
+    "description": "Silueta amplia y tejidos de apariencia liviana.",
+    "items": [
+      "pantalon-de-lino",
+      "musculosa",
+      "sandalia-slide",
+      "bolso-shopper",
+      "sombrero-ala-ancha",
+      "anteojos-de-sol"
+    ],
+    "tip": "Buscá tejidos adecuados a la temperatura y al nivel de opacidad deseado."
+  },
+  {
+    "slug": "playa",
+    "name": "Día de playa",
+    "category": "Playa",
+    "season": "Verano",
+    "palette": "Turquesa y blanco",
+    "description": "Conjunto de playa con capa exterior, accesorios y calzado práctico.",
+    "items": [
+      "malla-entera",
+      "pareo",
+      "sandalia-dedos",
+      "bolso-shopper",
+      "sombrero-ala-ancha",
+      "anteojos-de-sol"
+    ],
+    "tip": "Sumá protección solar apropiada, independientemente de la ropa."
+  },
+  {
+    "slug": "deportivo",
+    "name": "Deportivo relajado",
+    "category": "Casual",
+    "season": "Todo el año",
+    "palette": "Gris, negro y azul",
+    "description": "Prendas cómodas de inspiración deportiva para un día informal.",
+    "items": [
+      "corpino-deportivo",
+      "calzas",
+      "buzo-con-capucha",
+      "zapatilla",
+      "medias-tobilleras",
+      "rinonera"
+    ],
+    "tip": "Elegí el soporte del corpiño según la actividad, no solo la apariencia."
+  },
+  {
+    "slug": "descanso",
+    "name": "Descanso coordinado",
+    "category": "Descanso",
+    "season": "Todo el año",
+    "palette": "Crema y lavanda",
+    "description": "Piezas suaves para estar en casa.",
+    "items": [
+      "pijama-largo",
+      "bata",
+      "medias-invisibles",
+      "scrunchie"
+    ],
+    "tip": "Adaptá tejidos y largos a la temperatura y preferencias."
+  },
+  {
+    "slug": "lenceria-clasica",
+    "name": "Lencería coordinada clásica",
+    "category": "Lencería",
+    "season": "Todo el año",
+    "palette": "Negro o neutros",
+    "description": "Un conjunto interior coordinado, sin obligación de llevar todas las piezas.",
+    "items": [
+      "corpino-balconette",
+      "bombacha-clasica",
+      "liguero",
+      "medias-para-liguero",
+      "combinacion-entera"
+    ],
+    "tip": "Comprobá que medias y liguero sean compatibles y que ninguna pieza apriete."
+  },
+  {
+    "slug": "lenceria-invisible",
+    "name": "Base discreta bajo prendas",
+    "category": "Lencería",
+    "season": "Todo el año",
+    "palette": "Tono cercano a la piel",
+    "description": "Piezas interiores elegidas para minimizar marcas visibles.",
+    "items": [
+      "corpino-sin-costuras",
+      "bombacha-sin-costuras",
+      "combinacion-media",
+      "medias-punta-invisible"
+    ],
+    "tip": "La selección depende del escote, tejido y corte de la prenda exterior."
+  },
+  {
+    "slug": "lenceria-strapless",
+    "name": "Base para escote strapless",
+    "category": "Lencería",
+    "season": "Todo el año",
+    "palette": "Neutros",
+    "description": "Alternativas interiores para prendas que dejan hombros libres.",
+    "items": [
+      "corpino-sin-breteles",
+      "bombacha-hipster",
+      "pantimedias",
+      "vestido-strapless"
+    ],
+    "tip": "La banda debe sostener cómodamente; no es necesario usar compresión."
+  },
+  {
+    "slug": "rock-chic",
+    "name": "Rock chic",
+    "category": "Estética",
+    "season": "Otoño / primavera",
+    "palette": "Negro y plata",
+    "description": "Cuero sintético o denim con accesorios metálicos y botas.",
+    "items": [
+      "campera-biker",
+      "camiseta",
+      "falda-de-denim",
+      "medias-de-red",
+      "bota-combate",
+      "ear-cuff"
+    ],
+    "tip": "Podés reemplazar la pollera por jean recto."
+  },
+  {
+    "slug": "romantico-noche",
+    "name": "Romántico contemporáneo",
+    "category": "Fiesta",
+    "season": "Primavera / otoño",
+    "palette": "Malva y crema",
+    "description": "Volados suaves, texturas fluidas y un accesorio protagonista.",
+    "items": [
+      "vestido-hombros-caidos",
+      "slingback",
+      "clutch",
+      "collar-dije",
+      "blush",
+      "updo"
+    ],
+    "tip": "Evitá competir con el escote: elegí collar o aros como foco."
+  },
+  {
+    "slug": "viaje-urbano",
+    "name": "Viaje urbano",
+    "category": "Casual",
+    "season": "Todo el año",
+    "palette": "Azul, arena y gris",
+    "description": "Capas y complementos útiles para recorrer la ciudad.",
+    "items": [
+      "pantalon-jogger",
+      "camiseta",
+      "trench",
+      "zapatilla",
+      "mochila",
+      "bufanda"
+    ],
+    "tip": "Elegí calzado ya probado para caminatas largas."
+  }
+]

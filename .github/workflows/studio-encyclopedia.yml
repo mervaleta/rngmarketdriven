@@ -11,6 +11,9 @@ on:
       - 'cross/glosario/**'
       - 'cross/ropero/**'
       - 'cross/servicios/**'
+      - 'cross/recursos/looks/**'
+      - 'cross/includes/looks.json'
+      - 'cross/includes/portal.html'
       - 'cross/scripts/publish-encyclopedia.py'
       - '.github/workflows/studio-encyclopedia.yml'
 permissions:

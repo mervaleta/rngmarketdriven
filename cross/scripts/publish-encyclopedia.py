@@ -8,7 +8,7 @@ FILES=[
  "includes/glossary-images.php","includes/glossary-referrals.json","includes/glossary.json",
  "includes/glossary-images.json","includes/header.php","includes/encyclopedia.php",
  "assets/encyclopedia.css","assets/encyclopedia.js","glosario/image.php","glosario/index.php",
- "ropero/index.php","servicios/index.php",
+ "ropero/index.php","servicios/index.php","includes/looks.json","recursos/looks/index.php","includes/portal.html",
 ]
 def build():
     for rel in FILES:

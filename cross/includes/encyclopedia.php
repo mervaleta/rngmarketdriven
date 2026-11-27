@@ -13,7 +13,7 @@ function encCategory(array $r,string $mode): string{return $mode==='services'?($
 function encViews(string $active): string {
  $out='<nav class="enc-views" aria-label="Vistas del glosario">';
  foreach(['glossary'=>'Glosario completo','wardrobe'=>'Ropero','services'=>'Servicios'] as $key=>$label)$out.='<a href="'.encE(encUrl($key)).'"'.($key===$active?' aria-current="page"':'').'>'.encE($label).'</a>';
- return $out.'</nav>';
+ return $out.'<a href="'.encE(studioBase().'recursos/looks/').'">Looks completos</a></nav>';
 }
 function encCard(array $r,string $mode): string {
  $name=encName($r);$category=encCategory($r,$mode);$thumb='';$key=studioEncyclopediaImageKey($r['slug']);
@@ -43,7 +43,7 @@ $titles=['glossary'=>'Glosario cross','wardrobe'=>'Ropero','services'=>'Servicio
 $descriptions=['glossary'=>'Biblioteca común de prendas, accesorios, objetos, maquillaje, servicios y vocabulario de la comunidad.','wardrobe'=>'Explorá las prendas, el calzado y los accesorios del glosario, agrupados por familia.','services'=>'Explorá servicios y técnicas de uñas, depilación, peluquería, maquillaje, estilismo y confección. Todas las fichas pertenecen al glosario.'];
 $title=$item?encName($item):$titles[$mode];$description=$item?$item['definition']:$descriptions[$mode];
 header('Content-Type: text/html; charset=UTF-8');header('Cache-Control: private, no-store');header('X-Robots-Tag: noindex, nofollow, noarchive');header('Referrer-Policy: no-referrer');header('X-Content-Type-Options: nosniff');
-?><!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="description" content="<?=encE($description)?>"><title><?=encE($title)?> · Studio</title><link rel="stylesheet" href="<?=encE($base)?>assets/shared.css"><link rel="stylesheet" href="<?=encE($base)?>assets/encyclopedia.css?v=20261127-5"></head><body><?=$masthead?><main class="enc-main">
+?><!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="description" content="<?=encE($description)?>"><title><?=encE($title)?> · Studio</title><link rel="stylesheet" href="<?=encE($base)?>assets/shared.css"><link rel="stylesheet" href="<?=encE($base)?>assets/encyclopedia.css?v=20261127-6"></head><body><?=$masthead?><main class="enc-main">
 <?=encViews($mode)?>
 <?php if($slug!==''&&!$item):?><div class="enc-detail"><h1>Ficha no encontrada</h1><p>El término no está disponible.</p><a class="enc-btn" href="<?=encE(encUrl($mode))?>">Volver al catálogo</a></div>
 <?php elseif($item):
@@ -68,7 +68,7 @@ $related=array_values(array_filter($all,fn($r)=>$r['slug']!==$slug&&$r['category
 <?php if($explicit):?><section class="enc-sub"><h2>Fichas relacionadas</h2><?=encLinks(array_values($explicit))?></section><?php endif?>
 <?php if(!$isDisambiguation):?><?=encBuy($item,'glossary',$base)?><?php endif?>
 <?php if(!$isDisambiguation&&$related):?><section class="enc-sub"><h2>Más en <?=encE($item['category'])?></h2><?=encLinks(array_slice($related,0,14))?></section><?php endif?>
-<p class="enc-muted">Ficha editorial · Biblioteca común de Studio.</p></div>
+<?php if(!empty($item['sources'])):?><section class="enc-sub enc-sources"><h2>Fuentes de consulta</h2><?php foreach($item['sources'] as $source):if(!is_array($source)||!encOfferLink($source[1]??null))continue;?><p><a href="<?=encE($source[1])?>" target="_blank" rel="noopener noreferrer"><?=encE($source[0])?> ↗</a></p><?php endforeach?></section><?php endif?><p class="enc-muted">Ficha editorial · Biblioteca común de Studio.</p></div>
 <?php else:?><div class="studio-section-hero enc-glossary-hero"><div><div class="enc-eyebrow">Studio · Biblioteca</div><h1><?=encE($title)?></h1><p><?=encE($description)?></p><p><strong><?=count($data)?></strong> fichas · <?=count($categories)?> categorías</p></div><?=studioArt($mode==='wardrobe'?'guias':'recursos')?></div>
 <div class="enc-filter"><div><label for="enc-search">Buscar nombre, sinónimo o material</label><input id="enc-search" type="search" placeholder="<?=encE($mode==='services'?'Ej.: manicura, depilación, peluquería':'Ej.: pollera, nylon, ballerina')?>"></div><div><label for="enc-category">Categoría</label><select id="enc-category"><option value="">Todas las categorías</option><?php foreach($categories as $cat):?><option value="<?=encE($cat)?>"><?=encE($cat)?></option><?php endforeach?></select></div><?php if($mode==='wardrobe'):?><div><label for="enc-kind">Nivel</label><select id="enc-kind"><option value="">Todos</option><option>Familia</option><option>Subtipo</option><option>Modelo</option></select></div><?php endif?><div><label for="enc-sort">Ordenar</label><select id="enc-sort"><option value="az">A–Z</option><option value="za">Z–A</option><option value="category">Por categoría</option></select></div></div>
 <div class="enc-tools"><p id="enc-total" aria-live="polite"><?=count($data)?> fichas</p><button type="button" id="enc-clear">Limpiar filtros</button></div><div class="enc-grid" id="enc-grid"><?php foreach($data as $r)echo encCard($r,$mode);?></div><p id="enc-empty" hidden>No encontramos fichas para esos filtros.</p><?php endif?>

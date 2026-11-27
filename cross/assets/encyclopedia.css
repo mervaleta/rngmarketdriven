@@ -14,3 +14,5 @@
 
 /* Distinct meanings: compact cards above individual editorial and shopping data. */
 .enc-ambiguity{margin:16px 0;padding:12px;border:1px solid #ead0e4;border-radius:14px;background:#f9eef6}.enc-ambiguity h2{font-size:18px;margin:0 0 8px}.enc-ambiguity-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:10px}.enc-ambiguity-grid .enc-card-content{padding:12px}.enc-ambiguity-grid .enc-card h2{font-size:18px}.enc-ambiguity-grid .enc-card p{font-size:13px;line-height:1.45}.enc-ambiguity-grid .enc-cta{margin-top:8px}
+
+.look-pieces{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(225px,100%),1fr));gap:9px}.look-piece{display:flex;align-items:center;gap:10px;border:1px solid #efd5e4;border-radius:10px;background:#fffafd;padding:10px;text-decoration:none;min-width:0}.look-piece img{width:64px;height:64px;object-fit:contain;border-radius:6px;background:#fff}.look-piece span{min-width:0;overflow-wrap:anywhere}.look-piece small{display:block;font-size:11px;color:#806478;line-height:1.3}.look-piece:hover{border-color:#c782b0}.enc-sources p{font-size:13px}
