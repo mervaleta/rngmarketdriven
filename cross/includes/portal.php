@@ -15,7 +15,7 @@ $html=str_replace('<!--STUDIO_STYLE-->','<link rel="stylesheet" href="'.studioEs
 $html=str_replace('<!--STUDIO_INITIAL-->',json_encode($view,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 $html=str_replace('<!--STUDIO_BASE-->',json_encode($base,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 // The public demo ranking exposes only seeded bot aliases and scores, never member data.
-$demoRanks=[];
+$demoRanks=[];$officialRanks=[];
 try {
  $private=dirname(__DIR__).'/private';$configPath=$private.'/config.php';
  if(is_file($configPath)&&is_file($private.'/.htaccess')){
@@ -26,11 +26,12 @@ try {
     $pdo=new PDO('sqlite:'.$dbPath,null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_NUM]);
     $pdo->exec('PRAGMA query_only=ON');
     $demoRanks=$pdo->query("SELECT u.display_name,b.xp,1 FROM studio_demo_bots b JOIN studio_users u ON u.id=b.user_id WHERE u.active=1 AND u.visible=1 ORDER BY b.xp DESC LIMIT 30")->fetchAll();
-    if($memberMode){try{$st=$pdo->prepare("SELECT u.display_name,w.xp,0 FROM studio_game_wallet w JOIN studio_users u ON u.id=w.user_id WHERE u.active=1 AND u.visible=1 AND u.id<>? AND u.id NOT IN(SELECT user_id FROM studio_demo_bots) AND NOT EXISTS(SELECT 1 FROM studio_blocks b WHERE (b.blocker_id=? AND b.blocked_id=u.id) OR (b.blocked_id=? AND b.blocker_id=u.id)) ORDER BY w.xp DESC LIMIT 100");$st->execute([$member['id'],$member['id'],$member['id']]);$demoRanks=array_merge($demoRanks,$st->fetchAll());}catch(Throwable $e){} }
+    if($memberMode){try{$rs=$pdo->prepare("SELECT CASE WHEN u.id=? THEN 'Vos' ELSE u.display_name END,s.score FROM studio_quiz_scores s JOIN studio_users u ON u.id=s.user_id WHERE s.day=(SELECT MAX(day) FROM studio_quiz_final) AND u.active=1 AND (u.visible=1 OR u.id=?) AND NOT EXISTS(SELECT 1 FROM studio_blocks b WHERE (b.blocker_id=? AND b.blocked_id=u.id) OR (b.blocked_id=? AND b.blocker_id=u.id)) ORDER BY s.score DESC,u.id LIMIT 100");$rs->execute([$member['id'],$member['id'],$member['id'],$member['id']]);$officialRanks=$rs->fetchAll();}catch(Throwable $e){}try{$st=$pdo->prepare("SELECT u.display_name,w.xp,0 FROM studio_game_wallet w JOIN studio_users u ON u.id=w.user_id WHERE u.active=1 AND u.visible=1 AND u.id<>? AND u.id NOT IN(SELECT user_id FROM studio_demo_bots) AND NOT EXISTS(SELECT 1 FROM studio_blocks b WHERE (b.blocker_id=? AND b.blocked_id=u.id) OR (b.blocked_id=? AND b.blocker_id=u.id)) ORDER BY w.xp DESC LIMIT 100");$st->execute([$member['id'],$member['id'],$member['id']]);$demoRanks=array_merge($demoRanks,$st->fetchAll());}catch(Throwable $e){} }
    }
   }
  }
 }catch(Throwable $e){$demoRanks=[];}
+$html=str_replace('<!--STUDIO_OFFICIAL_RANKS-->',json_encode($officialRanks,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 $html=str_replace('<!--STUDIO_RANKS-->',json_encode($demoRanks,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 
 $wordBank=json_decode((string)file_get_contents(__DIR__.'/word-bank.json'),true);
