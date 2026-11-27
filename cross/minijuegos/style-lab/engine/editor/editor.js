@@ -220,6 +220,7 @@ function disposeEntry(entry) {
 async function syncWardrobe() {
   const revision = ++wardrobeRevision;
   wardrobePending = true;
+  $("status").textContent = "Ajustando vestuario…";
   const desired = ITEM_SLOTS.map(slot => {
     const id = slotId(slot);
     return [slot, paintOf(slot,id) ? null : (id ?? null)];
@@ -1426,6 +1427,7 @@ async function applyRecipe(next) {
   if (merged.outfit) { merged.top = null; merged.bottom = null; }
   else { merged.top ??= index.categories.top.items[0].id; merged.bottom ??= index.categories.bottom.items[0].id; }
   merged.body.age = Math.max(0.35, Number(merged.body.age)||0.5);
+  ++skinJob; clearTimeout(skinTimer);
   recipe = merged;
   syncControls();
   if (!(await syncWardrobe())) return false;
