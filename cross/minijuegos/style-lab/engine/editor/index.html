@@ -264,6 +264,22 @@
   <div class="row"><button class="plain" id="photo-take" hidden>Take now</button><button class="plain" id="photo-undo" hidden>Undo</button><button class="main" id="photo-done">Done</button></div>
 </div></div>
 <input type="file" id="photo-file" accept="image/*" multiple hidden>
-<script type="module" src="./editor.js?v=wardrobe-2"></script>
+<script type="module">
+const loading=document.getElementById("loading");
+const fail=(error)=>{
+  window.studioBootError=String(error?.message||error||"Error desconocido");
+  console.error("Style Lab startup",error);
+  if(!loading.isConnected)return;
+  loading.replaceChildren();
+  const box=document.createElement("div");
+  box.style.cssText="max-width:320px;text-align:center;padding:15px;background:#fff8fc;border:1px solid #e5cbdb;border-radius:12px;color:#43293d";
+  const p=document.createElement("p");p.textContent="No se pudo iniciar el probador 3D.";
+  const detail=document.createElement("p");detail.style.fontSize="12px";detail.textContent=window.studioBootError;
+  const retry=document.createElement("button");retry.className="main";retry.textContent="Reintentar";retry.onclick=()=>location.reload();
+  box.append(p,detail,retry);loading.append(box);
+};
+const deadline=setTimeout(()=>{if(!window.avatarEditor)fail(new Error("El modelo tardó demasiado en responder."))},45000);
+try{await import("./editor.js?v=boot-3");clearTimeout(deadline);}catch(error){clearTimeout(deadline);fail(error);}
+</script>
 </body>
 </html>
