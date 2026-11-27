@@ -32,3 +32,6 @@ Ley: https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/texto
 Guessle: https://github.com/jakerella/guessle
 Detoxify: https://github.com/unitaryai/detoxify
 Hostinger: https://www.hostinger.com/pricing
+
+## Actualización 0.9
+La beta incorpora código de medidas privadas, juego y álbum persistentes, chat y moderación, Memory Chic, glosario de fichas y Ropero (119 prendas y accesorios). Pendiente validar el despliegue y el circuito completo con usuarios ficticios, fortalecer moderación y publicar contenido revisado. No iniciar monetización todavía.
