@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "calzado",
+    "prompt": "Nombrá un tipo de calzado femenino.",
+    "answers": [
+      [
+        "stiletto",
+        "stilettos",
+        "taco aguja",
+        "tacón de aguja",
+        "estileto"
+      ],
+      [
+        "sandalia",
+        "sandalias"
+      ],
+      [
+        "bota",
+        "botas"
+      ],
+      [
+        "botín",
+        "botines"
+      ],
+      [
+        "ballerina",
+        "ballerinas",
+        "bailarina",
+        "bailarinas",
+        "chatita",
+        "chatitas"
+      ],
+      [
+        "mocasín",
+        "mocasines"
+      ],
+      [
+        "plataforma",
+        "plataformas"
+      ],
+      [
+        "mule",
+        "mules"
+      ],
+      [
+        "escarpín",
+        "escarpines",
+        "salones",
+        "zapato de salón"
+      ],
+      [
+        "alpargata",
+        "alpargatas"
+      ],
+      [
+        "zapatilla",
+        "zapatillas",
+        "tenis",
+        "sneakers"
+      ],
+      [
+        "cuña",
+        "cuñas",
+        "taco chino"
+      ],
+      [
+        "peep toe"
+      ],
+      [
+        "slingback"
+      ],
+      [
+        "mary jane",
+        "merceditas"
+      ],
+      [
+        "oxford"
+      ]
+    ]
+  },
+  {
+    "id": "prendas",
+    "prompt": "Nombrá una prenda de vestir.",
+    "answers": [
+      [
+        "vestido",
+        "vestidos"
+      ],
+      [
+        "falda",
+        "faldas",
+        "pollera",
+        "polleras"
+      ],
+      [
+        "blusa",
+        "blusas"
+      ],
+      [
+        "top",
+        "tops"
+      ],
+      [
+        "corset",
+        "corsé"
+      ],
+      [
+        "body",
+        "bodis",
+        "bodi"
+      ],
+      [
+        "túnica"
+      ],
+      [
+        "kimono"
+      ],
+      [
+        "palazzo"
+      ],
+      [
+        "cardigan",
+        "cárdigan"
+      ],
+      [
+        "blazer"
+      ],
+      [
+        "mono",
+        "enterito",
+        "jumpsuit"
+      ],
+      [
+        "short",
+        "shorts"
+      ],
+      [
+        "calza",
+        "calzas",
+        "legging",
+        "leggings"
+      ],
+      [
+        "pantalón",
+        "pantalones"
+      ],
+      [
+        "camisa"
+      ],
+      [
+        "remera",
+        "camiseta"
+      ],
+      [
+        "musculosa"
+      ],
+      [
+        "chaqueta"
+      ],
+      [
+        "abrigo"
+      ]
+    ]
+  },
+  {
+    "id": "maquillaje",
+    "prompt": "Nombrá un producto de maquillaje.",
+    "answers": [
+      [
+        "labial",
+        "lápiz labial",
+        "pintalabios",
+        "lipstick"
+      ],
+      [
+        "base",
+        "base de maquillaje",
+        "foundation"
+      ],
+      [
+        "corrector",
+        "concealer"
+      ],
+      [
+        "rubor",
+        "colorete",
+        "blush"
+      ],
+      [
+        "iluminador",
+        "highlighter"
+      ],
+      [
+        "sombra",
+        "sombra de ojos",
+        "sombras"
+      ],
+      [
+        "delineador",
+        "eyeliner"
+      ],
+      [
+        "máscara de pestañas",
+        "rímel",
+        "rimel"
+      ],
+      [
+        "polvo compacto"
+      ],
+      [
+        "polvo translúcido",
+        "polvo suelto"
+      ],
+      [
+        "primer",
+        "prebase"
+      ],
+      [
+        "bronzer",
+        "bronceador"
+      ],
+      [
+        "gloss",
+        "brillo labial"
+      ],
+      [
+        "fijador",
+        "setting spray"
+      ],
+      [
+        "tinta de labios",
+        "lip tint"
+      ],
+      [
+        "lápiz de cejas"
+      ],
+      [
+        "contorno",
+        "contouring"
+      ],
+      [
+        "bb cream",
+        "cc cream"
+      ]
+    ]
+  },
+  {
+    "id": "accesorios",
+    "prompt": "Nombrá un accesorio que pueda completar un outfit.",
+    "answers": [
+      [
+        "collar",
+        "collares"
+      ],
+      [
+        "pulsera",
+        "pulseras"
+      ],
+      [
+        "aros",
+        "aro",
+        "pendientes",
+        "aretes"
+      ],
+      [
+        "anillo",
+        "anillos"
+      ],
+      [
+        "pañuelo"
+      ],
+      [
+        "bolso",
+        "bolsos",
+        "cartera",
+        "carteras"
+      ],
+      [
+        "cinturón"
+      ],
+      [
+        "broche"
+      ],
+      [
+        "reloj"
+      ],
+      [
+        "vincha",
+        "diadema"
+      ],
+      [
+        "moño",
+        "lazo"
+      ],
+      [
+        "sombrero"
+      ],
+      [
+        "gafas",
+        "anteojos",
+        "lentes de sol"
+      ],
+      [
+        "guantes"
+      ],
+      [
+        "chal"
+      ],
+      [
+        "bufanda"
+      ],
+      [
+        "hebilla"
+      ],
+      [
+        "tobillera"
+      ]
+    ]
+  },
+  {
+    "id": "faldas",
+    "prompt": "Nombrá un tipo de falda.",
+    "answers": [
+      [
+        "minifalda",
+        "mini falda",
+        "mini",
+        "pollera mini"
+      ],
+      [
+        "midi",
+        "falda midi"
+      ],
+      [
+        "maxi",
+        "maxifalda",
+        "falda larga"
+      ],
+      [
+        "lápiz",
+        "falda lápiz",
+        "tubo",
+        "falda tubo"
+      ],
+      [
+        "plisada",
+        "falda plisada",
+        "tableada",
+        "pollera tableada"
+      ],
+      [
+        "evasé",
+        "falda evasé",
+        "línea a"
+      ],
+      [
+        "cruzada",
+        "wrap",
+        "falda cruzada"
+      ],
+      [
+        "tul",
+        "tutú",
+        "falda de tul"
+      ],
+      [
+        "asimétrica"
+      ],
+      [
+        "circular",
+        "plato",
+        "falda plato"
+      ],
+      [
+        "cargo",
+        "falda cargo"
+      ],
+      [
+        "godet"
+      ]
+    ]
+  },
+  {
+    "id": "vestidos",
+    "prompt": "Nombrá un tipo o corte de vestido.",
+    "answers": [
+      [
+        "vestido camisero",
+        "camisero"
+      ],
+      [
+        "vestido cruzado",
+        "wrap",
+        "cruzado"
+      ],
+      [
+        "vestido tubo",
+        "tubo",
+        "bodycon"
+      ],
+      [
+        "vestido evasé",
+        "evasé",
+        "línea a"
+      ],
+      [
+        "vestido midi",
+        "midi"
+      ],
+      [
+        "vestido maxi",
+        "maxi",
+        "largo"
+      ],
+      [
+        "vestido mini",
+        "mini"
+      ],
+      [
+        "vestido de cóctel",
+        "cóctel",
+        "cocktail"
+      ],
+      [
+        "vestido de noche",
+        "de noche"
+      ],
+      [
+        "vestido imperio",
+        "imperio"
+      ],
+      [
+        "vestido lencero",
+        "lencero",
+        "slip dress"
+      ],
+      [
+        "vestido sirena",
+        "sirena"
+      ],
+      [
+        "vestido de gala",
+        "gala"
+      ],
+      [
+        "vestido trapecio",
+        "trapecio"
+      ],
+      [
+        "vestido skater",
+        "skater"
+      ]
+    ]
+  },
+  {
+    "id": "unas",
+    "prompt": "Nombrá una forma de uñas.",
+    "answers": [
+      [
+        "almendra",
+        "almendrada",
+        "almendradas"
+      ],
+      [
+        "oval",
+        "ovalada",
+        "ovaladas"
+      ],
+      [
+        "cuadrada",
+        "cuadradas"
+      ],
+      [
+        "redonda",
+        "redondas"
+      ],
+      [
+        "stiletto",
+        "estileto"
+      ],
+      [
+        "coffin",
+        "ataúd",
+        "bailarina",
+        "ballerina"
+      ],
+      [
+        "squoval",
+        "cuadrada ovalada"
+      ],
+      [
+        "lipstick",
+        "labial"
+      ],
+      [
+        "flare",
+        "pico de pato"
+      ]
+    ]
+  },
+  {
+    "id": "telas",
+    "prompt": "Nombrá una tela o tejido usado en indumentaria.",
+    "answers": [
+      [
+        "algodón"
+      ],
+      [
+        "seda"
+      ],
+      [
+        "satén",
+        "satin",
+        "raso"
+      ],
+      [
+        "encaje"
+      ],
+      [
+        "tul"
+      ],
+      [
+        "lino"
+      ],
+      [
+        "terciopelo"
+      ],
+      [
+        "gasa",
+        "chiffon"
+      ],
+      [
+        "denim",
+        "jean",
+        "mezclilla"
+      ],
+      [
+        "lycra",
+        "licra",
+        "elastano"
+      ],
+      [
+        "poliéster"
+      ],
+      [
+        "viscosa",
+        "rayón"
+      ],
+      [
+        "lana"
+      ],
+      [
+        "organza"
+      ],
+      [
+        "crepé",
+        "crepe"
+      ],
+      [
+        "cuero"
+      ],
+      [
+        "cuerina",
+        "ecocuero"
+      ],
+      [
+        "brocado"
+      ],
+      [
+        "gabardina"
+      ],
+      [
+        "muselina"
+      ],
+      [
+        "punto",
+        "jersey"
+      ]
+    ]
+  },
+  {
+    "id": "cabello",
+    "prompt": "Nombrá un peinado o estilo de cabello.",
+    "answers": [
+      [
+        "cola de caballo",
+        "colita",
+        "ponytail"
+      ],
+      [
+        "trenza",
+        "trenzas"
+      ],
+      [
+        "rodete",
+        "moño",
+        "chignon"
+      ],
+      [
+        "bob",
+        "corte bob"
+      ],
+      [
+        "pixie",
+        "corte pixie"
+      ],
+      [
+        "ondas",
+        "ondas suaves"
+      ],
+      [
+        "rulos",
+        "rizos"
+      ],
+      [
+        "lacio",
+        "alisado"
+      ],
+      [
+        "recogido",
+        "recogidos"
+      ],
+      [
+        "semirrecogido"
+      ],
+      [
+        "flequillo"
+      ],
+      [
+        "corte en capas",
+        "capas"
+      ],
+      [
+        "coleta alta",
+        "cola alta"
+      ],
+      [
+        "coleta baja",
+        "cola baja"
+      ],
+      [
+        "trenza francesa"
+      ],
+      [
+        "trenza espiga"
+      ],
+      [
+        "beach waves",
+        "ondas playeras"
+      ]
+    ]
+  },
+  {
+    "id": "ojos",
+    "prompt": "Nombrá una técnica o estilo de maquillaje de ojos.",
+    "answers": [
+      [
+        "smokey eye",
+        "smoky eye",
+        "ahumado",
+        "ojos ahumados"
+      ],
+      [
+        "cat eye",
+        "ojo de gato",
+        "delineado felino"
+      ],
+      [
+        "cut crease"
+      ],
+      [
+        "halo eye"
+      ],
+      [
+        "tightlining",
+        "delineado invisible"
+      ],
+      [
+        "delineado gráfico",
+        "graphic liner"
+      ],
+      [
+        "delineado alado",
+        "winged liner"
+      ],
+      [
+        "monocromático"
+      ],
+      [
+        "fox eye",
+        "foxy eye"
+      ],
+      [
+        "delineado doble"
+      ],
+      [
+        "delineado clásico"
+      ]
+    ]
+  },
+  {
+    "id": "escotes",
+    "prompt": "Nombrá un tipo de escote.",
+    "answers": [
+      [
+        "escote v",
+        "en v",
+        "v"
+      ],
+      [
+        "redondo",
+        "escote redondo"
+      ],
+      [
+        "cuadrado",
+        "escote cuadrado"
+      ],
+      [
+        "corazón",
+        "escote corazón"
+      ],
+      [
+        "halter",
+        "escote halter"
+      ],
+      [
+        "barco",
+        "bote",
+        "escote barco"
+      ],
+      [
+        "strapless",
+        "sin tirantes",
+        "palabra de honor"
+      ],
+      [
+        "off shoulder",
+        "hombros descubiertos",
+        "bardot"
+      ],
+      [
+        "cuello alto"
+      ],
+      [
+        "asimétrico",
+        "un hombro"
+      ],
+      [
+        "cuello u",
+        "escote u"
+      ],
+      [
+        "escote profundo",
+        "plunging"
+      ]
+    ]
+  },
+  {
+    "id": "ropa_interior",
+    "prompt": "Nombrá un tipo de prenda de ropa interior.",
+    "answers": [
+      [
+        "corpiño",
+        "sostén",
+        "sujetador",
+        "brasier",
+        "bra"
+      ],
+      [
+        "bombacha",
+        "braga",
+        "panty",
+        "panties",
+        "calzón"
+      ],
+      [
+        "culotte",
+        "culote"
+      ],
+      [
+        "tanga",
+        "tangas"
+      ],
+      [
+        "camisón"
+      ],
+      [
+        "enagua"
+      ],
+      [
+        "body",
+        "bodi"
+      ],
+      [
+        "bralette"
+      ],
+      [
+        "faja"
+      ],
+      [
+        "medias",
+        "pantimedias"
+      ],
+      [
+        "liguero",
+        "portaligas"
+      ],
+      [
+        "camisola",
+        "camiseta interior"
+      ],
+      [
+        "slip"
+      ]
+    ]
+  },
+  {
+    "id": "medias",
+    "prompt": "Nombrá un tipo de media.",
+    "answers": [
+      [
+        "pantimedias",
+        "panty",
+        "medibacha",
+        "pantyhose"
+      ],
+      [
+        "medias de red",
+        "red",
+        "fishnet"
+      ],
+      [
+        "medias hasta la rodilla",
+        "tres cuartos",
+        "knee high"
+      ],
+      [
+        "medias hasta el muslo",
+        "musleras",
+        "thigh high"
+      ],
+      [
+        "medias opacas",
+        "opacas"
+      ],
+      [
+        "medias transparentes",
+        "transparentes"
+      ],
+      [
+        "medias térmicas"
+      ],
+      [
+        "medias con costura",
+        "costura"
+      ],
+      [
+        "soquetes",
+        "tobilleras"
+      ],
+      [
+        "medias de compresión",
+        "compresión"
+      ],
+      [
+        "caladas",
+        "medias caladas"
+      ],
+      [
+        "medias de encaje",
+        "encaje"
+      ]
+    ]
+  },
+  {
+    "id": "bolsos",
+    "prompt": "Nombrá un tipo de bolso o cartera.",
+    "answers": [
+      [
+        "clutch",
+        "sobre",
+        "cartera sobre"
+      ],
+      [
+        "tote",
+        "tote bag"
+      ],
+      [
+        "bandolera",
+        "crossbody"
+      ],
+      [
+        "mochila",
+        "mochilas"
+      ],
+      [
+        "baguette",
+        "bolso baguette"
+      ],
+      [
+        "hobo",
+        "bolso hobo"
+      ],
+      [
+        "shopper",
+        "shopping bag"
+      ],
+      [
+        "cartera de mano",
+        "bolso de mano"
+      ],
+      [
+        "riñonera",
+        "fanny pack"
+      ],
+      [
+        "bolso de hombro"
+      ],
+      [
+        "bucket bag",
+        "bolso saco",
+        "bolso cubo"
+      ],
+      [
+        "satchel"
+      ],
+      [
+        "minaudiere",
+        "minaudière"
+      ]
+    ]
+  },
+  {
+    "id": "esteticas",
+    "prompt": "Nombrá una estética o estilo de vestir.",
+    "answers": [
+      [
+        "coquette"
+      ],
+      [
+        "pin up",
+        "pinup"
+      ],
+      [
+        "vintage"
+      ],
+      [
+        "retro"
+      ],
+      [
+        "goth",
+        "gótico"
+      ],
+      [
+        "boho",
+        "bohemio"
+      ],
+      [
+        "preppy"
+      ],
+      [
+        "kawaii"
+      ],
+      [
+        "minimalista",
+        "minimalism"
+      ],
+      [
+        "casual"
+      ],
+      [
+        "chic"
+      ],
+      [
+        "glam",
+        "glamour"
+      ],
+      [
+        "grunge"
+      ],
+      [
+        "lolita",
+        "moda lolita"
+      ],
+      [
+        "cottagecore"
+      ],
+      [
+        "balletcore"
+      ],
+      [
+        "y2k"
+      ],
+      [
+        "old money"
+      ],
+      [
+        "streetwear",
+        "urbano"
+      ],
+      [
+        "romántico"
+      ],
+      [
+        "clásico"
+      ],
+      [
+        "elegante"
+      ],
+      [
+        "sporty",
+        "deportivo"
+      ]
+    ]
+  },
+  {
+    "id": "colores",
+    "prompt": "Nombrá un color habitual en moda o maquillaje.",
+    "answers": [
+      [
+        "rosa",
+        "rosado"
+      ],
+      [
+        "rojo"
+      ],
+      [
+        "fucsia",
+        "fuchsia"
+      ],
+      [
+        "lavanda"
+      ],
+      [
+        "lila"
+      ],
+      [
+        "violeta",
+        "morado",
+        "púrpura"
+      ],
+      [
+        "malva",
+        "mauve"
+      ],
+      [
+        "nude"
+      ],
+      [
+        "beige"
+      ],
+      [
+        "coral"
+      ],
+      [
+        "borgoña",
+        "bordó",
+        "burdeos"
+      ],
+      [
+        "terracota"
+      ],
+      [
+        "durazno",
+        "melocotón"
+      ],
+      [
+        "blanco"
+      ],
+      [
+        "negro"
+      ],
+      [
+        "marrón",
+        "café"
+      ],
+      [
+        "azul"
+      ],
+      [
+        "verde"
+      ],
+      [
+        "dorado",
+        "oro"
+      ],
+      [
+        "plateado",
+        "plata"
+      ],
+      [
+        "champagne"
+      ],
+      [
+        "marfil"
+      ],
+      [
+        "magenta"
+      ],
+      [
+        "turquesa"
+      ],
+      [
+        "amarillo"
+      ],
+      [
+        "naranja"
+      ],
+      [
+        "gris"
+      ]
+    ]
+  },
+  {
+    "id": "herramientas",
+    "prompt": "Nombrá una herramienta de maquillaje.",
+    "answers": [
+      [
+        "brocha",
+        "brochas",
+        "pincel",
+        "pinceles"
+      ],
+      [
+        "esponja",
+        "beauty blender",
+        "beautyblender"
+      ],
+      [
+        "rizador de pestañas",
+        "arqueador"
+      ],
+      [
+        "pinza de cejas",
+        "pinza"
+      ],
+      [
+        "espejo",
+        "espejito"
+      ],
+      [
+        "cepillo de cejas",
+        "spoolie",
+        "goupillon",
+        "goupillón"
+      ],
+      [
+        "sacapuntas"
+      ],
+      [
+        "paleta",
+        "paleta de maquillaje"
+      ],
+      [
+        "aplicador",
+        "aplicador de sombras"
+      ],
+      [
+        "hisopo",
+        "cotonete"
+      ],
+      [
+        "limpiador de brochas"
+      ],
+      [
+        "espátula"
+      ],
+      [
+        "borla"
+      ]
+    ]
+  },
+  {
+    "id": "manicura",
+    "prompt": "Nombrá una técnica o acabado de manicura.",
+    "answers": [
+      [
+        "francesa",
+        "manicura francesa",
+        "french"
+      ],
+      [
+        "esmaltado semipermanente",
+        "semipermanente"
+      ],
+      [
+        "gel",
+        "uñas de gel"
+      ],
+      [
+        "acrílico",
+        "uñas acrílicas"
+      ],
+      [
+        "dip powder"
+      ],
+      [
+        "nail art"
+      ],
+      [
+        "efecto cromado",
+        "cromado",
+        "chrome"
+      ],
+      [
+        "mate",
+        "matte"
+      ],
+      [
+        "brillo",
+        "glossy"
+      ],
+      [
+        "ombré",
+        "ombre",
+        "degradado"
+      ],
+      [
+        "baby boomer"
+      ],
+      [
+        "efecto espejo",
+        "espejo"
+      ],
+      [
+        "glitter",
+        "purpurina"
+      ],
+      [
+        "ojo de gato",
+        "cat eye"
+      ],
+      [
+        "press on"
+      ]
+    ]
+  },
+  {
+    "id": "abrigos",
+    "prompt": "Nombrá una prenda de abrigo.",
+    "answers": [
+      [
+        "campera",
+        "chaqueta",
+        "cazadora"
+      ],
+      [
+        "blazer"
+      ],
+      [
+        "saco"
+      ],
+      [
+        "tapado",
+        "abrigo"
+      ],
+      [
+        "trench",
+        "gabardina"
+      ],
+      [
+        "cardigan",
+        "cárdigan"
+      ],
+      [
+        "suéter",
+        "pulover",
+        "pulóver",
+        "sweater"
+      ],
+      [
+        "poncho"
+      ],
+      [
+        "capa"
+      ],
+      [
+        "chaleco"
+      ],
+      [
+        "parka"
+      ],
+      [
+        "bolero"
+      ],
+      [
+        "bomber"
+      ],
+      [
+        "piloto",
+        "impermeable"
+      ],
+      [
+        "sobretodo"
+      ],
+      [
+        "bufanda"
+      ]
+    ]
+  },
+  {
+    "id": "labios",
+    "prompt": "Nombrá un acabado o producto para labios.",
+    "answers": [
+      [
+        "mate",
+        "matte"
+      ],
+      [
+        "satinado",
+        "satin"
+      ],
+      [
+        "cremoso",
+        "crema"
+      ],
+      [
+        "brillo",
+        "gloss",
+        "lip gloss"
+      ],
+      [
+        "tinta",
+        "tinte",
+        "lip tint"
+      ],
+      [
+        "bálsamo",
+        "lip balm"
+      ],
+      [
+        "metálico",
+        "metalizado"
+      ],
+      [
+        "perlado"
+      ],
+      [
+        "sheer",
+        "translúcido",
+        "transparente"
+      ],
+      [
+        "lápiz delineador",
+        "delineador",
+        "lip liner"
+      ],
+      [
+        "labial líquido",
+        "líquido"
+      ],
+      [
+        "labial en barra",
+        "barra"
+      ],
+      [
+        "aceite labial",
+        "lip oil"
+      ]
+    ]
+  },
+  {
+    "id": "cejas",
+    "prompt": "Nombrá un producto o herramienta para arreglar las cejas.",
+    "answers": [
+      [
+        "lápiz",
+        "lápiz de cejas"
+      ],
+      [
+        "gel",
+        "gel de cejas"
+      ],
+      [
+        "pomada",
+        "pomada de cejas"
+      ],
+      [
+        "sombra",
+        "polvo",
+        "sombra de cejas"
+      ],
+      [
+        "pinza",
+        "pinzas"
+      ],
+      [
+        "spoolie",
+        "cepillo",
+        "goupillon"
+      ],
+      [
+        "tijera",
+        "tijeras"
+      ],
+      [
+        "jabón",
+        "soap brows"
+      ],
+      [
+        "cera",
+        "cera de cejas"
+      ],
+      [
+        "fijador"
+      ],
+      [
+        "plantilla",
+        "plantillas"
+      ]
+    ]
+  },
+  {
+    "id": "pelucas",
+    "prompt": "Nombrá un tipo de peluca o característica de su construcción.",
+    "answers": [
+      [
+        "lace front",
+        "encaje frontal"
+      ],
+      [
+        "full lace",
+        "encaje completo"
+      ],
+      [
+        "sintética",
+        "fibra sintética"
+      ],
+      [
+        "natural",
+        "cabello humano",
+        "pelo natural"
+      ],
+      [
+        "monofilamento",
+        "mono top"
+      ],
+      [
+        "de encaje",
+        "lace"
+      ],
+      [
+        "peluca con flequillo",
+        "flequillo"
+      ],
+      [
+        "sin encaje",
+        "capless"
+      ],
+      [
+        "360 lace",
+        "lace 360"
+      ],
+      [
+        "u part"
+      ],
+      [
+        "v part"
+      ],
+      [
+        "hand tied",
+        "anudada a mano"
+      ]
+    ]
+  },
+  {
+    "id": "joyeria",
+    "prompt": "Nombrá una pieza de joyería.",
+    "answers": [
+      [
+        "anillo",
+        "anillos"
+      ],
+      [
+        "collar",
+        "collares"
+      ],
+      [
+        "pulsera",
+        "pulseras"
+      ],
+      [
+        "aro",
+        "aros",
+        "pendientes",
+        "aretes"
+      ],
+      [
+        "gargantilla",
+        "choker"
+      ],
+      [
+        "tobillera"
+      ],
+      [
+        "dije",
+        "colgante"
+      ],
+      [
+        "broche"
+      ],
+      [
+        "brazalete"
+      ],
+      [
+        "piercing"
+      ],
+      [
+        "tiara"
+      ],
+      [
+        "cadena"
+      ],
+      [
+        "medalla"
+      ],
+      [
+        "alianza"
+      ],
+      [
+        "ear cuff"
+      ]
+    ]
+  },
+  {
+    "id": "estampados",
+    "prompt": "Nombrá un estampado o patrón de tela.",
+    "answers": [
+      [
+        "floral",
+        "flores"
+      ],
+      [
+        "lunares",
+        "polka dots"
+      ],
+      [
+        "rayas",
+        "rayado"
+      ],
+      [
+        "cuadros",
+        "cuadrillé"
+      ],
+      [
+        "animal print",
+        "leopardo"
+      ],
+      [
+        "cebra"
+      ],
+      [
+        "serpiente"
+      ],
+      [
+        "tartán",
+        "tartan"
+      ],
+      [
+        "pata de gallo",
+        "houndstooth"
+      ],
+      [
+        "paisley",
+        "cachemir"
+      ],
+      [
+        "vichy",
+        "gingham"
+      ],
+      [
+        "geométrico"
+      ],
+      [
+        "abstracto"
+      ],
+      [
+        "camuflaje"
+      ],
+      [
+        "tie dye"
+      ],
+      [
+        "toile de jouy"
+      ]
+    ]
+  },
+  {
+    "id": "pantalones",
+    "prompt": "Nombrá un tipo de pantalón.",
+    "answers": [
+      [
+        "palazzo"
+      ],
+      [
+        "skinny",
+        "chupín"
+      ],
+      [
+        "recto",
+        "straight"
+      ],
+      [
+        "wide leg",
+        "pata ancha"
+      ],
+      [
+        "cargo"
+      ],
+      [
+        "mom jeans",
+        "mom"
+      ],
+      [
+        "boyfriend"
+      ],
+      [
+        "flare",
+        "acampanado",
+        "oxford"
+      ],
+      [
+        "bootcut"
+      ],
+      [
+        "culotte"
+      ],
+      [
+        "capri"
+      ],
+      [
+        "leggings",
+        "calzas"
+      ],
+      [
+        "jogger"
+      ],
+      [
+        "sastrero",
+        "de vestir"
+      ],
+      [
+        "tiro alto",
+        "high waist"
+      ],
+      [
+        "paperbag"
+      ],
+      [
+        "bermuda"
+      ]
+    ]
+  },
+  {
+    "id": "perfume",
+    "prompt": "Nombrá una familia olfativa de perfume.",
+    "answers": [
+      [
+        "floral"
+      ],
+      [
+        "cítrica",
+        "cítrico",
+        "citrus"
+      ],
+      [
+        "amaderada",
+        "amaderado",
+        "woody"
+      ],
+      [
+        "oriental",
+        "ambarada",
+        "ámbar"
+      ],
+      [
+        "gourmand"
+      ],
+      [
+        "fresca",
+        "fresco"
+      ],
+      [
+        "fougère",
+        "fougere"
+      ],
+      [
+        "chipre",
+        "chypre"
+      ],
+      [
+        "acuática",
+        "acuático"
+      ],
+      [
+        "frutal",
+        "frutada"
+      ],
+      [
+        "verde"
+      ],
+      [
+        "aromática",
+        "aromático"
+      ],
+      [
+        "especiada",
+        "especiado"
+      ],
+      [
+        "almizclada",
+        "almizcle"
+      ]
+    ]
+  },
+  {
+    "id": "cuidado",
+    "prompt": "Nombrá un producto básico de cuidado de la piel.",
+    "answers": [
+      [
+        "limpiador",
+        "limpiador facial"
+      ],
+      [
+        "hidratante",
+        "crema hidratante"
+      ],
+      [
+        "protector solar",
+        "bloqueador",
+        "fotoprotector"
+      ],
+      [
+        "desmaquillante"
+      ],
+      [
+        "agua micelar"
+      ],
+      [
+        "sérum",
+        "serum"
+      ],
+      [
+        "bálsamo labial"
+      ],
+      [
+        "tónico"
+      ],
+      [
+        "crema de manos"
+      ],
+      [
+        "jabón suave"
+      ],
+      [
+        "exfoliante"
+      ],
+      [
+        "mascarilla"
+      ],
+      [
+        "crema corporal"
+      ],
+      [
+        "aceite limpiador"
+      ]
+    ]
+  },
+  {
+    "id": "tacos",
+    "prompt": "Nombrá una forma o tipo de taco.",
+    "answers": [
+      [
+        "aguja",
+        "taco aguja",
+        "stiletto"
+      ],
+      [
+        "bloque",
+        "taco bloque",
+        "block heel"
+      ],
+      [
+        "cuña",
+        "taco chino",
+        "wedge"
+      ],
+      [
+        "kitten",
+        "kitten heel",
+        "taco gatito"
+      ],
+      [
+        "carrete",
+        "taco carrete"
+      ],
+      [
+        "cono",
+        "cónico",
+        "cone heel"
+      ],
+      [
+        "plataforma",
+        "taco plataforma"
+      ],
+      [
+        "cuadrado",
+        "taco cuadrado"
+      ],
+      [
+        "campana",
+        "flare heel"
+      ],
+      [
+        "bajo",
+        "taco bajo"
+      ],
+      [
+        "cubano",
+        "taco cubano"
+      ]
+    ]
+  },
+  {
+    "id": "mangas",
+    "prompt": "Nombrá un tipo de manga.",
+    "answers": [
+      [
+        "corta",
+        "manga corta"
+      ],
+      [
+        "larga",
+        "manga larga"
+      ],
+      [
+        "tres cuartos",
+        "3/4",
+        "manga tres cuartos"
+      ],
+      [
+        "abullonada",
+        "puff",
+        "manga globo"
+      ],
+      [
+        "campana",
+        "acampanada"
+      ],
+      [
+        "raglán"
+      ],
+      [
+        "murciélago",
+        "dolman"
+      ],
+      [
+        "japonesa",
+        "kimono"
+      ],
+      [
+        "princesa"
+      ],
+      [
+        "casquillo",
+        "cap sleeve"
+      ],
+      [
+        "mariposa"
+      ],
+      [
+        "farol",
+        "linterna"
+      ]
+    ]
+  },
+  {
+    "id": "pelo_accesorios",
+    "prompt": "Nombrá un accesorio para el cabello.",
+    "answers": [
+      [
+        "vincha",
+        "diadema"
+      ],
+      [
+        "hebilla",
+        "hebillas",
+        "pasador"
+      ],
+      [
+        "horquilla",
+        "invisible",
+        "bobby pin"
+      ],
+      [
+        "scrunchie",
+        "colita",
+        "gomita",
+        "elástico"
+      ],
+      [
+        "lazo",
+        "moño"
+      ],
+      [
+        "pañuelo"
+      ],
+      [
+        "turbante"
+      ],
+      [
+        "broche",
+        "pinza",
+        "claw clip"
+      ],
+      [
+        "peineta"
+      ],
+      [
+        "tiara"
+      ],
+      [
+        "flor",
+        "flores"
+      ],
+      [
+        "cinta",
+        "listón"
+      ],
+      [
+        "redecilla"
+      ]
+    ]
+  },
+  {
+    "id": "sombras",
+    "prompt": "Nombrá un acabado de sombra de ojos.",
+    "answers": [
+      [
+        "mate",
+        "matte"
+      ],
+      [
+        "satinado",
+        "satin"
+      ],
+      [
+        "metálico",
+        "metalizado"
+      ],
+      [
+        "shimmer",
+        "brillante"
+      ],
+      [
+        "glitter",
+        "purpurina"
+      ],
+      [
+        "duocromo",
+        "duochrome"
+      ],
+      [
+        "multicromo"
+      ],
+      [
+        "perlado",
+        "nacarado"
+      ],
+      [
+        "foil",
+        "metalizado intenso"
+      ],
+      [
+        "topper"
+      ],
+      [
+        "iridiscente"
+      ],
+      [
+        "escarchado"
+      ]
+    ]
+  },
+  {
+    "id": "ropa_verano",
+    "prompt": "Nombrá una prenda que se use en verano.",
+    "answers": [
+      [
+        "vestido",
+        "vestidos"
+      ],
+      [
+        "short",
+        "shorts"
+      ],
+      [
+        "falda",
+        "pollera"
+      ],
+      [
+        "top",
+        "musculosa"
+      ],
+      [
+        "remera",
+        "camiseta"
+      ],
+      [
+        "bikini"
+      ],
+      [
+        "malla",
+        "traje de baño",
+        "bañador"
+      ],
+      [
+        "pareo"
+      ],
+      [
+        "kimono"
+      ],
+      [
+        "pantalón de lino"
+      ],
+      [
+        "bermuda"
+      ],
+      [
+        "blusa"
+      ],
+      [
+        "mono",
+        "enterito"
+      ],
+      [
+        "sandalias",
+        "sandalia"
+      ],
+      [
+        "sombrero"
+      ]
+    ]
+  },
+  {
+    "id": "zapato_partes",
+    "prompt": "Nombrá una parte de un zapato.",
+    "answers": [
+      [
+        "taco",
+        "tacón"
+      ],
+      [
+        "suela"
+      ],
+      [
+        "plantilla"
+      ],
+      [
+        "punta",
+        "puntera"
+      ],
+      [
+        "talón",
+        "talonera"
+      ],
+      [
+        "empeine"
+      ],
+      [
+        "cordones",
+        "cordón"
+      ],
+      [
+        "hebilla"
+      ],
+      [
+        "plataforma"
+      ],
+      [
+        "forro"
+      ],
+      [
+        "contrafuerte"
+      ],
+      [
+        "tira",
+        "correa"
+      ],
+      [
+        "capellada",
+        "corte"
+      ],
+      [
+        "lengüeta"
+      ],
+      [
+        "costura"
+      ]
+    ]
+  },
+  {
+    "id": "cierres",
+    "prompt": "Nombrá un tipo de cierre o ajuste utilizado en ropa.",
+    "answers": [
+      [
+        "botón",
+        "botones"
+      ],
+      [
+        "cremallera",
+        "cierre",
+        "zipper"
+      ],
+      [
+        "broche",
+        "broches",
+        "presilla"
+      ],
+      [
+        "velcro"
+      ],
+      [
+        "cordón",
+        "cordones"
+      ],
+      [
+        "hebilla"
+      ],
+      [
+        "gancho",
+        "corchete"
+      ],
+      [
+        "elástico",
+        "goma"
+      ],
+      [
+        "lazo",
+        "moño"
+      ],
+      [
+        "snaps",
+        "automáticos",
+        "botón a presión"
+      ],
+      [
+        "cinta"
+      ],
+      [
+        "imán",
+        "cierre magnético"
+      ]
+    ]
+  },
+  {
+    "id": "cintura",
+    "prompt": "Nombrá un tipo de cintura o ajuste de pantalón o falda.",
+    "answers": [
+      [
+        "tiro alto",
+        "cintura alta",
+        "high waist"
+      ],
+      [
+        "tiro medio",
+        "cintura media"
+      ],
+      [
+        "tiro bajo",
+        "cintura baja"
+      ],
+      [
+        "elástica",
+        "elástico"
+      ],
+      [
+        "paperbag"
+      ],
+      [
+        "ajustable",
+        "cordón"
+      ],
+      [
+        "corsé",
+        "corset"
+      ],
+      [
+        "cruzada",
+        "wrap"
+      ],
+      [
+        "cintura caída",
+        "drop waist"
+      ],
+      [
+        "pretina",
+        "cinturilla"
+      ]
+    ]
+  }
+]
