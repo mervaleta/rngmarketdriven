@@ -9,6 +9,9 @@ function studioBase(): string {
 function studioEsc($x): string{return htmlspecialchars((string)$x,ENT_QUOTES|ENT_SUBSTITUTE,'UTF-8');}
 function studioCurrentMember(): ?array {
     if(isset($GLOBALS['me'])&&is_array($GLOBALS['me']))return $GLOBALS['me'];
+    static $resolved=false,$cached=null;
+    if($resolved)return $cached;
+    $resolved=true;
     if(!isset($_COOKIE['studio_beta_sid']))return null;
     try{
         $private=dirname(__DIR__).'/private';
@@ -24,7 +27,7 @@ function studioCurrentMember(): ?array {
         }
         $uid=(int)($_SESSION['uid']??0);if(!$uid)return null;
         $pdo=new PDO('sqlite:'.$path,null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);$pdo->exec('PRAGMA query_only=ON');
-        $st=$pdo->prepare('SELECT id,display_name,role,avatar IS NOT NULL AS has_avatar FROM studio_users WHERE id=? AND active=1');$st->execute([$uid]);return $st->fetch()?:null;
+        $st=$pdo->prepare('SELECT id,display_name,role,avatar IS NOT NULL AS has_avatar FROM studio_users WHERE id=? AND active=1');$st->execute([$uid]);return $cached=$st->fetch()?:null;
     }catch(Throwable $e){return null;}
 }
 function studioHeaderGame(?array $member): array {
