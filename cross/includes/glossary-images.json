@@ -330,5 +330,167 @@
       "by/2.0",
       "Zapatos con tacón bajo de bloque"
     ]
+  ],
+  "vestido": [
+    [
+      "e3c8e575-c5b8-4c4c-9f49-62b37b611b6b.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Vestido floral sin mangas y con cintura marcada",
+      {
+        "local": "assets/glossary/clothing-dataset/e3c8e575-c5b8-4c4c-9f49-62b37b611b6b.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/e3c8e575-c5b8-4c4c-9f49-62b37b611b6b.jpg"
+      }
+    ],
+    [
+      "e6a8b33f-279c-4072-8dba-229d94205e55.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Vestido negro con escote en V",
+      {
+        "local": "assets/glossary/clothing-dataset/e6a8b33f-279c-4072-8dba-229d94205e55.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/e6a8b33f-279c-4072-8dba-229d94205e55.jpg"
+      }
+    ]
+  ],
+  "vestido-tubo": [
+    [
+      "4b8e5d41-3e12-4d2b-8634-e62e71d613ff.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Vestido ajustado de paneles contrastantes",
+      {
+        "local": "assets/glossary/clothing-dataset/4b8e5d41-3e12-4d2b-8634-e62e71d613ff.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/4b8e5d41-3e12-4d2b-8634-e62e71d613ff.jpg"
+      }
+    ]
+  ],
+  "pollera": [
+    [
+      "70045b01-b350-4918-be74-2f627290ad7a.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Pollera lila con pequeñas aberturas en el ruedo",
+      {
+        "local": "assets/glossary/clothing-dataset/70045b01-b350-4918-be74-2f627290ad7a.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/70045b01-b350-4918-be74-2f627290ad7a.jpg"
+      }
+    ],
+    [
+      "d44cfac9-3fda-47ba-8eb1-8b130f60b08c.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Pollera negra con cierre frontal y bolsillos",
+      {
+        "local": "assets/glossary/clothing-dataset/d44cfac9-3fda-47ba-8eb1-8b130f60b08c.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/d44cfac9-3fda-47ba-8eb1-8b130f60b08c.jpg"
+      }
+    ]
+  ],
+  "falda-evase": [
+    [
+      "f8b84112-9110-4628-91e8-9d22a13767f3.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Falda azul estampada que se abre hacia el ruedo",
+      {
+        "local": "assets/glossary/clothing-dataset/f8b84112-9110-4628-91e8-9d22a13767f3.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/f8b84112-9110-4628-91e8-9d22a13767f3.jpg"
+      }
+    ]
+  ],
+  "blusa": [
+    [
+      "4ef0dece-adfc-4036-ad34-922d607d4bd5.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Blusa clara de encaje y cuello redondo",
+      {
+        "local": "assets/glossary/clothing-dataset/4ef0dece-adfc-4036-ad34-922d607d4bd5.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/4ef0dece-adfc-4036-ad34-922d607d4bd5.jpg"
+      }
+    ],
+    [
+      "c5b80186-15fa-4b9a-9ca4-88005b0db7bf.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Blusa clara de mangas largas y ruedo asimétrico",
+      {
+        "local": "assets/glossary/clothing-dataset/c5b80186-15fa-4b9a-9ca4-88005b0db7bf.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/c5b80186-15fa-4b9a-9ca4-88005b0db7bf.jpg"
+      }
+    ]
+  ],
+  "blazer": [
+    [
+      "5008492c-339e-454c-b741-a676d22f1f5c.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Blazer beige de un botón y solapas",
+      {
+        "local": "assets/glossary/clothing-dataset/5008492c-339e-454c-b741-a676d22f1f5c.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/5008492c-339e-454c-b741-a676d22f1f5c.jpg"
+      }
+    ]
+  ],
+  "top": [
+    [
+      "6ba8aeb1-a812-4bd7-a0b3-d898aebe3400.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Top negro de tirantes finos y volados",
+      {
+        "local": "assets/glossary/clothing-dataset/6ba8aeb1-a812-4bd7-a0b3-d898aebe3400.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/6ba8aeb1-a812-4bd7-a0b3-d898aebe3400.jpg"
+      }
+    ]
+  ],
+  "pantalon": [
+    [
+      "97074b7f-706a-4c17-b875-bd9baa5bed0e.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Pantalón de denim celeste",
+      {
+        "local": "assets/glossary/clothing-dataset/97074b7f-706a-4c17-b875-bd9baa5bed0e.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/97074b7f-706a-4c17-b875-bd9baa5bed0e.jpg"
+      }
+    ]
+  ],
+  "short": [
+    [
+      "5dcffea5-5111-4397-b9ed-313b41bdeea8.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Short claro con cintura elástica y cordón",
+      {
+        "local": "assets/glossary/clothing-dataset/5dcffea5-5111-4397-b9ed-313b41bdeea8.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/5dcffea5-5111-4397-b9ed-313b41bdeea8.jpg"
+      }
+    ]
+  ],
+  "camisa": [
+    [
+      "09f4ffb6-ed86-42b6-ac23-6f8f2359460f.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Camisa blanca de cuello y botones",
+      {
+        "local": "assets/glossary/clothing-dataset/09f4ffb6-ed86-42b6-ac23-6f8f2359460f.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/09f4ffb6-ed86-42b6-ac23-6f8f2359460f.jpg"
+      }
+    ]
+  ],
+  "camiseta": [
+    [
+      "4c8f245e-a039-46fd-a6b9-1bb51e83fc05.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Camiseta blanca de manga corta y cuello redondo",
+      {
+        "local": "assets/glossary/clothing-dataset/4c8f245e-a039-46fd-a6b9-1bb51e83fc05.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/4c8f245e-a039-46fd-a6b9-1bb51e83fc05.jpg"
+      }
+    ]
   ]
 }

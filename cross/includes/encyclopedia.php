@@ -19,7 +19,7 @@ function encCard(array $r,string $mode): string {
  $name=encName($r);$category=encCategory($r,$mode);$thumb='';$key=studioEncyclopediaImageKey($r['slug']);
  if(empty($r['disambiguation'])&&isset(studioGlossaryImages()[$key][0])){
   [$file,$author,$code,$caption]=studioGlossaryImages()[$key][0];[$license]=studioGlossaryLicense($code);
-  $src=studioBase().'glosario/image.php?f='.rawurlencode($key).'&i=0&thumb=1';
+  $src=studioGlossaryImageUrl(studioGlossaryImages()[$key][0],$key,0,studioBase(),true);
   $thumb='<span class="enc-card-thumb"><img src="'.encE($src).'" alt="'.encE($caption).'" width="88" height="88" loading="lazy" decoding="async"><span class="enc-card-credit">'.encE($author.' · '.$license.' · miniatura').'</span></span>';
  }
  $search=implode(' ',array_merge([$name,$category,$r['category'],$r['definition'],$r['glossary_definition']??''],$r['aliases']??[],[$r['materials']??'']));

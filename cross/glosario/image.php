@@ -8,6 +8,7 @@ if(!is_string($slug)||!is_string($idx)||!preg_match('/^[0-9]{1,2}$/D',$idx)){htt
 $item=studioGlossaryImages()[studioEncyclopediaImageKey($slug)][(int)$idx]??null;
 if(!$item){http_response_code(404);exit;}
 $thumb=($_GET['thumb']??'')==='1';
+$local=studioGlossaryLocal($item);if($local!==null){header('Location: ../'.$local,true,302);exit;}
 $url=studioGlossaryOriginal($item[0]);
 $dir=sys_get_temp_dir().'/studio-glossary-'.substr(hash('sha256',__DIR__),0,16);
 if(!is_dir($dir)&&!@mkdir($dir,0700,true)&&!is_dir($dir)){http_response_code(503);exit;}
