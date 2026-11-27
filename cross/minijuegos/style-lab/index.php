@@ -38,5 +38,26 @@ $('save').onclick=()=>{try{if(saved.length>=20)throw Error('Máximo 20 looks. Bo
 $('capture').onclick=()=>{try{const a=document.createElement('a');a.download='studio-look-3d.png';a.href=api.capture();a.click()}catch(e){status('No se pudo capturar.')}};
 $('reset').onclick=async()=>{const b=$('reset');b.disabled=true;try{status('Reiniciando modelo y vestuario…');const ok=await api.reset();if(ok===false){status('El reinicio fue reemplazado por otro cambio.');return}first=null;$('comparison').replaceChildren();$('comparison').hidden=true;$('duel').textContent='Fijar look A';$('name').value='';status('Modelo, vestuario, cámara y expresiones reiniciados.')}catch(e){status('No se pudo reiniciar. Recargá la página.')}finally{b.disabled=false}};
 showMode();renderSaved();$('collection').textContent='Prendas 3D descubiertas: '+seen.length;
-const frame=$('editor');if(frame){let tries=0;const timer=setInterval(()=>{try{api=frame.contentWindow.avatarEditor;if(frame.contentWindow.studioBootError&&!api){status('No se pudo iniciar el modelo: '+frame.contentWindow.studioBootError); }if(api){initial=recipe();clearInterval(timer);for(const id of ['evaluate','duel','save','capture','reset'])$(id).disabled=false;status('Motor 3D listo. Arrastrá el modelo para girarlo; usá la rueda para acercar.');renderSaved();return}}catch(e){}if(++tries>=120){clearInterval(timer);status('El motor 3D no terminó de cargar. Usá Reintentar dentro del probador o recargá la página.')}},500)}else status('Recursos 3D pendientes de publicación.');
+const frame=$('editor');
+if(frame){
+ let timer=null,tries=0;
+ function connect(){
+  clearInterval(timer);tries=0;api=null;
+  for(const id of ['evaluate','duel','save','capture','reset'])$(id).disabled=true;
+  status('Cargando recursos 3D…');
+  timer=setInterval(()=>{
+   try{
+    const win=frame.contentWindow, candidate=win.avatarEditor;
+    if(candidate&&!candidate.busy){
+     api=candidate;initial=recipe();clearInterval(timer);
+     for(const id of ['evaluate','duel','save','capture','reset'])$(id).disabled=false;
+     status('Motor 3D listo. Arrastrá el modelo para girarlo; usá la rueda para acercar.');renderSaved();return;
+    }
+    if(win.studioBootError)status('No se pudo iniciar el modelo: '+win.studioBootError);
+   }catch(e){}
+   if(++tries>=120){clearInterval(timer);status('El motor 3D no terminó de cargar. Usá Reintentar dentro del probador o recargá la página.')}
+  },500);
+ }
+ frame.addEventListener('load',connect);connect();
+}else status('Recursos 3D pendientes de publicación.');
 </script></body></html>
