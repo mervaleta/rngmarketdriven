@@ -20,7 +20,8 @@ function studioGlossaryLicense(string $code): array {
 }
 function studioGlossaryLocal(array $item): ?string {
  $path=$item[4]['local']??null;
- return is_string($path)&&preg_match('~^assets/glossary/(?:clothing-dataset/[a-f0-9-]{36}|commons/[a-f0-9]{32})\.jpg$~D',$path)?$path:null;
+ if($path===null){$candidate='assets/glossary/commons/'.md5(str_replace(' ','_',$item[0])).'.jpg';if(is_file(dirname(__DIR__).'/'.$candidate))$path=$candidate;}
+ return is_string($path)&&preg_match('~^assets/glossary/(?:clothing-dataset/[a-f0-9-]{36}|commons/[a-f0-9]{32})\.jpg$~D',$path)&&is_file(dirname(__DIR__).'/'.$path)?$path:null;
 }
 function studioGlossaryImageUrl(array $item,string $slug,int $i,string $base,bool $thumb=false): string {
  $local=studioGlossaryLocal($item);

@@ -17,16 +17,41 @@ on:
       - 'cross/scripts/publish-encyclopedia.py'
       - '.github/workflows/studio-encyclopedia.yml'
 permissions:
-  contents: read
+  contents: write
+  actions: read
 concurrency:
   group: studio-encyclopedia-deploy
   cancel-in-progress: false
 jobs:
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Recover previously downloaded images (46008713237)
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: studio-encyclopedia-release
+          run-id: 46008713237
+          github-token: ${{ github.token }}
+          path: studio-image-recovery/46008713237
+      - name: Recover previously downloaded images (46014792877)
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: studio-encyclopedia-release
+          run-id: 46014792877
+          github-token: ${{ github.token }}
+          path: studio-image-recovery/46014792877
+      - name: Recover previously downloaded images (46015006035)
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: studio-encyclopedia-release
+          run-id: 46015006035
+          github-token: ${{ github.token }}
+          path: studio-image-recovery/46015006035
       - name: Build release and validate PHP
         run: python3 cross/scripts/publish-encyclopedia.py build
       - uses: actions/upload-artifact@v4
@@ -35,6 +60,19 @@ jobs:
           path: studio-release/
           include-hidden-files: true
           retention-days: 7
+      - name: Version recovered and verified encyclopedia images in main
+        run: |
+          mkdir -p cross/assets/glossary
+          rsync -a studio-release/cross/assets/glossary/ cross/assets/glossary/
+          cp studio-release/cross/includes/glossary-images.json cross/includes/glossary-images.json
+          git config user.name "studio-release[bot]"
+          git config user.email "studio-release[bot]@users.noreply.github.com"
+          git add -f cross/assets/glossary/ cross/includes/glossary-images.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Preserve verified Studio encyclopedia images locally"
+            git fetch origin main
+            git push origin HEAD:main
+          fi
       - name: Publish only encyclopedia files over FTPS
         env:
           STUDIO_FTP_HOST: ${{ secrets.STUDIO_FTP_HOST || secrets.HOSTINGER_FTP_HOST || secrets.FTP_HOST }}
@@ -42,6 +80,11 @@ jobs:
           STUDIO_FTP_PASSWORD: ${{ secrets.STUDIO_FTP_PASSWORD || secrets.HOSTINGER_FTP_PASSWORD || secrets.FTP_PASSWORD }}
           STUDIO_FTP_ROOT: ${{ secrets.STUDIO_FTP_ROOT }}
           STUDIO_FTP_PORT: ${{ secrets.STUDIO_FTP_PORT }}
-        run: python3 cross/scripts/publish-encyclopedia.py deploy
+        run: |
+          if [ -n "$STUDIO_FTP_HOST" ] && [ -n "$STUDIO_FTP_USER" ] && [ -n "$STUDIO_FTP_PASSWORD" ]; then
+            python3 cross/scripts/publish-encyclopedia.py deploy
+          else
+            echo "::notice::Images versioned in main; verify existing Hostinger Git deployment."
+          fi
       - name: Verify public catalog and all image responses
         run: python3 cross/scripts/publish-encyclopedia.py verify

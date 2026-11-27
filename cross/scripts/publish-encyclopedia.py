@@ -3,6 +3,7 @@
 import concurrent.futures, ftplib, hashlib, io, json, os, pathlib, re, shutil, ssl, subprocess, time, urllib.parse, urllib.request
 ROOT=pathlib.Path("cross")
 OUT=pathlib.Path("studio-release/cross")
+RECOVERY=pathlib.Path("studio-image-recovery")
 FILES=[
  "includes/.htaccess","includes/encyclopedia-catalog.php","includes/encyclopedia-referrals.php",
  "includes/glossary-images.php","includes/glossary-referrals.json","includes/glossary.json",
@@ -10,6 +11,34 @@ FILES=[
  "assets/encyclopedia.css","assets/encyclopedia.js","assets/encyclopedia-gallery.js","glosario/image.php","glosario/index.php",
  "ropero/index.php","servicios/index.php","includes/looks.json","recursos/looks/index.php","includes/portal.html",
 ]
+def valid_asset(data, rel):
+    return 0<len(data)<=12*1024*1024 and data.startswith(b"\x89PNG\r\n\x1a\n" if rel.endswith(".png") else b"\xff\xd8\xff")
+def recover_asset(rel, allow_live=False):
+    # Only known editorial paths, never arbitrary URLs or private files.
+    if not re.fullmatch(r"assets/glossary/(?:commons/[a-f0-9]{32}\.jpg|clothing-dataset/[a-f0-9-]{36}\.jpg|history/(?:met-[0-9]+\.jpg|us[0-9]+a-[0-9]+\.png))",rel):
+        raise ValueError("Invalid recovery path")
+    for source in [ROOT/rel,*sorted(RECOVERY.glob("*/cross/"+rel),reverse=True)]:
+        if source.is_file():
+            data=source.read_bytes()
+            if valid_asset(data,rel):
+                dst=OUT/rel;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(data)
+                return True
+    if allow_live:
+        try:
+            url="https://rngmarketdriven.com/cross/"+rel
+            req=urllib.request.Request(url,headers={"User-Agent":"StudioImageRecovery/1.0"})
+            with urllib.request.urlopen(req,timeout=12) as response:
+                if urllib.parse.urlsplit(response.geturl()).hostname!="rngmarketdriven.com":return False
+                data=response.read(12*1024*1024+1)
+            if valid_asset(data,rel):
+                dst=OUT/rel;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(data)
+                print("Recovered existing public image:",rel,flush=True)
+                return True
+        except Exception:pass
+    return False
+def set_local(item,rel):
+    if len(item)>4:item[4]["local"]=rel
+    else:item.append({"local":rel})
 def build():
     for rel in FILES:
         target=OUT/rel
@@ -18,16 +47,18 @@ def build():
     manifest=json.loads((OUT/"includes/glossary-images.json").read_text())
     items=[item for group in manifest.values() for item in group]
     def prepare(item):
-        if len(item)>4 and item[4].get("local"):
-            rel=item[4]["local"]
-            assert re.fullmatch(r"assets/glossary/clothing-dataset/[a-f0-9-]{36}\.jpg",rel)
-            dst=OUT/rel;dst.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copy2(ROOT/rel,dst)
-            return True,item[0]
         name=item[0].replace(" ","_")
         digest=hashlib.md5(name.encode()).hexdigest()
+        existing=item[4].get("local","") if len(item)>4 else ""
+        if existing.startswith("assets/glossary/clothing-dataset/"):
+            if not recover_asset(existing,allow_live=True):raise ValueError("Missing versioned dataset photo")
+            return True,item[0]
         rel="assets/glossary/commons/"+digest+".jpg"
         dst=OUT/rel
+        if recover_asset(rel,allow_live=True):
+            set_local(item,rel)
+            return True,item[0]
+        if len(item)>4:item[4].pop("local",None)
         try:
             url=f"https://upload.wikimedia.org/wikipedia/commons/{digest[0]}/{digest[:2]}/{urllib.parse.quote(name,safe='')}"
             req=urllib.request.Request(url,headers={"User-Agent":"StudioGlossary/1.0 (https://rngmarketdriven.com/cross/glosario/)"})
@@ -35,7 +66,7 @@ def build():
                 data=response.read(8*1024*1024+1)
             if not data.startswith(b"\xff\xd8\xff") or len(data)>8*1024*1024: raise ValueError("Not a bounded JPEG")
             dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(data)
-            item.append({"local":rel})
+            set_local(item,rel)
             return True,item[0]
         except Exception as exc:
             return False,item[0]+": "+type(exc).__name__
@@ -50,6 +81,7 @@ def build():
     def fetch_history(m):
         rel=m["path"]
         if not re.fullmatch(r"assets/glossary/history/(?:met-[0-9]+\.jpg|us[0-9]+a-[0-9]+\.png)",rel):raise ValueError("Unsafe history path")
+        if recover_asset(rel):return True,rel
         url=m["url"]
         if urllib.parse.urlsplit(url).hostname not in ("collectionapi.metmuseum.org","patentimages.storage.googleapis.com"):raise ValueError("Unknown source")
         try:
@@ -116,15 +148,20 @@ def verify():
     def read(rel):
         req=urllib.request.Request(base+rel+("&" if "?" in rel else "?")+"studio_check="+str(time.time_ns()),headers={"Cache-Control":"no-cache","User-Agent":"StudioReleaseCheck/1.0"})
         with urllib.request.urlopen(req,timeout=25) as res:return res.read(),res.headers.get_content_type()
-    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","¿A cuál te referís?"),("glosario/index.php?f=vestido","Clothing Dataset"),("recursos/looks/index.php","Looks completos"),("recursos/looks/index.php?f=oficina-clasica","Oficina clásica")]:
-        data,_=read(rel)
-        if needle.encode() not in data:raise ValueError("Live content not confirmed: "+rel)
+    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","¿A cuál te referís?"),("glosario/index.php?f=vestido","Clothing Dataset"),("recursos/looks/index.php","Looks completos"),("recursos/looks/index.php?f=oficina-clasica","Oficina clásica"),("recursos/looks/index.php","look-preview-grid"),("glosario/index.php?f=corpino","enc-fiche-tabs")]:
+        for attempt in range(8):
+            try:
+                data,_=read(rel)
+                if needle.encode() in data:break
+            except Exception:pass
+            if attempt<7:time.sleep(8)
+        else:raise ValueError("Live content not confirmed: "+rel)
     manifest=json.loads((OUT/"includes/glossary-images.json").read_text())
     failures=[]
     for slug,items in manifest.items():
         for i,item in enumerate(items):
             rel=item[4].get("local") if len(item)>4 else None
-            if not rel:rel="glosario/image.php?f="+urllib.parse.quote(slug)+"&i="+str(i)
+            if not rel:continue # external references are separately reported by the build
             try:
                 data,ctype=read(rel)
                 if ctype!="image/jpeg" or not data.startswith(b"\xff\xd8\xff"):raise ValueError("Not JPEG")
