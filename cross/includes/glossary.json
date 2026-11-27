@@ -1,0 +1,717 @@
+[
+  {
+    "term": "Crossdressing",
+    "category": "Identidad y expresión",
+    "definition": "Uso de prendas o elementos de presentación asociados culturalmente a otro género. Puede ser una afición, una forma de expresión o exploración; no determina identidad ni orientación sexual.",
+    "aliases": [
+      "CD"
+    ]
+  },
+  {
+    "term": "Crossdresser",
+    "category": "Identidad y expresión",
+    "definition": "Persona que practica crossdressing. Algunas usan el término como identidad personal y otras solo para describir una actividad.",
+    "aliases": [
+      "CD"
+    ]
+  },
+  {
+    "term": "En femme",
+    "category": "Identidad y expresión",
+    "definition": "Momento o look en presentación femenina. No presupone identidad de género.",
+    "aliases": [
+      "en-femme"
+    ]
+  },
+  {
+    "term": "Expresión de género",
+    "category": "Identidad y expresión",
+    "definition": "Forma de presentar el género mediante ropa, apariencia, gestos o voz. Puede cambiar según el contexto.",
+    "aliases": [
+      "gender expression"
+    ]
+  },
+  {
+    "term": "Identidad de género",
+    "category": "Identidad y expresión",
+    "definition": "Vivencia personal del propio género; es distinta de la apariencia, la ropa y la orientación sexual.",
+    "aliases": []
+  },
+  {
+    "term": "Orientación sexual",
+    "category": "Identidad y expresión",
+    "definition": "Patrón de atracción sexual o romántica; no se deduce de la ropa ni del maquillaje.",
+    "aliases": []
+  },
+  {
+    "term": "Femme",
+    "category": "Identidad y expresión",
+    "definition": "Término de presentación o identidad femenina usado en distintas comunidades; su significado depende de quien lo elige.",
+    "aliases": []
+  },
+  {
+    "term": "Femboy",
+    "category": "Identidad y expresión",
+    "definition": "Término que algunas personas, a menudo de identidad masculina, usan para una expresión femenina. No debe asignarse a terceros sin su consentimiento.",
+    "aliases": []
+  },
+  {
+    "term": "Drag",
+    "category": "Identidad y expresión",
+    "definition": "Arte escénico que juega con el género, el vestuario y la actuación. No es sinónimo de crossdressing.",
+    "aliases": [
+      "drag queen",
+      "drag king"
+    ]
+  },
+  {
+    "term": "Androginia",
+    "category": "Identidad y expresión",
+    "definition": "Presentación que combina o no encaja claramente en códigos convencionales masculinos y femeninos.",
+    "aliases": [
+      "andrógino"
+    ]
+  },
+  {
+    "term": "Género fluido",
+    "category": "Identidad y expresión",
+    "definition": "Identidad de género que puede variar con el tiempo; no es un tipo de vestimenta.",
+    "aliases": [
+      "genderfluid"
+    ]
+  },
+  {
+    "term": "No binario",
+    "category": "Identidad y expresión",
+    "definition": "Identidad que no se limita exclusivamente a las categorías hombre y mujer.",
+    "aliases": [
+      "no binarie",
+      "nonbinary"
+    ]
+  },
+  {
+    "term": "Transgénero",
+    "category": "Identidad y expresión",
+    "definition": "Persona cuya identidad de género difiere del género asignado al nacer. No equivale a crossdresser.",
+    "aliases": [
+      "trans"
+    ]
+  },
+  {
+    "term": "Transfemenino",
+    "category": "Identidad y expresión",
+    "definition": "Término amplio que algunas personas trans usan para describir su relación con la feminidad; no implica una apariencia determinada.",
+    "aliases": [
+      "transfem",
+      "transfeminino"
+    ]
+  },
+  {
+    "term": "Cisgénero",
+    "category": "Identidad y expresión",
+    "definition": "Persona cuya identidad coincide con el género asignado al nacer.",
+    "aliases": [
+      "cis"
+    ]
+  },
+  {
+    "term": "Sissy",
+    "category": "Jerga comunitaria",
+    "definition": "Etiqueta que algunas personas adultas usan para una estética, un rol o una subcultura; en ciertos contextos es erótica o despectiva. No equivale a crossdresser y no debe imponerse.",
+    "aliases": []
+  },
+  {
+    "term": "Feminización",
+    "category": "Jerga comunitaria",
+    "definition": "En estética, incorporación de elementos culturalmente asociados a una presentación femenina. Es opcional y no define el valor ni la identidad de una persona.",
+    "aliases": []
+  },
+  {
+    "term": "Passing",
+    "category": "Jerga comunitaria",
+    "definition": "Ser percibida o percibido por otras personas como el género que se desea presentar. No es una obligación ni mide la autenticidad.",
+    "aliases": [
+      "pasar"
+    ]
+  },
+  {
+    "term": "Closet",
+    "category": "Jerga comunitaria",
+    "definition": "Mantener en privado una faceta de la expresión o identidad. Cada persona decide cuándo y con quién compartirla.",
+    "aliases": [
+      "armario"
+    ]
+  },
+  {
+    "term": "Salir del armario",
+    "category": "Jerga comunitaria",
+    "definition": "Compartir voluntariamente una faceta de la propia identidad o expresión. No existe una obligación de hacerlo.",
+    "aliases": [
+      "coming out"
+    ]
+  },
+  {
+    "term": "Outing",
+    "category": "Jerga comunitaria",
+    "definition": "Revelar la identidad o expresión privada de alguien sin su consentimiento. Vulnera su privacidad.",
+    "aliases": []
+  },
+  {
+    "term": "Tucking",
+    "category": "Jerga comunitaria",
+    "definition": "Término para una técnica de presentación que reduce el contorno genital bajo la ropa. No es necesaria para expresar feminidad.",
+    "aliases": []
+  },
+  {
+    "term": "Hip pads",
+    "category": "Jerga comunitaria",
+    "definition": "Rellenos de cadera para modificar visualmente la silueta de un conjunto.",
+    "aliases": [
+      "rellenos de cadera"
+    ]
+  },
+  {
+    "term": "Breast forms",
+    "category": "Jerga comunitaria",
+    "definition": "Prótesis o rellenos externos que aportan volumen al pecho bajo una prenda.",
+    "aliases": [
+      "formas mamarias",
+      "rellenos de pecho"
+    ]
+  },
+  {
+    "term": "Padding",
+    "category": "Jerga comunitaria",
+    "definition": "Uso de rellenos en prendas o accesorios para modificar visualmente una silueta.",
+    "aliases": [
+      "relleno"
+    ]
+  },
+  {
+    "term": "Shapewear",
+    "category": "Jerga comunitaria",
+    "definition": "Prendas de ajuste que suavizan o modifican visualmente el contorno. Deben resultar cómodas y no son obligatorias.",
+    "aliases": [
+      "faja modeladora"
+    ]
+  },
+  {
+    "term": "Gender euphoria",
+    "category": "Jerga comunitaria",
+    "definition": "Sensación positiva que algunas personas experimentan cuando su expresión o reconocimiento de género les resulta congruente.",
+    "aliases": [
+      "euforia de género"
+    ]
+  },
+  {
+    "term": "Boymode",
+    "category": "Jerga comunitaria",
+    "definition": "Expresión informal para describir una presentación masculina en un contexto determinado.",
+    "aliases": [
+      "boy mode"
+    ]
+  },
+  {
+    "term": "Girlmode",
+    "category": "Jerga comunitaria",
+    "definition": "Expresión informal para describir una presentación femenina en un contexto determinado.",
+    "aliases": [
+      "girl mode"
+    ]
+  },
+  {
+    "term": "Look",
+    "category": "Moda",
+    "definition": "Conjunto de ropa, maquillaje, cabello y accesorios que produce una apariencia determinada.",
+    "aliases": []
+  },
+  {
+    "term": "Outfit",
+    "category": "Moda",
+    "definition": "Combinación de prendas y accesorios para una ocasión o estilo concreto.",
+    "aliases": [
+      "conjunto"
+    ]
+  },
+  {
+    "term": "Coquette",
+    "category": "Moda",
+    "definition": "Estética romántica con lazos, encajes y detalles delicados; admite interpretaciones personales.",
+    "aliases": []
+  },
+  {
+    "term": "Pin-up",
+    "category": "Moda",
+    "definition": "Estética inspirada en ilustraciones y moda retro de mediados del siglo XX.",
+    "aliases": [
+      "pin up"
+    ]
+  },
+  {
+    "term": "Kawaii",
+    "category": "Moda",
+    "definition": "Término japonés asociado a una estética adorable o tierna.",
+    "aliases": []
+  },
+  {
+    "term": "Balletcore",
+    "category": "Moda",
+    "definition": "Estética inspirada en prendas y accesorios de ballet.",
+    "aliases": []
+  },
+  {
+    "term": "Cottagecore",
+    "category": "Moda",
+    "definition": "Estética inspirada en escenas rurales idealizadas y prendas de aire romántico.",
+    "aliases": []
+  },
+  {
+    "term": "Lolita",
+    "category": "Moda",
+    "definition": "Subcultura de moda japonesa con referencias históricas y siluetas elaboradas. No implica contenido sexual ni edad infantil.",
+    "aliases": [
+      "moda lolita"
+    ]
+  },
+  {
+    "term": "Preppy",
+    "category": "Moda",
+    "definition": "Estilo inspirado en vestimenta académica clásica, con prendas estructuradas y combinaciones sobrias.",
+    "aliases": []
+  },
+  {
+    "term": "Vintage",
+    "category": "Moda",
+    "definition": "Prendas o estilos de épocas pasadas; retro suele describir prendas actuales inspiradas en ellas.",
+    "aliases": [
+      "retro"
+    ]
+  },
+  {
+    "term": "Stiletto",
+    "category": "Calzado",
+    "definition": "Zapato o taco fino y alto, también llamado tacón de aguja.",
+    "aliases": [
+      "taco aguja",
+      "estileto"
+    ]
+  },
+  {
+    "term": "Kitten heel",
+    "category": "Calzado",
+    "definition": "Tacón fino de poca altura.",
+    "aliases": [
+      "taco gatito"
+    ]
+  },
+  {
+    "term": "Mule",
+    "category": "Calzado",
+    "definition": "Calzado abierto en la parte posterior del talón.",
+    "aliases": [
+      "mules"
+    ]
+  },
+  {
+    "term": "Mary Jane",
+    "category": "Calzado",
+    "definition": "Zapato con tira sobre el empeine, conocido también como merceditas.",
+    "aliases": [
+      "merceditas"
+    ]
+  },
+  {
+    "term": "Slingback",
+    "category": "Calzado",
+    "definition": "Zapato sujeto por una tira detrás del talón.",
+    "aliases": []
+  },
+  {
+    "term": "Ballerina",
+    "category": "Calzado",
+    "definition": "Zapato plano inspirado en el calzado de ballet.",
+    "aliases": [
+      "bailarina",
+      "chatita"
+    ]
+  },
+  {
+    "term": "Peep toe",
+    "category": "Calzado",
+    "definition": "Zapato con una pequeña abertura en la punta.",
+    "aliases": []
+  },
+  {
+    "term": "Taco de cuña",
+    "category": "Calzado",
+    "definition": "Tacón continuo que se extiende desde el talón hacia la suela.",
+    "aliases": [
+      "wedge",
+      "taco chino"
+    ]
+  },
+  {
+    "term": "Block heel",
+    "category": "Calzado",
+    "definition": "Tacón ancho y de forma generalmente rectangular.",
+    "aliases": [
+      "taco bloque"
+    ]
+  },
+  {
+    "term": "Corset",
+    "category": "Moda",
+    "definition": "Prenda estructurada que puede modificar o destacar el contorno del torso. Debe ajustarse cómodamente.",
+    "aliases": [
+      "corsé"
+    ]
+  },
+  {
+    "term": "Bralette",
+    "category": "Moda",
+    "definition": "Corpiño de estructura ligera, generalmente sin aro ni soporte rígido.",
+    "aliases": []
+  },
+  {
+    "term": "Body",
+    "category": "Moda",
+    "definition": "Prenda de una pieza que cubre el torso y se ajusta en la parte inferior.",
+    "aliases": [
+      "bodi"
+    ]
+  },
+  {
+    "term": "Culotte",
+    "category": "Moda",
+    "definition": "Puede designar ropa interior de mayor cobertura o un pantalón ancho y corto, según el contexto.",
+    "aliases": [
+      "culote"
+    ]
+  },
+  {
+    "term": "Falda lápiz",
+    "category": "Moda",
+    "definition": "Falda estrecha de silueta recta o ajustada.",
+    "aliases": [
+      "falda tubo"
+    ]
+  },
+  {
+    "term": "Evasé",
+    "category": "Moda",
+    "definition": "Corte que se ensancha gradualmente hacia el ruedo.",
+    "aliases": [
+      "línea A"
+    ]
+  },
+  {
+    "term": "Vestido lencero",
+    "category": "Moda",
+    "definition": "Vestido de caída ligera inspirado en una combinación de ropa interior.",
+    "aliases": [
+      "slip dress"
+    ]
+  },
+  {
+    "term": "Escote halter",
+    "category": "Moda",
+    "definition": "Escote con tiras o tejido que se sujetan alrededor del cuello.",
+    "aliases": [
+      "halter"
+    ]
+  },
+  {
+    "term": "Strapless",
+    "category": "Moda",
+    "definition": "Prenda sin tirantes que deja los hombros descubiertos.",
+    "aliases": [
+      "palabra de honor"
+    ]
+  },
+  {
+    "term": "Pantimedias",
+    "category": "Moda",
+    "definition": "Medias de una sola pieza que cubren piernas y cintura.",
+    "aliases": [
+      "medibacha",
+      "pantyhose"
+    ]
+  },
+  {
+    "term": "Denier",
+    "category": "Moda",
+    "definition": "Unidad de masa lineal del hilo; en medias suele relacionarse con grosor y cobertura, aunque no es el único factor.",
+    "aliases": [
+      "den"
+    ]
+  },
+  {
+    "term": "Liguero",
+    "category": "Moda",
+    "definition": "Prenda con tiras para sostener medias altas.",
+    "aliases": [
+      "portaligas"
+    ]
+  },
+  {
+    "term": "Satén",
+    "category": "Moda",
+    "definition": "Ligamento de superficie lisa y brillante que puede fabricarse con fibras diversas.",
+    "aliases": [
+      "raso"
+    ]
+  },
+  {
+    "term": "Encaje",
+    "category": "Moda",
+    "definition": "Tejido ornamental con motivos abiertos y calados.",
+    "aliases": [
+      "lace"
+    ]
+  },
+  {
+    "term": "Primer",
+    "category": "Maquillaje",
+    "definition": "Prebase que prepara la piel o el párpado antes de aplicar otros productos.",
+    "aliases": [
+      "prebase"
+    ]
+  },
+  {
+    "term": "Foundation",
+    "category": "Maquillaje",
+    "definition": "Base de maquillaje destinada a unificar visualmente el tono de la piel.",
+    "aliases": [
+      "base"
+    ]
+  },
+  {
+    "term": "Concealer",
+    "category": "Maquillaje",
+    "definition": "Corrector para áreas específicas, como ojeras o pequeñas diferencias de tono.",
+    "aliases": [
+      "corrector"
+    ]
+  },
+  {
+    "term": "Color corrector",
+    "category": "Maquillaje",
+    "definition": "Corrector que busca neutralizar visualmente tonos concretos mediante colores complementarios.",
+    "aliases": [
+      "corrector cromático"
+    ]
+  },
+  {
+    "term": "Contouring",
+    "category": "Maquillaje",
+    "definition": "Uso de tonos y sombras para modificar visualmente el relieve del rostro.",
+    "aliases": [
+      "contorno"
+    ]
+  },
+  {
+    "term": "Highlighter",
+    "category": "Maquillaje",
+    "definition": "Iluminador que refleja luz o aporta brillo en zonas elegidas.",
+    "aliases": [
+      "iluminador"
+    ]
+  },
+  {
+    "term": "Blush",
+    "category": "Maquillaje",
+    "definition": "Rubor o colorete que aporta color a las mejillas.",
+    "aliases": [
+      "rubor",
+      "colorete"
+    ]
+  },
+  {
+    "term": "Bronzer",
+    "category": "Maquillaje",
+    "definition": "Producto que aporta un efecto cálido o bronceado.",
+    "aliases": [
+      "bronceador"
+    ]
+  },
+  {
+    "term": "Baking",
+    "category": "Maquillaje",
+    "definition": "Técnica que utiliza polvo suelto durante un tiempo antes de retirar el exceso.",
+    "aliases": []
+  },
+  {
+    "term": "Setting spray",
+    "category": "Maquillaje",
+    "definition": "Bruma que se aplica para ayudar a fijar el maquillaje o modificar su acabado.",
+    "aliases": [
+      "fijador"
+    ]
+  },
+  {
+    "term": "Smokey eye",
+    "category": "Maquillaje",
+    "definition": "Maquillaje de ojos con sombras difuminadas de efecto ahumado.",
+    "aliases": [
+      "smoky eye",
+      "ahumado"
+    ]
+  },
+  {
+    "term": "Cat eye",
+    "category": "Maquillaje",
+    "definition": "Delineado que se prolonga hacia afuera y arriba en el extremo del ojo.",
+    "aliases": [
+      "ojo de gato"
+    ]
+  },
+  {
+    "term": "Cut crease",
+    "category": "Maquillaje",
+    "definition": "Técnica que destaca el pliegue del párpado mediante contraste de sombras.",
+    "aliases": []
+  },
+  {
+    "term": "Tightlining",
+    "category": "Maquillaje",
+    "definition": "Delineado próximo a la raíz de las pestañas para dar una apariencia de mayor densidad.",
+    "aliases": []
+  },
+  {
+    "term": "Lip tint",
+    "category": "Maquillaje",
+    "definition": "Tinte de labios que suele aportar color ligero o de duración prolongada.",
+    "aliases": [
+      "tinta labial"
+    ]
+  },
+  {
+    "term": "Lip liner",
+    "category": "Maquillaje",
+    "definition": "Lápiz para delinear o rellenar los labios.",
+    "aliases": [
+      "delineador labial"
+    ]
+  },
+  {
+    "term": "Nude",
+    "category": "Maquillaje",
+    "definition": "Color próximo a un tono de piel, que varía entre personas; no existe un único nude universal.",
+    "aliases": []
+  },
+  {
+    "term": "Lace front",
+    "category": "Cabello",
+    "definition": "Peluca con encaje frontal para simular visualmente una línea de nacimiento del cabello.",
+    "aliases": []
+  },
+  {
+    "term": "Full lace",
+    "category": "Cabello",
+    "definition": "Peluca con base de encaje que permite mayor flexibilidad al peinar.",
+    "aliases": []
+  },
+  {
+    "term": "Wig cap",
+    "category": "Cabello",
+    "definition": "Gorro fino que se coloca debajo de una peluca para mantener el cabello recogido.",
+    "aliases": [
+      "gorro de peluca"
+    ]
+  },
+  {
+    "term": "Monofilamento",
+    "category": "Cabello",
+    "definition": "Base de peluca que imita visualmente el cuero cabelludo en determinadas zonas.",
+    "aliases": [
+      "mono top"
+    ]
+  },
+  {
+    "term": "Bob",
+    "category": "Cabello",
+    "definition": "Corte habitualmente recto, de longitud cercana a la mandíbula u hombros.",
+    "aliases": [
+      "corte bob"
+    ]
+  },
+  {
+    "term": "Pixie",
+    "category": "Cabello",
+    "definition": "Corte corto con diferentes largos y texturas según el estilo.",
+    "aliases": [
+      "corte pixie"
+    ]
+  },
+  {
+    "term": "Updo",
+    "category": "Cabello",
+    "definition": "Peinado recogido, como un rodete o trenza recogida.",
+    "aliases": [
+      "recogido"
+    ]
+  },
+  {
+    "term": "Nail art",
+    "category": "Uñas",
+    "definition": "Decoración artística de las uñas mediante colores, diseños o adornos.",
+    "aliases": []
+  },
+  {
+    "term": "Press-on",
+    "category": "Uñas",
+    "definition": "Uñas postizas preparadas para adherirse temporalmente.",
+    "aliases": [
+      "press on"
+    ]
+  },
+  {
+    "term": "Coffin",
+    "category": "Uñas",
+    "definition": "Forma de uña estrechada hacia una punta plana, también llamada bailarina.",
+    "aliases": [
+      "ballerina",
+      "ataúd"
+    ]
+  },
+  {
+    "term": "Squoval",
+    "category": "Uñas",
+    "definition": "Forma intermedia entre cuadrada y ovalada.",
+    "aliases": []
+  },
+  {
+    "term": "Baby boomer",
+    "category": "Uñas",
+    "definition": "Manicura de degradado suave, habitualmente entre tonos rosados y blancos.",
+    "aliases": []
+  },
+  {
+    "term": "Seudónimo",
+    "category": "Privacidad",
+    "definition": "Nombre elegido para participar sin publicar el nombre legal.",
+    "aliases": [
+      "alias"
+    ]
+  },
+  {
+    "term": "Consentimiento",
+    "category": "Privacidad",
+    "definition": "Acuerdo libre, informado y revocable para compartir información o interactuar de una manera determinada.",
+    "aliases": []
+  },
+  {
+    "term": "Metadatos",
+    "category": "Privacidad",
+    "definition": "Información incorporada a un archivo, como fecha, modelo de cámara o ubicación; puede revelar detalles privados.",
+    "aliases": [
+      "EXIF"
+    ]
+  },
+  {
+    "term": "Perfil privado",
+    "category": "Privacidad",
+    "definition": "Ficha cuya información solo se comparte con los destinatarios autorizados.",
+    "aliases": []
+  }
+]
