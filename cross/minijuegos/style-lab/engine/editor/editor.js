@@ -146,8 +146,11 @@ async function makeWorn(id, slot) {
 // The 3D view uses textures/view/ (at most 1024 px, a third of the bytes); the download reads the full
 // texture from entry.url (exportVRM), fetched only then.
 async function setItemTexture(entry, file, slot) {
+  const textureRevision = (entry.textureRevision || 0) + 1;
+  entry.textureRevision = textureRevision;
   const url = A + "textures/" + file;
   const img = await bitmap(A + "textures/view/" + file);
+  if (entry.textureRevision !== textureRevision || entry.disposed) return;
   const size = Math.min(1024, img.width);
   const canvas = document.createElement("canvas");
   canvas.width = size; canvas.height = Math.round(img.height * size / img.width);
@@ -204,23 +207,54 @@ function meanColor(image) {
 
 // Painted items (short beard, stubble) are drawn into the skin texture: no mesh, no triangles.
 const paintOf = (slot, id) => id ? index.categories[slot]?.items.find((i) => i.id === id)?.paint ?? null : null;
-async function setSlot(slot, id) {
-  if (slot === "beard") scheduleSkin();
-  if (paintOf(slot, id)) id = null;
-  const old = worn.get(slot);
-  if ((old?.item.id ?? null) === id) return;
-  if (old) { avatar.remove(old.mesh); old.mesh.geometry.dispose(); old.mesh.material.map?.dispose(); old.mesh.material.dispose(); worn.delete(slot); }
-  if (id) {
-    const entry = await makeWorn(id, slot);
-    if (slotId(slot) !== id) return;  // changed again while loading (or now painted)
-    worn.set(slot, entry);
-    avatar.add(entry.mesh);
-  }
-  if (slot === "hair") { for (const s of ["eyebrows", "moustache", "beard"]) { const e = worn.get(s); if (e) recolor(e, s); } scheduleSkin(); }
-  updateBodyIndices();
-  refit();
-}
+// Commit a complete wardrobe at once. A superseded request never attaches a mesh.
+let wardrobeRevision = 0, wardrobePending = false;
 const slotId = (slot) => slot === "hair" ? recipe.hair.style : slot === "eyes" ? "low-poly" : ALWAYS.includes(slot) ? slot : recipe[slot];
+function disposeEntry(entry) {
+  entry.disposed = true;
+  avatar.remove(entry.mesh);
+  entry.mesh.geometry.dispose();
+  entry.mesh.material.map?.dispose();
+  entry.mesh.material.dispose();
+}
+async function syncWardrobe() {
+  const revision = ++wardrobeRevision;
+  wardrobePending = true;
+  const desired = ITEM_SLOTS.map(slot => {
+    const id = slotId(slot);
+    return [slot, paintOf(slot,id) ? null : (id ?? null)];
+  });
+  const pending = await Promise.allSettled(desired.map(async ([slot,id]) => {
+    if (!id || worn.get(slot)?.item.id === id) return [slot,id,null];
+    return [slot,id,await makeWorn(id,slot)];
+  }));
+  const fresh = pending.filter(p=>p.status==="fulfilled").map(p=>p.value);
+  const error = pending.find(p=>p.status==="rejected");
+  if (revision !== wardrobeRevision || error) {
+    for (const [slot,id,entry] of fresh) if (entry) disposeEntry(entry);
+    if (revision !== wardrobeRevision) return false;
+    wardrobePending = false;
+    $("status").textContent = "No se pudo cargar la prenda. Reintentá o reiniciá el modelo.";
+    throw error.reason;
+  }
+  for (const [slot,id,entry] of fresh) {
+    const old = worn.get(slot);
+    if (old && old.item.id !== id) { disposeEntry(old); worn.delete(slot); }
+    if (entry) {
+      // Defensive cleanup even if a previous request produced duplicate geometry.
+      if (worn.has(slot)) disposeEntry(worn.get(slot));
+      worn.set(slot,entry); avatar.add(entry.mesh);
+    }
+  }
+  const liveMeshes = new Set([bodyMesh,...[...worn.values()].map(e=>e.mesh)]);
+  for (const mesh of [...avatar.children]) if (mesh.isMesh && !liveMeshes.has(mesh)) {
+    avatar.remove(mesh); mesh.geometry.dispose(); mesh.material.map?.dispose(); mesh.material.dispose();
+  }
+  for (const slot of Object.keys(HAIR_SLOTS)) { const e=worn.get(slot); if(e) recolor(e,slot); }
+  updateBodyIndices(); refit();
+  wardrobePending = false;
+  return true;
+}
 
 let visibleBody = null;  // body triangles not covered by what's worn (before tucking into boots)
 function updateBodyIndices() {
@@ -516,12 +550,12 @@ const $ = (id) => document.getElementById(id);
 const SLIDERS = ["gender", "age", "muscle", "weight"];
 const RACES = ["african", "asian", "caucasian"];
 let skinTimer = 0;
-const scheduleSkin = () => { clearTimeout(skinTimer); skinTimer = setTimeout(composeSkin, 40); };
+const scheduleSkin = () => { ++skinJob; clearTimeout(skinTimer); skinTimer = setTimeout(() => composeSkin().catch(err=>{$("status").textContent=err.message;}), 40); };
 
 for (const id of [...SLIDERS, ...RACES]) $(id).addEventListener("input", () => {
   const before = skinBucket(recipe.body) + skinGender(recipe.body);
   if (SLIDERS.includes(id)) recipe.body[id] = +$(id).value; else recipe.body.race[id] = +$(id).value;
-  refit(); showValues();
+  updateBodyIndices(); refit(); showValues();
   if (skinBucket(recipe.body) + skinGender(recipe.body) !== before) scheduleSkin();
 });
 $("tone").addEventListener("input", () => { recipe.skin.tone = +$("tone").value; scheduleSkin(); });
@@ -550,7 +584,7 @@ function tile(label, thumb, on, click) {
   // Thumbnails load when their section is opened (showThumbs): lazy loading alone still fetches
   // images inside closed <details>.
   b.innerHTML = (thumb ? `<img loading="lazy" data-src="${thumb}" alt="">` : "") + `<span>${label}</span>`;
-  b.addEventListener("click", click);
+  b.addEventListener("click", () => Promise.resolve(click()).catch(err=>{$("status").textContent=err.message;}));
   return b;
 }
 function renderTiles(cat) {
@@ -570,7 +604,7 @@ async function renderPresets() {
   const box = $("presets");
   box.replaceChildren(...presets.map((p) => tile(p.label, `${A}presets/${p.id}.webp`, false, () => {
     endPreview();
-    applyRecipe({ ...structuredClone(p.recipe), name: recipe.name });
+    return applyRecipe({ ...structuredClone(p.recipe), name: recipe.name });
   })));
   showThumbs(box);
 }
@@ -592,7 +626,7 @@ async function choose(cat, id) {
     recipe.bottom ??= index.categories.bottom.items[0].id;
   }
   for (const c of ITEM_SLOTS) renderTiles(c);
-  await Promise.all(ITEM_SLOTS.map((c) => setSlot(c, c === "hair" ? recipe.hair.style : recipe[c])));
+  if (await syncWardrobe()) scheduleSkin();
 }
 
 function renderSwatches() {
@@ -1211,6 +1245,7 @@ document.querySelectorAll("#camera button[data-cam]").forEach((b) => b.addEventL
 
 // ---- Export / import -------------------------------------------------------------------------
 async function exportVRM() {
+  if (wardrobePending) throw Error("Esperá a que se cargue el conjunto.");
   await base.loadMore();  // the child and old body shapes (refit when they arrived)
   const fullSkin = document.createElement("canvas"); fullSkin.width = fullSkin.height = 2048;
   await paintSkin(fullSkin, "textures/");
@@ -1393,13 +1428,14 @@ async function applyRecipe(next) {
   merged.body.age = Math.max(0.35, Number(merged.body.age)||0.5);
   recipe = merged;
   syncControls();
-  composeSkin();
-  await Promise.all(ITEM_SLOTS.map((c) => setSlot(c, c === "hair" ? recipe.hair.style : recipe[c])));
-  refit();  // the body and face may have changed even if nothing worn did
-  // Items that stayed on (same hair style as before) still take the new hair color.
-  for (const slot of Object.keys(HAIR_SLOTS)) { const e = worn.get(slot); if (e) recolor(e, slot); }
-  scheduleSkin();
-  const eyes = worn.get("eyes"); if (eyes) await setItemTexture(eyes, index.eyeColors[recipe.eyes], "eyes");
+  if (!(await syncWardrobe())) return false;
+  const revision = wardrobeRevision;
+  clearTimeout(skinTimer);
+  const eyes = worn.get("eyes");
+  await Promise.all([composeSkin(), eyes && setItemTexture(eyes, index.eyeColors[recipe.eyes], "eyes")]);
+  if (revision !== wardrobeRevision) return false;
+  refit();
+  return true;
 }
 $("open").addEventListener("click", () => $("file").click());
 $("file").addEventListener("change", async (e) => {
@@ -1418,10 +1454,10 @@ const linked = null;
 await applyRecipe(linked ?? recipe);
 $("loading").remove();
 setCamera(lastCamera);  // framing for the view's real shape (known now)
-base.loadMore().then(refit, () => {});  // the child and old body shapes: the body may change when they arrive
+base.loadMore().then(() => {updateBodyIndices(); refit();}, () => {});  // the child and old body shapes: the body may change when they arrive
 renderPresets().catch(() => $("start").remove());
 // Cross uses only the local editor, no external handoff.
-window.avatarEditor = { capture(){renderer.render(scene,camera);return renderer.domElement.toDataURL("image/png");}, exportVRM, applyRecipe, calibratePhotos, fromPhotos, camera, controls, scene, avatar, renderer, showPreview, endPreview, get preview() { return preview; }, get recipe() { return recipe; } };  // for tests
+window.avatarEditor = { get busy(){return wardrobePending;}, async reset(){ endPreview(); $("expr").value=""; $("live").checked=false; previewSeated=false; document.querySelectorAll("#poses button").forEach(b=>b.classList.toggle("on",b.dataset.pose==="standing")); avatar.visible=true; const ok=await applyRecipe(structuredClone(DEFAULT_RECIPE)); if(ok){applyExpression({});setCamera("body");} return ok; }, inspect(){return {slots:[...worn].map(([slot,e])=>[slot,e.item.id]), meshes:avatar.children.filter(x=>x.isMesh).length, busy:wardrobePending};}, capture(){renderer.render(scene,camera);return renderer.domElement.toDataURL("image/png");}, exportVRM, applyRecipe, calibratePhotos, fromPhotos, camera, controls, scene, avatar, renderer, showPreview, endPreview, get preview() { return preview; }, get recipe() { return recipe; } };  // for tests
 
 // ---- Live preview ----------------------------------------------------------------------------
 // Preview shows the exported VRM in three-vrm (lib/preview.js, loaded on first use). Changing
@@ -1460,7 +1496,7 @@ document.querySelectorAll("#poses button").forEach((b) => b.addEventListener("cl
   showPreview();
 }));
 for (const type of ["input", "click"]) $("panel").addEventListener(type, (e) => {
-  if (previewing && !e.target.closest("#expr-row, summary")) endPreview();
+  if (!e.target.closest("#expr-row, summary")) endPreview();
 }, true);
 $("open").addEventListener("click", endPreview);
 
