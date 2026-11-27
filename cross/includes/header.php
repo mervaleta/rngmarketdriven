@@ -28,8 +28,20 @@ function studioCurrentMember(): ?array {
     }catch(Throwable $e){return null;}
 }
 function studioHeaderGame(?array $member): array {
- if(!$member)return ['coins'=>100,'quizDone'=>false,'packDone'=>false];
- try{$private=dirname(__DIR__).'/private';$cfg=require $private.'/config.php';$path=$private.'/studio-'.hash_hmac('sha256','studio-db-v1',$cfg['setup_key']).'.sqlite3';if(!is_file($path))throw new RuntimeException('storage');$pdo=new PDO('sqlite:'.$path,null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);$pdo->exec('PRAGMA query_only=ON');$uid=(int)$member['id'];$day=(new DateTimeImmutable('now',new DateTimeZone('America/Argentina/Buenos_Aires')))->format('Y-m-d');$q=$pdo->prepare('SELECT credits FROM studio_game_wallet WHERE user_id=?');$q->execute([$uid]);$coins=$q->fetchColumn();$q=$pdo->prepare('SELECT position FROM studio_quiz_attempts WHERE user_id=? AND day=?');$q->execute([$uid,$day]);$done=(int)$q->fetchColumn()>=7;$q=$pdo->prepare('SELECT 1 FROM studio_game_packs WHERE user_id=? AND day=?');$q->execute([$uid,$day]);return ['coins'=>$coins===false?100:(int)$coins,'quizDone'=>$done,'packDone'=>(bool)$q->fetchColumn()];}catch(Throwable $e){return ['coins'=>100,'quizDone'=>false,'packDone'=>false];}
+ $state=['coins'=>100,'quizDone'=>false,'packDone'=>false,'invites'=>0];
+ if(!$member)return $state;
+ try{
+  $private=dirname(__DIR__).'/private';$cfg=require $private.'/config.php';
+  $path=$private.'/studio-'.hash_hmac('sha256','studio-db-v1',$cfg['setup_key']).'.sqlite3';
+  if(!is_file($path))return $state;
+  $pdo=new PDO('sqlite:'.$path,null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);$pdo->exec('PRAGMA query_only=ON');$pdo->exec('PRAGMA busy_timeout=2000');
+  $uid=(int)$member['id'];$day=(new DateTimeImmutable('now',new DateTimeZone('America/Argentina/Buenos_Aires')))->format('Y-m-d');
+  try{$q=$pdo->prepare('SELECT credits FROM studio_game_wallet WHERE user_id=?');$q->execute([$uid]);$coins=$q->fetchColumn();if($coins!==false)$state['coins']=(int)$coins;}catch(Throwable $e){}
+  try{$q=$pdo->prepare('SELECT position FROM studio_quiz_attempts WHERE user_id=? AND day=?');$q->execute([$uid,$day]);$state['quizDone']=(int)$q->fetchColumn()>=7;}catch(Throwable $e){}
+  try{$q=$pdo->prepare('SELECT 1 FROM studio_game_packs WHERE user_id=? AND day=?');$q->execute([$uid,$day]);$state['packDone']=(bool)$q->fetchColumn();}catch(Throwable $e){}
+  try{$q=$pdo->prepare('SELECT COUNT(*) FROM studio_chat_invites i JOIN studio_chat_rooms r ON r.id=i.room_id JOIN studio_users u ON u.id=r.owner_id WHERE i.user_id=? AND u.active=1 AND NOT EXISTS(SELECT 1 FROM studio_blocks b WHERE (b.blocker_id=? AND b.blocked_id=u.id) OR (b.blocked_id=? AND b.blocker_id=u.id))');$q->execute([$uid,$uid,$uid]);$state['invites']=(int)$q->fetchColumn();}catch(Throwable $e){}
+ }catch(Throwable $e){}
+ return $state;
 }
 function studioArt(string $name,string $class=''): string{
     $known=['quiz','album','ranking','pluma','perfiles','guias','shopping','recursos','minijuegos'];
@@ -37,7 +49,7 @@ function studioArt(string $name,string $class=''): string{
     return '<img class="studio-art '.studioEsc($class).'" src="'.studioEsc(studioBase()).'assets/art/'.studioEsc($name).'.svg" alt="" aria-hidden="true" decoding="async">';
 }
 function studioHeader(string $active='',string $extra='',bool $anonymous=false): string {
-    $base=studioBase();$member=$anonymous?null:studioCurrentMember();$game=$anonymous?['coins'=>100,'quizDone'=>false,'packDone'=>false]:studioHeaderGame($member);
+    $base=studioBase();$member=$anonymous?null:studioCurrentMember();$game=studioHeaderGame($member);
     $active=['muro'=>'pluma','foro'=>'pluma','relatos'=>'pluma','glosario'=>'recursos'][$active]??$active;
     $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['index.php?seccion=pluma-libre','Pluma Libre'],'chat'=>['chat/index.php','Chat'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'ropero'=>['ropero/index.php','Ropero'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
     if($anonymous){
@@ -45,14 +57,15 @@ function studioHeader(string $active='',string $extra='',bool $anonymous=false):
         foreach($tabs as $key=>$item){if($key==='ranking'&&!$member)continue;$out.='<a href="'.studioEsc($base.$item[0]).'">'.studioEsc($item[1]).'</a>';}
         return $out.'</nav></header>';
     }
-    $account=$base.($member?'perfiles/?v=profile&id='.(int)$member['id']:'cuenta/');
-    $avatar=$member&&!empty($member['has_avatar'])?'<img src="'.studioEsc($base).'perfiles/?v=avatar&amp;id='.(int)$member['id'].'" alt="">':'<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20v-1a7 7 0 0 1 14 0v1"/></svg>';
-    $out='<header class="studio-header" data-member="'.($member?'1':'0').'" data-quiz-done="'.($game['quizDone']?'1':'0').'" data-pack-done="'.($game['packDone']?'1':'0').'"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><span class="studio-version">PREVIEW 1.0</span><div class="studio-extra"><a class="studio-wallet" href="'.studioEsc($base).'album/" aria-label="Créditos de juego"><span aria-hidden="true">◈</span><strong id="headerCoins">'.(int)$game['coins'].'</strong><span class="wallet-label">créditos</span></a>';
-    $out.='<details class="studio-notifications"><summary class="studio-circle" aria-label="Notificaciones"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><span id="studio-notif-dot" class="studio-notif-dot" hidden></span></summary><div class="studio-notif-panel"><strong>Notificaciones</strong><p class="studio-notif-meta">Recordatorios del desafío y del álbum.</p><a id="studio-notif-quiz" href="'.studioEsc($base).'">Desafío diario</a><a id="studio-notif-pack" href="'.studioEsc($base).'album/">Sobre del día</a><p id="studio-notif-empty" class="studio-notif-meta" hidden>Estás al día.</p></div></details>';
+    $account=$base.($member?'perfiles/index.php?v=profile&id='.(int)$member['id']:'cuenta/index.php?v=login');
+    $avatar=$member&&!empty($member['has_avatar'])?'<img src="'.studioEsc($base).'perfiles/index.php?v=avatar&amp;id='.(int)$member['id'].'" alt="">':'<svg class="studio-account-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4.5 21v-2a7.5 7.5 0 0 1 15 0v2z"/></svg>';
+    $count=(int)!$game['quizDone']+(int)!$game['packDone']+$game['invites'];
+    $out='<header class="studio-header" data-member="'.($member?'1':'0').'" data-quiz-done="'.($game['quizDone']?'1':'0').'" data-pack-done="'.($game['packDone']?'1':'0').'" data-invites="'.(int)$game['invites'].'"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><span class="studio-version">PREVIEW 1.0</span><div class="studio-extra"><a class="studio-wallet" href="'.studioEsc($base).'album/" aria-label="Créditos de juego"><span aria-hidden="true">◈</span><strong id="headerCoins">'.(int)$game['coins'].'</strong><span class="wallet-label">créditos</span></a>';
+    $out.='<a class="studio-circle studio-notification-link" href="'.studioEsc($base).'notificaciones/index.php" aria-label="Notificaciones ('.$count.' pendientes)" title="Notificaciones"'.($active==='notificaciones'?' aria-current="page"':'').'><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><span id="studio-notif-dot" class="studio-notif-dot"'.($count?'':' hidden').'>'.($count>9?'9+':$count).'</span></a>';
     $out.='<a class="studio-circle studio-avatar" href="'.studioEsc($account).'" aria-label="'.studioEsc($member?'Mi perfil':'Mi cuenta: ingresar o registrarse').'" title="'.studioEsc($member?$member['display_name']:'Mi cuenta').'">'.$avatar.'</a>';
     $out.=$extra.'</div></div><nav class="studio-nav" aria-label="Navegación principal">';
     foreach($tabs as $key=>$item){if($key==='ranking'&&!$member)continue;$out.='<a href="'.studioEsc($base.$item[0]).'"'.($active===$key?' aria-current="page"':'').'>'.studioEsc($item[1]).'</a>';}
-    return $out.'</nav></header><script defer src="'.studioEsc($base).'assets/header.js"></script>';
+    return $out.'</nav></header><script defer src="'.studioEsc($base).'assets/header.js?v=2"></script>';
 }
 function studioPlumaTabs(string $active=''): string {
     $base=studioBase();$out='<div class="studio-pluma-tabs" aria-label="Secciones de Pluma Libre">';
