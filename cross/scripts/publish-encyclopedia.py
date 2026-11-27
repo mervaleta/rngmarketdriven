@@ -87,7 +87,7 @@ def verify():
     def read(rel):
         req=urllib.request.Request(base+rel+("&" if "?" in rel else "?")+"studio_check="+str(time.time_ns()),headers={"Cache-Control":"no-cache","User-Agent":"StudioReleaseCheck/1.0"})
         with urllib.request.urlopen(req,timeout=25) as res:return res.read(),res.headers.get_content_type()
-    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","Elegir significado"),("glosario/index.php?f=vestido","Clothing Dataset")]:
+    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","¿A cuál te referís?"),("glosario/index.php?f=vestido","Clothing Dataset")]:
         data,_=read(rel)
         if needle.encode() not in data:raise ValueError("Live content not confirmed: "+rel)
     manifest=json.loads((OUT/"includes/glossary-images.json").read_text())
