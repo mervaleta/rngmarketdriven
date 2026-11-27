@@ -57,6 +57,104 @@
           "caption": "Lámina 2 · US1115674A"
         }
       ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1912–1913",
+      "title": "Corpiño de principios del siglo XX",
+      "description": "Ejemplo de corpiño conservado anterior a la patente concedida a Mary Phelps Jacob.",
+      "source": "https://www.metmuseum.org/art/collection/search/108979",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 108979,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108979",
+          "path": "assets/glossary/history/met-108979.jpg",
+          "caption": "Corpiño de principios del siglo XX",
+          "met_object_id": 108979
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1910–1920",
+      "title": "Corpiño histórico",
+      "description": "Ejemplar estadounidense o europeo que documenta las formas de soporte del pecho en la época.",
+      "source": "https://www.metmuseum.org/art/collection/search/108899",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 108899,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108899",
+          "path": "assets/glossary/history/met-108899.jpg",
+          "caption": "Corpiño histórico",
+          "met_object_id": 108899
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "Década de 1920",
+      "title": "Corpiño francés",
+      "description": "Pieza de seda y algodón que documenta la lencería de entreguerras.",
+      "source": "https://www.metmuseum.org/art/collection/search/105788",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 105788,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/105788",
+          "path": "assets/glossary/history/met-105788.jpg",
+          "caption": "Corpiño francés",
+          "met_object_id": 105788
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1922–1929",
+      "title": "Corpiño estadounidense",
+      "description": "Ejemplo de la evolución de esta familia de prendas durante la década de 1920.",
+      "source": "https://www.metmuseum.org/art/collection/search/174867",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 174867,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/174867",
+          "path": "assets/glossary/history/met-174867.jpg",
+          "caption": "Corpiño estadounidense",
+          "met_object_id": 174867
+        }
+      ]
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1927-08-30",
+      "title": "Corpiño con banda ancha",
+      "description": "Construcción con piezas elásticas laterales y una banda inferior que se superpone al corset.",
+      "number": "US1640823A",
+      "source": "https://patents.google.com/patent/US1640823A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
+      "images": []
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1924-06-10",
+      "title": "Corpiño de ajuste lateral",
+      "description": "Diseño de una pieza con ajuste lateral y en cintura.",
+      "number": "US1497450A",
+      "source": "https://patents.google.com/patent/US1497450A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
+      "images": []
     }
   ],
   "corset": [
@@ -92,6 +190,25 @@
           "url": "https://patentimages.storage.googleapis.com/54/a9/75/36a53ff138c1f6/US595510-drawings-page-1.png",
           "path": "assets/glossary/history/us595510a-1.png",
           "caption": "Lámina 1 · US595510A"
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1830–1839",
+      "title": "Corset estadounidense de algodón",
+      "description": "Ejemplo de corsetería del siglo XIX.",
+      "source": "https://www.metmuseum.org/art/collection/search/174219",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 174219,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/174219",
+          "path": "assets/glossary/history/met-174219.jpg",
+          "caption": "Corset estadounidense de algodón",
+          "met_object_id": 174219
         }
       ]
     }
@@ -151,6 +268,56 @@
           "caption": "Lámina 1 · US732034A"
         }
       ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1840–1859",
+      "title": "Medias estadounidenses de algodón",
+      "description": "Ejemplo de calcetería de mediados del siglo XIX.",
+      "source": "https://www.metmuseum.org/art/collection/search/122366",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 122366,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/122366",
+          "path": "assets/glossary/history/met-122366.jpg",
+          "caption": "Medias estadounidenses de algodón",
+          "met_object_id": 122366
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1850–1870",
+      "title": "Medias de algodón",
+      "description": "Otro ejemplar de la colección histórica estadounidense.",
+      "source": "https://www.metmuseum.org/art/collection/search/174221",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 174221,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/174221",
+          "path": "assets/glossary/history/met-174221.jpg",
+          "caption": "Medias de algodón",
+          "met_object_id": 174221
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo · solo referencia",
+      "date": "1900–1910",
+      "title": "Medias francesas de seda",
+      "description": "Pertenecieron a Rita de Acosta Lydig; incorporan detalles de encaje y lazos para ligas. Imagen no reutilizable según la página del museo.",
+      "source": "https://www.metmuseum.org/art/collection/search/156657",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen no reutilizada",
+      "object_id": 156657,
+      "thumbnail_eligible": false,
+      "images": []
     }
   ],
   "medias-seamless": [
@@ -191,6 +358,17 @@
           "caption": "Lámina 1 · US1762399A"
         }
       ]
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1918-01-22",
+      "title": "Combinación de cubrecorset y corpiño",
+      "description": "Ejemplo de integración de prendas de soporte; antecedente relacionado, no invención del corselet.",
+      "number": "US1254043A",
+      "source": "https://patents.google.com/patent/US1254043A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
+      "images": []
     }
   ],
   "liguero": [
@@ -220,6 +398,28 @@
       "description": "Liguero de nylon catalogado en el Met. Imagen restringida por el museo; solo se enlaza a la ficha.",
       "source": "https://www.metmuseum.org/art/collection/search/100564",
       "credit": "The Metropolitan Museum of Art",
+      "images": []
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1903-03-24",
+      "title": "Soporte para medias",
+      "description": "Sistema de tiras elásticas y no elásticas para sujetar medias al corset.",
+      "number": "US723560A",
+      "source": "https://patents.google.com/patent/US723560A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
+      "images": []
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1921-10-25",
+      "title": "Liga regulable",
+      "description": "Sistema de cinta ajustable y hebilla para sujetar una media.",
+      "number": "US1395192A",
+      "source": "https://patents.google.com/patent/US1395192A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
       "images": []
     }
   ],
@@ -298,6 +498,25 @@
         }
       ],
       "object_id": 62209
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1850–1859",
+      "title": "Bolso de noche",
+      "description": "Pieza probablemente europea de metal y algodón.",
+      "source": "https://www.metmuseum.org/art/collection/search/168623",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 168623,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/168623",
+          "path": "assets/glossary/history/met-168623.jpg",
+          "caption": "Bolso de noche",
+          "met_object_id": 168623
+        }
+      ]
     }
   ],
   "combinacion-media": [
@@ -328,6 +547,458 @@
       "number": "US1882591A",
       "source": "https://patents.google.com/patent/US1882591A/en",
       "credit": "United States Patent Office",
+      "images": []
+    }
+  ],
+  "liga": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Principios del siglo XIX",
+      "title": "Ligas francesas de hilo metálico",
+      "description": "Piezas para sujetar las medias, anteriores a los sistemas modernos de liguero.",
+      "source": "https://www.metmuseum.org/art/collection/search/102465",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 102465,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/102465",
+          "path": "assets/glossary/history/met-102465.jpg",
+          "caption": "Ligas francesas de hilo metálico",
+          "met_object_id": 102465
+        }
+      ]
+    }
+  ],
+  "lenceria": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1866",
+      "title": "Ropa interior histórica: drawers",
+      "description": "Prenda inferior de época, antecedente de la ropa interior moderna; no equivale a una bombacha contemporánea.",
+      "source": "https://www.metmuseum.org/art/collection/search/105546",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 105546,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/105546",
+          "path": "assets/glossary/history/met-105546.jpg",
+          "caption": "Ropa interior histórica: drawers",
+          "met_object_id": 105546
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1874",
+      "title": "Ropa interior histórica estadounidense",
+      "description": "Otro ejemplo de drawers conservados en el museo.",
+      "source": "https://www.metmuseum.org/art/collection/search/109241",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 109241,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/109241",
+          "path": "assets/glossary/history/met-109241.jpg",
+          "caption": "Ropa interior histórica estadounidense",
+          "met_object_id": 109241
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "Hacia 1890",
+      "title": "Combination histórica",
+      "description": "Prenda interior combinada de finales del siglo XIX; no debe confundirse automáticamente con una combinación de falda moderna.",
+      "source": "https://www.metmuseum.org/art/collection/search/106021",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 106021,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/106021",
+          "path": "assets/glossary/history/met-106021.jpg",
+          "caption": "Combination histórica",
+          "met_object_id": 106021
+        }
+      ]
+    }
+  ],
+  "bombacha": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Principios del siglo XIX",
+      "title": "Antecedente: calzones interiores",
+      "description": "Ejemplar de drawers, de corte histórico distinto de las bombachas actuales.",
+      "source": "https://www.metmuseum.org/art/collection/search/91589",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 91589,
+      "thumbnail_eligible": false,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/91589",
+          "path": "assets/glossary/history/met-91589.jpg",
+          "caption": "Antecedente: calzones interiores",
+          "met_object_id": 91589
+        }
+      ]
+    }
+  ],
+  "camison": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1895–1900",
+      "title": "Camisón de lino",
+      "description": "Prenda de descanso estadounidense.",
+      "source": "https://www.metmuseum.org/art/collection/search/157210",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 157210,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/157210",
+          "path": "assets/glossary/history/met-157210.jpg",
+          "caption": "Camisón de lino",
+          "met_object_id": 157210
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1840–1889",
+      "title": "Camisón de algodón",
+      "description": "Ejemplo histórico estadounidense de ropa de descanso.",
+      "source": "https://www.metmuseum.org/art/collection/search/109155",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 109155,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/109155",
+          "path": "assets/glossary/history/met-109155.jpg",
+          "caption": "Camisón de algodón",
+          "met_object_id": 109155
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1863",
+      "title": "Camisón estadounidense o europeo",
+      "description": "Pieza de algodón con fecha catalogada.",
+      "source": "https://www.metmuseum.org/art/collection/search/109101",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 109101,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/109101",
+          "path": "assets/glossary/history/met-109101.jpg",
+          "caption": "Camisón estadounidense o europeo",
+          "met_object_id": 109101
+        }
+      ]
+    }
+  ],
+  "pijama": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1890",
+      "title": "Pijama de lino",
+      "description": "Ejemplo estadounidense conservado en el Costume Institute.",
+      "source": "https://www.metmuseum.org/art/collection/search/91604",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 91604,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/91604",
+          "path": "assets/glossary/history/met-91604.jpg",
+          "caption": "Pijama de lino",
+          "met_object_id": 91604
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "Principios de los años treinta",
+      "title": "Pijama estadounidense",
+      "description": "Registro de museo de un conjunto de descanso.",
+      "source": "https://www.metmuseum.org/art/collection/search/108805",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 108805,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108805",
+          "path": "assets/glossary/history/met-108805.jpg",
+          "caption": "Pijama estadounidense",
+          "met_object_id": 108805
+        }
+      ]
+    }
+  ],
+  "guantes": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1825",
+      "title": "Guantes estadounidenses de seda",
+      "description": "Ejemplo fechado del uso de guantes como accesorio.",
+      "source": "https://www.metmuseum.org/art/collection/search/119432",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 119432,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/119432",
+          "path": "assets/glossary/history/met-119432.jpg",
+          "caption": "Guantes estadounidenses de seda",
+          "met_object_id": 119432
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1825",
+      "title": "Guantes de seda",
+      "description": "Otro ejemplar de la colección.",
+      "source": "https://www.metmuseum.org/art/collection/search/98108",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 98108,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/98108",
+          "path": "assets/glossary/history/met-98108.jpg",
+          "caption": "Guantes de seda",
+          "met_object_id": 98108
+        }
+      ]
+    }
+  ],
+  "monedero": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Hacia 1909",
+      "title": "Monedero de metal y seda",
+      "description": "Ejemplo de accesorio estadounidense.",
+      "source": "https://www.metmuseum.org/art/collection/search/156518",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 156518,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/156518",
+          "path": "assets/glossary/history/met-156518.jpg",
+          "caption": "Monedero de metal y seda",
+          "met_object_id": 156518
+        }
+      ]
+    }
+  ],
+  "sombrilla": [
+    {
+      "kind": "Pieza de museo · solo referencia",
+      "date": "1920–1929",
+      "title": "Sombrilla estadounidense",
+      "description": "Pieza de seda, madera y otros materiales; imagen restringida por el museo.",
+      "source": "https://www.metmuseum.org/art/collection/search/158144",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen no reutilizada",
+      "object_id": 158144,
+      "thumbnail_eligible": false,
+      "images": []
+    }
+  ],
+  "bota": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1810–1829",
+      "title": "Botas de cuero",
+      "description": "Ejemplo estadounidense del siglo XIX.",
+      "source": "https://www.metmuseum.org/art/collection/search/98060",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 98060,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/98060",
+          "path": "assets/glossary/history/met-98060.jpg",
+          "caption": "Botas de cuero",
+          "met_object_id": 98060
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1874",
+      "title": "Botas europeas",
+      "description": "Pieza de calzado con fecha de fabricación catalogada.",
+      "source": "https://www.metmuseum.org/art/collection/search/90409",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 90409,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/90409",
+          "path": "assets/glossary/history/met-90409.jpg",
+          "caption": "Botas europeas",
+          "met_object_id": 90409
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo",
+      "date": "1899–1900",
+      "title": "Botas estadounidenses de cuero",
+      "description": "Ejemplo de transición entre los siglos XIX y XX.",
+      "source": "https://www.metmuseum.org/art/collection/search/90429",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 90429,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/90429",
+          "path": "assets/glossary/history/met-90429.jpg",
+          "caption": "Botas estadounidenses de cuero",
+          "met_object_id": 90429
+        }
+      ]
+    }
+  ],
+  "traje-de-bano": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1885",
+      "title": "Traje de baño histórico",
+      "description": "Ejemplar estadounidense de finales del siglo XIX.",
+      "source": "https://www.metmuseum.org/art/collection/search/86429",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 86429,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/86429",
+          "path": "assets/glossary/history/met-86429.jpg",
+          "caption": "Traje de baño histórico",
+          "met_object_id": 86429
+        }
+      ]
+    }
+  ],
+  "blusa": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Hacia 1866",
+      "title": "Blusa de lino",
+      "description": "Ejemplo estadounidense de blusa histórica.",
+      "source": "https://www.metmuseum.org/art/collection/search/109478",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 109478,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/109478",
+          "path": "assets/glossary/history/met-109478.jpg",
+          "caption": "Blusa de lino",
+          "met_object_id": 109478
+        }
+      ]
+    }
+  ],
+  "pollera": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Hacia 1750",
+      "title": "Pollera de lino y lana",
+      "description": "Pieza de Massachusetts del siglo XVIII.",
+      "source": "https://www.metmuseum.org/art/collection/search/90834",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 90834,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/90834",
+          "path": "assets/glossary/history/met-90834.jpg",
+          "caption": "Pollera de lino y lana",
+          "met_object_id": 90834
+        }
+      ]
+    }
+  ],
+  "sombrero": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Finales del siglo XIX",
+      "title": "Sombrero de paja",
+      "description": "Ejemplar estadounidense o europeo conservado en el museo.",
+      "source": "https://www.metmuseum.org/art/collection/search/103367",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 103367,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/103367",
+          "path": "assets/glossary/history/met-103367.jpg",
+          "caption": "Sombrero de paja",
+          "met_object_id": 103367
+        }
+      ]
+    }
+  ],
+  "zapatos": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1890–1900",
+      "title": "Zapatos estadounidenses",
+      "description": "Pieza de calzado de finales del siglo XIX.",
+      "source": "https://www.metmuseum.org/art/collection/search/102310",
+      "credit": "The Metropolitan Museum of Art",
+      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "object_id": 102310,
+      "thumbnail_eligible": true,
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/102310",
+          "path": "assets/glossary/history/met-102310.jpg",
+          "caption": "Zapatos estadounidenses",
+          "met_object_id": 102310
+        }
+      ]
+    }
+  ],
+  "medias-para-liguero": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1924-01-08",
+      "title": "Media y sistema de sujeción",
+      "description": "Patente de mejoras de sujeción entre la media y sus accesorios.",
+      "number": "US1480385A",
+      "source": "https://patents.google.com/patent/US1480385A/en",
+      "credit": "United States Patent Office · Google Patents",
+      "license": "Publicación anterior a 1931; dominio público en EE. UU.",
       "images": []
     }
   ]

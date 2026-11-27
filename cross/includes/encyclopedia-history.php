@@ -10,8 +10,9 @@ function encHistoryAsset(array $m): ?string {
  return $p;
 }
 function encHistoryRender(string $slug,string $base): string {
- $events=encHistory($slug);if(!$events)return '';
- $out='<section class="enc-sub enc-history"><h2>Historia y documentación</h2><p class="enc-muted">Las fechas documentan piezas conservadas o patentes específicas, no necesariamente la invención ni la primera fabricación de la prenda.</p>';
+ $events=encHistory($slug);
+ $out='<section id="historia" class="enc-sub enc-history"><h2>Historia y documentación</h2><p class="enc-muted">Las fechas documentan piezas conservadas o patentes específicas, no necesariamente la invención ni la primera fabricación de la prenda.</p>';
+ if(!$events)return $out.'<p class="enc-muted">Todavía no contamos con una fecha, patente o pieza histórica verificada para esta ficha. La investigación sigue abierta.</p></section>';
  foreach($events as $e){
   $out.='<article class="enc-history-event"><div><span class="enc-tag">'.encE($e['kind']).'</span><h3>'.encE($e['date'].' · '.$e['title']).'</h3>';
   if(!empty($e['person']))$out.='<p class="enc-muted">'.encE($e['person']).'</p>';
@@ -21,4 +22,12 @@ function encHistoryRender(string $slug,string $base): string {
   $out.='</article>';
  }
  return $out.'</section>';
+}
+
+function encHistoricalThumb(string $slug,string $base): ?array {
+ foreach(encHistory($slug) as $e){
+  if(empty($e['thumbnail_eligible']))continue;
+  foreach($e['images']??[] as $m){$p=encHistoryAsset($m);if($p!==null)return ['src'=>$base.$p,'caption'=>$m['caption'],'credit'=>$e['credit'].' · Ejemplar histórico'];}
+ }
+ return null;
 }

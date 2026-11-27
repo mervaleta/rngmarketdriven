@@ -53,6 +53,14 @@ def build():
         url=m["url"]
         if urllib.parse.urlsplit(url).hostname not in ("collectionapi.metmuseum.org","patentimages.storage.googleapis.com"):raise ValueError("Unknown source")
         try:
+            if m.get("met_object_id"):
+                with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"StudioGlossary/1.0 (https://rngmarketdriven.com/cross/glosario/)"}),timeout=20) as response:
+                    obj=json.load(response)
+                if obj.get("objectID")!=m["met_object_id"] or not obj.get("isPublicDomain"):
+                    raise ValueError("Met image not confirmed CC0")
+                url=obj.get("primaryImageSmall") or obj.get("primaryImage")
+                if not url or urllib.parse.urlsplit(url).scheme!="https" or urllib.parse.urlsplit(url).hostname not in ("images.metmuseum.org","collectionapi.metmuseum.org"):
+                    raise ValueError("No approved Met image")
             req=urllib.request.Request(url,headers={"User-Agent":"StudioGlossary/1.0 (https://rngmarketdriven.com/cross/glosario/)"})
             with urllib.request.urlopen(req,timeout=25) as response:
                 data=response.read(12*1024*1024+1)
