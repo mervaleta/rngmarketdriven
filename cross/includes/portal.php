@@ -9,6 +9,7 @@ header('X-Content-Type-Options: nosniff');
 $html=file_get_contents(__DIR__.'/portal.html');
 if($html===false){http_response_code(500);exit('Plantilla no disponible.');}
 $base=studioBase();$member=studioCurrentMember();$memberMode=$member!==null&&!empty($_SESSION['csrf']);
+if($view==='ranking'&&!$memberMode){header('Location: '.$base.'cuenta/?v=login',true,302);exit;}
 $gameConfig=$memberMode?['url'=>$base.'community.php?v=game_api','csrf'=>$_SESSION['csrf']]:null;
 $html=str_replace('<!--STUDIO_HEADER-->',studioHeader($active),$html);
 $html=str_replace('<!--STUDIO_STYLE-->','<link rel="stylesheet" href="'.studioEsc($base).'assets/shared.css">',$html);
@@ -18,7 +19,7 @@ $html=str_replace('<!--STUDIO_BASE-->',json_encode($base,JSON_HEX_TAG|JSON_HEX_A
 $demoRanks=[];$officialRanks=[];
 try {
  $private=dirname(__DIR__).'/private';$configPath=$private.'/config.php';
- if(is_file($configPath)&&is_file($private.'/.htaccess')){
+ if($memberMode&&$view==='ranking'&&is_file($configPath)&&is_file($private.'/.htaccess')){
   $cfg=require $configPath;
   if(is_array($cfg)&&($cfg['storage_verified']??false)===true&&is_string($cfg['setup_key']??null)&&strlen($cfg['setup_key'])>=32){
    $dbPath=$private.'/studio-'.hash_hmac('sha256','studio-db-v1',$cfg['setup_key']).'.sqlite3';
