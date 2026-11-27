@@ -35,7 +35,7 @@ function studioEmailStart(string $mode): void{
  global $me,$open,$cfg;
  if(!studioMailReady())err('El servicio de correo todavía no está habilitado.');
  if($mode==='register'&&(!$open||$me))err('El registro no está disponible.');
- if($mode==='attach'){needUser();if(!empty($me['is_bot']))err('No disponible.');$u=one('SELECT password_hash FROM studio_users WHERE id=?',[$me['id']]);if(!$u||!password_verify(p('current'),$u['password_hash']))err('Contraseña actual incorrecta.');}
+ if($mode==='attach'){needUser();rate('attach-password:'.$me['id'],6,900);if(!empty($me['is_bot']))err('No disponible.');$u=one('SELECT password_hash FROM studio_users WHERE id=?',[$me['id']]);if(!$u||!password_verify(p('current'),$u['password_hash']))err('Contraseña actual incorrecta.');}
  rate('email-ip:'.ip(),6,3600);
  $email=studioEmailValue(p('email'));$key=studioEmailKey($email);rate('email-address:'.$key,4,3600);rate('email-global',150,3600);
  $pending=['mode'=>$mode,'email_key'=>$key,'uid'=>$mode==='attach'?(int)$me['id']:0,'expires'=>time()+900,'tries'=>0];
