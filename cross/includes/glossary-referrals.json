@@ -1,0 +1,567 @@
+{
+  "crossdressing": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "crossdresser": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "en-femme": {
+    "type": "both",
+    "suggestion": "Asesoramiento de imagen y estilismo",
+    "offers": []
+  },
+  "expresion-de-genero": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "identidad-de-genero": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "orientacion-sexual": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "femme": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "femboy": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "drag": {
+    "type": "product",
+    "suggestion": "Vestuario escénico y maquillaje artístico",
+    "offers": []
+  },
+  "androginia": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "genero-fluido": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "no-binario": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "transgenero": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "transfemenino": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "cisgenero": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "sissy": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "feminizacion": {
+    "type": "both",
+    "suggestion": "Asesoría de imagen y maquillaje, si te interesa",
+    "offers": []
+  },
+  "passing": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "closet": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "salir-del-armario": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "outing": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "tucking": {
+    "type": "product",
+    "suggestion": "Prendas de sujeción específicas",
+    "offers": []
+  },
+  "hip-pads": {
+    "type": "product",
+    "suggestion": "Rellenos de cadera y prendas con bolsillos para relleno",
+    "offers": []
+  },
+  "breast-forms": {
+    "type": "product",
+    "suggestion": "Prótesis mamarias externas y fundas compatibles",
+    "offers": []
+  },
+  "padding": {
+    "type": "product",
+    "suggestion": "Rellenos removibles para ropa",
+    "offers": []
+  },
+  "shapewear": {
+    "type": "product",
+    "suggestion": "Fajas modeladoras y prendas de compresión",
+    "offers": []
+  },
+  "gender-euphoria": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "boymode": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "girlmode": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "look": {
+    "type": "both",
+    "suggestion": "Asesoría de imagen y prendas para combinar",
+    "offers": []
+  },
+  "outfit": {
+    "type": "product",
+    "suggestion": "Conjuntos de ropa y accesorios",
+    "offers": []
+  },
+  "coquette": {
+    "type": "product",
+    "suggestion": "Prendas con lazos, encaje y accesorios de estilo coquette",
+    "offers": []
+  },
+  "pin-up": {
+    "type": "product",
+    "suggestion": "Vestidos y accesorios de inspiración retro",
+    "offers": []
+  },
+  "kawaii": {
+    "type": "product",
+    "suggestion": "Ropa y accesorios de estilo kawaii",
+    "offers": []
+  },
+  "balletcore": {
+    "type": "product",
+    "suggestion": "Ballerinas, calentadores y prendas cruzadas",
+    "offers": []
+  },
+  "cottagecore": {
+    "type": "product",
+    "suggestion": "Vestidos y accesorios de inspiración campestre",
+    "offers": []
+  },
+  "lolita": {
+    "type": "product",
+    "suggestion": "Vestidos, enaguas y accesorios de moda lolita",
+    "offers": []
+  },
+  "preppy": {
+    "type": "product",
+    "suggestion": "Blazers, polleras plisadas y mocasines",
+    "offers": []
+  },
+  "vintage": {
+    "type": "product",
+    "suggestion": "Tiendas de ropa vintage y de segunda mano",
+    "offers": []
+  },
+  "stiletto": {
+    "type": "product",
+    "suggestion": "Zapatos de taco aguja",
+    "offers": []
+  },
+  "kitten-heel": {
+    "type": "product",
+    "suggestion": "Zapatos de taco bajo y fino",
+    "offers": []
+  },
+  "mule": {
+    "type": "product",
+    "suggestion": "Zapatos abiertos por detrás",
+    "offers": []
+  },
+  "mary-jane": {
+    "type": "product",
+    "suggestion": "Zapatos Merceditas",
+    "offers": []
+  },
+  "slingback": {
+    "type": "product",
+    "suggestion": "Zapatos con tira trasera",
+    "offers": []
+  },
+  "ballerina": {
+    "type": "product",
+    "suggestion": "Zapatos planos tipo ballerina",
+    "offers": []
+  },
+  "peep-toe": {
+    "type": "product",
+    "suggestion": "Zapatos con punta abierta",
+    "offers": []
+  },
+  "taco-de-cuna": {
+    "type": "product",
+    "suggestion": "Calzado con taco de cuña",
+    "offers": []
+  },
+  "block-heel": {
+    "type": "product",
+    "suggestion": "Zapatos con taco ancho",
+    "offers": []
+  },
+  "corset": {
+    "type": "product",
+    "suggestion": "Corsés estructurados",
+    "offers": []
+  },
+  "bralette": {
+    "type": "product",
+    "suggestion": "Bralettes y tops sin aro",
+    "offers": []
+  },
+  "body": {
+    "type": "product",
+    "suggestion": "Bodies",
+    "offers": []
+  },
+  "culotte": {
+    "type": "product",
+    "suggestion": "Culottes y ropa interior de corte amplio",
+    "offers": []
+  },
+  "falda-lapiz": {
+    "type": "product",
+    "suggestion": "Polleras de corte lápiz",
+    "offers": []
+  },
+  "evase": {
+    "type": "product",
+    "suggestion": "Polleras evasé",
+    "offers": []
+  },
+  "vestido-lencero": {
+    "type": "product",
+    "suggestion": "Vestidos lenceros",
+    "offers": []
+  },
+  "escote-halter": {
+    "type": "product",
+    "suggestion": "Tops y vestidos halter",
+    "offers": []
+  },
+  "strapless": {
+    "type": "product",
+    "suggestion": "Tops y vestidos sin tirantes",
+    "offers": []
+  },
+  "pantimedias": {
+    "type": "product",
+    "suggestion": "Pantimedias y medias enteras",
+    "offers": []
+  },
+  "denier": {
+    "type": "product",
+    "suggestion": "Medias con diferentes valores de denier",
+    "offers": []
+  },
+  "liguero": {
+    "type": "product",
+    "suggestion": "Ligueros y medias compatibles",
+    "offers": []
+  },
+  "saten": {
+    "type": "product",
+    "suggestion": "Telas satinadas y prendas de satén",
+    "offers": []
+  },
+  "encaje": {
+    "type": "product",
+    "suggestion": "Telas de encaje, prendas y mercería",
+    "offers": []
+  },
+  "primer": {
+    "type": "product",
+    "suggestion": "Prebases faciales",
+    "offers": []
+  },
+  "foundation": {
+    "type": "product",
+    "suggestion": "Bases de maquillaje",
+    "offers": []
+  },
+  "concealer": {
+    "type": "product",
+    "suggestion": "Correctores de maquillaje",
+    "offers": []
+  },
+  "color-corrector": {
+    "type": "product",
+    "suggestion": "Correctores cromáticos",
+    "offers": []
+  },
+  "contouring": {
+    "type": "both",
+    "suggestion": "Paletas de contorno, brochas y clases de maquillaje",
+    "offers": []
+  },
+  "highlighter": {
+    "type": "product",
+    "suggestion": "Iluminadores faciales",
+    "offers": []
+  },
+  "blush": {
+    "type": "product",
+    "suggestion": "Rubores",
+    "offers": []
+  },
+  "bronzer": {
+    "type": "product",
+    "suggestion": "Bronceadores de maquillaje",
+    "offers": []
+  },
+  "baking": {
+    "type": "product",
+    "suggestion": "Polvos sueltos y brochas",
+    "offers": []
+  },
+  "setting-spray": {
+    "type": "product",
+    "suggestion": "Fijadores de maquillaje",
+    "offers": []
+  },
+  "smokey-eye": {
+    "type": "both",
+    "suggestion": "Paletas de sombras y servicios de maquillaje",
+    "offers": []
+  },
+  "cat-eye": {
+    "type": "both",
+    "suggestion": "Delineadores y servicios de maquillaje",
+    "offers": []
+  },
+  "cut-crease": {
+    "type": "both",
+    "suggestion": "Sombras, pinceles y clases de maquillaje",
+    "offers": []
+  },
+  "tightlining": {
+    "type": "product",
+    "suggestion": "Lápices de ojos aptos para la línea de agua",
+    "offers": []
+  },
+  "lip-tint": {
+    "type": "product",
+    "suggestion": "Tintas labiales",
+    "offers": []
+  },
+  "lip-liner": {
+    "type": "product",
+    "suggestion": "Delineadores de labios",
+    "offers": []
+  },
+  "nude": {
+    "type": "product",
+    "suggestion": "Labiales y sombras en tonos naturales",
+    "offers": []
+  },
+  "lace-front": {
+    "type": "product",
+    "suggestion": "Pelucas lace front",
+    "offers": []
+  },
+  "full-lace": {
+    "type": "product",
+    "suggestion": "Pelucas full lace",
+    "offers": []
+  },
+  "wig-cap": {
+    "type": "product",
+    "suggestion": "Gorros de peluca",
+    "offers": []
+  },
+  "monofilamento": {
+    "type": "product",
+    "suggestion": "Pelucas con base de monofilamento",
+    "offers": []
+  },
+  "bob": {
+    "type": "both",
+    "suggestion": "Corte bob en peluquería o pelucas de ese estilo",
+    "offers": []
+  },
+  "pixie": {
+    "type": "both",
+    "suggestion": "Corte pixie en peluquería o pelucas cortas",
+    "offers": []
+  },
+  "updo": {
+    "type": "both",
+    "suggestion": "Servicios de peinado recogido y accesorios para el cabello",
+    "offers": []
+  },
+  "nail-art": {
+    "type": "both",
+    "suggestion": "Servicios de decoración de uñas, esmaltes y herramientas",
+    "offers": []
+  },
+  "press-on": {
+    "type": "product",
+    "suggestion": "Uñas postizas press-on",
+    "offers": []
+  },
+  "coffin": {
+    "type": "both",
+    "suggestion": "Uñas postizas de forma coffin o servicio de manicura",
+    "offers": []
+  },
+  "squoval": {
+    "type": "both",
+    "suggestion": "Servicio de manicura de forma squoval",
+    "offers": []
+  },
+  "baby-boomer": {
+    "type": "both",
+    "suggestion": "Servicio de manicura degradada y esmaltes",
+    "offers": []
+  },
+  "seudonimo": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "consentimiento": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "metadatos": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "perfil-privado": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "poliamida": {
+    "type": "product",
+    "suggestion": "Prendas y tejidos de poliamida",
+    "offers": []
+  },
+  "elastano": {
+    "type": "product",
+    "suggestion": "Prendas elásticas y telas con elastano",
+    "offers": []
+  },
+  "horma": {
+    "type": "both",
+    "suggestion": "Hormas, calzado de distintas anchuras y zapaterías",
+    "offers": []
+  },
+  "tiro": {
+    "type": "product",
+    "suggestion": "Pantalones de distintos tiros",
+    "offers": []
+  },
+  "molderia": {
+    "type": "both",
+    "suggestion": "Patrones de costura y servicios de confección",
+    "offers": []
+  },
+  "pretina": {
+    "type": "both",
+    "suggestion": "Mercería y servicios de arreglos de ropa",
+    "offers": []
+  },
+  "ruedo": {
+    "type": "both",
+    "suggestion": "Servicios de costura y arreglos de ruedo",
+    "offers": []
+  },
+  "bretel": {
+    "type": "product",
+    "suggestion": "Breteles, herrajes y prendas con tirantes ajustables",
+    "offers": []
+  },
+  "copa": {
+    "type": "product",
+    "suggestion": "Corpiños de distintos talles y copas",
+    "offers": []
+  },
+  "cana": {
+    "type": "product",
+    "suggestion": "Botas de distintas alturas de caña",
+    "offers": []
+  },
+  "empeine": {
+    "type": "both",
+    "suggestion": "Calzado de distintas hormas y servicios de zapatería",
+    "offers": []
+  },
+  "wide-leg": {
+    "type": "product",
+    "suggestion": "Pantalones de pierna ancha",
+    "offers": []
+  },
+  "bodycon": {
+    "type": "product",
+    "suggestion": "Vestidos ajustados bodycon",
+    "offers": []
+  },
+  "fishnet": {
+    "type": "product",
+    "suggestion": "Medias de red",
+    "offers": []
+  },
+  "shimmer": {
+    "type": "product",
+    "suggestion": "Sombras y cosméticos con brillo",
+    "offers": []
+  },
+  "duocromo": {
+    "type": "product",
+    "suggestion": "Sombras duocromo",
+    "offers": []
+  },
+  "manicura-francesa": {
+    "type": "both",
+    "suggestion": "Servicios de manicura francesa y kits de esmaltes",
+    "offers": []
+  },
+  "cartera-capsula": {
+    "type": "product",
+    "suggestion": "Carteras versátiles y bolsos básicos",
+    "offers": []
+  }
+}

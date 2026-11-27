@@ -188,5 +188,147 @@
       "by/2.0",
       "Manicura francesa con puntas claras"
     ]
+  ],
+  "slingback": [
+    [
+      "Slingback-shoes.jpg",
+      "Lisa",
+      "by/2.0",
+      "Zapatos con tira en el talón"
+    ]
+  ],
+  "taco-de-cuna": [
+    [
+      "Wedge.jpg",
+      "twicepix",
+      "by-sa/2.0",
+      "Zapato con taco de cuña"
+    ]
+  ],
+  "escote-halter": [
+    [
+      "Haltertop.jpg",
+      "At~A~Glance / Katie Tegtmeyer",
+      "by/2.0",
+      "Top con sujeción alrededor del cuello"
+    ]
+  ],
+  "strapless": [
+    [
+      "Strapless dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración de vestido sin tirantes"
+    ],
+    [
+      "1958 Coco Chanel strapless evening dress, black lace with velvet sash.jpg",
+      "Fotógrafo del RISD Museum of Art",
+      "cc0",
+      "Vestido de noche sin tirantes, con encaje"
+    ]
+  ],
+  "pantimedias": [
+    [
+      "Pantyhose (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Dibujo técnico de pantimedias"
+    ]
+  ],
+  "saten": [
+    [
+      "Charmeuse.jpg",
+      "Enby",
+      "by-sa/4.0",
+      "Tela charmeuse: cara satinada brillante y reverso mate"
+    ]
+  ],
+  "encaje": [
+    [
+      "Irish crochet lace with a fabric insert.jpg",
+      "Smirkybec",
+      "by-sa/4.0",
+      "Encaje irlandés de crochet"
+    ]
+  ],
+  "fishnet": [
+    [
+      "Fishnet stockings from below.jpg",
+      "Emdot",
+      "by/2.0",
+      "Medias de red negras"
+    ]
+  ],
+  "concealer": [
+    [
+      "Concealer.jpg",
+      "Jen (Calliopejen1)",
+      "by-sa/3.0",
+      "Corrector de maquillaje"
+    ],
+    [
+      "Concealer (2).jpg",
+      "Benff",
+      "by-sa/4.0",
+      "Otra presentación de corrector"
+    ]
+  ],
+  "contouring": [
+    [
+      "Example for contouring the cheekbone with makeup.jpg",
+      "Tobias ToMar Maier",
+      "by-sa/3.0",
+      "Ejemplo de contorno de pómulo con maquillaje"
+    ]
+  ],
+  "smokey-eye": [
+    [
+      "Kylee Fleek Rainbow Smokey Eye Makeup.jpg",
+      "Kylee Fleek",
+      "by-sa/4.0",
+      "Maquillaje de ojos ahumado multicolor"
+    ]
+  ],
+  "nail-art": [
+    [
+      "Nail art.jpg",
+      "NüBR",
+      "cc0",
+      "Ejemplo de decoración de uñas"
+    ],
+    [
+      "Nailart.jpg",
+      "Biamelie",
+      "by-sa/4.0",
+      "Decoración de uñas con motivo Pac-Man"
+    ]
+  ],
+  "horma": [
+    [
+      "Michael Fallon, Shoe Last, 1938, NGA 24117.jpg",
+      "Michael Fallon / National Gallery of Art",
+      "cc0",
+      "Ilustración de una horma de zapatero"
+    ],
+    [
+      "George Bobholz, Shoe Last, 1938, NGA 24115.jpg",
+      "George Bobholz / National Gallery of Art",
+      "cc0",
+      "Otra forma de horma para calzado"
+    ]
+  ],
+  "bob": [
+    [
+      "Woman with bob haircut, rear view (26 October 2018) (edited).jpg",
+      "Alex Neman",
+      "by-sa/4.0",
+      "Vista posterior de un corte bob"
+    ],
+    [
+      "Young woman with bob haircut from behind (cropped).jpg",
+      "Alex Neman",
+      "by-sa/4.0",
+      "Otra variante de corte bob vista desde atrás"
+    ]
   ]
 }
