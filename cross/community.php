@@ -69,7 +69,7 @@ try{
   $bots=[
    ['demo_luna','Luna',180,'Romántico y clásico','Bot de demostración · looks y colecciones.','¡Bienvenidas al club! Estoy probando el primer álbum.'],
    ['demo_violeta','Violeta',135,'Lavanda y vintage','Bot de demostración · maquillaje y accesorios.','Mi color favorito para esta temporada es el lavanda. ¿Cuál elegirías?'],
-   ['demo_cereza','Cereza',90,'Retro y colorido','Bot de demostración · arcade y desafíos.','Estoy explorando Style Ticker y las recompensas del álbum.'],
+   ['demo_cereza','Cereza',90,'Retro y colorido','Bot de demostración · arcade y desafíos.','Estoy explorando CrossQuiz y las recompensas del álbum.'],
    ['demo_perla','Perla',55,'Minimalista y elegante','Bot de demostración · recursos y guías.','Una tabla de medidas ayuda mucho al elegir prendas online.']
   ];
   foreach($bots as $bot){
@@ -104,7 +104,7 @@ if($a==='delete_post'){$r=one('SELECT id,user_id,kind FROM studio_posts WHERE id
 if($a==='demo_activity'){needAdmin();rate('demo:'.$me['id'],12,300);
  $bot=one("SELECT b.user_id,u.display_name FROM studio_demo_bots b JOIN studio_users u ON u.id=b.user_id WHERE u.active=1 ORDER BY RANDOM() LIMIT 1");
  if(!$bot)err('No hay bots activos.');
- $messages=['Estoy probando una nueva combinación para el guardarropa.','Hoy revisé los recursos de talles y medidas.','Una ronda de Style Ticker y después a revisar el álbum.','Me gusta la idea de coleccionar marcos de perfil.','¿Qué minijuego les gustaría ver en la próxima versión?'];
+ $messages=['Estoy probando una nueva combinación para el guardarropa.','Hoy revisé los recursos de talles y medidas.','Una ronda de CrossQuiz y después a revisar el álbum.','Me gusta la idea de coleccionar marcos de perfil.','¿Qué minijuego les gustaría ver en la próxima versión?'];
  $msg=$messages[random_int(0,count($messages)-1)];$db->exec('BEGIN IMMEDIATE');
  try{q('UPDATE studio_demo_bots SET xp=xp+5 WHERE user_id=?',[$bot['user_id']]);q("INSERT INTO studio_posts(user_id,kind,body) VALUES(?,'wall',?)",[$bot['user_id'],$msg]);$db->exec('COMMIT');}catch(Throwable $e){$db->exec('ROLLBACK');throw $e;}
  flash('Actividad demo creada para '.$bot['display_name'].' (+5 XP).');go('admin');
