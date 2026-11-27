@@ -70,6 +70,7 @@ const avatar = new THREE.Group();
 scene.add(avatar);
 
 // ---- Load ------------------------------------------------------------------------------------
+document.getElementById("loading").textContent="Cargando geometría del cuerpo…";
 const base = await loadBase(A);
 avatar.scale.setScalar(1 / base.unitsPerMeter);
 const index = base.index;
@@ -97,6 +98,8 @@ bodyGeom.setIndex(new THREE.BufferAttribute(base.body.indices, 1));
 addMorphs(bodyGeom, bodySource, base.faceShapes);
 const skinCanvas = document.createElement("canvas");
 skinCanvas.width = skinCanvas.height = 1024;  // the view; the download composes its own at 2048 (paintSkin)
+const skinContext = skinCanvas.getContext("2d");
+skinContext.fillStyle="#c99c83"; skinContext.fillRect(0,0,skinCanvas.width,skinCanvas.height);
 const skinTexture = new THREE.CanvasTexture(skinCanvas);
 skinTexture.colorSpace = THREE.SRGBColorSpace;
 const bodyMesh = new THREE.Mesh(bodyGeom, new THREE.MeshStandardMaterial({ roughness: 0.7, map: skinTexture }));
@@ -139,7 +142,7 @@ async function makeWorn(id, slot) {
   const entry = { item, mesh: new THREE.Mesh(g, material), fitted: new Float32Array(item.info.vertexCount * 3) };
   entry.mesh.updateMorphTargets();
   const textureFile = slot === "eyes" ? index.eyeColors[recipe.eyes] : item.info.texture;
-  if (textureFile) await setItemTexture(entry, textureFile, slot);
+  if (textureFile) { try { await setItemTexture(entry, textureFile, slot); } catch(err) { console.warn("Textura no disponible", textureFile, err); } }
   return entry;
 }
 
@@ -1434,7 +1437,8 @@ async function applyRecipe(next) {
   const revision = wardrobeRevision;
   clearTimeout(skinTimer);
   const eyes = worn.get("eyes");
-  await Promise.all([composeSkin(), eyes && setItemTexture(eyes, index.eyeColors[recipe.eyes], "eyes")]);
+  // A slow or missing texture must never prevent the geometry from becoming interactive.
+  Promise.allSettled([composeSkin(), eyes && setItemTexture(eyes, index.eyeColors[recipe.eyes], "eyes")]).then(results=>{for(const result of results)if(result.status==="rejected")console.warn("Textura pendiente",result.reason);});
   if (revision !== wardrobeRevision) return false;
   refit();
   return true;
@@ -1448,10 +1452,10 @@ $("file").addEventListener("change", async (e) => {
 });
 
 // ---- Start -----------------------------------------------------------------------------------
-for (const slot of ALWAYS) {
-  const entry = await makeWorn(slot === "eyes" ? "low-poly" : slot, slot);
-  worn.set(slot, entry); avatar.add(entry.mesh);
-}
+$("loading").textContent="Cargando rostro y accesorios…";
+const essentials=await Promise.all(ALWAYS.map(async slot=>[slot,await makeWorn(slot==="eyes"?"low-poly":slot,slot)]));
+for(const [slot,entry] of essentials){worn.set(slot,entry);avatar.add(entry.mesh);}
+$("loading").textContent="Ajustando el vestuario inicial…";
 const linked = null;
 await applyRecipe(linked ?? recipe);
 $("loading").remove();
