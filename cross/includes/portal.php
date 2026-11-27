@@ -2,13 +2,14 @@
 require_once __DIR__.'/header.php';
 $view = $studioView ?? 'home';
 $active = ['home'=>'inicio','arcade'=>'arcade','album'=>'album','ranking'=>'ranking','shopping'=>'shopping','guias'=>'guias','recursos'=>'recursos','minijuegos'=>'minijuegos','relatos'=>'relatos'][$view] ?? 'inicio';
+header('Cache-Control: private, no-store');
 header('X-Robots-Tag: noindex, nofollow, noarchive');
 header('Referrer-Policy: no-referrer');
 header('X-Content-Type-Options: nosniff');
 $html=file_get_contents(__DIR__.'/portal.html');
 if($html===false){http_response_code(500);exit('Plantilla no disponible.');}
 $base=studioBase();
-$html=str_replace('<!--STUDIO_HEADER-->',studioHeader($active,'<span class="balance">◈ <span id="headerCoins">100</span> monedas</span>'),$html);
+$html=str_replace('<!--STUDIO_HEADER-->',studioHeader($active),$html);
 $html=str_replace('<!--STUDIO_STYLE-->','<link rel="stylesheet" href="'.studioEsc($base).'assets/shared.css">',$html);
 $html=str_replace('<!--STUDIO_INITIAL-->',json_encode($view,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 $html=str_replace('<!--STUDIO_BASE-->',json_encode($base,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
@@ -32,6 +33,8 @@ $html=str_replace('<!--STUDIO_RANKS-->',json_encode($demoRanks,JSON_HEX_TAG|JSON
 
 $wordBank=json_decode((string)file_get_contents(__DIR__.'/word-bank.json'),true);
 $edition=(new DateTimeImmutable('now',new DateTimeZone('America/Argentina/Buenos_Aires')))->format('Y-m-d');
-$html=str_replace('<!--STUDIO_WORD_BANK-->',json_encode($view==='arcade'&&is_array($wordBank)?$wordBank:[],JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
+$html=str_replace('<!--STUDIO_WORD_BANK-->',json_encode($view==='home'&&is_array($wordBank)?$wordBank:[],JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 $html=str_replace('<!--STUDIO_EDITION-->',json_encode($edition),$html);
+$html=preg_replace_callback('/<!--ART:([a-z]+)-->/u',fn($m)=>studioArt($m[1]),$html);
+$html=str_replace('<!--STUDIO_PLUMA_TABS-->',studioPlumaTabs('stories'),$html);
 echo $html;
