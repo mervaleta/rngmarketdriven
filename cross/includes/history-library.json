@@ -1,0 +1,416 @@
+{
+  "checked": "2026-11-27",
+  "method": "Síntesis editorial inicial basada en fichas bibliográficas, índices, descripciones editoriales y archivos consultados; no constituye una lectura íntegra de las obras ni afirma un consenso entre autores. Las disponibilidades dependen de cada institución y país.",
+  "books": [
+    {
+      "id": "bullough",
+      "author": "Vern L. Bullough y Bonnie Bullough",
+      "title": "Cross Dressing, Sex, and Gender",
+      "year": "1993",
+      "category": "Panoramas históricos",
+      "language": "Inglés",
+      "access": "Vista previa / catálogo",
+      "description": "Comparación histórica y cultural de la vestimenta de género, junto con debates médicos y sociales. Punto de partida para distinguir prácticas y contextos.",
+      "links": [
+        {
+          "label": "Vista previa en Google Books",
+          "url": "https://books.google.com/books?id=KcD7nVelXJgC"
+        },
+        {
+          "label": "Editorial Penn Press",
+          "url": "https://www.pennpress.org/9780812214314/cross-dressing-sex-and-gender/"
+        },
+        {
+          "label": "Catálogo Open Library",
+          "url": "https://openlibrary.org/books/OL1727815M/Cross_dressing_sex_and_gender"
+        }
+      ]
+    },
+    {
+      "id": "hirschfeld",
+      "author": "Magnus Hirschfeld",
+      "title": "Die Transvestiten",
+      "year": "1910",
+      "category": "Panoramas históricos",
+      "language": "Alemán; traducción inglesa de 1991",
+      "access": "Texto completo digitalizado",
+      "description": "Documento primario de la sexología alemana. Su clasificación histórica no debe confundirse con las categorías actuales. La traducción inglesa tiene derechos propios.",
+      "links": [
+        {
+          "label": "Original de 1910 · Digital Transgender Archive",
+          "url": "https://www.digitaltransgenderarchive.net/files/6395w7174"
+        },
+        {
+          "label": "Edición de 1925 · PDF en Lili-Elbe-Bibliothek (233 MB)",
+          "url": "https://lili-elbe.de/projekte/digitalisierte-buecher/"
+        },
+        {
+          "label": "Traducción inglesa · catálogo Wellcome",
+          "url": "https://wellcomecollection.org/works/qcdrdhst"
+        }
+      ]
+    },
+    {
+      "id": "garber",
+      "author": "Marjorie Garber",
+      "title": "Vested Interests: Cross-dressing and Cultural Anxiety",
+      "year": "1992",
+      "category": "Panoramas históricos",
+      "language": "Inglés",
+      "access": "Vista previa / catálogo",
+      "description": "Ensayo sobre las fronteras culturales de género y la importancia simbólica de cruzarlas. Útil para pensar por qué una prenda puede generar fascinación o incomodidad.",
+      "links": [
+        {
+          "label": "Vista previa en Google Books",
+          "url": "https://books.google.com/books?id=Cfuod7KiBLoC"
+        },
+        {
+          "label": "Editorial Routledge",
+          "url": "https://www.routledge.com/Vested-Interests-Cross-Dressing-and-Cultural-Anxiety/Garber/p/book/9780415919517"
+        }
+      ]
+    },
+    {
+      "id": "ackroyd",
+      "author": "Peter Ackroyd",
+      "title": "Dressing Up: Transvestism and Drag: The History of an Obsession",
+      "year": "1979",
+      "category": "Panoramas históricos",
+      "language": "Inglés",
+      "access": "Catálogo / consultar préstamo",
+      "description": "Historia cultural de la vestimenta de género y el drag. Su terminología y algunas interpretaciones reflejan los límites de su época.",
+      "links": [
+        {
+          "label": "Open Library · consultar acceso",
+          "url": "https://openlibrary.org/books/OL4408489M/Dressing_up_transvestism_and_drag"
+        },
+        {
+          "label": "Paris Musées · ficha",
+          "url": "https://www.parismuseescollections.paris.fr/fr/ressources-bibliographiques/dressing-up"
+        }
+      ]
+    },
+    {
+      "id": "sears",
+      "author": "Clare Sears",
+      "title": "Arresting Dress: Cross-Dressing, Law, and Fascination in Nineteenth-Century San Francisco",
+      "year": "2015",
+      "category": "Derecho y represión",
+      "language": "Inglés",
+      "access": "Editorial / acceso institucional",
+      "description": "Estudia cómo se construyeron y aplicaron normas que penalizaban la vestimenta no conforme con el género en San Francisco. Permite relacionar indumentaria, espacio público y poder.",
+      "links": [
+        {
+          "label": "Duke University Press",
+          "url": "https://www.dukeupress.edu/Arresting-Dress"
+        },
+        {
+          "label": "JSTOR · capítulos y acceso institucional",
+          "url": "https://www.jstor.org/stable/j.ctv1220nx9"
+        }
+      ]
+    },
+    {
+      "id": "stryker",
+      "author": "Susan Stryker",
+      "title": "Transgender History: The Roots of Today's Revolution",
+      "year": "2008; 2.ª ed. 2017",
+      "category": "Derecho y represión",
+      "language": "Inglés; traducción española disponible",
+      "access": "Muestra / préstamo bibliotecario",
+      "description": "Historia de comunidades y movimientos trans estadounidenses. Sitúa el activismo y las transformaciones sociales sin identificar automáticamente crossdressing con identidad trans.",
+      "links": [
+        {
+          "label": "OverDrive · muestra y préstamo según biblioteca",
+          "url": "https://neworleans.overdrive.com/media/535344"
+        },
+        {
+          "label": "Google Books · edición de 2017",
+          "url": "https://books.google.com/books?id=RgIkDwAAQBAJ"
+        },
+        {
+          "label": "Historia de lo trans · edición en español",
+          "url": "https://books.apple.com/ar/book/historia-de-lo-trans/id1596733293"
+        },
+        {
+          "label": "Tercera edición · editorial",
+          "url": "https://www.hachettebookgroup.com/titles/susan-stryker/transgender-history-third-edition/9781541608405/"
+        }
+      ]
+    },
+    {
+      "id": "bauer",
+      "author": "Heike Bauer (ed.)",
+      "title": "Women and Cross-Dressing: 1800–1939",
+      "year": "2006",
+      "category": "Mujeres y vestimenta masculina",
+      "language": "Inglés",
+      "access": "Índice / acceso institucional",
+      "description": "Antología en tres volúmenes que permite contrastar discursos sexológicos, ficción, biografías y documentos. Importa distinguir el texto original de las intervenciones editoriales modernas.",
+      "links": [
+        {
+          "label": "Routledge · índice detallado",
+          "url": "https://www.routledge.com/Women-and-Cross-Dressing-1800-1939/Bauer/p/book/9780415323024"
+        },
+        {
+          "label": "History of Feminism · colección",
+          "url": "https://www.routledgehistoricalresources.com/feminism/sets/women-cross-dressing-1800-39"
+        }
+      ]
+    },
+    {
+      "id": "hotchkiss",
+      "author": "Valerie R. Hotchkiss",
+      "title": "Clothes Make the Man: Female Cross Dressing in Medieval Europe",
+      "year": "1996",
+      "category": "Mujeres y vestimenta masculina",
+      "language": "Inglés",
+      "access": "Vista previa / catálogo",
+      "description": "Analiza la figura de la mujer vestida de hombre en relatos religiosos y literarios medievales. Las narraciones no son siempre testimonios biográficos directos.",
+      "links": [
+        {
+          "label": "Google Books",
+          "url": "https://books.google.com/books?id=9Q-LAAAAIAAJ"
+        },
+        {
+          "label": "Routledge",
+          "url": "https://www.routledge.com/Clothes-Make-the-Man/Hotchkiss/p/book/9780815337713"
+        }
+      ]
+    },
+    {
+      "id": "wheelwright",
+      "author": "Julie Wheelwright",
+      "title": "Amazons and Military Maids: Women Who Dressed as Men in Pursuit of Life, Liberty and Happiness",
+      "year": "1989",
+      "category": "Mujeres y vestimenta masculina",
+      "language": "Inglés",
+      "access": "Catálogo / consultar préstamo",
+      "description": "Explora historias en las que vestir como hombre permitió acceder a oportunidades y espacios vedados a las mujeres. Las motivaciones de cada persona deben estudiarse por separado.",
+      "links": [
+        {
+          "label": "Open Library · consultar acceso",
+          "url": "https://openlibrary.org/books/OL14690530M/Amazons_and_military_maids"
+        }
+      ]
+    },
+    {
+      "id": "boag",
+      "author": "Peter Boag",
+      "title": "Re-Dressing America’s Frontier Past",
+      "year": "2011",
+      "category": "Estados Unidos y espectáculo",
+      "language": "Inglés",
+      "access": "Vista previa / editorial",
+      "description": "Revisa las narraciones sobre el Oeste estadounidense y las experiencias de quienes no se ajustaban a las convenciones de género. Cuestiona la imagen homogénea de la frontera.",
+      "links": [
+        {
+          "label": "University of California Press",
+          "url": "https://www.ucpress.edu/books/re-dressing-americas-frontier-past/paper"
+        },
+        {
+          "label": "Google Books",
+          "url": "https://books.google.com/books?id=bjhBOic22WYC"
+        }
+      ]
+    },
+    {
+      "id": "rodger",
+      "author": "Gillian M. Rodger",
+      "title": "Just One of the Boys: Female-to-Male Cross-Dressing on the American Variety Stage",
+      "year": "2018",
+      "category": "Estados Unidos y espectáculo",
+      "language": "Inglés",
+      "access": "Editorial / acceso institucional",
+      "description": "Investiga el trabajo de artistas que representaban masculinidad en escenarios de variedades estadounidenses entre 1820 y 1920.",
+      "links": [
+        {
+          "label": "University of Illinois Press",
+          "url": "https://www.press.uillinois.edu/books/?id=p083150"
+        },
+        {
+          "label": "JSTOR",
+          "url": "https://www.jstor.org/stable/10.5406/j.ctt1ztdvv6"
+        }
+      ]
+    },
+    {
+      "id": "senelick",
+      "author": "Laurence Senelick",
+      "title": "The Changing Room: Sex, Drag and Theatre",
+      "year": "2000",
+      "category": "Estados Unidos y espectáculo",
+      "language": "Inglés",
+      "access": "Vista previa / editorial",
+      "description": "Panorama de las tradiciones escénicas de representación de género en distintos lugares y épocas. Distingue el vestuario teatral de las experiencias fuera del escenario.",
+      "links": [
+        {
+          "label": "Routledge",
+          "url": "https://www.routledge.com/x/x/p/book/9780415159869"
+        },
+        {
+          "label": "Google Books",
+          "url": "https://books.google.com/books?id=DUk008nvuhgC"
+        }
+      ]
+    },
+    {
+      "id": "farrer-plumes",
+      "author": "Peter Farrer (ed.)",
+      "title": "Borrowed Plumes: Letters from Edwardian Newspapers on Male Cross Dressing",
+      "year": "1994",
+      "category": "Fuentes y archivos",
+      "language": "Inglés",
+      "access": "Catálogo / archivo",
+      "description": "Cartas publicadas en prensa eduardiana. Ofrecen un camino para estudiar conversaciones históricas sobre ropa y expresión de género; la selección editorial no constituye una muestra representativa.",
+      "links": [
+        {
+          "label": "Cornell · bibliografía",
+          "url": "https://rare.library.cornell.edu/transgender-bibliography/"
+        },
+        {
+          "label": "Archivo Peter Farrer · Liverpool John Moores University",
+          "url": "https://archives.ljmu.ac.uk/Record.aspx?id=PF&src=CalmView.Catalog"
+        }
+      ]
+    },
+    {
+      "id": "farrer-wars",
+      "author": "Peter Farrer (ed.)",
+      "title": "Cross Dressing between the Wars: Selections from London Life, 1923–1933",
+      "year": "2000",
+      "category": "Fuentes y archivos",
+      "language": "Inglés",
+      "access": "Catálogo / archivo",
+      "description": "Recopilación de textos de London Life. Ayuda a explorar redes de lectura y prácticas de vestimenta británicas de entreguerras.",
+      "links": [
+        {
+          "label": "Google Books · ficha",
+          "url": "https://books.google.com/books/about/Cross_Dressing_Between_the_Wars.html?id=_hYjAAAACAAJ"
+        },
+        {
+          "label": "Archivo Peter Farrer · Liverpool John Moores University",
+          "url": "https://archives.ljmu.ac.uk/Record.aspx?id=PF&src=CalmView.Catalog"
+        }
+      ]
+    },
+    {
+      "id": "bauer-archives",
+      "author": "Heike Bauer",
+      "title": "The Hirschfeld Archives: Violence, Death, and Modern Queer Culture",
+      "year": "2017",
+      "category": "Lecturas complementarias",
+      "language": "Inglés",
+      "access": "Texto completo de acceso abierto",
+      "description": "Investigación moderna sobre la historia de Hirschfeld y la pérdida de su archivo. Complementa críticamente las fuentes sexológicas.",
+      "links": [
+        {
+          "label": "Leer en Temple University Press",
+          "url": "https://temple.manifoldapp.org/projects/the-hirschfeld-archives"
+        },
+        {
+          "label": "Library of Congress · acceso abierto",
+          "url": "https://www.loc.gov/item/2019668041/"
+        },
+        {
+          "label": "Project MUSE · acceso abierto",
+          "url": "https://muse.jhu.edu/book/64071"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "id": "cornell",
+      "title": "Cornell University · Transgender Bibliography",
+      "description": "Bibliografía especializada de libros, publicaciones y documentos históricos; punto de partida para buscar ediciones.",
+      "url": "https://rare.library.cornell.edu/transgender-bibliography/"
+    },
+    {
+      "id": "dta",
+      "title": "Digital Transgender Archive · Transvestia",
+      "description": "Revista histórica iniciada en 1960, con materiales digitalizados que documentan redes de comunicación y experiencias de expresión de género.",
+      "url": "https://www.digitaltransgenderarchive.net/catalog?f%5Bcollection_name_ssim%5D%5B%5D=Transvestia"
+    },
+    {
+      "id": "lili",
+      "title": "Lili-Elbe-Bibliothek",
+      "description": "Biblioteca de digitalizaciones históricas, con obras en alemán y referencias a colecciones universitarias.",
+      "url": "https://lili-elbe.de/projekte/digitalisierte-buecher/"
+    },
+    {
+      "id": "farrer",
+      "title": "Archivo Peter Farrer · Liverpool John Moores University",
+      "description": "Fondo documental con sus compilaciones, publicaciones y referencias para consultar originales.",
+      "url": "https://archives.ljmu.ac.uk/Record.aspx?id=PF&src=CalmView.Catalog"
+    },
+    {
+      "id": "uvic",
+      "title": "University of Victoria · Virginia Prince & Transvestia",
+      "description": "Correspondencia, publicaciones y documentación de redes comunitarias de mediados del siglo XX.",
+      "url": "https://www.uvic.ca/transgenderarchives/collections/virgina-prince/index.php"
+    },
+    {
+      "id": "argentina",
+      "title": "Archivo de la Memoria Trans Argentina",
+      "description": "Archivo gestionado por la comunidad travesti-trans que preserva testimonios y documentación de la historia argentina. No equivale a un archivo de crossdressing masculino.",
+      "url": "https://atom.archivotrans.ar/"
+    }
+  ],
+  "history": [
+    {
+      "title": "La ropa como lenguaje social",
+      "body": "Una prenda no nace con un género universal: las convenciones cambian entre sociedades y épocas. La historia de la vestimenta revela cómo una comunidad asigna significados a cortes, materiales y siluetas. Los panoramas de los Bullough y el análisis cultural de Garber ayudan a comprender estas fronteras.",
+      "refs": [
+        "bullough",
+        "garber"
+      ]
+    },
+    {
+      "title": "Motivaciones distintas, experiencias distintas",
+      "body": "Vestirse con prendas socialmente asociadas a otro género puede relacionarse con expresión personal, oficio, representación teatral, movilidad o identidad. Hotchkiss, Wheelwright y Boag muestran contextos diferentes. No es correcto asignar una identidad moderna a todas las personas del pasado ni deducir orientación sexual de la ropa.",
+      "refs": [
+        "hotchkiss",
+        "wheelwright",
+        "boag"
+      ]
+    },
+    {
+      "title": "La escena y la vida cotidiana",
+      "body": "El vestuario escénico permite experimentar con convenciones de género ante un público; no explica por sí mismo la vida privada de quienes actúan. Rodger y Senelick permiten estudiar el trabajo artístico; Ackroyd ofrece un panorama cultural con vocabulario propio de su época.",
+      "refs": [
+        "rodger",
+        "senelick",
+        "ackroyd"
+      ]
+    },
+    {
+      "title": "Normas, represión y visibilidad",
+      "body": "La vestimenta también fue objeto de regulación. Sears analiza leyes urbanas en Estados Unidos; Stryker permite situar las luchas posteriores de las comunidades trans. En Argentina, el Archivo de la Memoria Trans conserva documentos sobre edictos policiales y persecución estatal, un contexto específico que no debe confundirse con toda experiencia crossdresser.",
+      "refs": [
+        "sears",
+        "stryker",
+        "@argentina"
+      ]
+    },
+    {
+      "title": "Sexología histórica y lectura crítica",
+      "body": "Hirschfeld publicó Die Transvestiten en 1910. Su trabajo es relevante como documento de época, no como diagnóstico actual. La antología editada por Bauer permite comparar discursos médicos y otras fuentes. El estudio de 2017 de Bauer explica el contexto histórico de la producción y destrucción de archivos.",
+      "refs": [
+        "hirschfeld",
+        "bauer",
+        "bauer-archives"
+      ]
+    },
+    {
+      "title": "Correspondencia, revistas y comunidad",
+      "body": "Las compilaciones de Farrer recuperan intercambios publicados en prensa británica. Transvestia, fundada en 1960, y los archivos de Virginia Prince muestran la importancia de las publicaciones para comunicar experiencias y construir comunidad. Estos materiales no permiten calcular la frecuencia de la práctica en la población.",
+      "refs": [
+        "farrer-plumes",
+        "farrer-wars",
+        "@dta",
+        "@uvic"
+      ]
+    }
+  ]
+}
