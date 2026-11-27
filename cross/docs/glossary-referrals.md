@@ -7,3 +7,7 @@
 - Ropero y Servicios son vistas filtradas, no catálogos independientes. Todas las tarjetas enlazan a `glosario/index.php?f=SLUG`; las antiguas rutas de detalle redirigen allí.
 - Mary Jane/Mercedita, Block heel/Taco bloque y Wide leg/Pantalón wide leg se fusionaron. Conceptos amplios (culotte, evasé, fishnet, halter, bodycon) conservan su ficha conceptual y las variantes específicas relacionadas. Coffin (uñas) no es el zapato ballerina.
 - El antiguo `wardrobe.json` se retira del código activo; su contenido original se conserva en el historial de Git. No volver a editar dos catálogos.
+
+## Desambiguación
+
+Una entrada con `disambiguation` lista los slugs de fichas específicas. Cada ficha específica declara `disambiguation_parent` y conserva sus propias imágenes, categoría, materiales, talles y referidos. La vista general muestra opciones con definición y miniatura si existe; cada opción muestra las demás y un enlace al índice de significados. Los índices no tienen ofertas ni fotografías de una variante como si fueran comunes a todas. No aparecen en el Ropero. Los sinónimos verdaderos siguen compartiendo una ficha. Los enlaces anteriores conservan sus slugs (por ejemplo `ballerina` sigue siendo calzado y `body` sigue siendo la prenda exterior).

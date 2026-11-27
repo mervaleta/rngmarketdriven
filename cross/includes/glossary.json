@@ -197,11 +197,13 @@
   },
   {
     "slug": "ballerina",
-    "name": "Ballerina",
+    "name": "Ballerina (calzado)",
     "aliases": [
       "bailarina",
       "chatita",
-      "flat"
+      "flat",
+      "ballerina",
+      "bailarinas"
     ],
     "category": "Calzado",
     "group": "calzado",
@@ -213,13 +215,33 @@
     "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
     "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
     "updated": "2026-11-27",
-    "term": "Ballerina",
+    "term": "Ballerina (calzado)",
     "views": [
       "wardrobe"
     ],
     "slug_aliases": [],
     "related": [],
-    "glossary_definition": "Zapato plano inspirado en el calzado de ballet."
+    "glossary_definition": "Zapato plano inspirado en el calzado de ballet.",
+    "disambiguation_parent": "ballerina-desambiguacion"
+  },
+  {
+    "slug": "ballerina-desambiguacion",
+    "name": "Ballerina (desambiguación)",
+    "term": "Ballerina (desambiguación)",
+    "category": "Moda",
+    "definition": "Ballerina o bailarina puede nombrar un zapato plano de inspiración clásica o una forma de uña de punta recta y lados estrechados, también llamada coffin.",
+    "aliases": [
+      "ballerina",
+      "bailarina"
+    ],
+    "views": [],
+    "related": [],
+    "slug_aliases": [],
+    "disambiguation": [
+      "ballerina",
+      "coffin"
+    ],
+    "kind": "Desambiguación"
   },
   {
     "term": "Balletcore",
@@ -336,34 +358,60 @@
   },
   {
     "slug": "body",
-    "name": "Body",
+    "name": "Body de vestir",
     "aliases": [
       "bodi",
-      "bodysuit"
+      "bodysuit",
+      "body",
+      "body exterior"
     ],
     "category": "Partes superiores",
     "group": "tops",
     "kind": "Modelo",
     "parent": null,
-    "definition": "Prenda de una pieza que cubre el torso y se ajusta entre las piernas.",
-    "features": "Puede usarse como parte superior o ropa interior.",
+    "definition": "Prenda exterior de una pieza que cubre el torso y se ajusta entre las piernas; se usa como parte superior de un conjunto.",
+    "features": "Puede tener mangas, escote y cierre inferior. Se distingue del body interior por su función habitual, aunque algunos diseños admiten ambos usos.",
     "example": "Con una falda de cintura alta.",
     "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
     "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
     "updated": "2026-11-27",
-    "term": "Body",
+    "term": "Body de vestir",
     "views": [
       "wardrobe"
     ],
     "slug_aliases": [],
     "related": [],
-    "glossary_definition": "Prenda de una pieza que cubre el torso y se ajusta en la parte inferior."
+    "glossary_definition": "Prenda exterior de una pieza que cubre el torso y se ajusta entre las piernas; se usa como parte superior de un conjunto.",
+    "disambiguation_parent": "body-desambiguacion"
+  },
+  {
+    "slug": "body-desambiguacion",
+    "name": "Body (desambiguación)",
+    "term": "Body (desambiguación)",
+    "category": "Moda",
+    "definition": "Body puede referirse a una prenda de vestir exterior o a una prenda interior de una pieza. Algunos modelos permiten ambos usos.",
+    "aliases": [
+      "body",
+      "bodi",
+      "bodysuit"
+    ],
+    "views": [],
+    "related": [],
+    "slug_aliases": [],
+    "disambiguation": [
+      "body",
+      "body-interior"
+    ],
+    "kind": "Desambiguación"
   },
   {
     "slug": "body-interior",
     "name": "Body interior",
     "aliases": [
-      "body lencero"
+      "body lencero",
+      "body",
+      "bodi",
+      "bodysuit"
     ],
     "category": "Ropa interior",
     "group": "interior",
@@ -380,7 +428,8 @@
       "wardrobe"
     ],
     "slug_aliases": [],
-    "related": []
+    "related": [],
+    "disambiguation_parent": "body-desambiguacion"
   },
   {
     "slug": "bodycon",
@@ -1016,15 +1065,18 @@
     "related": []
   },
   {
-    "term": "Coffin",
+    "term": "Coffin / ballerina (uñas)",
     "category": "Uñas",
     "definition": "Forma de uña estrechada hacia una punta plana, también llamada bailarina.",
     "aliases": [
       "ballerina",
-      "ataúd"
+      "ataúd",
+      "bailarina",
+      "uñas ballerina",
+      "uñas coffin"
     ],
     "slug": "coffin",
-    "name": "Coffin",
+    "name": "Coffin / ballerina (uñas)",
     "views": [
       "services"
     ],
@@ -1033,7 +1085,8 @@
       "manicura"
     ],
     "service_category": "Uñas",
-    "service_parent": "manicura"
+    "service_parent": "manicura",
+    "disambiguation_parent": "ballerina-desambiguacion"
   },
   {
     "slug": "collar",
@@ -1228,7 +1281,9 @@
     "slug": "corpino-sin-breteles",
     "name": "Corpiño sin breteles",
     "aliases": [
-      "strapless bra"
+      "strapless bra",
+      "strapless",
+      "corpiño strapless"
     ],
     "category": "Ropa interior",
     "group": "interior",
@@ -1245,7 +1300,8 @@
       "wardrobe"
     ],
     "slug_aliases": [],
-    "related": []
+    "related": [],
+    "disambiguation_parent": "strapless"
   },
   {
     "slug": "corset",
@@ -1349,26 +1405,32 @@
     "related": []
   },
   {
-    "term": "Culotte",
+    "term": "Culotte (desambiguación)",
     "category": "Moda",
-    "definition": "Puede designar ropa interior de mayor cobertura o un pantalón ancho y corto, según el contexto.",
+    "definition": "Culotte o culote puede nombrar dos prendas distintas: una bombacha de mayor cobertura o un pantalón de perneras anchas y cortas. Elegí el significado según el contexto.",
     "aliases": [
-      "culote"
+      "culote",
+      "culotte"
     ],
     "slug": "culotte",
-    "name": "Culotte",
+    "name": "Culotte (desambiguación)",
     "views": [],
     "slug_aliases": [],
-    "related": [
+    "related": [],
+    "disambiguation": [
       "culotte-interior",
       "culotte-de-vestir"
-    ]
+    ],
+    "kind": "Desambiguación"
   },
   {
     "slug": "culotte-de-vestir",
     "name": "Culotte de vestir",
     "aliases": [
-      "pantalón culotte"
+      "pantalón culotte",
+      "culotte",
+      "culote",
+      "pantalón culote"
     ],
     "category": "Pantalones y enteritos",
     "group": "pantalones",
@@ -1386,14 +1448,19 @@
     ],
     "slug_aliases": [],
     "related": [],
-    "image_slug": "culotte"
+    "image_slug": "culotte",
+    "disambiguation_parent": "culotte"
   },
   {
     "slug": "culotte-interior",
     "name": "Culotte interior",
     "aliases": [
       "culote",
-      "boyshorts"
+      "boyshorts",
+      "culotte",
+      "culotte de ropa interior",
+      "bombacha culotte",
+      "culote interior"
     ],
     "category": "Ropa interior",
     "group": "interior",
@@ -1410,7 +1477,8 @@
       "wardrobe"
     ],
     "slug_aliases": [],
-    "related": []
+    "related": [],
+    "disambiguation_parent": "culotte"
   },
   {
     "term": "Cut crease",
@@ -3773,19 +3841,26 @@
     "glossary_definition": "Zapato o taco fino y alto, también llamado tacón de aguja."
   },
   {
-    "term": "Strapless",
+    "term": "Strapless (tipos de prenda)",
     "category": "Moda",
-    "definition": "Prenda sin tirantes que deja los hombros descubiertos.",
+    "definition": "Strapless describe prendas sin tirantes sobre los hombros. Puede ser un top, un vestido o un corpiño diseñado para ese uso.",
     "aliases": [
-      "palabra de honor"
+      "palabra de honor",
+      "strapless",
+      "sin tirantes",
+      "sin breteles"
     ],
     "slug": "strapless",
-    "name": "Strapless",
+    "name": "Strapless (tipos de prenda)",
     "views": [],
     "slug_aliases": [],
-    "related": [
-      "top-strapless"
-    ]
+    "related": [],
+    "disambiguation": [
+      "top-strapless",
+      "vestido-strapless",
+      "corpino-sin-breteles"
+    ],
+    "kind": "Desambiguación"
   },
   {
     "slug": "taco-bloque",
@@ -3989,7 +4064,9 @@
     "name": "Top strapless",
     "aliases": [
       "palabra de honor",
-      "top sin breteles"
+      "top sin breteles",
+      "strapless",
+      "top palabra de honor"
     ],
     "category": "Partes superiores",
     "group": "tops",
@@ -4006,7 +4083,8 @@
       "wardrobe"
     ],
     "slug_aliases": [],
-    "related": []
+    "related": [],
+    "disambiguation_parent": "strapless"
   },
   {
     "slug": "tote",
@@ -4384,6 +4462,32 @@
     ],
     "slug_aliases": [],
     "related": []
+  },
+  {
+    "slug": "vestido-strapless",
+    "name": "Vestido strapless",
+    "term": "Vestido strapless",
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido sin tirantes que deja los hombros descubiertos y se sostiene mediante la estructura o el ajuste del cuerpo de la prenda.",
+    "features": "Puede tener escote recto o corazón y diferentes largos. Revisá que el ajuste sea cómodo.",
+    "example": "Con un collar y calzado elegido para la ocasión.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "aliases": [
+      "strapless",
+      "vestido palabra de honor",
+      "vestido sin breteles"
+    ],
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "image_slug": "strapless",
+    "disambiguation_parent": "strapless"
   },
   {
     "slug": "vestido-tubo",

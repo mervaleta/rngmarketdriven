@@ -241,12 +241,12 @@
   },
   "body": {
     "type": "product",
-    "suggestion": "Bodies",
+    "suggestion": "Bodies de vestir y tops body",
     "offers": []
   },
   "culotte": {
-    "type": "product",
-    "suggestion": "Culottes y ropa interior de corte amplio",
+    "type": "reference",
+    "suggestion": "",
     "offers": []
   },
   "falda-lapiz": {
@@ -270,8 +270,8 @@
     "offers": []
   },
   "strapless": {
-    "type": "product",
-    "suggestion": "Tops y vestidos sin tirantes",
+    "type": "reference",
+    "suggestion": "",
     "offers": []
   },
   "pantimedias": {
@@ -771,7 +771,7 @@
   },
   "culotte-de-vestir": {
     "type": "product",
-    "suggestion": "Culotte de vestir",
+    "suggestion": "Pantalones culotte de pierna ancha y largo corto o midi",
     "offers": []
   },
   "enterito": {
@@ -821,7 +821,7 @@
   },
   "culotte-interior": {
     "type": "product",
-    "suggestion": "Culotte interior",
+    "suggestion": "Bombachas culotte o boyshorts",
     "offers": []
   },
   "bombacha-tiro-alto": {
@@ -866,7 +866,7 @@
   },
   "body-interior": {
     "type": "product",
-    "suggestion": "Body interior",
+    "suggestion": "Bodies de ropa interior y lencería",
     "offers": []
   },
   "medias": {
@@ -1182,6 +1182,21 @@
   "confeccion-a-medida": {
     "type": "service",
     "suggestion": "Confección y pruebas de prendas a medida",
+    "offers": []
+  },
+  "body-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "ballerina-desambiguacion": {
+    "type": "reference",
+    "suggestion": "",
+    "offers": []
+  },
+  "vestido-strapless": {
+    "type": "product",
+    "suggestion": "Vestidos sin tirantes o palabra de honor",
     "offers": []
   }
 }
