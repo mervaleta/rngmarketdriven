@@ -34,7 +34,7 @@ function studioArt(string $name,string $class=''): string{
 function studioHeader(string $active='',string $extra=''): string {
     $base=studioBase();$member=studioCurrentMember();
     $active=['muro'=>'pluma','foro'=>'pluma','relatos'=>'pluma','glosario'=>'recursos'][$active]??$active;
-    $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['pluma-libre/','Pluma Libre'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
+    $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['index.php?seccion=pluma-libre','Pluma Libre'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
     $account=$base.($member?'perfiles/?v=profile&id='.(int)$member['id']:'cuenta/');
     $avatar=$member&&!empty($member['has_avatar'])?'<img src="'.studioEsc($base).'perfiles/?v=avatar&amp;id='.(int)$member['id'].'" alt="">':'<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20v-1a7 7 0 0 1 14 0v1"/></svg>';
     $out='<header class="studio-header"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><span class="studio-version">PREVIEW 0.5</span><div class="studio-extra"><a class="studio-wallet" href="'.studioEsc($base).'album/" aria-label="Créditos de juego, saldo local"><span aria-hidden="true">◈</span><strong id="headerCoins">100</strong><span class="wallet-label">créditos</span></a>';
@@ -46,6 +46,6 @@ function studioHeader(string $active='',string $extra=''): string {
 }
 function studioPlumaTabs(string $active=''): string {
     $base=studioBase();$out='<div class="studio-pluma-tabs" aria-label="Secciones de Pluma Libre">';
-    foreach(['pluma'=>['pluma-libre/','Portada'],'wall'=>['muro/','Muro'],'forum'=>['foro/','Foro'],'stories'=>['relatos/','Relatos']] as $k=>$item)$out.='<a href="'.studioEsc($base.$item[0]).'"'.($active===$k?' aria-current="page"':'').'>'.studioEsc($item[1]).'</a>';
+    foreach(['pluma'=>['index.php?seccion=pluma-libre','Portada'],'wall'=>['muro/index.php','Muro'],'forum'=>['foro/index.php','Foro'],'stories'=>['relatos/index.php','Relatos']] as $k=>$item)$out.='<a href="'.studioEsc($base.$item[0]).'"'.($active===$k?' aria-current="page"':'').'>'.studioEsc($item[1]).'</a>';
     return $out.'</div>';
 }
