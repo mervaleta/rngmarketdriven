@@ -20,9 +20,9 @@ try{
   const changes=await Promise.all([api.applyRecipe(a),api.applyRecipe(b),api.reset()]);
   const report=api.inspect();
   const same=JSON.stringify(api.recipe)===JSON.stringify(initial);
-  const before=api.avatar.children.find(x=>x.isMesh).geometry.attributes.position.array.slice(0,200);
+  const before=api.avatar.children.find(x=>x.isMesh).geometry.attributes.position.array.slice();
   const slider=document.getElementById('weight');slider.value='.9';slider.dispatchEvent(new Event('input',{bubbles:true}));
-  const after=api.avatar.children.find(x=>x.isMesh).geometry.attributes.position.array.slice(0,200);
+  const after=api.avatar.children.find(x=>x.isMesh).geometry.attributes.position.array.slice();
   const changed=before.some((x,i)=>x!==after[i]);
   await api.reset();
   return {changes,report,same,changed,final:api.inspect()};
@@ -32,5 +32,21 @@ try{
  assert.equal(info.changed,true);
  assert.equal(info.report.meshes,info.report.slots.length+1);
  assert.equal(info.final.meshes,info.final.slots.length+1);
+ const random=await page.evaluate(async()=>{
+   const api=window.avatarEditor, snapshot=()=>structuredClone(api.recipe),eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+   let a=snapshot();await api.randomize('body');let b=snapshot();
+   const body=!eq(a.body,b.body)&&!eq(a.face,b.face)&&eq(a.outfit,b.outfit)&&eq(a.hair,b.hair);
+   await api.randomize('colors');let c=snapshot();
+   const colors=!eq(b.skin,c.skin)&&b.eyes!==c.eyes&&b.hair.color!==c.hair.color&&!eq(b.makeup,c.makeup)&&!eq(b.clothColors,c.clothColors)&&eq(b.body,c.body);
+   await api.randomize('look');let d=snapshot();
+   const look=!eq([c.outfit,c.top,c.bottom,c.shoes],[d.outfit,d.top,d.bottom,d.shoes])&&c.hair.style!==d.hair.style&&eq(c.body,d.body);
+   const meshMatch=api.inspect().meshes===api.inspect().slots.length+1;
+   const exclusive=!!d.outfit?(!d.top&&!d.bottom):!!(d.top&&d.bottom);
+   await api.randomize('all');let e=snapshot();
+   const all=!eq(d.body,e.body)&&!eq(d.face,e.face)&&!eq(d.clothColors,e.clothColors);
+   return {body,colors,look,meshMatch,exclusive,all,slots:api.inspect()};
+ });
+ console.log('RANDOMIZE',JSON.stringify(random));
+ for(const k of ['body','colors','look','meshMatch','exclusive','all'])assert.equal(random[k],true,k);
  await page.screenshot({path:'style-lab-smoke.png'});
 }finally{await browser.close()}
