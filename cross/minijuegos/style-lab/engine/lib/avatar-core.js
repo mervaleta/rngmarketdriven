@@ -5,12 +5,75 @@ import { itemSkin, itemDeltas } from "./vrm-export.js";
 const TYPED = { f: Float32Array, I: Uint32Array, h: Int16Array, H: Uint16Array };
 export const view = (buffer, [offset, count, kind]) => new TYPED[kind](buffer, offset, count);
 
-/** fetch() with a few retries: a busy server can refuse some of the many parallel requests. */
-export async function fetchRetry(url, tries = 3) {
-  for (let i = 1; ; i++) {
-    try { const r = await fetch(url, {signal: AbortSignal.timeout(10000)}); if (r.ok) return r; throw new Error(`${r.status} ${url}`); }
-    catch (err) { if (i >= tries) throw err; await new Promise((res) => setTimeout(res, 300 * i)); }
+// Group asset requests into a single bounded response and share one retry/backoff queue.
+const assetsRoot=new URL("../assets/",import.meta.url);
+const packURL=new URL("../assets-pack.php",import.meta.url);
+const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+let nextNetworkAt=0,packAvailable=true,scheduled=false,draining=false;
+const queue=[];
+async function request(url,tries=4){
+  for(let i=0;i<tries;i++){
+    await wait(Math.max(0,nextNetworkAt-Date.now()));
+    try{
+      const r=await fetch(url,{signal:AbortSignal.timeout(30000),cache:"default"});
+      nextNetworkAt=Date.now()+180;
+      if(r.ok)return r;
+      const e=new Error(r.status+" "+url);e.status=r.status;
+      if(r.status===429||r.status===503){
+        const retry=r.headers.get("Retry-After");
+        const seconds=retry!==null&&/^\d+$/.test(retry)?Number(retry):retry?Math.max(0,(Date.parse(retry)-Date.now())/1000):0;
+        nextNetworkAt=Date.now()+Math.max(2000*2**i,Math.min(60000,Number.isFinite(seconds)?seconds*1000:0));
+        if(i+1===tries)throw e;
+        continue;
+      }
+      if(r.status<500||i+1===tries)throw e;
+    }catch(e){
+      if((e.status&&e.status<500)||i+1===tries)throw e;
+      nextNetworkAt=Math.max(nextNetworkAt,Date.now()+1000*2**i);
+    }
   }
+  throw Error("No se pudo descargar el recurso.");
+}
+async function unpack(batch){
+  const names=[...new Set(batch.map(x=>x.name))].sort();
+  const u=new URL(packURL);u.searchParams.set("files",names.join(","));u.searchParams.set("v","5");
+  const r=await request(u),buf=await r.arrayBuffer(),dv=new DataView(buf);
+  const n=dv.getUint32(0);if(n>buf.byteLength-4)throw Error("Paquete de recursos incompleto.");
+  const manifest=JSON.parse(new TextDecoder().decode(new Uint8Array(buf,4,n)));
+  let offset=4+n;const data=new Map();
+  for(const row of manifest){
+    if(!Number.isSafeInteger(row.size)||row.size<0||offset+row.size>buf.byteLength)throw Error("Paquete de recursos inválido.");
+    data.set(row.name,{...row,bytes:buf.slice(offset,offset+row.size)});offset+=row.size;
+  }
+  if(offset!==buf.byteLength)throw Error("Paquete de recursos truncado.");
+  for(const item of batch){
+    const row=data.get(item.name);
+    if(!row||row.status!==200)item.reject(Error("404 "+item.name));
+    else item.resolve(new Response(row.bytes,{headers:{"Content-Type":row.type||"application/octet-stream"}}));
+  }
+}
+async function drain(){
+  scheduled=false;if(draining)return;draining=true;
+  try{
+    while(queue.length){
+      const batch=queue.splice(0,12);
+      try{
+        if(packAvailable){
+          try{await unpack(batch);continue;}
+          catch(e){if(e.status===404||e.status===405){packAvailable=false;}else if(e.status!==413){throw e;}}
+        }
+        for(const item of batch){try{item.resolve(await request(item.url,item.tries));}catch(e){item.reject(e);}}
+      }catch(e){for(const item of batch)item.reject(e);}
+    }
+  }finally{draining=false;if(queue.length&&!scheduled){scheduled=true;setTimeout(drain,25);}}
+}
+export function fetchRetry(url,tries=4){
+  const absolute=new URL(url,document.baseURI);
+  if(absolute.origin!==assetsRoot.origin||!absolute.pathname.startsWith(assetsRoot.pathname))return request(absolute,tries);
+  return new Promise((resolve,reject)=>{
+    queue.push({name:decodeURIComponent(absolute.pathname.slice(assetsRoot.pathname.length)),url:absolute,tries,resolve,reject});
+    if(!scheduled&&!draining){scheduled=true;setTimeout(drain,25);}
+  });
 }
 
 /**
