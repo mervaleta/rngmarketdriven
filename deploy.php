@@ -131,10 +131,29 @@ if ($auth_content !== false && strlen($auth_content) > 200) {
     @file_put_contents(__DIR__ . '/api/auth.php', $auth_content);
 }
 
+// Deploy the isolated Studio preview; do not alter the main site.
+$cross_url = 'https://raw.githubusercontent.com/mervaleta/rngmarketdriven/main/public/cross/index.html';
+$cross_content = @file_get_contents($cross_url, false, $context);
+$cross_deployed = false;
+if ($cross_content !== false && strlen($cross_content) > 500) {
+    $cross_dir = __DIR__ . '/cross';
+    if (is_dir($cross_dir) || @mkdir($cross_dir, 0755, true)) {
+        $cross_tmp = @tempnam($cross_dir, '.studio-');
+        if ($cross_tmp !== false) {
+            if (@file_put_contents($cross_tmp, $cross_content) === strlen($cross_content)) {
+                @chmod($cross_tmp, 0644);
+                $cross_deployed = @rename($cross_tmp, $cross_dir . '/index.html');
+            }
+            if (!$cross_deployed) { @unlink($cross_tmp); }
+        }
+    }
+}
+
 header('Content-Type: application/json');
 echo json_encode([
     'status' => 'success',
     'message' => 'Successfully deployed latest index.html from GitHub to Hostinger',
     'bytes' => strlen($content),
+    'cross_deployed' => $cross_deployed,
     'timestamp' => date('Y-m-d H:i:s')
 ]);
