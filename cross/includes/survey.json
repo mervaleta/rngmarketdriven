@@ -1,0 +1,329 @@
+{
+  "revision": "1",
+  "questions": [
+    {
+      "id": "frecuencia",
+      "label": "¿Con qué frecuencia practicás crossdressing?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Casi todos los días"
+        },
+        {
+          "id": "o2",
+          "label": "Varias veces por semana"
+        },
+        {
+          "id": "o3",
+          "label": "Varias veces por mes"
+        },
+        {
+          "id": "o4",
+          "label": "Algunas veces al año"
+        },
+        {
+          "id": "o5",
+          "label": "Estoy empezando"
+        }
+      ]
+    },
+    {
+      "id": "trayectoria",
+      "label": "¿Desde hace cuánto explorás esta forma de expresión?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Menos de un año"
+        },
+        {
+          "id": "o2",
+          "label": "Entre 1 y 3 años"
+        },
+        {
+          "id": "o3",
+          "label": "Entre 4 y 10 años"
+        },
+        {
+          "id": "o4",
+          "label": "Más de 10 años"
+        }
+      ]
+    },
+    {
+      "id": "momento",
+      "label": "¿En qué momento solés dedicarle tiempo?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Durante el día"
+        },
+        {
+          "id": "o2",
+          "label": "Por la noche"
+        },
+        {
+          "id": "o3",
+          "label": "Fines de semana"
+        },
+        {
+          "id": "o4",
+          "label": "Cuando surge la oportunidad"
+        },
+        {
+          "id": "o5",
+          "label": "No tengo un momento habitual"
+        }
+      ]
+    },
+    {
+      "id": "tiempo",
+      "label": "¿Cuánto suele durar un momento dedicado a tu look?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Menos de 30 minutos"
+        },
+        {
+          "id": "o2",
+          "label": "Entre 30 minutos y 2 horas"
+        },
+        {
+          "id": "o3",
+          "label": "Entre 2 y 4 horas"
+        },
+        {
+          "id": "o4",
+          "label": "Más de 4 horas"
+        },
+        {
+          "id": "o5",
+          "label": "Varía mucho"
+        }
+      ]
+    },
+    {
+      "id": "estilo",
+      "label": "¿Qué estilo te interesa más en este momento?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Casual y cotidiano"
+        },
+        {
+          "id": "o2",
+          "label": "Romántico o coquette"
+        },
+        {
+          "id": "o3",
+          "label": "Elegante y clásico"
+        },
+        {
+          "id": "o4",
+          "label": "Retro o vintage"
+        },
+        {
+          "id": "o5",
+          "label": "Alternativo o creativo"
+        },
+        {
+          "id": "o6",
+          "label": "Voy cambiando de estilo"
+        }
+      ]
+    },
+    {
+      "id": "prendas",
+      "label": "¿Qué parte del guardarropa disfrutás más explorar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Vestidos y polleras"
+        },
+        {
+          "id": "o2",
+          "label": "Medias y calzas"
+        },
+        {
+          "id": "o3",
+          "label": "Zapatos"
+        },
+        {
+          "id": "o4",
+          "label": "Maquillaje"
+        },
+        {
+          "id": "o5",
+          "label": "Bolsos y accesorios"
+        },
+        {
+          "id": "o6",
+          "label": "Prendas superiores y pantalones"
+        }
+      ]
+    },
+    {
+      "id": "maquillaje",
+      "label": "¿Con qué frecuencia incorporás maquillaje a tu look?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Casi siempre"
+        },
+        {
+          "id": "o2",
+          "label": "A veces"
+        },
+        {
+          "id": "o3",
+          "label": "Rara vez"
+        },
+        {
+          "id": "o4",
+          "label": "Todavía no"
+        }
+      ]
+    },
+    {
+      "id": "compras",
+      "label": "¿Dónde solés buscar ropa y accesorios?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Tiendas online"
+        },
+        {
+          "id": "o2",
+          "label": "Comercios físicos"
+        },
+        {
+          "id": "o3",
+          "label": "Ferias o segunda mano"
+        },
+        {
+          "id": "o4",
+          "label": "Una combinación de opciones"
+        },
+        {
+          "id": "o5",
+          "label": "Todavía no compro"
+        }
+      ]
+    },
+    {
+      "id": "dificultad",
+      "label": "¿Qué te cuesta más encontrar al comprar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Talle de calzado"
+        },
+        {
+          "id": "o2",
+          "label": "Talle o moldería de ropa"
+        },
+        {
+          "id": "o3",
+          "label": "Precios accesibles"
+        },
+        {
+          "id": "o4",
+          "label": "Información clara de medidas"
+        },
+        {
+          "id": "o5",
+          "label": "Variedad de estilos"
+        },
+        {
+          "id": "o6",
+          "label": "Nada en particular"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje",
+      "label": "¿Qué te gustaría aprender o mejorar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Maquillaje"
+        },
+        {
+          "id": "o2",
+          "label": "Combinación de prendas"
+        },
+        {
+          "id": "o3",
+          "label": "Elegir talles"
+        },
+        {
+          "id": "o4",
+          "label": "Peinados y pelucas"
+        },
+        {
+          "id": "o5",
+          "label": "Caminar con tacos"
+        },
+        {
+          "id": "o6",
+          "label": "Cuidado de prendas"
+        }
+      ]
+    },
+    {
+      "id": "contenido",
+      "label": "¿Qué te gustaría encontrar más en Studio?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Guías y herramientas"
+        },
+        {
+          "id": "o2",
+          "label": "Juegos y desafíos"
+        },
+        {
+          "id": "o3",
+          "label": "Colecciones de fichus"
+        },
+        {
+          "id": "o4",
+          "label": "Relatos y experiencias"
+        },
+        {
+          "id": "o5",
+          "label": "Conversaciones de comunidad"
+        },
+        {
+          "id": "o6",
+          "label": "Ropero y recomendaciones"
+        }
+      ]
+    },
+    {
+      "id": "uso",
+      "label": "¿Con qué frecuencia te gustaría visitar una comunidad como Studio?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Todos los días"
+        },
+        {
+          "id": "o2",
+          "label": "Varias veces por semana"
+        },
+        {
+          "id": "o3",
+          "label": "Una vez por semana"
+        },
+        {
+          "id": "o4",
+          "label": "De vez en cuando"
+        },
+        {
+          "id": "o5",
+          "label": "Todavía no sé"
+        }
+      ]
+    }
+  ]
+}
