@@ -36,10 +36,15 @@ function studioArt(string $name,string $class=''): string{
     if(!in_array($name,$known,true))return '';
     return '<img class="studio-art '.studioEsc($class).'" src="'.studioEsc(studioBase()).'assets/art/'.studioEsc($name).'.svg" alt="" aria-hidden="true" decoding="async">';
 }
-function studioHeader(string $active='',string $extra=''): string {
-    $base=studioBase();$member=studioCurrentMember();$game=studioHeaderGame($member);
+function studioHeader(string $active='',string $extra='',bool $anonymous=false): string {
+    $base=studioBase();$member=$anonymous?null:studioCurrentMember();$game=$anonymous?['coins'=>100,'quizDone'=>false,'packDone'=>false]:studioHeaderGame($member);
     $active=['muro'=>'pluma','foro'=>'pluma','relatos'=>'pluma','glosario'=>'recursos'][$active]??$active;
     $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['index.php?seccion=pluma-libre','Pluma Libre'],'chat'=>['chat/index.php','Chat'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'ropero'=>['ropero/index.php','Ropero'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
+    if($anonymous){
+        $out='<header class="studio-header"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><div class="studio-extra"><span>Encuesta sin cuenta</span></div></div><nav class="studio-nav" aria-label="Navegación principal">';
+        foreach($tabs as $key=>$item)$out.='<a href="'.studioEsc($base.$item[0]).'">'.studioEsc($item[1]).'</a>';
+        return $out.'</nav></header>';
+    }
     $account=$base.($member?'perfiles/?v=profile&id='.(int)$member['id']:'cuenta/');
     $avatar=$member&&!empty($member['has_avatar'])?'<img src="'.studioEsc($base).'perfiles/?v=avatar&amp;id='.(int)$member['id'].'" alt="">':'<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20v-1a7 7 0 0 1 14 0v1"/></svg>';
     $out='<header class="studio-header" data-member="'.($member?'1':'0').'" data-quiz-done="'.($game['quizDone']?'1':'0').'" data-pack-done="'.($game['packDone']?'1':'0').'"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><span class="studio-version">PREVIEW 0.9</span><div class="studio-extra"><a class="studio-wallet" href="'.studioEsc($base).'album/" aria-label="Créditos de juego"><span aria-hidden="true">◈</span><strong id="headerCoins">'.(int)$game['coins'].'</strong><span class="wallet-label">créditos</span></a>';
