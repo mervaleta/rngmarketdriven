@@ -31,7 +31,7 @@ jobs:
         run: |
           export CHROME_BIN="$(which google-chrome || which chromium || which chromium-browser)"
           npm install --no-save --no-package-lock --ignore-scripts puppeteer-core@24
-          python3 -m http.server 8765 --bind 127.0.0.1 --directory studio-release > /tmp/studio-style-http.log 2>&1 &
+          php -S 127.0.0.1:8765 -t studio-release > /tmp/studio-style-http.log 2>&1 &
           sleep 2
           STUDIO_TEST_URL=http://127.0.0.1:8765/cross/minijuegos/style-lab/engine/editor/ node cross/scripts/style-lab-smoke.mjs
       - name: Version the reviewed engine assets in the repository
