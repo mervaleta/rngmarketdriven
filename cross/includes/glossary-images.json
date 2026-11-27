@@ -397,6 +397,16 @@
         "local": "assets/glossary/clothing-dataset/f8b84112-9110-4628-91e8-9d22a13767f3.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/f8b84112-9110-4628-91e8-9d22a13767f3.jpg"
       }
+    ],
+    [
+      "af5c0e7c-d950-4e6f-88ac-642a41a27b75.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Pollera beige de línea A con botones frontales",
+      {
+        "local": "assets/glossary/clothing-dataset/af5c0e7c-d950-4e6f-88ac-642a41a27b75.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/af5c0e7c-d950-4e6f-88ac-642a41a27b75.jpg"
+      }
     ]
   ],
   "blusa": [
@@ -442,6 +452,16 @@
       {
         "local": "assets/glossary/clothing-dataset/6ba8aeb1-a812-4bd7-a0b3-d898aebe3400.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/6ba8aeb1-a812-4bd7-a0b3-d898aebe3400.jpg"
+      }
+    ],
+    [
+      "5d8bacce-65eb-4bff-9f89-3d023d881d37.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Top negro con encaje y tirantes",
+      {
+        "local": "assets/glossary/clothing-dataset/5d8bacce-65eb-4bff-9f89-3d023d881d37.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/5d8bacce-65eb-4bff-9f89-3d023d881d37.jpg"
       }
     ]
   ],
@@ -490,6 +510,66 @@
       {
         "local": "assets/glossary/clothing-dataset/4c8f245e-a039-46fd-a6b9-1bb51e83fc05.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/4c8f245e-a039-46fd-a6b9-1bb51e83fc05.jpg"
+      }
+    ]
+  ],
+  "vestido-peplum": [
+    [
+      "21059bce-cf86-4064-b9af-5dbbbc6e7593.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Vestido verde con pieza de vuelo a la cintura",
+      {
+        "local": "assets/glossary/clothing-dataset/21059bce-cf86-4064-b9af-5dbbbc6e7593.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/21059bce-cf86-4064-b9af-5dbbbc6e7593.jpg"
+      }
+    ]
+  ],
+  "vestido-shift": [
+    [
+      "334bc6ef-fc89-4226-90f3-dd63645ec845.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Vestido floral de líneas rectas y cintura poco marcada",
+      {
+        "local": "assets/glossary/clothing-dataset/334bc6ef-fc89-4226-90f3-dd63645ec845.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/334bc6ef-fc89-4226-90f3-dd63645ec845.jpg"
+      }
+    ]
+  ],
+  "crop-top": [
+    [
+      "1a6601f1-4ad2-43c9-b1b6-d46e09995c7a.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Top corto sin mangas, a rayas",
+      {
+        "local": "assets/glossary/clothing-dataset/1a6601f1-4ad2-43c9-b1b6-d46e09995c7a.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/1a6601f1-4ad2-43c9-b1b6-d46e09995c7a.jpg"
+      }
+    ]
+  ],
+  "bota": [
+    [
+      "30feae84-c7b1-4e72-8b42-0f7736d42cd5.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Botas violetas con cierre lateral y caña media",
+      {
+        "local": "assets/glossary/clothing-dataset/30feae84-c7b1-4e72-8b42-0f7736d42cd5.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/30feae84-c7b1-4e72-8b42-0f7736d42cd5.jpg"
+      }
+    ]
+  ],
+  "campera": [
+    [
+      "cbfb5bb7-3b89-4976-9a8b-f7601f851d39.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Campera oscura con cierre y capucha",
+      {
+        "local": "assets/glossary/clothing-dataset/cbfb5bb7-3b89-4976-9a8b-f7601f851d39.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/cbfb5bb7-3b89-4976-9a8b-f7601f851d39.jpg"
       }
     ]
   ]

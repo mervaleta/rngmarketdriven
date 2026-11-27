@@ -6,8 +6,8 @@ OUT=pathlib.Path("studio-release/cross")
 FILES=[
  "includes/.htaccess","includes/encyclopedia-catalog.php","includes/encyclopedia-referrals.php",
  "includes/glossary-images.php","includes/glossary-referrals.json","includes/glossary.json",
- "includes/glossary-images.json","includes/header.php","includes/encyclopedia.php",
- "assets/encyclopedia.css","assets/encyclopedia.js","glosario/image.php","glosario/index.php",
+ "includes/glossary-images.json","includes/glossary-history.json","includes/encyclopedia-history.php","includes/header.php","includes/encyclopedia.php",
+ "assets/encyclopedia.css","assets/encyclopedia.js","assets/encyclopedia-gallery.js","glosario/image.php","glosario/index.php",
  "ropero/index.php","servicios/index.php","includes/looks.json","recursos/looks/index.php","includes/portal.html",
 ]
 def build():
@@ -45,6 +45,27 @@ def build():
     failures=[msg for ok,msg in results if not ok]
     report={"references":len(items),"local_images":len(items)-len(failures),"remote_fallbacks":failures}
     (OUT.parent/"image-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
+    historical=json.loads((OUT/"includes/glossary-history.json").read_text())
+    assets={m["path"]:m for events in historical.values() for event in events for m in event.get("images",[])}
+    def fetch_history(m):
+        rel=m["path"]
+        if not re.fullmatch(r"assets/glossary/history/(?:met-[0-9]+\.jpg|us[0-9]+a-[0-9]+\.png)",rel):raise ValueError("Unsafe history path")
+        url=m["url"]
+        if urllib.parse.urlsplit(url).hostname not in ("collectionapi.metmuseum.org","patentimages.storage.googleapis.com"):raise ValueError("Unknown source")
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":"StudioGlossary/1.0 (https://rngmarketdriven.com/cross/glosario/)"})
+            with urllib.request.urlopen(req,timeout=25) as response:
+                data=response.read(12*1024*1024+1)
+            if len(data)>12*1024*1024 or not data.startswith(b"\x89PNG\r\n\x1a\n" if rel.endswith(".png") else b"\xff\xd8\xff"):raise ValueError("Unexpected image format")
+            dst=OUT/rel;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(data)
+            return True,rel
+        except Exception as exc:return False,rel+": "+type(exc).__name__
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        hist_results=list(pool.map(fetch_history,assets.values()))
+    report["historical_references"]=len(assets)
+    report["historical_local"]=sum(ok for ok,_ in hist_results)
+    report["historical_failures"]=[msg for ok,msg in hist_results if not ok]
+    (OUT.parent/"image-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps(report,ensure_ascii=False))
     for f in OUT.rglob("*.php"):subprocess.run(["php","-l",str(f)],check=True)
 def deploy():
@@ -77,7 +98,7 @@ def deploy():
         def order(p):
             rel=p.relative_to(OUT).as_posix()
             if rel.startswith("assets/"):return 0
-            if rel in ("includes/encyclopedia-catalog.php","includes/glossary-images.php","includes/encyclopedia-referrals.php","includes/.htaccess"):return 1
+            if rel in ("includes/encyclopedia-catalog.php","includes/glossary-images.php","includes/encyclopedia-referrals.php","includes/encyclopedia-history.php","includes/.htaccess"):return 1
             if rel.endswith(".json"):return 2
             if rel=="includes/encyclopedia.php":return 4
             return 3
@@ -101,6 +122,12 @@ def verify():
                 if ctype!="image/jpeg" or not data.startswith(b"\xff\xd8\xff"):raise ValueError("Not JPEG")
                 if len(item)>4 and item[4].get("local") and data!=(OUT/rel).read_bytes():raise ValueError("Different bytes")
             except Exception as e:failures.append((slug,i,type(e).__name__))
+    for p in (OUT/"assets/glossary/history").glob("*"):
+        rel=p.relative_to(OUT).as_posix()
+        try:
+            data,ctype=read(rel)
+            if data!=p.read_bytes():raise ValueError("Different historical image bytes")
+        except Exception as e:failures.append((rel,type(e).__name__))
     print("Image failures:",json.dumps(failures))
     if failures:raise SystemExit("Some live images failed verification")
 if __name__=="__main__":

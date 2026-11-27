@@ -1,0 +1,334 @@
+{
+  "corpino": [
+    {
+      "kind": "Pieza de museo",
+      "date": "ca. 1820",
+      "title": "Brassiere de algodón",
+      "description": "Pieza estadounidense o europea catalogada por el Met; acredita un antecedente material anterior a las patentes modernas.",
+      "source": "https://www.metmuseum.org/art/collection/search/108967",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/108967/320629/main-image",
+          "path": "assets/glossary/history/met-108967.jpg",
+          "caption": "Brassiere de algodón"
+        }
+      ],
+      "object_id": 108967
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1893-03-28",
+      "title": "Breast supporter",
+      "description": "Diseño de soporte del pecho con placa, copas parciales y tirantes; una patente de antecedente, no fecha de invención del corpiño.",
+      "person": "Marie Tucek",
+      "number": "US494397A",
+      "source": "https://patents.google.com/patent/US494397A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/46/a6/f5/adcc282ea4d9ce/US494397-drawings-page-1.png",
+          "path": "assets/glossary/history/us494397a-1.png",
+          "caption": "Lámina 1 · US494397A"
+        }
+      ]
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1914-11-03",
+      "title": "Brassiere",
+      "description": "Patente de un diseño específico de corpiño. Solicitud del 12 de febrero de 1914.",
+      "person": "Mary Phelps Jacob",
+      "number": "US1115674A",
+      "source": "https://patents.google.com/patent/US1115674A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/eb/7d/4c/6eb9eb528d60fc/US1115674-drawings-page-1.png",
+          "path": "assets/glossary/history/us1115674a-1.png",
+          "caption": "Lámina 1 · US1115674A"
+        },
+        {
+          "url": "https://patentimages.storage.googleapis.com/a3/fa/ef/e5d3b5d5092eab/US1115674-drawings-page-2.png",
+          "path": "assets/glossary/history/us1115674a-2.png",
+          "caption": "Lámina 2 · US1115674A"
+        }
+      ]
+    }
+  ],
+  "corset": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1810–1850",
+      "title": "Corset histórico",
+      "description": "Pieza estadounidense o europea; fecha estimada de fabricación según el museo.",
+      "source": "https://www.metmuseum.org/art/collection/search/86414",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/86414/320602/main-image",
+          "path": "assets/glossary/history/met-86414.jpg",
+          "caption": "Corset histórico"
+        }
+      ],
+      "object_id": 86414
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1897-12-14",
+      "title": "Corset-stiffener",
+      "description": "Patente de un refuerzo de corsetería; documenta una mejora técnica, no el origen del corset.",
+      "person": null,
+      "number": "US595510A",
+      "source": "https://patents.google.com/patent/US595510A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/54/a9/75/36a53ff138c1f6/US595510-drawings-page-1.png",
+          "path": "assets/glossary/history/us595510a-1.png",
+          "caption": "Lámina 1 · US595510A"
+        }
+      ]
+    }
+  ],
+  "ballena": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1897-12-14",
+      "title": "Corset-stiffener",
+      "description": "Patente de un refuerzo de corsetería; documenta una mejora técnica, no el origen del corset.",
+      "person": null,
+      "number": "US595510A",
+      "source": "https://patents.google.com/patent/US595510A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/54/a9/75/36a53ff138c1f6/US595510-drawings-page-1.png",
+          "path": "assets/glossary/history/us595510a-1.png",
+          "caption": "Lámina 1 · US595510A"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Finales del siglo XVIII – comienzos del XIX",
+      "title": "Medias europeas a rayas",
+      "description": "Par conservado en el Costume Institute; fecha estimada de fabricación.",
+      "source": "https://www.metmuseum.org/art/collection/search/121500",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/121500/283646/main-image",
+          "path": "assets/glossary/history/met-121500.jpg",
+          "caption": "Medias europeas a rayas"
+        }
+      ],
+      "object_id": 121500
+    },
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1903-06-30",
+      "title": "Seamless-fashioned stocking",
+      "description": "Patente de una técnica de conformación de medias sin costura. Solicitud de 1902.",
+      "person": "James Frazier Bard",
+      "number": "US732034A",
+      "source": "https://patents.google.com/patent/US732034A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/ef/5b/46/7c260b789c1de9/US732034-drawings-page-1.png",
+          "path": "assets/glossary/history/us732034a-1.png",
+          "caption": "Lámina 1 · US732034A"
+        }
+      ]
+    }
+  ],
+  "medias-seamless": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1903-06-30",
+      "title": "Seamless-fashioned stocking",
+      "description": "Patente de una técnica de conformación de medias sin costura. Solicitud de 1902.",
+      "person": "James Frazier Bard",
+      "number": "US732034A",
+      "source": "https://patents.google.com/patent/US732034A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/ef/5b/46/7c260b789c1de9/US732034-drawings-page-1.png",
+          "path": "assets/glossary/history/us732034a-1.png",
+          "caption": "Lámina 1 · US732034A"
+        }
+      ]
+    }
+  ],
+  "corselet": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1930-06-10",
+      "title": "Apparel garment",
+      "description": "Diseño de una prenda que combina soporte del torso y pecho con sujetadores de medias. Solicitud del 5 de julio de 1928.",
+      "person": "Waldemar Kops",
+      "number": "US1762399A",
+      "source": "https://patents.google.com/patent/US1762399A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/52/59/75/024601872d6236/US1762399-drawings-page-1.png",
+          "path": "assets/glossary/history/us1762399a-1.png",
+          "caption": "Lámina 1 · US1762399A"
+        }
+      ]
+    }
+  ],
+  "liguero": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1930-06-10",
+      "title": "Apparel garment",
+      "description": "Diseño de una prenda que combina soporte del torso y pecho con sujetadores de medias. Solicitud del 5 de julio de 1928.",
+      "person": "Waldemar Kops",
+      "number": "US1762399A",
+      "source": "https://patents.google.com/patent/US1762399A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/52/59/75/024601872d6236/US1762399-drawings-page-1.png",
+          "path": "assets/glossary/history/us1762399a-1.png",
+          "caption": "Lámina 1 · US1762399A"
+        }
+      ]
+    },
+    {
+      "kind": "Pieza de museo · referencia",
+      "date": "Década de 1960",
+      "title": "Garter belt de House of Dior",
+      "person": "Marc Bohan",
+      "description": "Liguero de nylon catalogado en el Met. Imagen restringida por el museo; solo se enlaza a la ficha.",
+      "source": "https://www.metmuseum.org/art/collection/search/100564",
+      "credit": "The Metropolitan Museum of Art",
+      "images": []
+    }
+  ],
+  "cierre-invisible": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1917-08-14",
+      "title": "Separable fastener",
+      "description": "Mejora patentada de un cierre separable con cursor. Antecedente del cierre moderno, no una patente específica del cierre invisible.",
+      "person": "Gideon Sundback",
+      "number": "US1236783A",
+      "source": "https://patents.google.com/patent/US1236783A/en",
+      "credit": "United States Patent Office · digitalización Google Patents",
+      "license": "Documento publicado en EE. UU. antes de 1931 · dominio público en EE. UU.",
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/24/57/c6/35c3a5e1b1b9f5/US1236783-drawings-page-1.png",
+          "path": "assets/glossary/history/us1236783a-1.png",
+          "caption": "Lámina 1 · US1236783A"
+        }
+      ]
+    }
+  ],
+  "enagua": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1865–1869",
+      "title": "Enagua de algodón",
+      "description": "Pieza estadounidense conservada en la colección del Brooklyn Museum en el Met.",
+      "source": "https://www.metmuseum.org/art/collection/search/158148",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158148/332821/main-image",
+          "path": "assets/glossary/history/met-158148.jpg",
+          "caption": "Enagua de algodón"
+        }
+      ],
+      "object_id": 158148
+    }
+  ],
+  "vestido-de-gala": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1850–1852",
+      "title": "Vestido de noche de seda",
+      "description": "Pieza estadounidense azul de falda voluminosa; fecha estimada de fabricación.",
+      "source": "https://www.metmuseum.org/art/collection/search/159159",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/159159/331375/main-image",
+          "path": "assets/glossary/history/met-159159.jpg",
+          "caption": "Vestido de noche de seda"
+        }
+      ],
+      "object_id": 159159
+    }
+  ],
+  "cartera": [
+    {
+      "kind": "Pieza de museo",
+      "date": "Siglo XIX",
+      "title": "Bolso japonés de bambú trenzado",
+      "description": "Ejemplo histórico de bolso elaborado con bambú, cuero, metal y algodón.",
+      "source": "https://www.metmuseum.org/art/collection/search/62209",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/62209/67953/main-image",
+          "path": "assets/glossary/history/met-62209.jpg",
+          "caption": "Bolso japonés de bambú trenzado"
+        }
+      ],
+      "object_id": 62209
+    }
+  ],
+  "combinacion-media": [
+    {
+      "kind": "Pieza de museo",
+      "date": "1865–1869",
+      "title": "Enagua de algodón (antecedente relacionado)",
+      "description": "Ejemplo histórico de una prenda interior de falda, no necesariamente equivalente a la media combinación moderna.",
+      "source": "https://www.metmuseum.org/art/collection/search/158148",
+      "credit": "The Metropolitan Museum of Art · Open Access",
+      "license": "Dominio público / CC0",
+      "images": [
+        {
+          "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158148/332821/main-image",
+          "path": "assets/glossary/history/met-158148.jpg",
+          "caption": "Enagua de algodón (antecedente relacionado)"
+        }
+      ],
+      "object_id": 158148
+    }
+  ],
+  "medias-fully-fashioned": [
+    {
+      "kind": "Patente concedida (EE. UU.)",
+      "date": "1932-10-11",
+      "title": "Full fashioned stocking",
+      "description": "Patente relativa a zonas tejidas del borde superior para facilitar la sujeción de las ligas. Solo enlace al documento.",
+      "number": "US1882591A",
+      "source": "https://patents.google.com/patent/US1882591A/en",
+      "credit": "United States Patent Office",
+      "images": []
+    }
+  ]
+}
