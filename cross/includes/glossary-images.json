@@ -463,6 +463,16 @@
         "local": "assets/glossary/clothing-dataset/5d8bacce-65eb-4bff-9f89-3d023d881d37.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/5d8bacce-65eb-4bff-9f89-3d023d881d37.jpg"
       }
+    ],
+    [
+      "1e53d9cf-bacd-4675-8e7c-5563ce2f743f.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Top negro de tirantes anchos",
+      {
+        "local": "assets/glossary/clothing-dataset/1e53d9cf-bacd-4675-8e7c-5563ce2f743f.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/1e53d9cf-bacd-4675-8e7c-5563ce2f743f.jpg"
+      }
     ]
   ],
   "pantalon": [
@@ -570,6 +580,78 @@
       {
         "local": "assets/glossary/clothing-dataset/cbfb5bb7-3b89-4976-9a8b-f7601f851d39.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/cbfb5bb7-3b89-4976-9a8b-f7601f851d39.jpg"
+      }
+    ]
+  ],
+  "falda-plisada": [
+    [
+      "805a7767-cec7-4323-9a75-6c5c2024479d.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Pollera plisada a cuadros oscuros",
+      {
+        "local": "assets/glossary/clothing-dataset/805a7767-cec7-4323-9a75-6c5c2024479d.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/805a7767-cec7-4323-9a75-6c5c2024479d.jpg"
+      }
+    ]
+  ],
+  "top-tirantes-finos": [
+    [
+      "6d3a3735-2676-4bdc-86d0-292d27a4ab81.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Top bordó de tirantes finos y escote en V",
+      {
+        "local": "assets/glossary/clothing-dataset/6d3a3735-2676-4bdc-86d0-292d27a4ab81.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/6d3a3735-2676-4bdc-86d0-292d27a4ab81.jpg"
+      }
+    ]
+  ],
+  "sandalia-dedos": [
+    [
+      "30b6fd9b-d172-4d5d-a1c1-c36d23f769dd.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Ojotas celestes de tira entre los dedos",
+      {
+        "local": "assets/glossary/clothing-dataset/30b6fd9b-d172-4d5d-a1c1-c36d23f769dd.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/30b6fd9b-d172-4d5d-a1c1-c36d23f769dd.jpg"
+      }
+    ]
+  ],
+  "tapado": [
+    [
+      "7ee4f3fd-6dc3-4b71-901f-9ccbbf8cad80.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Tapado oscuro abotonado con bolsillos",
+      {
+        "local": "assets/glossary/clothing-dataset/7ee4f3fd-6dc3-4b71-901f-9ccbbf8cad80.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/7ee4f3fd-6dc3-4b71-901f-9ccbbf8cad80.jpg"
+      }
+    ]
+  ],
+  "jean-recto": [
+    [
+      "276db6ba-6a50-499f-8a3d-7ede222493df.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Jean claro de pernera relativamente recta",
+      {
+        "local": "assets/glossary/clothing-dataset/276db6ba-6a50-499f-8a3d-7ede222493df.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/276db6ba-6a50-499f-8a3d-7ede222493df.jpg"
+      }
+    ]
+  ],
+  "sweater": [
+    [
+      "bfb072bd-4378-47d5-ad94-e11e367fbdd0.jpg",
+      "Clothing Dataset · Alexey Grigorev y colaboradores",
+      "cc0",
+      "Suéter gris de punto y cuello con botones",
+      {
+        "local": "assets/glossary/clothing-dataset/bfb072bd-4378-47d5-ad94-e11e367fbdd0.jpg",
+        "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/bfb072bd-4378-47d5-ad94-e11e367fbdd0.jpg"
       }
     ]
   ]

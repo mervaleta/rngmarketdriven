@@ -59,80 +59,52 @@
       ]
     },
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "1912–1913",
       "title": "Corpiño de principios del siglo XX",
       "description": "Ejemplo de corpiño conservado anterior a la patente concedida a Mary Phelps Jacob.",
       "source": "https://www.metmuseum.org/art/collection/search/108979",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 108979,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108979",
-          "path": "assets/glossary/history/met-108979.jpg",
-          "caption": "Corpiño de principios del siglo XX",
-          "met_object_id": 108979
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     },
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "1910–1920",
       "title": "Corpiño histórico",
       "description": "Ejemplar estadounidense o europeo que documenta las formas de soporte del pecho en la época.",
       "source": "https://www.metmuseum.org/art/collection/search/108899",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 108899,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108899",
-          "path": "assets/glossary/history/met-108899.jpg",
-          "caption": "Corpiño histórico",
-          "met_object_id": 108899
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     },
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "Década de 1920",
       "title": "Corpiño francés",
       "description": "Pieza de seda y algodón que documenta la lencería de entreguerras.",
       "source": "https://www.metmuseum.org/art/collection/search/105788",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 105788,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/105788",
-          "path": "assets/glossary/history/met-105788.jpg",
-          "caption": "Corpiño francés",
-          "met_object_id": 105788
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     },
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "1922–1929",
       "title": "Corpiño estadounidense",
       "description": "Ejemplo de la evolución de esta familia de prendas durante la década de 1920.",
       "source": "https://www.metmuseum.org/art/collection/search/174867",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 174867,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/174867",
-          "path": "assets/glossary/history/met-174867.jpg",
-          "caption": "Corpiño estadounidense",
-          "met_object_id": 174867
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     },
     {
       "kind": "Patente concedida (EE. UU.)",
@@ -143,7 +115,13 @@
       "source": "https://patents.google.com/patent/US1640823A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/d6/a4/8f/911019c3d53576/US1640823-drawings-page-1.png",
+          "path": "assets/glossary/history/us1640823a-1.png",
+          "caption": "Lámina 1 · US1640823A"
+        }
+      ]
     },
     {
       "kind": "Patente concedida (EE. UU.)",
@@ -154,7 +132,18 @@
       "source": "https://patents.google.com/patent/US1497450A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/dc/9d/50/7bcfba507caa6d/US1497450-drawings-page-1.png",
+          "path": "assets/glossary/history/us1497450a-1.png",
+          "caption": "Lámina 1 · US1497450A"
+        },
+        {
+          "url": "https://patentimages.storage.googleapis.com/9e/58/bf/479c450e27bcaa/US1497450-drawings-page-2.png",
+          "path": "assets/glossary/history/us1497450a-2.png",
+          "caption": "Lámina 2 · US1497450A"
+        }
+      ]
     }
   ],
   "corset": [
@@ -368,7 +357,13 @@
       "source": "https://patents.google.com/patent/US1254043A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/5f/bb/90/a29570e1cefad7/US1254043-drawings-page-1.png",
+          "path": "assets/glossary/history/us1254043a-1.png",
+          "caption": "Lámina 1 · US1254043A"
+        }
+      ]
     }
   ],
   "liguero": [
@@ -409,7 +404,13 @@
       "source": "https://patents.google.com/patent/US723560A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/27/17/d4/876cf8c347d13b/US723560-drawings-page-1.png",
+          "path": "assets/glossary/history/us723560a-1.png",
+          "caption": "Lámina 1 · US723560A"
+        }
+      ]
     },
     {
       "kind": "Patente concedida (EE. UU.)",
@@ -420,7 +421,13 @@
       "source": "https://patents.google.com/patent/US1395192A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/c0/79/63/b842dda2d1d6f3/US1395192-drawings-page-1.png",
+          "path": "assets/glossary/history/us1395192a-1.png",
+          "caption": "Lámina 1 · US1395192A"
+        }
+      ]
     }
   ],
   "cierre-invisible": [
@@ -731,23 +738,16 @@
       ]
     },
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "Principios de los años treinta",
       "title": "Pijama estadounidense",
       "description": "Registro de museo de un conjunto de descanso.",
       "source": "https://www.metmuseum.org/art/collection/search/108805",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 108805,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/108805",
-          "path": "assets/glossary/history/met-108805.jpg",
-          "caption": "Pijama estadounidense",
-          "met_object_id": 108805
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     }
   ],
   "guantes": [
@@ -792,23 +792,16 @@
   ],
   "monedero": [
     {
-      "kind": "Pieza de museo",
+      "kind": "Pieza de museo · solo referencia",
       "date": "Hacia 1909",
       "title": "Monedero de metal y seda",
       "description": "Ejemplo de accesorio estadounidense.",
       "source": "https://www.metmuseum.org/art/collection/search/156518",
       "credit": "The Metropolitan Museum of Art",
-      "license": "Imagen CC0 únicamente si la API confirma dominio público",
+      "license": "Imagen no incorporada: disponibilidad o dominio público no confirmado",
       "object_id": 156518,
-      "thumbnail_eligible": true,
-      "images": [
-        {
-          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/156518",
-          "path": "assets/glossary/history/met-156518.jpg",
-          "caption": "Monedero de metal y seda",
-          "met_object_id": 156518
-        }
-      ]
+      "thumbnail_eligible": false,
+      "images": []
     }
   ],
   "sombrilla": [
@@ -999,7 +992,13 @@
       "source": "https://patents.google.com/patent/US1480385A/en",
       "credit": "United States Patent Office · Google Patents",
       "license": "Publicación anterior a 1931; dominio público en EE. UU.",
-      "images": []
+      "images": [
+        {
+          "url": "https://patentimages.storage.googleapis.com/b7/ea/4c/36abe1ca52c06f/US1480385-drawings-page-1.png",
+          "path": "assets/glossary/history/us1480385a-1.png",
+          "caption": "Lámina 1 · US1480385A"
+        }
+      ]
     }
   ]
 }
