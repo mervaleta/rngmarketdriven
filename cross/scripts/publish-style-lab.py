@@ -45,6 +45,9 @@ def build():
     s=replace(s,'const linked = await recipeFromLink(location.hash).catch(() => null);','const linked = null;')
     s=replace(s,'const presets = await loadPresets();','const presets = (await loadPresets()).filter(p => Number(p.recipe?.body?.age ?? 0.5) >= 0.35);')
     s=replace(s,'window.avatarEditor = { exportVRM,','window.avatarEditor = { capture(){renderer.render(scene,camera);return renderer.domElement.toDataURL("image/png");}, exportVRM,')
+    # The checked-in editor is the authoritative Studio fork; keep fixes on every rebuild.
+    maintained=ROOT/"minijuegos/style-lab/engine/editor/editor.js"
+    if maintained.is_file(): s=maintained.read_text()
     js.write_text(s)
     (TARGET/"icon.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#a13c78"/><path fill="white" d="M16 3 19 13 29 16 19 19 16 29 13 19 3 16 13 13Z"/></svg>')
     # .gz files contain raw gzip bytes for explicit browser decompression.
