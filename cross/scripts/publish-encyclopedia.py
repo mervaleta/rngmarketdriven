@@ -72,9 +72,12 @@ def build():
             return False,item[0]+": "+type(exc).__name__
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         results=list(pool.map(prepare,items))
+    from import_glossary_commons import import_selected
+    imported=import_selected(ROOT,OUT,manifest)
+    (OUT.parent/"new-image-report.json").write_text(json.dumps(imported,ensure_ascii=False,indent=2)+"\n")
     (OUT/"includes/glossary-images.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
     failures=[msg for ok,msg in results if not ok]
-    report={"references":len(items),"local_images":len(items)-len(failures),"remote_fallbacks":failures}
+    report={"references":sum(map(len,manifest.values())),"local_images":sum(1 for group in manifest.values() for m in group if len(m)>4 and m[4].get("local") and (OUT/m[4]["local"]).is_file()),"remote_fallbacks":failures,"newly_imported":len(imported["added"]),"new_photos":sum(x["kind"]=="photo" for x in imported["added"]),"new_drawings":sum(x["kind"]=="drawing" for x in imported["added"]),"new_pending":len(imported["pending"])}
     (OUT.parent/"image-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
     historical=json.loads((OUT/"includes/glossary-history.json").read_text())
     assets={m["path"]:m for events in historical.values() for event in events for m in event.get("images",[])}

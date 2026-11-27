@@ -15,6 +15,7 @@ on:
       - 'cross/includes/looks.json'
       - 'cross/includes/portal.html'
       - 'cross/scripts/publish-encyclopedia.py'
+      - 'cross/scripts/import_glossary_commons.py'
       - '.github/workflows/studio-encyclopedia.yml'
 permissions:
   contents: write
@@ -25,7 +26,7 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - name: Recover previously downloaded images (46008713237)
@@ -53,7 +54,9 @@ jobs:
           github-token: ${{ github.token }}
           path: studio-image-recovery/46015006035
       - name: Build release and validate PHP
-        run: python3 cross/scripts/publish-encyclopedia.py build
+        run: |
+          python3 -m pip install Pillow
+          python3 cross/scripts/publish-encyclopedia.py build
       - uses: actions/upload-artifact@v4
         with:
           name: studio-encyclopedia-release

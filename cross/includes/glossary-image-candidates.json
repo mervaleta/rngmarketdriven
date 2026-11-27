@@ -1,0 +1,740 @@
+[
+  {
+    "slug": "mocasin",
+    "file": "Loafers (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Mocasín"
+  },
+  {
+    "slug": "cardigan",
+    "file": "Cardigan (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cárdigan"
+  },
+  {
+    "slug": "cartera-satchel",
+    "file": "School satchel.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cartera satchel"
+  },
+  {
+    "slug": "bandolera",
+    "file": "Bandolier bag.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bandolera"
+  },
+  {
+    "slug": "top-cruzado",
+    "file": "Wrap top.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Top cruzado"
+  },
+  {
+    "slug": "calentadores",
+    "file": "Leg warmers.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Calentadores de piernas"
+  },
+  {
+    "slug": "falda-plisada",
+    "file": "Pleated skirt.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Falda plisada"
+  },
+  {
+    "slug": "aros-colgantes",
+    "file": "Ear pendant.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Aros colgantes"
+  },
+  {
+    "slug": "alpargata",
+    "file": "Espadrilles (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Alpargata"
+  },
+  {
+    "slug": "pantalon-wide-leg",
+    "file": "Palazzo trousers.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Pantalón wide leg"
+  },
+  {
+    "slug": "vestido-de-coctel",
+    "file": "Cocktail dress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido de cóctel"
+  },
+  {
+    "slug": "clutch",
+    "file": "Clutch bag.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Clutch"
+  },
+  {
+    "slug": "vestido-de-gala",
+    "file": "Evening gown.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido de gala"
+  },
+  {
+    "slug": "estola",
+    "file": "Stole (outerwear).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Estola"
+  },
+  {
+    "slug": "cartera-sobre",
+    "file": "Envelope bag.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cartera tipo sobre"
+  },
+  {
+    "slug": "bufanda",
+    "file": "Scarf (costume accessory).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bufanda"
+  },
+  {
+    "slug": "bolso-shopper",
+    "file": "Shopper.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bolso shopper"
+  },
+  {
+    "slug": "anteojos-de-sol",
+    "file": "Sunglasses (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Anteojos de sol"
+  },
+  {
+    "slug": "malla-entera",
+    "file": "Swim suit.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Malla entera"
+  },
+  {
+    "slug": "pareo",
+    "file": "Pareo.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Pareo"
+  },
+  {
+    "slug": "calzas",
+    "file": "Leggings (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Calzas"
+  },
+  {
+    "slug": "pijama-largo",
+    "file": "Pyjama.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Pijama largo"
+  },
+  {
+    "slug": "pijama",
+    "file": "Pyjama.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Pijama"
+  },
+  {
+    "slug": "bata",
+    "file": "Dressing gown.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bata"
+  },
+  {
+    "slug": "combinacion-entera",
+    "file": "Slip.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Combinación entera"
+  },
+  {
+    "slug": "combinacion-media",
+    "file": "Half slip (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Media combinación"
+  },
+  {
+    "slug": "trench",
+    "file": "Trench coat.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Trench"
+  },
+  {
+    "slug": "mochila",
+    "file": "Knapsack.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Mochila"
+  },
+  {
+    "slug": "zapatilla",
+    "file": "Sport shoes.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Zapatilla"
+  },
+  {
+    "slug": "corpino",
+    "file": "Bra.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Corpiño"
+  },
+  {
+    "slug": "corset",
+    "file": "Corset (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Corset"
+  },
+  {
+    "slug": "liguero",
+    "file": "Garter belt (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Liguero"
+  },
+  {
+    "slug": "medias",
+    "file": "Stockings (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Medias"
+  },
+  {
+    "slug": "capa",
+    "file": "Cape (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Capa"
+  },
+  {
+    "slug": "boina",
+    "file": "Beret.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Boina"
+  },
+  {
+    "slug": "bermuda",
+    "file": "Bermuda (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bermuda"
+  },
+  {
+    "slug": "sombrero-cloche",
+    "file": "Cloche (hat).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Sombrero cloche"
+  },
+  {
+    "slug": "sombrero-fedora",
+    "file": "Fedora (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Sombrero fedora"
+  },
+  {
+    "slug": "zueco",
+    "file": "Clogs.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Zueco"
+  },
+  {
+    "slug": "camison",
+    "file": "Nightgown.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Camisón"
+  },
+  {
+    "slug": "falda-godet",
+    "file": "Godet skirt.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Falda con godets"
+  },
+  {
+    "slug": "vestido-shift",
+    "file": "Shift dress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido recto shift"
+  },
+  {
+    "slug": "vestido-tubo",
+    "file": "Sheath dress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido tubo"
+  },
+  {
+    "slug": "vestido-cruzado",
+    "file": "Wrap dress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido cruzado"
+  },
+  {
+    "slug": "vestido-strapless",
+    "file": "Strapless dress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido strapless"
+  },
+  {
+    "slug": "vestido-halter",
+    "file": "Halter dress.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido halter"
+  },
+  {
+    "slug": "vestido-maxi",
+    "file": "Maxidress.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido maxi"
+  },
+  {
+    "slug": "vestido-mini",
+    "file": "Minidress.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vestido mini"
+  },
+  {
+    "slug": "cartera",
+    "file": "Handbag (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cartera"
+  },
+  {
+    "slug": "cinturon",
+    "file": "Belt (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cinturón"
+  },
+  {
+    "slug": "cinturon-fajin",
+    "file": "Sash (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Fajín"
+  },
+  {
+    "slug": "guantes",
+    "file": "Glove.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Guantes"
+  },
+  {
+    "slug": "guantes-sin-dedos",
+    "file": "Mitts (fingerless handwear).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Guantes sin dedos"
+  },
+  {
+    "slug": "horquilla",
+    "file": "Hairpin.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Horquilla"
+  },
+  {
+    "slug": "vincha",
+    "file": "Headband.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Vincha"
+  },
+  {
+    "slug": "collar",
+    "file": "Necklace (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Collar"
+  },
+  {
+    "slug": "aros",
+    "file": "Earring (jewelry).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Aros"
+  },
+  {
+    "slug": "aros-boton",
+    "file": "Ear studs.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Aros botón"
+  },
+  {
+    "slug": "pulsera",
+    "file": "Bracelet (jewelry).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Pulsera"
+  },
+  {
+    "slug": "anillo",
+    "file": "Ring (jewelry).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Anillo"
+  },
+  {
+    "slug": "sombrilla",
+    "file": "Parasol (object).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Sombrilla"
+  },
+  {
+    "slug": "paraguas",
+    "file": "Umbrella (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Paraguas"
+  },
+  {
+    "slug": "abanico",
+    "file": "Fan (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Abanico"
+  },
+  {
+    "slug": "billetera",
+    "file": "Wallet.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Billetera"
+  },
+  {
+    "slug": "reloj-pulsera",
+    "file": "Watch (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Reloj de pulsera"
+  },
+  {
+    "slug": "sandalia",
+    "file": "Sandals (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Sandalia"
+  },
+  {
+    "slug": "sandalia-t-bar",
+    "file": "T-strap shoes.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Sandalia T-bar"
+  },
+  {
+    "slug": "bota-de-montar",
+    "file": "Riding boots.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bota de montar"
+  },
+  {
+    "slug": "bota-sobre-rodilla",
+    "file": "Thigh boots.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Bota sobre la rodilla"
+  },
+  {
+    "slug": "zapato-oxford",
+    "file": "Oxfords.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Zapato Oxford"
+  },
+  {
+    "slug": "slingback",
+    "file": "Sling-back.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Slingback"
+  },
+  {
+    "slug": "mercedita",
+    "file": "Mary Janes.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Mercedita"
+  },
+  {
+    "slug": "tankini",
+    "file": "Tankini.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Tankini"
+  },
+  {
+    "slug": "tanga",
+    "file": "Tanga (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Tanga"
+  },
+  {
+    "slug": "jardinero",
+    "file": "Overall (clothing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Jardinero"
+  },
+  {
+    "slug": "chaleco",
+    "file": "Waistcoat (drawing).jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Chaleco"
+  },
+  {
+    "slug": "campera-bomber",
+    "file": "Bomber jacket.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Campera bomber"
+  },
+  {
+    "slug": "parka",
+    "file": "Parka.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Parka"
+  },
+  {
+    "slug": "escote-en-v",
+    "file": "V-neck.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Escote en V"
+  },
+  {
+    "slug": "escote-cuadrado",
+    "file": "Square neck.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Escote cuadrado"
+  },
+  {
+    "slug": "escote-bote",
+    "file": "Boat neck.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Escote bote"
+  },
+  {
+    "slug": "escote-redondo",
+    "file": "Round neck.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Escote redondo"
+  },
+  {
+    "slug": "cuello-peter-pan",
+    "file": "Peter Pan collar.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Cuello Peter Pan"
+  },
+  {
+    "slug": "manga-murcielago",
+    "file": "Batwing sleeve.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Manga murciélago"
+  },
+  {
+    "slug": "peplum",
+    "file": "Peplum.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Peplum"
+  },
+  {
+    "slug": "forro",
+    "file": "Lining.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Forro"
+  },
+  {
+    "slug": "poliamida",
+    "file": "Polyamide.jpg",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Poliamida"
+  },
+  {
+    "slug": "ruedo",
+    "file": "Hem.tif",
+    "kind": "drawing",
+    "caption": "Ilustración técnica · Ruedo"
+  },
+  {
+    "slug": "corpino-sin-breteles",
+    "file": "Strapless bra.jpg",
+    "kind": "photo",
+    "caption": "Corpiño sin breteles"
+  },
+  {
+    "slug": "corpino-deportivo",
+    "file": "Sports Bra (front).jpg",
+    "kind": "photo",
+    "caption": "Vista delantera del corpiño deportivo"
+  },
+  {
+    "slug": "corpino-deportivo",
+    "file": "Lecien Bukatsu half top sports bra 4.jpg",
+    "kind": "photo",
+    "caption": "Otro modelo de corpiño deportivo"
+  },
+  {
+    "slug": "bombacha-hipster",
+    "file": "Brown Hourglass Panties.jpg",
+    "kind": "photo",
+    "caption": "Bombacha hipster"
+  },
+  {
+    "slug": "collar-perlas",
+    "file": "Perlenkette.JPG",
+    "kind": "photo",
+    "caption": "Collar de perlas anudadas"
+  },
+  {
+    "slug": "collar-perlas",
+    "file": "Pearl necklace.jpg",
+    "kind": "photo",
+    "caption": "Collar de perlas"
+  },
+  {
+    "slug": "scrunchie",
+    "file": "Crochet scrunchies.jpg",
+    "kind": "photo",
+    "caption": "Scrunchies de crochet"
+  },
+  {
+    "slug": "scrunchie",
+    "file": "Verschiedene Haargummis.jpg",
+    "kind": "photo",
+    "caption": "Diferentes elásticos de cabello y scrunchies"
+  },
+  {
+    "slug": "scrunchie",
+    "file": "Scrunchie de Aguayo verde.jpg",
+    "kind": "photo",
+    "caption": "Scrunchie de tela"
+  },
+  {
+    "slug": "aros-boton",
+    "file": "Peacock ruby stud earrings - lumibella.jpg",
+    "kind": "photo",
+    "caption": "Aros botón"
+  },
+  {
+    "slug": "medias-opacas",
+    "file": "Warm black opaque tights.jpg",
+    "kind": "photo",
+    "caption": "Medias negras opacas"
+  },
+  {
+    "slug": "medias-opacas",
+    "file": "Matalan black opaque tights.jpg",
+    "kind": "photo",
+    "caption": "Otro ejemplo de medias opacas"
+  },
+  {
+    "slug": "medias-transparentes",
+    "file": "Sheer tights or pantyhose in black and caucasian skin colour with modern bikini style panty.jpg",
+    "kind": "photo",
+    "caption": "Comparación de pantimedias transparentes"
+  },
+  {
+    "slug": "medias-tobilleras",
+    "file": "Ankle socks.jpg",
+    "kind": "photo",
+    "caption": "Medias tobilleras"
+  },
+  {
+    "slug": "medias-invisibles",
+    "file": "No-show socks.jpg",
+    "kind": "photo",
+    "caption": "Medias invisibles"
+  },
+  {
+    "slug": "medias-invisibles",
+    "file": "Summer Low cut Socks.jpg",
+    "kind": "photo",
+    "caption": "Medias de corte bajo"
+  },
+  {
+    "slug": "medias-media-cana",
+    "file": "Cabin socks.png",
+    "kind": "photo",
+    "caption": "Medias de media caña"
+  },
+  {
+    "slug": "anteojos-cat-eye",
+    "file": "Cat eye sunglasses.jpg",
+    "kind": "photo",
+    "caption": "Anteojos de sol ojo de gato"
+  },
+  {
+    "slug": "anteojos-de-sol",
+    "file": "Sunglasses.jpg",
+    "kind": "photo",
+    "caption": "Anteojos de sol"
+  },
+  {
+    "slug": "anteojos-de-sol",
+    "file": "Sun glasses.jpg",
+    "kind": "photo",
+    "caption": "Otro modelo de anteojos de sol"
+  },
+  {
+    "slug": "mochila",
+    "file": "Backpack.jpg",
+    "kind": "photo",
+    "caption": "Mochila con correas"
+  },
+  {
+    "slug": "mochila",
+    "file": "Backpack-1.jpg",
+    "kind": "photo",
+    "caption": "Otro modelo de mochila"
+  },
+  {
+    "slug": "bolso-shopper",
+    "file": "Totebag.jpg",
+    "kind": "photo",
+    "caption": "Bolso amplio de uso cotidiano"
+  },
+  {
+    "slug": "bolso-shopper",
+    "file": "Tote Bag.jpeg",
+    "kind": "photo",
+    "caption": "Otro bolso tipo tote"
+  },
+  {
+    "slug": "campera-de-denim",
+    "file": "Jean jacket.jpg",
+    "kind": "photo",
+    "caption": "Campera de denim"
+  },
+  {
+    "slug": "campera-de-denim",
+    "file": "Denim jacket.jpg",
+    "kind": "photo",
+    "caption": "Campera de denim en uso"
+  },
+  {
+    "slug": "buzo-con-capucha",
+    "file": "White Hoodie.jpg",
+    "kind": "photo",
+    "caption": "Buzo blanco con capucha"
+  },
+  {
+    "slug": "buzo-con-capucha",
+    "file": "Hoodie with print.jpg",
+    "kind": "photo",
+    "caption": "Buzo estampado con capucha"
+  },
+  {
+    "slug": "bota-combate",
+    "file": "Grinders Combatboots.jpg",
+    "kind": "photo",
+    "caption": "Botas de estilo combate"
+  },
+  {
+    "slug": "bota-combate",
+    "file": "Combat boots IMGP8975.jpg",
+    "kind": "photo",
+    "caption": "Otro modelo de botas de combate"
+  },
+  {
+    "slug": "vestido-lencero",
+    "file": "Slip dress at Plaza theatre.jpg",
+    "kind": "photo",
+    "caption": "Vestido de estilo lencero"
+  },
+  {
+    "slug": "vestido-lencero",
+    "file": "Slip dress at Plaza theatre 2.jpg",
+    "kind": "photo",
+    "caption": "Otra vista del vestido lencero"
+  },
+  {
+    "slug": "corpino-balconette",
+    "file": "Balconette bra with girdle, garter belt and stockings.jpg",
+    "kind": "photo",
+    "caption": "Corpiño balconette en un conjunto de lencería"
+  },
+  {
+    "slug": "aros-argolla",
+    "file": "Hoop earring.jpg",
+    "kind": "photo",
+    "caption": "Aro de forma circular"
+  },
+  {
+    "slug": "trench",
+    "file": "Woman wearing trench coat.jpg",
+    "kind": "photo",
+    "caption": "Trench en uso"
+  }
+]

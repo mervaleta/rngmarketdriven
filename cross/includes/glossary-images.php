@@ -18,8 +18,12 @@ function studioGlossaryLicense(string $code): array {
  if($code==='pd')return ['Dominio público','https://commons.wikimedia.org/wiki/Commons:Public_domain'];
  return ['CC '.strtoupper(str_replace('/',' ',$code)),'https://creativecommons.org/licenses/'.$code.'/'];
 }
-function studioGlossaryLocal(array $item): ?string {
+function studioGlossaryVersionedPath(array $item): ?string {
  $path=$item[4]['local']??null;
+ return is_string($path)&&preg_match('~^assets/glossary/(?:clothing-dataset/[a-f0-9-]{36}|commons/[a-f0-9]{32})\\.jpg$~D',$path)?$path:null;
+}
+function studioGlossaryLocal(array $item): ?string {
+ $path=studioGlossaryVersionedPath($item);
  if($path===null){$candidate='assets/glossary/commons/'.md5(str_replace(' ','_',$item[0])).'.jpg';if(is_file(dirname(__DIR__).'/'.$candidate))$path=$candidate;}
  return is_string($path)&&preg_match('~^assets/glossary/(?:clothing-dataset/[a-f0-9-]{36}|commons/[a-f0-9]{32})\.jpg$~D',$path)&&is_file(dirname(__DIR__).'/'.$path)?$path:null;
 }

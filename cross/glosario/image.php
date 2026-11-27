@@ -9,7 +9,8 @@ $item=studioGlossaryImages()[studioEncyclopediaImageKey($slug)][(int)$idx]??null
 if(!$item){http_response_code(404);exit;}
 $thumb=($_GET['thumb']??'')==='1';
 $local=studioGlossaryLocal($item);if($local!==null){header('Location: ../'.$local,true,302);exit;}
-$url=studioGlossaryOriginal($item[0]);
+$versioned=studioGlossaryVersionedPath($item);
+$url=$versioned!==null?'https://raw.githubusercontent.com/mervaleta/rngmarketdriven/main/cross/'.$versioned:studioGlossaryOriginal($item[0]);
 $dir=sys_get_temp_dir().'/studio-glossary-'.substr(hash('sha256',__DIR__),0,16);
 if(!is_dir($dir)&&!@mkdir($dir,0700,true)&&!is_dir($dir)){http_response_code(503);exit;}
 $path=$dir.'/'.hash('sha256',$url).'.jpg';
