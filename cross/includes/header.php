@@ -51,7 +51,7 @@ function studioHeader(string $active='',string $extra='',bool $anonymous=false):
     $out.='<details class="studio-notifications"><summary class="studio-circle" aria-label="Notificaciones"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><span id="studio-notif-dot" class="studio-notif-dot" hidden></span></summary><div class="studio-notif-panel"><strong>Notificaciones</strong><p class="studio-notif-meta">Recordatorios del desafío y del álbum.</p><a id="studio-notif-quiz" href="'.studioEsc($base).'">Desafío diario</a><a id="studio-notif-pack" href="'.studioEsc($base).'album/">Sobre del día</a><p id="studio-notif-empty" class="studio-notif-meta" hidden>Estás al día.</p></div></details>';
     $out.='<a class="studio-circle studio-avatar" href="'.studioEsc($account).'" aria-label="'.studioEsc($member?'Mi perfil':'Mi cuenta: ingresar o registrarse').'" title="'.studioEsc($member?$member['display_name']:'Mi cuenta').'">'.$avatar.'</a>';
     $out.=$extra.'</div></div><nav class="studio-nav" aria-label="Navegación principal">';
-    foreach($tabs as $key=>$item)$out.='<a href="'.studioEsc($base.$item[0]).'"'.($active===$key?' aria-current="page"':'').'>'.studioEsc($item[1]).'</a>';
+    foreach($tabs as $key=>$item){if($key==='ranking'&&!$member)continue;$out.='<a href="'.studioEsc($base.$item[0]).'"'.($active===$key?' aria-current="page"':'').'>'.studioEsc($item[1]).'</a>';}
     return $out.'</nav></header><script defer src="'.studioEsc($base).'assets/header.js"></script>';
 }
 function studioPlumaTabs(string $active=''): string {
