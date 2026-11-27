@@ -3,6 +3,7 @@ declare(strict_types=1);
 require_once __DIR__.'/includes/header.php';
 require_once __DIR__.'/includes/measurements.php';
 require_once __DIR__.'/includes/social.php';
+require_once __DIR__.'/includes/game.php';
 ini_set('display_errors','0');
 header('Content-Type: text/html; charset=utf-8');
 header('Cache-Control: no-store, private');
@@ -66,6 +67,7 @@ $db->exec("CREATE TABLE IF NOT EXISTS studio_limits(bucket TEXT PRIMARY KEY,slot
 $db->exec("CREATE TABLE IF NOT EXISTS studio_demo_bots(user_id INTEGER PRIMARY KEY, xp INTEGER NOT NULL DEFAULT 0, FOREIGN KEY(user_id) REFERENCES studio_users(id) ON DELETE CASCADE)");
 $db->exec("CREATE TABLE IF NOT EXISTS studio_measurements(user_id INTEGER PRIMARY KEY,sealed TEXT NOT NULL,updated_at TEXT DEFAULT CURRENT_TIMESTAMP,FOREIGN KEY(user_id) REFERENCES studio_users(id) ON DELETE CASCADE)");
 studioSocialSchema($db);
+studioGameSchema($db);
 $db->exec("CREATE TABLE IF NOT EXISTS studio_meta(k TEXT PRIMARY KEY,v TEXT NOT NULL)");
 $db->exec('BEGIN IMMEDIATE');
 try{
@@ -92,6 +94,7 @@ $me=isset($_SESSION['uid'])?one('SELECT id,username,display_name,role,active,ava
 $ready=(bool)one("SELECT id FROM studio_users WHERE role='admin' LIMIT 1");$open=$ready&&!empty($cfg['allow_registration']);
 $cats=['Primeros pasos','Looks y estilo','Maquillaje','Coleccionistas','Sugerencias'];
 $v=g('v')?:($studioDefaultView??($me?'wall':'login'));$id=max(0,(int)g('id'));$error='';
+if($v==='game_api')studioGameApi();
 if($v==='chat_feed')studioChatFeed();
 if($v==='avatar'){if(!$me){http_response_code(404);exit;}$u=one('SELECT id,visible,avatar FROM studio_users WHERE id=? AND active=1',[$id]);if(!$u||(!$u['visible']&&$u['id']!=$me['id'])||studioBlocked((int)$me['id'],(int)$u['id'])||!$u['avatar']){http_response_code(404);exit;}header('Content-Type: image/jpeg');echo $u['avatar'];exit;}
 if($_SERVER['REQUEST_METHOD']==='POST')try{
