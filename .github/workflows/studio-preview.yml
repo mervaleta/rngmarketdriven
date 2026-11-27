@@ -1,0 +1,65 @@
+name: Publish Studio preview
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/cross/**'
+      - 'deploy.php'
+      - '.github/workflows/studio-preview.yml'
+permissions:
+  contents: read
+concurrency:
+  group: studio-preview-deploy
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trigger existing Hostinger deployment and verify preview
+        env:
+          HOSTINGER_DEPLOY_TOKEN: ${{ secrets.HOSTINGER_DEPLOY_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, time, urllib.request, urllib.parse
+          from pathlib import Path
+          token = os.environ.get("HOSTINGER_DEPLOY_TOKEN")
+          if not token:
+              match = re.search(r"\$secret_token\s*=\s*'([^']+)'", Path("deploy.php").read_text())
+              if not match:
+                  raise SystemExit("Missing deployment token")
+              token = match.group(1)
+          print("::add-mask::" + token, flush=True)
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+          opener = urllib.request.build_opener(NoRedirect())
+          base = "https://rngmarketdriven.com"
+          url = base + "/deploy.php?" + urllib.parse.urlencode({"token": token})
+          for attempt in range(2):
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent":"StudioPreviewDeploy/1.0","Cache-Control":"no-cache"})
+                  with opener.open(req, timeout=60) as response:
+                      result = json.loads(response.read())
+                  if result.get("status") != "success":
+                      raise ValueError("Deployment reported failure")
+                  print("Deployment request " + str(attempt+1) + " accepted")
+              except Exception as exc:
+                  raise SystemExit("Deployment request failed: " + type(exc).__name__)
+              time.sleep(3)
+          expected = Path("public/cross/index.html").read_bytes()
+          for attempt in range(5):
+              try:
+                  req = urllib.request.Request(base + "/cross/index.html?studio_check=" + str(time.time_ns()), headers={"Cache-Control":"no-cache"})
+                  with urllib.request.urlopen(req, timeout=15) as response:
+                      if response.read() == expected:
+                          print("Verified: /cross/index.html matches repository")
+                          break
+              except Exception:
+                  pass
+              time.sleep(5)
+          else:
+              raise SystemExit("Preview not verified on public URL")
+          PY
