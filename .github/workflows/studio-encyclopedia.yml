@@ -1,0 +1,44 @@
+name: Publish Studio encyclopedia
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'cross/includes/glossary*.json'
+      - 'cross/includes/encyclopedia*.php'
+      - 'cross/includes/glossary-images.php'
+      - 'cross/assets/glossary/**'
+      - 'cross/glosario/**'
+      - 'cross/ropero/**'
+      - 'cross/servicios/**'
+      - 'cross/scripts/publish-encyclopedia.py'
+      - '.github/workflows/studio-encyclopedia.yml'
+permissions:
+  contents: read
+concurrency:
+  group: studio-encyclopedia-deploy
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build release and validate PHP
+        run: python3 cross/scripts/publish-encyclopedia.py build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: studio-encyclopedia-release
+          path: studio-release/
+          include-hidden-files: true
+          retention-days: 7
+      - name: Publish only encyclopedia files over FTPS
+        env:
+          STUDIO_FTP_HOST: ${{ secrets.STUDIO_FTP_HOST || secrets.HOSTINGER_FTP_HOST || secrets.FTP_HOST }}
+          STUDIO_FTP_USER: ${{ secrets.STUDIO_FTP_USER || secrets.HOSTINGER_FTP_USER || secrets.FTP_USER }}
+          STUDIO_FTP_PASSWORD: ${{ secrets.STUDIO_FTP_PASSWORD || secrets.HOSTINGER_FTP_PASSWORD || secrets.FTP_PASSWORD }}
+          STUDIO_FTP_ROOT: ${{ secrets.STUDIO_FTP_ROOT }}
+          STUDIO_FTP_PORT: ${{ secrets.STUDIO_FTP_PORT }}
+        run: python3 cross/scripts/publish-encyclopedia.py deploy
+      - name: Verify public catalog and all image responses
+        run: python3 cross/scripts/publish-encyclopedia.py verify

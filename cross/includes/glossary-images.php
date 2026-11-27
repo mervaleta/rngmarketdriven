@@ -20,7 +20,7 @@ function studioGlossaryLicense(string $code): array {
 }
 function studioGlossaryLocal(array $item): ?string {
  $path=$item[4]['local']??null;
- return is_string($path)&&preg_match('~^assets/glossary/clothing-dataset/[a-f0-9-]{36}\.jpg$~D',$path)?$path:null;
+ return is_string($path)&&preg_match('~^assets/glossary/(?:clothing-dataset/[a-f0-9-]{36}|commons/[a-f0-9]{32})\.jpg$~D',$path)?$path:null;
 }
 function studioGlossaryImageUrl(array $item,string $slug,int $i,string $base,bool $thumb=false): string {
  $local=studioGlossaryLocal($item);
@@ -33,7 +33,7 @@ function studioGlossaryImageSource(array $item): string {
  return studioGlossarySource($item[0]);
 }
 function studioGlossaryImageCredit(array $item): string {
- return studioGlossaryLocal($item)!==null?$item[1]:$item[1].' · Wikimedia Commons';
+ $local=studioGlossaryLocal($item);return $local!==null&&strpos($local,'assets/glossary/clothing-dataset/')===0?$item[1]:$item[1].' · Wikimedia Commons';
 }
 function studioGlossaryGallery(string $slug,string $base): string {
  $slug=studioEncyclopediaImageKey($slug);$items=studioGlossaryImages()[$slug]??[];if(!$items)return '';
