@@ -17,6 +17,16 @@
       {
         "local": "assets/glossary/commons/6b7db9ab8f9e38ea51b887c717800b4b.jpg"
       }
+    ],
+    [
+      "Corset (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Corset · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/85140e3d99390b11280b2a4b578e6fcb.jpg",
+        "kind": "drawing"
+      }
     ]
   ],
   "bralette": [
@@ -38,6 +48,16 @@
       "Liguero de encaje con cuatro tiras",
       {
         "local": "assets/glossary/commons/d0274f7d80c6f079dee6c431e96d0fef.jpg"
+      }
+    ],
+    [
+      "Garter belt (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Liguero · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/e667118627da3c9a5ec0ae6c01464106.jpg",
+        "kind": "drawing"
       }
     ]
   ],
@@ -251,6 +271,16 @@
       {
         "local": "assets/glossary/commons/6260382b44c611946d81f96b8c999075.jpg"
       }
+    ],
+    [
+      "Sling-back.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Slingback · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/cd64f5314e7fa27611b0578abe459a5e.jpg",
+        "kind": "drawing"
+      }
     ]
   ],
   "taco-de-cuna": [
@@ -415,7 +445,10 @@
       "George Bobholz, Shoe Last, 1938, NGA 24115.jpg",
       "George Bobholz / National Gallery of Art",
       "cc0",
-      "Otra forma de horma para calzado"
+      "Otra forma de horma para calzado",
+      {
+        "local": "assets/glossary/commons/8d5d35a434af5771baa7ff11366a43a0.jpg"
+      }
     ]
   ],
   "bob": [
@@ -423,13 +456,19 @@
       "Woman with bob haircut, rear view (26 October 2018) (edited).jpg",
       "Alex Neman",
       "by-sa/4.0",
-      "Vista posterior de un corte bob"
+      "Vista posterior de un corte bob",
+      {
+        "local": "assets/glossary/commons/6b2fa7783f1ccda054434827853e1826.jpg"
+      }
     ],
     [
       "Young woman with bob haircut from behind (cropped).jpg",
       "Alex Neman",
       "by-sa/4.0",
-      "Otra variante de corte bob vista desde atrás"
+      "Otra variante de corte bob vista desde atrás",
+      {
+        "local": "assets/glossary/commons/67e0dbf0b2d57911897e05dddff0c377.jpg"
+      }
     ]
   ],
   "mercedita": [
@@ -437,7 +476,20 @@
       "Mary janes shoes with straps.jpg",
       "Milli Niko",
       "by/4.0",
-      "Zapatos con tira sobre el empeine"
+      "Zapatos con tira sobre el empeine",
+      {
+        "local": "assets/glossary/commons/b6a95f5d0681f9d83e40308a67fae202.jpg"
+      }
+    ],
+    [
+      "Mary Janes.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Mercedita · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/cb6c76ce2d6abb14d6264ed39caab491.jpg",
+        "kind": "drawing"
+      }
     ]
   ],
   "taco-bloque": [
@@ -445,7 +497,10 @@
       "Kitten heels.jpg",
       "Spera.de",
       "by/2.0",
-      "Zapatos con tacón bajo de bloque"
+      "Zapatos con tacón bajo de bloque",
+      {
+        "local": "assets/glossary/commons/794281219e288f3ff2b71b098f6b24fa.jpg"
+      }
     ]
   ],
   "vestido": [
@@ -479,6 +534,16 @@
       {
         "local": "assets/glossary/clothing-dataset/4b8e5d41-3e12-4d2b-8634-e62e71d613ff.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/4b8e5d41-3e12-4d2b-8634-e62e71d613ff.jpg"
+      }
+    ],
+    [
+      "Sheath dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido tubo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/5c5c8464a918c7a92308107dac268498.jpg",
+        "kind": "drawing"
       }
     ]
   ],
@@ -662,6 +727,16 @@
         "local": "assets/glossary/clothing-dataset/334bc6ef-fc89-4226-90f3-dd63645ec845.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/334bc6ef-fc89-4226-90f3-dd63645ec845.jpg"
       }
+    ],
+    [
+      "Shift dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido recto shift · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/f840d1fa634cb0dbd2c20e91d5492622.jpg",
+        "kind": "drawing"
+      }
     ]
   ],
   "crop-top": [
@@ -709,6 +784,16 @@
       {
         "local": "assets/glossary/clothing-dataset/805a7767-cec7-4323-9a75-6c5c2024479d.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/805a7767-cec7-4323-9a75-6c5c2024479d.jpg"
+      }
+    ],
+    [
+      "Pleated skirt.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Falda plisada · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/f9aa7ca45ffe3cca6e368baba45bfe02.jpg",
+        "kind": "drawing"
       }
     ]
   ],
@@ -769,6 +854,1206 @@
       {
         "local": "assets/glossary/clothing-dataset/bfb072bd-4378-47d5-ad94-e11e367fbdd0.jpg",
         "source": "https://github.com/alexeygrigorev/clothing-dataset/blob/7ed86a9cc56763b6acb35e41cb35184e43a5d218/images/bfb072bd-4378-47d5-ad94-e11e367fbdd0.jpg"
+      }
+    ]
+  ],
+  "mocasin": [
+    [
+      "Loafers (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Mocasín · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/6804db14dd0437c39f8213bca51e7840.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cardigan": [
+    [
+      "Cardigan (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Cárdigan · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/5cfa04a88fd4be84cc3608dfa4548ede.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bandolera": [
+    [
+      "Bandolier bag.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bandolera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/82832918db2cc3bc54fcf2bac7f4023d.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "top-cruzado": [
+    [
+      "Wrap top.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Top cruzado · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/2dad046716df6e237f4a9da951116d90.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "calentadores": [
+    [
+      "Leg warmers.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Calentadores de piernas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/36a05f2ace97b692e990ed0a18c41595.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "aros-colgantes": [
+    [
+      "Ear pendant.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Aros colgantes · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/9e4b308d8129ef351991bfe5d326bb3c.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "alpargata": [
+    [
+      "Espadrilles (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Alpargata · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/a3ebd49c1e7f04ddf81c15017aaa5397.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "pantalon-wide-leg": [
+    [
+      "Palazzo trousers.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Pantalón wide leg · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/60b405d152c2534726ff5075417760c7.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vestido-de-coctel": [
+    [
+      "Cocktail dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido de cóctel · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/4084f186675707a23292eb347b2689a5.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "clutch": [
+    [
+      "Clutch bag.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Clutch · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/fc753c696ca557fc6e25eab9a4bd93d4.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vestido-de-gala": [
+    [
+      "Evening gown.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido de gala · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/c224e60a69ccac9487977f35a4a75ddd.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "estola": [
+    [
+      "Stole (outerwear).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Estola · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/da669dd5fee87e80c262e4555366a8d3.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cartera-sobre": [
+    [
+      "Envelope bag.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Cartera tipo sobre · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/876412a199c5e6d4cc2fe478230a342c.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bufanda": [
+    [
+      "Scarf (costume accessory).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bufanda · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/e65b205f11c4b2c8aab13363f16d6d81.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "anteojos-de-sol": [
+    [
+      "Sun glasses.jpg",
+      "Avacalop",
+      "by-sa/4.0",
+      "Otro modelo de anteojos de sol · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/eeca4afd322ad237797d4cca77a623c3.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Sunglasses.jpg",
+      "Žiga Vuk, zzigc.net ( ZZigc )",
+      "by/2.5",
+      "Anteojos de sol · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/70e8a10feac3020c366f5038abc50192.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Sunglasses (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Anteojos de sol · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/ad8b5b1f9c6108dd0e908d7822e92037.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "malla-entera": [
+    [
+      "Swim suit.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Malla entera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/dfbeab8cfba607c922ed594aeda190f6.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "pareo": [
+    [
+      "Pareo.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Pareo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/e16c9f4447c6c9c4c30c44593c5f606c.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "calzas": [
+    [
+      "Leggings (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Calzas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/06068e5d11c536bf2520b43abb54dc71.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "pijama-largo": [
+    [
+      "Pyjama.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Pijama largo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/3bf0cd7207cdf4c26d77958fbef96c57.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "pijama": [
+    [
+      "Pyjama.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Pijama · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/3bf0cd7207cdf4c26d77958fbef96c57.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bata": [
+    [
+      "Dressing gown.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bata · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/56ea2664eba87185a2311c01ea04e030.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "combinacion-entera": [
+    [
+      "Slip.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Combinación entera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/fdf1dd6e8e373fed058704fa336fbecd.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "combinacion-media": [
+    [
+      "Half slip (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Media combinación · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/0516e71f3ad845b4111fc2a45845f391.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "mochila": [
+    [
+      "Backpack-1.jpg",
+      "Wikisafar",
+      "by-sa/4.0",
+      "Otro modelo de mochila · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/73b4053030a2d8c46256fd13bcb15944.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Knapsack.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Mochila · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/d9cadba7e907c897c452b666f2f40ea2.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "zapatilla": [
+    [
+      "Sport shoes.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Zapatilla · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/9b3fc64a20056cc780b9aabd6972391d.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "corpino": [
+    [
+      "Bra.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Corpiño · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/242465f48aa2ddc7d04455edcd125498.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "medias": [
+    [
+      "Stockings (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Medias · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/9eb547ec93ccc31dc3167e3143a11aea.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "capa": [
+    [
+      "Cape (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Capa · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/050fc5d18ea7299abdc32090ab4d20bf.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "boina": [
+    [
+      "Beret.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Boina · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/b4e336b2cd1afb3f8fccc9cc36b1d4bb.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bermuda": [
+    [
+      "Bermuda (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bermuda · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/60e609246f7bb55113373dbfc7e80671.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "sombrero-cloche": [
+    [
+      "Cloche (hat).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Sombrero cloche · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/4894b289bbbaacabe951669e8b980581.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "sombrero-fedora": [
+    [
+      "Fedora (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Sombrero fedora · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/0b57f0019d51eed7e666f807122d586c.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "zueco": [
+    [
+      "Clogs.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Zueco · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/c63a4c9e04a542c968e6f147c6fbfd9f.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "camison": [
+    [
+      "Nightgown.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Camisón · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/dce12cd8bfdc1bfb968bd93983ceccdc.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "falda-godet": [
+    [
+      "Godet skirt.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Falda con godets · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/e85ecbff3c9c29fec426e04c3212d7ad.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vestido-cruzado": [
+    [
+      "Wrap dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido cruzado · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/dc2a747d245e5b45ef7f27fed93b45ec.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vestido-strapless": [
+    [
+      "Strapless dress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido strapless · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/9e8b90108d9f621e1b30cb849c17aa7f.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vestido-maxi": [
+    [
+      "Maxidress.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vestido maxi · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/6162985779ebb71d7c1a0782cd76049c.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cartera": [
+    [
+      "Handbag (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Cartera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/b6dcce3686a162b85d5f12362648cab6.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cinturon": [
+    [
+      "Belt (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Cinturón · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/46e84b482f51536a269b0aa166acb152.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cinturon-fajin": [
+    [
+      "Sash (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Fajín · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/c02a17bc0dd23fafc664e3de6bf45cbe.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "guantes": [
+    [
+      "Glove.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Guantes · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/59db4b5d7aba4d8ff3518369540ac2b4.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "guantes-sin-dedos": [
+    [
+      "Mitts (fingerless handwear).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Guantes sin dedos · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/c1cec490839f2f7fc96d5024c381d373.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "horquilla": [
+    [
+      "Hairpin.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Horquilla · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/31dfd1f0d469b45b667a91d7868cdc90.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "vincha": [
+    [
+      "Headband.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Vincha · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/fd432c1da243bad991567a95b42f99cd.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "collar": [
+    [
+      "Necklace (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Collar · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/451600b7176a6fbd7803a78b117a227e.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "aros": [
+    [
+      "Earring (jewelry).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Aros · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/024d35a4987c0233f6cc516e54fee33a.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "pulsera": [
+    [
+      "Bracelet (jewelry).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Pulsera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/de32e2969b8d4f382bdd395f6ecd45ba.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "anillo": [
+    [
+      "Ring (jewelry).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Anillo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/60df3b1c4872ff9a145a9441550f6b82.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "sombrilla": [
+    [
+      "Parasol (object).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Sombrilla · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/e800734844ba81e96db16e80cde87afa.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "paraguas": [
+    [
+      "Umbrella (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Paraguas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/2f120c0302f138b729c82c976d11746d.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "abanico": [
+    [
+      "Fan (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Abanico · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/f9c5f1444d7e9946c51c5e57bd7d3cdc.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "billetera": [
+    [
+      "Wallet.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Billetera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/67823a69a76c270e0d2728c9b1bde8b3.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "reloj-pulsera": [
+    [
+      "Watch (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Reloj de pulsera · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/8fb0dab7b4df9e8ad3207a0dc4eb6773.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "sandalia": [
+    [
+      "Sandals (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Sandalia · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/39002082f5c7add8c1e045fda9ce19aa.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "sandalia-t-bar": [
+    [
+      "T-strap shoes.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Sandalia T-bar · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/540d92d398fa2c2518d06e8dd38a18a5.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bota-de-montar": [
+    [
+      "Riding boots.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bota de montar · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/74ee5b9cec9ac2565686f7afd247c0be.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "bota-sobre-rodilla": [
+    [
+      "Thigh boots.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Bota sobre la rodilla · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/00831108f19c0b67a9e6efe69529ba30.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "zapato-oxford": [
+    [
+      "Oxfords.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Zapato Oxford · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/f53a7d1f09eba8062c72bfe890276257.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "tankini": [
+    [
+      "Tankini.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Tankini · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/b4d7838c5aa24e5ec6a006a0fd9c14c1.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "tanga": [
+    [
+      "Tanga (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Tanga · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/490c588f378a7f1a9a9facbe15ee610e.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "jardinero": [
+    [
+      "Overall (clothing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Jardinero · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/94ecb287b27a08eff20840ef19db1e2d.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "chaleco": [
+    [
+      "Waistcoat (drawing).jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Chaleco · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/271843ff5e834381f3c7f7640b4991dd.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "escote-en-v": [
+    [
+      "V-neck.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Escote en V · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/482d204b6aae9902c0aefd45308c2bbb.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "escote-cuadrado": [
+    [
+      "Square neck.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Escote cuadrado · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/82e67ee52b5494d4f27158e225a4b699.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "escote-bote": [
+    [
+      "Boat neck.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Escote bote · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/fb1a1624eb611962a033ea4865ea4a18.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "escote-redondo": [
+    [
+      "Round neck.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Escote redondo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/3252ef34226f84eabeb7d6061aedbbaa.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "cuello-peter-pan": [
+    [
+      "Peter Pan collar.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Cuello Peter Pan · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/78217ad8d7d2841102dcb2ba10d11326.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "manga-murcielago": [
+    [
+      "Batwing sleeve.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Manga murciélago · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/55a80ce3a646b38148feda1550d345d3.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "peplum": [
+    [
+      "Peplum.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Peplum · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/cd19b511f1f3b6b950277c5ed2ff2ff9.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "forro": [
+    [
+      "Lining.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Forro · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/f286ca5237bb1f769d3b82f2cdf9c0ee.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "poliamida": [
+    [
+      "Polyamide.jpg",
+      "David Ring / Europeana Fashion / MoMu",
+      "cc0",
+      "Ilustración técnica · Poliamida · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/56069b32bde8179dca45a3a0db609a53.jpg",
+        "kind": "drawing"
+      }
+    ]
+  ],
+  "corpino-sin-breteles": [
+    [
+      "Strapless bra.jpg",
+      "Genusfotografen (Tommas Gunnarsson) / Wikimedia Sverige",
+      "by-sa/4.0",
+      "Corpiño sin breteles · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/c9ce60c3c0339ad4ff4ca82090f15ff7.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "corpino-deportivo": [
+    [
+      "Lecien Bukatsu half top sports bra 4.jpg",
+      "小胸",
+      "by-sa/4.0",
+      "Otro modelo de corpiño deportivo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/1391a191dcc97a6448aca7f83c28f3e5.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Sports Bra (front).jpg",
+      "Breeze0715",
+      "by-sa/4.0",
+      "Vista delantera del corpiño deportivo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/103d6d092b46e99d6de643c9ca36b342.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "bombacha-hipster": [
+    [
+      "Brown Hourglass Panties.jpg",
+      "Flame, not lame",
+      "cc0",
+      "Bombacha hipster · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/0bd86fdb95a3576ac671738f6579c2fc.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "collar-perlas": [
+    [
+      "Pearl necklace.jpg",
+      "Mauro Cateb",
+      "by-sa/4.0",
+      "Collar de perlas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/4ce4e4eaa9e0f880a45019225f66d5e3.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Perlenkette.JPG",
+      "Anna reg",
+      "by-sa/3.0",
+      "Collar de perlas anudadas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/2d9a3e15cd6765e5b700c30bb02a7586.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "scrunchie": [
+    [
+      "Scrunchie de Aguayo verde.jpg",
+      "Lilyboada",
+      "by-sa/4.0",
+      "Scrunchie de tela · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/bd99ed4ab51d7893661f77bf28b7cf27.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Verschiedene Haargummis.jpg",
+      "Hameja",
+      "by-sa/4.0",
+      "Diferentes elásticos de cabello y scrunchies · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/549b997719c9042c6f4e3f84c248ef25.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Crochet scrunchies.jpg",
+      "Durova",
+      "by-sa/3.0",
+      "Scrunchies de crochet · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/95bd47db5d7aa6fda81af4e02f1840a7.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "aros-boton": [
+    [
+      "Peacock ruby stud earrings - lumibella.jpg",
+      "Lumibella Fashion",
+      "by-sa/4.0",
+      "Aros botón · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/1f2e57d8ee9c79faf2832967e6a27de7.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "medias-opacas": [
+    [
+      "Matalan black opaque tights.jpg",
+      "EmilyBlunt99",
+      "by-sa/4.0",
+      "Otro ejemplo de medias opacas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/d18a9c34e88aeae4b63d61e8cc17a061.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Warm black opaque tights.jpg",
+      "BrightonBelle100",
+      "cc0",
+      "Medias negras opacas · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/a036c19b91cb8d22a209c8edeabef839.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "medias-tobilleras": [
+    [
+      "Ankle socks.jpg",
+      "Corn cheese",
+      "cc0",
+      "Medias tobilleras · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/81521f1575137fd0af52ac92f9c8a6c6.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "medias-invisibles": [
+    [
+      "Summer Low cut Socks.jpg",
+      "Lisa Risager",
+      "by-sa/2.0",
+      "Medias de corte bajo · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/5e74fe0e190a0a25f7da7469fd27bdd0.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "No-show socks.jpg",
+      "Lisa Risager",
+      "by-sa/2.0",
+      "Medias invisibles · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/d1ce1c7bd696f28531a379aab692311a.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "anteojos-cat-eye": [
+    [
+      "Cat eye sunglasses.jpg",
+      "Shiva Theerthagiri",
+      "by/4.0",
+      "Anteojos de sol ojo de gato · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/feccb745241a203eaa97e5a49a1647c5.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "bolso-shopper": [
+    [
+      "Tote Bag.jpeg",
+      "User:Tonisb",
+      "by-sa/3.0",
+      "Otro bolso tipo tote · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/2c88d785716b5cbf235c0b387448e9ee.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Totebag.jpg",
+      "Duphyc",
+      "by-sa/4.0",
+      "Bolso amplio de uso cotidiano · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/8975455b3e0236cd49ac5b070ad8c5d4.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "campera-de-denim": [
+    [
+      "Denim jacket.jpg",
+      "Lucius Kwok",
+      "by-sa/2.0",
+      "Campera de denim en uso · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/03c8350a22e54dd3ad7e676b44c08718.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Jean jacket.jpg",
+      "NikosLikomitros",
+      "cc0",
+      "Campera de denim · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/06366d14e929860d264600cb47d164ca.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "buzo-con-capucha": [
+    [
+      "Hoodie with print.jpg",
+      "Doublecor",
+      "by-sa/4.0",
+      "Buzo estampado con capucha · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/75585e8afbc8b6ba3d097393446af84b.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "bota-combate": [
+    [
+      "Combat boots IMGP8975.jpg",
+      "Nikodem Nijaki",
+      "by-sa/3.0",
+      "Otro modelo de botas de combate · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/55bc94e024caf5fb2c8b144555a136d5.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "vestido-lencero": [
+    [
+      "Slip dress at Plaza theatre 2.jpg",
+      "Susan Barnum",
+      "by-sa/4.0",
+      "Otra vista del vestido lencero · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/2f1bdf6662388cc42f19a92bfc38c69d.jpg",
+        "kind": "photo"
+      }
+    ],
+    [
+      "Slip dress at Plaza theatre.jpg",
+      "Susan Barnum",
+      "by-sa/4.0",
+      "Vestido de estilo lencero · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/07c88e097bfa0c4425b44dd3438c9888.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "corpino-balconette": [
+    [
+      "Balconette bra with girdle, garter belt and stockings.jpg",
+      "Genusfotografen (Tommas Gunnarsson) / Wikimedia",
+      "by-sa/4.0",
+      "Corpiño balconette en un conjunto de lencería · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/da7ae12cbcf438192d67ac26c40aff40.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "aros-argolla": [
+    [
+      "Hoop earring.jpg",
+      "The Nature Box",
+      "cc0",
+      "Aro de forma circular · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/9fbede5fb198a29eb65057840776e250.jpg",
+        "kind": "photo"
+      }
+    ]
+  ],
+  "trench": [
+    [
+      "Woman wearing trench coat.jpg",
+      "Bartholomewjuniper",
+      "by-sa/4.0",
+      "Trench en uso · versión redimensionada",
+      {
+        "local": "assets/glossary/commons/b581fe864dfad4f9293ae51deac58355.jpg",
+        "kind": "photo"
       }
     ]
   ]
