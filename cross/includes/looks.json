@@ -48,7 +48,44 @@
       "bandolera",
       "aros-argolla"
     ],
-    "tip": "Una camisa abierta puede reemplazar la campera en días cálidos."
+    "tip": "Una camisa abierta puede reemplazar la campera en días cálidos.",
+    "cover": {
+      "path": "assets/looks/casual-jean.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "jean-recto": [
+        34,
+        41,
+        59
+      ],
+      "camiseta": [
+        30,
+        2,
+        42
+      ],
+      "campera-de-denim": [
+        61,
+        7,
+        36
+      ],
+      "zapatilla": [
+        5,
+        60,
+        35
+      ],
+      "bandolera": [
+        7,
+        36,
+        30
+      ],
+      "aros-argolla": [
+        20,
+        11,
+        13
+      ]
+    }
   },
   {
     "slug": "casual-cafeteria",
@@ -64,7 +101,39 @@
       "cartera-hobo",
       "collar-dije"
     ],
-    "tip": "Sumá medias transparentes si baja la temperatura."
+    "tip": "Sumá medias transparentes si baja la temperatura.",
+    "cover": {
+      "path": "assets/looks/casual-cafeteria.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "falda-midi": [
+        21,
+        41,
+        59
+      ],
+      "sweater-cropped": [
+        11,
+        1,
+        54
+      ],
+      "ballerina": [
+        4,
+        48,
+        29
+      ],
+      "cartera-hobo": [
+        65,
+        20,
+        34
+      ],
+      "collar-dije": [
+        30,
+        3,
+        18
+      ]
+    }
   },
   {
     "slug": "coquette",
@@ -81,7 +150,44 @@
       "mono",
       "collar-perlas"
     ],
-    "tip": "Un solo detalle de lazo puede ser suficiente."
+    "tip": "Un solo detalle de lazo puede ser suficiente.",
+    "cover": {
+      "path": "assets/looks/coquette.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "blusa-lazo": [
+        9,
+        5,
+        48
+      ],
+      "falda-evase": [
+        14,
+        47,
+        51
+      ],
+      "medias-transparentes": [
+        65,
+        20,
+        32
+      ],
+      "mercedita": [
+        72,
+        48,
+        27
+      ],
+      "mono": [
+        57,
+        3,
+        24
+      ],
+      "collar-perlas": [
+        62,
+        21,
+        18
+      ]
+    }
   },
   {
     "slug": "balletcore",
@@ -98,7 +204,44 @@
       "cardigan",
       "scrunchie"
     ],
-    "tip": "Usá calzas como alternativa a la pollera."
+    "tip": "Usá calzas como alternativa a la pollera.",
+    "cover": {
+      "path": "assets/looks/balletcore.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "top-cruzado": [
+        28,
+        4,
+        49
+      ],
+      "falda-plisada": [
+        25,
+        43,
+        51
+      ],
+      "calentadores": [
+        67,
+        27,
+        32
+      ],
+      "ballerina": [
+        4,
+        64,
+        32
+      ],
+      "cardigan": [
+        0,
+        6,
+        34
+      ],
+      "scrunchie": [
+        75,
+        9,
+        21
+      ]
+    }
   },
   {
     "slug": "preppy",
@@ -148,7 +291,39 @@
       "sombrero-ala-ancha",
       "cartera-bucket"
     ],
-    "tip": "Elegí un estampado protagonista y acompañalo con tonos lisos."
+    "tip": "Elegí un estampado protagonista y acompañalo con tonos lisos.",
+    "cover": {
+      "path": "assets/looks/cottagecore.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "blusa-campesina": [
+        21,
+        7,
+        47
+      ],
+      "falda-midi": [
+        19,
+        40,
+        60
+      ],
+      "alpargata": [
+        3,
+        47,
+        29
+      ],
+      "sombrero-ala-ancha": [
+        62,
+        0,
+        36
+      ],
+      "cartera-bucket": [
+        68,
+        28,
+        30
+      ]
+    }
   },
   {
     "slug": "minimalista",
@@ -182,7 +357,44 @@
       "medias-transparentes",
       "cat-eye"
     ],
-    "tip": "El calzado de taco bloque es una alternativa de estilo."
+    "tip": "El calzado de taco bloque es una alternativa de estilo.",
+    "cover": {
+      "path": "assets/looks/coctel.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "vestido-de-coctel": [
+        23,
+        5,
+        48
+      ],
+      "stiletto": [
+        61,
+        54,
+        35
+      ],
+      "clutch": [
+        59,
+        31,
+        30
+      ],
+      "aros-colgantes": [
+        60,
+        14,
+        15
+      ],
+      "medias-transparentes": [
+        0,
+        39,
+        27
+      ],
+      "cat-eye": [
+        73,
+        3,
+        22
+      ]
+    }
   },
   {
     "slug": "gala",
@@ -284,7 +496,44 @@
       "medias-tobilleras",
       "rinonera"
     ],
-    "tip": "Elegí el soporte del corpiño según la actividad, no solo la apariencia."
+    "tip": "Elegí el soporte del corpiño según la actividad, no solo la apariencia.",
+    "cover": {
+      "path": "assets/looks/deportivo.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "corpino-deportivo": [
+        45,
+        7,
+        33
+      ],
+      "calzas": [
+        67,
+        41,
+        33
+      ],
+      "buzo-con-capucha": [
+        0,
+        0,
+        48
+      ],
+      "zapatilla": [
+        3,
+        61,
+        39
+      ],
+      "medias-tobilleras": [
+        43,
+        68,
+        26
+      ],
+      "rinonera": [
+        36,
+        43,
+        33
+      ]
+    }
   },
   {
     "slug": "descanso",
@@ -330,7 +579,24 @@
       "combinacion-media",
       "medias-punta-invisible"
     ],
-    "tip": "La selección depende del escote, tejido y corte de la prenda exterior."
+    "tip": "La selección depende del escote, tejido y corte de la prenda exterior.",
+    "cover": {
+      "path": "assets/looks/lenceria-invisible.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "corpino-sin-costuras": [
+        4,
+        9,
+        43
+      ],
+      "bombacha-sin-costuras": [
+        2,
+        44,
+        42
+      ]
+    }
   },
   {
     "slug": "lenceria-strapless",
@@ -345,7 +611,34 @@
       "pantimedias",
       "vestido-strapless"
     ],
-    "tip": "La banda debe sostener cómodamente; no es necesario usar compresión."
+    "tip": "La banda debe sostener cómodamente; no es necesario usar compresión.",
+    "cover": {
+      "path": "assets/looks/lenceria-strapless.jpg",
+      "kind": "ai",
+      "credit": "Studio · Ilustración editorial generada con IA"
+    },
+    "ai_previews": {
+      "corpino-sin-breteles": [
+        10,
+        11,
+        41
+      ],
+      "bombacha-hipster": [
+        10,
+        30,
+        41
+      ],
+      "pantimedias": [
+        4,
+        48,
+        52
+      ],
+      "vestido-strapless": [
+        48,
+        13,
+        52
+      ]
+    }
   },
   {
     "slug": "rock-chic",

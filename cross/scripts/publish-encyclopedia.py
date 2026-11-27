@@ -40,6 +40,11 @@ def set_local(item,rel):
     if len(item)>4:item[4]["local"]=rel
     else:item.append({"local":rel})
 def build():
+    for cover in (ROOT/"assets/looks").glob("*.jpg"):
+        rel=cover.relative_to(ROOT)
+        dst=OUT/rel
+        dst.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(cover,dst)
     for rel in FILES:
         target=OUT/rel
         target.parent.mkdir(parents=True,exist_ok=True)
@@ -151,7 +156,7 @@ def verify():
     def read(rel):
         req=urllib.request.Request(base+rel+("&" if "?" in rel else "?")+"studio_check="+str(time.time_ns()),headers={"Cache-Control":"no-cache","User-Agent":"StudioReleaseCheck/1.0"})
         with urllib.request.urlopen(req,timeout=25) as res:return res.read(),res.headers.get_content_type()
-    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","¿A cuál te referís?"),("glosario/index.php?f=vestido","Clothing Dataset"),("recursos/looks/index.php","Looks completos"),("recursos/looks/index.php?f=oficina-clasica","Oficina clásica"),("recursos/looks/index.php","look-preview-grid"),("glosario/index.php?f=corpino","enc-fiche-tabs")]:
+    for rel,needle in [("glosario/index.php","Glosario cross"),("ropero/index.php","Ropero"),("servicios/index.php","Servicios"),("glosario/index.php?f=culotte","¿A cuál te referís?"),("glosario/index.php?f=vestido","Clothing Dataset"),("recursos/looks/index.php","Looks completos"),("recursos/looks/index.php?f=oficina-clasica","Oficina clásica"),("recursos/looks/index.php","look-preview-grid"),("recursos/looks/index.php","assets/looks/balletcore.jpg"),("glosario/index.php?f=corpino","enc-fiche-tabs")]:
         for attempt in range(8):
             try:
                 data,_=read(rel)

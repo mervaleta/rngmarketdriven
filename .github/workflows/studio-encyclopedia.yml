@@ -8,6 +8,7 @@ on:
       - 'cross/includes/encyclopedia*.php'
       - 'cross/includes/glossary-images.php'
       - 'cross/assets/glossary/**'
+      - 'cross/assets/looks/**'
       - 'cross/glosario/**'
       - 'cross/ropero/**'
       - 'cross/servicios/**'
