@@ -5,7 +5,9 @@
     "definition": "Uso de prendas o elementos de presentación asociados culturalmente a otro género. Puede ser una afición, una forma de expresión o exploración; no determina identidad ni orientación sexual.",
     "aliases": [
       "CD"
-    ]
+    ],
+    "slug": "crossdressing",
+    "wardrobe": []
   },
   {
     "term": "Crossdresser",
@@ -13,7 +15,9 @@
     "definition": "Persona que practica crossdressing. Algunas usan el término como identidad personal y otras solo para describir una actividad.",
     "aliases": [
       "CD"
-    ]
+    ],
+    "slug": "crossdresser",
+    "wardrobe": []
   },
   {
     "term": "En femme",
@@ -21,7 +25,9 @@
     "definition": "Momento o look en presentación femenina. No presupone identidad de género.",
     "aliases": [
       "en-femme"
-    ]
+    ],
+    "slug": "en-femme",
+    "wardrobe": []
   },
   {
     "term": "Expresión de género",
@@ -29,31 +35,41 @@
     "definition": "Forma de presentar el género mediante ropa, apariencia, gestos o voz. Puede cambiar según el contexto.",
     "aliases": [
       "gender expression"
-    ]
+    ],
+    "slug": "expresion-de-genero",
+    "wardrobe": []
   },
   {
     "term": "Identidad de género",
     "category": "Identidad y expresión",
     "definition": "Vivencia personal del propio género; es distinta de la apariencia, la ropa y la orientación sexual.",
-    "aliases": []
+    "aliases": [],
+    "slug": "identidad-de-genero",
+    "wardrobe": []
   },
   {
     "term": "Orientación sexual",
     "category": "Identidad y expresión",
     "definition": "Patrón de atracción sexual o romántica; no se deduce de la ropa ni del maquillaje.",
-    "aliases": []
+    "aliases": [],
+    "slug": "orientacion-sexual",
+    "wardrobe": []
   },
   {
     "term": "Femme",
     "category": "Identidad y expresión",
     "definition": "Término de presentación o identidad femenina usado en distintas comunidades; su significado depende de quien lo elige.",
-    "aliases": []
+    "aliases": [],
+    "slug": "femme",
+    "wardrobe": []
   },
   {
     "term": "Femboy",
     "category": "Identidad y expresión",
     "definition": "Término que algunas personas, a menudo de identidad masculina, usan para una expresión femenina. No debe asignarse a terceros sin su consentimiento.",
-    "aliases": []
+    "aliases": [],
+    "slug": "femboy",
+    "wardrobe": []
   },
   {
     "term": "Drag",
@@ -62,7 +78,9 @@
     "aliases": [
       "drag queen",
       "drag king"
-    ]
+    ],
+    "slug": "drag",
+    "wardrobe": []
   },
   {
     "term": "Androginia",
@@ -70,7 +88,9 @@
     "definition": "Presentación que combina o no encaja claramente en códigos convencionales masculinos y femeninos.",
     "aliases": [
       "andrógino"
-    ]
+    ],
+    "slug": "androginia",
+    "wardrobe": []
   },
   {
     "term": "Género fluido",
@@ -78,7 +98,9 @@
     "definition": "Identidad de género que puede variar con el tiempo; no es un tipo de vestimenta.",
     "aliases": [
       "genderfluid"
-    ]
+    ],
+    "slug": "genero-fluido",
+    "wardrobe": []
   },
   {
     "term": "No binario",
@@ -87,7 +109,9 @@
     "aliases": [
       "no binarie",
       "nonbinary"
-    ]
+    ],
+    "slug": "no-binario",
+    "wardrobe": []
   },
   {
     "term": "Transgénero",
@@ -95,7 +119,9 @@
     "definition": "Persona cuya identidad de género difiere del género asignado al nacer. No equivale a crossdresser.",
     "aliases": [
       "trans"
-    ]
+    ],
+    "slug": "transgenero",
+    "wardrobe": []
   },
   {
     "term": "Transfemenino",
@@ -104,7 +130,9 @@
     "aliases": [
       "transfem",
       "transfeminino"
-    ]
+    ],
+    "slug": "transfemenino",
+    "wardrobe": []
   },
   {
     "term": "Cisgénero",
@@ -112,19 +140,25 @@
     "definition": "Persona cuya identidad coincide con el género asignado al nacer.",
     "aliases": [
       "cis"
-    ]
+    ],
+    "slug": "cisgenero",
+    "wardrobe": []
   },
   {
     "term": "Sissy",
     "category": "Jerga comunitaria",
     "definition": "Etiqueta que algunas personas adultas usan para una estética, un rol o una subcultura; en ciertos contextos es erótica o despectiva. No equivale a crossdresser y no debe imponerse.",
-    "aliases": []
+    "aliases": [],
+    "slug": "sissy",
+    "wardrobe": []
   },
   {
     "term": "Feminización",
     "category": "Jerga comunitaria",
     "definition": "En estética, incorporación de elementos culturalmente asociados a una presentación femenina. Es opcional y no define el valor ni la identidad de una persona.",
-    "aliases": []
+    "aliases": [],
+    "slug": "feminizacion",
+    "wardrobe": []
   },
   {
     "term": "Passing",
@@ -132,7 +166,9 @@
     "definition": "Ser percibida o percibido por otras personas como el género que se desea presentar. No es una obligación ni mide la autenticidad.",
     "aliases": [
       "pasar"
-    ]
+    ],
+    "slug": "passing",
+    "wardrobe": []
   },
   {
     "term": "Closet",
@@ -140,7 +176,9 @@
     "definition": "Mantener en privado una faceta de la expresión o identidad. Cada persona decide cuándo y con quién compartirla.",
     "aliases": [
       "armario"
-    ]
+    ],
+    "slug": "closet",
+    "wardrobe": []
   },
   {
     "term": "Salir del armario",
@@ -148,19 +186,25 @@
     "definition": "Compartir voluntariamente una faceta de la propia identidad o expresión. No existe una obligación de hacerlo.",
     "aliases": [
       "coming out"
-    ]
+    ],
+    "slug": "salir-del-armario",
+    "wardrobe": []
   },
   {
     "term": "Outing",
     "category": "Jerga comunitaria",
     "definition": "Revelar la identidad o expresión privada de alguien sin su consentimiento. Vulnera su privacidad.",
-    "aliases": []
+    "aliases": [],
+    "slug": "outing",
+    "wardrobe": []
   },
   {
     "term": "Tucking",
     "category": "Jerga comunitaria",
     "definition": "Término para una técnica de presentación que reduce el contorno genital bajo la ropa. No es necesaria para expresar feminidad.",
-    "aliases": []
+    "aliases": [],
+    "slug": "tucking",
+    "wardrobe": []
   },
   {
     "term": "Hip pads",
@@ -168,7 +212,9 @@
     "definition": "Rellenos de cadera para modificar visualmente la silueta de un conjunto.",
     "aliases": [
       "rellenos de cadera"
-    ]
+    ],
+    "slug": "hip-pads",
+    "wardrobe": []
   },
   {
     "term": "Breast forms",
@@ -177,7 +223,9 @@
     "aliases": [
       "formas mamarias",
       "rellenos de pecho"
-    ]
+    ],
+    "slug": "breast-forms",
+    "wardrobe": []
   },
   {
     "term": "Padding",
@@ -185,7 +233,9 @@
     "definition": "Uso de rellenos en prendas o accesorios para modificar visualmente una silueta.",
     "aliases": [
       "relleno"
-    ]
+    ],
+    "slug": "padding",
+    "wardrobe": []
   },
   {
     "term": "Shapewear",
@@ -193,6 +243,10 @@
     "definition": "Prendas de ajuste que suavizan o modifican visualmente el contorno. Deben resultar cómodas y no son obligatorias.",
     "aliases": [
       "faja modeladora"
+    ],
+    "slug": "shapewear",
+    "wardrobe": [
+      "faja-modeladora"
     ]
   },
   {
@@ -201,7 +255,9 @@
     "definition": "Sensación positiva que algunas personas experimentan cuando su expresión o reconocimiento de género les resulta congruente.",
     "aliases": [
       "euforia de género"
-    ]
+    ],
+    "slug": "gender-euphoria",
+    "wardrobe": []
   },
   {
     "term": "Boymode",
@@ -209,7 +265,9 @@
     "definition": "Expresión informal para describir una presentación masculina en un contexto determinado.",
     "aliases": [
       "boy mode"
-    ]
+    ],
+    "slug": "boymode",
+    "wardrobe": []
   },
   {
     "term": "Girlmode",
@@ -217,13 +275,17 @@
     "definition": "Expresión informal para describir una presentación femenina en un contexto determinado.",
     "aliases": [
       "girl mode"
-    ]
+    ],
+    "slug": "girlmode",
+    "wardrobe": []
   },
   {
     "term": "Look",
     "category": "Moda",
     "definition": "Conjunto de ropa, maquillaje, cabello y accesorios que produce una apariencia determinada.",
-    "aliases": []
+    "aliases": [],
+    "slug": "look",
+    "wardrobe": []
   },
   {
     "term": "Outfit",
@@ -231,13 +293,17 @@
     "definition": "Combinación de prendas y accesorios para una ocasión o estilo concreto.",
     "aliases": [
       "conjunto"
-    ]
+    ],
+    "slug": "outfit",
+    "wardrobe": []
   },
   {
     "term": "Coquette",
     "category": "Moda",
     "definition": "Estética romántica con lazos, encajes y detalles delicados; admite interpretaciones personales.",
-    "aliases": []
+    "aliases": [],
+    "slug": "coquette",
+    "wardrobe": []
   },
   {
     "term": "Pin-up",
@@ -245,25 +311,33 @@
     "definition": "Estética inspirada en ilustraciones y moda retro de mediados del siglo XX.",
     "aliases": [
       "pin up"
-    ]
+    ],
+    "slug": "pin-up",
+    "wardrobe": []
   },
   {
     "term": "Kawaii",
     "category": "Moda",
     "definition": "Término japonés asociado a una estética adorable o tierna.",
-    "aliases": []
+    "aliases": [],
+    "slug": "kawaii",
+    "wardrobe": []
   },
   {
     "term": "Balletcore",
     "category": "Moda",
     "definition": "Estética inspirada en prendas y accesorios de ballet.",
-    "aliases": []
+    "aliases": [],
+    "slug": "balletcore",
+    "wardrobe": []
   },
   {
     "term": "Cottagecore",
     "category": "Moda",
     "definition": "Estética inspirada en escenas rurales idealizadas y prendas de aire romántico.",
-    "aliases": []
+    "aliases": [],
+    "slug": "cottagecore",
+    "wardrobe": []
   },
   {
     "term": "Lolita",
@@ -271,13 +345,17 @@
     "definition": "Subcultura de moda japonesa con referencias históricas y siluetas elaboradas. No implica contenido sexual ni edad infantil.",
     "aliases": [
       "moda lolita"
-    ]
+    ],
+    "slug": "lolita",
+    "wardrobe": []
   },
   {
     "term": "Preppy",
     "category": "Moda",
     "definition": "Estilo inspirado en vestimenta académica clásica, con prendas estructuradas y combinaciones sobrias.",
-    "aliases": []
+    "aliases": [],
+    "slug": "preppy",
+    "wardrobe": []
   },
   {
     "term": "Vintage",
@@ -285,7 +363,9 @@
     "definition": "Prendas o estilos de épocas pasadas; retro suele describir prendas actuales inspiradas en ellas.",
     "aliases": [
       "retro"
-    ]
+    ],
+    "slug": "vintage",
+    "wardrobe": []
   },
   {
     "term": "Stiletto",
@@ -294,6 +374,10 @@
     "aliases": [
       "taco aguja",
       "estileto"
+    ],
+    "slug": "stiletto",
+    "wardrobe": [
+      "stiletto"
     ]
   },
   {
@@ -302,6 +386,10 @@
     "definition": "Tacón fino de poca altura.",
     "aliases": [
       "taco gatito"
+    ],
+    "slug": "kitten-heel",
+    "wardrobe": [
+      "kitten-heel"
     ]
   },
   {
@@ -310,6 +398,10 @@
     "definition": "Calzado abierto en la parte posterior del talón.",
     "aliases": [
       "mules"
+    ],
+    "slug": "mule",
+    "wardrobe": [
+      "mule"
     ]
   },
   {
@@ -318,13 +410,21 @@
     "definition": "Zapato con tira sobre el empeine, conocido también como merceditas.",
     "aliases": [
       "merceditas"
+    ],
+    "slug": "mary-jane",
+    "wardrobe": [
+      "mercedita"
     ]
   },
   {
     "term": "Slingback",
     "category": "Calzado",
     "definition": "Zapato sujeto por una tira detrás del talón.",
-    "aliases": []
+    "aliases": [],
+    "slug": "slingback",
+    "wardrobe": [
+      "slingback"
+    ]
   },
   {
     "term": "Ballerina",
@@ -333,13 +433,21 @@
     "aliases": [
       "bailarina",
       "chatita"
+    ],
+    "slug": "ballerina",
+    "wardrobe": [
+      "ballerina"
     ]
   },
   {
     "term": "Peep toe",
     "category": "Calzado",
     "definition": "Zapato con una pequeña abertura en la punta.",
-    "aliases": []
+    "aliases": [],
+    "slug": "peep-toe",
+    "wardrobe": [
+      "peep-toe"
+    ]
   },
   {
     "term": "Taco de cuña",
@@ -348,6 +456,10 @@
     "aliases": [
       "wedge",
       "taco chino"
+    ],
+    "slug": "taco-de-cuna",
+    "wardrobe": [
+      "taco-de-cuna"
     ]
   },
   {
@@ -356,6 +468,10 @@
     "definition": "Tacón ancho y de forma generalmente rectangular.",
     "aliases": [
       "taco bloque"
+    ],
+    "slug": "block-heel",
+    "wardrobe": [
+      "taco-bloque"
     ]
   },
   {
@@ -364,13 +480,21 @@
     "definition": "Prenda estructurada que puede modificar o destacar el contorno del torso. Debe ajustarse cómodamente.",
     "aliases": [
       "corsé"
+    ],
+    "slug": "corset",
+    "wardrobe": [
+      "corset"
     ]
   },
   {
     "term": "Bralette",
     "category": "Moda",
     "definition": "Corpiño de estructura ligera, generalmente sin aro ni soporte rígido.",
-    "aliases": []
+    "aliases": [],
+    "slug": "bralette",
+    "wardrobe": [
+      "bralette"
+    ]
   },
   {
     "term": "Body",
@@ -378,6 +502,10 @@
     "definition": "Prenda de una pieza que cubre el torso y se ajusta en la parte inferior.",
     "aliases": [
       "bodi"
+    ],
+    "slug": "body",
+    "wardrobe": [
+      "body"
     ]
   },
   {
@@ -386,6 +514,10 @@
     "definition": "Puede designar ropa interior de mayor cobertura o un pantalón ancho y corto, según el contexto.",
     "aliases": [
       "culote"
+    ],
+    "slug": "culotte",
+    "wardrobe": [
+      "culotte-interior"
     ]
   },
   {
@@ -394,6 +526,10 @@
     "definition": "Falda estrecha de silueta recta o ajustada.",
     "aliases": [
       "falda tubo"
+    ],
+    "slug": "falda-lapiz",
+    "wardrobe": [
+      "falda-lapiz"
     ]
   },
   {
@@ -402,6 +538,10 @@
     "definition": "Corte que se ensancha gradualmente hacia el ruedo.",
     "aliases": [
       "línea A"
+    ],
+    "slug": "evase",
+    "wardrobe": [
+      "falda-evase"
     ]
   },
   {
@@ -410,6 +550,10 @@
     "definition": "Vestido de caída ligera inspirado en una combinación de ropa interior.",
     "aliases": [
       "slip dress"
+    ],
+    "slug": "vestido-lencero",
+    "wardrobe": [
+      "vestido-lencero"
     ]
   },
   {
@@ -418,6 +562,10 @@
     "definition": "Escote con tiras o tejido que se sujetan alrededor del cuello.",
     "aliases": [
       "halter"
+    ],
+    "slug": "escote-halter",
+    "wardrobe": [
+      "top-halter"
     ]
   },
   {
@@ -426,6 +574,10 @@
     "definition": "Prenda sin tirantes que deja los hombros descubiertos.",
     "aliases": [
       "palabra de honor"
+    ],
+    "slug": "strapless",
+    "wardrobe": [
+      "top-strapless"
     ]
   },
   {
@@ -435,6 +587,10 @@
     "aliases": [
       "medibacha",
       "pantyhose"
+    ],
+    "slug": "pantimedias",
+    "wardrobe": [
+      "pantimedias"
     ]
   },
   {
@@ -443,7 +599,9 @@
     "definition": "Unidad de masa lineal del hilo; en medias suele relacionarse con grosor y cobertura, aunque no es el único factor.",
     "aliases": [
       "den"
-    ]
+    ],
+    "slug": "denier",
+    "wardrobe": []
   },
   {
     "term": "Liguero",
@@ -451,6 +609,10 @@
     "definition": "Prenda con tiras para sostener medias altas.",
     "aliases": [
       "portaligas"
+    ],
+    "slug": "liguero",
+    "wardrobe": [
+      "liguero"
     ]
   },
   {
@@ -459,7 +621,9 @@
     "definition": "Ligamento de superficie lisa y brillante que puede fabricarse con fibras diversas.",
     "aliases": [
       "raso"
-    ]
+    ],
+    "slug": "saten",
+    "wardrobe": []
   },
   {
     "term": "Encaje",
@@ -467,7 +631,9 @@
     "definition": "Tejido ornamental con motivos abiertos y calados.",
     "aliases": [
       "lace"
-    ]
+    ],
+    "slug": "encaje",
+    "wardrobe": []
   },
   {
     "term": "Primer",
@@ -475,7 +641,9 @@
     "definition": "Prebase que prepara la piel o el párpado antes de aplicar otros productos.",
     "aliases": [
       "prebase"
-    ]
+    ],
+    "slug": "primer",
+    "wardrobe": []
   },
   {
     "term": "Foundation",
@@ -483,7 +651,9 @@
     "definition": "Base de maquillaje destinada a unificar visualmente el tono de la piel.",
     "aliases": [
       "base"
-    ]
+    ],
+    "slug": "foundation",
+    "wardrobe": []
   },
   {
     "term": "Concealer",
@@ -491,7 +661,9 @@
     "definition": "Corrector para áreas específicas, como ojeras o pequeñas diferencias de tono.",
     "aliases": [
       "corrector"
-    ]
+    ],
+    "slug": "concealer",
+    "wardrobe": []
   },
   {
     "term": "Color corrector",
@@ -499,7 +671,9 @@
     "definition": "Corrector que busca neutralizar visualmente tonos concretos mediante colores complementarios.",
     "aliases": [
       "corrector cromático"
-    ]
+    ],
+    "slug": "color-corrector",
+    "wardrobe": []
   },
   {
     "term": "Contouring",
@@ -507,7 +681,9 @@
     "definition": "Uso de tonos y sombras para modificar visualmente el relieve del rostro.",
     "aliases": [
       "contorno"
-    ]
+    ],
+    "slug": "contouring",
+    "wardrobe": []
   },
   {
     "term": "Highlighter",
@@ -515,7 +691,9 @@
     "definition": "Iluminador que refleja luz o aporta brillo en zonas elegidas.",
     "aliases": [
       "iluminador"
-    ]
+    ],
+    "slug": "highlighter",
+    "wardrobe": []
   },
   {
     "term": "Blush",
@@ -524,7 +702,9 @@
     "aliases": [
       "rubor",
       "colorete"
-    ]
+    ],
+    "slug": "blush",
+    "wardrobe": []
   },
   {
     "term": "Bronzer",
@@ -532,13 +712,17 @@
     "definition": "Producto que aporta un efecto cálido o bronceado.",
     "aliases": [
       "bronceador"
-    ]
+    ],
+    "slug": "bronzer",
+    "wardrobe": []
   },
   {
     "term": "Baking",
     "category": "Maquillaje",
     "definition": "Técnica que utiliza polvo suelto durante un tiempo antes de retirar el exceso.",
-    "aliases": []
+    "aliases": [],
+    "slug": "baking",
+    "wardrobe": []
   },
   {
     "term": "Setting spray",
@@ -546,7 +730,9 @@
     "definition": "Bruma que se aplica para ayudar a fijar el maquillaje o modificar su acabado.",
     "aliases": [
       "fijador"
-    ]
+    ],
+    "slug": "setting-spray",
+    "wardrobe": []
   },
   {
     "term": "Smokey eye",
@@ -555,7 +741,9 @@
     "aliases": [
       "smoky eye",
       "ahumado"
-    ]
+    ],
+    "slug": "smokey-eye",
+    "wardrobe": []
   },
   {
     "term": "Cat eye",
@@ -563,19 +751,25 @@
     "definition": "Delineado que se prolonga hacia afuera y arriba en el extremo del ojo.",
     "aliases": [
       "ojo de gato"
-    ]
+    ],
+    "slug": "cat-eye",
+    "wardrobe": []
   },
   {
     "term": "Cut crease",
     "category": "Maquillaje",
     "definition": "Técnica que destaca el pliegue del párpado mediante contraste de sombras.",
-    "aliases": []
+    "aliases": [],
+    "slug": "cut-crease",
+    "wardrobe": []
   },
   {
     "term": "Tightlining",
     "category": "Maquillaje",
     "definition": "Delineado próximo a la raíz de las pestañas para dar una apariencia de mayor densidad.",
-    "aliases": []
+    "aliases": [],
+    "slug": "tightlining",
+    "wardrobe": []
   },
   {
     "term": "Lip tint",
@@ -583,7 +777,9 @@
     "definition": "Tinte de labios que suele aportar color ligero o de duración prolongada.",
     "aliases": [
       "tinta labial"
-    ]
+    ],
+    "slug": "lip-tint",
+    "wardrobe": []
   },
   {
     "term": "Lip liner",
@@ -591,25 +787,33 @@
     "definition": "Lápiz para delinear o rellenar los labios.",
     "aliases": [
       "delineador labial"
-    ]
+    ],
+    "slug": "lip-liner",
+    "wardrobe": []
   },
   {
     "term": "Nude",
     "category": "Maquillaje",
     "definition": "Color próximo a un tono de piel, que varía entre personas; no existe un único nude universal.",
-    "aliases": []
+    "aliases": [],
+    "slug": "nude",
+    "wardrobe": []
   },
   {
     "term": "Lace front",
     "category": "Cabello",
     "definition": "Peluca con encaje frontal para simular visualmente una línea de nacimiento del cabello.",
-    "aliases": []
+    "aliases": [],
+    "slug": "lace-front",
+    "wardrobe": []
   },
   {
     "term": "Full lace",
     "category": "Cabello",
     "definition": "Peluca con base de encaje que permite mayor flexibilidad al peinar.",
-    "aliases": []
+    "aliases": [],
+    "slug": "full-lace",
+    "wardrobe": []
   },
   {
     "term": "Wig cap",
@@ -617,7 +821,9 @@
     "definition": "Gorro fino que se coloca debajo de una peluca para mantener el cabello recogido.",
     "aliases": [
       "gorro de peluca"
-    ]
+    ],
+    "slug": "wig-cap",
+    "wardrobe": []
   },
   {
     "term": "Monofilamento",
@@ -625,7 +831,9 @@
     "definition": "Base de peluca que imita visualmente el cuero cabelludo en determinadas zonas.",
     "aliases": [
       "mono top"
-    ]
+    ],
+    "slug": "monofilamento",
+    "wardrobe": []
   },
   {
     "term": "Bob",
@@ -633,7 +841,9 @@
     "definition": "Corte habitualmente recto, de longitud cercana a la mandíbula u hombros.",
     "aliases": [
       "corte bob"
-    ]
+    ],
+    "slug": "bob",
+    "wardrobe": []
   },
   {
     "term": "Pixie",
@@ -641,7 +851,9 @@
     "definition": "Corte corto con diferentes largos y texturas según el estilo.",
     "aliases": [
       "corte pixie"
-    ]
+    ],
+    "slug": "pixie",
+    "wardrobe": []
   },
   {
     "term": "Updo",
@@ -649,13 +861,17 @@
     "definition": "Peinado recogido, como un rodete o trenza recogida.",
     "aliases": [
       "recogido"
-    ]
+    ],
+    "slug": "updo",
+    "wardrobe": []
   },
   {
     "term": "Nail art",
     "category": "Uñas",
     "definition": "Decoración artística de las uñas mediante colores, diseños o adornos.",
-    "aliases": []
+    "aliases": [],
+    "slug": "nail-art",
+    "wardrobe": []
   },
   {
     "term": "Press-on",
@@ -663,7 +879,9 @@
     "definition": "Uñas postizas preparadas para adherirse temporalmente.",
     "aliases": [
       "press on"
-    ]
+    ],
+    "slug": "press-on",
+    "wardrobe": []
   },
   {
     "term": "Coffin",
@@ -672,19 +890,27 @@
     "aliases": [
       "ballerina",
       "ataúd"
+    ],
+    "slug": "coffin",
+    "wardrobe": [
+      "ballerina"
     ]
   },
   {
     "term": "Squoval",
     "category": "Uñas",
     "definition": "Forma intermedia entre cuadrada y ovalada.",
-    "aliases": []
+    "aliases": [],
+    "slug": "squoval",
+    "wardrobe": []
   },
   {
     "term": "Baby boomer",
     "category": "Uñas",
     "definition": "Manicura de degradado suave, habitualmente entre tonos rosados y blancos.",
-    "aliases": []
+    "aliases": [],
+    "slug": "baby-boomer",
+    "wardrobe": []
   },
   {
     "term": "Seudónimo",
@@ -692,13 +918,17 @@
     "definition": "Nombre elegido para participar sin publicar el nombre legal.",
     "aliases": [
       "alias"
-    ]
+    ],
+    "slug": "seudonimo",
+    "wardrobe": []
   },
   {
     "term": "Consentimiento",
     "category": "Privacidad",
     "definition": "Acuerdo libre, informado y revocable para compartir información o interactuar de una manera determinada.",
-    "aliases": []
+    "aliases": [],
+    "slug": "consentimiento",
+    "wardrobe": []
   },
   {
     "term": "Metadatos",
@@ -706,12 +936,220 @@
     "definition": "Información incorporada a un archivo, como fecha, modelo de cámara o ubicación; puede revelar detalles privados.",
     "aliases": [
       "EXIF"
-    ]
+    ],
+    "slug": "metadatos",
+    "wardrobe": []
   },
   {
     "term": "Perfil privado",
     "category": "Privacidad",
     "definition": "Ficha cuya información solo se comparte con los destinatarios autorizados.",
-    "aliases": []
+    "aliases": [],
+    "slug": "perfil-privado",
+    "wardrobe": []
+  },
+  {
+    "slug": "poliamida",
+    "term": "Poliamida",
+    "category": "Moda",
+    "definition": "Familia de fibras sintéticas usada en medias, ropa interior y otras prendas. Nylon es el nombre habitual de determinadas poliamidas.",
+    "aliases": [
+      "nylon"
+    ],
+    "wardrobe": [
+      "medias-de-nylon"
+    ]
+  },
+  {
+    "slug": "elastano",
+    "term": "Elastano",
+    "category": "Moda",
+    "definition": "Fibra elástica que mejora la recuperación y el ajuste de tejidos. Lycra es una marca comercial, no el nombre de todas las fibras elásticas.",
+    "aliases": [
+      "lycra",
+      "spandex"
+    ],
+    "wardrobe": [
+      "medias-con-lycra"
+    ]
+  },
+  {
+    "slug": "horma",
+    "term": "Horma",
+    "category": "Calzado",
+    "definition": "Forma tridimensional sobre la que se construye un zapato; influye en su ancho, volumen, punta y ajuste.",
+    "aliases": [],
+    "wardrobe": [
+      "zapatos"
+    ]
+  },
+  {
+    "slug": "tiro",
+    "term": "Tiro",
+    "category": "Moda",
+    "definition": "Distancia de la prenda desde la entrepierna hasta la cintura. Puede ser alto, medio o bajo.",
+    "aliases": [
+      "rise"
+    ],
+    "wardrobe": [
+      "pantalon"
+    ]
+  },
+  {
+    "slug": "molderia",
+    "term": "Moldería",
+    "category": "Moda",
+    "definition": "Forma y dimensiones del patrón con el que se confecciona una prenda. Dos prendas del mismo talle pueden tener distinta moldería.",
+    "aliases": [
+      "patronaje"
+    ],
+    "wardrobe": [
+      "vestido"
+    ]
+  },
+  {
+    "slug": "pretina",
+    "term": "Pretina",
+    "category": "Moda",
+    "definition": "Banda o sección que remata la cintura de una falda o pantalón.",
+    "aliases": [
+      "cinturilla"
+    ],
+    "wardrobe": [
+      "pollera"
+    ]
+  },
+  {
+    "slug": "ruedo",
+    "term": "Ruedo",
+    "category": "Moda",
+    "definition": "Borde inferior de una prenda, como una falda o vestido.",
+    "aliases": [
+      "dobladillo",
+      "bajo"
+    ],
+    "wardrobe": [
+      "pollera"
+    ]
+  },
+  {
+    "slug": "bretel",
+    "term": "Bretel",
+    "category": "Moda",
+    "definition": "Tira que ayuda a sostener una prenda sobre el hombro.",
+    "aliases": [
+      "tirante"
+    ],
+    "wardrobe": [
+      "corpino"
+    ]
+  },
+  {
+    "slug": "copa",
+    "term": "Copa",
+    "category": "Moda",
+    "definition": "Parte de un corpiño que contiene o da forma al pecho; los sistemas de talles varían por fabricante.",
+    "aliases": [
+      "cup"
+    ],
+    "wardrobe": [
+      "corpino"
+    ]
+  },
+  {
+    "slug": "cana",
+    "term": "Caña",
+    "category": "Calzado",
+    "definition": "Parte de una bota que se extiende hacia arriba desde el tobillo.",
+    "aliases": [],
+    "wardrobe": [
+      "bota"
+    ]
+  },
+  {
+    "slug": "empeine",
+    "term": "Empeine",
+    "category": "Calzado",
+    "definition": "Zona superior del pie; su volumen condiciona el ajuste de zapatos y sandalias.",
+    "aliases": [],
+    "wardrobe": [
+      "zapatos"
+    ]
+  },
+  {
+    "slug": "wide-leg",
+    "term": "Wide leg",
+    "category": "Moda",
+    "definition": "Corte de pantalón de pernera amplia desde la cadera o el muslo.",
+    "aliases": [
+      "pata ancha"
+    ],
+    "wardrobe": [
+      "pantalon-wide-leg"
+    ]
+  },
+  {
+    "slug": "bodycon",
+    "term": "Bodycon",
+    "category": "Moda",
+    "definition": "Corte de prenda ajustado al contorno corporal.",
+    "aliases": [
+      "vestido tubo"
+    ],
+    "wardrobe": [
+      "vestido-tubo"
+    ]
+  },
+  {
+    "slug": "fishnet",
+    "term": "Fishnet",
+    "category": "Moda",
+    "definition": "Tejido de malla abierta empleado, entre otras prendas, en medias de red.",
+    "aliases": [
+      "red"
+    ],
+    "wardrobe": [
+      "medias-de-red"
+    ]
+  },
+  {
+    "slug": "shimmer",
+    "term": "Shimmer",
+    "category": "Maquillaje",
+    "definition": "Acabado de brillo fino o luminoso en productos cosméticos.",
+    "aliases": [
+      "brillante"
+    ],
+    "wardrobe": []
+  },
+  {
+    "slug": "duocromo",
+    "term": "Duocromo",
+    "category": "Maquillaje",
+    "definition": "Acabado que cambia de apariencia entre dos colores según el ángulo de luz.",
+    "aliases": [
+      "duochrome"
+    ],
+    "wardrobe": []
+  },
+  {
+    "slug": "manicura-francesa",
+    "term": "Manicura francesa",
+    "category": "Uñas",
+    "definition": "Diseño que destaca la punta de la uña, tradicionalmente con un borde claro.",
+    "aliases": [
+      "french"
+    ],
+    "wardrobe": []
+  },
+  {
+    "slug": "cartera-capsula",
+    "term": "Cartera cápsula",
+    "category": "Moda",
+    "definition": "Selección reducida de bolsos y accesorios combinables para distintas ocasiones.",
+    "aliases": [],
+    "wardrobe": [
+      "cartera"
+    ]
   }
 ]
