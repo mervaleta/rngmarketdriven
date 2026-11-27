@@ -30,4 +30,8 @@ try {
 }catch(Throwable $e){$demoRanks=[];}
 $html=str_replace('<!--STUDIO_RANKS-->',json_encode($demoRanks,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
 
+$wordBank=json_decode((string)file_get_contents(__DIR__.'/word-bank.json'),true);
+$edition=(new DateTimeImmutable('now',new DateTimeZone('America/Argentina/Buenos_Aires')))->format('Y-m-d');
+$html=str_replace('<!--STUDIO_WORD_BANK-->',json_encode($view==='arcade'&&is_array($wordBank)?$wordBank:[],JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT),$html);
+$html=str_replace('<!--STUDIO_EDITION-->',json_encode($edition),$html);
 echo $html;
