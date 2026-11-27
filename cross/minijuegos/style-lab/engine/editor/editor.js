@@ -30,7 +30,7 @@ const DEFAULT_RECIPE = {
   body: { gender: 0.35, age: 0.5, muscle: 0.5, weight: 0.5, race: { african: 0.15, asian: 0.15, caucasian: 0.7 } },
   skin: { tone: 0.1, color: null }, eyes: "brown", face: {},
   hair: { style: "bob01", color: "#3a281d" }, eyebrows: "eyebrow001", eyebrowHeight: 0.8,
-  moustache: null, beard: null, glasses: null, hat: null,
+  moustache: null, beard: null, glasses: null, hat: null, clothColors: {},
   outfit: "female_elegantsuit01", top: null, bottom: null, shoes: "shoes05",
   makeup: { eyeshadow: { amount: 0, color: "#7a5a8c" }, lips: { amount: 0, color: "#a8323e" }, nails: { amount: 0, color: "#b0283a" } },
 };
@@ -167,10 +167,12 @@ async function setItemTexture(entry, file, slot) {
   entry.mesh.material.map = texture; entry.mesh.material.color.set(slot === "tongue01" ? TONGUE_TINT : 0xffffff);
   entry.mesh.material.needsUpdate = true;
   recolor(entry, slot);
+  tintClothes(entry,slot);
 }
 
 // Hair color: keep the texture's light and shade, replace its color. Brows and facial hair follow.
 const HAIR_SLOTS = { hair: 1, eyebrows: 0.8, moustache: 0.9, beard: 0.9 };
+function tintClothes(entry,slot){ if(!CLOTHES.includes(slot))return; const color=recipe.clothColors?.[slot];entry.mesh.material.color.set(/^#[0-9a-f]{6}$/i.test(color||"")?color:0xffffff); }
 function recolor(entry, slot) {
   if (!(slot in HAIR_SLOTS) || !entry.original) return;
   const ctx = entry.canvas.getContext("2d");
@@ -254,7 +256,7 @@ async function syncWardrobe() {
   for (const mesh of [...avatar.children]) if (mesh.isMesh && !liveMeshes.has(mesh)) {
     avatar.remove(mesh); mesh.geometry.dispose(); mesh.material.map?.dispose(); mesh.material.dispose();
   }
-  for (const slot of Object.keys(HAIR_SLOTS)) { const e=worn.get(slot); if(e) recolor(e,slot); }
+  for (const [slot,e] of worn){if(slot in HAIR_SLOTS)recolor(e,slot);tintClothes(e,slot);}
   updateBodyIndices(); refit();
   wardrobePending = false;
   return true;
@@ -696,48 +698,52 @@ function setSkinColor(color, keepSwatches) {
 const rand = (a, b) => a + Math.random() * (b - a);
 const pick = (list) => list[Math.floor(Math.random() * list.length)];
 const chance = (p) => Math.random() < p;
-async function surprise() {
-  const presets = (await loadPresets()).filter(p => Number(p.recipe?.body?.age ?? 0.5) >= 0.35);
-  const male = chance(0.5);
-  const sameSex = (p) => (p.recipe.body?.gender ?? 1) > 0.5 === male;
-  const style = structuredClone(pick(presets.filter(sameSex)).recipe);
-  const r = { ...style, name: recipe.name, face: {} };
-  const age = chance(0.75) ? rand(0.38, 0.7) : rand(0.7, 0.9);  // mostly 20 to 50, some to about 77
-  const main = pick(RACES), race = { african: 0, asian: 0, caucasian: 0 };
-  race[main] = rand(0.6, 1);
-  for (const other of RACES.filter((x) => x !== main)) race[other] = rand(0, 1 - race[main]);
-  r.body = { gender: male ? rand(0.75, 1) : rand(0, 0.25), age, muscle: rand(0.25, 0.75), weight: rand(0.2, 0.8), race };
-  const sum = race.african + race.asian + race.caucasian;
-  const tone = Math.min(1, Math.max(0, (race.african * 0.9 + race.asian * 0.2) / sum + rand(-0.12, 0.12)));
-  r.skin = { tone, color: style.skin?.color ?? null };
-  const eyes = Object.keys(index.eyeColors);
-  r.eyes = tone > 0.4 || chance(0.5) ? pick(["brown", "brown", "brownlight", "green"]) : pick(eyes);
-  // Hair: half the time the outfit's own, otherwise one worn by someone of the same sex among the
-  // ready-made avatars; natural colors by age, unless the costume has a fantasy color.
-  const styles = [...new Set(presets.filter(sameSex).map((p) => p.recipe.hair?.style).filter((h) => h !== undefined))];
-  const naturalColor = age > 0.8 && chance(0.7) ? pick(["Grey", "White"]) : age > 0.65 && chance(0.4) ? "Grey"
-    : pick(Object.keys(HAIR_COLORS).filter((c) => c !== "Grey" && c !== "White"));
-  const fantasy = style.hair?.color && Object.values(FANTASY_HAIR).includes(style.hair.color);
-  r.hair = { style: chance(0.5) ? style.hair?.style ?? null : pick(styles), color: fantasy ? style.hair.color : HAIR_COLORS[naturalColor] };
-  r.eyebrows = pick(index.categories.eyebrows.items).id;
-  r.eyebrowHeight = Math.round(rand(0.3, 1.1) * 10) / 10;
-  if (male && !style.beard && !style.moustache && chance(0.4)) r.beard = pick(["paint_stubble", "paint_beard_short", "beard_goatee", "beard_short"]);
-  if (!male) { r.beard = null; r.moustache = null; }
-  const ordinaryGlasses = index.categories.glasses.items.map((i) => i.id).filter((id) => id.includes("glasses"));
-  if (!style.glasses && chance(0.18)) r.glasses = pick(ordinaryGlasses);
-  const makeup = structuredClone(DEFAULT_RECIPE.makeup);
-  if (!male && chance(0.55)) {
-    makeup.lips = { amount: rand(0.25, 0.6), color: pick(["#a8323e", "#b5525a", "#8c3b4a", "#c46a6a"]) };
-    if (chance(0.5)) makeup.eyeshadow = { amount: rand(0.2, 0.45), color: pick(["#7a5a8c", "#6b5a4a", "#4a5a7a", "#8a6a5a"]) };
+// Randomize directly from the installed catalog; no network preset or gender-specific clothing dependency.
+const clothPalette=["#ffffff","#e5cbdc","#b783a6","#896aaf","#7f99c5","#b2c6a0","#e7bb85","#c98888","#837c88","#555a72"];
+function randomDifferent(list,current){const other=list.filter(x=>x!==current);return pick(other.length?other:list)}
+function makeRandomRecipe(scope="all",previous=recipe){
+  const r=structuredClone(previous);
+  const vary=(n,a,b)=>{const v=Math.round(rand(a,b)*100)/100;return Math.abs(v-n)<0.12?(n>(a+b)/2?a:b):v};
+  const ids=(slot,filter=()=>true)=>index.categories[slot].items.filter(filter).map(i=>i.id);
+  if(scope==="all"||scope==="body"){
+    const weights=RACES.map(()=>rand(.05,1)),sum=weights.reduce((a,b)=>a+b,0);
+    r.body={gender:vary(r.body.gender,.03,.97),age:vary(r.body.age,.40,.80),muscle:vary(r.body.muscle,.10,.90),weight:vary(r.body.weight,.10,.90),race:Object.fromEntries(RACES.map((k,i)=>[k,weights[i]/sum]))};
+    r.face={};
+    const shuffled=[...base.modifiers];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}
+    for(const m of shuffled.slice(0,12))r.face[m.id]=Math.round(rand(m.decr?-.6:.15,.65)*100)/100;
+    r.eyebrowHeight=vary(r.eyebrowHeight,.3,1.1);
   }
-  for (const [k, v] of Object.entries(style.makeup ?? {})) if (v.amount > 0) makeup[k] = v;  // a costume's own makeup wins
-  r.makeup = makeup;
-  for (const m of [...base.modifiers].sort(() => Math.random() - 0.5).slice(0, 5))
-    r.face[m.id] = Math.round((m.decr ? rand(-0.4, 0.4) : rand(0, 0.4)) * 100) / 100;
-  endPreview();
-  await applyRecipe(r);
+  if(scope==="all"||scope==="colors"){
+    r.skin={tone:vary(r.skin.tone,.03,.95),color:null};
+    r.eyes=randomDifferent(Object.keys(index.eyeColors),r.eyes);
+    r.hair={...r.hair,color:randomDifferent(Object.values(HAIR_COLORS),r.hair.color)};
+    const shades=["#a8323e","#b5525a","#8c3b4a","#c46a6a","#a95687","#b66e45"];
+    r.makeup={lips:{amount:vary(r.makeup.lips.amount,.25,.8),color:randomDifferent(shades,r.makeup.lips.color)},eyeshadow:{amount:vary(r.makeup.eyeshadow.amount,.15,.65),color:randomDifferent(["#7a5a8c","#6b5a4a","#4a5a7a","#8a6a5a","#9c649b"],r.makeup.eyeshadow.color)},nails:{amount:vary(r.makeup.nails.amount,.3,.9),color:randomDifferent(shades,r.makeup.nails.color)}};
+    r.clothColors=Object.fromEntries(CLOTHES.map(k=>[k,randomDifferent(clothPalette,r.clothColors?.[k])]));
+  }
+  if(scope==="all"||scope==="look"){
+    r.hair={...r.hair,style:randomDifferent(ids("hair"),r.hair.style)};
+    r.eyebrows=randomDifferent(ids("eyebrows"),r.eyebrows);
+    r.moustache=null;r.beard=null;r.hat=null;r.glasses=null;
+    if(chance(.55)){
+      const outfits=ids("outfit",i=>/dress|casualsuit|elegantsuit|sportsuit|kimono/.test(i.id));
+      r.outfit=randomDifferent(outfits,r.outfit);r.top=null;r.bottom=null;
+    }else{
+      r.outfit=null;r.top=randomDifferent(ids("top",i=>!i.id.includes("viking")),r.top);r.bottom=randomDifferent(ids("bottom",i=>!i.id.includes("viking")),r.bottom);
+    }
+    r.shoes=randomDifferent(ids("shoes",i=>!(/hero|viking/.test(i.id))),r.shoes);
+  }
+  return r;
 }
-$("surprise").addEventListener("click", () => surprise().catch((err) => { $("status").textContent = err.message; }));
+async function surprise(scope="all"){
+  endPreview();
+  const ok=await applyRecipe(makeRandomRecipe(scope));
+  if(ok)$("status").textContent="Selección aleatoria aplicada.";
+  return ok;
+}
+for(const [id,scope] of [["surprise","all"],["random-body","body"],["random-colors","colors"],["random-look","look"]]){
+  $(id)?.addEventListener("click",async()=>{try{await surprise(scope)}catch(err){$("status").textContent="No se pudo generar: "+err.message}});
+}
 
 // ---- Start from a photo ----------------------------------------------------------------------
 // The face finder (web/lib/photo-fit.js) finds 468 points on the photo's face. We render our own
@@ -1287,7 +1293,7 @@ async function exportVRM() {
     const image = e.canvas ? await encodeImage(e.recolored ? e.canvas : e.url, { jpeg: !cut, maxSize: cut ? 1024 : 2048 }) : null;
     meshes.push({ name: slot === "eyes" ? "eyes" : it.id, positions: pos, normals: smoothNormals(pos, it.source, it.indices), source: it.source,
       uv: it.uv, indices: it.indices, joints: skin.joints, weights: skin.weights, morphs: it.faceShapes,
-      image, color: [0.95, 0.94, 0.91, 1], tint: slot === "tongue01" ? new THREE.Color(TONGUE_TINT).toArray().concat(1) : null, alpha: cut ? "MASK" : "OPAQUE", alphaCutoff: cutoff(slot), doubleSided: slot !== "teeth_front" && slot !== "tongue01" });
+      image, color: CLOTHES.includes(slot)?e.mesh.material.color.toArray().concat(1):[0.95, 0.94, 0.91, 1], tint: slot === "tongue01" ? new THREE.Color(TONGUE_TINT).toArray().concat(1) : CLOTHES.includes(slot) ? e.mesh.material.color.toArray().concat(1) : null, alpha: cut ? "MASK" : "OPAQUE", alphaCutoff: cutoff(slot), doubleSided: slot !== "teeth_front" && slot !== "tongue01" });
   }
   const meta = { name: recipe.name || "My avatar", version: "1", authors: ["Made with VRM Avatar Maker"],
     copyrightInformation: "Made with VRM Avatar Maker from CC0 MakeHuman assets",
@@ -1430,6 +1436,7 @@ async function applyRecipe(next) {
   if (merged.outfit) { merged.top = null; merged.bottom = null; }
   else { merged.top ??= index.categories.top.items[0].id; merged.bottom ??= index.categories.bottom.items[0].id; }
   merged.body.age = Math.max(0.35, Number(merged.body.age)||0.5);
+  merged.clothColors=Object.fromEntries(CLOTHES.filter(k=>/^#[0-9a-f]{6}$/i.test(merged.clothColors?.[k]||"")).map(k=>[k,merged.clothColors[k]]));
   ++skinJob; clearTimeout(skinTimer);
   recipe = merged;
   syncControls();
@@ -1463,7 +1470,7 @@ setCamera(lastCamera);  // framing for the view's real shape (known now)
 base.loadMore().then(() => {updateBodyIndices(); refit();}, () => {});  // the child and old body shapes: the body may change when they arrive
 renderPresets().catch(() => $("start").remove());
 // Cross uses only the local editor, no external handoff.
-window.avatarEditor = { get busy(){return wardrobePending;}, async reset(){ endPreview(); $("expr").value=""; $("live").checked=false; previewSeated=false; document.querySelectorAll("#poses button").forEach(b=>b.classList.toggle("on",b.dataset.pose==="standing")); avatar.visible=true; const ok=await applyRecipe(structuredClone(DEFAULT_RECIPE)); if(ok){applyExpression({});setCamera("body");} return ok; }, inspect(){return {slots:[...worn].map(([slot,e])=>[slot,e.item.id]), meshes:avatar.children.filter(x=>x.isMesh).length, busy:wardrobePending};}, capture(){renderer.render(scene,camera);return renderer.domElement.toDataURL("image/png");}, exportVRM, applyRecipe, calibratePhotos, fromPhotos, camera, controls, scene, avatar, renderer, showPreview, endPreview, get preview() { return preview; }, get recipe() { return recipe; } };  // for tests
+window.avatarEditor = { randomize:surprise, get busy(){return wardrobePending;}, async reset(){ endPreview(); $("expr").value=""; $("live").checked=false; previewSeated=false; document.querySelectorAll("#poses button").forEach(b=>b.classList.toggle("on",b.dataset.pose==="standing")); avatar.visible=true; const ok=await applyRecipe(structuredClone(DEFAULT_RECIPE)); if(ok){applyExpression({});setCamera("body");} return ok; }, inspect(){return {slots:[...worn].map(([slot,e])=>[slot,e.item.id]), meshes:avatar.children.filter(x=>x.isMesh).length, busy:wardrobePending};}, capture(){renderer.render(scene,camera);return renderer.domElement.toDataURL("image/png");}, exportVRM, applyRecipe, calibratePhotos, fromPhotos, camera, controls, scene, avatar, renderer, showPreview, endPreview, get preview() { return preview; }, get recipe() { return recipe; } };  // for tests
 
 // ---- Live preview ----------------------------------------------------------------------------
 // Preview shows the exported VRM in three-vrm (lib/preview.js, loaded on first use). Changing
