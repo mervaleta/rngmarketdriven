@@ -23,3 +23,6 @@ Beta privada sin auditoría de seguridad ni pruebas de ejecución en Hostinger. 
 
 ## Bots de prueba
 La primera apertura de la comunidad con almacenamiento activado crea cuatro bots identificados (Luna 180 XP, Violeta 135 XP, Cereza 90 XP, Perla 55 XP) con una publicación inicial de demostración cada uno. No tienen credenciales utilizables. El ABM puede suspenderlos o eliminarlos; no se recrean automáticamente después de una baja. El ranking lee únicamente sus alias y XP de SQLite, además del progreso local del visitante. No simulan actividad de usuarios reales ni publican automáticamente.
+
+## Studio 0.4: CrossQuiz y glosario
+El catálogo editorial vive en includes/word-bank.json (35 consignas, 513 grupos de respuestas, 964 formas aceptadas). El glosario vive en includes/glossary.json (95 entradas). Ambos son portables. El desafío selecciona siete consignas por fecha de Buenos Aires, con 30 segundos por respuesta, y conserva el progreso en localStorage. La beta valida en navegador; no es resistente a manipulación ni está conectada a la cuenta/SQLite. Antes de un ranking competitivo, mover consignas, cronómetro, validación y recompensas al servidor. Admin se mantiene fuera de la navbar y accesible en /admin/ solo con permisos.
