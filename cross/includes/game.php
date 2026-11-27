@@ -45,6 +45,8 @@ function studioQuizFinalize(): void{
  $now=time();
  foreach(rows("SELECT day FROM studio_quiz_editions WHERE closes_at<=? AND day NOT IN(SELECT day FROM studio_quiz_final) ORDER BY day LIMIT 10",[$now]) as $e){
   $day=$e['day'];
+  // Complete expired attempts with explicit timeouts before freezing statistics.
+  foreach(rows('SELECT user_id FROM studio_quiz_attempts WHERE day=? AND position<7',[$day]) as $attempt){$uid=(int)$attempt['user_id'];$a=one('SELECT position FROM studio_quiz_attempts WHERE user_id=? AND day=?',[$uid,$day]);for($pos=(int)$a['position'];$pos<7;$pos++)q("INSERT OR IGNORE INTO studio_quiz_answers(user_id,day,position,reason) VALUES(?,?,?,'time')",[$uid,$day,$pos]);q('UPDATE studio_quiz_attempts SET position=7 WHERE user_id=? AND day=?',[$uid,$day]);}
   // Only completed seven-answer attempts count. Suspended and demo accounts excluded.
   q("INSERT OR IGNORE INTO studio_quiz_scores(user_id,day,score)
   SELECT a.user_id,a.day,COALESCE(SUM(CASE WHEN a.answer_group IS NULL THEN 0 WHEN (SELECT COUNT(*) FROM studio_quiz_answers z JOIN studio_quiz_attempts za ON za.user_id=z.user_id AND za.day=z.day JOIN studio_users zu ON zu.id=z.user_id WHERE z.day=a.day AND z.position=a.position AND z.answer_group IS NOT NULL AND za.position=7 AND zu.active=1 AND z.user_id NOT IN(SELECT user_id FROM studio_demo_bots))<20 THEN 10 ELSE MAX(1,CAST(ROUND(100.0/(SELECT COUNT(*) FROM studio_quiz_answers z JOIN studio_quiz_attempts za ON za.user_id=z.user_id AND za.day=z.day JOIN studio_users zu ON zu.id=z.user_id WHERE z.day=a.day AND z.position=a.position AND z.answer_group=a.answer_group AND za.position=7 AND zu.active=1 AND z.user_id NOT IN(SELECT user_id FROM studio_demo_bots))) AS INTEGER)) END),0)
@@ -60,7 +62,10 @@ function studioGameState(int $uid,string $day): array{
  $run=['date'=>$day,'position'=>$pos,'deadline'=>(int)$a['deadline']*1000,'results'=>$results,'prompt'=>$pos<7?$bank[$pos]['prompt']:null];
  }
  $previous=one('SELECT day,score FROM studio_quiz_scores WHERE user_id=? ORDER BY day DESC LIMIT 1',[$uid]);
- return $wallet+['owned'=>$owned,'daily'=>one('SELECT 1 FROM studio_game_packs WHERE user_id=? AND day=?',[$uid,$day])?$day:'','wordDaily'=>$run,'date'=>$day,'serverNow'=>time()*1000,'lastScore'=>$previous];
+ $streak=0;$cursor=new DateTimeImmutable($day.' 00:00:00',new DateTimeZone('America/Argentina/Buenos_Aires'));if(!$a||(int)$a['position']<7)$cursor=$cursor->modify('-1 day');$completed=array_fill_keys(array_column(rows('SELECT day FROM studio_quiz_attempts WHERE user_id=? AND position=7 AND EXISTS(SELECT 1 FROM studio_quiz_answers a WHERE a.user_id=studio_quiz_attempts.user_id AND a.day=studio_quiz_attempts.day AND a.reason IN (\'answer\',\'skip\')) ORDER BY day DESC LIMIT 366',[$uid]),'day'),true);while(isset($completed[$cursor->format('Y-m-d')])){$streak++;$cursor=$cursor->modify('-1 day');}
+ $played=count($completed);
+ $achievements=[];if($played>0)$achievements[]=['name'=>'Primera edición','icon'=>'✦'];if($streak>=3)$achievements[]=['name'=>'Tres días de estilo','icon'=>'🔥'];if(count($owned)>=6)$achievements[]=['name'=>'Media colección','icon'=>'🎀'];if(count($owned)===12)$achievements[]=['name'=>'Álbum completo','icon'=>'👑'];
+ return $wallet+['owned'=>$owned,'daily'=>one('SELECT 1 FROM studio_game_packs WHERE user_id=? AND day=?',[$uid,$day])?$day:'','wordDaily'=>$run,'date'=>$day,'serverNow'=>time()*1000,'lastScore'=>$previous,'streak'=>$streak,'achievements'=>$achievements];
 }
 function studioGameApi(): void{
  global $db,$me;if(!$me||!empty($me['is_bot']))studioJson(['error'=>'Iniciá sesión'],401);
