@@ -5,7 +5,7 @@
 // Assets: pipeline/make_parts.sh + pipeline/export_web_assets.py write web/assets/.
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { fetchRetry, loadBase, morphBody, loadItem, fitItem, visibleBodyIndices, ageYears, skinBucket, skinGender } from "../lib/avatar-core.js";
+import { fetchRetry, loadBase, morphBody, loadItem, fitItem, visibleBodyIndices, ageYears, skinBucket, skinGender } from "../lib/avatar-core.js?v=pack-5";
 import { fitRig, tPose, skinPositions, smoothNormals, encodeImage, writeVRM } from "../lib/vrm-export.js";
 import { addHairSprings, springBoneExtension } from "../lib/springs.js";
 import { skirtSkin } from "../lib/cloth.js";
@@ -615,9 +615,21 @@ async function renderPresets() {
   showThumbs(box);
 }
 
+const thumbnailCache=new Map();
+function thumbnailURL(src){
+  if(!thumbnailCache.has(src)){
+    const job=fetchRetry(src).then(r=>r.blob()).then(b=>URL.createObjectURL(b));
+    thumbnailCache.set(src,job);job.catch(()=>thumbnailCache.delete(src));
+  }
+  return thumbnailCache.get(src);
+}
 function showThumbs(root) {
   if (!root.closest("details")?.open) return;
-  for (const img of root.querySelectorAll("img[data-src]")) { img.src = img.dataset.src; img.removeAttribute("data-src"); }
+  for (const img of root.querySelectorAll("img[data-src]")) {
+    const src=img.dataset.src;img.removeAttribute("data-src");
+    // Load gallery thumbnails through the same batching queue, rather than a burst of HTTP requests.
+    thumbnailURL(src).then(url=>{if(img.isConnected)img.src=url;},()=>{if(img.isConnected)img.dataset.src=src;});
+  }
 }
 document.querySelectorAll("#panel details").forEach((d) => d.addEventListener("toggle", () => showThumbs(d)));
 
