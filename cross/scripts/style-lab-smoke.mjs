@@ -50,15 +50,20 @@ try{
    const body=!eq(a.body,b.body)&&!eq(a.face,b.face)&&eq(a.outfit,b.outfit)&&eq(a.hair,b.hair);
    await api.randomize('colors');let c=snapshot();
    const colors=!eq(b.skin,c.skin)&&b.eyes!==c.eyes&&b.hair.color!==c.hair.color&&!eq(b.makeup,c.makeup)&&!eq(b.clothColors,c.clothColors)&&eq(b.body,c.body);
+   const beforeMeshes=api.avatar.children.filter(x=>/^(outfit|top|bottom|shoes):/.test(x.name)).map(x=>x.name).sort();
    await api.randomize('look');let d=snapshot();
+   const afterMeshes=api.avatar.children.filter(x=>/^(outfit|top|bottom|shoes):/.test(x.name)).map(x=>x.name).sort();
+   const desiredMeshes=['outfit','top','bottom','shoes'].filter(k=>d[k]).map(k=>k+':'+d[k]).sort();
+   const actualWardrobe=!eq(beforeMeshes,afterMeshes)&&eq(afterMeshes,desiredMeshes);
+   const geometry=api.avatar.children.filter(x=>afterMeshes.includes(x.name)).every(m=>m.visible&&m.geometry.attributes.position.array.some(n=>n!==0)&&m.geometry.boundingSphere.radius>0);
    const look=!eq([c.outfit,c.top,c.bottom,c.shoes],[d.outfit,d.top,d.bottom,d.shoes])&&c.hair.style!==d.hair.style&&eq(c.body,d.body);
    const meshMatch=api.inspect().meshes===api.inspect().slots.length+1;
    const exclusive=!!d.outfit?(!d.top&&!d.bottom):!!(d.top&&d.bottom);
    await api.randomize('all');let e=snapshot();
    const all=!eq(d.body,e.body)&&!eq(d.face,e.face)&&!eq(d.clothColors,e.clothColors);
-   return {body,colors,look,meshMatch,exclusive,all,slots:api.inspect()};
+   return {body,colors,look,meshMatch,exclusive,all,actualWardrobe,geometry,beforeMeshes,afterMeshes,slots:api.inspect()};
  });
  console.log('RANDOMIZE',JSON.stringify(random));
- for(const k of ['body','colors','look','meshMatch','exclusive','all'])assert.equal(random[k],true,k);
+ for(const k of ['body','colors','look','meshMatch','exclusive','all','actualWardrobe','geometry'])assert.equal(random[k],true,k);
  await page.screenshot({path:'style-lab-smoke.png'});
 }finally{await browser.close()}
