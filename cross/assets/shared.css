@@ -1,0 +1,8 @@
+
+.studio-header{display:block!important;position:sticky;top:0;z-index:9;background:#fffafd;border-bottom:1px solid #efd5e4;padding:0!important;box-shadow:0 3px 14px #a13c7810}
+.studio-top{max-width:1240px;margin:auto;padding:11px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.studio-brand{font:italic 800 29px Georgia,serif;color:#a13c78;text-decoration:none;letter-spacing:-1px}.studio-brand span{color:#d65b97}.studio-version{background:#f8dbe9;color:#97346f;font-size:10px;font-weight:800;letter-spacing:1px;border-radius:50px;padding:4px 9px}
+.studio-extra{margin-left:auto;display:flex;gap:12px;align-items:center;font-size:13px;color:#a13c78;font-weight:700}
+.studio-nav{max-width:1240px;margin:auto;display:flex!important;position:static!important;overflow:auto;gap:5px!important;padding:0 15px 10px!important;scrollbar-width:thin;background:transparent!important}
+.studio-nav a{display:block;white-space:nowrap;text-decoration:none;color:#79556e;font-size:13px;font-weight:650;padding:8px 12px;border-radius:10px}.studio-nav a[aria-current=page]{background:#f4deed;color:#96386f}.studio-nav a:hover{background:#f8e7f0}.studio-extra form{margin:0}.studio-extra button{font-size:12px}
+@media(max-width:650px){.studio-top{padding:9px 12px}.studio-nav{padding:0 8px 8px!important}.studio-nav a{padding:7px 10px}.studio-brand{font-size:24px}.studio-extra{font-size:12px}}
