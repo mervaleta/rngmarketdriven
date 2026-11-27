@@ -1,0 +1,14 @@
+<?php
+declare(strict_types=1);
+define('STUDIO_SECTION_ENTRY',true);
+require dirname(__DIR__).'/includes/header.php';
+header('Content-Type: text/html; charset=UTF-8');
+header('Cache-Control: private, no-store');
+header('X-Robots-Tag: noindex, nofollow, noarchive');
+header('Referrer-Policy: no-referrer');
+header('X-Content-Type-Options: nosniff');
+$base=studioBase();$masthead=studioHeader('pluma');
+function e($s){return studioEsc($s);}
+?><!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Pluma Libre · Studio</title><link rel="stylesheet" href="<?=e($base)?>assets/shared.css"><style>
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#f5d9f0,transparent 55%),#fff5fa;color:#492b47;font:15px/1.6 system-ui,sans-serif}main{max-width:1080px;margin:auto;padding:24px 16px 45px}h1{font-size:clamp(32px,5vw,48px);margin:0}h2{font-size:22px;margin:0 0 7px}p{margin:7px 0;color:#806478}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:#a13c78;font-weight:800}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{border:1px solid #efd5e4;border-radius:18px;background:#fffbfd;padding:19px;box-shadow:0 7px 20px #9233630a}.btn{display:inline-block;margin-top:12px;border-radius:10px;padding:9px 15px;background:#a13c78;color:#fff;text-decoration:none;font-weight:700}.meta{font-size:12px;color:#806478}.glyph{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:#f4e0ef;color:#96386f;font-size:24px;margin-bottom:12px}.footer{margin-top:25px;font-size:12px;color:#806478}@media(max-width:700px){.grid{grid-template-columns:1fr}.card{padding:17px}}
+</style></head><body><?=$masthead?><main><div class="studio-section-hero"><div><div class="eyebrow">Studio · Comunidad editorial</div><h1>Pluma Libre</h1><p>Un espacio para escribir, conversar, compartir experiencias y descubrir relatos. Elegí cómo querés participar.</p></div><?=studioArt('pluma')?></div><?=studioPlumaTabs('pluma')?><div class="grid"><article class="card"><div class="glyph">♡</div><h2>Muro</h2><p>Mensajes breves, novedades, pequeños logros e ideas del día.</p><a class="btn" href="<?=e($base)?>muro/">Entrar al muro</a></article><article class="card"><div class="glyph">✦</div><h2>Foro</h2><p>Conversaciones organizadas por temas, preguntas y respuestas de miembros.</p><a class="btn" href="<?=e($base)?>foro/">Ver conversaciones</a></article><article class="card"><div class="glyph">✎</div><h2>Relatos</h2><p>Ficción, experiencias y lecturas originales sobre estilo y autodescubrimiento.</p><a class="btn" href="<?=e($base)?>relatos/">Leer relatos</a></article></div><div class="footer">El muro y el foro requieren una cuenta. Los relatos editoriales se pueden leer sin registro.</div></main></body></html>
