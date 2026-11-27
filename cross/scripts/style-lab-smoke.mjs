@@ -8,11 +8,23 @@ try{
  page.on('console',m=>{if(['error','warn'].includes(m.type()))console.log(m.type(),m.text())});
  page.on('requestfailed',r=>console.error('REQUEST FAILED',r.url(),r.failure()));
  page.on('response',r=>{if(r.status()>=400)console.error('HTTP',r.status(),r.url())});
+ let packRequests=0, rateLimitInjected=false;
+ await page.setRequestInterception(true);
+ page.on('request',req=>{
+  if(req.url().includes('/assets-pack.php?')){
+   packRequests++;
+   if(!rateLimitInjected){rateLimitInjected=true;return req.respond({status:429,headers:{'Retry-After':'2'},body:'Rate limit test'});}
+  }
+  return req.continue();
+ });
  await page.goto(process.env.STUDIO_TEST_URL,{waitUntil:'domcontentloaded',timeout:30000});
  await page.waitForFunction(()=>window.avatarEditor||window.studioBootError,{timeout:60000});
  const state=await page.evaluate(()=>({error:window.studioBootError,ready:!!window.avatarEditor,loading:document.getElementById('loading')?.textContent}));
  console.log('STARTUP',JSON.stringify(state));
  assert.equal(state.ready,true,state.error||'Editor failed to start');
+ assert.equal(rateLimitInjected,true,'Asset pack endpoint must be used');
+ assert.ok(packRequests>=2,'429 request must be retried');
+ console.log('PACK REQUESTS',packRequests);
  const info=await page.evaluate(async()=>{
   const api=window.avatarEditor,initial=structuredClone(api.recipe);
   const a=structuredClone(initial);a.outfit=null;a.top='toigo_fisherman_sweater';a.bottom='toigo_long_full_skirt';
