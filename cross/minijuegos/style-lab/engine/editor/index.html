@@ -279,7 +279,7 @@ const fail=(error)=>{
   box.append(p,detail,retry);loading.append(box);
 };
 const deadline=setTimeout(()=>{if(!window.avatarEditor)fail(new Error("El modelo tardó demasiado en responder."))},120000);
-try{await import("./editor.js?v=pack-5");clearTimeout(deadline);}catch(error){clearTimeout(deadline);fail(error);}
+try{await import("./editor.js?v=outfit-6");clearTimeout(deadline);}catch(error){clearTimeout(deadline);fail(error);}
 </script>
 </body>
 </html>
