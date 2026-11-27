@@ -1,0 +1,4 @@
+/private/*
+!/private/.htaccess
+!/private/probe.txt
+!/private/.gitignore
