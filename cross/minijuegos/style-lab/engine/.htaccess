@@ -1,0 +1,10 @@
+Options -Indexes
+<IfModule mod_mime.c>
+AddType application/octet-stream .gz
+RemoveEncoding .gz
+AddType text/javascript .mjs .js
+</IfModule>
+<IfModule mod_headers.c>
+Header always set X-Robots-Tag "noindex, nofollow"
+Header always set Referrer-Policy "no-referrer"
+</IfModule>

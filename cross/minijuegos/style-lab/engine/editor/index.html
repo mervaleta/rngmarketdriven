@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Studio · Probador 3D</title>
+<link rel="icon" href="../icon.svg" sizes="32x32">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icon.svg">
+<style>
+  :root { --bg: #26282b; --panel: #1b1c1f; --line: #34363b; --fg: #ececec; --muted: #9a9ca3; --accent: #e0a458; --bad: #e26a5a; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 14px/1.35 system-ui, sans-serif; }
+  #app { display: flex; height: 100%; }
+  /* The side column: the panel scrolls, the bar with name and download buttons stays below it. */
+  #side { width: 340px; flex: none; display: flex; flex-direction: column; min-height: 0; background: var(--panel); border-right: 1px solid var(--line); }
+  #panel { flex: 1; min-height: 0; overflow-y: auto; padding: 10px 14px 14px; }
+  #view { flex: 1; position: relative; min-width: 0; }
+  #view canvas { display: block; width: 100%; height: 100%; }
+  h1 { font-size: 17px; margin: 4px 0 10px; }
+  details { border-top: 1px solid var(--line); padding: 6px 0; }
+  summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+  label.slider { display: block; margin: 8px 0 2px; color: var(--muted); }
+  label.slider span { float: right; color: var(--fg); }
+  input[type=range] { width: 100%; }
+  .sub { color: var(--muted); margin: 10px 0 4px; font-size: 13px; }
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .tile { background: #2a2c31; border: 2px solid transparent; border-radius: 6px; color: var(--fg); padding: 2px; cursor: pointer; font-size: 11px; min-height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .tile img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #111; border-radius: 4px; }
+  .tile span { display: block; margin-top: 2px; text-align: center; line-height: 1.15; }
+  .tile.on { border-color: var(--accent); }
+  .swatches { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .swatch { width: 28px; height: 28px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; padding: 0; background-size: cover; background-position: center; }
+  .swatch.on { border-color: var(--accent); outline: 2px solid var(--panel); outline-offset: -4px; }
+  .swatch.natural { background: conic-gradient(#3b2a20, #c9a66b, #8f8b88, #3b2a20); }
+  input[type=color] { width: 32px; height: 28px; border: none; background: none; padding: 0; cursor: pointer; }
+  .makeup { display: grid; grid-template-columns: 90px 1fr 34px; align-items: center; gap: 8px; margin: 6px 0; }
+  #tone { background: linear-gradient(to right, var(--tone-light), var(--tone-dark)); border-radius: 4px; height: 10px; -webkit-appearance: none; appearance: none; }
+  #tone::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #fff; border: 2px solid #333; }
+  #bar { flex: none; background: var(--panel); border-top: 1px solid var(--line); padding: 10px 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  #send { grid-column: 1 / -1; }
+  #send[hidden] { display: none; }
+  #bar input[type=text] { grid-column: 1 / -1; background: #2a2c31; border: 1px solid var(--line); color: var(--fg); padding: 6px 8px; border-radius: 6px; }
+  #fixlink { grid-column: 1 / -1; color: var(--muted); font-size: 12px; text-align: center; }
+  button.glb { grid-column: 1 / -1; background: none; border: none; padding: 0; color: var(--muted); font-size: 12px; text-decoration: underline; cursor: pointer; }
+  button.glb:disabled { opacity: .5; cursor: default; }
+  #panel-glb { display: none; margin: 14px auto 0; }
+  button.main { background: var(--accent); color: #1b1c1f; border: none; border-radius: 6px; padding: 8px; font-weight: 600; cursor: pointer; }
+  button.plain { background: #2a2c31; color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 8px; cursor: pointer; }
+  #status { position: absolute; left: 12px; bottom: 10px; color: var(--muted); font-size: 12px; }
+  #status .bad { color: var(--bad); }
+  #camera { position: absolute; right: 12px; top: 12px; display: flex; gap: 6px; }
+  #camera button { background: #000a; color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+  #camera #poses { display: flex; gap: 6px; margin-right: 6px; }
+  #camera #poses[hidden] { display: none; }
+  #camera button.on, #camera #preview.active { background: var(--accent); color: #1b1c1f; border-color: var(--accent); }
+  #expr-row { display: flex; gap: 8px; align-items: center; margin-top: 6px; }
+  #expr-row select { flex: 1; background: #2a2c31; color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 4px; }
+  #loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); }
+  #quick { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 0 0 10px; }
+  #quick button { padding: 8px 4px; }
+  #photo-box { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.55); display: grid; place-items: center; z-index: 20; padding: 16px; }
+  #photo-box[hidden] { display: none; }
+  #photo-box .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; width: min(340px, 100%); max-height: 100%; overflow: auto; }
+  #photo-canvas { display: block; max-width: 100%; max-height: 42vh; width: auto; height: auto; margin: 0 auto; border-radius: 6px; background: #1b1c1f; }
+  #photo-box .card [hidden] { display: none; }
+  #photo-box .card.wide { width: min(560px, 100%); }
+  #photo-box h2 { font-size: 16px; margin: 0 0 10px; }
+  .beta { display: inline-block; font-size: 10px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: #1b1c1f; background: var(--muted); border-radius: 4px; padding: 0 4px; margin-left: 4px; vertical-align: 1px; }
+  /* The camera: video with the step markers on top, what to do in large type at the bottom, a
+     countdown in the middle and a flash when a shot is taken. */
+  #photo-cam { position: relative; border-radius: 8px; overflow: hidden; background: #000; margin-bottom: 8px; }
+  #photo-video { display: block; width: 100%; max-height: 56vh; object-fit: contain; transform: scaleX(-1); }
+  #cam-steps { position: absolute; top: 10px; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; }
+  #cam-steps span { background: #000a; color: #fffc; border: 2px solid #fff6; border-radius: 999px; padding: 3px 12px; font-size: 13px; font-weight: 600; }
+  #cam-steps span.now { border-color: var(--accent); color: #fff; background: #000c; }
+  #cam-steps span.done { background: #3c9d5d; border-color: #3c9d5d; color: #fff; }
+  #cam-say { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 14px 12px; background: linear-gradient(transparent, #000d 40%); color: #fff; text-align: center; }
+  #cam-say b { display: block; font-size: 20px; line-height: 1.25; }
+  #cam-say small { display: block; font-size: 15px; color: #ffd79e; min-height: 1.3em; margin-top: 4px; }
+  #cam-say button { margin-top: 10px; font-size: 16px; padding: 10px 28px; }
+  #cam-count { position: absolute; inset: 0; display: grid; place-items: center; font-size: 96px; font-weight: 700; color: #fff; text-shadow: 0 2px 12px #000; pointer-events: none; }
+  #cam-flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; transition: opacity .35s; }
+  #cam-flash.on { opacity: .85; transition: none; }
+  #photo-start { margin-bottom: 12px; }
+  @media (max-height: 500px) and (orientation: landscape) {
+    #photo-box .card { width: min(640px, 100%); display: grid; grid-template-columns: auto 1fr; gap: 0 14px; align-items: start; }
+    #photo-canvas { grid-row: 1 / span 3; max-height: calc(100vh - 64px); max-width: 40vw; }
+    #photo-status { margin-top: 0; }
+    #photo-box .card.wide { display: block; width: min(560px, 100%); }
+    #photo-video { max-height: calc(100vh - 150px); }
+  }
+  #photo-status { margin: 12px 0 6px; font-size: 13px; line-height: 1.4; }
+  #photo-box .hint { color: var(--muted); font-size: 12px; line-height: 1.4; margin: 0 0 12px; }
+  #photo-box .row { display: flex; gap: 8px; justify-content: flex-end; }
+  #photo-box .row button { min-width: 80px; }
+  #panel-fixlink { display: none; margin: 14px 0 4px; text-align: center; color: var(--muted); font-size: 12px; }
+  @media (pointer: coarse) {  /* fingers: bigger targets */
+    .swatch { width: 34px; height: 34px; }
+    input[type=color] { width: 38px; height: 34px; }
+  }
+  /* Phones upright: the avatar above, the panel below, one row of buttons at the bottom. */
+  @media (max-width: 700px) {
+    #app { flex-direction: column-reverse; height: 100dvh; }
+    #side { width: 100%; height: 58%; border-right: none; }
+    #bar { grid-template-columns: 1fr auto auto; padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); }
+    #bar input[type=text] { grid-column: auto; min-width: 0; }
+    #bar button { padding: 8px 12px; }
+    #fixlink { display: none; }
+    #panel-fixlink, #panel-glb { display: block; }
+    #bar .glb { display: none; }
+    #camera { right: 8px; top: 8px; gap: 4px; }
+    #camera #poses { gap: 4px; margin-right: 4px; }
+    #camera button { padding: 4px 8px; font-size: 13px; }
+    #status { left: 8px; bottom: 6px; font-size: 11px; }
+    input[type=text] { font-size: 16px; }  /* smaller text makes iPhones zoom in on focus */
+  }
+  /* Phones sideways: side by side, the panel taking most of the width (the avatar needs little), and
+     name and buttons in one row. */
+  @media (max-height: 500px) and (orientation: landscape) {
+    #app { flex-direction: row; height: 100dvh; }
+    #side { width: min(58%, 520px); height: 100%; }
+    #panel { padding-left: max(14px, env(safe-area-inset-left)); }
+    #bar { grid-template-columns: 1fr auto auto; padding: 8px 10px calc(8px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left)); }
+    #bar input[type=text] { grid-column: auto; min-width: 0; font-size: 16px; }
+    #bar button { padding: 7px 12px; }
+    .tiles { grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); }
+    #fixlink { display: none; }
+    #panel-fixlink, #panel-glb { display: block; }
+    #bar .glb { display: none; }
+    h1 { margin: 2px 0 6px; }
+  }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "../vendor/three-0.183.2/three.module.min.js",
+  "three/addons/": "../vendor/three-0.183.2/addons/",
+  "@pixiv/three-vrm": "../vendor/three-vrm-3.5.1/three-vrm.module.min.js"
+} }
+</script>
+<style>
+:root{--bg:#f6eaf2;--panel:#fff8fc;--line:#e5cbdb;--fg:#43293d;--muted:#775d72;--accent:#b96b9c}
+#app{flex-direction:row-reverse}#side{border-right:0;border-left:1px solid var(--line);width:min(43%,380px)}
+.tile,button.plain,#bar input[type=text],#expr-row select{background:#f2e1ec;color:var(--fg)}.tile img{background:#e7d3e1}
+#photo,#share,#fixlink,#panel-fixlink,#send,#open{display:none!important}
+#quick{display:block}#camera button{background:#fff9;color:#43293d}#bar{padding:8px}#view canvas{touch-action:none}
+@media(max-width:650px){#app{flex-direction:column-reverse}#view{flex:none;height:44vh;min-height:260px}#side{width:100%;flex:1;border:0}#panel{min-height:100px}}
+</style></head>
+<body>
+<div id="app">
+<div id="side">
+  <div id="panel">
+    <h1>Studio · Probador 3D</h1>
+    <div id="quick"><button class="plain" id="surprise" title="A random person in one of the ready-made outfits">Sorprendeme</button><button class="plain" id="share" title="A link that opens this avatar in the maker">Copy link</button><button class="plain" id="photo" title="Face shape, skin tone, eye and hair color from your camera or photos of a face. Nothing is uploaded.">From a photo <span class="beta">beta</span></button></div>
+    <details id="start">
+      <summary>Modelos iniciales</summary>
+      <div class="tiles" id="presets"></div>
+    </details>
+    <details open>
+      <summary>Cuerpo</summary>
+      <label class="slider">Femenino – Masculino <span id="v-gender"></span><input type="range" id="gender" min="0" max="1" step="0.01"></label>
+      <label class="slider">Age <span id="v-age"></span><input type="range" id="age" min="0.35" max="1" step="0.005"></label>
+      <label class="slider">Muscle <span id="v-muscle"></span><input type="range" id="muscle" min="0" max="1" step="0.01"></label>
+      <label class="slider">Weight <span id="v-weight"></span><input type="range" id="weight" min="0" max="1" step="0.01"></label>
+      <div class="sub">Facial features</div>
+      <label class="slider">African <span id="v-african"></span><input type="range" id="african" min="0" max="1" step="0.01"></label>
+      <label class="slider">Asian <span id="v-asian"></span><input type="range" id="asian" min="0" max="1" step="0.01"></label>
+      <label class="slider">European <span id="v-caucasian"></span><input type="range" id="caucasian" min="0" max="1" step="0.01"></label>
+    </details>
+    <details open>
+      <summary>Piel y ojos</summary>
+      <label class="slider">Skin tone <input type="range" id="tone" min="0" max="1" step="0.01"></label>
+      <div class="sub">Skin color</div>
+      <div class="swatches" id="skin-color"></div>
+      <div class="sub">Eye color</div>
+      <div class="swatches" id="eyes"></div>
+    </details>
+    <details open>
+      <summary>Cabello y pelucas</summary>
+      <div class="sub">Color</div>
+      <div class="swatches" id="hair-color"></div>
+      <div class="sub">Style</div>
+      <div class="tiles" id="cat-hair"></div>
+    </details>
+    <details>
+      <summary>Rostro</summary>
+      <div id="face-shape"></div>
+    </details>
+    <details>
+      <summary>Barba, anteojos y cejas</summary>
+      <div class="sub">Moustache</div>
+      <div class="tiles" id="cat-moustache"></div>
+      <div class="sub">Beard</div>
+      <div class="tiles" id="cat-beard"></div>
+      <div class="sub">Glasses and masks</div>
+      <div class="tiles" id="cat-glasses"></div>
+      <div class="sub">Eyebrows</div>
+      <label class="slider">Height <span id="v-brow-height"></span><input type="range" id="brow-height" min="-0.5" max="1.5" step="0.1"></label>
+      <div class="tiles" id="cat-eyebrows"></div>
+    </details>
+    <details>
+      <summary>Sombreros</summary>
+      <div class="tiles" id="cat-hat"></div>
+    </details>
+    <details>
+      <summary>Maquillaje</summary>
+      <div class="makeup"><span>Eye shadow</span><input type="range" id="mk-eyeshadow" min="0" max="1" step="0.01"><input type="color" id="mc-eyeshadow"></div>
+      <div class="makeup"><span>Lips</span><input type="range" id="mk-lips" min="0" max="1" step="0.01"><input type="color" id="mc-lips"></div>
+      <div class="makeup"><span>Nails</span><input type="range" id="mk-nails" min="0" max="1" step="0.01"><input type="color" id="mc-nails"></div>
+    </details>
+    <details>
+      <summary>Ropa y calzado</summary>
+      <div class="sub">Outfit</div>
+      <div class="tiles" id="cat-outfit"></div>
+      <div class="sub">Top</div>
+      <div class="tiles" id="cat-top"></div>
+      <div class="sub">Bottom</div>
+      <div class="tiles" id="cat-bottom"></div>
+      <div class="sub">Shoes</div>
+      <div class="tiles" id="cat-shoes"></div>
+    </details>
+    <details>
+      <summary>Expresiones</summary>
+      <div id="expr-row"><select id="expr"><option value="">Neutral</option></select>
+        <label><input type="checkbox" id="live"> Blink and talk</label></div>
+    </details>
+    <button class="glb" id="panel-glb" title="The same avatar as plain glTF, for Blender, game engines and 3D viewers that don't read VRM">Download as GLB</button>
+    <a id="panel-fixlink" href="../fix/" target="_blank">Avatar from elsewhere too big? Fix my VRM</a>
+  </div>
+  <div id="bar">
+    <input type="text" id="name" placeholder="Avatar name" maxlength="60">
+    <button class="main" id="send" hidden></button>
+    <button class="main" id="download">Exportar VRM</button>
+    <button class="plain" id="open">Abrir VRM…</button>
+    <button class="glb" id="download-glb" title="The same avatar as plain glTF, for Blender, game engines and 3D viewers that don't read VRM">Download as GLB (for Blender, game engines)</button>
+    <input type="file" id="file" accept=".vrm,.glb" hidden>
+    <a id="fixlink" href="../fix/" target="_blank">Avatar from elsewhere too big? Fix my VRM</a>
+  </div>
+</div>
+  <div id="view">
+    <div id="loading">Cargando modelo 3D…</div>
+    <div id="camera">
+      <span id="poses" hidden><button data-pose="seated" class="on">Seated</button><button data-pose="standing">Standing</button></span>
+      <button id="preview" title="See the downloaded avatar moving: hair physics, eyes that follow you, blinking">Animar</button>
+      <button data-cam="face">Rostro</button><button data-cam="body">Cuerpo entero</button>
+    </div>
+    <div id="status"></div>
+  </div>
+</div>
+
+<div id="photo-box" hidden><div class="card">
+  <h2>From a photo <span class="beta">beta</span></h2>
+  <div id="photo-cam" hidden>
+    <video id="photo-video" playsinline muted></video>
+    <div id="cam-flash"></div>
+    <div id="cam-count"></div>
+    <div id="cam-steps"><span>1 Straight</span><span>2 Turned</span><span>3 Other way</span></div>
+    <div id="cam-say"><b></b><small></small><button class="main" id="cam-go" hidden>Start</button></div>
+  </div>
+  <canvas id="photo-canvas" width="300" height="300"></canvas>
+  <p id="photo-status"></p>
+  <div id="photo-start" class="row"><button class="plain" id="photo-pick">Choose photos…</button><button class="main" id="photo-camera">Use the camera</button></div>
+  <p class="hint">Best: a neutral face, even light, no glasses. Set Female–Male and age first. Nothing is uploaded: the face is measured here in your browser.</p>
+  <div class="row"><button class="plain" id="photo-take" hidden>Take now</button><button class="plain" id="photo-undo" hidden>Undo</button><button class="main" id="photo-done">Done</button></div>
+</div></div>
+<input type="file" id="photo-file" accept="image/*" multiple hidden>
+<script type="module" src="./editor.js"></script>
+</body>
+</html>
