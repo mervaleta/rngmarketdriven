@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 define('STUDIO_SECTION_ENTRY',true);
+define('STUDIO_SECTION_DEPTH',2);
 require_once dirname(__DIR__,2).'/includes/header.php';
 require_once dirname(__DIR__,2).'/includes/encyclopedia-catalog.php';
 require_once dirname(__DIR__,2).'/includes/glossary-images.php';

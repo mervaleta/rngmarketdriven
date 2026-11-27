@@ -3346,36 +3346,6 @@
     "updated": "2026-11-27"
   },
   {
-    "slug": "cinturon-liguero",
-    "name": "Cinturón liguero",
-    "term": "Cinturón liguero",
-    "category": "Ropa interior",
-    "group": "interior",
-    "kind": "Subtipo",
-    "parent": "liguero",
-    "definition": "Cinturón de ropa interior con tiras que se conectan a medias compatibles.",
-    "aliases": [
-      "garter belt",
-      "suspender belt"
-    ],
-    "views": [
-      "wardrobe"
-    ],
-    "slug_aliases": [],
-    "related": [
-      "medias-para-liguero"
-    ],
-    "fit": "Revisá contorno de pecho y bajo busto si lleva copas, o cintura y cadera si es una prenda inferior. Priorizá comodidad y tabla del fabricante.",
-    "materials": "Algodón, poliamida, elastano, microfibra, encaje o mezclas según modelo.",
-    "sources": [
-      [
-        "HerRoom · Lingerie glossary",
-        "https://www.herroom.com/lingerie-glossary"
-      ]
-    ],
-    "updated": "2026-11-27"
-  },
-  {
     "term": "Cisgénero",
     "category": "Identidad y expresión",
     "definition": "Persona cuya identidad coincide con el género asignado al nacer.",
@@ -7084,7 +7054,9 @@
     "name": "Liguero",
     "aliases": [
       "portaligas",
-      "garter belt"
+      "garter belt",
+      "Cinturón liguero",
+      "suspender belt"
     ],
     "category": "Ropa interior",
     "group": "interior",
@@ -7100,11 +7072,19 @@
     "views": [
       "wardrobe"
     ],
-    "slug_aliases": [],
+    "slug_aliases": [
+      "cinturon-liguero"
+    ],
     "related": [
       "medias-para-liguero"
     ],
-    "glossary_definition": "Prenda con tiras para sostener medias altas."
+    "glossary_definition": "Prenda con tiras para sostener medias altas.",
+    "sources": [
+      [
+        "HerRoom · Lingerie glossary",
+        "https://www.herroom.com/lingerie-glossary"
+      ]
+    ]
   },
   {
     "slug": "lino",
@@ -8042,8 +8022,7 @@
     ],
     "slug_aliases": [],
     "related": [
-      "liguero",
-      "cinturon-liguero"
+      "liguero"
     ],
     "fit": "Compará altura, cadera y contorno de pierna con la tabla del modelo. La banda no debe causar dolor ni marcas persistentes.",
     "materials": "Poliamida, elastano, algodón, lana o mezclas según la etiqueta.",
