@@ -8,7 +8,7 @@ export const view = (buffer, [offset, count, kind]) => new TYPED[kind](buffer, o
 /** fetch() with a few retries: a busy server can refuse some of the many parallel requests. */
 export async function fetchRetry(url, tries = 3) {
   for (let i = 1; ; i++) {
-    try { const r = await fetch(url); if (r.ok) return r; throw new Error(`${r.status} ${url}`); }
+    try { const r = await fetch(url, {signal: AbortSignal.timeout(10000)}); if (r.ok) return r; throw new Error(`${r.status} ${url}`); }
     catch (err) { if (i >= tries) throw err; await new Promise((res) => setTimeout(res, 300 * i)); }
   }
 }
