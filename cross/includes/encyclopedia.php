@@ -1,6 +1,7 @@
 <?php
 // Shared editorial directory and detail view. No user measurements or UGC in this catalog.
 require_once __DIR__.'/header.php';
+require_once __DIR__.'/glossary-images.php';
 function encE($v): string{return studioEsc($v);}
 function encData(string $name): array {
  $p=__DIR__.'/'.($name==='wardrobe'?'wardrobe.json':'glossary.json');$data=json_decode((string)file_get_contents($p),true);
@@ -47,7 +48,7 @@ function encLinks(array $items,string $mode): string{$out='<div class="enc-relat
 <?php if($slug!==''&&!$item):?><div class="enc-detail"><h1>Ficha no encontrada</h1><p>El término no está disponible.</p><a class="enc-btn" href="<?=encE(encUrl($mode))?>">Volver al catálogo</a></div>
 <?php elseif($item):?>
 <nav class="enc-crumb" aria-label="Ruta de navegación"><a href="<?=encE($base)?>">Studio</a> / <a href="<?=encE(encUrl($mode))?>"><?=$wardrobe?'Ropero':'Glosario'?></a> / <?=encE($title)?></nav>
-<div class="enc-detail"><div class="enc-detail-hero"><div><div class="enc-eyebrow"><?=$wardrobe?'Ropero · Enciclopedia':'Glosario · Diccionario'?></div><span class="enc-tag"><?=encE($item['category'])?></span><h1><?=encE($title)?></h1><p class="enc-lead"><?=encE($item['definition'])?></p><?php if(!empty($item['aliases'])):?><p class="enc-muted">También: <?=encE(implode(' · ',$item['aliases']))?></p><?php endif?></div><?= $wardrobe?encSketch($item):studioArt('recursos')?></div>
+<?php $gallery=$wardrobe?'':studioGlossaryGallery($slug,$base);?><div class="enc-detail"><div class="enc-detail-hero<?=(!$wardrobe&&!$gallery)?' enc-detail-hero-plain':''?>"><div><div class="enc-eyebrow"><?=$wardrobe?'Ropero · Enciclopedia':'Glosario · Diccionario'?></div><span class="enc-tag"><?=encE($item['category'])?></span><h1><?=encE($title)?></h1><p class="enc-lead"><?=encE($item['definition'])?></p><?php if(!empty($item['aliases'])):?><p class="enc-muted">También: <?=encE(implode(' · ',$item['aliases']))?></p><?php endif?></div><?= $wardrobe?encSketch($item):$gallery?></div>
 <?php if($wardrobe):?><div class="enc-detail-grid"><section><h2>Cómo reconocerla</h2><p><?=encE($item['features'])?></p></section><section><h2>Ejemplo de uso</h2><p><?=encE($item['example'])?></p></section><section><h2>Materiales habituales de la familia</h2><p><?=encE($item['materials'])?></p><p class="enc-muted">La composición real depende de la etiqueta del producto.</p></section><section><h2>Cómo elegir el talle</h2><p><?=encE($item['fit'])?></p><a href="<?=encE($base)?>recursos/talles/index.php">Comparar con mis medidas →</a></section></div>
 <?php
 $children=array_values(array_filter($data,fn($r)=>($r['parent']??null)===$slug));
