@@ -5,7 +5,7 @@
 // Assets: pipeline/make_parts.sh + pipeline/export_web_assets.py write web/assets/.
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { fetchRetry, loadBase, morphBody, loadItem, fitItem, visibleBodyIndices, ageYears, skinBucket, skinGender } from "../lib/avatar-core.js?v=pack-5";
+import { fetchRetry, loadBase, morphBody, loadItem, fitItem, visibleBodyIndices, ageYears, skinBucket, skinGender } from "../lib/avatar-core.js?v=outfit-6";
 import { fitRig, tPose, skinPositions, smoothNormals, encodeImage, writeVRM } from "../lib/vrm-export.js";
 import { addHairSprings, springBoneExtension } from "../lib/springs.js";
 import { skirtSkin } from "../lib/cloth.js";
@@ -140,12 +140,22 @@ async function makeWorn(id, slot) {
   const material = new THREE.MeshStandardMaterial({ roughness: inMouth ? 0.5 : 0.8, side: inMouth ? THREE.FrontSide : THREE.DoubleSide,
     color: 0xf2efe8, alphaTest: item.info.cutout ? cutoff(slot) : 0 });
   const entry = { item, mesh: new THREE.Mesh(g, material), fitted: new Float32Array(item.info.vertexCount * 3) };
+  entry.mesh.name=slot+":"+id;
   entry.mesh.updateMorphTargets();
   const textureFile = slot === "eyes" ? index.eyeColors[recipe.eyes] : item.info.texture;
-  if (textureFile) { try { await setItemTexture(entry, textureFile, slot); } catch(err) { console.warn("Textura no disponible", textureFile, err); } }
+  entry.textureFile=textureFile;
+  // Do not hold the wardrobe transaction open while the texture network queue is busy.
+  if (!CLOTHES.includes(slot) && textureFile && ALWAYS.includes(slot)) { await loadEntryTexture(entry,slot); }
   return entry;
 }
 
+async function loadEntryTexture(entry,slot){
+  if(!entry.textureFile||entry.disposed||entry.textureLoading)return;
+  entry.textureLoading=true;
+  try{await setItemTexture(entry,entry.textureFile,slot);}
+  catch(err){console.warn("Textura no disponible",entry.textureFile,err);}
+  finally{entry.textureLoading=false;}
+}
 // The 3D view uses textures/view/ (at most 1024 px, a third of the bytes); the download reads the full
 // texture from entry.url (exportVRM), fetched only then.
 async function setItemTexture(entry, file, slot) {
@@ -258,7 +268,16 @@ async function syncWardrobe() {
   }
   for (const [slot,e] of worn){if(slot in HAIR_SLOTS)recolor(e,slot);tintClothes(e,slot);}
   updateBodyIndices(); refit();
+  // Confirm that requested slots are the meshes actually attached to the rendered group.
+  for(const [slot,id] of desired){
+    const entry=worn.get(slot);
+    if((entry?.item.id??null)!==id||(entry&&!avatar.children.includes(entry.mesh))) {
+      wardrobePending=false;throw Error("El vestuario no coincide con la selección: "+slot);
+    }
+  }
   wardrobePending = false;
+  renderer.render(scene,camera);
+  for(const [slot,e] of worn)if(!e.original)void loadEntryTexture(e,slot);
   return true;
 }
 
@@ -644,7 +663,7 @@ async function choose(cat, id) {
     recipe.bottom ??= index.categories.bottom.items[0].id;
   }
   for (const c of ITEM_SLOTS) renderTiles(c);
-  if (await syncWardrobe()) scheduleSkin();
+  if (await syncWardrobe()) {scheduleSkin();for(const c of ITEM_SLOTS)renderTiles(c);}
 }
 
 function renderSwatches() {
@@ -749,8 +768,14 @@ function makeRandomRecipe(scope="all",previous=recipe){
 }
 async function surprise(scope="all"){
   endPreview();
-  const ok=await applyRecipe(makeRandomRecipe(scope));
-  if(ok)$("status").textContent="Selección aleatoria aplicada.";
+  if(wardrobePending)return false;
+  const buttons=["surprise","random-body","random-colors","random-look"].map(id=>$(id)).filter(Boolean);
+  buttons.forEach(b=>b.disabled=true);
+  $("status").textContent="Cargando el nuevo modelo y sus prendas…";
+  let ok;
+  try{ok=await applyRecipe(makeRandomRecipe(scope));}
+  finally{buttons.forEach(b=>b.disabled=false);}
+  if(ok){const names=CLOTHES.map(slot=>index.categories[slot].items.find(i=>i.id===worn.get(slot)?.item.id)?.label).filter(Boolean);$("status").textContent="Look aplicado: "+names.join(" · ");}
   return ok;
 }
 for(const [id,scope] of [["surprise","all"],["random-body","body"],["random-colors","colors"],["random-look","look"]]){
@@ -1450,9 +1475,15 @@ async function applyRecipe(next) {
   merged.body.age = Math.max(0.35, Number(merged.body.age)||0.5);
   merged.clothColors=Object.fromEntries(CLOTHES.filter(k=>/^#[0-9a-f]{6}$/i.test(merged.clothColors?.[k]||"")).map(k=>[k,merged.clothColors[k]]));
   ++skinJob; clearTimeout(skinTimer);
+  const previous=structuredClone(recipe);
   recipe = merged;
+  try {
+    if (!(await syncWardrobe())) return false;
+  } catch(err){
+    recipe=previous;syncControls();updateBodyIndices();refit();
+    throw err;
+  }
   syncControls();
-  if (!(await syncWardrobe())) return false;
   const revision = wardrobeRevision;
   clearTimeout(skinTimer);
   const eyes = worn.get("eyes");
