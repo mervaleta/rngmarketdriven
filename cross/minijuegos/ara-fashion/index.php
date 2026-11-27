@@ -1,0 +1,11 @@
+<?php
+declare(strict_types=1);
+define('STUDIO_SECTION_DEPTH',2);
+require dirname(__DIR__,2).'/includes/header.php';
+header('X-Robots-Tag: noindex, nofollow, noarchive');
+header('Cache-Control: private, no-store');
+header('Referrer-Policy: no-referrer');
+$base=studioBase();
+$ready=is_file(__DIR__.'/engine/BUILD.txt') && is_file(__DIR__.'/engine/app/index.html');
+?><!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ara Fashion Lab · Cross</title><link rel="stylesheet" href="<?=studioEsc($base)?>assets/shared.css"><style>body{background:#f8eff6;color:#43293d;margin:0;font:14px/1.5 system-ui}main{max-width:1500px;margin:auto;padding:16px}h1{font:700 30px Georgia,serif;margin:10px 0}.note{background:#fff;border:1px solid #e4cddd;border-radius:12px;padding:14px}iframe{width:100%;height:clamp(620px,85vh,1100px);border:1px solid #e4cddd;border-radius:12px}a{color:#95366d}@media(max-width:650px){main{padding:8px}iframe{height:85vh}}</style></head><body><?=studioHeader('minijuegos')?><main><a href="<?=studioEsc($base)?>minijuegos/">← Minijuegos</a><h1>Ara Fashion Lab · experimental</h1><p>Probador de moda para cuerpos adultos. Todas las prendas, todos los estilos, sin cambiar el cuerpo para usar un vestido o tacos.</p>
+<?php if($ready):?><p>Encontrá las pantymedias en Detailed → Accessories. El editor también admite personajes completos riggeados en GLB, glTF, VRM y FBX.</p><iframe title="Ara Fashion Lab" src="engine/app/" referrerpolicy="no-referrer" allow="camera 'none'; microphone 'none'; geolocation 'none'"></iframe><p><a href="engine/app/">Abrir editor en pantalla completa</a> · <a href="engine/LICENSE">Licencia MIT</a> · <a href="engine/ASSETS_LICENSE.txt">Recursos y licencias</a></p><?php else:?><section class="note"><h2>Versión experimental pendiente de publicación</h2><p>El motor aparecerá aquí cuando termine la compilación y pase las pruebas de prendas y navegador. El probador actual sigue disponible.</p><a href="../style-lab/">Abrir Style Lab</a> · <a href="https://github.com/mervaleta/rngmarketdriven/actions">Estado de compilación</a></section><?php endif;?></main></body></html>
