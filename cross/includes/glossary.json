@@ -1,86 +1,48 @@
 [
   {
-    "term": "Crossdressing",
-    "category": "Identidad y expresión",
-    "definition": "Uso de prendas o elementos de presentación asociados culturalmente a otro género. Puede ser una afición, una forma de expresión o exploración; no determina identidad ni orientación sexual.",
+    "slug": "ajuste-de-peluca",
+    "name": "Ajuste de peluca",
+    "term": "Ajuste de peluca",
+    "category": "Servicios · Peluquería",
+    "definition": "Adaptación de una peluca a la cabeza, al contorno y al estilo deseado.",
     "aliases": [
-      "CD"
+      "personalización de peluca"
     ],
-    "slug": "crossdressing",
-    "wardrobe": []
+    "views": [
+      "services"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "peluqueria",
+    "related": [
+      "lace-front",
+      "full-lace",
+      "wig-cap",
+      "monofilamento"
+    ],
+    "slug_aliases": []
   },
   {
-    "term": "Crossdresser",
-    "category": "Identidad y expresión",
-    "definition": "Persona que practica crossdressing. Algunas usan el término como identidad personal y otras solo para describir una actividad.",
+    "slug": "alpargata",
+    "name": "Alpargata",
     "aliases": [
-      "CD"
+      "espadrille"
     ],
-    "slug": "crossdresser",
-    "wardrobe": []
-  },
-  {
-    "term": "En femme",
-    "category": "Identidad y expresión",
-    "definition": "Momento o look en presentación femenina. No presupone identidad de género.",
-    "aliases": [
-      "en-femme"
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Calzado de inspiración tradicional con suela de fibras o construcción que las imita.",
+    "features": "Puede ser plano o de cuña.",
+    "example": "Con lino y vestidos de verano.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Alpargata",
+    "views": [
+      "wardrobe"
     ],
-    "slug": "en-femme",
-    "wardrobe": []
-  },
-  {
-    "term": "Expresión de género",
-    "category": "Identidad y expresión",
-    "definition": "Forma de presentar el género mediante ropa, apariencia, gestos o voz. Puede cambiar según el contexto.",
-    "aliases": [
-      "gender expression"
-    ],
-    "slug": "expresion-de-genero",
-    "wardrobe": []
-  },
-  {
-    "term": "Identidad de género",
-    "category": "Identidad y expresión",
-    "definition": "Vivencia personal del propio género; es distinta de la apariencia, la ropa y la orientación sexual.",
-    "aliases": [],
-    "slug": "identidad-de-genero",
-    "wardrobe": []
-  },
-  {
-    "term": "Orientación sexual",
-    "category": "Identidad y expresión",
-    "definition": "Patrón de atracción sexual o romántica; no se deduce de la ropa ni del maquillaje.",
-    "aliases": [],
-    "slug": "orientacion-sexual",
-    "wardrobe": []
-  },
-  {
-    "term": "Femme",
-    "category": "Identidad y expresión",
-    "definition": "Término de presentación o identidad femenina usado en distintas comunidades; su significado depende de quien lo elige.",
-    "aliases": [],
-    "slug": "femme",
-    "wardrobe": []
-  },
-  {
-    "term": "Femboy",
-    "category": "Identidad y expresión",
-    "definition": "Término que algunas personas, a menudo de identidad masculina, usan para una expresión femenina. No debe asignarse a terceros sin su consentimiento.",
-    "aliases": [],
-    "slug": "femboy",
-    "wardrobe": []
-  },
-  {
-    "term": "Drag",
-    "category": "Identidad y expresión",
-    "definition": "Arte escénico que juega con el género, el vestuario y la actuación. No es sinónimo de crossdressing.",
-    "aliases": [
-      "drag queen",
-      "drag king"
-    ],
-    "slug": "drag",
-    "wardrobe": []
+    "slug_aliases": [],
+    "related": []
   },
   {
     "term": "Androginia",
@@ -90,238 +52,174 @@
       "andrógino"
     ],
     "slug": "androginia",
-    "wardrobe": []
+    "name": "Androginia",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Género fluido",
-    "category": "Identidad y expresión",
-    "definition": "Identidad de género que puede variar con el tiempo; no es un tipo de vestimenta.",
+    "slug": "anillo",
+    "name": "Anillo",
     "aliases": [
-      "genderfluid"
+      "ring"
     ],
-    "slug": "genero-fluido",
-    "wardrobe": []
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Pieza de joyería que se lleva en un dedo.",
+    "features": "La medida interior varía según el sistema de talles.",
+    "example": "Con una manicura sencilla.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Anillo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "No binario",
-    "category": "Identidad y expresión",
-    "definition": "Identidad que no se limita exclusivamente a las categorías hombre y mujer.",
+    "slug": "aros",
+    "name": "Aros",
     "aliases": [
-      "no binarie",
-      "nonbinary"
+      "pendientes",
+      "aretes"
     ],
-    "slug": "no-binario",
-    "wardrobe": []
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Piezas de joyería para las orejas.",
+    "features": "Hay diseños para perforaciones y otros con clip.",
+    "example": "Con cabello recogido.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Aros",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Transgénero",
-    "category": "Identidad y expresión",
-    "definition": "Persona cuya identidad de género difiere del género asignado al nacer. No equivale a crossdresser.",
+    "slug": "arreglos-de-ropa",
+    "name": "Arreglos de ropa",
+    "term": "Arreglos de ropa",
+    "category": "Servicios · Costura y arreglos",
+    "definition": "Servicio de adaptación o reparación de prendas, como ajustes de talle, cierres o ruedos.",
     "aliases": [
-      "trans"
+      "modista",
+      "arreglos de costura"
     ],
-    "slug": "transgenero",
-    "wardrobe": []
+    "views": [
+      "services"
+    ],
+    "service_category": "Costura y arreglos",
+    "service_parent": null,
+    "related": [
+      "pretina"
+    ],
+    "slug_aliases": []
   },
   {
-    "term": "Transfemenino",
-    "category": "Identidad y expresión",
-    "definition": "Término amplio que algunas personas trans usan para describir su relación con la feminidad; no implica una apariencia determinada.",
+    "slug": "asesoria-de-imagen",
+    "name": "Asesoría de imagen",
+    "term": "Asesoría de imagen",
+    "category": "Servicios · Estilismo",
+    "definition": "Acompañamiento voluntario para explorar prendas, colores y estilos de acuerdo con preferencias personales.",
     "aliases": [
-      "transfem",
-      "transfeminino"
+      "asesoramiento de imagen",
+      "personal stylist"
     ],
-    "slug": "transfemenino",
-    "wardrobe": []
+    "views": [
+      "services"
+    ],
+    "service_category": "Estilismo",
+    "service_parent": null,
+    "related": [
+      "look"
+    ],
+    "slug_aliases": []
   },
   {
-    "term": "Cisgénero",
-    "category": "Identidad y expresión",
-    "definition": "Persona cuya identidad coincide con el género asignado al nacer.",
-    "aliases": [
-      "cis"
-    ],
-    "slug": "cisgenero",
-    "wardrobe": []
-  },
-  {
-    "term": "Sissy",
-    "category": "Jerga comunitaria",
-    "definition": "Etiqueta que algunas personas adultas usan para una estética, un rol o una subcultura; en ciertos contextos es erótica o despectiva. No equivale a crossdresser y no debe imponerse.",
+    "term": "Baby boomer",
+    "category": "Uñas",
+    "definition": "Manicura de degradado suave, habitualmente entre tonos rosados y blancos.",
     "aliases": [],
-    "slug": "sissy",
-    "wardrobe": []
+    "slug": "baby-boomer",
+    "name": "Baby boomer",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "manicura"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura"
   },
   {
-    "term": "Feminización",
-    "category": "Jerga comunitaria",
-    "definition": "En estética, incorporación de elementos culturalmente asociados a una presentación femenina. Es opcional y no define el valor ni la identidad de una persona.",
+    "slug": "baguette",
+    "name": "Baguette",
+    "aliases": [
+      "bolso baguette"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Subtipo",
+    "parent": "cartera",
+    "definition": "Bolso generalmente alargado y compacto con asa relativamente corta.",
+    "features": "Suele llevarse bajo el brazo o al hombro.",
+    "example": "Con vestido o top retro.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Baguette",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Baking",
+    "category": "Maquillaje",
+    "definition": "Técnica que utiliza polvo suelto durante un tiempo antes de retirar el exceso.",
     "aliases": [],
-    "slug": "feminizacion",
-    "wardrobe": []
+    "slug": "baking",
+    "name": "Baking",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Passing",
-    "category": "Jerga comunitaria",
-    "definition": "Ser percibida o percibido por otras personas como el género que se desea presentar. No es una obligación ni mide la autenticidad.",
+    "slug": "ballerina",
+    "name": "Ballerina",
     "aliases": [
-      "pasar"
+      "bailarina",
+      "chatita",
+      "flat"
     ],
-    "slug": "passing",
-    "wardrobe": []
-  },
-  {
-    "term": "Closet",
-    "category": "Jerga comunitaria",
-    "definition": "Mantener en privado una faceta de la expresión o identidad. Cada persona decide cuándo y con quién compartirla.",
-    "aliases": [
-      "armario"
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato plano de empeine descubierto inspirado en la estética de ballet.",
+    "features": "Algunos modelos tienen lazos o elásticos.",
+    "example": "Con falda evasé y blusa.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Ballerina",
+    "views": [
+      "wardrobe"
     ],
-    "slug": "closet",
-    "wardrobe": []
-  },
-  {
-    "term": "Salir del armario",
-    "category": "Jerga comunitaria",
-    "definition": "Compartir voluntariamente una faceta de la propia identidad o expresión. No existe una obligación de hacerlo.",
-    "aliases": [
-      "coming out"
-    ],
-    "slug": "salir-del-armario",
-    "wardrobe": []
-  },
-  {
-    "term": "Outing",
-    "category": "Jerga comunitaria",
-    "definition": "Revelar la identidad o expresión privada de alguien sin su consentimiento. Vulnera su privacidad.",
-    "aliases": [],
-    "slug": "outing",
-    "wardrobe": []
-  },
-  {
-    "term": "Tucking",
-    "category": "Jerga comunitaria",
-    "definition": "Término para una técnica de presentación que reduce el contorno genital bajo la ropa. No es necesaria para expresar feminidad.",
-    "aliases": [],
-    "slug": "tucking",
-    "wardrobe": []
-  },
-  {
-    "term": "Hip pads",
-    "category": "Jerga comunitaria",
-    "definition": "Rellenos de cadera para modificar visualmente la silueta de un conjunto.",
-    "aliases": [
-      "rellenos de cadera"
-    ],
-    "slug": "hip-pads",
-    "wardrobe": []
-  },
-  {
-    "term": "Breast forms",
-    "category": "Jerga comunitaria",
-    "definition": "Prótesis o rellenos externos que aportan volumen al pecho bajo una prenda.",
-    "aliases": [
-      "formas mamarias",
-      "rellenos de pecho"
-    ],
-    "slug": "breast-forms",
-    "wardrobe": []
-  },
-  {
-    "term": "Padding",
-    "category": "Jerga comunitaria",
-    "definition": "Uso de rellenos en prendas o accesorios para modificar visualmente una silueta.",
-    "aliases": [
-      "relleno"
-    ],
-    "slug": "padding",
-    "wardrobe": []
-  },
-  {
-    "term": "Shapewear",
-    "category": "Jerga comunitaria",
-    "definition": "Prendas de ajuste que suavizan o modifican visualmente el contorno. Deben resultar cómodas y no son obligatorias.",
-    "aliases": [
-      "faja modeladora"
-    ],
-    "slug": "shapewear",
-    "wardrobe": [
-      "faja-modeladora"
-    ]
-  },
-  {
-    "term": "Gender euphoria",
-    "category": "Jerga comunitaria",
-    "definition": "Sensación positiva que algunas personas experimentan cuando su expresión o reconocimiento de género les resulta congruente.",
-    "aliases": [
-      "euforia de género"
-    ],
-    "slug": "gender-euphoria",
-    "wardrobe": []
-  },
-  {
-    "term": "Boymode",
-    "category": "Jerga comunitaria",
-    "definition": "Expresión informal para describir una presentación masculina en un contexto determinado.",
-    "aliases": [
-      "boy mode"
-    ],
-    "slug": "boymode",
-    "wardrobe": []
-  },
-  {
-    "term": "Girlmode",
-    "category": "Jerga comunitaria",
-    "definition": "Expresión informal para describir una presentación femenina en un contexto determinado.",
-    "aliases": [
-      "girl mode"
-    ],
-    "slug": "girlmode",
-    "wardrobe": []
-  },
-  {
-    "term": "Look",
-    "category": "Moda",
-    "definition": "Conjunto de ropa, maquillaje, cabello y accesorios que produce una apariencia determinada.",
-    "aliases": [],
-    "slug": "look",
-    "wardrobe": []
-  },
-  {
-    "term": "Outfit",
-    "category": "Moda",
-    "definition": "Combinación de prendas y accesorios para una ocasión o estilo concreto.",
-    "aliases": [
-      "conjunto"
-    ],
-    "slug": "outfit",
-    "wardrobe": []
-  },
-  {
-    "term": "Coquette",
-    "category": "Moda",
-    "definition": "Estética romántica con lazos, encajes y detalles delicados; admite interpretaciones personales.",
-    "aliases": [],
-    "slug": "coquette",
-    "wardrobe": []
-  },
-  {
-    "term": "Pin-up",
-    "category": "Moda",
-    "definition": "Estética inspirada en ilustraciones y moda retro de mediados del siglo XX.",
-    "aliases": [
-      "pin up"
-    ],
-    "slug": "pin-up",
-    "wardrobe": []
-  },
-  {
-    "term": "Kawaii",
-    "category": "Moda",
-    "definition": "Término japonés asociado a una estética adorable o tierna.",
-    "aliases": [],
-    "slug": "kawaii",
-    "wardrobe": []
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Zapato plano inspirado en el calzado de ballet."
   },
   {
     "term": "Balletcore",
@@ -329,371 +227,79 @@
     "definition": "Estética inspirada en prendas y accesorios de ballet.",
     "aliases": [],
     "slug": "balletcore",
-    "wardrobe": []
+    "name": "Balletcore",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Cottagecore",
-    "category": "Moda",
-    "definition": "Estética inspirada en escenas rurales idealizadas y prendas de aire romántico.",
-    "aliases": [],
-    "slug": "cottagecore",
-    "wardrobe": []
-  },
-  {
-    "term": "Lolita",
-    "category": "Moda",
-    "definition": "Subcultura de moda japonesa con referencias históricas y siluetas elaboradas. No implica contenido sexual ni edad infantil.",
+    "slug": "bandolera",
+    "name": "Bandolera",
     "aliases": [
-      "moda lolita"
+      "crossbody"
     ],
-    "slug": "lolita",
-    "wardrobe": []
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Subtipo",
+    "parent": "cartera",
+    "definition": "Bolso con correa que permite llevarlo cruzado sobre el cuerpo.",
+    "features": "Revisá largo y regulación de la correa.",
+    "example": "Con zapatillas y jean.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Bandolera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Preppy",
-    "category": "Moda",
-    "definition": "Estilo inspirado en vestimenta académica clásica, con prendas estructuradas y combinaciones sobrias.",
-    "aliases": [],
-    "slug": "preppy",
-    "wardrobe": []
-  },
-  {
-    "term": "Vintage",
-    "category": "Moda",
-    "definition": "Prendas o estilos de épocas pasadas; retro suele describir prendas actuales inspiradas en ellas.",
+    "slug": "blazer",
+    "name": "Blazer",
     "aliases": [
-      "retro"
+      "saco sastrero"
     ],
-    "slug": "vintage",
-    "wardrobe": []
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Chaqueta de aspecto sastrero, normalmente con solapas y abertura frontal.",
+    "features": "Puede ser entallada o amplia.",
+    "example": "Con un vestido o pantalón recto.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Blazer",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Stiletto",
-    "category": "Calzado",
-    "definition": "Zapato o taco fino y alto, también llamado tacón de aguja.",
+    "slug": "blusa",
+    "name": "Blusa",
     "aliases": [
-      "taco aguja",
-      "estileto"
+      "blouse"
     ],
-    "slug": "stiletto",
-    "wardrobe": [
-      "stiletto"
-    ]
-  },
-  {
-    "term": "Kitten heel",
-    "category": "Calzado",
-    "definition": "Tacón fino de poca altura.",
-    "aliases": [
-      "taco gatito"
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda superior de moldería y acabados variados, a menudo más fluida que una camisa clásica.",
+    "features": "Puede tener cuello, lazos, botones o mangas decorativas.",
+    "example": "Con pollera midi o pantalón sastrero.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Blusa",
+    "views": [
+      "wardrobe"
     ],
-    "slug": "kitten-heel",
-    "wardrobe": [
-      "kitten-heel"
-    ]
-  },
-  {
-    "term": "Mule",
-    "category": "Calzado",
-    "definition": "Calzado abierto en la parte posterior del talón.",
-    "aliases": [
-      "mules"
-    ],
-    "slug": "mule",
-    "wardrobe": [
-      "mule"
-    ]
-  },
-  {
-    "term": "Mary Jane",
-    "category": "Calzado",
-    "definition": "Zapato con tira sobre el empeine, conocido también como merceditas.",
-    "aliases": [
-      "merceditas"
-    ],
-    "slug": "mary-jane",
-    "wardrobe": [
-      "mercedita"
-    ]
-  },
-  {
-    "term": "Slingback",
-    "category": "Calzado",
-    "definition": "Zapato sujeto por una tira detrás del talón.",
-    "aliases": [],
-    "slug": "slingback",
-    "wardrobe": [
-      "slingback"
-    ]
-  },
-  {
-    "term": "Ballerina",
-    "category": "Calzado",
-    "definition": "Zapato plano inspirado en el calzado de ballet.",
-    "aliases": [
-      "bailarina",
-      "chatita"
-    ],
-    "slug": "ballerina",
-    "wardrobe": [
-      "ballerina"
-    ]
-  },
-  {
-    "term": "Peep toe",
-    "category": "Calzado",
-    "definition": "Zapato con una pequeña abertura en la punta.",
-    "aliases": [],
-    "slug": "peep-toe",
-    "wardrobe": [
-      "peep-toe"
-    ]
-  },
-  {
-    "term": "Taco de cuña",
-    "category": "Calzado",
-    "definition": "Tacón continuo que se extiende desde el talón hacia la suela.",
-    "aliases": [
-      "wedge",
-      "taco chino"
-    ],
-    "slug": "taco-de-cuna",
-    "wardrobe": [
-      "taco-de-cuna"
-    ]
-  },
-  {
-    "term": "Block heel",
-    "category": "Calzado",
-    "definition": "Tacón ancho y de forma generalmente rectangular.",
-    "aliases": [
-      "taco bloque"
-    ],
-    "slug": "block-heel",
-    "wardrobe": [
-      "taco-bloque"
-    ]
-  },
-  {
-    "term": "Corset",
-    "category": "Moda",
-    "definition": "Prenda estructurada que puede modificar o destacar el contorno del torso. Debe ajustarse cómodamente.",
-    "aliases": [
-      "corsé"
-    ],
-    "slug": "corset",
-    "wardrobe": [
-      "corset"
-    ]
-  },
-  {
-    "term": "Bralette",
-    "category": "Moda",
-    "definition": "Corpiño de estructura ligera, generalmente sin aro ni soporte rígido.",
-    "aliases": [],
-    "slug": "bralette",
-    "wardrobe": [
-      "bralette"
-    ]
-  },
-  {
-    "term": "Body",
-    "category": "Moda",
-    "definition": "Prenda de una pieza que cubre el torso y se ajusta en la parte inferior.",
-    "aliases": [
-      "bodi"
-    ],
-    "slug": "body",
-    "wardrobe": [
-      "body"
-    ]
-  },
-  {
-    "term": "Culotte",
-    "category": "Moda",
-    "definition": "Puede designar ropa interior de mayor cobertura o un pantalón ancho y corto, según el contexto.",
-    "aliases": [
-      "culote"
-    ],
-    "slug": "culotte",
-    "wardrobe": [
-      "culotte-interior"
-    ]
-  },
-  {
-    "term": "Falda lápiz",
-    "category": "Moda",
-    "definition": "Falda estrecha de silueta recta o ajustada.",
-    "aliases": [
-      "falda tubo"
-    ],
-    "slug": "falda-lapiz",
-    "wardrobe": [
-      "falda-lapiz"
-    ]
-  },
-  {
-    "term": "Evasé",
-    "category": "Moda",
-    "definition": "Corte que se ensancha gradualmente hacia el ruedo.",
-    "aliases": [
-      "línea A"
-    ],
-    "slug": "evase",
-    "wardrobe": [
-      "falda-evase"
-    ]
-  },
-  {
-    "term": "Vestido lencero",
-    "category": "Moda",
-    "definition": "Vestido de caída ligera inspirado en una combinación de ropa interior.",
-    "aliases": [
-      "slip dress"
-    ],
-    "slug": "vestido-lencero",
-    "wardrobe": [
-      "vestido-lencero"
-    ]
-  },
-  {
-    "term": "Escote halter",
-    "category": "Moda",
-    "definition": "Escote con tiras o tejido que se sujetan alrededor del cuello.",
-    "aliases": [
-      "halter"
-    ],
-    "slug": "escote-halter",
-    "wardrobe": [
-      "top-halter"
-    ]
-  },
-  {
-    "term": "Strapless",
-    "category": "Moda",
-    "definition": "Prenda sin tirantes que deja los hombros descubiertos.",
-    "aliases": [
-      "palabra de honor"
-    ],
-    "slug": "strapless",
-    "wardrobe": [
-      "top-strapless"
-    ]
-  },
-  {
-    "term": "Pantimedias",
-    "category": "Moda",
-    "definition": "Medias de una sola pieza que cubren piernas y cintura.",
-    "aliases": [
-      "medibacha",
-      "pantyhose"
-    ],
-    "slug": "pantimedias",
-    "wardrobe": [
-      "pantimedias"
-    ]
-  },
-  {
-    "term": "Denier",
-    "category": "Moda",
-    "definition": "Unidad de masa lineal del hilo; en medias suele relacionarse con grosor y cobertura, aunque no es el único factor.",
-    "aliases": [
-      "den"
-    ],
-    "slug": "denier",
-    "wardrobe": []
-  },
-  {
-    "term": "Liguero",
-    "category": "Moda",
-    "definition": "Prenda con tiras para sostener medias altas.",
-    "aliases": [
-      "portaligas"
-    ],
-    "slug": "liguero",
-    "wardrobe": [
-      "liguero"
-    ]
-  },
-  {
-    "term": "Satén",
-    "category": "Moda",
-    "definition": "Ligamento de superficie lisa y brillante que puede fabricarse con fibras diversas.",
-    "aliases": [
-      "raso"
-    ],
-    "slug": "saten",
-    "wardrobe": []
-  },
-  {
-    "term": "Encaje",
-    "category": "Moda",
-    "definition": "Tejido ornamental con motivos abiertos y calados.",
-    "aliases": [
-      "lace"
-    ],
-    "slug": "encaje",
-    "wardrobe": []
-  },
-  {
-    "term": "Primer",
-    "category": "Maquillaje",
-    "definition": "Prebase que prepara la piel o el párpado antes de aplicar otros productos.",
-    "aliases": [
-      "prebase"
-    ],
-    "slug": "primer",
-    "wardrobe": []
-  },
-  {
-    "term": "Foundation",
-    "category": "Maquillaje",
-    "definition": "Base de maquillaje destinada a unificar visualmente el tono de la piel.",
-    "aliases": [
-      "base"
-    ],
-    "slug": "foundation",
-    "wardrobe": []
-  },
-  {
-    "term": "Concealer",
-    "category": "Maquillaje",
-    "definition": "Corrector para áreas específicas, como ojeras o pequeñas diferencias de tono.",
-    "aliases": [
-      "corrector"
-    ],
-    "slug": "concealer",
-    "wardrobe": []
-  },
-  {
-    "term": "Color corrector",
-    "category": "Maquillaje",
-    "definition": "Corrector que busca neutralizar visualmente tonos concretos mediante colores complementarios.",
-    "aliases": [
-      "corrector cromático"
-    ],
-    "slug": "color-corrector",
-    "wardrobe": []
-  },
-  {
-    "term": "Contouring",
-    "category": "Maquillaje",
-    "definition": "Uso de tonos y sombras para modificar visualmente el relieve del rostro.",
-    "aliases": [
-      "contorno"
-    ],
-    "slug": "contouring",
-    "wardrobe": []
-  },
-  {
-    "term": "Highlighter",
-    "category": "Maquillaje",
-    "definition": "Iluminador que refleja luz o aporta brillo en zonas elegidas.",
-    "aliases": [
-      "iluminador"
-    ],
-    "slug": "highlighter",
-    "wardrobe": []
+    "slug_aliases": [],
+    "related": []
   },
   {
     "term": "Blush",
@@ -704,136 +310,10 @@
       "colorete"
     ],
     "slug": "blush",
-    "wardrobe": []
-  },
-  {
-    "term": "Bronzer",
-    "category": "Maquillaje",
-    "definition": "Producto que aporta un efecto cálido o bronceado.",
-    "aliases": [
-      "bronceador"
-    ],
-    "slug": "bronzer",
-    "wardrobe": []
-  },
-  {
-    "term": "Baking",
-    "category": "Maquillaje",
-    "definition": "Técnica que utiliza polvo suelto durante un tiempo antes de retirar el exceso.",
-    "aliases": [],
-    "slug": "baking",
-    "wardrobe": []
-  },
-  {
-    "term": "Setting spray",
-    "category": "Maquillaje",
-    "definition": "Bruma que se aplica para ayudar a fijar el maquillaje o modificar su acabado.",
-    "aliases": [
-      "fijador"
-    ],
-    "slug": "setting-spray",
-    "wardrobe": []
-  },
-  {
-    "term": "Smokey eye",
-    "category": "Maquillaje",
-    "definition": "Maquillaje de ojos con sombras difuminadas de efecto ahumado.",
-    "aliases": [
-      "smoky eye",
-      "ahumado"
-    ],
-    "slug": "smokey-eye",
-    "wardrobe": []
-  },
-  {
-    "term": "Cat eye",
-    "category": "Maquillaje",
-    "definition": "Delineado que se prolonga hacia afuera y arriba en el extremo del ojo.",
-    "aliases": [
-      "ojo de gato"
-    ],
-    "slug": "cat-eye",
-    "wardrobe": []
-  },
-  {
-    "term": "Cut crease",
-    "category": "Maquillaje",
-    "definition": "Técnica que destaca el pliegue del párpado mediante contraste de sombras.",
-    "aliases": [],
-    "slug": "cut-crease",
-    "wardrobe": []
-  },
-  {
-    "term": "Tightlining",
-    "category": "Maquillaje",
-    "definition": "Delineado próximo a la raíz de las pestañas para dar una apariencia de mayor densidad.",
-    "aliases": [],
-    "slug": "tightlining",
-    "wardrobe": []
-  },
-  {
-    "term": "Lip tint",
-    "category": "Maquillaje",
-    "definition": "Tinte de labios que suele aportar color ligero o de duración prolongada.",
-    "aliases": [
-      "tinta labial"
-    ],
-    "slug": "lip-tint",
-    "wardrobe": []
-  },
-  {
-    "term": "Lip liner",
-    "category": "Maquillaje",
-    "definition": "Lápiz para delinear o rellenar los labios.",
-    "aliases": [
-      "delineador labial"
-    ],
-    "slug": "lip-liner",
-    "wardrobe": []
-  },
-  {
-    "term": "Nude",
-    "category": "Maquillaje",
-    "definition": "Color próximo a un tono de piel, que varía entre personas; no existe un único nude universal.",
-    "aliases": [],
-    "slug": "nude",
-    "wardrobe": []
-  },
-  {
-    "term": "Lace front",
-    "category": "Cabello",
-    "definition": "Peluca con encaje frontal para simular visualmente una línea de nacimiento del cabello.",
-    "aliases": [],
-    "slug": "lace-front",
-    "wardrobe": []
-  },
-  {
-    "term": "Full lace",
-    "category": "Cabello",
-    "definition": "Peluca con base de encaje que permite mayor flexibilidad al peinar.",
-    "aliases": [],
-    "slug": "full-lace",
-    "wardrobe": []
-  },
-  {
-    "term": "Wig cap",
-    "category": "Cabello",
-    "definition": "Gorro fino que se coloca debajo de una peluca para mantener el cabello recogido.",
-    "aliases": [
-      "gorro de peluca"
-    ],
-    "slug": "wig-cap",
-    "wardrobe": []
-  },
-  {
-    "term": "Monofilamento",
-    "category": "Cabello",
-    "definition": "Base de peluca que imita visualmente el cuero cabelludo en determinadas zonas.",
-    "aliases": [
-      "mono top"
-    ],
-    "slug": "monofilamento",
-    "wardrobe": []
+    "name": "Blush",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "term": "Bob",
@@ -843,45 +323,697 @@
       "corte bob"
     ],
     "slug": "bob",
-    "wardrobe": []
-  },
-  {
-    "term": "Pixie",
-    "category": "Cabello",
-    "definition": "Corte corto con diferentes largos y texturas según el estilo.",
-    "aliases": [
-      "corte pixie"
+    "name": "Bob",
+    "views": [
+      "services"
     ],
-    "slug": "pixie",
-    "wardrobe": []
-  },
-  {
-    "term": "Updo",
-    "category": "Cabello",
-    "definition": "Peinado recogido, como un rodete o trenza recogida.",
-    "aliases": [
-      "recogido"
+    "slug_aliases": [],
+    "related": [
+      "corte-de-pelo"
     ],
-    "slug": "updo",
-    "wardrobe": []
+    "service_category": "Peluquería",
+    "service_parent": "corte-de-pelo"
   },
   {
-    "term": "Nail art",
-    "category": "Uñas",
-    "definition": "Decoración artística de las uñas mediante colores, diseños o adornos.",
+    "slug": "body",
+    "name": "Body",
+    "aliases": [
+      "bodi",
+      "bodysuit"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda de una pieza que cubre el torso y se ajusta entre las piernas.",
+    "features": "Puede usarse como parte superior o ropa interior.",
+    "example": "Con una falda de cintura alta.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Body",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Prenda de una pieza que cubre el torso y se ajusta en la parte inferior."
+  },
+  {
+    "slug": "body-interior",
+    "name": "Body interior",
+    "aliases": [
+      "body lencero"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda interior de una pieza que cubre el torso y se cierra o ajusta abajo.",
+    "features": "Puede combinar distintas zonas de tejido y soporte.",
+    "example": "Bajo prendas de vestir, respetando el ajuste.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Body interior",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bodycon",
+    "term": "Bodycon",
+    "category": "Moda",
+    "definition": "Corte de prenda ajustado al contorno corporal.",
+    "aliases": [
+      "vestido tubo"
+    ],
+    "name": "Bodycon",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "vestido-tubo"
+    ]
+  },
+  {
+    "slug": "bolero",
+    "name": "Bolero",
+    "aliases": [
+      "chaqueta corta"
+    ],
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda corta de abrigo o complemento que cubre hombros y parte del torso.",
+    "features": "El largo suele terminar por encima de la cintura.",
+    "example": "Sobre un vestido de ocasión.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Bolero",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bombacha",
+    "name": "Bombacha",
+    "aliases": [
+      "braga",
+      "panty",
+      "calzón"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Prenda interior inferior de cobertura variable.",
+    "features": "La forma de cintura, tiro y cobertura trasera distinguen los modelos.",
+    "example": "Una bombacha de algodón para uso cotidiano.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Bombacha",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bombacha-tiro-alto",
+    "name": "Bombacha tiro alto",
+    "aliases": [
+      "braga de cintura alta"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "bombacha",
+    "definition": "Prenda interior inferior cuya cintura llega más arriba que un modelo clásico.",
+    "features": "La altura de tiro y el elástico dependen de la marca.",
+    "example": "Bajo una falda o pantalón de tiro alto.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Bombacha tiro alto",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bota",
+    "name": "Bota",
+    "aliases": [
+      "botas",
+      "boots"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Familia",
+    "parent": "zapatos",
+    "definition": "Calzado que cubre el pie y se extiende por encima del tobillo.",
+    "features": "Puede llegar a media pierna, rodilla o más arriba.",
+    "example": "Con falda y medias o pantalón.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Bota",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bota-alta",
+    "name": "Bota alta",
+    "aliases": [
+      "bota hasta la rodilla",
+      "knee-high boot"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "bota",
+    "definition": "Bota cuya caña llega cerca de la rodilla.",
+    "features": "Medí también el contorno de pantorrilla y altura de caña.",
+    "example": "Con falda midi o calzas.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Bota alta",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bota-texana",
+    "name": "Bota texana",
+    "aliases": [
+      "texanas",
+      "cowboy boots"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "bota",
+    "definition": "Bota inspirada en el calzado vaquero, con caña y formas características.",
+    "features": "A menudo tiene punta marcada y taco inclinado.",
+    "example": "Con denim o vestido fluido.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Bota texana",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "botin",
+    "name": "Botín",
+    "aliases": [
+      "botines",
+      "ankle boot"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "bota",
+    "definition": "Bota corta que cubre el tobillo.",
+    "features": "Puede tener cierre, cordones o elásticos laterales.",
+    "example": "Con jean recto o vestido midi.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Botín",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Boymode",
+    "category": "Jerga comunitaria",
+    "definition": "Expresión informal para describir una presentación masculina en un contexto determinado.",
+    "aliases": [
+      "boy mode"
+    ],
+    "slug": "boymode",
+    "name": "Boymode",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bralette",
+    "name": "Bralette",
+    "aliases": [
+      "corpiño liviano"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "corpino",
+    "definition": "Corpiño de estructura generalmente suave y ligera.",
+    "features": "Muchos modelos prescinden de aro y copas rígidas.",
+    "example": "Bajo una prenda de tejido liviano.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Bralette",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Corpiño de estructura ligera, generalmente sin aro ni soporte rígido."
+  },
+  {
+    "term": "Breast forms",
+    "category": "Jerga comunitaria",
+    "definition": "Prótesis o rellenos externos que aportan volumen al pecho bajo una prenda.",
+    "aliases": [
+      "formas mamarias",
+      "rellenos de pecho"
+    ],
+    "slug": "breast-forms",
+    "name": "Breast forms",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bretel",
+    "term": "Bretel",
+    "category": "Moda",
+    "definition": "Tira que ayuda a sostener una prenda sobre el hombro.",
+    "aliases": [
+      "tirante"
+    ],
+    "name": "Bretel",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "corpino"
+    ]
+  },
+  {
+    "slug": "broche",
+    "name": "Broche",
+    "aliases": [
+      "prendedor",
+      "brooch"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio que se fija sobre una prenda u otro complemento.",
+    "features": "El sistema de fijación debe ser compatible con el tejido.",
+    "example": "En la solapa de un blazer.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Broche",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Bronzer",
+    "category": "Maquillaje",
+    "definition": "Producto que aporta un efecto cálido o bronceado.",
+    "aliases": [
+      "bronceador"
+    ],
+    "slug": "bronzer",
+    "name": "Bronzer",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "bustier",
+    "name": "Bustiér",
+    "aliases": [
+      "bustier"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda superior estructurada que cubre el busto y parte del torso.",
+    "features": "Puede tener copas, varillas y cierres.",
+    "example": "Con blazer y pantalón de tiro alto.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Bustiér",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "calzas",
+    "name": "Calzas",
+    "aliases": [
+      "legging",
+      "leggings",
+      "mallas"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Familia",
+    "parent": "pantalon",
+    "definition": "Pantalón de punto elástico y silueta ajustada.",
+    "features": "La opacidad al estirar y el tipo de cintura son importantes.",
+    "example": "Con una remera larga y zapatillas.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Calzas",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "calzas-ciclistas",
+    "name": "Calzas ciclistas",
+    "aliases": [
+      "biker shorts",
+      "short ciclista"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "calzas",
+    "definition": "Calzas cortas que terminan alrededor del muslo.",
+    "features": "Suelen estar hechas de tejido elástico.",
+    "example": "Con una remera amplia y zapatillas.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Calzas ciclistas",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "camisa",
+    "name": "Camisa",
+    "aliases": [
+      "shirt"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda superior que suele tener abertura frontal con botones y cuello.",
+    "features": "El entalle, la tela y el largo de mangas varían.",
+    "example": "Con falda lápiz y mocasines.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Camisa",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "camiseta",
+    "name": "Camiseta",
+    "aliases": [
+      "remera",
+      "t-shirt"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Subtipo",
+    "parent": "top",
+    "definition": "Prenda superior casual, generalmente de tejido de punto.",
+    "features": "Puede ser recta, holgada o entallada.",
+    "example": "Con jeans y zapatillas.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Camiseta",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "camison",
+    "name": "Camisón",
+    "aliases": [
+      "nightgown"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda de dormir de una pieza y largos variados.",
+    "features": "Puede estar confeccionada en punto, algodón o satén.",
+    "example": "Como ropa de descanso.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Camisón",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "campera",
+    "name": "Campera",
+    "aliases": [
+      "chaqueta",
+      "cazadora"
+    ],
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda exterior generalmente más corta que un tapado.",
+    "features": "Puede usar cierre, botones o broches.",
+    "example": "Con jean y botas.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Campera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "cana",
+    "term": "Caña",
+    "category": "Calzado",
+    "definition": "Parte de una bota que se extiende hacia arriba desde el tobillo.",
     "aliases": [],
-    "slug": "nail-art",
-    "wardrobe": []
+    "name": "Caña",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "bota"
+    ]
   },
   {
-    "term": "Press-on",
-    "category": "Uñas",
-    "definition": "Uñas postizas preparadas para adherirse temporalmente.",
+    "slug": "cardigan",
+    "name": "Cárdigan",
     "aliases": [
-      "press on"
+      "cardigan"
     ],
-    "slug": "press-on",
-    "wardrobe": []
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda de punto que se abre por delante, a menudo con botones.",
+    "features": "Puede ser corto, largo, ligero o grueso.",
+    "example": "Sobre un vestido o una remera.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Cárdigan",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "cartera",
+    "name": "Cartera",
+    "aliases": [
+      "bolso",
+      "handbag"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Accesorio para transportar objetos personales.",
+    "features": "Tamaño, forma, cierre y sistema de sujeción distinguen modelos.",
+    "example": "Una cartera mediana para el día.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Cartera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "cartera-capsula",
+    "term": "Cartera cápsula",
+    "category": "Moda",
+    "definition": "Selección reducida de bolsos y accesorios combinables para distintas ocasiones.",
+    "aliases": [],
+    "name": "Cartera cápsula",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "cartera"
+    ]
+  },
+  {
+    "term": "Cat eye",
+    "category": "Maquillaje",
+    "definition": "Delineado que se prolonga hacia afuera y arriba en el extremo del ojo.",
+    "aliases": [
+      "ojo de gato"
+    ],
+    "slug": "cat-eye",
+    "name": "Cat eye",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "maquillaje-profesional"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": "maquillaje-profesional"
+  },
+  {
+    "slug": "cinturon",
+    "name": "Cinturón",
+    "aliases": [
+      "belt"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Tira que se coloca alrededor de cintura o cadera.",
+    "features": "Puede ajustar una prenda o actuar como elemento decorativo.",
+    "example": "Con vestido camisero.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Cinturón",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Cisgénero",
+    "category": "Identidad y expresión",
+    "definition": "Persona cuya identidad coincide con el género asignado al nacer.",
+    "aliases": [
+      "cis"
+    ],
+    "slug": "cisgenero",
+    "name": "Cisgénero",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "clase-de-automaquillaje",
+    "name": "Clase de automaquillaje",
+    "term": "Clase de automaquillaje",
+    "category": "Servicios · Maquillaje",
+    "definition": "Enseñanza práctica de técnicas de maquillaje para que cada persona pueda aplicarlas por sí misma.",
+    "aliases": [
+      "curso de automaquillaje"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": "maquillaje-profesional",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Closet",
+    "category": "Jerga comunitaria",
+    "definition": "Mantener en privado una faceta de la expresión o identidad. Cada persona decide cuándo y con quién compartirla.",
+    "aliases": [
+      "armario"
+    ],
+    "slug": "closet",
+    "name": "Closet",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "clutch",
+    "name": "Clutch",
+    "aliases": [
+      "cartera sobre",
+      "bolso de mano"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Subtipo",
+    "parent": "cartera",
+    "definition": "Cartera pequeña concebida para llevar en la mano, a veces con correa removible.",
+    "features": "Suele priorizar un formato compacto.",
+    "example": "Con conjunto de ocasión.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Clutch",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "term": "Coffin",
@@ -892,35 +1024,100 @@
       "ataúd"
     ],
     "slug": "coffin",
-    "wardrobe": [
-      "ballerina"
-    ]
-  },
-  {
-    "term": "Squoval",
-    "category": "Uñas",
-    "definition": "Forma intermedia entre cuadrada y ovalada.",
-    "aliases": [],
-    "slug": "squoval",
-    "wardrobe": []
-  },
-  {
-    "term": "Baby boomer",
-    "category": "Uñas",
-    "definition": "Manicura de degradado suave, habitualmente entre tonos rosados y blancos.",
-    "aliases": [],
-    "slug": "baby-boomer",
-    "wardrobe": []
-  },
-  {
-    "term": "Seudónimo",
-    "category": "Privacidad",
-    "definition": "Nombre elegido para participar sin publicar el nombre legal.",
-    "aliases": [
-      "alias"
+    "name": "Coffin",
+    "views": [
+      "services"
     ],
-    "slug": "seudonimo",
-    "wardrobe": []
+    "slug_aliases": [],
+    "related": [
+      "manicura"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura"
+  },
+  {
+    "slug": "collar",
+    "name": "Collar",
+    "aliases": [
+      "necklace"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Pieza de joyería que rodea el cuello.",
+    "features": "Largo, peso y cierre determinan cómo cae.",
+    "example": "Con un escote redondo.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Collar",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Color corrector",
+    "category": "Maquillaje",
+    "definition": "Corrector que busca neutralizar visualmente tonos concretos mediante colores complementarios.",
+    "aliases": [
+      "corrector cromático"
+    ],
+    "slug": "color-corrector",
+    "name": "Color corrector",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "coloracion-de-cabello",
+    "name": "Coloración de cabello",
+    "term": "Coloración de cabello",
+    "category": "Servicios · Peluquería",
+    "definition": "Cambio cosmético del color del cabello mediante productos específicos.",
+    "aliases": [
+      "tintura",
+      "coloración"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "peluqueria",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Concealer",
+    "category": "Maquillaje",
+    "definition": "Corrector para áreas específicas, como ojeras o pequeñas diferencias de tono.",
+    "aliases": [
+      "corrector"
+    ],
+    "slug": "concealer",
+    "name": "Concealer",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "confeccion-a-medida",
+    "name": "Confección a medida",
+    "term": "Confección a medida",
+    "category": "Servicios · Costura y arreglos",
+    "definition": "Elaboración de prendas adaptadas a medidas, materiales y diseño acordados.",
+    "aliases": [
+      "costura a medida"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Costura y arreglos",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
   },
   {
     "term": "Consentimiento",
@@ -928,37 +1125,417 @@
     "definition": "Acuerdo libre, informado y revocable para compartir información o interactuar de una manera determinada.",
     "aliases": [],
     "slug": "consentimiento",
-    "wardrobe": []
+    "name": "Consentimiento",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "term": "Metadatos",
-    "category": "Privacidad",
-    "definition": "Información incorporada a un archivo, como fecha, modelo de cámara o ubicación; puede revelar detalles privados.",
+    "term": "Contouring",
+    "category": "Maquillaje",
+    "definition": "Uso de tonos y sombras para modificar visualmente el relieve del rostro.",
     "aliases": [
-      "EXIF"
+      "contorno"
     ],
-    "slug": "metadatos",
-    "wardrobe": []
+    "slug": "contouring",
+    "name": "Contouring",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "maquillaje-profesional"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": "maquillaje-profesional"
   },
   {
-    "term": "Perfil privado",
-    "category": "Privacidad",
-    "definition": "Ficha cuya información solo se comparte con los destinatarios autorizados.",
-    "aliases": [],
-    "slug": "perfil-privado",
-    "wardrobe": []
-  },
-  {
-    "slug": "poliamida",
-    "term": "Poliamida",
+    "slug": "copa",
+    "term": "Copa",
     "category": "Moda",
-    "definition": "Familia de fibras sintéticas usada en medias, ropa interior y otras prendas. Nylon es el nombre habitual de determinadas poliamidas.",
+    "definition": "Parte de un corpiño que contiene o da forma al pecho; los sistemas de talles varían por fabricante.",
     "aliases": [
-      "nylon"
+      "cup"
     ],
-    "wardrobe": [
-      "medias-de-nylon"
+    "name": "Copa",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "corpino"
     ]
+  },
+  {
+    "term": "Coquette",
+    "category": "Moda",
+    "definition": "Estética romántica con lazos, encajes y detalles delicados; admite interpretaciones personales.",
+    "aliases": [],
+    "slug": "coquette",
+    "name": "Coquette",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "corpino",
+    "name": "Corpiño",
+    "aliases": [
+      "sostén",
+      "sujetador",
+      "bra",
+      "brasier"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Prenda interior superior diseñada para sostener o aportar forma al pecho.",
+    "features": "La banda, copa, breteles y estructura cambian entre modelos.",
+    "example": "Un modelo de soporte cómodo bajo una blusa.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Corpiño",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "corpino-push-up",
+    "name": "Corpiño push-up",
+    "aliases": [
+      "push up"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "corpino",
+    "definition": "Corpiño con relleno o estructura que modifica visualmente el volumen y la posición del pecho.",
+    "features": "La forma del relleno y copa cambia según modelo.",
+    "example": "Consultá el ajuste con las formas externas que uses, si corresponde.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Corpiño push-up",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "corpino-sin-breteles",
+    "name": "Corpiño sin breteles",
+    "aliases": [
+      "strapless bra"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "corpino",
+    "definition": "Corpiño diseñado para funcionar sin tirantes sobre los hombros.",
+    "features": "La banda debe sostener sin provocar dolor ni dificultad para respirar.",
+    "example": "Bajo un vestido strapless.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Corpiño sin breteles",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "corset",
+    "name": "Corset",
+    "aliases": [
+      "corsé"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda estructurada mediante paneles, varillas u otros elementos que enfatiza la silueta del torso.",
+    "features": "Puede ser de moda o de soporte; nunca requiere un ajuste doloroso.",
+    "example": "Como prenda superior sobre una camisa, según su diseño.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Corset",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Prenda estructurada que puede modificar o destacar el contorno del torso. Debe ajustarse cómodamente."
+  },
+  {
+    "slug": "corte-de-pelo",
+    "name": "Corte de pelo",
+    "term": "Corte de pelo",
+    "category": "Servicios · Peluquería",
+    "definition": "Servicio de modificación del largo y la forma del cabello.",
+    "aliases": [
+      "corte de cabello"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "peluqueria",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Cottagecore",
+    "category": "Moda",
+    "definition": "Estética inspirada en escenas rurales idealizadas y prendas de aire romántico.",
+    "aliases": [],
+    "slug": "cottagecore",
+    "name": "Cottagecore",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "crop-top",
+    "name": "Crop top",
+    "aliases": [
+      "top corto"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Subtipo",
+    "parent": "top",
+    "definition": "Top de largo reducido que termina por encima de la cintura o cerca de ella.",
+    "features": "El largo puede dejar visible parte del abdomen según la combinación.",
+    "example": "Con una falda o pantalón de tiro alto.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Crop top",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Crossdresser",
+    "category": "Identidad y expresión",
+    "definition": "Persona que practica crossdressing. Algunas usan el término como identidad personal y otras solo para describir una actividad.",
+    "aliases": [
+      "CD"
+    ],
+    "slug": "crossdresser",
+    "name": "Crossdresser",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Crossdressing",
+    "category": "Identidad y expresión",
+    "definition": "Uso de prendas o elementos de presentación asociados culturalmente a otro género. Puede ser una afición, una forma de expresión o exploración; no determina identidad ni orientación sexual.",
+    "aliases": [
+      "CD"
+    ],
+    "slug": "crossdressing",
+    "name": "Crossdressing",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Culotte",
+    "category": "Moda",
+    "definition": "Puede designar ropa interior de mayor cobertura o un pantalón ancho y corto, según el contexto.",
+    "aliases": [
+      "culote"
+    ],
+    "slug": "culotte",
+    "name": "Culotte",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "culotte-interior",
+      "culotte-de-vestir"
+    ]
+  },
+  {
+    "slug": "culotte-de-vestir",
+    "name": "Culotte de vestir",
+    "aliases": [
+      "pantalón culotte"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón ancho y corto, a menudo de largo midi.",
+    "features": "Puede parecer una falda cuando las piernas están juntas.",
+    "example": "Con un top sencillo y mules.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Culotte de vestir",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "image_slug": "culotte"
+  },
+  {
+    "slug": "culotte-interior",
+    "name": "Culotte interior",
+    "aliases": [
+      "culote",
+      "boyshorts"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "bombacha",
+    "definition": "Prenda interior inferior con mayor cobertura lateral o posterior que muchos modelos de tanga.",
+    "features": "Puede tener forma de short muy corto.",
+    "example": "Con ropa de moldería relajada.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Culotte interior",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Cut crease",
+    "category": "Maquillaje",
+    "definition": "Técnica que destaca el pliegue del párpado mediante contraste de sombras.",
+    "aliases": [],
+    "slug": "cut-crease",
+    "name": "Cut crease",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "maquillaje-profesional"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": "maquillaje-profesional"
+  },
+  {
+    "term": "Denier",
+    "category": "Moda",
+    "definition": "Unidad de masa lineal del hilo; en medias suele relacionarse con grosor y cobertura, aunque no es el único factor.",
+    "aliases": [
+      "den"
+    ],
+    "slug": "denier",
+    "name": "Denier",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "depilacion",
+    "name": "Depilación",
+    "term": "Depilación",
+    "category": "Servicios · Depilación",
+    "definition": "Eliminación del vello visible mediante técnicas temporales o de reducción duradera; la elección depende de la piel, la zona y las preferencias.",
+    "aliases": [
+      "eliminación del vello"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Depilación",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "depilacion-con-cera",
+    "name": "Depilación con cera",
+    "term": "Depilación con cera",
+    "category": "Servicios · Depilación",
+    "definition": "Retirada temporal del vello mediante cera; puede causar irritación y requiere cuidados según la piel.",
+    "aliases": [
+      "waxing"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Depilación",
+    "service_parent": "depilacion",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "depilacion-con-hilo",
+    "name": "Depilación con hilo",
+    "term": "Depilación con hilo",
+    "category": "Servicios · Depilación",
+    "definition": "Técnica que retira vello con hilo entrelazado, frecuente en cejas y rostro.",
+    "aliases": [
+      "threading"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Depilación",
+    "service_parent": "depilacion",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "depilacion-laser",
+    "name": "Depilación láser",
+    "term": "Depilación láser",
+    "category": "Servicios · Depilación",
+    "definition": "Tratamiento que utiliza luz láser para reducir el crecimiento del vello. Requiere valoración profesional y varias sesiones; no garantiza eliminación total.",
+    "aliases": [
+      "reducción láser de vello"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Depilación",
+    "service_parent": "depilacion",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Drag",
+    "category": "Identidad y expresión",
+    "definition": "Arte escénico que juega con el género, el vestuario y la actuación. No es sinónimo de crossdressing.",
+    "aliases": [
+      "drag queen",
+      "drag king"
+    ],
+    "slug": "drag",
+    "name": "Drag",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "duocromo",
+    "term": "Duocromo",
+    "category": "Maquillaje",
+    "definition": "Acabado que cambia de apariencia entre dos colores según el ángulo de luz.",
+    "aliases": [
+      "duochrome"
+    ],
+    "name": "Duocromo",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "slug": "elastano",
@@ -969,9 +1546,622 @@
       "lycra",
       "spandex"
     ],
-    "wardrobe": [
+    "name": "Elastano",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
       "medias-con-lycra"
     ]
+  },
+  {
+    "slug": "empeine",
+    "term": "Empeine",
+    "category": "Calzado",
+    "definition": "Zona superior del pie; su volumen condiciona el ajuste de zapatos y sandalias.",
+    "aliases": [],
+    "name": "Empeine",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "zapatos"
+    ]
+  },
+  {
+    "term": "En femme",
+    "category": "Identidad y expresión",
+    "definition": "Momento o look en presentación femenina. No presupone identidad de género.",
+    "aliases": [
+      "en-femme"
+    ],
+    "slug": "en-femme",
+    "name": "En femme",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "enagua",
+    "name": "Enagua",
+    "aliases": [
+      "combinación",
+      "slip"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda ligera que se usa debajo de una falda o vestido.",
+    "features": "Puede aportar cobertura, reducir roce o mejorar la caída.",
+    "example": "Bajo una falda de tejido translúcido.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Enagua",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Encaje",
+    "category": "Moda",
+    "definition": "Tejido ornamental con motivos abiertos y calados.",
+    "aliases": [
+      "lace"
+    ],
+    "slug": "encaje",
+    "name": "Encaje",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "enterito",
+    "name": "Enterito",
+    "aliases": [
+      "mono",
+      "jumpsuit"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda de una pieza que combina torso y pantalón.",
+    "features": "Revisá especialmente largo del torso y tiro.",
+    "example": "Con cinturón y sandalias.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Enterito",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Escote halter",
+    "category": "Moda",
+    "definition": "Escote con tiras o tejido que se sujetan alrededor del cuello.",
+    "aliases": [
+      "halter"
+    ],
+    "slug": "escote-halter",
+    "name": "Escote halter",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "top-halter"
+    ]
+  },
+  {
+    "slug": "esmaltado-semipermanente",
+    "name": "Esmaltado semipermanente",
+    "term": "Esmaltado semipermanente",
+    "category": "Servicios · Uñas",
+    "definition": "Aplicación de esmalte de gel que se cura con una lámpara compatible; requiere retirada adecuada.",
+    "aliases": [
+      "semipermanente",
+      "gel polish"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Evasé",
+    "category": "Moda",
+    "definition": "Corte que se ensancha gradualmente hacia el ruedo.",
+    "aliases": [
+      "línea A"
+    ],
+    "slug": "evase",
+    "name": "Evasé",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "falda-evase",
+      "vestido-evase"
+    ]
+  },
+  {
+    "term": "Expresión de género",
+    "category": "Identidad y expresión",
+    "definition": "Forma de presentar el género mediante ropa, apariencia, gestos o voz. Puede cambiar según el contexto.",
+    "aliases": [
+      "gender expression"
+    ],
+    "slug": "expresion-de-genero",
+    "name": "Expresión de género",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "extensiones-de-pestanas",
+    "name": "Extensiones de pestañas",
+    "term": "Extensiones de pestañas",
+    "category": "Servicios · Cejas y pestañas",
+    "definition": "Aplicación de fibras individuales o en grupos sobre las pestañas para modificar su aspecto.",
+    "aliases": [
+      "lash extensions"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Cejas y pestañas",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "faja-modeladora",
+    "name": "Faja modeladora",
+    "aliases": [
+      "shapewear"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda elástica que alisa o modifica visualmente la silueta.",
+    "features": "Las zonas de compresión varían; no debería causar dolor ni dificultar la respiración.",
+    "example": "Bajo un vestido si te resulta cómoda.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Faja modeladora",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-asimetrica",
+    "name": "Falda asimétrica",
+    "aliases": [
+      "pollera asimétrica"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda con un ruedo o paneles de largos desiguales.",
+    "features": "El efecto se aprecia especialmente al caminar.",
+    "example": "Con un top neutro y calzado sencillo.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda asimétrica",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-cargo",
+    "name": "Falda cargo",
+    "aliases": [
+      "pollera cargo"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda de inspiración utilitaria con bolsillos visibles.",
+    "features": "Puede ser mini, midi o larga.",
+    "example": "Con zapatillas y una remera.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda cargo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-cruzada",
+    "name": "Falda cruzada",
+    "aliases": [
+      "wrap skirt"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda que se superpone y suele ajustarse mediante lazos o botones.",
+    "features": "Revisá cuánto se superponen los paneles al caminar.",
+    "example": "Con una musculosa y sandalias.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda cruzada",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-de-denim",
+    "name": "Falda de denim",
+    "aliases": [
+      "pollera de jean",
+      "falda vaquera"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda de tejido denim, disponible en numerosos largos y cortes.",
+    "features": "Puede tener bolsillos, botones delanteros o abertura.",
+    "example": "Con camisa blanca y zapatillas.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda de denim",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-de-tul",
+    "name": "Falda de tul",
+    "aliases": [
+      "tutú",
+      "pollera de tul"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda realizada con una o más capas de tul, a veces sobre un forro.",
+    "features": "Las capas aportan volumen; la transparencia depende del forro.",
+    "example": "Con un top liso para un estilo romántico.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda de tul",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-evase",
+    "name": "Falda evasé",
+    "aliases": [
+      "línea A",
+      "pollera evasé"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda que se ensancha gradualmente desde la cintura hacia el ruedo.",
+    "features": "Su contorno recuerda una letra A.",
+    "example": "Con una remera ajustada y merceditas.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda evasé",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-lapiz",
+    "name": "Falda lápiz",
+    "aliases": [
+      "falda tubo",
+      "pollera lápiz"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda estrecha de silueta recta o entallada, habitualmente cercana a la rodilla.",
+    "features": "Suele tener abertura o tejido elástico para facilitar el paso.",
+    "example": "Con blazer y zapatos de salón.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda lápiz",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Falda estrecha de silueta recta o ajustada."
+  },
+  {
+    "slug": "falda-midi",
+    "name": "Falda midi",
+    "aliases": [
+      "pollera midi"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda de largo intermedio, normalmente entre la rodilla y el tobillo.",
+    "features": "Puede ser recta, plisada o evasé.",
+    "example": "Con una camisa metida por dentro y zapatos de taco bajo.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda midi",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-plato",
+    "name": "Falda plato",
+    "aliases": [
+      "falda circular"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda confeccionada con un corte circular o parcialmente circular.",
+    "features": "Tiene mucho vuelo en el ruedo.",
+    "example": "Con una blusa corta o metida por dentro.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda plato",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "falda-plisada",
+    "name": "Falda plisada",
+    "aliases": [
+      "pollera tableada",
+      "falda tableada"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda con pliegues repetidos que aportan textura y movimiento.",
+    "features": "Los pliegues pueden estar cosidos, planchados o fijados en el tejido.",
+    "example": "Con un cárdigan y botas.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Falda plisada",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Femboy",
+    "category": "Identidad y expresión",
+    "definition": "Término que algunas personas, a menudo de identidad masculina, usan para una expresión femenina. No debe asignarse a terceros sin su consentimiento.",
+    "aliases": [],
+    "slug": "femboy",
+    "name": "Femboy",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Feminización",
+    "category": "Jerga comunitaria",
+    "definition": "En estética, incorporación de elementos culturalmente asociados a una presentación femenina. Es opcional y no define el valor ni la identidad de una persona.",
+    "aliases": [],
+    "slug": "feminizacion",
+    "name": "Feminización",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Femme",
+    "category": "Identidad y expresión",
+    "definition": "Término de presentación o identidad femenina usado en distintas comunidades; su significado depende de quien lo elige.",
+    "aliases": [],
+    "slug": "femme",
+    "name": "Femme",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "fishnet",
+    "term": "Fishnet",
+    "category": "Moda",
+    "definition": "Tejido de malla abierta empleado, entre otras prendas, en medias de red.",
+    "aliases": [
+      "red"
+    ],
+    "name": "Fishnet",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "medias-de-red"
+    ]
+  },
+  {
+    "term": "Foundation",
+    "category": "Maquillaje",
+    "definition": "Base de maquillaje destinada a unificar visualmente el tono de la piel.",
+    "aliases": [
+      "base"
+    ],
+    "slug": "foundation",
+    "name": "Foundation",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Full lace",
+    "category": "Cabello",
+    "definition": "Peluca con base de encaje que permite mayor flexibilidad al peinar.",
+    "aliases": [],
+    "slug": "full-lace",
+    "name": "Full lace",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "ajuste-de-peluca"
+    ]
+  },
+  {
+    "slug": "gargantilla",
+    "name": "Gargantilla",
+    "aliases": [
+      "choker"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Subtipo",
+    "parent": "collar",
+    "definition": "Collar corto que queda cerca del cuello.",
+    "features": "Debe permitir comodidad y movimiento.",
+    "example": "Con un top de escote amplio.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Gargantilla",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Gender euphoria",
+    "category": "Jerga comunitaria",
+    "definition": "Sensación positiva que algunas personas experimentan cuando su expresión o reconocimiento de género les resulta congruente.",
+    "aliases": [
+      "euforia de género"
+    ],
+    "slug": "gender-euphoria",
+    "name": "Gender euphoria",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Género fluido",
+    "category": "Identidad y expresión",
+    "definition": "Identidad de género que puede variar con el tiempo; no es un tipo de vestimenta.",
+    "aliases": [
+      "genderfluid"
+    ],
+    "slug": "genero-fluido",
+    "name": "Género fluido",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Girlmode",
+    "category": "Jerga comunitaria",
+    "definition": "Expresión informal para describir una presentación femenina en un contexto determinado.",
+    "aliases": [
+      "girl mode"
+    ],
+    "slug": "girlmode",
+    "name": "Girlmode",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "guantes",
+    "name": "Guantes",
+    "aliases": [
+      "gloves"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorios que cubren las manos total o parcialmente.",
+    "features": "Pueden ser de abrigo, protección o vestuario.",
+    "example": "Con un tapado en invierno.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Guantes",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Highlighter",
+    "category": "Maquillaje",
+    "definition": "Iluminador que refleja luz o aporta brillo en zonas elegidas.",
+    "aliases": [
+      "iluminador"
+    ],
+    "slug": "highlighter",
+    "name": "Highlighter",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Hip pads",
+    "category": "Jerga comunitaria",
+    "definition": "Rellenos de cadera para modificar visualmente la silueta de un conjunto.",
+    "aliases": [
+      "rellenos de cadera"
+    ],
+    "slug": "hip-pads",
+    "name": "Hip pads",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "slug": "horma",
@@ -979,21 +2169,660 @@
     "category": "Calzado",
     "definition": "Forma tridimensional sobre la que se construye un zapato; influye en su ancho, volumen, punta y ajuste.",
     "aliases": [],
-    "wardrobe": [
+    "name": "Horma",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
       "zapatos"
     ]
   },
   {
-    "slug": "tiro",
-    "term": "Tiro",
-    "category": "Moda",
-    "definition": "Distancia de la prenda desde la entrepierna hasta la cintura. Puede ser alto, medio o bajo.",
+    "term": "Identidad de género",
+    "category": "Identidad y expresión",
+    "definition": "Vivencia personal del propio género; es distinta de la apariencia, la ropa y la orientación sexual.",
+    "aliases": [],
+    "slug": "identidad-de-genero",
+    "name": "Identidad de género",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "jean-mom",
+    "name": "Jean mom",
     "aliases": [
-      "rise"
+      "mom jeans"
     ],
-    "wardrobe": [
-      "pantalon"
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Jean generalmente de tiro alto, holgado en la cadera y con pierna que se estrecha.",
+    "features": "No existe una moldería idéntica entre marcas.",
+    "example": "Con camiseta metida por dentro.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Jean mom",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "jean-skinny",
+    "name": "Jean skinny",
+    "aliases": [
+      "skinny jeans",
+      "chupín"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Jean de corte estrecho a lo largo de la pierna.",
+    "features": "El porcentaje de elastano influye en la movilidad.",
+    "example": "Con botas y un cárdigan.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Jean skinny",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Kawaii",
+    "category": "Moda",
+    "definition": "Término japonés asociado a una estética adorable o tierna.",
+    "aliases": [],
+    "slug": "kawaii",
+    "name": "Kawaii",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "kitten-heel",
+    "name": "Kitten heel",
+    "aliases": [
+      "taco gatito"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Taco fino y bajo; también designa zapatos que lo incorporan.",
+    "features": "La altura concreta depende del fabricante.",
+    "example": "Con falda midi o pantalón de vestir.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Kitten heel",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Tacón fino de poca altura."
+  },
+  {
+    "term": "Lace front",
+    "category": "Cabello",
+    "definition": "Peluca con encaje frontal para simular visualmente una línea de nacimiento del cabello.",
+    "aliases": [],
+    "slug": "lace-front",
+    "name": "Lace front",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "ajuste-de-peluca"
     ]
+  },
+  {
+    "slug": "laminado-de-cejas",
+    "name": "Laminado de cejas",
+    "term": "Laminado de cejas",
+    "category": "Servicios · Cejas y pestañas",
+    "definition": "Tratamiento cosmético que orienta temporalmente los pelos de las cejas.",
+    "aliases": [
+      "brow lamination"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Cejas y pestañas",
+    "service_parent": "perfilado-de-cejas",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "lifting-de-pestanas",
+    "name": "Lifting de pestañas",
+    "term": "Lifting de pestañas",
+    "category": "Servicios · Cejas y pestañas",
+    "definition": "Tratamiento que curva temporalmente las pestañas naturales.",
+    "aliases": [
+      "lash lift"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Cejas y pestañas",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "liguero",
+    "name": "Liguero",
+    "aliases": [
+      "portaligas",
+      "garter belt"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda con tiras y broches para sostener medias altas compatibles.",
+    "features": "No todas las medias requieren ni admiten portaligas.",
+    "example": "Con medias específicamente diseñadas para sus broches.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Liguero",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Prenda con tiras para sostener medias altas."
+  },
+  {
+    "term": "Lip liner",
+    "category": "Maquillaje",
+    "definition": "Lápiz para delinear o rellenar los labios.",
+    "aliases": [
+      "delineador labial"
+    ],
+    "slug": "lip-liner",
+    "name": "Lip liner",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Lip tint",
+    "category": "Maquillaje",
+    "definition": "Tinte de labios que suele aportar color ligero o de duración prolongada.",
+    "aliases": [
+      "tinta labial"
+    ],
+    "slug": "lip-tint",
+    "name": "Lip tint",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Lolita",
+    "category": "Moda",
+    "definition": "Subcultura de moda japonesa con referencias históricas y siluetas elaboradas. No implica contenido sexual ni edad infantil.",
+    "aliases": [
+      "moda lolita"
+    ],
+    "slug": "lolita",
+    "name": "Lolita",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Look",
+    "category": "Moda",
+    "definition": "Conjunto de ropa, maquillaje, cabello y accesorios que produce una apariencia determinada.",
+    "aliases": [],
+    "slug": "look",
+    "name": "Look",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "asesoria-de-imagen"
+    ]
+  },
+  {
+    "slug": "manicura",
+    "name": "Manicura",
+    "term": "Manicura",
+    "category": "Servicios · Uñas",
+    "definition": "Cuidado estético de las uñas y la piel de las manos, con limado y acabado opcional.",
+    "aliases": [
+      "manicure"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Uñas",
+    "service_parent": null,
+    "related": [
+      "press-on"
+    ],
+    "slug_aliases": []
+  },
+  {
+    "slug": "manicura-francesa",
+    "term": "Manicura francesa",
+    "category": "Uñas",
+    "definition": "Diseño que destaca la punta de la uña, tradicionalmente con un borde claro.",
+    "aliases": [
+      "french"
+    ],
+    "name": "Manicura francesa",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "manicura"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura"
+  },
+  {
+    "slug": "maquillaje-profesional",
+    "name": "Maquillaje profesional",
+    "term": "Maquillaje profesional",
+    "category": "Servicios · Maquillaje",
+    "definition": "Servicio de aplicación de cosméticos según el estilo elegido, la ocasión y las necesidades de la piel.",
+    "aliases": [
+      "maquillaje social",
+      "makeup artist"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "maxifalda",
+    "name": "Maxifalda",
+    "aliases": [
+      "falda larga",
+      "pollera larga"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda que llega cerca del tobillo o al suelo.",
+    "features": "Conviene distinguir el largo de la prenda del largo sobre el cuerpo.",
+    "example": "Con un top sencillo y sandalias.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Maxifalda",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias",
+    "name": "Medias",
+    "aliases": [
+      "hosiery",
+      "calcetería"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Familia de prendas que cubren el pie y parte o la totalidad de la pierna.",
+    "features": "El largo, tejido, densidad y elasticidad distinguen los modelos.",
+    "example": "Medias tobilleras con zapatillas o altas con botas.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-con-costura",
+    "name": "Medias con costura",
+    "aliases": [
+      "seamed stockings"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias con línea de costura real o decorativa, normalmente a lo largo de la pierna.",
+    "features": "La costura puede ser funcional o parte del diseño retro.",
+    "example": "Con un look de inspiración vintage.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias con costura",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-con-lycra",
+    "name": "Medias con Lycra",
+    "aliases": [
+      "medias de lycra",
+      "medias con elastano"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias que incorporan elastano para mejorar elasticidad y recuperación; Lycra es una marca comercial de esa fibra.",
+    "features": "Suelen combinarlo con poliamida u otras fibras, no son necesariamente cien por ciento elastano.",
+    "example": "Pantimedias elásticas para un conjunto de uso frecuente.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias con Lycra",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-de-nylon",
+    "name": "Medias de nylon",
+    "aliases": [
+      "medias de poliamida",
+      "nylon stockings"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias fabricadas principalmente con poliamida, conocida también como nylon en ciertas fibras.",
+    "features": "Pueden contener elastano; el nylon por sí solo no define transparencia, largo ni ajuste.",
+    "example": "Medias finas con zapatos cerrados.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias de nylon",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-de-red",
+    "name": "Medias de red",
+    "aliases": [
+      "fishnet",
+      "medias caladas de red"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias con estructura abierta de malla.",
+    "features": "El tamaño de las aberturas puede variar mucho.",
+    "example": "Con botas y prendas de textura lisa.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias de red",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "image_slug": "fishnet"
+  },
+  {
+    "slug": "medias-hasta-el-muslo",
+    "name": "Medias hasta el muslo",
+    "aliases": [
+      "thigh high",
+      "musleras"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias independientes que llegan por encima de la rodilla, hasta el muslo.",
+    "features": "Pueden sostenerse mediante banda propia o requerir liguero.",
+    "example": "Con una falda larga y calzado cerrado.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias hasta el muslo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-hasta-la-rodilla",
+    "name": "Medias hasta la rodilla",
+    "aliases": [
+      "knee high",
+      "tres cuartos"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias que terminan debajo o cerca de la rodilla.",
+    "features": "Pueden ser finas, gruesas o de punto.",
+    "example": "Con pantalón y zapatos cerrados.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias hasta la rodilla",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-opacas",
+    "name": "Medias opacas",
+    "aliases": [
+      "opaque tights"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias cuya trama limita notablemente la visibilidad de la piel.",
+    "features": "La opacidad depende de fibra, densidad, color y estiramiento.",
+    "example": "Con pollera y botas en clima fresco.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias opacas",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-termicas",
+    "name": "Medias térmicas",
+    "aliases": [
+      "pantimedias térmicas"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias pensadas para aportar abrigo mediante tejido grueso o forro.",
+    "features": "El aislamiento depende de la construcción, no solo del grosor.",
+    "example": "Con un vestido de invierno y botas.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias térmicas",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-tobilleras",
+    "name": "Medias tobilleras",
+    "aliases": [
+      "soquetes",
+      "ankle socks"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias cortas que llegan cerca del tobillo.",
+    "features": "El largo y la amortiguación varían.",
+    "example": "Con zapatillas.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias tobilleras",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "medias-transparentes",
+    "name": "Medias transparentes",
+    "aliases": [
+      "sheer tights",
+      "sheer stockings"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Medias de cobertura visual ligera que dejan ver la piel.",
+    "features": "El denier orienta sobre el grosor del hilo, pero no garantiza transparencia.",
+    "example": "Con zapatos de salón.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Medias transparentes",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "mercedita",
+    "name": "Mercedita",
+    "aliases": [
+      "mary jane",
+      "merceditas",
+      "Mary Jane"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato con una tira sobre el empeine.",
+    "features": "Puede ser plano o llevar taco y plataforma.",
+    "example": "Con pollera tableada.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Mercedita",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [
+      "mary-jane"
+    ],
+    "related": [],
+    "glossary_definition": "Zapato con tira sobre el empeine, conocido también como merceditas."
+  },
+  {
+    "term": "Metadatos",
+    "category": "Privacidad",
+    "definition": "Información incorporada a un archivo, como fecha, modelo de cámara o ubicación; puede revelar detalles privados.",
+    "aliases": [
+      "EXIF"
+    ],
+    "slug": "metadatos",
+    "name": "Metadatos",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "minifalda",
+    "name": "Minifalda",
+    "aliases": [
+      "mini falda",
+      "pollera mini"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Subtipo",
+    "parent": "pollera",
+    "definition": "Falda cuyo ruedo queda claramente por encima de la rodilla.",
+    "features": "El largo cambia según el diseño y la estatura.",
+    "example": "Con medias opacas y botas bajas.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Minifalda",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "mocasin",
+    "name": "Mocasín",
+    "aliases": [
+      "loafers",
+      "mocasines"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato generalmente sin cordones y de empeine cubierto.",
+    "features": "La suela y el taco varían según modelo.",
+    "example": "Con pantalón recto y camisa.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Mocasín",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "slug": "molderia",
@@ -1003,8 +2832,600 @@
     "aliases": [
       "patronaje"
     ],
-    "wardrobe": [
-      "vestido"
+    "name": "Moldería",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "vestido",
+      "confeccion-a-medida"
+    ],
+    "service_category": "Costura y arreglos",
+    "service_parent": "confeccion-a-medida"
+  },
+  {
+    "slug": "mono",
+    "name": "Moño",
+    "aliases": [
+      "lazo",
+      "bow"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio o detalle de tela formado mediante lazos.",
+    "features": "Puede llevarse en el cabello o integrado en una prenda.",
+    "example": "Con una blusa romántica.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Moño",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Monofilamento",
+    "category": "Cabello",
+    "definition": "Base de peluca que imita visualmente el cuero cabelludo en determinadas zonas.",
+    "aliases": [
+      "mono top"
+    ],
+    "slug": "monofilamento",
+    "name": "Monofilamento",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "ajuste-de-peluca"
+    ]
+  },
+  {
+    "slug": "mule",
+    "name": "Mule",
+    "aliases": [
+      "mules"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Calzado abierto en la parte posterior, sin sujeción cerrada del talón.",
+    "features": "Puede tener punta abierta o cerrada.",
+    "example": "Con palazzo y top.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Mule",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Calzado abierto en la parte posterior del talón."
+  },
+  {
+    "slug": "musculosa",
+    "name": "Musculosa",
+    "aliases": [
+      "tank top",
+      "camiseta sin mangas"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Subtipo",
+    "parent": "top",
+    "definition": "Prenda superior sin mangas.",
+    "features": "Puede tener breteles anchos o finos según el diseño.",
+    "example": "Con shorts y una camisa abierta.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Musculosa",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Nail art",
+    "category": "Uñas",
+    "definition": "Decoración artística de las uñas mediante colores, diseños o adornos.",
+    "aliases": [],
+    "slug": "nail-art",
+    "name": "Nail art",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "manicura"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura"
+  },
+  {
+    "term": "No binario",
+    "category": "Identidad y expresión",
+    "definition": "Identidad que no se limita exclusivamente a las categorías hombre y mujer.",
+    "aliases": [
+      "no binarie",
+      "nonbinary"
+    ],
+    "slug": "no-binario",
+    "name": "No binario",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Nude",
+    "category": "Maquillaje",
+    "definition": "Color próximo a un tono de piel, que varía entre personas; no existe un único nude universal.",
+    "aliases": [],
+    "slug": "nude",
+    "name": "Nude",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Orientación sexual",
+    "category": "Identidad y expresión",
+    "definition": "Patrón de atracción sexual o romántica; no se deduce de la ropa ni del maquillaje.",
+    "aliases": [],
+    "slug": "orientacion-sexual",
+    "name": "Orientación sexual",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Outfit",
+    "category": "Moda",
+    "definition": "Combinación de prendas y accesorios para una ocasión o estilo concreto.",
+    "aliases": [
+      "conjunto"
+    ],
+    "slug": "outfit",
+    "name": "Outfit",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Outing",
+    "category": "Jerga comunitaria",
+    "definition": "Revelar la identidad o expresión privada de alguien sin su consentimiento. Vulnera su privacidad.",
+    "aliases": [],
+    "slug": "outing",
+    "name": "Outing",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Padding",
+    "category": "Jerga comunitaria",
+    "definition": "Uso de rellenos en prendas o accesorios para modificar visualmente una silueta.",
+    "aliases": [
+      "relleno"
+    ],
+    "slug": "padding",
+    "name": "Padding",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pantalon",
+    "name": "Pantalón",
+    "aliases": [
+      "pants"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Prenda con dos perneras que cubren las piernas.",
+    "features": "El tiro, corte y largo caracterizan sus variantes.",
+    "example": "Con blusa y zapatos de salón.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Pantalón",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pantalon-acampanado",
+    "name": "Pantalón acampanado",
+    "aliases": [
+      "flare",
+      "oxford"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón que se ensancha hacia el bajo, a menudo desde la rodilla.",
+    "features": "Distinto del wide leg que es amplio desde más arriba.",
+    "example": "Con botas y una blusa.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Pantalón acampanado",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pantalon-cargo",
+    "name": "Pantalón cargo",
+    "aliases": [
+      "cargo pants"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón con bolsillos de inspiración utilitaria.",
+    "features": "Los bolsillos suelen ubicarse a los costados de las piernas.",
+    "example": "Con top y zapatillas.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Pantalón cargo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pantalon-palazzo",
+    "name": "Pantalón palazzo",
+    "aliases": [
+      "palazzo"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón de pernera muy amplia y caída fluida.",
+    "features": "Puede tener cintura alta, media o baja.",
+    "example": "Con top ajustado y sandalias.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Pantalón palazzo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pantalon-wide-leg",
+    "name": "Pantalón wide leg",
+    "aliases": [
+      "pata ancha",
+      "wide-leg",
+      "Wide leg"
+    ],
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón de perneras amplias desde la cadera o el muslo.",
+    "features": "Puede ser recto o tener una caída muy fluida.",
+    "example": "Con camisa y cinturón.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Pantalón wide leg",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [
+      "wide-leg"
+    ],
+    "related": [],
+    "glossary_definition": "Corte de pantalón de pernera amplia desde la cadera o el muslo."
+  },
+  {
+    "slug": "pantimedias",
+    "name": "Pantimedias",
+    "aliases": [
+      "medibacha",
+      "pantyhose",
+      "collants"
+    ],
+    "category": "Medias y calcetería",
+    "group": "medias",
+    "kind": "Subtipo",
+    "parent": "medias",
+    "definition": "Prenda de una pieza que cubre ambas piernas y llega a la cintura.",
+    "features": "Puede tener distintos refuerzos, densidades y acabados.",
+    "example": "Con falda midi o vestido.",
+    "fit": "Altura, cadera y largo de pierna según el tipo. Revisá composición, denier y tabla del fabricante.",
+    "materials": "Poliamida (nylon), elastano (Lycra es una marca), algodón o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Pantimedias",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Medias de una sola pieza que cubren piernas y cintura."
+  },
+  {
+    "slug": "panuelo",
+    "name": "Pañuelo",
+    "aliases": [
+      "foulard",
+      "scarf"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Pieza de tela que puede usarse en cuello, cabello o accesorios.",
+    "features": "Forma, tamaño y tejido determinan sus usos.",
+    "example": "Anudado al asa de una cartera.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Pañuelo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Passing",
+    "category": "Jerga comunitaria",
+    "definition": "Ser percibida o percibido por otras personas como el género que se desea presentar. No es una obligación ni mide la autenticidad.",
+    "aliases": [
+      "pasar"
+    ],
+    "slug": "passing",
+    "name": "Passing",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pedicura",
+    "name": "Pedicura",
+    "term": "Pedicura",
+    "category": "Servicios · Uñas",
+    "definition": "Cuidado estético de los pies y sus uñas; no sustituye una consulta sanitaria ante lesiones o dolor.",
+    "aliases": [
+      "pedicure"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Uñas",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "peep-toe",
+    "name": "Peep toe",
+    "aliases": [
+      "zapato de punta abierta"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato con pequeña abertura en la punta que deja ver parte de los dedos.",
+    "features": "Puede tener taco o plataforma.",
+    "example": "Con vestido de ocasión.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Peep toe",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Zapato con una pequeña abertura en la punta."
+  },
+  {
+    "slug": "peinado",
+    "name": "Peinado",
+    "term": "Peinado",
+    "category": "Servicios · Peluquería",
+    "definition": "Servicio de arreglo del cabello, que puede incluir secado, ondas, alisado temporal o recogidos.",
+    "aliases": [
+      "estilismo capilar"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "peluqueria",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "slug": "peluqueria",
+    "name": "Peluquería",
+    "term": "Peluquería",
+    "category": "Servicios · Peluquería",
+    "definition": "Servicios de cuidado, corte, coloración y peinado del cabello.",
+    "aliases": [
+      "salón de peluquería"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Perfil privado",
+    "category": "Privacidad",
+    "definition": "Ficha cuya información solo se comparte con los destinatarios autorizados.",
+    "aliases": [],
+    "slug": "perfil-privado",
+    "name": "Perfil privado",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "perfilado-de-cejas",
+    "name": "Perfilado de cejas",
+    "term": "Perfilado de cejas",
+    "category": "Servicios · Cejas y pestañas",
+    "definition": "Diseño y arreglo del contorno de las cejas de acuerdo con las preferencias de cada persona.",
+    "aliases": [
+      "diseño de cejas"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Cejas y pestañas",
+    "service_parent": null,
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Pin-up",
+    "category": "Moda",
+    "definition": "Estética inspirada en ilustraciones y moda retro de mediados del siglo XX.",
+    "aliases": [
+      "pin up"
+    ],
+    "slug": "pin-up",
+    "name": "Pin-up",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Pixie",
+    "category": "Cabello",
+    "definition": "Corte corto con diferentes largos y texturas según el estilo.",
+    "aliases": [
+      "corte pixie"
+    ],
+    "slug": "pixie",
+    "name": "Pixie",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "corte-de-pelo"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "corte-de-pelo"
+  },
+  {
+    "slug": "poliamida",
+    "term": "Poliamida",
+    "category": "Moda",
+    "definition": "Familia de fibras sintéticas usada en medias, ropa interior y otras prendas. Nylon es el nombre habitual de determinadas poliamidas.",
+    "aliases": [
+      "nylon"
+    ],
+    "name": "Poliamida",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "medias-de-nylon"
+    ]
+  },
+  {
+    "slug": "pollera",
+    "name": "Pollera",
+    "aliases": [
+      "falda",
+      "skirt"
+    ],
+    "category": "Faldas y polleras",
+    "group": "faldas",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Prenda que cae desde la cintura o cadera y cubre parte de las piernas sin separarlas en perneras.",
+    "features": "La silueta y el largo son sus rasgos principales; puede tener cierre, pretina o elástico.",
+    "example": "Con una blusa y ballerinas para un conjunto de día.",
+    "fit": "Cintura, cadera y largo de prenda. Compará la moldería de cada marca.",
+    "materials": "Algodón, denim, crepé, sarga o tejidos sintéticos.",
+    "updated": "2026-11-27",
+    "term": "Pollera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "poncho",
+    "name": "Poncho",
+    "aliases": [
+      "capa"
+    ],
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda amplia que cae sobre los hombros; el poncho suele tener abertura para la cabeza.",
+    "features": "La capa puede tener cierre delantero y el poncho no necesariamente.",
+    "example": "Con pantalón recto y botas.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Poncho",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Preppy",
+    "category": "Moda",
+    "definition": "Estilo inspirado en vestimenta académica clásica, con prendas estructuradas y combinaciones sobrias.",
+    "aliases": [],
+    "slug": "preppy",
+    "name": "Preppy",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Press-on",
+    "category": "Uñas",
+    "definition": "Uñas postizas preparadas para adherirse temporalmente.",
+    "aliases": [
+      "press on"
+    ],
+    "slug": "press-on",
+    "name": "Press-on",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "manicura"
     ]
   },
   {
@@ -1015,9 +3436,49 @@
     "aliases": [
       "cinturilla"
     ],
-    "wardrobe": [
-      "pollera"
+    "name": "Pretina",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "pollera",
+      "arreglos-de-ropa"
     ]
+  },
+  {
+    "term": "Primer",
+    "category": "Maquillaje",
+    "definition": "Prebase que prepara la piel o el párpado antes de aplicar otros productos.",
+    "aliases": [
+      "prebase"
+    ],
+    "slug": "primer",
+    "name": "Primer",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "pulsera",
+    "name": "Pulsera",
+    "aliases": [
+      "bracelet"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio que rodea la muñeca.",
+    "features": "Puede ser rígido, articulado o flexible.",
+    "example": "Con mangas cortas.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Pulsera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
     "slug": "ruedo",
@@ -1028,88 +3489,129 @@
       "dobladillo",
       "bajo"
     ],
-    "wardrobe": [
-      "pollera"
-    ]
-  },
-  {
-    "slug": "bretel",
-    "term": "Bretel",
-    "category": "Moda",
-    "definition": "Tira que ayuda a sostener una prenda sobre el hombro.",
-    "aliases": [
-      "tirante"
+    "name": "Ruedo",
+    "views": [
+      "services"
     ],
-    "wardrobe": [
-      "corpino"
-    ]
-  },
-  {
-    "slug": "copa",
-    "term": "Copa",
-    "category": "Moda",
-    "definition": "Parte de un corpiño que contiene o da forma al pecho; los sistemas de talles varían por fabricante.",
-    "aliases": [
-      "cup"
+    "slug_aliases": [],
+    "related": [
+      "pollera",
+      "arreglos-de-ropa"
     ],
-    "wardrobe": [
-      "corpino"
-    ]
+    "service_category": "Costura y arreglos",
+    "service_parent": "arreglos-de-ropa"
   },
   {
-    "slug": "cana",
-    "term": "Caña",
+    "term": "Salir del armario",
+    "category": "Jerga comunitaria",
+    "definition": "Compartir voluntariamente una faceta de la propia identidad o expresión. No existe una obligación de hacerlo.",
+    "aliases": [
+      "coming out"
+    ],
+    "slug": "salir-del-armario",
+    "name": "Salir del armario",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "sandalia",
+    "name": "Sandalia",
+    "aliases": [
+      "sandalias"
+    ],
     "category": "Calzado",
-    "definition": "Parte de una bota que se extiende hacia arriba desde el tobillo.",
-    "aliases": [],
-    "wardrobe": [
-      "bota"
-    ]
+    "group": "calzado",
+    "kind": "Familia",
+    "parent": "zapatos",
+    "definition": "Calzado abierto que sujeta el pie mediante tiras u otros elementos.",
+    "features": "Puede ser plana, con taco, plataforma o cuña.",
+    "example": "Con vestido de verano.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Sandalia",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "empeine",
-    "term": "Empeine",
+    "slug": "sandalia-de-taco",
+    "name": "Sandalia de taco",
+    "aliases": [
+      "heeled sandal"
+    ],
     "category": "Calzado",
-    "definition": "Zona superior del pie; su volumen condiciona el ajuste de zapatos y sandalias.",
-    "aliases": [],
-    "wardrobe": [
-      "zapatos"
-    ]
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "sandalia",
+    "definition": "Sandalia que eleva el talón mediante un taco.",
+    "features": "La ubicación de tiras y altura incide en el ajuste.",
+    "example": "Con un conjunto de ocasión.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Sandalia de taco",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "wide-leg",
-    "term": "Wide leg",
+    "term": "Satén",
     "category": "Moda",
-    "definition": "Corte de pantalón de pernera amplia desde la cadera o el muslo.",
+    "definition": "Ligamento de superficie lisa y brillante que puede fabricarse con fibras diversas.",
     "aliases": [
-      "pata ancha"
+      "raso"
     ],
-    "wardrobe": [
-      "pantalon-wide-leg"
-    ]
+    "slug": "saten",
+    "name": "Satén",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "bodycon",
-    "term": "Bodycon",
-    "category": "Moda",
-    "definition": "Corte de prenda ajustado al contorno corporal.",
+    "term": "Setting spray",
+    "category": "Maquillaje",
+    "definition": "Bruma que se aplica para ayudar a fijar el maquillaje o modificar su acabado.",
     "aliases": [
-      "vestido tubo"
+      "fijador"
     ],
-    "wardrobe": [
-      "vestido-tubo"
-    ]
+    "slug": "setting-spray",
+    "name": "Setting spray",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "fishnet",
-    "term": "Fishnet",
-    "category": "Moda",
-    "definition": "Tejido de malla abierta empleado, entre otras prendas, en medias de red.",
+    "term": "Seudónimo",
+    "category": "Privacidad",
+    "definition": "Nombre elegido para participar sin publicar el nombre legal.",
     "aliases": [
-      "red"
+      "alias"
     ],
-    "wardrobe": [
-      "medias-de-red"
+    "slug": "seudonimo",
+    "name": "Seudónimo",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Shapewear",
+    "category": "Jerga comunitaria",
+    "definition": "Prendas de ajuste que suavizan o modifican visualmente el contorno. Deben resultar cómodas y no son obligatorias.",
+    "aliases": [
+      "faja modeladora"
+    ],
+    "slug": "shapewear",
+    "name": "Shapewear",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "faja-modeladora"
     ]
   },
   {
@@ -1120,36 +3622,939 @@
     "aliases": [
       "brillante"
     ],
-    "wardrobe": []
+    "name": "Shimmer",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "duocromo",
-    "term": "Duocromo",
-    "category": "Maquillaje",
-    "definition": "Acabado que cambia de apariencia entre dos colores según el ángulo de luz.",
+    "slug": "short",
+    "name": "Short",
     "aliases": [
-      "duochrome"
+      "shorts",
+      "pantalón corto"
     ],
-    "wardrobe": []
+    "category": "Pantalones y enteritos",
+    "group": "pantalones",
+    "kind": "Subtipo",
+    "parent": "pantalon",
+    "definition": "Pantalón de largo reducido que termina por encima de la rodilla.",
+    "features": "Puede ser deportivo, sastrero o de denim.",
+    "example": "Con camisa de lino y sandalias.",
+    "fit": "Cintura, cadera, tiro, muslo y entrepierna; revisá el tejido y su elasticidad.",
+    "materials": "Denim, algodón, lino, punto o tejidos con elastano.",
+    "updated": "2026-11-27",
+    "term": "Short",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   },
   {
-    "slug": "manicura-francesa",
-    "term": "Manicura francesa",
-    "category": "Uñas",
-    "definition": "Diseño que destaca la punta de la uña, tradicionalmente con un borde claro.",
-    "aliases": [
-      "french"
-    ],
-    "wardrobe": []
-  },
-  {
-    "slug": "cartera-capsula",
-    "term": "Cartera cápsula",
-    "category": "Moda",
-    "definition": "Selección reducida de bolsos y accesorios combinables para distintas ocasiones.",
+    "term": "Sissy",
+    "category": "Jerga comunitaria",
+    "definition": "Etiqueta que algunas personas adultas usan para una estética, un rol o una subcultura; en ciertos contextos es erótica o despectiva. No equivale a crossdresser y no debe imponerse.",
     "aliases": [],
-    "wardrobe": [
-      "cartera"
+    "slug": "sissy",
+    "name": "Sissy",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "slingback",
+    "name": "Slingback",
+    "aliases": [
+      "destalonado con tira"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato que sujeta el talón mediante una tira posterior.",
+    "features": "No es lo mismo que un mule sin tira.",
+    "example": "Con pantalón sastrero.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Slingback",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Zapato sujeto por una tira detrás del talón."
+  },
+  {
+    "term": "Smokey eye",
+    "category": "Maquillaje",
+    "definition": "Maquillaje de ojos con sombras difuminadas de efecto ahumado.",
+    "aliases": [
+      "smoky eye",
+      "ahumado"
+    ],
+    "slug": "smokey-eye",
+    "name": "Smokey eye",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "maquillaje-profesional"
+    ],
+    "service_category": "Maquillaje",
+    "service_parent": "maquillaje-profesional"
+  },
+  {
+    "slug": "sombrero",
+    "name": "Sombrero",
+    "aliases": [
+      "hat"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio para la cabeza con formas y alas variadas.",
+    "features": "La medida del contorno y la estructura definen el ajuste.",
+    "example": "Con vestido de verano.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Sombrero",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Squoval",
+    "category": "Uñas",
+    "definition": "Forma intermedia entre cuadrada y ovalada.",
+    "aliases": [],
+    "slug": "squoval",
+    "name": "Squoval",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "manicura"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura"
+  },
+  {
+    "slug": "stiletto",
+    "name": "Stiletto",
+    "aliases": [
+      "taco aguja",
+      "tacón de aguja",
+      "estileto"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato de taco estrecho y generalmente elevado; también se llama stiletto al tipo de taco.",
+    "features": "No todos los zapatos de salón tienen taco aguja.",
+    "example": "Con vestido o conjunto sastrero; empezá por una altura cómoda.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Stiletto",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Zapato o taco fino y alto, también llamado tacón de aguja."
+  },
+  {
+    "term": "Strapless",
+    "category": "Moda",
+    "definition": "Prenda sin tirantes que deja los hombros descubiertos.",
+    "aliases": [
+      "palabra de honor"
+    ],
+    "slug": "strapless",
+    "name": "Strapless",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "top-strapless"
     ]
+  },
+  {
+    "slug": "taco-bloque",
+    "name": "Taco bloque",
+    "aliases": [
+      "block heel",
+      "taco cuadrado",
+      "taco bloque",
+      "Block heel"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Taco de base ancha, normalmente geométrica.",
+    "features": "La amplitud de apoyo no reemplaza una prueba de ajuste.",
+    "example": "Con sandalias o zapatos de salón.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Taco bloque",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [
+      "block-heel"
+    ],
+    "related": [],
+    "glossary_definition": "Tacón ancho y de forma generalmente rectangular."
+  },
+  {
+    "slug": "taco-de-cuna",
+    "name": "Taco de cuña",
+    "aliases": [
+      "wedge",
+      "taco chino"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Taco cuya estructura forma una cuña continua bajo la parte posterior de la suela.",
+    "features": "Puede combinarse con plataforma.",
+    "example": "Con alpargatas o sandalias.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Taco de cuña",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Tacón continuo que se extiende desde el talón hacia la suela."
+  },
+  {
+    "slug": "tanga",
+    "name": "Tanga",
+    "aliases": [
+      "thong"
+    ],
+    "category": "Ropa interior",
+    "group": "interior",
+    "kind": "Subtipo",
+    "parent": "bombacha",
+    "definition": "Prenda interior inferior con cobertura posterior reducida.",
+    "features": "El ancho de la banda y el tejido varían; no debe causar molestias.",
+    "example": "Elegí una tela cómoda para un conjunto de uso cotidiano.",
+    "fit": "Medí cintura, cadera, pecho y bajo busto según corresponda; priorizá comodidad y guía del fabricante.",
+    "materials": "Algodón, microfibra, encaje, poliamida y elastano.",
+    "updated": "2026-11-27",
+    "term": "Tanga",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "tapado",
+    "name": "Tapado",
+    "aliases": [
+      "abrigo largo",
+      "coat"
+    ],
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Prenda exterior de largo variable que protege del frío.",
+    "features": "El tejido, forro y estructura determinan abrigo y caída.",
+    "example": "Sobre un conjunto de invierno.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Tapado",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Tightlining",
+    "category": "Maquillaje",
+    "definition": "Delineado próximo a la raíz de las pestañas para dar una apariencia de mayor densidad.",
+    "aliases": [],
+    "slug": "tightlining",
+    "name": "Tightlining",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "tiro",
+    "term": "Tiro",
+    "category": "Moda",
+    "definition": "Distancia de la prenda desde la entrepierna hasta la cintura. Puede ser alto, medio o bajo.",
+    "aliases": [
+      "rise"
+    ],
+    "name": "Tiro",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "pantalon"
+    ]
+  },
+  {
+    "slug": "tobillera",
+    "name": "Tobillera",
+    "aliases": [
+      "anklet"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio de joyería alrededor del tobillo.",
+    "features": "Revisá contorno y holgura.",
+    "example": "Con sandalias.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Tobillera",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "top",
+    "name": "Top",
+    "aliases": [
+      "parte superior"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Nombre amplio para prendas que cubren el torso.",
+    "features": "Incluye diseños de tirantes, manga corta y numerosos escotes.",
+    "example": "Con un pantalón de tiro alto.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Top",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "top-halter",
+    "name": "Top halter",
+    "aliases": [
+      "halter"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Subtipo",
+    "parent": "top",
+    "definition": "Top sujeto alrededor del cuello o con escote de ese tipo.",
+    "features": "El diseño puede dejar parte de los hombros descubierta.",
+    "example": "Con una falda midi.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Top halter",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "image_slug": "escote-halter"
+  },
+  {
+    "slug": "top-strapless",
+    "name": "Top strapless",
+    "aliases": [
+      "palabra de honor",
+      "top sin breteles"
+    ],
+    "category": "Partes superiores",
+    "group": "tops",
+    "kind": "Subtipo",
+    "parent": "top",
+    "definition": "Top sin tirantes que se sostiene por su estructura o elasticidad.",
+    "features": "Es importante probar que se mantenga cómodo sin apretar.",
+    "example": "Con pantalón palazzo y collar.",
+    "fit": "Pecho, ancho de hombros, largo de torso y mangas. Considerá el espacio para moverte.",
+    "materials": "Algodón, viscosa, punto, seda, poliéster o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Top strapless",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "tote",
+    "name": "Tote",
+    "aliases": [
+      "tote bag",
+      "bolso shopper"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Subtipo",
+    "parent": "cartera",
+    "definition": "Bolso generalmente amplio con dos asas.",
+    "features": "Puede ser abierto o tener cierre.",
+    "example": "Con un look casual.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Tote",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Transfemenino",
+    "category": "Identidad y expresión",
+    "definition": "Término amplio que algunas personas trans usan para describir su relación con la feminidad; no implica una apariencia determinada.",
+    "aliases": [
+      "transfem",
+      "transfeminino"
+    ],
+    "slug": "transfemenino",
+    "name": "Transfemenino",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Transgénero",
+    "category": "Identidad y expresión",
+    "definition": "Persona cuya identidad de género difiere del género asignado al nacer. No equivale a crossdresser.",
+    "aliases": [
+      "trans"
+    ],
+    "slug": "transgenero",
+    "name": "Transgénero",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "trench",
+    "name": "Trench",
+    "aliases": [
+      "gabardina",
+      "trench coat"
+    ],
+    "category": "Abrigos",
+    "group": "abrigos",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Abrigo de inspiración impermeable, frecuentemente con cinturón y solapas.",
+    "features": "No toda gabardina es impermeable: verificá el tratamiento de la tela.",
+    "example": "Sobre camisa y pantalón.",
+    "fit": "Pecho, hombros, mangas y holgura para las capas interiores.",
+    "materials": "Lana, gabardina, algodón, tejidos sintéticos o mezclas.",
+    "updated": "2026-11-27",
+    "term": "Trench",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Tucking",
+    "category": "Jerga comunitaria",
+    "definition": "Término para una técnica de presentación que reduce el contorno genital bajo la ropa. No es necesaria para expresar feminidad.",
+    "aliases": [],
+    "slug": "tucking",
+    "name": "Tucking",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "unas-esculpidas",
+    "name": "Uñas esculpidas",
+    "term": "Uñas esculpidas",
+    "category": "Servicios · Uñas",
+    "definition": "Extensiones modeladas con materiales como gel o acrílico para dar longitud y forma a la uña.",
+    "aliases": [
+      "uñas acrílicas",
+      "extensiones de uñas"
+    ],
+    "views": [
+      "services"
+    ],
+    "service_category": "Uñas",
+    "service_parent": "manicura",
+    "related": [],
+    "slug_aliases": []
+  },
+  {
+    "term": "Updo",
+    "category": "Cabello",
+    "definition": "Peinado recogido, como un rodete o trenza recogida.",
+    "aliases": [
+      "recogido"
+    ],
+    "slug": "updo",
+    "name": "Updo",
+    "views": [
+      "services"
+    ],
+    "slug_aliases": [],
+    "related": [
+      "peinado"
+    ],
+    "service_category": "Peluquería",
+    "service_parent": "peinado"
+  },
+  {
+    "slug": "vestido",
+    "name": "Vestido",
+    "aliases": [
+      "dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Prenda de una pieza que combina una parte superior y una falda.",
+    "features": "El corte del torso, la cintura y el largo definen sus variantes.",
+    "example": "Un vestido sencillo con accesorios y ballerinas.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-camisero",
+    "name": "Vestido camisero",
+    "aliases": [
+      "shirt dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido inspirado en una camisa, generalmente con cuello y botones.",
+    "features": "Puede incorporar cinturón y bolsillos.",
+    "example": "Con mocasines y cinturón.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido camisero",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-cruzado",
+    "name": "Vestido cruzado",
+    "aliases": [
+      "wrap dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido con paneles superpuestos que se ajustan alrededor del torso.",
+    "features": "La cintura suele regularse con una atadura.",
+    "example": "Con sandalias y un bolso pequeño.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido cruzado",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-de-coctel",
+    "name": "Vestido de cóctel",
+    "aliases": [
+      "cocktail dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido para ocasiones semiformales, sin un largo único obligatorio.",
+    "features": "El tejido, corte y ocasión distinguen el estilo.",
+    "example": "Con clutch y zapatos de salón.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido de cóctel",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-de-gala",
+    "name": "Vestido de gala",
+    "aliases": [
+      "vestido de noche"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido pensado para ocasiones formales.",
+    "features": "Puede ser largo, estructurado o de tejido fluido.",
+    "example": "Con cartera de mano y joyería discreta.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido de gala",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-evase",
+    "name": "Vestido evasé",
+    "aliases": [
+      "vestido línea A"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido con falda que se abre hacia el ruedo.",
+    "features": "La expansión comienza en la cintura o más arriba según el diseño.",
+    "example": "Con merceditas.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido evasé",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-imperio",
+    "name": "Vestido imperio",
+    "aliases": [
+      "empire dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido con corte de cintura situado justo debajo del busto.",
+    "features": "La falda cae desde una línea elevada.",
+    "example": "Con sandalias y collar fino.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido imperio",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-lencero",
+    "name": "Vestido lencero",
+    "aliases": [
+      "slip dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido de caída ligera inspirado en una combinación o enagua.",
+    "features": "Suele llevar tirantes finos y tejido fluido.",
+    "example": "Sobre una remera o con un cárdigan.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido lencero",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": [],
+    "glossary_definition": "Vestido de caída ligera inspirado en una combinación de ropa interior."
+  },
+  {
+    "slug": "vestido-maxi",
+    "name": "Vestido maxi",
+    "aliases": [
+      "vestido largo"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido cuyo ruedo llega cerca del tobillo o el suelo.",
+    "features": "El largo no determina por sí solo el grado de formalidad.",
+    "example": "Con sandalias planas para un conjunto de verano.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido maxi",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-mini",
+    "name": "Vestido mini",
+    "aliases": [
+      "minivestido"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido con ruedo por encima de la rodilla.",
+    "features": "Puede tener distintos escotes, mangas y cortes.",
+    "example": "Con botas y medias.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido mini",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-sirena",
+    "name": "Vestido sirena",
+    "aliases": [
+      "mermaid dress"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido ajustado que se abre hacia la parte inferior de las piernas.",
+    "features": "El vuelo suele comenzar cerca de la rodilla.",
+    "example": "Para un conjunto formal con accesorios simples.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido sirena",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vestido-tubo",
+    "name": "Vestido tubo",
+    "aliases": [
+      "bodycon",
+      "vestido entallado"
+    ],
+    "category": "Vestidos",
+    "group": "vestidos",
+    "kind": "Subtipo",
+    "parent": "vestido",
+    "definition": "Vestido ceñido que sigue el contorno corporal.",
+    "features": "La elasticidad y las costuras determinan el ajuste.",
+    "example": "Con un blazer abierto.",
+    "fit": "Pecho, cintura, cadera, hombros y largo total. Si hay cierre rígido, verificá las medidas completas.",
+    "materials": "Crepé, algodón, viscosa, satén, punto o denim.",
+    "updated": "2026-11-27",
+    "term": "Vestido tubo",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "vincha",
+    "name": "Vincha",
+    "aliases": [
+      "diadema",
+      "headband"
+    ],
+    "category": "Accesorios y carteras",
+    "group": "accesorios",
+    "kind": "Modelo",
+    "parent": null,
+    "definition": "Accesorio que se coloca alrededor o sobre la cabeza.",
+    "features": "Puede ser rígido, elástico, fino o ancho.",
+    "example": "Con cabello suelto.",
+    "fit": "Dimensiones, longitud de correas, contorno y comodidad según el accesorio.",
+    "materials": "Metal, resina, textiles, cuero, sintéticos u otros materiales.",
+    "updated": "2026-11-27",
+    "term": "Vincha",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Vintage",
+    "category": "Moda",
+    "definition": "Prendas o estilos de épocas pasadas; retro suele describir prendas actuales inspiradas en ellas.",
+    "aliases": [
+      "retro"
+    ],
+    "slug": "vintage",
+    "name": "Vintage",
+    "views": [],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "term": "Wig cap",
+    "category": "Cabello",
+    "definition": "Gorro fino que se coloca debajo de una peluca para mantener el cabello recogido.",
+    "aliases": [
+      "gorro de peluca"
+    ],
+    "slug": "wig-cap",
+    "name": "Wig cap",
+    "views": [],
+    "slug_aliases": [],
+    "related": [
+      "ajuste-de-peluca"
+    ]
+  },
+  {
+    "slug": "zapatilla",
+    "name": "Zapatilla",
+    "aliases": [
+      "sneaker",
+      "tenis"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Calzado de inspiración deportiva o uso casual.",
+    "features": "La amortiguación y construcción dependen del modelo.",
+    "example": "Con calzas o jean.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Zapatilla",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "zapato-de-plataforma",
+    "name": "Zapato de plataforma",
+    "aliases": [
+      "plataformas"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Calzado con suela elevada en la zona delantera.",
+    "features": "La altura de la plataforma y del taco son medidas distintas.",
+    "example": "Con un conjunto retro.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Zapato de plataforma",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "zapato-de-salon",
+    "name": "Zapato de salón",
+    "aliases": [
+      "escarpín",
+      "pump",
+      "court shoe"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Subtipo",
+    "parent": "zapatos",
+    "definition": "Zapato cerrado de empeine relativamente despejado, con o sin taco alto.",
+    "features": "Puede tener punta redonda, cuadrada o fina.",
+    "example": "Con falda lápiz o pantalón de vestir.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Zapato de salón",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
+  },
+  {
+    "slug": "zapatos",
+    "name": "Zapatos",
+    "aliases": [
+      "calzado",
+      "shoes"
+    ],
+    "category": "Calzado",
+    "group": "calzado",
+    "kind": "Familia",
+    "parent": null,
+    "definition": "Familia de prendas que protegen el pie y aportan soporte y estilo.",
+    "features": "Punta, suela, taco, empeine y cierre definen numerosos modelos.",
+    "example": "Un zapato cerrado con pantalón sastrero.",
+    "fit": "Medí ambos pies en centímetros, ancho y empeine. Usá la guía específica del modelo; no hay equivalencia universal.",
+    "materials": "Cuero, textiles, materiales sintéticos, goma y otras combinaciones.",
+    "updated": "2026-11-27",
+    "term": "Zapatos",
+    "views": [
+      "wardrobe"
+    ],
+    "slug_aliases": [],
+    "related": []
   }
 ]

@@ -9,8 +9,8 @@ function encOfferLink($url): bool {
  return is_string($url)&&filter_var($url,FILTER_VALIDATE_URL)!==false&&strtolower((string)parse_url($url,PHP_URL_SCHEME))==='https'&&parse_url($url,PHP_URL_HOST)&&parse_url($url,PHP_URL_USER)===null&&parse_url($url,PHP_URL_PASS)===null;
 }
 function encBuy(array $item,string $mode,string $base): string {
- $ward=$mode==='wardrobe';$entry=$ward?[]:(encReferralCatalog()[$item['slug']]??[]);
- $suggestion=$entry['suggestion']??'';$type=$ward?'product':($entry['type']??'reference');
+ $ward=in_array('wardrobe',$item['views']??[],true);$entry=encReferralCatalog()[$item['slug']]??[];
+ $suggestion=$entry['suggestion']??'';$type=$entry['type']??($ward?'product':'reference');
  $offers=array_merge(is_array($item['offers']??null)?$item['offers']:[],is_array($entry['offers']??null)?$entry['offers']:[]);
  $valid=[];foreach($offers as $offer){if(!is_array($offer)||!encOfferLink($offer['url']??null))continue;$valid[]=$offer;}
  $out='<section class="enc-buy enc-referrals" aria-labelledby="enc-buy-title"><div class="enc-eyebrow">Shopping · Directorio</div><h2 id="enc-buy-title">Dónde conseguirlo</h2>';
@@ -28,7 +28,7 @@ function encBuy(array $item,string $mode,string $base): string {
  }else{
   $out.='<p class="enc-muted">'.($type==='reference'?'Este término no requiere comprar un producto ni contratar un servicio. Si se seleccionan recursos pertinentes, aparecerán aquí.':'Todavía no hay enlaces de compra o servicios seleccionados para esta ficha.').'</p>';
  }
- $out.='<div class="enc-buy-nav"><a href="'.encE($base).'shopping/">Explorar Shopping →</a>';
+ $out.='<div class="enc-buy-nav"><a href="'.encE($base).'shopping/">Explorar Shopping →</a><a href="'.encE($base).'servicios/">Explorar servicios →</a>';
  if($ward||in_array($item['category']??'',['Moda','Calzado'],true))$out.='<a href="'.encE($base).'recursos/talles/index.php">Guía de talles y comercios →</a>';
  return $out.'</div></section>';
 }

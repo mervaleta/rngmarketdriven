@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__.'/encyclopedia-catalog.php';
 // Editorial media catalog: only manually reviewed Commons files and free licenses.
 function studioGlossaryImages(): array {
  static $data=null;
@@ -18,7 +19,7 @@ function studioGlossaryLicense(string $code): array {
  return ['CC '.strtoupper(str_replace('/',' ',$code)),'https://creativecommons.org/licenses/'.$code.'/'];
 }
 function studioGlossaryGallery(string $slug,string $base): string {
- $items=studioGlossaryImages()[$slug]??[];if(!$items)return '';
+ $slug=studioEncyclopediaImageKey($slug);$items=studioGlossaryImages()[$slug]??[];if(!$items)return '';
  $out='<section class="enc-media" aria-label="Referencias visuales"><h2>Referencias visuales</h2><div class="enc-media-grid'.(count($items)===1?' enc-media-single':'').'">';
  foreach($items as $i=>$item){
   [$file,$author,$code,$caption]=$item;[$license,$licenseUrl]=studioGlossaryLicense($code);

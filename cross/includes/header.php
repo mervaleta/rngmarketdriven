@@ -54,7 +54,7 @@ function studioArt(string $name,string $class=''): string{
 function studioHeader(string $active='',string $extra='',bool $anonymous=false): string {
     $base=studioBase();$member=$anonymous?null:studioCurrentMember();$game=studioHeaderGame($member);
     $active=['muro'=>'pluma','foro'=>'pluma','relatos'=>'pluma','glosario'=>'recursos'][$active]??$active;
-    $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['index.php?seccion=pluma-libre','Pluma Libre'],'chat'=>['chat/index.php','Chat'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'ropero'=>['ropero/index.php','Ropero'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
+    $tabs=['ranking'=>['ranking/','Ranking'],'album'=>['album/','Mi álbum'],'pluma'=>['index.php?seccion=pluma-libre','Pluma Libre'],'chat'=>['chat/index.php','Chat'],'perfiles'=>['perfiles/','Perfiles'],'guias'=>['guias/','Guías'],'ropero'=>['ropero/index.php','Ropero'],'servicios'=>['servicios/index.php','Servicios'],'shopping'=>['shopping/','Shopping'],'recursos'=>['recursos/','Recursos'],'minijuegos'=>['minijuegos/','Minijuegos']];
     if($anonymous){
         $out='<header class="studio-header"><div class="studio-top"><a class="studio-brand" href="'.studioEsc($base).'" aria-label="Studio, volver a inicio">studio<span>✦</span></a><div class="studio-extra"><span>Encuesta sin cuenta</span></div></div><nav class="studio-nav" aria-label="Navegación principal">';
         foreach($tabs as $key=>$item){if($key==='ranking'&&!$member)continue;$out.='<a href="'.studioEsc($base.$item[0]).'">'.studioEsc($item[1]).'</a>';}

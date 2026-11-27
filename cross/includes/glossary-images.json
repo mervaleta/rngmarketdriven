@@ -73,28 +73,12 @@
       "Ilustración de zapatos planos tipo ballerina"
     ]
   ],
-  "block-heel": [
-    [
-      "Kitten heels.jpg",
-      "Spera.de",
-      "by/2.0",
-      "Zapatos con tacón bajo de bloque"
-    ]
-  ],
   "kitten-heel": [
     [
       "KittenHeel.jpg",
       "Brett L.",
       "by-sa/2.0",
       "Tacón bajo y fino"
-    ]
-  ],
-  "mary-jane": [
-    [
-      "Mary janes shoes with straps.jpg",
-      "Milli Niko",
-      "by/4.0",
-      "Zapatos con tira sobre el empeine"
     ]
   ],
   "mule": [
@@ -329,6 +313,22 @@
       "Alex Neman",
       "by-sa/4.0",
       "Otra variante de corte bob vista desde atrás"
+    ]
+  ],
+  "mercedita": [
+    [
+      "Mary janes shoes with straps.jpg",
+      "Milli Niko",
+      "by/4.0",
+      "Zapatos con tira sobre el empeine"
+    ]
+  ],
+  "taco-bloque": [
+    [
+      "Kitten heels.jpg",
+      "Spera.de",
+      "by/2.0",
+      "Zapatos con tacón bajo de bloque"
     ]
   ]
 }

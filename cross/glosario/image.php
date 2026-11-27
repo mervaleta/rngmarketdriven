@@ -5,7 +5,7 @@ require dirname(__DIR__).'/includes/glossary-images.php';
 header('X-Content-Type-Options: nosniff');header('Referrer-Policy: no-referrer');header('X-Robots-Tag: noindex, nofollow');
 $slug=$_GET['f']??'';$idx=$_GET['i']??'0';
 if(!is_string($slug)||!is_string($idx)||!preg_match('/^[0-9]{1,2}$/D',$idx)){http_response_code(404);exit;}
-$item=studioGlossaryImages()[$slug][(int)$idx]??null;
+$item=studioGlossaryImages()[studioEncyclopediaImageKey($slug)][(int)$idx]??null;
 if(!$item){http_response_code(404);exit;}
 $thumb=($_GET['thumb']??'')==='1';
 $url=studioGlossaryOriginal($item[0]);

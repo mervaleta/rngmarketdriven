@@ -209,11 +209,6 @@
     "suggestion": "Zapatos abiertos por detrás",
     "offers": []
   },
-  "mary-jane": {
-    "type": "product",
-    "suggestion": "Zapatos Merceditas",
-    "offers": []
-  },
   "slingback": {
     "type": "product",
     "suggestion": "Zapatos con tira trasera",
@@ -232,11 +227,6 @@
   "taco-de-cuna": {
     "type": "product",
     "suggestion": "Calzado con taco de cuña",
-    "offers": []
-  },
-  "block-heel": {
-    "type": "product",
-    "suggestion": "Zapatos con taco ancho",
     "offers": []
   },
   "corset": {
@@ -529,11 +519,6 @@
     "suggestion": "Calzado de distintas hormas y servicios de zapatería",
     "offers": []
   },
-  "wide-leg": {
-    "type": "product",
-    "suggestion": "Pantalones de pierna ancha",
-    "offers": []
-  },
   "bodycon": {
     "type": "product",
     "suggestion": "Vestidos ajustados bodycon",
@@ -562,6 +547,641 @@
   "cartera-capsula": {
     "type": "product",
     "suggestion": "Carteras versátiles y bolsos básicos",
+    "offers": []
+  },
+  "mercedita": {
+    "type": "product",
+    "suggestion": "Zapatos Merceditas",
+    "offers": []
+  },
+  "taco-bloque": {
+    "type": "product",
+    "suggestion": "Zapatos con taco ancho",
+    "offers": []
+  },
+  "pantalon-wide-leg": {
+    "type": "product",
+    "suggestion": "Pantalones de pierna ancha",
+    "offers": []
+  },
+  "pollera": {
+    "type": "product",
+    "suggestion": "Pollera",
+    "offers": []
+  },
+  "minifalda": {
+    "type": "product",
+    "suggestion": "Minifalda",
+    "offers": []
+  },
+  "falda-midi": {
+    "type": "product",
+    "suggestion": "Falda midi",
+    "offers": []
+  },
+  "maxifalda": {
+    "type": "product",
+    "suggestion": "Maxifalda",
+    "offers": []
+  },
+  "falda-evase": {
+    "type": "product",
+    "suggestion": "Falda evasé",
+    "offers": []
+  },
+  "falda-plisada": {
+    "type": "product",
+    "suggestion": "Falda plisada",
+    "offers": []
+  },
+  "falda-plato": {
+    "type": "product",
+    "suggestion": "Falda plato",
+    "offers": []
+  },
+  "falda-cruzada": {
+    "type": "product",
+    "suggestion": "Falda cruzada",
+    "offers": []
+  },
+  "falda-de-tul": {
+    "type": "product",
+    "suggestion": "Falda de tul",
+    "offers": []
+  },
+  "falda-cargo": {
+    "type": "product",
+    "suggestion": "Falda cargo",
+    "offers": []
+  },
+  "falda-de-denim": {
+    "type": "product",
+    "suggestion": "Falda de denim",
+    "offers": []
+  },
+  "falda-asimetrica": {
+    "type": "product",
+    "suggestion": "Falda asimétrica",
+    "offers": []
+  },
+  "vestido": {
+    "type": "product",
+    "suggestion": "Vestido",
+    "offers": []
+  },
+  "vestido-camisero": {
+    "type": "product",
+    "suggestion": "Vestido camisero",
+    "offers": []
+  },
+  "vestido-cruzado": {
+    "type": "product",
+    "suggestion": "Vestido cruzado",
+    "offers": []
+  },
+  "vestido-tubo": {
+    "type": "product",
+    "suggestion": "Vestido tubo",
+    "offers": []
+  },
+  "vestido-evase": {
+    "type": "product",
+    "suggestion": "Vestido evasé",
+    "offers": []
+  },
+  "vestido-imperio": {
+    "type": "product",
+    "suggestion": "Vestido imperio",
+    "offers": []
+  },
+  "vestido-sirena": {
+    "type": "product",
+    "suggestion": "Vestido sirena",
+    "offers": []
+  },
+  "vestido-de-coctel": {
+    "type": "product",
+    "suggestion": "Vestido de cóctel",
+    "offers": []
+  },
+  "vestido-de-gala": {
+    "type": "product",
+    "suggestion": "Vestido de gala",
+    "offers": []
+  },
+  "vestido-maxi": {
+    "type": "product",
+    "suggestion": "Vestido maxi",
+    "offers": []
+  },
+  "vestido-mini": {
+    "type": "product",
+    "suggestion": "Vestido mini",
+    "offers": []
+  },
+  "blusa": {
+    "type": "product",
+    "suggestion": "Blusa",
+    "offers": []
+  },
+  "camisa": {
+    "type": "product",
+    "suggestion": "Camisa",
+    "offers": []
+  },
+  "top": {
+    "type": "product",
+    "suggestion": "Top",
+    "offers": []
+  },
+  "crop-top": {
+    "type": "product",
+    "suggestion": "Crop top",
+    "offers": []
+  },
+  "musculosa": {
+    "type": "product",
+    "suggestion": "Musculosa",
+    "offers": []
+  },
+  "camiseta": {
+    "type": "product",
+    "suggestion": "Camiseta",
+    "offers": []
+  },
+  "top-halter": {
+    "type": "product",
+    "suggestion": "Top halter",
+    "offers": []
+  },
+  "top-strapless": {
+    "type": "product",
+    "suggestion": "Top strapless",
+    "offers": []
+  },
+  "cardigan": {
+    "type": "product",
+    "suggestion": "Cárdigan",
+    "offers": []
+  },
+  "pantalon": {
+    "type": "product",
+    "suggestion": "Pantalón",
+    "offers": []
+  },
+  "calzas": {
+    "type": "product",
+    "suggestion": "Calzas",
+    "offers": []
+  },
+  "calzas-ciclistas": {
+    "type": "product",
+    "suggestion": "Calzas ciclistas",
+    "offers": []
+  },
+  "pantalon-palazzo": {
+    "type": "product",
+    "suggestion": "Pantalón palazzo",
+    "offers": []
+  },
+  "jean-skinny": {
+    "type": "product",
+    "suggestion": "Jean skinny",
+    "offers": []
+  },
+  "jean-mom": {
+    "type": "product",
+    "suggestion": "Jean mom",
+    "offers": []
+  },
+  "pantalon-cargo": {
+    "type": "product",
+    "suggestion": "Pantalón cargo",
+    "offers": []
+  },
+  "pantalon-acampanado": {
+    "type": "product",
+    "suggestion": "Pantalón acampanado",
+    "offers": []
+  },
+  "short": {
+    "type": "product",
+    "suggestion": "Short",
+    "offers": []
+  },
+  "culotte-de-vestir": {
+    "type": "product",
+    "suggestion": "Culotte de vestir",
+    "offers": []
+  },
+  "enterito": {
+    "type": "product",
+    "suggestion": "Enterito",
+    "offers": []
+  },
+  "blazer": {
+    "type": "product",
+    "suggestion": "Blazer",
+    "offers": []
+  },
+  "trench": {
+    "type": "product",
+    "suggestion": "Trench",
+    "offers": []
+  },
+  "tapado": {
+    "type": "product",
+    "suggestion": "Tapado",
+    "offers": []
+  },
+  "campera": {
+    "type": "product",
+    "suggestion": "Campera",
+    "offers": []
+  },
+  "bolero": {
+    "type": "product",
+    "suggestion": "Bolero",
+    "offers": []
+  },
+  "poncho": {
+    "type": "product",
+    "suggestion": "Poncho",
+    "offers": []
+  },
+  "bombacha": {
+    "type": "product",
+    "suggestion": "Bombacha",
+    "offers": []
+  },
+  "tanga": {
+    "type": "product",
+    "suggestion": "Tanga",
+    "offers": []
+  },
+  "culotte-interior": {
+    "type": "product",
+    "suggestion": "Culotte interior",
+    "offers": []
+  },
+  "bombacha-tiro-alto": {
+    "type": "product",
+    "suggestion": "Bombacha tiro alto",
+    "offers": []
+  },
+  "corpino": {
+    "type": "product",
+    "suggestion": "Corpiño",
+    "offers": []
+  },
+  "corpino-push-up": {
+    "type": "product",
+    "suggestion": "Corpiño push-up",
+    "offers": []
+  },
+  "corpino-sin-breteles": {
+    "type": "product",
+    "suggestion": "Corpiño sin breteles",
+    "offers": []
+  },
+  "bustier": {
+    "type": "product",
+    "suggestion": "Bustiér",
+    "offers": []
+  },
+  "faja-modeladora": {
+    "type": "product",
+    "suggestion": "Faja modeladora",
+    "offers": []
+  },
+  "enagua": {
+    "type": "product",
+    "suggestion": "Enagua",
+    "offers": []
+  },
+  "camison": {
+    "type": "product",
+    "suggestion": "Camisón",
+    "offers": []
+  },
+  "body-interior": {
+    "type": "product",
+    "suggestion": "Body interior",
+    "offers": []
+  },
+  "medias": {
+    "type": "product",
+    "suggestion": "Medias",
+    "offers": []
+  },
+  "medias-de-nylon": {
+    "type": "product",
+    "suggestion": "Medias de nylon",
+    "offers": []
+  },
+  "medias-con-lycra": {
+    "type": "product",
+    "suggestion": "Medias con Lycra",
+    "offers": []
+  },
+  "medias-hasta-el-muslo": {
+    "type": "product",
+    "suggestion": "Medias hasta el muslo",
+    "offers": []
+  },
+  "medias-de-red": {
+    "type": "product",
+    "suggestion": "Medias de red",
+    "offers": []
+  },
+  "medias-opacas": {
+    "type": "product",
+    "suggestion": "Medias opacas",
+    "offers": []
+  },
+  "medias-transparentes": {
+    "type": "product",
+    "suggestion": "Medias transparentes",
+    "offers": []
+  },
+  "medias-con-costura": {
+    "type": "product",
+    "suggestion": "Medias con costura",
+    "offers": []
+  },
+  "medias-hasta-la-rodilla": {
+    "type": "product",
+    "suggestion": "Medias hasta la rodilla",
+    "offers": []
+  },
+  "medias-termicas": {
+    "type": "product",
+    "suggestion": "Medias térmicas",
+    "offers": []
+  },
+  "medias-tobilleras": {
+    "type": "product",
+    "suggestion": "Medias tobilleras",
+    "offers": []
+  },
+  "zapatos": {
+    "type": "product",
+    "suggestion": "Zapatos",
+    "offers": []
+  },
+  "zapato-de-salon": {
+    "type": "product",
+    "suggestion": "Zapato de salón",
+    "offers": []
+  },
+  "sandalia": {
+    "type": "product",
+    "suggestion": "Sandalia",
+    "offers": []
+  },
+  "sandalia-de-taco": {
+    "type": "product",
+    "suggestion": "Sandalia de taco",
+    "offers": []
+  },
+  "bota": {
+    "type": "product",
+    "suggestion": "Bota",
+    "offers": []
+  },
+  "botin": {
+    "type": "product",
+    "suggestion": "Botín",
+    "offers": []
+  },
+  "bota-alta": {
+    "type": "product",
+    "suggestion": "Bota alta",
+    "offers": []
+  },
+  "bota-texana": {
+    "type": "product",
+    "suggestion": "Bota texana",
+    "offers": []
+  },
+  "mocasin": {
+    "type": "product",
+    "suggestion": "Mocasín",
+    "offers": []
+  },
+  "zapatilla": {
+    "type": "product",
+    "suggestion": "Zapatilla",
+    "offers": []
+  },
+  "alpargata": {
+    "type": "product",
+    "suggestion": "Alpargata",
+    "offers": []
+  },
+  "zapato-de-plataforma": {
+    "type": "product",
+    "suggestion": "Zapato de plataforma",
+    "offers": []
+  },
+  "cartera": {
+    "type": "product",
+    "suggestion": "Cartera",
+    "offers": []
+  },
+  "clutch": {
+    "type": "product",
+    "suggestion": "Clutch",
+    "offers": []
+  },
+  "tote": {
+    "type": "product",
+    "suggestion": "Tote",
+    "offers": []
+  },
+  "bandolera": {
+    "type": "product",
+    "suggestion": "Bandolera",
+    "offers": []
+  },
+  "baguette": {
+    "type": "product",
+    "suggestion": "Baguette",
+    "offers": []
+  },
+  "cinturon": {
+    "type": "product",
+    "suggestion": "Cinturón",
+    "offers": []
+  },
+  "panuelo": {
+    "type": "product",
+    "suggestion": "Pañuelo",
+    "offers": []
+  },
+  "vincha": {
+    "type": "product",
+    "suggestion": "Vincha",
+    "offers": []
+  },
+  "mono": {
+    "type": "product",
+    "suggestion": "Moño",
+    "offers": []
+  },
+  "collar": {
+    "type": "product",
+    "suggestion": "Collar",
+    "offers": []
+  },
+  "gargantilla": {
+    "type": "product",
+    "suggestion": "Gargantilla",
+    "offers": []
+  },
+  "aros": {
+    "type": "product",
+    "suggestion": "Aros",
+    "offers": []
+  },
+  "pulsera": {
+    "type": "product",
+    "suggestion": "Pulsera",
+    "offers": []
+  },
+  "anillo": {
+    "type": "product",
+    "suggestion": "Anillo",
+    "offers": []
+  },
+  "tobillera": {
+    "type": "product",
+    "suggestion": "Tobillera",
+    "offers": []
+  },
+  "broche": {
+    "type": "product",
+    "suggestion": "Broche",
+    "offers": []
+  },
+  "guantes": {
+    "type": "product",
+    "suggestion": "Guantes",
+    "offers": []
+  },
+  "sombrero": {
+    "type": "product",
+    "suggestion": "Sombrero",
+    "offers": []
+  },
+  "manicura": {
+    "type": "service",
+    "suggestion": "Servicio de manicura básica o con esmaltado",
+    "offers": []
+  },
+  "pedicura": {
+    "type": "service",
+    "suggestion": "Servicio de pedicura estética",
+    "offers": []
+  },
+  "esmaltado-semipermanente": {
+    "type": "service",
+    "suggestion": "Esmaltado semipermanente y retirada",
+    "offers": []
+  },
+  "unas-esculpidas": {
+    "type": "service",
+    "suggestion": "Colocación y mantenimiento de uñas esculpidas",
+    "offers": []
+  },
+  "depilacion": {
+    "type": "service",
+    "suggestion": "Consulta sobre técnicas de depilación",
+    "offers": []
+  },
+  "depilacion-con-cera": {
+    "type": "service",
+    "suggestion": "Depilación con cera por zona",
+    "offers": []
+  },
+  "depilacion-con-hilo": {
+    "type": "service",
+    "suggestion": "Perfilado y depilación con hilo",
+    "offers": []
+  },
+  "depilacion-laser": {
+    "type": "service",
+    "suggestion": "Evaluación con un profesional cualificado en depilación láser",
+    "offers": []
+  },
+  "perfilado-de-cejas": {
+    "type": "service",
+    "suggestion": "Diseño y perfilado de cejas",
+    "offers": []
+  },
+  "laminado-de-cejas": {
+    "type": "service",
+    "suggestion": "Laminado de cejas",
+    "offers": []
+  },
+  "lifting-de-pestanas": {
+    "type": "service",
+    "suggestion": "Lifting de pestañas con profesional capacitado",
+    "offers": []
+  },
+  "extensiones-de-pestanas": {
+    "type": "service",
+    "suggestion": "Colocación y mantenimiento de extensiones",
+    "offers": []
+  },
+  "peluqueria": {
+    "type": "service",
+    "suggestion": "Consulta y servicios de peluquería",
+    "offers": []
+  },
+  "corte-de-pelo": {
+    "type": "service",
+    "suggestion": "Corte de pelo y asesoramiento de estilo",
+    "offers": []
+  },
+  "coloracion-de-cabello": {
+    "type": "service",
+    "suggestion": "Coloración de cabello",
+    "offers": []
+  },
+  "peinado": {
+    "type": "service",
+    "suggestion": "Peinados para distintas ocasiones",
+    "offers": []
+  },
+  "ajuste-de-peluca": {
+    "type": "service",
+    "suggestion": "Prueba, ajuste y estilizado de pelucas",
+    "offers": []
+  },
+  "maquillaje-profesional": {
+    "type": "service",
+    "suggestion": "Sesión de maquillaje profesional",
+    "offers": []
+  },
+  "clase-de-automaquillaje": {
+    "type": "service",
+    "suggestion": "Clases individuales o grupales de automaquillaje",
+    "offers": []
+  },
+  "asesoria-de-imagen": {
+    "type": "service",
+    "suggestion": "Asesoría de imagen y estilo",
+    "offers": []
+  },
+  "arreglos-de-ropa": {
+    "type": "service",
+    "suggestion": "Presupuesto de arreglos de prendas",
+    "offers": []
+  },
+  "confeccion-a-medida": {
+    "type": "service",
+    "suggestion": "Confección y pruebas de prendas a medida",
     "offers": []
   }
 }
