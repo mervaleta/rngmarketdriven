@@ -12,19 +12,40 @@ function studioEmailValue(string $email): string{
 function studioEmailKey(string $email): string{
  global $cfg;return hash_hmac('sha256','studio-email-v1:'.$email,$cfg['setup_key']);
 }
-function studioMailReady(): bool{
- global $cfg;$m=$cfg['smtp']??null;
- return is_array($m)&&is_string($m['host']??null)&&$m['host']!==''&&is_string($m['username']??null)&&filter_var($m['username'],FILTER_VALIDATE_EMAIL)!==false&&is_string($m['password']??null)&&$m['password']!==''&&in_array((int)($m['port']??0),[465,587],true)&&is_file(__DIR__.'/vendor/PHPMailer/src/PHPMailer.php');
+// Reuse the existing private Hostinger SMTP transport only, never its accounts/database.
+function studioMailConfig(): ?array{
+ global $cfg;static $done=false,$mail=null;if($done)return $mail;$done=true;
+ if(isset($cfg['smtp'])){$m=$cfg['smtp'];}
+ else{
+  if(($cfg['reuse_existing_smtp']??true)!==true)return null;
+  try{
+   $root=@realpath((string)($_SERVER['DOCUMENT_ROOT']??''));$dir=@realpath(__DIR__);
+   $safe=function($candidate)use($root){$p=@realpath($candidate);if(!$p||!@is_file($p)||!@is_readable($p)||preg_match('~(?:^|/)public_html(?:/|$)~i',$p)||($root&&str_starts_with($p,rtrim($root,'/').'/')))return null;$mode=@fileperms($p);return $mode!==false&&($mode&0077)===0?$p:null;};
+   if(!getenv('TICKERTICK_MAIL_FROM')){
+    $candidates=[];$explicit=getenv('TICKERTICK_PRIVATE_CONFIG_PATH');if($explicit)$candidates[]=$explicit;
+    $candidates[]='/home/u931528598/private/tickertick_config.php';
+    for($d=$dir,$i=0;$d&&$i<10;$i++,$d=dirname($d)){$candidates[]=$d.'/private/tickertick_config.php';if($d==='/')break;}
+    foreach(array_unique($candidates) as $candidate){$path=$safe($candidate);if($path){require_once $path;break;}}
+   }
+   $from=(string)getenv('TICKERTICK_MAIL_FROM');$explicit=getenv('TICKERTICK_SMTP_PASSWORD_FILE');$candidates=$explicit?[$explicit]:['/home/u931528598/private/tickertick_smtp_password'];
+   if(!$explicit)for($d=$dir,$i=0;$d&&$i<10;$i++,$d=dirname($d)){$candidates[]=$d.'/private/tickertick_smtp_password';if($d==='/')break;}
+   $password='';foreach(array_unique($candidates) as $candidate){$path=$safe($candidate);if($path){$password=rtrim((string)file_get_contents($path),"\r\n");break;}}
+   $m=['host'=>(string)(getenv('TICKERTICK_SMTP_HOST')?:'smtp.hostinger.com'),'port'=>(int)(getenv('TICKERTICK_SMTP_PORT')?:465),'username'=>$from,'password'=>$password];
+  }catch(Throwable $e){return null;}
+ }
+ if(!is_array($m)||!is_string($m['host']??null)||!preg_match('/^[a-zA-Z0-9.-]+$/D',$m['host'])||!is_string($m['username']??null)||!filter_var($m['username'],FILTER_VALIDATE_EMAIL)||!is_string($m['password']??null)||$m['password']===''||!in_array((int)($m['port']??0),[465,587],true)||!extension_loaded('openssl'))return null;
+ return $mail=$m;
 }
+function studioMailReady(): bool{return studioMailConfig()!==null&&is_file(__DIR__.'/vendor/PHPMailer/src/PHPMailer.php');}
 function studioMailCode(string $to,string $code): void{
  global $cfg;
  if(!studioMailReady())err('El envío de correos todavía no está configurado.');
  $dir=__DIR__.'/vendor/PHPMailer/src/';
  require_once $dir.'Exception.php';require_once $dir.'SMTP.php';require_once $dir.'PHPMailer.php';
- $m=$cfg['smtp'];$mail=new \PHPMailer\PHPMailer\PHPMailer(true);
+ $m=studioMailConfig();$mail=new \PHPMailer\PHPMailer\PHPMailer(true);
  $mail->isSMTP();$mail->Host=$m['host'];$mail->SMTPAuth=true;$mail->Username=$m['username'];$mail->Password=$m['password'];$mail->Port=(int)$m['port'];$mail->SMTPSecure=$mail->Port===465?\PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS:\PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
  $mail->Timeout=12;$mail->SMTPDebug=0;$mail->CharSet='UTF-8';
- $mail->setFrom($m['username'],'Studio');$mail->addAddress($to);$mail->Subject='Código de acceso · Studio';
+ $mail->setFrom($m['username'],'Acceso');$mail->addAddress($to);$mail->Subject='Código de acceso';
  $mail->Body="Tu código de verificación es: ".$code."\n\nVence en 15 minutos. Ingresalo en la página donde lo solicitaste. No lo compartas.\nSi no solicitaste este código, ignorá este mensaje.";
  try{$mail->send();}catch(Throwable $e){err('No se pudo enviar el código. Probá más tarde.');}
 }
