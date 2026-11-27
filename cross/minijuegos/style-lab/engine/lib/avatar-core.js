@@ -56,7 +56,11 @@ async function drain(){
   scheduled=false;if(draining)return;draining=true;
   try{
     while(queue.length){
-      const batch=queue.splice(0,12);
+      // Geometry outranks textures and gallery thumbnails; never queue a new outfit behind a whole gallery.
+      queue.sort((a,b)=>a.priority-b.priority);
+      const priority=queue[0].priority;
+      const count=Math.min(12,queue.filter(x=>x.priority===priority).length);
+      const batch=queue.splice(0,count);
       try{
         if(packAvailable){
           try{await unpack(batch);continue;}
@@ -71,7 +75,9 @@ export function fetchRetry(url,tries=4){
   const absolute=new URL(url,document.baseURI);
   if(absolute.origin!==assetsRoot.origin||!absolute.pathname.startsWith(assetsRoot.pathname))return request(absolute,tries);
   return new Promise((resolve,reject)=>{
-    queue.push({name:decodeURIComponent(absolute.pathname.slice(assetsRoot.pathname.length)),url:absolute,tries,resolve,reject});
+    const name=decodeURIComponent(absolute.pathname.slice(assetsRoot.pathname.length));
+    const priority=/^(thumbs|presets)\//.test(name)&&!/\.json$/.test(name)?2:/^(textures|masks)\//.test(name)?1:0;
+    queue.push({name,url:absolute,priority,tries,resolve,reject});
     if(!scheduled&&!draining){scheduled=true;setTimeout(drain,25);}
   });
 }
