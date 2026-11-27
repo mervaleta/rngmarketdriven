@@ -4,13 +4,19 @@
       "A corset.jpg",
       "Chowkyy",
       "by-sa/4.0",
-      "Corsé estructurado"
+      "Corsé estructurado",
+      {
+        "local": "assets/glossary/commons/243de4662ec0b7db18170467927b7e89.jpg"
+      }
     ],
     [
       "Corsets - Corset.jpg",
       "Arocamora",
       "by-sa/4.0",
-      "Corsé azul"
+      "Corsé azul",
+      {
+        "local": "assets/glossary/commons/6b7db9ab8f9e38ea51b887c717800b4b.jpg"
+      }
     ]
   ],
   "bralette": [
@@ -18,7 +24,10 @@
       "Victoria secret bralette.jpg",
       "Nowforever",
       "by-sa/4.0",
-      "Bralette"
+      "Bralette",
+      {
+        "local": "assets/glossary/commons/10b05c98c579a63401a6bac00a0669a4.jpg"
+      }
     ]
   ],
   "liguero": [
@@ -26,7 +35,10 @@
       "Garter belt.jpg",
       "Antique Rose",
       "by/2.5",
-      "Liguero de encaje con cuatro tiras"
+      "Liguero de encaje con cuatro tiras",
+      {
+        "local": "assets/glossary/commons/d0274f7d80c6f079dee6c431e96d0fef.jpg"
+      }
     ]
   ],
   "breast-forms": [
@@ -34,13 +46,19 @@
       "Breast prosthesis ABC teardrop.jpg",
       "Fotostudio KME GmbH",
       "by-sa/4.0",
-      "Prótesis externa con forma de gota"
+      "Prótesis externa con forma de gota",
+      {
+        "local": "assets/glossary/commons/6947532487466f7fe66b024bba290ebd.jpg"
+      }
     ],
     [
       "Breast prosthesis ABC adhesive.jpg",
       "American Breast Care, LP",
       "by-sa/4.0",
-      "Prótesis externa autoadhesiva"
+      "Prótesis externa autoadhesiva",
+      {
+        "local": "assets/glossary/commons/f10faac743773a1b45203df6c8e08b4c.jpg"
+      }
     ]
   ],
   "falda-lapiz": [
@@ -48,13 +66,19 @@
       "Kristian Leigh pencil skirt.jpg",
       "Marek Koudelka",
       "by-sa/4.0",
-      "Falda lápiz de los años 80"
+      "Falda lápiz de los años 80",
+      {
+        "local": "assets/glossary/commons/3e0204a76766a547b1c34afc24a877d1.jpg"
+      }
     ],
     [
       "Pencil skirt.jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Dibujo técnico de falda lápiz"
+      "Dibujo técnico de falda lápiz",
+      {
+        "local": "assets/glossary/commons/cdf3da0223713574caa678e043b52a1e.jpg"
+      }
     ]
   ],
   "culotte": [
@@ -62,7 +86,10 @@
       "Culottes (drawing).jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Culotte de pernera ancha: ilustración"
+      "Culotte de pernera ancha: ilustración",
+      {
+        "local": "assets/glossary/commons/7912fcae72f1b61390c8b201f9473d98.jpg"
+      }
     ]
   ],
   "ballerina": [
@@ -70,7 +97,10 @@
       "Ballet flats.jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Ilustración de zapatos planos tipo ballerina"
+      "Ilustración de zapatos planos tipo ballerina",
+      {
+        "local": "assets/glossary/commons/acda829c0f9a3e72c503ff1ba599db16.jpg"
+      }
     ]
   ],
   "kitten-heel": [
@@ -78,7 +108,10 @@
       "KittenHeel.jpg",
       "Brett L.",
       "by-sa/2.0",
-      "Tacón bajo y fino"
+      "Tacón bajo y fino",
+      {
+        "local": "assets/glossary/commons/2a9bad6b6b13532ab097cca99d681862.jpg"
+      }
     ]
   ],
   "mule": [
@@ -86,13 +119,19 @@
       "Mule shoes black.jpg",
       "SophomeerSophie",
       "cc0",
-      "Mules negros abiertos por detrás"
+      "Mules negros abiertos por detrás",
+      {
+        "local": "assets/glossary/commons/d3a5ad5419493cc511ac2f1c9cd392f6.jpg"
+      }
     ],
     [
       "Mules (shoes).jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Ilustración del modelo mule"
+      "Ilustración del modelo mule",
+      {
+        "local": "assets/glossary/commons/feca8ecc35ff05bf7cff88cadcbc61a2.jpg"
+      }
     ]
   ],
   "peep-toe": [
@@ -100,7 +139,10 @@
       "Peep toe.jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Ilustración de zapato con abertura en la punta"
+      "Ilustración de zapato con abertura en la punta",
+      {
+        "local": "assets/glossary/commons/3601c11a0c08266cd009e4b677651b51.jpg"
+      }
     ]
   ],
   "stiletto": [
@@ -108,13 +150,19 @@
       "Stilettos-heels-a.JPG",
       "Xingbo",
       "pd",
-      "Zapatos negros de tacón de aguja"
+      "Zapatos negros de tacón de aguja",
+      {
+        "local": "assets/glossary/commons/a77c8af75fdd521a7bfd3fb514097632.jpg"
+      }
     ],
     [
       "Stilettos.jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Ilustración de la silueta stiletto"
+      "Ilustración de la silueta stiletto",
+      {
+        "local": "assets/glossary/commons/7f1de615b17cd2e71e53b0e0e7fd034e.jpg"
+      }
     ]
   ],
   "blush": [
@@ -122,7 +170,10 @@
       "Blush and blush brush.jpg",
       "Jen (Calliopejen1)",
       "by-sa/3.0",
-      "Rubor compacto y brocha"
+      "Rubor compacto y brocha",
+      {
+        "local": "assets/glossary/commons/c84b8e931464fbe39cf8488a10368dd5.jpg"
+      }
     ]
   ],
   "bronzer": [
@@ -130,7 +181,10 @@
       "Make Up Brushes and Bronzer - 50888164487.jpg",
       "Gee Hair (geehair.com)",
       "by/2.0",
-      "Bronzer y brochas"
+      "Bronzer y brochas",
+      {
+        "local": "assets/glossary/commons/9e280706149b11d2eafe9ef09b2e3289.jpg"
+      }
     ]
   ],
   "cat-eye": [
@@ -138,7 +192,10 @@
       "A woman wearing Eye Shadow.jpg",
       "wilkernet",
       "cc0",
-      "Delineado alado con sombra dorada"
+      "Delineado alado con sombra dorada",
+      {
+        "local": "assets/glossary/commons/1eae08179cc25a05bb82da3c85e9783a.jpg"
+      }
     ]
   ],
   "foundation": [
@@ -146,7 +203,10 @@
       "Foundation (cosmetics).jpg",
       "Jen (Calliopejen1)",
       "by-sa/3.0",
-      "Base de maquillaje sobre la piel, sin difuminar"
+      "Base de maquillaje sobre la piel, sin difuminar",
+      {
+        "local": "assets/glossary/commons/9539cde2dc0f0881e9764410fc71acb1.jpg"
+      }
     ]
   ],
   "primer": [
@@ -154,7 +214,10 @@
       "Laura Mercier - Foundation primer.jpg",
       "Arienne McCracken",
       "by-sa/2.0",
-      "Kit de maquillaje que incluye prebase"
+      "Kit de maquillaje que incluye prebase",
+      {
+        "local": "assets/glossary/commons/d78757d377355d7f4ebb5ae4ed2895c7.jpg"
+      }
     ]
   ],
   "lip-liner": [
@@ -162,7 +225,10 @@
       "Lip Makeup.jpg",
       "222222344444456gg",
       "by-sa/4.0",
-      "Lápices delineadores de labios"
+      "Lápices delineadores de labios",
+      {
+        "local": "assets/glossary/commons/e9e804a7f96725727554aa4d15d2aea4.jpg"
+      }
     ]
   ],
   "manicura-francesa": [
@@ -170,7 +236,10 @@
       "Natural French manicure.jpg",
       "Fing'rs",
       "by/2.0",
-      "Manicura francesa con puntas claras"
+      "Manicura francesa con puntas claras",
+      {
+        "local": "assets/glossary/commons/ed2c2944f5c14a4ff7d0576957beacd6.jpg"
+      }
     ]
   ],
   "slingback": [
@@ -178,7 +247,10 @@
       "Slingback-shoes.jpg",
       "Lisa",
       "by/2.0",
-      "Zapatos con tira en el talón"
+      "Zapatos con tira en el talón",
+      {
+        "local": "assets/glossary/commons/6260382b44c611946d81f96b8c999075.jpg"
+      }
     ]
   ],
   "taco-de-cuna": [
@@ -186,7 +258,10 @@
       "Wedge.jpg",
       "twicepix",
       "by-sa/2.0",
-      "Zapato con taco de cuña"
+      "Zapato con taco de cuña",
+      {
+        "local": "assets/glossary/commons/d77af79594860bef81150309c82566c9.jpg"
+      }
     ]
   ],
   "escote-halter": [
@@ -194,7 +269,10 @@
       "Haltertop.jpg",
       "At~A~Glance / Katie Tegtmeyer",
       "by/2.0",
-      "Top con sujeción alrededor del cuello"
+      "Top con sujeción alrededor del cuello",
+      {
+        "local": "assets/glossary/commons/4ff2bc8ff09f17eae6abc12122e5d028.jpg"
+      }
     ]
   ],
   "strapless": [
@@ -202,13 +280,19 @@
       "Strapless dress.jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Ilustración de vestido sin tirantes"
+      "Ilustración de vestido sin tirantes",
+      {
+        "local": "assets/glossary/commons/9e8b90108d9f621e1b30cb849c17aa7f.jpg"
+      }
     ],
     [
       "1958 Coco Chanel strapless evening dress, black lace with velvet sash.jpg",
       "Fotógrafo del RISD Museum of Art",
       "cc0",
-      "Vestido de noche sin tirantes, con encaje"
+      "Vestido de noche sin tirantes, con encaje",
+      {
+        "local": "assets/glossary/commons/f68b19f99051015f15dbb1cf25d19678.jpg"
+      }
     ]
   ],
   "pantimedias": [
@@ -216,7 +300,10 @@
       "Pantyhose (drawing).jpg",
       "David Ring / Europeana Fashion / MoMu",
       "cc0",
-      "Dibujo técnico de pantimedias"
+      "Dibujo técnico de pantimedias",
+      {
+        "local": "assets/glossary/commons/e7a5e0897b620bd0bc59703b4bc5238f.jpg"
+      }
     ]
   ],
   "saten": [
@@ -224,7 +311,10 @@
       "Charmeuse.jpg",
       "Enby",
       "by-sa/4.0",
-      "Tela charmeuse: cara satinada brillante y reverso mate"
+      "Tela charmeuse: cara satinada brillante y reverso mate",
+      {
+        "local": "assets/glossary/commons/63ec54d26872129be86bf91e6bd4973a.jpg"
+      }
     ]
   ],
   "encaje": [
@@ -232,7 +322,10 @@
       "Irish crochet lace with a fabric insert.jpg",
       "Smirkybec",
       "by-sa/4.0",
-      "Encaje irlandés de crochet"
+      "Encaje irlandés de crochet",
+      {
+        "local": "assets/glossary/commons/861406eb906571780a7fd2540f7a5440.jpg"
+      }
     ]
   ],
   "fishnet": [
@@ -240,7 +333,10 @@
       "Fishnet stockings from below.jpg",
       "Emdot",
       "by/2.0",
-      "Medias de red negras"
+      "Medias de red negras",
+      {
+        "local": "assets/glossary/commons/43dabcec8d89fa779a2988bc8c8fbdc4.jpg"
+      }
     ]
   ],
   "concealer": [
@@ -248,13 +344,19 @@
       "Concealer.jpg",
       "Jen (Calliopejen1)",
       "by-sa/3.0",
-      "Corrector de maquillaje"
+      "Corrector de maquillaje",
+      {
+        "local": "assets/glossary/commons/a8869660a4afd5f98b8459b001a5d368.jpg"
+      }
     ],
     [
       "Concealer (2).jpg",
       "Benff",
       "by-sa/4.0",
-      "Otra presentación de corrector"
+      "Otra presentación de corrector",
+      {
+        "local": "assets/glossary/commons/9c37c192ee2047f7df93fe6c54223186.jpg"
+      }
     ]
   ],
   "contouring": [
@@ -262,7 +364,10 @@
       "Example for contouring the cheekbone with makeup.jpg",
       "Tobias ToMar Maier",
       "by-sa/3.0",
-      "Ejemplo de contorno de pómulo con maquillaje"
+      "Ejemplo de contorno de pómulo con maquillaje",
+      {
+        "local": "assets/glossary/commons/2480847cdb1124d62aaceb3493887b85.jpg"
+      }
     ]
   ],
   "smokey-eye": [
@@ -270,7 +375,10 @@
       "Kylee Fleek Rainbow Smokey Eye Makeup.jpg",
       "Kylee Fleek",
       "by-sa/4.0",
-      "Maquillaje de ojos ahumado multicolor"
+      "Maquillaje de ojos ahumado multicolor",
+      {
+        "local": "assets/glossary/commons/55292e4e353876049969614b60573d85.jpg"
+      }
     ]
   ],
   "nail-art": [
@@ -278,13 +386,19 @@
       "Nail art.jpg",
       "NüBR",
       "cc0",
-      "Ejemplo de decoración de uñas"
+      "Ejemplo de decoración de uñas",
+      {
+        "local": "assets/glossary/commons/fcf0bf3b66320cf35f1a945715aa53ce.jpg"
+      }
     ],
     [
       "Nailart.jpg",
       "Biamelie",
       "by-sa/4.0",
-      "Decoración de uñas con motivo Pac-Man"
+      "Decoración de uñas con motivo Pac-Man",
+      {
+        "local": "assets/glossary/commons/a3d989d09b714d1cf399b5e67117ce70.jpg"
+      }
     ]
   ],
   "horma": [
@@ -292,7 +406,10 @@
       "Michael Fallon, Shoe Last, 1938, NGA 24117.jpg",
       "Michael Fallon / National Gallery of Art",
       "cc0",
-      "Ilustración de una horma de zapatero"
+      "Ilustración de una horma de zapatero",
+      {
+        "local": "assets/glossary/commons/22b4ca6fc5cc05ca0d86b5f28f0a7653.jpg"
+      }
     ],
     [
       "George Bobholz, Shoe Last, 1938, NGA 24115.jpg",
