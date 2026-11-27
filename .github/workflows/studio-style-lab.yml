@@ -1,0 +1,48 @@
+name: Publish Studio Style Lab 3D
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'cross/minijuegos/style-lab/**'
+      - 'cross/scripts/publish-style-lab.py'
+      - '.github/workflows/studio-style-lab.yml'
+permissions:
+  contents: read
+concurrency:
+  group: studio-style-lab-deploy
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build pinned local editor
+        run: python3 cross/scripts/publish-style-lab.py build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: studio-style-lab-3d
+          path: studio-release/cross/
+          include-hidden-files: true
+          retention-days: 7
+      - name: Publish Style Lab only over FTPS
+        env:
+          STUDIO_FTP_HOST: ${{ secrets.STUDIO_FTP_HOST || secrets.HOSTINGER_FTP_HOST || secrets.FTP_HOST }}
+          STUDIO_FTP_USER: ${{ secrets.STUDIO_FTP_USER || secrets.HOSTINGER_FTP_USER || secrets.FTP_USER }}
+          STUDIO_FTP_PASSWORD: ${{ secrets.STUDIO_FTP_PASSWORD || secrets.HOSTINGER_FTP_PASSWORD || secrets.FTP_PASSWORD }}
+          STUDIO_FTP_ROOT: ${{ secrets.STUDIO_FTP_ROOT }}
+          STUDIO_FTP_PORT: ${{ secrets.STUDIO_FTP_PORT }}
+        run: python3 cross/scripts/publish-style-lab.py deploy
+      - name: Verify editor and compressed mesh response
+        run: |
+          python3 - <<'PY'
+          import urllib.request
+          base='https://rngmarketdriven.com/cross/minijuegos/style-lab/'
+          def get(rel):
+              with urllib.request.urlopen(base+rel,timeout=25) as r: return r.read()
+          assert b'Style Lab 3D' in get('index.php?mode=duel')
+          assert b'engine/editor/' in get('index.php')
+          assert b'Studio' in get('engine/editor/index.html')
+          assert get('engine/assets/base.bin.gz').startswith(b'\x1f\x8b')
+          PY
