@@ -32,7 +32,8 @@ export function styleThumb(s: Style, g: Gender): string {
   const side = variant || (original[g] ? g : g === 'man' ? 'woman' : 'man');
   return `quick-thumbs/${id}-${side}.png`;
 }''')
-    a=s.index("  const style = styleById.get(styleOf(p)")
+    start=s.index("export function genderPatch(")
+    a=s.index("  const style = styleById.get(styleOf(p)",start)
     b=s.index("  return { patch, notes };",a)
     s=s[:a]+"  // Keep hair, accessories, shoes and clothes exactly as chosen.\n  void p; void chosen;\n"+s[b:]
     s=rep(s,"const isExtra = (id: string) => GLASSES", "const isExtra = (id: string) => id.startsWith('cross_tights_') || GLASSES")
