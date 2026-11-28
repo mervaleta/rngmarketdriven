@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cross · Ara 3D Fashion Lab</title>
+    <meta name="description" content="Make a realistic 3D character in your browser: body, clothes, hair, tattoos, weapons and 77 animations. Export rigged GLB, FBX or OBJ free." />
+    <link rel="canonical" href="https://ara3dgen.com/app/" />
+    <link rel="icon" href="/cross/minijuegos/ara-fashion/engine/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/cross/minijuegos/ara-fashion/engine/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/cross/minijuegos/ara-fashion/engine/apple-touch-icon.png" />
+    <link rel="manifest" href="/cross/minijuegos/ara-fashion/engine/site.webmanifest" />
+
+    <meta name="theme-color" content="#16181d" />
+    <!-- Link previews for shared characters (links point here). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ara 3D Gen" />
+    <meta property="og:title" content="I made a 3D character on Ara 3D Gen. Make yours free." />
+    <meta property="og:description" content="Open this link to see the character, tweak it and export it rigged and animated for any game engine." />
+    <meta property="og:image" content="https://ara3dgen.com/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="I made a 3D character on Ara 3D Gen. Make yours free." />
+    <meta name="twitter:description" content="Open this link to see the character, tweak it and export it rigged and animated for any game engine." />
+    <meta name="twitter:image" content="https://ara3dgen.com/og.jpg" />
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><style>#studio-btn,#character-assist-btn,#share-btn,.hdr-docs{display:none!important}</style>  <script type="module" crossorigin src="/cross/minijuegos/ara-fashion/engine/assets/app-DtqGKqDq.js"></script>
+  <link rel="modulepreload" crossorigin href="/cross/minijuegos/ara-fashion/engine/assets/BufferGeometryUtils-BFs28-qM.js">
+  <link rel="stylesheet" crossorigin href="/cross/minijuegos/ara-fashion/engine/assets/app-BClsTcha.css">
+</head>
+  <body>
+    <aside id="panel" aria-label="Character editor">
+      <div id="sheet-heading">
+        <div class="sheet-toolbar"><button id="sheet-handle" type="button" aria-controls="panel-scroll" aria-expanded="false"><span class="sheet-grip" aria-hidden="true"></span><span id="sheet-handle-label">Edit character</span><span class="sheet-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 14 5-5 5 5" /></svg></span></button><button id="mobile-actions" type="button" title="Character actions" aria-label="Character actions" aria-haspopup="menu" aria-expanded="false" aria-controls="mobile-action-menu"><span id="mobile-actions-label" class="sr-only">Actions</span><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg></button></div>
+        <p id="sheet-summary"></p><p id="sheet-file-status" role="status"></p>
+      </div>
+      <div id="panel-scroll">
+      <header>
+        <h1><a class="brand" href="../" title="Ara 3D Gen home">Ara <em class="brand-sub">3D Gen</em></a> <span>realistic humans</span> <a class="hdr-docs" href="../docs/" title="Documentation">Docs</a></h1>
+        <div class="row detailed-only">
+          <select id="preset"></select>
+          <button id="randomize" title="Random character">🎲 Randomize</button>
+        </div>
+        <div class="row detailed-only">
+          <label class="grow">Name <input id="name" type="text" /></label>
+          <label>Seed <input id="seed" type="number" min="0" step="1" /></label>
+        </div>
+        <div class="character-files" role="group" aria-label="Character settings"><button id="save-character" title="Download this character’s editable settings">Save character</button><button id="open-character" title="Open saved character settings, or a rigged character model (GLB, glTF, VRM or FBX)">Open character</button><input id="character-settings-file" type="file" accept=".json,application/json,.glb,.gltf,.vrm,.fbx,.bin,.png,.jpg,.jpeg,.webp,.tga" multiple hidden /></div><p id="character-file-status" class="hint" role="status"></p>
+        <button id="character-assist-btn" title="Create a character with a JSON from your AI assistant">LLM Assist <span>Build from a description ↗</span></button>
+      </header>
+      <div id="controls"></div>
+      </div>
+    </aside>
+    <main>
+      <canvas id="viewport"></canvas>
+      <div id="loading"><span class="spin"></span><span id="loading-text">Loading character assets…</span></div>
+      <div id="busy-bar"></div>
+      <div id="view-hud"><div id="stats"></div>
+      <div id="status" aria-live="polite"><span class="spin"></span><span id="status-text"></span></div>
+      <div id="view-tools">
+        <label><input type="checkbox" id="wireframe" /> Wireframe</label>
+        <label><input type="checkbox" id="skeleton" /> Skeleton</label>
+        <label><input type="checkbox" id="face" /> Face close-up</label>
+      </div></div>
+      <div id="anim-bar"></div>
+      <div id="export-panel" hidden></div>
+      <div id="export">
+        <button id="export-summary" title="Choose what to export">📦 <span id="export-summary-text">Export</span> ▾</button>
+        <button id="export-go" class="primary">⬇ Download</button>
+        <button id="studio-btn" title="Make a short film with this character">▻ Studio</button>
+        <button id="share-btn" title="Share this character">↗ Share</button>
+      </div>
+    </main>
+  </body>
+</html>
